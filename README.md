@@ -15,6 +15,16 @@ Then open:
 - **http://localhost:8000/** — the website
 - **http://localhost:8000/admin** — admin panel (add news, photos, videos, ads; fetch news)
 
+## Live website
+
+**https://priyanthants.github.io/yarl-murasu/** (repository: github.com/priyanthants/yarl-murasu)
+
+GitHub fetches the news every 30 minutes and republishes the site on its own; your Mac can be off.
+
+**Adding your own news:** run `python3 scripts/admin.py`, add the story/photos/videos/ads, check the
+preview, then press **நேரலையில் வெளியிடு (Publish)** in the admin panel (or run `scripts/publish.sh`).
+It goes live in about a minute.
+
 ## What's where
 
 | Path | Purpose |
@@ -27,6 +37,7 @@ Then open:
 | `scripts/fetch_news.py` | Fetch latest news + rebuild the site |
 | `scripts/build.py` | Rebuild the site only |
 | `scripts/admin.py` | Local admin panel + preview server |
+| `scripts/publish.sh` | Send your posts/photos/ads to GitHub so they go live |
 | `scripts/update.sh` | What the scheduler runs (fetch → build → optional `scripts/deploy.sh`) |
 | `scripts/schedule_mac.sh` | Turn auto-updates on/off on this Mac |
 | `site/` | **The finished website — upload this folder** |

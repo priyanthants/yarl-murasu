@@ -135,12 +135,19 @@ def page(msg="", err=False, log=""):
 <title>நிர்வாகம் — %(name)s</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;600;700&display=swap" rel="stylesheet">
 <style>%(style)s</style></head><body>
-<header><h1>%(name)s — நிர்வாகப் பகுதி</h1><a href="/" target="_blank">தளத்தைப் பார்க்க ↗</a></header>
+<header><h1>%(name)s — நிர்வாகப் பகுதி</h1><span><a href="/" target="_blank">முன்னோட்டம் ↗</a> &nbsp; <a href="%(live)s" target="_blank">நேரலைத் தளம் ↗</a></span></header>
 <main>
 %(notice)s
 <section class="card">
+  <h2>இணையத்தளத்தில் வெளியிடு (Publish to the live website)</h2>
+  <p class="hint">இங்கே சேர்த்த செய்திகள், படங்கள், விளம்பரங்கள் முதலில் இந்தக் கணினியில் மட்டுமே இருக்கும். நேரலைத் தளத்தில் காட்ட இந்தப் பொத்தானை அழுத்துங்கள்.
+  Posts, photos and ads you add here stay on this computer until you press this button.</p>
+  <div class="actions"><form method="post" action="/admin/publish"><button>நேரலையில் வெளியிடு</button></form></div>
+</section>
+<section class="card">
   <h2>சமீபத்திய செய்திகளைப் பெறுக</h2>
-  <p class="hint">நம்பகமான மூலங்களிலிருந்து புதிய செய்திகளைப் பெற்று தளத்தை மீளுருவாக்கும் (Fetch latest news and rebuild).</p>
+  <p class="hint">நம்பகமான மூலங்களிலிருந்து புதிய செய்திகளைப் பெற்று உள்ளூர் முன்னோட்டத்தைப் புதுப்பிக்கும். நேரலைத் தளம் GitHub மூலம் ஒவ்வொரு 30 நிமிடத்திலும் தானாகப் புதுப்பிக்கப்படுகிறது.
+  (Refreshes the local preview. The live site updates itself on GitHub every 30 minutes.)</p>
   <div class="actions">
     <form method="post" action="/admin/fetch"><button>செய்திகளைப் பெறுக</button></form>
     <form method="post" action="/admin/build"><button class="secondary">தளத்தை மட்டும் மீளுருவாக்கு</button></form>
@@ -203,7 +210,7 @@ def page(msg="", err=False, log=""):
 
 <section class="card"><h2>விளம்பரங்கள்</h2>%(ads_table)s</section>
 </main></body></html>""" % {
-        "name": esc(site.get("name", "")), "style": STYLE, "notice": notice, "log": log_html, "cat_opts": cat_opts,
+        "name": esc(site.get("name", "")), "live": esc(site.get("site_url") or "/"), "style": STYLE, "notice": notice, "log": log_html, "cat_opts": cat_opts,
         "slot_opts": slot_opts, "now": now, "posts_table": posts_table, "ads_table": ads_table,
     }
 
@@ -274,6 +281,12 @@ class Handler(SimpleHTTPRequestHandler):
                                      capture_output=True, text=True, timeout=600)
                 return self.send_html(page("செய்திகள் பெறப்பட்டு தளம் புதுப்பிக்கப்பட்டது" if out.returncode == 0
                                            else "செய்திகளைப் பெறுவதில் பிழை", out.returncode != 0,
+                                           (out.stdout + out.stderr)[-4000:]))
+            if route == "/admin/publish":
+                out = subprocess.run(["/bin/bash", str(ROOT / "scripts" / "publish.sh")],
+                                     capture_output=True, text=True, timeout=300)
+                return self.send_html(page("இணையத்தளத்தில் வெளியிடப்பட்டது — ஒரு நிமிடத்தில் நேரலையில் தெரியும்"
+                                           if out.returncode == 0 else "வெளியிடுவதில் பிழை", out.returncode != 0,
                                            (out.stdout + out.stderr)[-4000:]))
             if route == "/admin/build":
                 build.build(verbose=False)
