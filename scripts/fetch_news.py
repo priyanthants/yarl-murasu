@@ -140,6 +140,14 @@ def publisher_name(domain, cfg):
     return ""
 
 
+def clean_summary(summary, title):
+    """Drop a repeated headline and byline/date boilerplate that some feeds put first."""
+    if summary.startswith(title):
+        summary = summary[len(title):].lstrip(" -–:|")
+    summary = re.sub(r"^by .{1,60}?\d{1,2}/\d{1,2}/\d{4}\s*-\s*\d{1,2}:\d{2}\s*(Body\s*)?", "", summary)
+    return summary.strip()
+
+
 def title_key(title):
     """Normalised title used to spot the same story from several outlets."""
     t = re.sub(r"[\W_]+", "", title.lower())
@@ -284,7 +292,7 @@ def collect(source, cfg, now):
         else:
             publisher = source.get("source_name") or source["name"]
             domain = domain_of(e["link"])
-            summary = shorten(strip_html(e["description"]))
+            summary = shorten(clean_summary(strip_html(e["description"]), title))
 
         if not is_trusted(domain, trusted):
             skipped_untrusted += 1
@@ -329,6 +337,7 @@ def merge(existing, new_items, cfg, now):
         if item["id"] in by_id:
             old = by_id[item["id"]]
             old["source"] = item["source"]
+            old["summary"] = item["summary"]
             if not old.get("image") and item.get("image"):
                 old["image"] = item["image"]
             continue

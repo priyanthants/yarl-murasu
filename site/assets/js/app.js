@@ -330,7 +330,8 @@
       var recent = function (i) { return Date.now() - new Date(i.published).getTime() < 36 * 3600e3; };
       // Prefer a recent local (Jaffna / North) story with a picture, then any story with a picture.
       var local = list.filter(function (i) { return (i.category === "jaffna" || i.category === "north") && hasImg(i) && recent(i); });
-      var lead = featured[0] || local[0] || list.filter(hasImg)[0] || list[0];
+      var tamil = function (i) { return i.lang !== "en"; };
+      var lead = featured[0] || local.filter(tamil)[0] || local[0] || list.filter(hasImg)[0] || list[0];
       var side = list.filter(function (i) { return i !== lead; }).slice(0, 4);
       hero.innerHTML = leadHtml(lead) + '<div class="hero-side">' + side.map(miniHtml).join("") + "</div>";
       return [lead].concat(side);
