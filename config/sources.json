@@ -92,7 +92,8 @@
       ],
       "default_category": "srilanka",
       "max_items": 10,
-      "enabled": true
+      "enabled": false,
+      "_note": "Blocks GitHub's servers (HTTP 403); its Tamil stories arrive via Google News as adaderanatamil.lk"
     },
     {
       "name": "Tamil Guardian",
