@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ta">
+<head>
+{{head}}
+</head>
+<body data-base="../" data-page="article">
+{{header}}
+
+<main id="content" class="wrap">
+  <div class="layout article-layout">
+    <article class="article main-col" data-id="{{id}}" data-title="{{title}}" data-images="{{images_json}}">
+      <nav class="crumbs" aria-label="வழிசெலுத்தல்">
+        <a href="../index.html">முகப்பு</a><span>›</span><a href="../index.html#cat={{cat_id}}">{{cat_name}}</a>
+      </nav>
+      <div class="article-kicker">
+        <a class="cat-badge" style="--c:{{cat_color}}" href="../index.html#cat={{cat_id}}">{{cat_name}}</a>{{lang_badge}}
+      </div>
+      <h1 class="article-title">{{title}}</h1>
+      <div class="article-meta">
+        <span class="byline">{{byline}}</span>
+        <time datetime="{{iso}}">{{date_human}}</time>
+      </div>
+      {{share_top}}
+      {{hero}}
+      <div class="article-body">
+        {{summary}}
+        {{body}}
+      </div>
+      {{source_box}}
+      <div class="ad-slot ad-article" data-ad-slot="article"></div>
+      {{gallery}}
+      {{videos}}
+      {{share_bottom}}
+    </article>
+
+    <aside class="side-col">
+      <div class="ad-slot ad-side" data-ad-slot="sidebar"></div>
+      <section class="widget">
+        <h3 class="widget-title">தொடர்புடைய செய்திகள்</h3>
+        <ul class="related-list">{{related}}</ul>
+      </section>
+      <section class="widget">
+        <h3 class="widget-title">சற்று முன்</h3>
+        <ol class="rank-list" id="latest-list"></ol>
+      </section>
+    </aside>
+  </div>
+</main>
+
+{{footer}}
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "_help": "Slots: header (728x90), sidebar (300x250), in_feed (between news cards), article (inside news pages), footer (970x90). type 'image' = your own banner (image + link); type 'html' = ad network code such as Google AdSense. start/end are optional dates (YYYY-MM-DD). Several ads in one slot rotate randomly.",
+  "placeholder_when_empty": true,
+  "placeholder_text": "உங்கள் விளம்பரம் இங்கே",
+  "placeholder_subtext": "விளம்பரம் செய்ய எம்மைத் தொடர்பு கொள்ளுங்கள்",
+  "slots": {
+    "header": [],
+    "sidebar": [],
+    "in_feed": [],
+    "article": [],
+    "footer": []
+  }
+}

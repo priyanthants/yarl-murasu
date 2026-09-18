@@ -1,0 +1,61 @@
+{
+  "name": "யாழ் முரசு",
+  "name_en": "Yarl Murasu",
+  "tagline": "யாழ்ப்பாணத்தின் நம்பகமான செய்திக் குரல்",
+  "description": "யாழ்ப்பாணம், வடமாகாணம் மற்றும் இலங்கையின் சமீபத்திய தமிழ்ச் செய்திகள் — நம்பகமான மூலங்களிலிருந்து.",
+  "site_url": "https://priyanthants.github.io/yarl-murasu",
+  "contact_email": "",
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "x": "",
+    "youtube": "",
+    "whatsapp": ""
+  },
+  "max_items": 200,
+  "home_page_size": 12,
+  "in_feed_ad_every": 6,
+  "breaking_hours": 6,
+  "categories": [
+    {
+      "id": "jaffna",
+      "name": "யாழ்ப்பாணம்",
+      "color": "#8b1e1e"
+    },
+    {
+      "id": "north",
+      "name": "வடமாகாணம்",
+      "color": "#b4541a"
+    },
+    {
+      "id": "srilanka",
+      "name": "இலங்கை",
+      "color": "#1f5f8b"
+    },
+    {
+      "id": "india",
+      "name": "இந்தியா",
+      "color": "#a0521c"
+    },
+    {
+      "id": "world",
+      "name": "உலகம்",
+      "color": "#3d4f7a"
+    },
+    {
+      "id": "sports",
+      "name": "விளையாட்டு",
+      "color": "#1e7a4c"
+    },
+    {
+      "id": "business",
+      "name": "வணிகம்",
+      "color": "#8a6d12"
+    },
+    {
+      "id": "education",
+      "name": "கல்வி",
+      "color": "#6b3a8a"
+    }
+  ]
+}

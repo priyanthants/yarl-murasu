@@ -1,0 +1,49 @@
+<a class="skip" href="#content">உள்ளடக்கத்திற்குச் செல்ல</a>
+<div class="topbar">
+  <div class="wrap topbar-in">
+    <span class="today"><svg class="i"><use href="#i-clock"/></svg><span id="today"></span></span>
+    <div class="topbar-right">
+      {{social_links}}
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="இருள் / ஒளி பயன்முறை">
+        <svg class="i i-moon"><use href="#i-moon"/></svg><svg class="i i-sun"><use href="#i-sun"/></svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="wrap masthead-in">
+    <a class="brand" href="{{base}}index.html">
+      <img class="brand-logo" src="{{base}}assets/img/logo.svg" alt="" width="64" height="64">
+      <span class="brand-text">
+        <span class="brand-name">{{site_name}}</span>
+        <span class="brand-tag">{{tagline}}</span>
+      </span>
+    </a>
+    <div class="ad-slot ad-header" data-ad-slot="header"></div>
+  </div>
+</header>
+
+<nav class="mainnav" aria-label="பிரிவுகள்">
+  <div class="wrap nav-in">
+    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="மெனு" aria-expanded="false">
+      <svg class="i"><use href="#i-menu"/></svg>
+    </button>
+    <ul class="nav-list" id="nav-list">
+      <li><a href="{{base}}index.html#cat=all" data-cat="all">முகப்பு</a></li>
+      {{nav_items}}
+      <li><a href="{{base}}index.html#cat=video" data-cat="video">காணொளி</a></li>
+    </ul>
+    <form class="search" id="search-form" action="{{base}}index.html" role="search">
+      <input type="search" name="q" id="search-input" placeholder="செய்திகளைத் தேடுக…" aria-label="தேடல்">
+      <button type="submit" aria-label="தேடு"><svg class="i"><use href="#i-search"/></svg></button>
+    </form>
+  </div>
+</nav>
+
+<div class="ticker" id="ticker" hidden>
+  <div class="wrap ticker-in">
+    <span class="ticker-label"><span class="pulse"></span>முக்கிய செய்திகள்</span>
+    <div class="ticker-track"><div class="ticker-move" id="ticker-move"></div></div>
+  </div>
+</div>

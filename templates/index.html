@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ta">
+<head>
+{{head}}
+</head>
+<body data-base="" data-page="home">
+{{header}}
+
+<main id="content" class="wrap">
+  <section class="hero" id="hero" aria-label="முதன்மைச் செய்திகள்"></section>
+
+  <div class="layout">
+    <div class="main-col">
+      <div class="section-head">
+        <h2 class="section-title" id="list-title">சமீபத்திய செய்திகள்</h2>
+        <span class="section-count" id="list-count"></span>
+      </div>
+      <div class="chips" id="chips" role="tablist" aria-label="பிரிவுகள்"></div>
+      <div class="grid" id="news-grid"></div>
+      <p class="empty" id="empty" hidden>இந்தப் பிரிவில் தற்போது செய்திகள் இல்லை.</p>
+      <div class="more-wrap"><button class="btn btn-outline" id="load-more" type="button" hidden>மேலும் செய்திகள்</button></div>
+    </div>
+
+    <aside class="side-col">
+      <div class="ad-slot ad-side" data-ad-slot="sidebar"></div>
+      <section class="widget">
+        <h3 class="widget-title">சற்று முன்</h3>
+        <ol class="rank-list" id="latest-list"></ol>
+      </section>
+      <section class="widget">
+        <h3 class="widget-title">நம்பகமான மூலங்கள்</h3>
+        <div class="source-tags" id="source-tags"></div>
+      </section>
+    </aside>
+  </div>
+
+  <section class="band video-band" id="video-band" hidden>
+    <div class="section-head">
+      <h2 class="section-title"><svg class="i"><use href="#i-play"/></svg> காணொளிகள்</h2>
+    </div>
+    <div class="video-row" id="video-row"></div>
+  </section>
+
+  <div id="cat-blocks"></div>
+
+  <section class="band photo-band" id="photo-band" hidden>
+    <div class="section-head">
+      <h2 class="section-title"><svg class="i"><use href="#i-camera"/></svg> புகைப்படத் தொகுப்பு</h2>
+    </div>
+    <div class="photo-grid" id="photo-grid"></div>
+  </section>
+</main>
+
+{{footer}}
+</body>
+</html>
