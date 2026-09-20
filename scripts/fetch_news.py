@@ -39,6 +39,18 @@ USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 )
+BROWSER_HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/rss+xml;q=0.8,*/*;q=0.7",
+    "Accept-Language": "ta,en-US;q=0.9,en;q=0.8",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Upgrade-Insecure-Requests": "1",
+    "Cache-Control": "no-cache",
+}
+
 NS = {
     "media": "http://search.yahoo.com/mrss/",
     "content": "http://purl.org/rss/1.0/modules/content/",
@@ -71,10 +83,7 @@ def http_get(url, timeout=20, retries=2):
     last_error = None
     for attempt in range(retries + 1):
         try:
-            req = urllib.request.Request(url, headers={
-                "User-Agent": USER_AGENT,
-                "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
-            })
+            req = urllib.request.Request(url, headers=BROWSER_HEADERS)
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 return resp.read()
         except Exception as e:  # network errors, HTTP errors, SSL errors
@@ -82,8 +91,11 @@ def http_get(url, timeout=20, retries=2):
             time.sleep(1.5 * (attempt + 1))
     # urllib can fail on some macOS Python installs (missing certificates); curl usually works.
     try:
+        curl_headers = []
+        for key, value in BROWSER_HEADERS.items():
+            curl_headers += ["-H", "%s: %s" % (key, value)]
         out = subprocess.run(
-            ["curl", "-sfL", "-m", str(timeout), "-A", USER_AGENT, url],
+            ["curl", "-sfL", "--compressed", "-m", str(timeout)] + curl_headers + [url],
             capture_output=True, check=True,
         )
         return out.stdout
