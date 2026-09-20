@@ -1,68 +1,78 @@
 {
-  "_help": "Only items whose publisher domain is in trusted_domains are published. google_news sources search Google News in Tamil; results are filtered to trusted publishers. rss sources read a publisher's feed directly; require_keywords keeps only items mentioning one of the words.",
-  "max_age_days": 10,
+  "_help": "Only publishers in trusted_domains are published. Types: rss (a publisher's own feed), google_news (Tamil search, headline only), html_index (read a news site's front page, then each article page for its headline, picture and opening lines). Only short excerpts are stored; full articles are never republished.",
+  "max_age_days": 7,
   "max_store_items": 400,
   "request_timeout": 20,
   "trusted_domains": [
-    "virakesari.lk",
-    "bbc.com",
-    "bbc.co.uk",
-    "adaderanatamil.lk",
     "adaderana.lk",
-    "newsfirst.lk",
-    "tamilmirror.lk",
-    "thinakaran.lk",
-    "itnnews.lk",
-    "hirunews.lk",
-    "news.lk",
-    "pmdnews.lk",
-    "news.navy.lk",
-    "police.lk",
+    "adaderanatamil.lk",
+    "bbc.co.uk",
+    "bbc.com",
     "dailymirror.lk",
     "dailynews.lk",
-    "tamilguardian.com",
-    "hindutamil.in",
-    "dinamani.com",
     "dailythanthi.com",
     "dinamalar.com",
-    "vikatan.com",
+    "dinamani.com",
+    "gov.lk",
+    "hindutamil.in",
+    "hirunews.lk",
+    "itnnews.lk",
+    "news.lk",
+    "news.navy.lk",
+    "newsfirst.lk",
+    "np.gov.lk",
+    "pmdnews.lk",
+    "police.lk",
+    "tamil.news.lk",
+    "tamil.news18.com",
+    "tamilguardian.com",
+    "tamilmirror.lk",
     "thehindu.com",
-    "tamil.news18.com"
+    "thinakaran.lk",
+    "vikatan.com",
+    "virakesari.lk"
   ],
   "sources": [
     {
-      "name": "Google News: யாழ்ப்பாணம்",
-      "type": "google_news",
-      "query": "யாழ்ப்பாணம் when:3d",
-      "default_category": "jaffna",
-      "max_items": 40,
-      "enabled": true
-    },
-    {
-      "name": "Google News: வடமாகாணம்",
-      "type": "google_news",
-      "query": "கிளிநொச்சி OR முல்லைத்தீவு OR வவுனியா OR மன்னார் OR வடமாகாண when:3d",
-      "default_category": "north",
-      "max_items": 30,
-      "enabled": true
-    },
-    {
-      "name": "Google News: இலங்கை",
-      "type": "google_news",
-      "query": "இலங்கை when:2d",
+      "name": "அத தெரண தமிழ் (Ada Derana Tamil)",
+      "type": "rss",
+      "url": "https://adaderanatamil.lk/rss.xml",
+      "source_name": "அத தெரண தமிழ்",
       "default_category": "srilanka",
       "max_items": 30,
       "enabled": true
     },
     {
-      "name": "Google News: Jaffna (English)",
-      "type": "google_news",
-      "query": "Jaffna when:3d",
-      "hl": "en-LK",
-      "ceid": "LK:en",
+      "name": "அரச செய்திச் சேவை (news.lk Tamil)",
+      "type": "rss",
+      "url": "https://tamil.news.lk/news?format=feed&type=rss",
+      "source_name": "அரச செய்திச் சேவை",
+      "default_category": "srilanka",
+      "max_items": 15,
+      "enabled": true
+    },
+    {
+      "name": "வட மாகாண சபை (Northern Provincial Council)",
+      "type": "rss",
+      "url": "https://np.gov.lk/feed",
+      "source_name": "வட மாகாண சபை",
       "lang": "en",
       "default_category": "jaffna",
-      "max_items": 10,
+      "max_items": 12,
+      "enabled": true
+    },
+    {
+      "name": "வீரகேசரி (Virakesari front page)",
+      "type": "html_index",
+      "url": "https://www.virakesari.lk/",
+      "link_pattern": "https?://www\\.virakesari\\.lk/article/\\d+",
+      "source_name": "வீரகேசரி",
+      "date_regex": "(\\d{1,2} [A-Za-z]{3}, \\d{4} \\| \\d{1,2}:\\d{2} [AP]M)",
+      "date_format": "%d %b, %Y | %I:%M %p",
+      "title_strip": " | Virakesari.lk",
+      "delay_seconds": 20,
+      "default_category": "srilanka",
+      "max_items": 8,
       "enabled": true
     },
     {
@@ -71,29 +81,8 @@
       "url": "https://feeds.bbci.co.uk/tamil/rss.xml",
       "source_name": "BBC தமிழ்",
       "default_category": "world",
-      "max_items": 15,
+      "max_items": 12,
       "enabled": true
-    },
-    {
-      "name": "Ada Derana",
-      "type": "rss",
-      "url": "https://www.adaderana.lk/rss.php",
-      "source_name": "Ada Derana",
-      "lang": "en",
-      "require_keywords": [
-        "Jaffna",
-        "Northern Province",
-        "Kilinochchi",
-        "Mullaitivu",
-        "Vavuniya",
-        "Mannar",
-        "Point Pedro",
-        "Kankesanthurai"
-      ],
-      "default_category": "srilanka",
-      "max_items": 10,
-      "enabled": false,
-      "_note": "Blocks GitHub's servers (HTTP 403); its Tamil stories arrive via Google News as adaderanatamil.lk"
     },
     {
       "name": "Tamil Guardian",
@@ -110,8 +99,24 @@
         "Mannar",
         "Tamil"
       ],
-      "default_category": "north",
+      "default_category": "jaffna",
       "max_items": 10,
+      "enabled": true
+    },
+    {
+      "name": "Google News: யாழ்ப்பாணம் (headlines only)",
+      "type": "google_news",
+      "query": "யாழ்ப்பாணம் when:2d",
+      "default_category": "jaffna",
+      "max_items": 20,
+      "enabled": true
+    },
+    {
+      "name": "Google News: வட மாகாணம் (headlines only)",
+      "type": "google_news",
+      "query": "கிளிநொச்சி OR முல்லைத்தீவு OR வவுனியா OR மன்னார் when:2d",
+      "default_category": "jaffna",
+      "max_items": 15,
       "enabled": true
     }
   ],
@@ -142,9 +147,7 @@
       "Point Pedro",
       "Kankesanthurai",
       "Nallur",
-      "Palaly"
-    ],
-    "north": [
+      "Palaly",
       "கிளிநொச்சி",
       "முல்லைத்தீவு",
       "வவுனியா",
@@ -169,30 +172,6 @@
       "football",
       "sports"
     ],
-    "education": [
-      "பாடசாலை",
-      "பல்கலைக்கழக",
-      "பரீட்சை",
-      "க.பொ.த",
-      "கல்வி",
-      "மாணவர்",
-      "University",
-      "school",
-      "exam"
-    ],
-    "business": [
-      "பொருளாதார",
-      "வர்த்தக",
-      "வணிக",
-      "மத்திய வங்கி",
-      "பங்குச் சந்தை",
-      "ரூபா",
-      "டொலர்",
-      "ஏற்றுமதி",
-      "economy",
-      "Central Bank",
-      "rupee"
-    ],
     "srilanka": [
       "இலங்கை",
       "கொழும்பு",
@@ -204,27 +183,30 @@
       "Sri Lanka",
       "Colombo"
     ],
-    "india": [
-      "தமிழ்நாடு",
-      "தமிழக",
-      "சென்னை",
-      "இந்தியா",
+    "world": [
+      "உலக",
+      "அமெரிக்க",
       "இந்திய",
-      "மோதி",
-      "புதுடெல்லி",
+      "தமிழ்நாடு",
+      "சென்னை",
+      "ஐ.நா",
+      "ரஷ்ய",
+      "சீன",
+      "ஐரோப்",
+      "உக்ரைன்",
+      "இஸ்ரேல்",
+      "பலஸ்தீன்",
+      "World",
       "India",
-      "Chennai",
-      "Tamil Nadu"
+      "US ",
+      "UN "
     ]
   },
   "category_priority": [
     "jaffna",
-    "north",
     "sports",
-    "education",
-    "business",
     "srilanka",
-    "india"
+    "world"
   ],
   "publisher_names": {
     "virakesari.lk": "வீரகேசரி",
@@ -250,6 +232,9 @@
     "dinamalar.com": "தினமலர்",
     "vikatan.com": "விகடன்",
     "thehindu.com": "The Hindu",
-    "tamil.news18.com": "நியூஸ்18 தமிழ்"
-  }
+    "tamil.news18.com": "நியூஸ்18 தமிழ்",
+    "np.gov.lk": "வட மாகாண சபை",
+    "tamil.news.lk": "அரச செய்திச் சேவை"
+  },
+  "excerpt_chars": 300
 }

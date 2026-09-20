@@ -31,6 +31,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES_FILE = ROOT / "config" / "sources.json"
 STORE_FILE = ROOT / "data" / "fetched.json"
+# Article text is only an input for the AI summary step; it is never published or committed.
+TEXTS_FILE = ROOT / "data" / "texts.json"
 LOG_FILE = ROOT / "logs" / "fetch.log"
 
 USER_AGENT = (
@@ -235,6 +237,99 @@ def parse_feed(raw):
     return entries
 
 
+# ---------------------------------------------------------------- article pages
+
+BOILERPLATE = ("விசேட செய்திகள்", "subscribe", "Comments are disabled", "தவறவிடாதீர்கள்")
+
+
+def meta_content(page, name):
+    for pattern in (r'<meta[^>]+(?:property|name)=["\']%s["\'][^>]*content=["\']([^"\']*)',
+                    r'<meta[^>]+content=["\']([^"\']*)["\'][^>]*(?:property|name)=["\']%s'):
+        m = re.search(pattern % re.escape(name), page, re.I)
+        if m:
+            return html.unescape(m.group(1)).strip()
+    return ""
+
+
+def article_text(page):
+    """Opening paragraphs of an article page, used for the excerpt and as AI input."""
+    page = re.sub(r"(?is)<(script|style|nav|header|footer|aside)[^>]*>.*?</\1>", " ", page)
+    chunks = []
+    for raw in re.findall(r">([^<>]{80,})<", page):
+        text = re.sub(r"\s+", " ", html.unescape(raw)).strip()
+        if text and not any(b in text for b in BOILERPLATE) and text not in chunks:
+            chunks.append(text)
+    return " ".join(chunks[:6])
+
+
+def fetch_article(url, source, cfg):
+    """Read one article page: headline, picture, opening text and published time."""
+    page = http_get(url, timeout=cfg.get("request_timeout", 20)).decode("utf-8", "replace")
+    title = meta_content(page, "og:title") or strip_html(re.search(r"(?is)<title[^>]*>(.*?)</title>", page).group(1)
+                                                          if re.search(r"(?is)<title", page) else "")
+    strip_suffix = source.get("title_strip")
+    if strip_suffix and title.endswith(strip_suffix):
+        title = title[: -len(strip_suffix)].strip()
+    published = None
+    if source.get("date_regex"):
+        m = re.search(source["date_regex"], page)
+        if m:
+            try:
+                naive = dt.datetime.strptime(m.group(1), source["date_format"])
+                published = naive.replace(tzinfo=dt.timezone(dt.timedelta(hours=5, minutes=30)))
+            except ValueError:
+                published = None
+    return {
+        "title": strip_html(title),
+        "link": url,
+        "image": meta_content(page, "og:image") or None,
+        "text": article_text(page),
+        "published": published.astimezone(dt.timezone.utc) if published else None,
+    }
+
+
+def collect_html_index(source, cfg, now, known_links):
+    """Read a news site's front page, then each new article page behind it."""
+    index = http_get(source["url"], timeout=cfg.get("request_timeout", 20)).decode("utf-8", "replace")
+    links, seen = [], set()
+    for link in re.findall(source["link_pattern"], index):
+        if link not in seen:
+            seen.add(link)
+            links.append(link)
+    fresh = [l for l in links if l not in known_links][: source.get("max_items", 8)]
+    max_age = dt.timedelta(days=cfg.get("max_age_days", 7))
+    results, texts = [], {}
+    for n, link in enumerate(fresh):
+        if n:
+            time.sleep(source.get("delay_seconds", 5))  # be polite to the publisher
+        try:
+            art = fetch_article(link, source, cfg)
+        except Exception as e:
+            log.debug("  article failed %s: %s", link, e)
+            continue
+        if not art["title"]:
+            continue
+        published = art["published"] or now
+        if now - published > max_age:
+            continue
+        body = art["text"]
+        for junk in (art["title"] + (source.get("title_strip") or ""), art["title"]):
+            body = body.replace(junk, " ")
+        body = re.sub(r"\s+", " ", body).strip()
+        summary = shorten(body, cfg.get("excerpt_chars", 300))
+        category, tags = categorise(art["title"] + " " + summary, source.get("default_category"), cfg)
+        item_id = make_id(link)
+        results.append({
+            "id": item_id, "type": "auto", "title": art["title"], "summary": summary, "link": link,
+            "source": source.get("source_name") or source["name"], "source_domain": domain_of(link),
+            "image": art["image"], "lang": source.get("lang", "ta"), "category": category, "tags": tags,
+            "published": published.isoformat(), "fetched": now.isoformat(),
+        })
+        texts[item_id] = body
+    log.info("%-38s %3d kept  (%d links on page)", source["name"], len(results), len(links))
+    return results, texts
+
+
 # ---------------------------------------------------------------- categorising
 
 def categorise(text, default, cfg):
@@ -271,7 +366,7 @@ def collect(source, cfg, now):
     trusted = cfg.get("trusted_domains", [])
     max_age = dt.timedelta(days=cfg.get("max_age_days", 10))
     required = [k.lower() for k in source.get("require_keywords", [])]
-    results = []
+    results, texts = [], {}
     skipped_untrusted = 0
 
     for e in entries:
@@ -292,7 +387,7 @@ def collect(source, cfg, now):
         else:
             publisher = source.get("source_name") or source["name"]
             domain = domain_of(e["link"])
-            summary = shorten(clean_summary(strip_html(e["description"]), title))
+            summary = shorten(clean_summary(strip_html(e["description"]), title), cfg.get("excerpt_chars", 300))
 
         if not is_trusted(domain, trusted):
             skipped_untrusted += 1
@@ -320,12 +415,13 @@ def collect(source, cfg, now):
             "published": published.isoformat(),
             "fetched": now.isoformat(),
         })
+        texts[results[-1]["id"]] = summary
         if len(results) >= source.get("max_items", 20):
             break
 
-    log.info("%-32s %3d kept  (%d entries, %d untrusted skipped)",
+    log.info("%-38s %3d kept  (%d entries, %d untrusted skipped)",
              source["name"], len(results), len(entries), skipped_untrusted)
-    return results
+    return results, texts
 
 
 def merge(existing, new_items, cfg, now):
@@ -370,6 +466,7 @@ def setup_logging(verbose):
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--no-build", action="store_true", help="do not rebuild the site afterwards")
+    parser.add_argument("--no-ai", action="store_true", help="skip the Tamil summary / translation step")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args()
     setup_logging(args.verbose)
@@ -381,23 +478,46 @@ def main():
 
     now = dt.datetime.now(dt.timezone.utc)
     log.info("Fetching news (%s)", now.strftime("%Y-%m-%d %H:%M UTC"))
+    store = load_json(STORE_FILE, {"items": []})
+    texts = load_json(TEXTS_FILE, {})
+    known_links = {i["link"] for i in store.get("items", [])}
+
     new_items, failures = [], 0
     for source in cfg.get("sources", []):
         if not source.get("enabled", True):
             continue
         try:
-            new_items.extend(collect(source, cfg, now))
+            if source.get("type") == "html_index":
+                found, found_texts = collect_html_index(source, cfg, now, known_links)
+            else:
+                found, found_texts = collect(source, cfg, now)
+            new_items.extend(found)
+            texts.update(found_texts)
         except Exception as e:
             failures += 1
-            log.warning("%-32s FAILED: %s", source.get("name"), e)
+            log.warning("%-38s FAILED: %s", source.get("name"), e)
 
-    store = load_json(STORE_FILE, {"items": []})
     items, added = merge(store.get("items", []), new_items, cfg, now)
     save_json(STORE_FILE, {"updated": now.isoformat(), "items": items})
+    live = {i["id"] for i in items}
+    save_json(TEXTS_FILE, {k: v for k, v in texts.items() if k in live})
     log.info("Added %d new items, %d stored in total, %d source(s) failed", added, len(items), failures)
 
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    if not args.no_ai:
+        # The Anthropic SDK needs Python 3.10+, so use the project venv when the
+        # interpreter running this script is older.
+        venv_python = ROOT / ".venv" / "bin" / "python"
+        python = str(venv_python) if venv_python.exists() else sys.executable
+        try:
+            out = subprocess.run([python, str(ROOT / "scripts" / "ai_enrich.py"), "--no-build"],
+                                 capture_output=True, text=True, timeout=1800)
+            for line in (out.stdout + out.stderr).strip().splitlines():
+                log.info("%s", line)
+        except Exception as e:
+            log.warning("AI summaries skipped: %s", e)
+
     if not args.no_build:
-        sys.path.insert(0, str(Path(__file__).resolve().parent))
         import build
         build.build()
 

@@ -37,23 +37,63 @@ It goes live in about a minute.
 | `scripts/fetch_news.py` | Fetch latest news + rebuild the site |
 | `scripts/build.py` | Rebuild the site only |
 | `scripts/admin.py` | Local admin panel + preview server |
+| `scripts/ai_enrich.py` | Tamil summaries + English→Tamil translation (needs an API key) |
+| `scripts/make_card.py` | Daily share image for Instagram/Facebook |
+| `config/ai.json` | AI settings (model, how many per run, on/off) |
 | `scripts/publish.sh` | Send your posts/photos/ads to GitHub so they go live |
 | `scripts/update.sh` | What the scheduler runs (fetch → build → optional `scripts/deploy.sh`) |
 | `scripts/schedule_mac.sh` | Turn auto-updates on/off on this Mac |
 | `site/` | **The finished website — upload this folder** |
 
-## How news fetching works
+## Where the news comes from
 
-1. Searches Google News (Tamil, Sri Lanka) for யாழ்ப்பாணம், the Northern districts and இலங்கை,
-   and reads BBC தமிழ், Ada Derana and Tamil Guardian feeds directly.
-2. **Keeps only publishers listed in `trusted_domains`** (Virakesari, BBC, Ada Derana, Newsfirst,
-   Tamil Mirror, Thinakaran, ITN, Hiru, government sites, Hindu Tamil, Dinamani…). Forums,
-   blogs and unknown sites are skipped. To add or remove a publisher, edit that list.
-3. Sorts each story into a category (யாழ்ப்பாணம், வடமாகாணம், இலங்கை …) using keywords.
-4. Stores **only the headline, a short summary and the link**. Each story page has a
-   "முழுச் செய்தியை வாசிக்க" button to the original publisher. Full articles are never copied,
-   which keeps you clear of copyright problems.
-5. Removes stories older than 10 days (`max_age_days`).
+| Source | Language | What you get |
+|---|---|---|
+| அத தெரண தமிழ் (adaderanatamil.lk) | Tamil | headline, summary, link |
+| அரச செய்திச் சேவை (tamil.news.lk) — official government news portal | Tamil | headline, summary, link |
+| வட மாகாண சபை (np.gov.lk) — Northern Provincial Council | English → Tamil | headline, summary, link |
+| வீரகேசரி (front page + article pages) | Tamil | headline, photo, opening lines, link |
+| BBC News தமிழ் | Tamil | headline, summary, link |
+| Tamil Guardian | English → Tamil | headline, summary, link |
+| Google News (Jaffna & Northern districts) | Tamil | headline + link only |
+
+Categories: யாழ்ப்பாணம் (includes Kilinochchi, Mullaitivu, Vavuniya, Mannar), இலங்கை, உலகம், விளையாட்டு.
+
+**What is shown, and why.** Each story shows the publisher's own summary (the part they syndicate),
+plus — when AI summaries are switched on — a short Tamil summary written in our own words, and a
+button to the full article on the publisher's site. Full articles are never copied: the text belongs
+to the publisher, and republishing it would be copyright infringement. Stories where we only have a
+headline say so plainly.
+
+## Tamil summaries and English→Tamil translation (optional, costs money)
+
+`scripts/ai_enrich.py` asks Claude to write a 3-4 sentence Tamil summary from the publisher's excerpt,
+and to translate English headlines (Northern Provincial Council, Tamil Guardian) into Tamil. Nothing is
+invented: when there is too little text, the story keeps just its headline. Summaries are labelled on the
+page as machine-assisted.
+
+Set up:
+1. Get an API key at console.anthropic.com.
+2. On GitHub: repository → Settings → Secrets and variables → Actions → New repository secret,
+   name `ANTHROPIC_API_KEY`. The workflow picks it up automatically.
+3. On this Mac (optional): `export ANTHROPIC_API_KEY=sk-ant-...` before running, and the project
+   venv (`.venv`) already has the SDK. The admin panel has a button for it.
+
+Cost: roughly 40 stories per run. With the default `claude-opus-5` that is a few US dollars a month at
+half-hourly updates; `claude-haiku-4-5` in `config/ai.json` is about five times cheaper with slightly
+plainer Tamil. Set `"enabled": false` there to turn it off.
+
+## Daily share image (Instagram / Facebook / WhatsApp)
+
+```bash
+python3 scripts/make_card.py                 # 1080x1080 square, today's top 4
+python3 scripts/make_card.py --size portrait # 1080x1350
+python3 scripts/make_card.py --size story    # 1080x1920
+python3 scripts/make_card.py --id <story id> # one story
+```
+Images are written to `site/cards/` and can be downloaded from the admin panel, which also has a
+button to make them. GitHub makes one automatically each day. Cards older than 14 days are deleted.
+Instagram does not allow posting from a website, so download the image and post it from your phone.
 
 ## Automatic updates (while you are away)
 

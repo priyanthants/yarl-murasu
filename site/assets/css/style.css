@@ -472,3 +472,18 @@ h1, h2, h3, h4 { margin: 0; line-height: 1.4; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .ticker-track { overflow-x: auto; }
 }
+
+/* ---------- story content ---------- */
+.ai-note {
+  font-size: 13.5px; color: var(--muted); line-height: 1.6; margin: -4px 0 20px;
+  padding-left: 16px; border-left: 2px dotted var(--line);
+}
+.source-quote {
+  margin: 20px 0; padding: 16px 20px; background: var(--paper-2); border-radius: 12px;
+  border-left: 4px solid color-mix(in srgb, var(--brand) 55%, transparent);
+}
+.source-quote p { margin: 0; font-size: 16.5px; line-height: 1.85; color: var(--ink-2); }
+.source-quote cite { display: block; margin-top: 8px; font-size: 13px; color: var(--muted); font-style: normal; }
+.thin-note { font-size: 16px; color: var(--muted); }
+.orig-title { font-size: 13.5px; color: var(--muted); margin-top: 18px; }
+.card-summary { -webkit-line-clamp: 3; }

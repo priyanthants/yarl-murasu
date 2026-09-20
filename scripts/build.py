@@ -149,10 +149,24 @@ def collect_items(site):
     return unique[: site.get("max_items", 200)]
 
 
+def display(i):
+    """What the reader sees: Tamil headline and our own Tamil summary when we have them."""
+    out = dict(i)
+    if i.get("title_ta"):
+        out["title"] = i["title_ta"]
+        out["orig_title"] = i["title"]
+    if i.get("ai_summary"):
+        out["summary"] = i["ai_summary"]
+        out["ai"] = True
+        out["excerpt"] = i.get("summary", "")
+    return out
+
+
 def client_item(i):
     """The subset of fields the browser needs."""
+    i = display(i)
     keep = ("id", "type", "title", "summary", "source", "image", "category", "tags",
-            "published", "lang", "link", "images", "videos", "breaking", "featured")
+            "published", "lang", "link", "images", "videos", "breaking", "featured", "ai")
     out = {k: i[k] for k in keep if i.get(k) not in (None, "", [], False)}
     if i.get("type") == "local" and i.get("body") and not i.get("summary"):
         out["summary"] = i["body"][:220].rsplit(" ", 1)[0] + "…" if len(i["body"]) > 220 else i["body"]
@@ -235,7 +249,20 @@ def article_page(item, ctx_base, site, cats, related):
         byline = esc(item.get("author") or site["name"])
     else:
         summary = ""
-        body = ('<p class="lede">%s</p>' % esc(item["summary"])) if item.get("summary") else ""
+        parts = []
+        if item.get("summary"):
+            parts.append('<p class="lede">%s</p>' % esc(item["summary"]))
+            if item.get("ai"):
+                parts.append('<p class="ai-note">இந்தச் சுருக்கம், %s வெளியிட்ட செய்தியின் அடிப்படையில் '
+                             'தானியங்கி உதவியுடன் தமிழில் தயாரிக்கப்பட்டது.</p>' % esc(item.get("source", "")))
+            if item.get("excerpt") and item["excerpt"] != item["summary"]:
+                parts.append('<blockquote class="source-quote"><p>%s</p><cite>— %s</cite></blockquote>'
+                             % (esc(item["excerpt"]), esc(item.get("source", ""))))
+        else:
+            parts.append('<p class="thin-note">இது தலைப்புச் செய்தி மட்டும். முழு விவரங்களை மூலத்தில் வாசிக்கலாம்.</p>')
+        if item.get("orig_title"):
+            parts.append('<p class="orig-title">மூலத் தலைப்பு (English): %s</p>' % esc(item["orig_title"]))
+        body = "\n".join(parts)
         source_box = """<div class="source-box">
   <div><span class="source-box-label">மூலம்</span><strong>%s</strong>
   <p>இந்தச் செய்தி %s இணையத்தளத்தில் வெளியானது. முழு விவரங்களையும் அங்கே வாசிக்கலாம்.</p></div>
@@ -285,6 +312,7 @@ def rss_xml(site, items):
     url = site["site_url"].rstrip("/")
     entries = []
     for i in items[:50]:
+        i = display(i)
         entries.append("<item><title>%s</title><link>%s/news/%s.html</link><guid>%s/news/%s.html</guid>"
                        "<pubDate>%s</pubDate><description>%s</description></item>" % (
                            esc(i["title"]), url, i["id"], url, i["id"],
@@ -357,8 +385,8 @@ def build(verbose=True):
     # story pages
     article_tpl = (TEMPLATES / "article.html").read_text(encoding="utf-8")
     wanted = set()
-    for item in items:
-        related = [r for r in items if r["id"] != item["id"] and r.get("category") == item.get("category")][:6]
+    for item in (display(i) for i in items):
+        related = [display(r) for r in items if r["id"] != item["id"] and r.get("category") == item.get("category")][:6]
         ctx = article_page(item, "../", site, cats, related)
         ctx.update({"page_title": ctx["title"] + " | " + esc(site["name"]),
                     "page_description": ctx["description"], "og_type": "article"})

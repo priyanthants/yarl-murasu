@@ -1,0 +1,8 @@
+{
+  "_help": "Tamil summaries and English→Tamil translation, written by Claude. Needs ANTHROPIC_API_KEY. Set enabled to false to turn it off. Cheaper model option: claude-haiku-4-5 (about 5x cheaper, slightly simpler Tamil); claude-sonnet-5 sits in between.",
+  "enabled": true,
+  "model": "claude-opus-5",
+  "max_items_per_run": 40,
+  "min_text_chars": 180,
+  "summary_sentences": "3-4"
+}

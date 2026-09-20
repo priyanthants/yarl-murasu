@@ -12,6 +12,7 @@ import datetime as dt
 import hashlib
 import html
 import json
+import os
 import subprocess
 import sys
 import urllib.parse
@@ -128,6 +129,19 @@ def page(msg="", err=False, log=""):
     ads_table = ("<table><tr><th></th><th>விளம்பரம்</th><th>காலம்</th><th></th></tr>%s</table>" % "".join(ad_rows)
                  if ad_rows else '<p class="hint">விளம்பரங்கள் இல்லை — தளத்தில் "உங்கள் விளம்பரம் இங்கே" இடம் காட்டப்படும்.</p>')
 
+    card_files = sorted((SITE / "cards").glob("*.png"), key=lambda f: f.stat().st_mtime, reverse=True)[:3]
+    cards_html = "".join(
+        '<figure style="display:inline-block;margin:14px 14px 0 0;text-align:center">'
+        '<img src="/cards/%s" style="width:210px;border-radius:12px;border:1px solid #e3d8c8">'
+        '<figcaption class="hint"><a href="/cards/%s" download>%s ⤓</a></figcaption></figure>'
+        % (esc(f.name), esc(f.name), esc(f.name)) for f in card_files)
+    has_key = bool(os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"))
+    ai_cfg = load(ROOT / "config" / "ai.json", {})
+    ai_done = sum(1 for i in load(ROOT / "data" / "fetched.json", {"items": []}).get("items", []) if i.get("ai_summary"))
+    ai_state = ("தமிழ் சுருக்கங்கள்: %d செய்திகளுக்கு தயார் · மாதிரி %s"
+                % (ai_done, ai_cfg.get("model", "")) if has_key else
+                "ANTHROPIC_API_KEY அமைக்கப்படவில்லை — தமிழ் சுருக்கம் / மொழிபெயர்ப்பு இயங்காது.")
+
     notice = '<div class="msg%s">%s</div>' % (" err" if err else "", esc(msg)) if msg else ""
     log_html = "<pre>%s</pre>" % esc(log) if log else ""
 
@@ -150,9 +164,30 @@ def page(msg="", err=False, log=""):
   (Refreshes the local preview. The live site updates itself on GitHub every 30 minutes.)</p>
   <div class="actions">
     <form method="post" action="/admin/fetch"><button>செய்திகளைப் பெறுக</button></form>
+    <form method="post" action="/admin/ai"><button class="secondary">தமிழ் சுருக்கங்கள் / மொழிபெயர்ப்பு</button></form>
     <form method="post" action="/admin/build"><button class="secondary">தளத்தை மட்டும் மீளுருவாக்கு</button></form>
   </div>
+  <p class="hint">%(ai_state)s</p>
   %(log)s
+</section>
+
+<section class="card">
+  <h2>இன்றைய செய்தி அட்டை — Instagram / Facebook</h2>
+  <p class="hint">இன்றைய முக்கியச் செய்திகளை ஒரு படமாக உருவாக்கி, Instagram அல்லது WhatsApp இல் பகிரலாம்.
+  (Makes a shareable image of today's top headlines.)</p>
+  <form method="post" action="/admin/card">
+    <div class="row">
+      <div><label>அளவு</label><select name="size">
+        <option value="square">சதுரம் 1080×1080 (Instagram post)</option>
+        <option value="portrait">நெடுக்கு 1080×1350 (Instagram feed)</option>
+        <option value="story">Story 1080×1920</option>
+      </select></div>
+      <div><label>செய்திகளின் எண்ணிக்கை</label><input type="text" name="count" placeholder="தானாக"></div>
+      <div><label>பிரிவு <span class="hint">(விரும்பினால்)</span></label><select name="category"><option value="">அனைத்தும்</option>%(cat_opts)s</select></div>
+    </div>
+    <div class="actions"><button>அட்டையை உருவாக்கு</button></div>
+  </form>
+  %(cards)s
 </section>
 
 <section class="card">
@@ -210,7 +245,8 @@ def page(msg="", err=False, log=""):
 
 <section class="card"><h2>விளம்பரங்கள்</h2>%(ads_table)s</section>
 </main></body></html>""" % {
-        "name": esc(site.get("name", "")), "live": esc(site.get("site_url") or "/"), "style": STYLE, "notice": notice, "log": log_html, "cat_opts": cat_opts,
+        "name": esc(site.get("name", "")), "live": esc(site.get("site_url") or "/"), "style": STYLE,
+        "cards": cards_html, "ai_state": ai_state, "notice": notice, "log": log_html, "cat_opts": cat_opts,
         "slot_opts": slot_opts, "now": now, "posts_table": posts_table, "ads_table": ads_table,
     }
 
@@ -288,6 +324,24 @@ class Handler(SimpleHTTPRequestHandler):
                 return self.send_html(page("இணையத்தளத்தில் வெளியிடப்பட்டது — ஒரு நிமிடத்தில் நேரலையில் தெரியும்"
                                            if out.returncode == 0 else "வெளியிடுவதில் பிழை", out.returncode != 0,
                                            (out.stdout + out.stderr)[-4000:]))
+            if route == "/admin/card":
+                fields, _ = self.read_form()
+                cmd = [sys.executable, str(ROOT / "scripts" / "make_card.py"),
+                       "--size", fields.get("size", "square")]
+                if fields.get("count"):
+                    cmd += ["--count", fields["count"]]
+                if fields.get("category"):
+                    cmd += ["--category", fields["category"]]
+                out = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
+                return self.send_html(page("செய்தி அட்டை தயார்" if out.returncode == 0 else "அட்டையை உருவாக்க முடியவில்லை",
+                                           out.returncode != 0, (out.stdout + out.stderr)[-2000:]))
+            if route == "/admin/ai":
+                venv = ROOT / ".venv" / "bin" / "python"
+                out = subprocess.run([str(venv) if venv.exists() else sys.executable,
+                                      str(ROOT / "scripts" / "ai_enrich.py")],
+                                     capture_output=True, text=True, timeout=1800)
+                return self.send_html(page("தமிழ் சுருக்கங்கள் முடிந்தது" if out.returncode == 0 else "பிழை",
+                                           out.returncode != 0, (out.stdout + out.stderr)[-3000:]))
             if route == "/admin/build":
                 build.build(verbose=False)
                 return self.redirect("தளம் மீளுருவாக்கப்பட்டது")

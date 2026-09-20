@@ -2,3 +2,7 @@ logs/
 __pycache__/
 *.tmp
 .DS_Store
+data/texts.json
+.venv/
+site/cards/_card.html
+site/cards/_chrome/

@@ -31,8 +31,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch news and build site
+      - name: Install the Anthropic SDK (for Tamil summaries)
+        run: pip install --quiet anthropic
+
+      - name: Fetch news, write Tamil summaries and build site
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/fetch_news.py
+
+      - name: Make today's share card
+        run: python scripts/make_card.py --skip-existing || echo "card skipped"
 
       - name: Save fetched news
         run: |

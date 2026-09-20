@@ -23,19 +23,9 @@
       "color": "#8b1e1e"
     },
     {
-      "id": "north",
-      "name": "வடமாகாணம்",
-      "color": "#b4541a"
-    },
-    {
       "id": "srilanka",
       "name": "இலங்கை",
       "color": "#1f5f8b"
-    },
-    {
-      "id": "india",
-      "name": "இந்தியா",
-      "color": "#a0521c"
     },
     {
       "id": "world",
@@ -46,16 +36,6 @@
       "id": "sports",
       "name": "விளையாட்டு",
       "color": "#1e7a4c"
-    },
-    {
-      "id": "business",
-      "name": "வணிகம்",
-      "color": "#8a6d12"
-    },
-    {
-      "id": "education",
-      "name": "கல்வி",
-      "color": "#6b3a8a"
     }
   ]
 }
