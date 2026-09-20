@@ -57,6 +57,12 @@ It goes live in about a minute.
 | Tamil Guardian | English → Tamil | headline, summary, link |
 | Google News (Jaffna & Northern districts) | Tamil | headline + link only |
 
+**Two sources only work from a home internet connection.** Ada Derana Tamil and Virakesari block
+requests from data-centre servers (HTTP 403), so the GitHub run skips them and uses the other six;
+Virakesari headlines still arrive through Google News. If you want their full summaries refreshed,
+run `python3 scripts/fetch_news.py` on your Mac (or switch on `scripts/schedule_mac.sh`) and press
+Publish. Do not try to work around the block — it is their decision to make.
+
 Categories: யாழ்ப்பாணம் (includes Kilinochchi, Mullaitivu, Vavuniya, Mannar), இலங்கை, உலகம், விளையாட்டு.
 
 **What is shown, and why.** Each story shows the publisher's own summary (the part they syndicate),
