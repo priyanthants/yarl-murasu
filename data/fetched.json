@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-24T16:48:56.118812+00:00",
+ "updated": "2026-09-24T20:18:14.297160+00:00",
  "items": [
   {
    "id": "a9257f7f39ae",
@@ -546,6 +546,23 @@
    ],
    "published": "2026-09-24T01:37:31+00:00",
    "fetched": "2026-09-24T05:56:37.795456+00:00"
+  },
+  {
+   "id": "03ef7c9b9a3e",
+   "type": "auto",
+   "title": "இன்றைய வானிலை",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDbUxWUE5nY0Y1ODZMeUlnX055VG9pbjRlZnZwQ2tEbVBJamJRUTVFUy1FeGx3T3lYRWNxYVBSRzR5b1FDUXJvOU1OMzdYTlo1Q2c?oc=5",
+   "source": "வீரகேசரி",
+   "source_domain": "virakesari.lk",
+   "image": null,
+   "lang": "ta",
+   "category": "jaffna",
+   "tags": [
+    "jaffna"
+   ],
+   "published": "2026-09-24T01:21:00+00:00",
+   "fetched": "2026-09-24T20:18:14.297160+00:00"
   },
   {
    "id": "04f5c473501a",
@@ -4300,41 +4317,6 @@
     "world"
    ],
    "published": "2026-09-18T01:13:28+00:00",
-   "fetched": "2026-09-20T14:01:05.322285+00:00"
-  },
-  {
-   "id": "baabebb3f99b",
-   "type": "auto",
-   "title": "Tamil worshippers held back as Sinhala Buddhist monk dismisses their faith as 'false beliefs'",
-   "summary": "Sri Lankan police held Saivite devotees at the foot of Vedukkunaari Hill in Vavuniya last Saturday while a Sinhala Buddhist delegation led by Kalgamuwa Santhabohi conducted pirith chanting at the summit, as the monk announced that a restored Buddha statue would be installed at the disputed temple…",
-   "link": "http://www.tamilguardian.com/content/hindus-are-false-belief-buddhist-monk-leads-prayers-vedukkunaari-tamils-are-restricted",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/260912%20Vedukkunaari1/260912%20Vedukkunaari.jpeg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna",
-    "srilanka"
-   ],
-   "published": "2026-09-17T17:51:05+00:00",
-   "fetched": "2026-09-20T14:01:05.322285+00:00"
-  },
-  {
-   "id": "6e2e6f126bbd",
-   "type": "auto",
-   "title": "IDCTE calls for international accountability mechanism in meeting with Finnish MP",
-   "summary": "Representatives of the International Diplomatic Council of Tamil Eelam have met the Finnish parliamentarian Kimmo Kiljunen to discuss the concerns of Eelam Tamils over justice and accountability, including enforced disappearances and the need for international mechanisms to address past abuses. The…",
-   "link": "http://www.tamilguardian.com/content/idcte-calls-international-accountability-mechanism-meeting-finnish-mp",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/Thaarakam/260916%20IDCEL%20meets%20finnish%20MP/260916%20idcte%20meet%20finish%20mp.jpg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna"
-   ],
-   "published": "2026-09-17T16:53:54+00:00",
    "fetched": "2026-09-20T14:01:05.322285+00:00"
   }
  ]
