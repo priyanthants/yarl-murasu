@@ -1,20 +1,24 @@
 #!/usr/bin/env python3
-"""Fetch the latest Jaffna / Northern Province / Sri Lanka news from trusted sources.
+"""Find the latest Jaffna / Northern Province / Sri Lanka news and read it in full.
 
-Reads config/sources.json, keeps only items from trusted publishers, sorts them
-into categories, merges them into data/fetched.json and then rebuilds the site.
+Reads config/sources.json, keeps only stories from trusted publishers, sorts them into
+categories and merges them into data/fetched.json. It then reads each new story's own
+page so scripts/ai_enrich.py has the whole report to write our Tamil version from, and
+finally rebuilds the site.
 
-Only the headline, a short summary and a link back to the original publisher are
-stored; full articles are never copied.
+The article text this collects is working material only: it is cached in the gitignored
+data/texts.json and is never published. What readers see is the Tamil rewrite.
 
 Usage:
-    python3 scripts/fetch_news.py            # fetch + rebuild site
+    python3 scripts/fetch_news.py            # fetch + rewrite + rebuild site
     python3 scripts/fetch_news.py --no-build # fetch only
+    python3 scripts/fetch_news.py --no-text  # skip reading publishers' article pages
     python3 scripts/fetch_news.py -v         # verbose logging
 """
 import argparse
 import datetime as dt
 import email.utils
+import gzip
 import hashlib
 import html
 import json
@@ -26,12 +30,13 @@ import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+import zlib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES_FILE = ROOT / "config" / "sources.json"
 STORE_FILE = ROOT / "data" / "fetched.json"
-# Article text is only an input for the AI summary step; it is never published or committed.
+# Article text is only working material for the Tamil rewrite; never published or committed.
 TEXTS_FILE = ROOT / "data" / "texts.json"
 LOG_FILE = ROOT / "logs" / "fetch.log"
 
@@ -79,13 +84,31 @@ def save_json(path, data):
     tmp.replace(path)
 
 
+def decompress(body, encoding):
+    """Some servers send gzip whatever the request asked for; urllib does not unpack it."""
+    encoding = (encoding or "").lower()
+    try:
+        if "gzip" in encoding:
+            return gzip.decompress(body)
+        if "deflate" in encoding:
+            return zlib.decompress(body, -zlib.MAX_WBITS)
+    except Exception:
+        return body
+    if body[:2] == b"\x1f\x8b":  # gzip magic number, no matter what the header claimed
+        try:
+            return gzip.decompress(body)
+        except Exception:
+            pass
+    return body
+
+
 def http_get(url, timeout=20, retries=2):
     last_error = None
     for attempt in range(retries + 1):
         try:
             req = urllib.request.Request(url, headers=BROWSER_HEADERS)
             with urllib.request.urlopen(req, timeout=timeout) as resp:
-                return resp.read()
+                return decompress(resp.read(), resp.headers.get("Content-Encoding"))
         except Exception as e:  # network errors, HTTP errors, SSL errors
             last_error = e
             time.sleep(1.5 * (attempt + 1))
@@ -160,6 +183,22 @@ def clean_summary(summary, title):
         summary = summary[len(title):].lstrip(" -–:|")
     summary = re.sub(r"^by .{1,60}?\d{1,2}/\d{1,2}/\d{4}\s*-\s*\d{1,2}:\d{2}\s*(Body\s*)?", "", summary)
     return summary.strip()
+
+
+def clean_title(title):
+    """Normalise feed headlines and reject obvious fragments before storage."""
+    title = re.sub(r"[\x00-\x1f\x7f]+", " ", title or "")
+    title = re.sub(r"\s+", " ", title).strip()
+    return re.sub(r"[\s\-–|:]+$", "", title)
+
+
+def headline_is_fragment(title):
+    compact = clean_title(title)
+    letters = re.sub(r"[^\w\u0B80-\u0BFF]+", "", compact, flags=re.UNICODE)
+    if len(letters) < 10 or len(compact.split()) < 2:
+        return True
+    last = re.sub(r"[^\w\u0B80-\u0BFF]+", "", compact.split()[-1], flags=re.UNICODE)
+    return len(last) == 1
 
 
 def title_key(title):
@@ -251,7 +290,22 @@ def parse_feed(raw):
 
 # ---------------------------------------------------------------- article pages
 
-BOILERPLATE = ("விசேட செய்திகள்", "subscribe", "Comments are disabled", "தவறவிடாதீர்கள்")
+BOILERPLATE = ("விசேட செய்திகள்", "subscribe", "comments are disabled", "தவறவிடாதீர்கள்",
+               "cookie", "newsletter", "all rights reserved", "follow us", "read more",
+               "share this", "advertisement", "மேலும் படிக்க", "பிரதான செய்திகள்",
+               "mirror ai summary", "generating summary")
+
+# Blocks that never hold article prose.
+CHROME_BLOCKS = r"(?is)<(script|style|nav|header|footer|aside|form|figure|noscript|iframe|svg)[^>]*>.*?</\1>"
+
+# Containers that hold the article body, most specific first. Whichever yields the
+# most prose wins, so the order only breaks ties.
+BODY_CONTAINERS = (
+    r'<div[^>]+itemprop=["\']articleBody["\'][^>]*>(.*)',
+    r'<div[^>]+class=["\'][^"\']*(?:article-body|articleBody|entry-content|post-content|story-body|news-content|single-content|td-post-content)[^"\']*["\'][^>]*>(.*)',
+    r'<article[^>]*>(.*?)</article>',
+    r'<main[^>]*>(.*?)</main>',
+)
 
 
 def meta_content(page, name):
@@ -263,15 +317,36 @@ def meta_content(page, name):
     return ""
 
 
-def article_text(page):
-    """Opening paragraphs of an article page, used for the excerpt and as AI input."""
-    page = re.sub(r"(?is)<(script|style|nav|header|footer|aside)[^>]*>.*?</\1>", " ", page)
-    chunks = []
-    for raw in re.findall(r">([^<>]{80,})<", page):
-        text = re.sub(r"\s+", " ", html.unescape(raw)).strip()
-        if text and not any(b in text for b in BOILERPLATE) and text not in chunks:
-            chunks.append(text)
-    return " ".join(chunks[:6])
+def paragraphs_in(fragment):
+    """Readable <p> paragraphs from a chunk of HTML, in document order."""
+    found = []
+    for raw in re.findall(r"(?is)<p[^>]*>(.*?)</p>", fragment):
+        text = re.sub(r"<[^>]+>", " ", raw)
+        text = re.sub(r"\s+", " ", html.unescape(text)).strip()
+        lowered = text.lower()
+        if len(text) >= 40 and text not in found and not any(b in lowered for b in BOILERPLATE):
+            found.append(text)
+    return found
+
+
+def article_text(page, limit=8000):
+    """The article's own prose, used as the input the Tamil rewrite is written from.
+
+    Publishers wrap the story in different containers, so try each one and keep
+    whichever yields the most paragraphs; fall back to the whole page when a site
+    uses markup we do not recognise.
+    """
+    page = re.sub(CHROME_BLOCKS, " ", page)
+    best = []
+    for pattern in BODY_CONTAINERS:
+        for fragment in re.findall(pattern, page, re.I | re.S):
+            found = paragraphs_in(fragment)
+            if len(" ".join(found)) > len(" ".join(best)):
+                best = found
+    if not best:
+        best = paragraphs_in(page)
+    text = "\n\n".join(best)
+    return text[:limit]
 
 
 def fetch_article(url, source, cfg):
@@ -292,7 +367,7 @@ def fetch_article(url, source, cfg):
             except ValueError:
                 published = None
     return {
-        "title": strip_html(title),
+        "title": clean_title(strip_html(title)),
         "link": url,
         "image": meta_content(page, "og:image") or None,
         "text": article_text(page),
@@ -319,7 +394,7 @@ def collect_html_index(source, cfg, now, known_links):
         except Exception as e:
             log.debug("  article failed %s: %s", link, e)
             continue
-        if not art["title"]:
+        if not art["title"] or headline_is_fragment(art["title"]):
             continue
         published = art["published"] or now
         if now - published > max_age:
@@ -388,7 +463,7 @@ def collect(source, cfg, now):
         if now - published > max_age or published - now > dt.timedelta(hours=6):
             continue
 
-        title = e["title"]
+        title = clean_title(e["title"])
         if kind == "google_news":
             publisher = e["source_name"]
             domain = domain_of(e["source_url"])
@@ -405,7 +480,9 @@ def collect(source, cfg, now):
             skipped_untrusted += 1
             continue
         publisher = publisher_name(domain, cfg) or publisher or domain
-        title = re.sub(r"[\s\-–|:]+$", "", title)
+        title = clean_title(title)
+        if headline_is_fragment(title):
+            continue
 
         text = title + " " + summary
         if required and not any(k in text.lower() for k in required):
@@ -436,6 +513,73 @@ def collect(source, cfg, now):
     return results, texts
 
 
+# ---------------------------------------------------------------- full article text
+
+def fetchable(link):
+    """A link we can actually read. Google News hands out an opaque redirect that
+    resolves only through its own internal endpoint, so those stories can never be
+    more than a bare headline."""
+    return domain_of(link) != "news.google.com"
+
+
+def needs_rewrite(item):
+    """Stories we have not yet rewritten in our own Tamil."""
+    return item.get("type") != "local" and not item.get("ai_body")
+
+
+def fill_article_texts(items, texts, cfg, now):
+    """Read each unwritten story's own page, so the Tamil rewrite works from the
+    whole report rather than the one-line teaser a feed syndicates.
+
+    Only stories still waiting to be rewritten are fetched, which keeps a routine
+    run to the handful of headlines that arrived since the last one.
+    """
+    min_chars = cfg.get("min_text_chars", 400)
+    budget = cfg.get("max_article_fetches", 60)
+    # Polite crawl delays mean this step could otherwise outlast the half-hourly
+    # schedule; whatever it does not reach is picked up by the next run.
+    deadline = time.time() + cfg.get("max_article_seconds", 420)
+    delays = cfg.get("article_delay_seconds", {})
+    default_delay = cfg.get("default_article_delay", 2)
+    last_seen = {}
+    fetched = filled = 0
+
+    for item in items:
+        if fetched >= budget or time.time() > deadline:
+            break
+        if not needs_rewrite(item) or len(texts.get(item["id"], "")) >= min_chars:
+            continue
+        if not fetchable(item["link"]):
+            continue
+        domain = item.get("source_domain") or domain_of(item["link"])
+        delay = delays.get(domain, default_delay)
+        waited = time.time() - last_seen.get(domain, 0)
+        if waited < delay:
+            time.sleep(delay - waited)
+        last_seen[domain] = time.time()
+        fetched += 1
+        try:
+            page = http_get(item["link"], timeout=cfg.get("request_timeout", 20), retries=1)
+        except Exception as e:
+            log.debug("  page failed %s: %s", item["link"], e)
+            continue
+        page = page.decode("utf-8", "replace")
+        text = article_text(page)
+        # The feed teaser is usually the article's own first line; keep whichever is fuller.
+        if len(text) < len(texts.get(item["id"], "")):
+            text = texts[item["id"]]
+        if len(text) >= min_chars:
+            texts[item["id"]] = text
+            filled += 1
+        elif text:
+            texts[item["id"]] = text
+        if not item.get("image"):
+            item["image"] = meta_content(page, "og:image") or None
+
+    log.info("Article pages read: %d fetched, %d now have enough text to rewrite", fetched, filled)
+    return filled
+
+
 def merge(existing, new_items, cfg, now):
     by_id = {i["id"]: i for i in existing}
     seen_titles = {title_key(i["title"]) for i in existing}
@@ -456,7 +600,8 @@ def merge(existing, new_items, cfg, now):
         added += 1
 
     max_age = dt.timedelta(days=cfg.get("max_age_days", 10))
-    items = [i for i in by_id.values() if now - parse_date(i["published"]) <= max_age]
+    items = [i for i in by_id.values()
+             if now - parse_date(i["published"]) <= max_age and fetchable(i["link"])]
     items.sort(key=lambda i: i["published"], reverse=True)
     return items[: cfg.get("max_store_items", 400)], added
 
@@ -478,7 +623,8 @@ def setup_logging(verbose):
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--no-build", action="store_true", help="do not rebuild the site afterwards")
-    parser.add_argument("--no-ai", action="store_true", help="skip the Tamil summary / translation step")
+    parser.add_argument("--no-ai", action="store_true", help="skip the Tamil rewrite / translation step")
+    parser.add_argument("--no-text", action="store_true", help="do not read publishers' article pages")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args()
     setup_logging(args.verbose)
@@ -504,16 +650,23 @@ def main():
             else:
                 found, found_texts = collect(source, cfg, now)
             new_items.extend(found)
-            texts.update(found_texts)
+            # A feed teaser must not displace the full article text a previous run read.
+            for key, value in found_texts.items():
+                if len(value) > len(texts.get(key, "")):
+                    texts[key] = value
         except Exception as e:
             failures += 1
             log.warning("%-38s FAILED: %s", source.get("name"), e)
 
     items, added = merge(store.get("items", []), new_items, cfg, now)
+    log.info("Added %d new items, %d stored in total, %d source(s) failed", added, len(items), failures)
+
+    if not args.no_text:
+        fill_article_texts(items, texts, cfg, now)
+
     save_json(STORE_FILE, {"updated": now.isoformat(), "items": items})
     live = {i["id"] for i in items}
     save_json(TEXTS_FILE, {k: v for k, v in texts.items() if k in live})
-    log.info("Added %d new items, %d stored in total, %d source(s) failed", added, len(items), failures)
 
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     if not args.no_ai:

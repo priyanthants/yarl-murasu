@@ -1,10 +1,17 @@
 # யாழ் முரசு — Jaffna Tamil News Website
 
-A Tamil news site for Jaffna and the Northern Province. It fetches the latest news from
-trusted publishers automatically, and you can add your own stories with photos and videos.
+A Tamil news site for Jaffna and the Northern Province. It reads the latest reports from
+trusted publishers, writes each one afresh in its own Tamil, and publishes that — so every
+story on the site is our own writing, in Tamil, whatever language it started in. You can
+add your own stories with photos and videos too.
 
-Uses only Python 3 (no packages to install). The website is plain HTML/CSS/JS, so it can be
-hosted anywhere (GitHub Pages, Netlify, cPanel hosting…).
+The website is plain HTML/CSS/JS, so it can be hosted anywhere (GitHub Pages, Netlify,
+cPanel hosting…).
+
+> **One thing must be set up before anything publishes.** The Tamil rewrite runs on the
+> Claude API, so the repository needs an `ANTHROPIC_API_KEY` secret. Without it no story
+> can be rewritten, nothing new goes live, and the site keeps serving the pages it already
+> has. See [The Tamil rewrite](#the-tamil-rewrite--required--costs-money) below.
 
 ## Quick start
 
@@ -37,7 +44,7 @@ It goes live in about a minute.
 | `scripts/fetch_news.py` | Fetch latest news + rebuild the site |
 | `scripts/build.py` | Rebuild the site only |
 | `scripts/admin.py` | Local admin panel + preview server |
-| `scripts/ai_enrich.py` | Tamil summaries + English→Tamil translation (needs an API key) |
+| `scripts/ai_enrich.py` | Rewrites every story in our own Tamil, translating English (needs an API key) |
 | `scripts/make_card.py` | Daily share image for Instagram/Facebook |
 | `config/ai.json` | AI settings (model, how many per run, on/off) |
 | `scripts/publish.sh` | Send your posts/photos/ads to GitHub so they go live |
@@ -45,38 +52,51 @@ It goes live in about a minute.
 | `scripts/schedule_mac.sh` | Turn auto-updates on/off on this Mac |
 | `site/` | **The finished website — upload this folder** |
 
+The generated site also includes `about.html`, `editorial-policy.html`, `corrections.html`,
+`privacy.html` and `contact.html`. The footer links to these trust and reader-information pages.
+
 ## Where the news comes from
 
-| Source | Language | What you get |
+| Source | Language | Reachable from GitHub |
 |---|---|---|
-| அத தெரண தமிழ் (adaderanatamil.lk) | Tamil | headline, summary, link |
-| அரச செய்திச் சேவை (tamil.news.lk) — official government news portal | Tamil | headline, summary, link |
-| வட மாகாண சபை (np.gov.lk) — Northern Provincial Council | English → Tamil | headline, summary, link |
-| வீரகேசரி (front page + article pages) | Tamil | headline, photo, opening lines, link |
-| BBC News தமிழ் | Tamil | headline, summary, link |
-| Tamil Guardian | English → Tamil | headline, summary, link |
-| Google News (Jaffna & Northern districts) | Tamil | headline + link only |
+| அத தெரண தமிழ் (adaderanatamil.lk) | Tamil | no — 403 |
+| வீரகேசரி (front page + local desk) | Tamil | no — 403 |
+| BBC News தமிழ் | Tamil | yes |
+| அரச செய்திச் சேவை (tamil.news.lk) — official government news portal | Tamil | yes |
+| வட மாகாண சபை (np.gov.lk) — Northern Provincial Council | English → Tamil | yes |
+| Tamil Guardian | English → Tamil | yes |
+| Ada Derana (adaderana.lk) | English → Tamil | yes |
+| Newswire (newswire.lk) | English → Tamil | yes |
+| The Island (island.lk) | English → Tamil | yes |
 
-**Two sources only work from a home internet connection.** Ada Derana Tamil and Virakesari block
-requests from data-centre servers (HTTP 403), so the GitHub run skips them and uses the other six;
-Virakesari headlines still arrive through Google News. If you want their full summaries refreshed,
-run `python3 scripts/fetch_news.py` on your Mac (or switch on `scripts/schedule_mac.sh`) and press
+**Two Tamil sources only work from a home internet connection.** Ada Derana Tamil and Virakesari
+block requests from data-centre servers (HTTP 403), so the half-hourly GitHub run cannot use them —
+which is why several English Sri Lankan outlets are in the list: they answer from anywhere and are
+translated into Tamil like everything else. To pull the two blocked sources in, run
+`python3 scripts/fetch_news.py` on your Mac (or switch on `scripts/schedule_mac.sh`) and press
 Publish. Do not try to work around the block — it is their decision to make.
 
 Categories: யாழ்ப்பாணம் (includes Kilinochchi, Mullaitivu, Vavuniya, Mannar), இலங்கை, உலகம், விளையாட்டு.
+The rewrite step picks the section after reading the whole story, so a report lands where it belongs
+rather than wherever its headline keywords pointed.
 
-**What is shown, and why.** Each story shows the publisher's own summary (the part they syndicate),
-plus — when AI summaries are switched on — a short Tamil summary written in our own words, and a
-button to the full article on the publisher's site. Full articles are never copied: the text belongs
-to the publisher, and republishing it would be copyright infringement. Stories where we only have a
-headline say so plainly.
+**What is shown, and why.** Every story on the site is written here, in Tamil, from the facts in a
+report published by a trusted news organisation. No publisher's text is reproduced and no publisher
+is named on the page — what you read is our own writing, and it is labelled as machine-assisted.
+Stories are held back, not published half-finished, when there was too little to write from.
 
-## Tamil summaries and English→Tamil translation (optional, costs money)
+## The Tamil rewrite (required — costs money)
 
-`scripts/ai_enrich.py` asks Claude to write a 3-4 sentence Tamil summary from the publisher's excerpt,
-and to translate English headlines (Northern Provincial Council, Tamil Guardian) into Tamil. Nothing is
-invented: when there is too little text, the story keeps just its headline. Summaries are labelled on the
-page as machine-assisted.
+`scripts/ai_enrich.py` gives Claude the full article a publisher put out and asks for a fresh Tamil
+report written from the facts in it: a new headline, a one-line lede and a few paragraphs of body,
+plus which section the story belongs in. English sources are translated in the same pass.
+
+Nothing is invented — the rewrite may only use what the source states — and when there is too little
+to write from, the story is held back instead of published as a bare headline.
+
+**This step is not optional any more.** Since every story on the site is our own writing, a run
+without `ANTHROPIC_API_KEY` publishes nothing new: the GitHub workflow stops with a named error and
+`build.py` leaves the site exactly as it was rather than emptying it.
 
 Set up:
 1. Get an API key at console.anthropic.com.
@@ -85,9 +105,29 @@ Set up:
 3. On this Mac (optional): `export ANTHROPIC_API_KEY=sk-ant-...` before running, and the project
    venv (`.venv`) already has the SDK. The admin panel has a button for it.
 
-Cost: roughly 40 stories per run. With the default `claude-opus-5` that is a few US dollars a month at
-half-hourly updates; `claude-haiku-4-5` in `config/ai.json` is about five times cheaper with slightly
-plainer Tamil. Set `"enabled": false` there to turn it off.
+Check what is waiting without spending anything:
+
+```bash
+.venv/bin/python scripts/ai_enrich.py --dry-run --no-build
+```
+
+**Cost — read this before switching it on.** A rewrite is much bigger than the old one-paragraph
+summary: it reads a whole article and writes a whole story. On the default `claude-opus-5` expect
+very roughly 5-8 US cents per story. Clearing the ~200 stories already waiting costs somewhere near
+10-15 dollars, and after that the day-to-day rate depends on how many new stories the sources carry.
+
+`config/ai.json` holds every knob:
+
+| Setting | What it does |
+|---|---|
+| `model` | `claude-haiku-4-5` is roughly five times cheaper, with plainer Tamil; `claude-sonnet-5` sits in between |
+| `effort` | `low` / `medium` / `high` — how much thinking each story gets |
+| `max_items_per_run` | Ceiling per run (40), so one run can never surprise you |
+| `concurrency` | How many stories are written at once |
+| `enabled` | `false` stops the rewrite entirely |
+
+Watch the first day at console.anthropic.com and turn `model` or `effort` down if it costs more than
+you want it to.
 
 ## Daily share image (Instagram / Facebook / WhatsApp)
 

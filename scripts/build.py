@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """Build the static website in site/.
 
 Combines your own posts (content/posts.json) with fetched news
@@ -41,6 +42,7 @@ def load_json(path, default):
 
 
 def write(path, text):
+    text = re.sub(r"[ \t]+(?=\r?\n|$)", "", text)
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(path.suffix + ".tmp")
     tmp.write_text(text, encoding="utf-8")
@@ -149,28 +151,216 @@ def collect_items(site):
     return unique[: site.get("max_items", 200)]
 
 
+def hold_reason(item):
+    """Return why a fetched story should be held back from the site.
+
+    Everything the reader sees is our own Tamil writing, so a fetched story is only
+    publishable once scripts/ai_enrich.py has rewritten it. That single rule also
+    keeps out headline-only stubs and untranslated English, which is what a story
+    without a rewrite always is.
+    """
+    if item.get("type") == "local":
+        return ""
+    if not item.get("ai_body"):
+        return "not rewritten in Tamil yet" if not item.get("ai_thin") else "too little to report"
+    title = re.sub(r"\s+", " ", (item.get("ai_title") or "").strip())
+    letters = re.sub(r"[^\w\u0B80-\u0BFF]+", "", title, flags=re.UNICODE)
+    if len(letters) < 10 or len(title.split()) < 2:
+        return "headline too short"
+    return ""
+
+
+def headline_words(item):
+    """Meaningful words of a story's Tamil headline, for spotting repeats."""
+    title = (item.get("ai_title") or item.get("title") or "").lower()
+    return {w for w in re.findall(r"[\w஀-௿]+", title, flags=re.UNICODE) if len(w) >= 4}
+
+
+def drop_repeats(items, threshold=0.6):
+    """Keep one story per event.
+
+    Several outlets cover the same announcement, and each is rewritten separately, so
+    the usual identical-headline check never fires. Compare the words of the Tamil
+    headlines instead and keep the story that was published first.
+    """
+    kept, seen = [], []
+    for item in items:
+        words = headline_words(item)
+        if len(words) >= 3:
+            duplicate = False
+            for other in seen:
+                overlap = len(words & other)
+                if overlap and overlap / float(min(len(words), len(other))) >= threshold:
+                    duplicate = True
+                    break
+            if duplicate:
+                continue
+            seen.append(words)
+        kept.append(item)
+    return kept
+
+
 def display(i):
-    """What the reader sees: Tamil headline and our own Tamil summary when we have them."""
+    """What the reader sees: our own Tamil headline, lede and report."""
     out = dict(i)
-    if i.get("title_ta"):
-        out["title"] = i["title_ta"]
-        out["orig_title"] = i["title"]
+    if i.get("ai_title"):
+        out["title"] = i["ai_title"]
     if i.get("ai_summary"):
         out["summary"] = i["ai_summary"]
+    if i.get("ai_body"):
+        out["body_paragraphs"] = i["ai_body"]
         out["ai"] = True
-        out["excerpt"] = i.get("summary", "")
     return out
 
 
 def client_item(i):
     """The subset of fields the browser needs."""
     i = display(i)
-    keep = ("id", "type", "title", "summary", "source", "image", "category", "tags",
-            "published", "lang", "link", "images", "videos", "breaking", "featured", "ai")
+    keep = ("id", "type", "title", "summary", "image", "category", "tags",
+            "published", "images", "videos", "breaking", "featured", "ai")
     out = {k: i[k] for k in keep if i.get(k) not in (None, "", [], False)}
     if i.get("type") == "local" and i.get("body") and not i.get("summary"):
         out["summary"] = i["body"][:220].rsplit(" ", 1)[0] + "…" if len(i["body"]) > 220 else i["body"]
     return out
+
+
+def home_thumb_html(item, cats, eager=False):
+    cat = cats.get(item.get("category"), {"name": "செய்தி", "color": "#8b1e1e"})
+    img = item.get("image") or ((item.get("images") or [None])[0])
+    placeholder = ('<div class="ph" style="--c:%s"><span class="ph-cat">%s</span></div>'
+                   % (cat["color"], esc(cat["name"])))
+    image = ""
+    if img:
+        image = ('<img src="%s" alt="" %sreferrerpolicy="no-referrer" style="position:relative" '
+                 'onerror="this.remove()">'
+                 % (esc(img), "" if eager else 'loading="lazy" '))
+    return '<div class="thumb">%s%s</div>' % (placeholder, image)
+
+
+def home_meta_html(item):
+    return ('<div class="meta"><time datetime="%s">%s</time></div>'
+            % (esc(item.get("published", "")),
+               esc(tamil_date(parse_date(item.get("published")), with_time=False))))
+
+
+def home_badge_html(item, cats):
+    cat = cats.get(item.get("category"), {"name": "செய்தி", "color": "#8b1e1e"})
+    return '<span class="cat-badge" style="--c:%s">%s</span>' % (cat["color"], esc(cat["name"]))
+
+
+def home_card_html(item, cats):
+    summary = ('<p class="card-summary">%s</p>' % esc(item["summary"])) if item.get("summary") else ""
+    return ('<article class="card">%s%s<div class="card-body"><h3 class="card-title">'
+            '<a href="news/%s.html">%s</a></h3>%s<div class="card-foot">%s</div></div></article>'
+            % (home_badge_html(item, cats), home_thumb_html(item, cats), esc(item["id"]),
+               esc(item["title"]), summary, home_meta_html(item)))
+
+
+def home_lead_html(item, cats):
+    summary = ('<p class="lead-summary">%s</p>' % esc(item["summary"])) if item.get("summary") else ""
+    return ('<a class="lead" href="news/%s.html">%s<div class="lead-body">%s'
+            '<h2 class="lead-title">%s</h2>%s%s</div></a>'
+            % (esc(item["id"]), home_thumb_html(item, cats, eager=True), home_badge_html(item, cats),
+               esc(item["title"]), summary, home_meta_html(item)))
+
+
+def home_mini_html(item, cats):
+    return ('<a class="mini" href="news/%s.html">%s<div><h3 class="mini-title">%s</h3>%s</div></a>'
+            % (esc(item["id"]), home_thumb_html(item, cats), esc(item["title"]), home_meta_html(item)))
+
+
+def home_initial_content(items, cats, site):
+    """Render the first meaningful homepage view; JavaScript progressively enhances it."""
+    shown = [client_item(i) for i in items]
+    if not shown:
+        return "", "", "", "0 செய்திகள்", ""
+    featured = [i for i in shown if i.get("featured")]
+    recent_cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=36)
+    local = [i for i in shown if i.get("category") == "jaffna" and i.get("image")
+             and parse_date(i.get("published")) >= recent_cutoff]
+    with_image = [i for i in shown if i.get("image")]
+    lead = (featured or local or with_image or shown)[0]
+    side = [i for i in shown if i is not lead][:4]
+    used_ids = {i["id"] for i in [lead] + side}
+    page_items = [i for i in shown if i["id"] not in used_ids][:site.get("home_page_size", 12)]
+    hero = home_lead_html(lead, cats) + '<div class="hero-side">%s</div>' % "".join(
+        home_mini_html(i, cats) for i in side)
+    grid = "".join(home_card_html(i, cats) for i in page_items)
+    latest = "".join(
+        '<li><a href="news/%s.html"><span class="r-title">%s</span><span class="r-meta">%s</span></a></li>'
+        % (esc(i["id"]), esc(i["title"]),
+           esc(tamil_date(parse_date(i.get("published")), with_time=False))) for i in shown[:6])
+    chips = "".join(
+        '<a class="chip%s" href="#cat=%s">%s</a>'
+        % (" active" if c["id"] == "all" else "", esc(c["id"]), esc(c["name"]))
+        for c in ([{"id": "all", "name": "அனைத்தும்"}] + site.get("categories", [])
+                  + [{"id": "video", "name": "காணொளி"}]))
+    return hero, grid, latest, "%d செய்திகள்" % len(shown), chips
+
+
+def static_pages(site):
+    contact = site.get("contact_email", "").strip()
+    contact_link = ('<a href="mailto:%s">%s</a>' % (esc(contact), esc(contact))) if contact else ""
+    contact_status = ("<p class=\"info-note\">எம்மைத் தொடர்புகொள்ள: %s</p>" % contact_link
+                      if contact_link else
+                      '<p class="info-note">தொடர்பு மின்னஞ்சல் தற்போது புதுப்பிக்கப்படுகிறது. அது சேர்க்கப்பட்டதும் இந்தப் பக்கத்தில் காட்டப்படும்.</p>')
+    return [
+        {
+            "slug": "about",
+            "heading": "எம்மைப் பற்றி",
+            "intro": "யாழ்ப்பாணம், வடமாகாணம் மற்றும் இலங்கையின் முக்கியச் செய்திகளை, எங்கள் சொந்த எழுத்தில் தமிழில் வாசிக்கத் தரும் செய்தித் தளம்.",
+            "description": "யாழ் முரசு செய்தித் தளத்தின் நோக்கம் மற்றும் செய்தி தயாரிக்கப்படும் முறை.",
+            "content": """
+<section><h2>எங்கள் நோக்கம்</h2><p>யாழ்ப்பாணம், வடமாகாணம், இலங்கை, உலகம் மற்றும் விளையாட்டுச் செய்திகளை — முழுமையாக, தெளிவான இலங்கைத் தமிழில், ஒரே இடத்தில் — வாசகருக்குத் தருவதே எங்கள் நோக்கம்.</p></section>
+<section><h2>செய்திகள் எவ்வாறு தயாரிக்கப்படுகின்றன?</h2><p>நிறுவப்பட்ட, நம்பகமான செய்தி நிறுவனங்கள் வெளியிடும் அறிக்கைகளை நாங்கள் தொடர்ந்து வாசிக்கிறோம். ஒவ்வொரு செய்தியையும் அதிலுள்ள உண்மைத் தகவல்களைக் கொண்டு <strong>எங்கள் சொந்த வார்த்தைகளில் புதிதாக எழுதுகிறோம்</strong>. எந்த வெளியீட்டாளரின் உரையையும் அப்படியே மீள்பதிப்பிப்பதில்லை.</p><p>செய்தி ஆங்கிலத்தில் வெளியாகியிருந்தால், அது தமிழில் எழுதப்பட்டே வெளியிடப்படும். எனவே தளத்தில் உள்ள அனைத்துச் செய்திகளும் தமிழில் இருக்கும்.</p></section>
+<section><h2>தானியங்கி உதவி</h2><p>செய்திகளை வாசித்துத் தமிழில் எழுதுவதற்குத் தானியங்கி (AI) உதவி பயன்படுத்தப்படுகிறது. அது மூல அறிக்கையில் உள்ள தகவல்களை மட்டுமே பயன்படுத்த வேண்டும் — புதிய தகவலோ கருத்தோ சேர்க்கப்படுவதில்லை. ஒவ்வொரு செய்திப் பக்கத்திலும் இதற்கான குறிப்பு காட்டப்படுகிறது.</p><p>செய்தி எழுதப் போதுமான தகவல் கிடைக்காதபோது, அரைகுறையான செய்தியை வெளியிடாமல் விட்டுவிடுகிறோம்.</p></section>
+""",
+        },
+        {
+            "slug": "editorial-policy",
+            "heading": "ஆசிரியர் கொள்கை",
+            "intro": "துல்லியம், வெளிப்படைத்தன்மை மற்றும் வாசகரின் நம்பிக்கை ஆகியவை எங்கள் வெளியீட்டு முடிவுகளின் அடிப்படை.",
+            "description": "யாழ் முரசின் செய்தித் தேர்வு, எழுதும் முறை, தானியங்கி உதவி மற்றும் வெளியீட்டு தரநிலைகள்.",
+            "content": """
+<section><h2>எந்தச் செய்திகள்?</h2><ul><li>நிறுவப்பட்ட, நம்பகமான செய்தி நிறுவனங்கள் வெளியிட்ட அறிக்கைகளை மட்டுமே அடிப்படையாகக் கொள்கிறோம்.</li><li>வதந்திகள், உறுதிப்படுத்தப்படாத சமூக ஊடகக் கூற்றுகள் செய்தியாக எடுக்கப்படுவதில்லை.</li></ul></section>
+<section><h2>எழுதும் முறை</h2><ul><li>ஒவ்வொரு செய்தியும் மூல அறிக்கையிலுள்ள உண்மைத் தகவல்களைக் கொண்டு எங்கள் சொந்த வார்த்தைகளில் எழுதப்படுகிறது.</li><li>எந்த வெளியீட்டாளரின் வாக்கியங்களும் அப்படியே நகலெடுக்கப்படுவதில்லை.</li><li>மூலத்தில் இல்லாத எந்தத் தகவலும், பெயரும், எண்ணும் சேர்க்கப்படுவதில்லை.</li><li>ஆங்கிலச் செய்திகள் தமிழில் எழுதப்பட்ட பின்னரே வெளியிடப்படும்.</li></ul></section>
+<section><h2>வெளியிடாமல் விடப்படுபவை</h2><ul><li>செய்தி எழுதப் போதுமான தகவல் இல்லாத, வெறும் தலைப்பு மட்டுமான பதிவுகள்.</li><li>சேதமடைந்த அல்லது முற்றுப்பெறாத தலைப்புகள்.</li><li>இவை வாசகருக்குக் காட்டப்படுவதில்லை; தேவையான தகவல் கிடைத்ததும் மீள்பரிசீலிக்கப்படும்.</li></ul></section>
+<section><h2>தானியங்கி உதவி</h2><p>செய்திகளை வாசித்துத் தமிழில் எழுதுவதற்குத் தானியங்கி (AI) உதவி பயன்படுத்தப்படுகிறது. அது மூல அறிக்கையில் உள்ள தகவல்களை மட்டுமே பயன்படுத்த வேண்டும்; புதிய தகவல், கருத்து அல்லது உறுதிப்படுத்தப்படாத கூற்று சேர்க்கப்படக்கூடாது. ஒவ்வொரு செய்திப் பக்கத்திலும் இதற்கான குறிப்பு காட்டப்படும்.</p></section>
+<section><h2>விளம்பரமும் ஆசிரியர் சுதந்திரமும்</h2><p>விளம்பர உள்ளடக்கம் “விளம்பரம்” என்று தெளிவாகக் குறிக்கப்படும். விளம்பர உறவுகள் செய்தித் தேர்வு அல்லது செய்தியின் தொனியை நிர்ணயிக்கக் கூடாது.</p></section>
+""",
+        },
+        {
+            "slug": "corrections",
+            "heading": "திருத்தங்கள்",
+            "intro": "பிழை இருப்பதை அறிந்தவுடன் அதை விரைவாகவும் வெளிப்படையாகவும் திருத்துவது வாசகர்களிடம் எங்களுக்குள்ள பொறுப்பு.",
+            "description": "யாழ் முரசில் செய்திப் பிழைகளை அறிவிக்கும் மற்றும் திருத்தும் நடைமுறை.",
+            "content": """
+<section><h2>பிழையை அறிவிக்க</h2><p>செய்தியின் தலைப்பு, பக்க இணைப்பு, தவறாக இருப்பதாக நினைக்கும் பகுதி மற்றும் சரியான தகவலுக்கான ஆதாரத்தை அனுப்புங்கள்.</p>%s</section>
+<section><h2>நாங்கள் என்ன செய்வோம்?</h2><ul><li>அறிவிப்பை, நாங்கள் செய்தியை எழுதப் பயன்படுத்திய அறிக்கையுடன் ஒப்பிட்டுச் சரிபார்ப்போம்.</li><li>எங்கள் எழுத்தில் பிழை இருந்தால் அதை உடனே திருத்துவோம், அல்லது செய்தியைத் தற்காலிகமாக மறைப்போம்.</li><li>மூல அறிக்கை பின்னர் திருத்தப்பட்டாலோ திரும்பப் பெறப்பட்டாலோ, எங்கள் செய்தியையும் மீளாய்வு செய்வோம்.</li></ul></section>
+""" % contact_status,
+        },
+        {
+            "slug": "privacy",
+            "heading": "தனியுரிமை",
+            "intro": "இந்தத் தளத்தை வாசிக்க கணக்கு தேவையில்லை. தளம் இயங்கத் தேவையான குறைந்தபட்ச தகவல் மட்டுமே பயன்படுத்தப்படுகிறது.",
+            "description": "யாழ் முரசு இணையத்தளத்தின் தனியுரிமை மற்றும் வெளிப்புற சேவைகள் பற்றிய தகவல்.",
+            "content": """
+<section><h2>இந்தத் தளம் சேமிப்பது</h2><p>நீங்கள் தேர்ந்தெடுக்கும் ஒளி அல்லது இருள் தோற்றம் உங்கள் உலாவியில் உள்ளூர் அமைப்பாகச் சேமிக்கப்படும். இது உங்களை அடையாளம் காண பயன்படுத்தப்படாது.</p></section>
+<section><h2>வெளிப்புற இணைப்புகள் மற்றும் ஊடகம்</h2><p>செய்தி மூலங்கள், காணொளிகள் மற்றும் சமூகப் பகிர்வு சேவைகள் வெளிப்புற தளங்களுக்கு வழிநடத்தலாம். அவற்றைத் திறக்கும் போது அந்தச் சேவைகளின் தனியுரிமைக் கொள்கைகள் பொருந்தும்.</p></section>
+<section><h2>விளம்பரங்கள்</h2><p>எதிர்காலத்தில் விளம்பர வலைப்பின்னல் பயன்படுத்தப்பட்டால், அது குக்கிகள் அல்லது சாதனத் தகவலைப் பயன்படுத்தலாம். அத்தகைய சேவை செயல்படுத்தப்படும் போது இந்தக் கொள்கை அதற்கேற்ப புதுப்பிக்கப்படும்.</p></section>
+<section><h2>சேவைப் பதிவுகள்</h2><p>தளத்தை வழங்கும் சேவை பாதுகாப்பு, பிழை கண்டறிதல் மற்றும் போக்குவரத்து அளவீட்டுக்காக IP முகவரி, உலாவி வகை மற்றும் கோரிக்கை நேரம் போன்ற வழக்கமான தொழில்நுட்பப் பதிவுகளை வைத்திருக்கலாம்.</p></section>
+""",
+        },
+        {
+            "slug": "contact",
+            "heading": "தொடர்பு",
+            "intro": "செய்தித் திருத்தம், உள்ளூர் தகவல், விளம்பரம் அல்லது தளத்தைப் பற்றிய கருத்தை சரியான விவரங்களுடன் அனுப்புங்கள்.",
+            "description": "யாழ் முரசை செய்தித் திருத்தம், தகவல் மற்றும் விளம்பர விசாரணைகளுக்குத் தொடர்புகொள்ளும் வழி.",
+            "content": """
+<section>%s<div class="contact-cards"><div class="contact-card"><h3>செய்தித் திருத்தம்</h3><p>செய்திப் பக்க இணைப்பு, திருத்த வேண்டிய பகுதி மற்றும் நம்பகமான ஆதாரத்தை குறிப்பிடுங்கள்.</p></div><div class="contact-card"><h3>உள்ளூர் தகவல்</h3><p>நிகழ்வின் இடம், தேதி, நேரம் மற்றும் உறுதிப்படுத்தக்கூடிய ஆதாரங்களை அனுப்புங்கள்.</p></div><div class="contact-card"><h3>விளம்பரம்</h3><p>விளம்பர வடிவம், காலம் மற்றும் தொடர்பு விபரங்களைச் சேர்க்கவும். விளம்பரங்கள் தெளிவாகக் குறிக்கப்படும்.</p></div></div></section>
+""" % contact_status,
+        },
+    ]
 
 
 # ---------------------------------------------------------------- page parts
@@ -196,11 +386,11 @@ def social_links(site):
 def share_bar(extra_class=""):
     return """<div class="share-bar %s">
   <span class="share-label">பகிர்க</span>
-  <button class="sh sh-fb" data-net="facebook" aria-label="Facebook இல் பகிர்க"><svg class="i"><use href="#i-fb"/></svg><span>Facebook</span></button>
-  <button class="sh sh-x" data-net="x" aria-label="X இல் பகிர்க"><svg class="i"><use href="#i-x"/></svg></button>
-  <button class="sh sh-ig" data-net="instagram" aria-label="Instagram இல் பகிர்க"><svg class="i"><use href="#i-ig"/></svg><span>Instagram</span></button>
-  <button class="sh sh-wa" data-net="whatsapp" aria-label="WhatsApp இல் பகிர்க"><svg class="i"><use href="#i-wa"/></svg><span>WhatsApp</span></button>
-  <button class="sh sh-copy" data-net="copy" aria-label="இணைப்பை நகலெடு"><svg class="i"><use href="#i-link"/></svg></button>
+  <button class="sh sh-fb" type="button" data-net="facebook" aria-label="Facebook இல் பகிர்க"><svg class="i"><use href="#i-fb"/></svg><span>Facebook</span></button>
+  <button class="sh sh-x" type="button" data-net="x" aria-label="X இல் பகிர்க"><svg class="i"><use href="#i-x"/></svg></button>
+  <button class="sh sh-ig" type="button" data-net="instagram" aria-label="Instagram இல் பகிர்க"><svg class="i"><use href="#i-ig"/></svg><span>Instagram</span></button>
+  <button class="sh sh-wa" type="button" data-net="whatsapp" aria-label="WhatsApp இல் பகிர்க"><svg class="i"><use href="#i-wa"/></svg><span>WhatsApp</span></button>
+  <button class="sh sh-copy" type="button" data-net="copy" aria-label="இணைப்பை நகலெடு"><svg class="i"><use href="#i-link"/></svg></button>
 </div>""" % extra_class
 
 
@@ -211,8 +401,8 @@ def paragraphs(text):
 
 def placeholder_html(item, cats):
     cat = cats.get(item.get("category"), {"name": "", "color": "#8b1e1e"})
-    return ('<div class="ph" style="--c:%s"><span class="ph-cat">%s</span><span class="ph-src">%s</span></div>'
-            % (cat["color"], esc(cat["name"]), esc(item.get("source", ""))))
+    return ('<div class="ph" style="--c:%s"><span class="ph-cat">%s</span></div>'
+            % (cat["color"], esc(cat["name"])))
 
 
 def article_page(item, ctx_base, site, cats, related):
@@ -235,8 +425,9 @@ def article_page(item, ctx_base, site, cats, related):
     gallery = ""
     if len(images) > 1:
         gallery = ('<section class="gallery"><h2 class="block-title">புகைப்படங்கள்</h2><div class="gallery-grid">%s</div></section>'
-                   % "".join('<button class="gallery-item" data-lightbox="%d"><img src="%s" alt="" loading="lazy"></button>'
-                             % (n, esc(src)) for n, src in enumerate(images)))
+                   % "".join('<button class="gallery-item" type="button" data-lightbox="%d" '
+                             'aria-label="படம் %d ஐப் பெரிதாக்குக"><img src="%s" alt="%s — படம் %d" loading="lazy"></button>'
+                             % (n, n + 1, esc(src), esc(item["title"]), n + 1) for n, src in enumerate(images)))
     videos = ""
     if item.get("videos"):
         videos = ('<section class="videos"><h2 class="block-title">காணொளிகள்</h2>%s</section>'
@@ -245,35 +436,27 @@ def article_page(item, ctx_base, site, cats, related):
     if is_local:
         body = paragraphs(item.get("body") or item.get("summary", ""))
         summary = '<p class="lede">%s</p>' % esc(item["summary"]) if item.get("summary") and item.get("body") else ""
-        source_box = ""
+        note = ""
         byline = esc(item.get("author") or site["name"])
     else:
         summary = ""
         parts = []
-        if item.get("summary"):
-            parts.append('<p class="lede">%s</p>' % esc(item["summary"]))
-            if item.get("ai"):
-                parts.append('<p class="ai-note">இந்தச் சுருக்கம், %s வெளியிட்ட செய்தியின் அடிப்படையில் '
-                             'தானியங்கி உதவியுடன் தமிழில் தயாரிக்கப்பட்டது.</p>' % esc(item.get("source", "")))
-            if item.get("excerpt") and item["excerpt"] != item["summary"]:
-                parts.append('<blockquote class="source-quote"><p>%s</p><cite>— %s</cite></blockquote>'
-                             % (esc(item["excerpt"]), esc(item.get("source", ""))))
-        else:
-            parts.append('<p class="thin-note">இது தலைப்புச் செய்தி மட்டும். முழு விவரங்களை மூலத்தில் வாசிக்கலாம்.</p>')
-        if item.get("orig_title"):
-            parts.append('<p class="orig-title">மூலத் தலைப்பு (English): %s</p>' % esc(item["orig_title"]))
+        body_parts = item.get("body_paragraphs", [])
+        lede = item.get("summary", "")
+        # The lede is a separate one-line summary, but it can come back as the opening
+        # sentence of the report. Printing both would just repeat it to the reader.
+        if lede and not (body_parts and body_parts[0].startswith(lede.rstrip("… ")[:60])):
+            parts.append('<p class="lede">%s</p>' % esc(lede))
+        parts += ["<p>%s</p>" % esc(p) for p in body_parts]
         body = "\n".join(parts)
-        source_box = """<div class="source-box">
-  <div><span class="source-box-label">மூலம்</span><strong>%s</strong>
-  <p>இந்தச் செய்தி %s இணையத்தளத்தில் வெளியானது. முழு விவரங்களையும் அங்கே வாசிக்கலாம்.</p></div>
-  <a class="btn" href="%s" target="_blank" rel="noopener">முழுச் செய்தியை வாசிக்க <svg class="i"><use href="#i-ext"/></svg></a>
-</div>""" % (esc(item.get("source", "")), esc(item.get("source", "")), esc(item["link"]))
-        byline = esc(item.get("source", ""))
+        note = ('<p class="ai-note">இந்தச் செய்தி, வெளியான தகவல்களின் அடிப்படையில் '
+                'தானியங்கி உதவியுடன் தமிழில் எழுதப்பட்டது.</p>')
+        byline = esc(site["name"])
 
-    lang_badge = '<span class="lang-badge">English</span>' if item.get("lang") == "en" else ""
     related_html = "".join(
         '<li><a href="%s.html"><span class="rel-title">%s</span><span class="rel-meta">%s</span></a></li>'
-        % (esc(r["id"]), esc(r["title"]), esc(r.get("source", ""))) for r in related)
+        % (esc(r["id"]), esc(r["title"]),
+           esc(tamil_date(parse_date(r.get("published")), with_time=False))) for r in related)
 
     description = item.get("summary") or item.get("body", "")[:200] or item["title"]
     site_url = site.get("site_url", "").rstrip("/")
@@ -294,17 +477,18 @@ def article_page(item, ctx_base, site, cats, related):
         "iso": published.isoformat(),
         "date_human": tamil_date(published),
         "byline": byline,
-        "lang_badge": lang_badge,
         "hero": hero,
         "summary": summary,
         "body": body,
         "gallery": gallery,
         "videos": videos,
-        "source_box": source_box,
+        "ai_note": note,
         "share_top": share_bar(),
         "share_bottom": share_bar("share-bottom"),
         "related": related_html,
         "images_json": esc(json.dumps(images or ([hero_img] if hero_img else []), ensure_ascii=False)),
+        "author_name": item.get("author") or site["name"],
+        "hero_image_url": og_image if og_image.startswith("http") else "",
     }
 
 
@@ -323,9 +507,10 @@ def rss_xml(site, items):
             % (esc(site["name"]), url, esc(site.get("description", "")), "".join(entries)))
 
 
-def sitemap_xml(site, items):
+def sitemap_xml(site, items, pages=None):
     url = site["site_url"].rstrip("/")
     locs = ["<url><loc>%s/</loc></url>" % url]
+    locs += ["<url><loc>%s/%s.html</loc></url>" % (url, p["slug"]) for p in (pages or [])]
     locs += ["<url><loc>%s/news/%s.html</loc><lastmod>%s</lastmod></url>"
              % (url, i["id"], parse_date(i["published"]).date().isoformat()) for i in items]
     return ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">%s</urlset>\n'
@@ -339,7 +524,22 @@ def build(verbose=True):
     ads = load_json(ROOT / "config" / "ads.json", {"slots": {}})
     ads.pop("_help", None)
     cats = {c["id"]: c for c in site["categories"]}
-    items = collect_items(site)
+    assessed = [(i, hold_reason(i)) for i in collect_items(site)]
+    held = [(i, reason) for i, reason in assessed if reason]
+    items = drop_repeats([i for i, reason in assessed if not reason])
+
+    # Every fetched story has to be rewritten in Tamil before it can be published, so a
+    # broken or unconfigured AI step would otherwise quietly empty the site. Rather than
+    # publish a near-empty front page, leave the pages already in site/ exactly as they are.
+    floor = site.get("min_publishable", 8)
+    if len(items) < floor and held:
+        print("REFUSING TO BUILD: only %d stories are ready to publish (need %d), and %d are "
+              "waiting to be rewritten.\nThe site in site/ has been left untouched.\n"
+              "Most likely ANTHROPIC_API_KEY is not set, so scripts/ai_enrich.py cannot "
+              "write anything." % (len(items), floor, len(held)))
+        return 0
+
+    pages = static_pages(site)
     version = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%d%H%M%S")
 
     partial = {name: (TEMPLATES / ("_%s.html" % name)).read_text(encoding="utf-8")
@@ -356,8 +556,12 @@ def build(verbose=True):
             "nav_items": nav_items(site, base),
             "social_links": social_links(site),
             "year": dt.datetime.now(SL_TZ).year,
-            "contact": ('<a href="mailto:%s">%s</a>' % (esc(site["contact_email"]), esc(site["contact_email"]))
-                        if site.get("contact_email") else ""),
+            "contact_line": ('<p class="small">விளம்பரங்களுக்கு: <a href="mailto:%s">%s</a></p>'
+                             % (esc(site["contact_email"]), esc(site["contact_email"])))
+                            if site.get("contact_email") else "",
+            "canonical_tag": "",
+            "structured_data": "",
+            "data_script": "",
         }
         ctx.update(extra)
         for name, tpl in partial.items():
@@ -371,15 +575,44 @@ def build(verbose=True):
             "items": [client_item(i) for i in items]}
     write(SITE / "data" / "news.js",
           "window.NEWS_DATA = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n")
+    compact_data = {"generated": data["generated"], "site": public_site, "ads": ads,
+                    "items": [client_item(i) for i in items[:12]]}
+    write(SITE / "data" / "chrome.js",
+          "window.NEWS_DATA = " + json.dumps(compact_data, ensure_ascii=False, separators=(",", ":")) + ";\n")
 
     # home page
     index_tpl = (TEMPLATES / "index.html").read_text(encoding="utf-8")
+    home_hero, home_grid, home_latest, home_count, home_chips = home_initial_content(items, cats, site)
+    home_url = site.get("site_url", "").rstrip("/") + "/" if site.get("site_url") else ""
+    home_schema = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": site["name"],
+        "alternateName": site.get("name_en", ""),
+        "url": home_url,
+        "inLanguage": "ta-LK",
+        "description": site.get("description", ""),
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": home_url + "?q={search_term_string}",
+            "query-input": "required name=search_term_string",
+        } if home_url else None,
+    }
+    home_schema = {k: v for k, v in home_schema.items() if v not in (None, "")}
     write(SITE / "index.html", render(index_tpl, page_ctx("", {
         "page_title": esc(site["name"]) + " — " + esc(site.get("tagline", "")),
         "page_description": esc(site.get("description", "")),
         "page_url": esc(site.get("site_url", "")),
         "og_image": "",
         "og_type": "website",
+        "canonical_tag": '<link rel="canonical" href="%s">' % esc(home_url) if home_url else "",
+        "structured_data": '<script type="application/ld+json">%s</script>' % json.dumps(home_schema, ensure_ascii=False).replace("</", "<\\/"),
+        "data_script": '<script src="data/news.js?v=%s"></script>' % version,
+        "home_hero": home_hero,
+        "home_grid": home_grid,
+        "home_latest": home_latest,
+        "home_count": home_count,
+        "home_chips": home_chips,
     })))
 
     # story pages
@@ -388,11 +621,61 @@ def build(verbose=True):
     for item in (display(i) for i in items):
         related = [display(r) for r in items if r["id"] != item["id"] and r.get("category") == item.get("category")][:6]
         ctx = article_page(item, "../", site, cats, related)
+        article_schema = {
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "headline": item["title"],
+            "description": html.unescape(ctx["description"]),
+            "datePublished": ctx["iso"],
+            "dateModified": ctx["iso"],
+            "inLanguage": "ta-LK",
+            "mainEntityOfPage": {"@type": "WebPage", "@id": html.unescape(ctx["page_url"])},
+            "author": {"@type": "Organization", "name": ctx["author_name"]},
+            "publisher": {
+                "@type": "NewsMediaOrganization",
+                "name": site["name"],
+                "url": site.get("site_url", ""),
+                "logo": {"@type": "ImageObject", "url": site.get("site_url", "").rstrip("/") + "/assets/img/logo.svg"},
+            },
+        }
+        if ctx["hero_image_url"]:
+            article_schema["image"] = [ctx["hero_image_url"]]
         ctx.update({"page_title": ctx["title"] + " | " + esc(site["name"]),
-                    "page_description": ctx["description"], "og_type": "article"})
+                    "page_description": ctx["description"], "og_type": "article",
+                    "canonical_tag": '<link rel="canonical" href="%s">' % ctx["page_url"] if ctx["page_url"] else "",
+                    "structured_data": '<script type="application/ld+json">%s</script>' % json.dumps(article_schema, ensure_ascii=False).replace("</", "<\\/"),
+                    "data_script": '<script src="../data/chrome.js?v=%s"></script>' % version})
         filename = "%s.html" % item["id"]
         wanted.add(filename)
         write(NEWS_DIR / filename, render(article_tpl, page_ctx("../", ctx)))
+
+    # trust, editorial and contact pages
+    page_tpl = (TEMPLATES / "page.html").read_text(encoding="utf-8")
+    for page in pages:
+        page_url = "%s/%s.html" % (site.get("site_url", "").rstrip("/"), page["slug"])
+        page_schema = {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": page["heading"],
+            "description": page["description"],
+            "url": page_url,
+            "inLanguage": "ta-LK",
+            "isPartOf": {"@type": "WebSite", "name": site["name"], "url": site.get("site_url", "")},
+        }
+        page_ctx_data = {
+            "page_title": esc(page["heading"]) + " | " + esc(site["name"]),
+            "page_description": esc(page["description"]),
+            "page_url": esc(page_url),
+            "og_image": "",
+            "og_type": "website",
+            "canonical_tag": '<link rel="canonical" href="%s">' % esc(page_url),
+            "structured_data": '<script type="application/ld+json">%s</script>' % json.dumps(page_schema, ensure_ascii=False).replace("</", "<\\/"),
+            "data_script": '<script src="data/chrome.js?v=%s"></script>' % version,
+            "page_heading": esc(page["heading"]),
+            "page_intro": esc(page["intro"]),
+            "page_content": page["content"],
+        }
+        write(SITE / (page["slug"] + ".html"), render(page_tpl, page_ctx("", page_ctx_data)))
 
     # remove pages for stories that have dropped out
     removed = 0
@@ -403,12 +686,12 @@ def build(verbose=True):
 
     if site.get("site_url"):
         write(SITE / "rss.xml", rss_xml(site, items))
-        write(SITE / "sitemap.xml", sitemap_xml(site, items))
+        write(SITE / "sitemap.xml", sitemap_xml(site, items, pages))
 
     if verbose:
         local = sum(1 for i in items if i.get("type") == "local")
-        print("Built site: %d stories (%d own posts, %d fetched), %d old pages removed -> %s"
-              % (len(items), local, len(items) - local, removed, SITE))
+        print("Built site: %d stories (%d own posts, %d fetched), %d quality-held, %d old pages removed -> %s"
+              % (len(items), local, len(items) - local, len(held), removed, SITE))
     return len(items)
 
 

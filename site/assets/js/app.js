@@ -74,7 +74,7 @@
     var img = item.image || (item.images && item.images[0]);
     var vthumb = !img && item.videos && item.videos.length ? videoInfo(item.videos[0]).thumb : null;
     var src = img ? asset(img) : vthumb;
-    var ph = '<div class="ph" style="--c:' + c.color + '"><span class="ph-cat">' + esc(c.name) + '</span><span class="ph-src">' + esc(item.source || "") + "</span></div>";
+    var ph = '<div class="ph" style="--c:' + c.color + '"><span class="ph-cat">' + esc(c.name) + "</span></div>";
     if (!src) return '<div class="thumb">' + ph + "</div>";
     // If a remote image fails to load, fall back to the placeholder art.
     return '<div class="thumb">' + ph + '<img src="' + esc(src) + '" alt="" ' + (eager ? "" : 'loading="lazy" ') +
@@ -82,8 +82,8 @@
   }
   function metaHtml(item) {
     var fresh = isFresh(item.published);
-    return '<div class="meta"><span class="src">' + esc(item.source || "") + '</span><span class="dot"></span>' +
-      '<time datetime="' + esc(item.published) + '"' + (fresh ? ' class="is-new"' : "") + ">" + timeAgo(item.published) + "</time></div>";
+    return '<div class="meta"><time datetime="' + esc(item.published) + '"' + (fresh ? ' class="is-new"' : "") +
+      ">" + timeAgo(item.published) + "</time></div>";
   }
   function badge(item) {
     var c = cat(item.category);
@@ -111,7 +111,7 @@
   }
   function rankHtml(item) {
     return '<li><a href="' + pageUrl(item) + '"><span class="r-title">' + esc(item.title) + '</span><span class="r-meta">' +
-      esc(item.source || "") + " · " + timeAgo(item.published) + "</span></a></li>";
+      timeAgo(item.published) + "</span></a></li>";
   }
 
   /* ---------------- ads ---------------- */
@@ -299,7 +299,7 @@
       return ITEMS.filter(function (i) {
         if (state.cat === "video" && !(i.videos && i.videos.length)) return false;
         if (state.cat !== "all" && state.cat !== "video" && i.category !== state.cat && (i.tags || []).indexOf(state.cat) < 0) return false;
-        if (q && (i.title + " " + (i.summary || "") + " " + (i.source || "")).toLowerCase().indexOf(q) < 0) return false;
+        if (q && (i.title + " " + (i.summary || "")).toLowerCase().indexOf(q) < 0) return false;
         return true;
       });
     }
@@ -429,11 +429,17 @@
       if (b) openLightbox(photos.map(function (p) { return p.src; }), +b.getAttribute("data-photo"));
     });
 
-    // sources widget
-    var sources = {};
-    ITEMS.forEach(function (i) { if (i.type !== "local" && i.source) sources[i.source] = (sources[i.source] || 0) + 1; });
-    $("#source-tags").innerHTML = Object.keys(sources).sort(function (a, b) { return sources[b] - sources[a]; })
-      .map(function (s) { return "<span>" + esc(s) + "</span>"; }).join("");
+    // how many stories sit in each section
+    var counts = {};
+    ITEMS.forEach(function (i) { counts[i.category] = (counts[i.category] || 0) + 1; });
+    var box = $("#section-counts");
+    if (box) {
+      box.innerHTML = (SITE.categories || []).filter(function (c) { return counts[c.id]; })
+        .map(function (c) {
+          return '<a href="#cat=' + esc(c.id) + '" style="--c:' + c.color + '">' + esc(c.name) +
+            '<b>' + counts[c.id] + "</b></a>";
+        }).join("");
+    }
 
     readHash();
     render();

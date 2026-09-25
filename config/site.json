@@ -2,7 +2,7 @@
   "name": "யாழ் முரசு",
   "name_en": "Yarl Murasu",
   "tagline": "யாழ்ப்பாணத்தின் நம்பகமான செய்திக் குரல்",
-  "description": "யாழ்ப்பாணம், வடமாகாணம் மற்றும் இலங்கையின் சமீபத்திய தமிழ்ச் செய்திகள் — நம்பகமான மூலங்களிலிருந்து.",
+  "description": "யாழ்ப்பாணம், வடமாகாணம் மற்றும் இலங்கையின் சமீபத்திய செய்திகள் — முழுமையாக, தெளிவான தமிழில்.",
   "site_url": "https://priyanthants.github.io/yarl-murasu",
   "contact_email": "",
   "social": {
@@ -13,6 +13,7 @@
     "whatsapp": ""
   },
   "max_items": 200,
+  "min_publishable": 8,
   "home_page_size": 12,
   "in_feed_ad_every": 6,
   "breaking_hours": 6,

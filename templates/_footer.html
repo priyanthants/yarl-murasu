@@ -15,9 +15,19 @@
       <ul class="footer-links">{{nav_items}}</ul>
     </div>
     <div>
+      <h4>தகவல்</h4>
+      <ul class="footer-links footer-info-links">
+        <li><a href="{{base}}about.html">எம்மைப் பற்றி</a></li>
+        <li><a href="{{base}}editorial-policy.html">ஆசிரியர் கொள்கை</a></li>
+        <li><a href="{{base}}corrections.html">திருத்தங்கள்</a></li>
+        <li><a href="{{base}}privacy.html">தனியுரிமை</a></li>
+        <li><a href="{{base}}contact.html">தொடர்பு</a></li>
+      </ul>
+    </div>
+    <div>
       <h4>எம்மைப் பற்றி</h4>
-      <p class="small">தானியங்கிச் செய்திகள் நம்பகமான செய்தி நிறுவனங்களிலிருந்து தலைப்பு, சுருக்கம், மூல இணைப்புடன் மட்டுமே பகிரப்படுகின்றன. முழு உரிமையும் அந்தந்த வெளியீட்டாளர்களுக்கே.</p>
-      <p class="small">விளம்பரங்களுக்கு: {{contact}}</p>
+      <p class="small">இத்தளத்தின் செய்திகள், நம்பகமான செய்தி நிறுவனங்கள் வெளியிட்ட அறிக்கைகளிலுள்ள தகவல்களைக் கொண்டு, தானியங்கி உதவியுடன் எங்கள் சொந்த தமிழில் எழுதப்படுகின்றன.</p>
+      {{contact_line}}
     </div>
   </div>
   <div class="footer-bottom"><div class="wrap">© {{year}} {{site_name}} · <span id="updated-at"></span></div></div>
@@ -30,11 +40,11 @@
     <h3 id="share-title">இந்தச் செய்தியைப் பகிர்க</h3>
     <p class="sheet-headline" id="share-headline"></p>
     <div class="sheet-grid">
-      <button class="sheet-btn" data-net="facebook"><span class="sheet-ic s-fb"><svg class="i"><use href="#i-fb"/></svg></span>Facebook</button>
-      <button class="sheet-btn" data-net="x"><span class="sheet-ic s-x"><svg class="i"><use href="#i-x"/></svg></span>X</button>
-      <button class="sheet-btn" data-net="instagram"><span class="sheet-ic s-ig"><svg class="i"><use href="#i-ig"/></svg></span>Instagram</button>
-      <button class="sheet-btn" data-net="whatsapp"><span class="sheet-ic s-wa"><svg class="i"><use href="#i-wa"/></svg></span>WhatsApp</button>
-      <button class="sheet-btn" data-net="copy"><span class="sheet-ic s-copy"><svg class="i"><use href="#i-link"/></svg></span>இணைப்பு</button>
+      <button class="sheet-btn" type="button" data-net="facebook"><span class="sheet-ic s-fb"><svg class="i"><use href="#i-fb"/></svg></span>Facebook</button>
+      <button class="sheet-btn" type="button" data-net="x"><span class="sheet-ic s-x"><svg class="i"><use href="#i-x"/></svg></span>X</button>
+      <button class="sheet-btn" type="button" data-net="instagram"><span class="sheet-ic s-ig"><svg class="i"><use href="#i-ig"/></svg></span>Instagram</button>
+      <button class="sheet-btn" type="button" data-net="whatsapp"><span class="sheet-ic s-wa"><svg class="i"><use href="#i-wa"/></svg></span>WhatsApp</button>
+      <button class="sheet-btn" type="button" data-net="copy"><span class="sheet-ic s-copy"><svg class="i"><use href="#i-link"/></svg></span>இணைப்பு</button>
     </div>
     <button class="sheet-close" type="button" data-close>மூடு</button>
   </div>
@@ -50,7 +60,7 @@
 </div>
 
 <!-- photo viewer -->
-<div class="lightbox" id="lightbox" hidden>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="புகைப்படக் காட்சி" hidden>
   <button class="lb-btn lb-close" type="button" data-close aria-label="மூடு"><svg class="i"><use href="#i-close"/></svg></button>
   <button class="lb-btn lb-prev" type="button" aria-label="முந்தைய படம்"><svg class="i"><use href="#i-left"/></svg></button>
   <img id="lightbox-img" alt="">
@@ -80,5 +90,5 @@
   <symbol id="i-sun" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></symbol>
 </svg>
 
-<script src="{{base}}data/news.js?v={{v}}"></script>
+{{data_script}}
 <script src="{{base}}assets/js/app.js?v={{v}}"></script>

@@ -43,7 +43,7 @@ def find_chrome(explicit=None):
 
 
 def pick_items(site, count, category=None, item_id=None, day=None):
-    items = [build.display(i) for i in build.collect_items(site)]
+    items = [build.display(i) for i in build.collect_items(site) if not build.hold_reason(i)]
     if item_id:
         chosen = [i for i in items if i["id"] == item_id]
         if not chosen:
@@ -80,7 +80,6 @@ def card_html(site, items, width, height, day):
           <span class="chip" style="background:{color}">{cat}</span>
           <h2>{title}</h2>
           {summary}
-          <span class="src">{source}</span>
         </div>
         {num}
       </article>""".format(
@@ -88,7 +87,6 @@ def card_html(site, items, width, height, day):
             picture=('<div class="pic" style="background-image:url(\'%s\')"></div>' % esc(image)) if image else "",
             color=cat["color"], cat=esc(cat["name"]), title=esc(item["title"]),
             summary=('<p>%s</p>' % esc(item["summary"][:260])) if single and item.get("summary") else "",
-            source=esc(item.get("source", "")),
             num="" if single else '<span class="num">%02d</span>' % n))
 
     return """<!doctype html><html lang="ta"><head><meta charset="utf-8">
@@ -113,7 +111,6 @@ def card_html(site, items, width, height, day):
   .chip{{display:inline-block;color:#fff;font-weight:700;font-size:19px;padding:2px 15px;border-radius:999px;margin-bottom:8px}}
   .story h2{{font-family:"Noto Serif Tamil",serif;font-weight:800;font-size:{title}px;line-height:1.45;
     display:-webkit-box;-webkit-line-clamp:{lines};-webkit-box-orient:vertical;overflow:hidden}}
-  .src{{display:block;margin-top:8px;font-size:19px;color:#7a6e64;font-weight:600}}
   .num{{position:absolute;top:-14px;right:22px;font-family:"Noto Serif Tamil",serif;font-weight:800;font-size:40px;
     color:#e0a526;background:#5c1111;border-radius:50%;width:70px;height:70px;display:grid;place-items:center;
     box-shadow:0 6px 16px rgba(0,0,0,.3)}}

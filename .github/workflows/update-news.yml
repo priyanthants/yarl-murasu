@@ -31,10 +31,23 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install the Anthropic SDK (for Tamil summaries)
+      - name: Install the Anthropic SDK (for the Tamil rewrite)
         run: pip install --quiet anthropic
 
-      - name: Fetch news, write Tamil summaries and build site
+      # Every story is rewritten in Tamil before it is published, so without this secret
+      # no new story can go live. Stop here so the run goes red and GitHub emails about
+      # it; Pages keeps serving the last deployment, so the site stays up meanwhile.
+      - name: Check the Anthropic API key is configured
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::error title=ANTHROPIC_API_KEY is not set::Stories are rewritten in Tamil by Claude before publication, so no new story can go live and the site will keep serving its current pages. Add the key under Settings > Secrets and variables > Actions > New repository secret."
+            exit 1
+          fi
+          echo "Anthropic API key found."
+
+      - name: Fetch news, write it in Tamil and build the site
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/fetch_news.py

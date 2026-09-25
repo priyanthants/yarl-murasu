@@ -1,5 +1,5 @@
 {
-  "_help": "Only publishers in trusted_domains are published. Types: rss (a publisher's own feed), google_news (Tamil search, headline only), html_index (read a news site's front page, then each article page for its headline, picture and opening lines). Only short excerpts are stored; full articles are never republished.",
+  "_help": "Only publishers in trusted_domains are read. Types: rss (a publisher's own feed), html_index (read a news site's front page, then each article page). Every story is read in full, then rewritten in our own Tamil by scripts/ai_enrich.py — the publisher's own wording is never published.",
   "max_age_days": 7,
   "max_store_items": 400,
   "request_timeout": 20,
@@ -16,10 +16,12 @@
     "gov.lk",
     "hindutamil.in",
     "hirunews.lk",
+    "island.lk",
     "itnnews.lk",
     "news.lk",
     "news.navy.lk",
     "newsfirst.lk",
+    "newswire.lk",
     "np.gov.lk",
     "pmdnews.lk",
     "police.lk",
@@ -81,7 +83,7 @@
       "url": "https://feeds.bbci.co.uk/tamil/rss.xml",
       "source_name": "BBC தமிழ்",
       "default_category": "world",
-      "max_items": 12,
+      "max_items": 20,
       "enabled": true
     },
     {
@@ -90,33 +92,52 @@
       "url": "https://www.tamilguardian.com/rss.xml",
       "source_name": "Tamil Guardian",
       "lang": "en",
-      "require_keywords": [
-        "Jaffna",
-        "North",
-        "Kilinochchi",
-        "Mullaitivu",
-        "Vavuniya",
-        "Mannar",
-        "Tamil"
-      ],
       "default_category": "jaffna",
-      "max_items": 10,
+      "max_items": 15,
       "enabled": true
     },
     {
-      "name": "Google News: யாழ்ப்பாணம் (headlines only)",
-      "type": "google_news",
-      "query": "யாழ்ப்பாணம் when:2d",
-      "default_category": "jaffna",
+      "name": "Ada Derana (English)",
+      "type": "rss",
+      "url": "https://www.adaderana.lk/rss.php",
+      "source_name": "Ada Derana",
+      "lang": "en",
+      "default_category": "srilanka",
       "max_items": 20,
       "enabled": true
     },
     {
-      "name": "Google News: வட மாகாணம் (headlines only)",
-      "type": "google_news",
-      "query": "கிளிநொச்சி OR முல்லைத்தீவு OR வவுனியா OR மன்னார் when:2d",
-      "default_category": "jaffna",
+      "name": "Newswire (English)",
+      "type": "rss",
+      "url": "https://www.newswire.lk/feed/",
+      "source_name": "Newswire",
+      "lang": "en",
+      "default_category": "srilanka",
+      "max_items": 20,
+      "enabled": true
+    },
+    {
+      "name": "The Island (English)",
+      "type": "rss",
+      "url": "https://island.lk/feed/",
+      "source_name": "The Island",
+      "lang": "en",
+      "default_category": "srilanka",
       "max_items": 15,
+      "enabled": true
+    },
+    {
+      "name": "வீரகேசரி — உள்நாட்டுச் செய்திகள் (local desk)",
+      "type": "html_index",
+      "url": "https://www.virakesari.lk/category/local",
+      "link_pattern": "https?://www\\.virakesari\\.lk/article/\\d+",
+      "source_name": "வீரகேசரி",
+      "date_regex": "(\\d{1,2} [A-Za-z]{3}, \\d{4} \\| \\d{1,2}:\\d{2} [AP]M)",
+      "date_format": "%d %b, %Y | %I:%M %p",
+      "title_strip": " | Virakesari.lk",
+      "delay_seconds": 20,
+      "default_category": "jaffna",
+      "max_items": 10,
       "enabled": true
     }
   ],
@@ -234,7 +255,20 @@
     "thehindu.com": "The Hindu",
     "tamil.news18.com": "நியூஸ்18 தமிழ்",
     "np.gov.lk": "வட மாகாண சபை",
-    "tamil.news.lk": "அரச செய்திச் சேவை"
+    "tamil.news.lk": "அரச செய்திச் சேவை",
+    "newswire.lk": "Newswire",
+    "island.lk": "The Island"
   },
-  "excerpt_chars": 300
+  "excerpt_chars": 300,
+  "min_text_chars": 400,
+  "max_article_fetches": 60,
+  "default_article_delay": 2,
+  "article_delay_seconds": {
+    "virakesari.lk": 20,
+    "adaderanatamil.lk": 3,
+    "bbc.com": 2,
+    "newswire.lk": 2,
+    "island.lk": 2
+  },
+  "max_article_seconds": 420
 }

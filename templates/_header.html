@@ -26,7 +26,7 @@
 
 <nav class="mainnav" aria-label="பிரிவுகள்">
   <div class="wrap nav-in">
-    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="மெனு" aria-expanded="false">
+    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="மெனு" aria-expanded="false" aria-controls="nav-list">
       <svg class="i"><use href="#i-menu"/></svg>
     </button>
     <ul class="nav-list" id="nav-list">
@@ -43,7 +43,7 @@
 
 <div class="ticker" id="ticker" hidden>
   <div class="wrap ticker-in">
-    <span class="ticker-label"><span class="pulse"></span>முக்கிய செய்திகள்</span>
+    <span class="ticker-label"><span class="pulse"></span><span id="ticker-label-text">முக்கிய செய்திகள்</span></span>
     <div class="ticker-track"><div class="ticker-move" id="ticker-move"></div></div>
   </div>
 </div>

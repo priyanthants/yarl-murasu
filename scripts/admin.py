@@ -137,10 +137,16 @@ def page(msg="", err=False, log=""):
         % (esc(f.name), esc(f.name), esc(f.name)) for f in card_files)
     has_key = bool(os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"))
     ai_cfg = load(ROOT / "config" / "ai.json", {})
-    ai_done = sum(1 for i in load(ROOT / "data" / "fetched.json", {"items": []}).get("items", []) if i.get("ai_summary"))
-    ai_state = ("தமிழ் சுருக்கங்கள்: %d செய்திகளுக்கு தயார் · மாதிரி %s"
-                % (ai_done, ai_cfg.get("model", "")) if has_key else
-                "ANTHROPIC_API_KEY அமைக்கப்படவில்லை — தமிழ் சுருக்கம் / மொழிபெயர்ப்பு இயங்காது.")
+    fetched = load(ROOT / "data" / "fetched.json", {"items": []}).get("items", [])
+    written = sum(1 for i in fetched if i.get("ai_body"))
+    waiting = len(fetched) - written
+    if has_key:
+        ai_state = ("தமிழில் எழுதப்பட்ட செய்திகள்: %d · எழுதக் காத்திருப்பவை: %d · மாதிரி %s"
+                    % (written, waiting, ai_cfg.get("model", "")))
+    else:
+        ai_state = ("⚠ ANTHROPIC_API_KEY அமைக்கப்படவில்லை. ஒவ்வொரு செய்தியும் தமிழில் "
+                    "மீளெழுதப்பட்ட பின்னரே வெளியிடப்படும் — எனவே இது இல்லாமல் புதிய செய்தி "
+                    "எதுவும் தளத்தில் வராது. (%d செய்திகள் எழுதக் காத்திருக்கின்றன.)" % waiting)
 
     notice = '<div class="msg%s">%s</div>' % (" err" if err else "", esc(msg)) if msg else ""
     log_html = "<pre>%s</pre>" % esc(log) if log else ""
@@ -164,7 +170,7 @@ def page(msg="", err=False, log=""):
   (Refreshes the local preview. The live site updates itself on GitHub every 30 minutes.)</p>
   <div class="actions">
     <form method="post" action="/admin/fetch"><button>செய்திகளைப் பெறுக</button></form>
-    <form method="post" action="/admin/ai"><button class="secondary">தமிழ் சுருக்கங்கள் / மொழிபெயர்ப்பு</button></form>
+    <form method="post" action="/admin/ai"><button class="secondary">தமிழில் எழுதுக / மொழிபெயர்ப்பு</button></form>
     <form method="post" action="/admin/build"><button class="secondary">தளத்தை மட்டும் மீளுருவாக்கு</button></form>
   </div>
   <p class="hint">%(ai_state)s</p>
@@ -314,7 +320,7 @@ class Handler(SimpleHTTPRequestHandler):
         try:
             if route == "/admin/fetch":
                 out = subprocess.run([sys.executable, str(ROOT / "scripts" / "fetch_news.py")],
-                                     capture_output=True, text=True, timeout=600)
+                                     capture_output=True, text=True, timeout=2400)
                 return self.send_html(page("செய்திகள் பெறப்பட்டு தளம் புதுப்பிக்கப்பட்டது" if out.returncode == 0
                                            else "செய்திகளைப் பெறுவதில் பிழை", out.returncode != 0,
                                            (out.stdout + out.stderr)[-4000:]))
@@ -340,7 +346,7 @@ class Handler(SimpleHTTPRequestHandler):
                 out = subprocess.run([str(venv) if venv.exists() else sys.executable,
                                       str(ROOT / "scripts" / "ai_enrich.py")],
                                      capture_output=True, text=True, timeout=1800)
-                return self.send_html(page("தமிழ் சுருக்கங்கள் முடிந்தது" if out.returncode == 0 else "பிழை",
+                return self.send_html(page("செய்திகள் தமிழில் எழுதப்பட்டன" if out.returncode == 0 else "பிழை",
                                            out.returncode != 0, (out.stdout + out.stderr)[-3000:]))
             if route == "/admin/build":
                 build.build(verbose=False)
