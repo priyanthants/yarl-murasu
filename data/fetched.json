@@ -1,6 +1,58 @@
 {
- "updated": "2026-09-24T23:19:15.543729+00:00",
+ "updated": "2026-09-25T01:46:00.234202+00:00",
  "items": [
+  {
+   "id": "8b9252c700a9",
+   "type": "auto",
+   "title": "உடல்நலம் சரியில்லாதபோதும் விடுப்பு எடுக்காமல் வேலைக்கு செல்கிறீர்களா? இந்த மனநிலை உணர்த்தும் விஷயங்கள்",
+   "summary": "பாதிக்கும் மேற்பட்டோர் உடல்நலக்குறைவுள்ள நிலையிலும் வேலை செய்வதாகத் தெரிவிக்கின்றனர். இதற்கான காரணங்கள் சிக்கலானவை என்று நிபுணர்கள் கூறுகின்றனர்.",
+   "link": "https://www.bbc.com/tamil/articles/cmn8en49ed5eo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/474e/live/76cbdd80-b881-11f1-bc1f-3f186ca4140c.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-09-25T01:39:28+00:00",
+   "fetched": "2026-09-25T01:46:00.234202+00:00"
+  },
+  {
+   "id": "7e9f1c0e9db6",
+   "type": "auto",
+   "title": "முல்லைத்தீவில் வெப்பநிலை 35.7 பாகை செல்சியஸ்",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4X2FUbGk1azZQY1FfS01PUTVIa0UxOWlSWXpTOTA5WTl5aXl1TWJwd2tWbW04UHFKbFFZSV9ibmRfMEk4MGUyLWU0RlVCWmZ5VGtxSjJFR0V0NW5ZLW1MQXktcEQxSzQ?oc=5",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": null,
+   "lang": "ta",
+   "category": "jaffna",
+   "tags": [
+    "jaffna"
+   ],
+   "published": "2026-09-25T00:53:54+00:00",
+   "fetched": "2026-09-25T01:46:00.234202+00:00"
+  },
+  {
+   "id": "a04e83d0a098",
+   "type": "auto",
+   "title": "வெடுக்குநாறிமலை உள்ளிட்ட தொல்பொருள் பிரச்சினைகளை சுமூகமாகத் தீர்க்க நடவடிக்கை – அமைச்சர் சுனில் செனவி",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5GcmtNZ0pWa0VfWDFLUE02SkU2S3BVeVlQNXJBeFVoU2J0YllaTDRzSnl4bXJFM3BUd3RnRE1iclZ6OWU4WGMtamtETGpBRDVJSGc?oc=5",
+   "source": "வீரகேசரி",
+   "source_domain": "virakesari.lk",
+   "image": null,
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "jaffna"
+   ],
+   "published": "2026-09-24T23:20:00+00:00",
+   "fetched": "2026-09-25T01:46:00.234202+00:00"
+  },
   {
    "id": "369dba722eb3",
    "type": "auto",
@@ -4351,41 +4403,6 @@
     "world"
    ],
    "published": "2026-09-18T02:03:01+00:00",
-   "fetched": "2026-09-20T14:01:05.322285+00:00"
-  },
-  {
-   "id": "416acaa2b8d9",
-   "type": "auto",
-   "title": "“Mullaitivu Must No Longer Be Seen as a Backward District; It Must Become a District That Writes a New Chapter of Progress” – Hon. Governor",
-   "summary": "Mullaitivu should no longer be regarded merely as a backward district; it must emerge as a district that is writing a new chapter of progress. The Governor of the Northern Province, N. Vethanayahan, stated that the objective is to create an environment in which people can access quality healthcare…",
-   "link": "https://np.gov.lk/mullaitivu-must-no-longer-be-seen-as-a-backward-district-it-must-become-a-district-that-writes-a-new-chapter-of-progress-hon-governor/",
-   "source": "வட மாகாண சபை",
-   "source_domain": "np.gov.lk",
-   "image": "https://i.imgur.com/pltSakx.jpg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna"
-   ],
-   "published": "2026-09-18T01:18:24+00:00",
-   "fetched": "2026-09-20T14:01:05.322285+00:00"
-  },
-  {
-   "id": "ef8ccb84f7d5",
-   "type": "auto",
-   "title": "“I see this foundation stone as the cornerstone of the healthcare aspirations of the people of Mannar” – Hon. Governor N. Vethanayahan",
-   "summary": "I am aware that the people of Mannar District have long felt they did not receive adequate attention in the past. However, this situation is gradually changing. Today, with the assistance of the Government of India, a new emergency treatment unit is being established. Quarters for doctors are being…",
-   "link": "https://np.gov.lk/i-see-this-foundation-stone-as-the-cornerstone-of-the-healthcare-aspirations-of-the-people-of-mannar-hon-governor-n-vethanayahan/",
-   "source": "வட மாகாண சபை",
-   "source_domain": "np.gov.lk",
-   "image": "https://i.imgur.com/TdTAShJ.jpg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna",
-    "world"
-   ],
-   "published": "2026-09-18T01:13:28+00:00",
    "fetched": "2026-09-20T14:01:05.322285+00:00"
   }
  ]
