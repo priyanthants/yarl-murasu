@@ -551,8 +551,8 @@ def build(verbose=True):
         raise SiteNotReady(
             "only %d stories are ready to publish (need %d) and %d are waiting to be "
             "rewritten, but the site already has %d. Refusing to replace it with a "
-            "smaller one; site/ is untouched. Most likely ANTHROPIC_API_KEY is not set, "
-            "so scripts/ai_enrich.py cannot write anything."
+            "smaller one; site/ is untouched. If this does not clear on its own over the "
+            "next few runs, check the rewrite step with: scripts/ai_enrich.py --check"
             % (len(items), floor, len(held), standing))
 
     pages = static_pages(site)
