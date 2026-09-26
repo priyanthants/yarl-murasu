@@ -253,6 +253,12 @@ def run():
         after = len(list((work / "site" / "news").glob("*.html")))
         check("an empty rewrite leaves the site untouched", before == after and before > 0)
         check("an empty rewrite is reported as a failure", refused)
+
+        # A refused build must not stop fetch_news saving what it did write: stories
+        # accumulate across runs, and discarding them would stall the site forever.
+        source = (ROOT / "scripts" / "fetch_news.py").read_text(encoding="utf-8")
+        guard = source.split("except build.SiteNotReady")[1][:400]
+        check("a refused build still saves the run's work", "return 2" not in guard)
     finally:
         shutil.rmtree(work, ignore_errors=True)
 

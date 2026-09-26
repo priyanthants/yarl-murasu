@@ -700,8 +700,12 @@ def main():
         try:
             build.build()
         except build.SiteNotReady as why:
-            log.error("REFUSING TO BUILD: %s", why)
-            return 2
+            # Not a failure of this run: with a slow rewrite provider, stories accumulate
+            # over several runs before there are enough to publish. Returning non-zero
+            # here would skip the step that commits them, so the count could never grow
+            # and the site would never reach the threshold. Warn, and save the work.
+            log.warning("Not publishing yet: %s", why)
+            print("::warning title=Not publishing yet::%s" % why)
 
     # Fail only when every source failed, so schedulers can alert on it.
     enabled = [s for s in cfg.get("sources", []) if s.get("enabled", True)]
