@@ -54,7 +54,8 @@ def main():
     request = urllib.request.Request(
         url + "/internal/notify",
         data=json.dumps({"stories": batch}, ensure_ascii=False).encode("utf-8"),
-        headers={"Content-Type": "application/json", "X-Review-Ingest-Key": key},
+        headers={"Content-Type": "application/json", "X-Review-Ingest-Key": key,
+                 "User-Agent": "YarlMurasuNewsNotifier/1.0"},
         method="POST")
     with urllib.request.urlopen(request, timeout=25) as response:
         result = json.load(response)
