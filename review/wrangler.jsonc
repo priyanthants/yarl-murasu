@@ -1,0 +1,17 @@
+{
+  "name": "yarl-murasu-review",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-09-01",
+  "assets": {"directory": "./public", "binding": "ASSETS", "run_worker_first": true},
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "review_db",
+    "database_id": "REPLACE_WITH_D1_DATABASE_ID"
+  }],
+  "vars": {
+    "GITHUB_REPOSITORY": "priyanthants/yarl-murasu",
+    "GITHUB_BRANCH": "main",
+    "ADMIN_LOGINS": "priyanthants",
+    "VAPID_SUBJECT": "https://priyanthants.github.io/yarl-murasu/"
+  }
+}

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ta">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#7b1f28">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="முரசு ஆய்வு">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <title>செய்தி ஆய்வு · யாழ் முரசு</title>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">யா</span><span><strong>யாழ் முரசு</strong><small>செய்தி ஆய்வு</small></span></div>
+    <a id="logout" class="quiet hidden" href="/auth/logout">வெளியேறு</a>
+  </header>
+
+  <main>
+    <section id="signin" class="welcome hidden">
+      <p class="eyebrow">ஆசிரியர் குழு</p>
+      <h1>செய்திகளை உங்கள் கையில் ஆய்வு செய்யுங்கள்</h1>
+      <p>புதிய தமிழ் வரைவைப் படித்து, திருத்தி, ஒப்புதல் அளித்த பிறகே இணையதளத்தில் வெளியிடுங்கள்.</p>
+      <a class="button primary" href="/auth/login">GitHub மூலம் உள்நுழைக</a>
+    </section>
+
+    <div id="app" class="hidden">
+      <div class="intro-row">
+        <div><p class="eyebrow">உங்கள் செய்தி மேசை</p><h1>வெளியீட்டுக்கு முன் ஒரு பார்வை</h1></div>
+        <button id="refresh" class="button outline" type="button">புதுப்பிக்க</button>
+      </div>
+      <div id="notice" class="notice hidden" role="status" aria-live="polite"></div>
+
+      <section class="push-card" aria-label="அறிவிப்புகள்">
+        <div><h2>தொலைபேசி அறிவிப்புகள்</h2><p id="push-help">புதிய வரைவு வந்ததும் உங்கள் iPhone-இல் அறிவிப்பு பெறலாம்.</p></div>
+        <div class="push-actions"><button id="enable-push" class="button secondary" type="button">அறிவிப்புகளை இயக்கு</button><button id="test-push" class="button outline hidden" type="button">சோதனை அனுப்பு</button></div>
+      </section>
+
+      <nav class="tabs" aria-label="செய்தி நிலை">
+        <button type="button" data-state="pending" class="active">காத்திருப்பு <span id="count-pending">0</span></button>
+        <button type="button" data-state="approved">வெளியிடப்பட்டது <span id="count-approved">0</span></button>
+        <button type="button" data-state="rejected">நிராகரிப்பு <span id="count-rejected">0</span></button>
+      </nav>
+
+      <div class="workspace">
+        <section class="inbox" aria-label="செய்தி வரிசை"><div id="story-list"></div></section>
+        <section id="editor" class="editor empty" aria-label="செய்தி ஆசிரியர்">
+          <div id="empty-editor"><div class="empty-symbol">✦</div><h2>ஒரு செய்தியைத் தேர்ந்தெடுக்கவும்</h2><p>முழு வரைவைப் படித்து, திருத்தி, அதன் வெளியீட்டை முடிவு செய்யலாம்.</p></div>
+          <form id="story-form" class="hidden">
+            <div class="editor-top"><span id="status-pill" class="pill"></span><span id="story-date"></span></div>
+            <h2>செய்தி வரைவு</h2>
+            <div class="origin"><span>மூலச் செய்தி:</span> <a id="source-link" target="_blank" rel="noopener noreferrer">திறந்து சரிபார்க்க</a><p id="original-title"></p></div>
+            <label for="headline">தலைப்பு</label><textarea id="headline" rows="3" maxlength="300" required></textarea>
+            <label for="summary">சுருக்கம்</label><textarea id="summary" rows="4" maxlength="1000" required></textarea>
+            <label for="category">பிரிவு</label><select id="category"><option value="jaffna">யாழ்ப்பாணம் / வடமாகாணம்</option><option value="srilanka">இலங்கை</option><option value="world">உலகம்</option><option value="sports">விளையாட்டு</option></select>
+            <label for="body">முழுச் செய்தி <small>பந்திகளுக்கு இடையில் ஓர் வெற்று வரி விடுங்கள்</small></label><textarea id="body" rows="14" required></textarea>
+            <div class="decision-row"><button type="button" data-decision="pending" class="button outline">வரைவைச் சேமி</button><button type="button" data-decision="rejected" class="button danger">நிராகரி</button><button type="button" data-decision="approved" class="button primary">சேமித்து வெளியிடு</button></div>
+            <p class="fineprint">ஒப்புதல் அளித்ததும் தளம் மீளுருவாக்கப்படும்; செய்தி சில நிமிடங்களில் தெரியும். பதில் தராத வரை காத்திருப்பிலேயே இருக்கும்.</p>
+            <p id="review-history" class="fineprint"></p>
+          </form>
+        </section>
+      </div>
+    </div>
+  </main>
+  <script src="/app.js" defer></script>
+</body>
+</html>

@@ -78,7 +78,13 @@ def run():
           bool(build.hold_reason({"type": "auto", "title": "Something"})))
     check("a rewritten story is publishable",
           not build.hold_reason({"type": "auto", "ai_title": "வவுனியாவில் புதிய நீர்த் திட்டம்",
-                                 "ai_body": ["ஒரு பந்தி."]}))
+                                 "ai_body": ["ஒரு பந்தி."], "review_state": "approved"}))
+    check("a rewritten draft awaits approval",
+          bool(build.hold_reason({"type": "auto", "ai_title": "வவுனியாவில் புதிய நீர்த் திட்டம்",
+                                  "ai_body": ["ஒரு பந்தி."], "review_state": "pending"})))
+    check("a rejected story stays hidden",
+          bool(build.hold_reason({"type": "auto", "ai_title": "வவுனியாவில் புதிய நீர்த் திட்டம்",
+                                  "ai_body": ["ஒரு பந்தி."], "review_state": "rejected"})))
     check("an own post is always publishable", not build.hold_reason({"type": "local"}))
 
     # A run rewrites only what its budget allows, so the order decides what readers get.
@@ -194,10 +200,16 @@ def run():
         (work / "config" / "ai.json").write_text(
             json.dumps(ai_cfg, ensure_ascii=False), encoding="utf-8")
 
-        # data/texts.json is gitignored, so it is absent on a fresh checkout and present
-        # with whatever a local run last left. Write our own so the run is the same
-        # everywhere: enough article text for the first 30 stories, and none after.
+        # Start with unrewritten fixtures. The real store accumulates finished stories,
+        # so testing against it makes this check fail whenever the site succeeds.
         store = json.loads((work / "data" / "fetched.json").read_text(encoding="utf-8"))
+        store["items"] = [
+            {k: v for k, v in item.items() if not k.startswith("ai_") and k != "title_ta"}
+            for item in store["items"][:40]
+        ]
+        (work / "data" / "fetched.json").write_text(
+            json.dumps(store, ensure_ascii=False), encoding="utf-8")
+        (work / "data" / "reviews.json").write_text('{"items":{}}', encoding="utf-8")
         article = ("இது ஒரு சோதனைக்கான செய்தி உரை. " * 20).strip()
         (work / "data" / "texts.json").write_text(
             json.dumps({i["id"]: article for i in store["items"][:30]}, ensure_ascii=False),
@@ -237,11 +249,26 @@ def run():
         thin = [i for i in store["items"] if i.get("ai_thin")]
         check("a story judged too thin is marked, not published",
               bool(thin) and all(not i.get("ai_body") for i in thin))
+        check("a trailing publisher credit is removed",
+              build.display({"source": "Newswire", "ai_body": ["செய்தி வெளியானது. (Newswire)"]})
+              ["body_paragraphs"] == ["செய்தி வெளியானது."])
         check("the rewrite decides the section",
               any(i.get("category") == "jaffna" for i in store["items"] if i.get("ai_body")))
 
+        approved = [i["id"] for i in store["items"] if i.get("ai_body")][:10]
+        (work / "data" / "reviews.json").write_text(
+            json.dumps({"items": {id: {"state": "approved", "revision": 1}
+                                  for id in approved}}, ensure_ascii=False), encoding="utf-8")
+
+        site_cfg = json.loads((work / "config" / "site.json").read_text(encoding="utf-8"))
+        check("pending drafts cannot crowd out approved news",
+              any(i["id"] in approved for i in build.collect_items({**site_cfg, "max_items": 1})[1:]))
+
+        expected = build.drop_repeats([i for i in build.collect_items(site_cfg)
+                                      if not build.hold_reason(i)])
         published = build.build(verbose=False)
-        check("the build publishes the rewritten stories", published > 0, "published %d" % published)
+        check("the build publishes only approved stories", published == len(expected),
+              "published %d of %d eligible" % (published, len(expected)))
 
         pages = sorted((work / "site" / "news").glob("*.html"))
         check("a page is written per published story", len(pages) == published,
@@ -261,6 +288,8 @@ def run():
         story_keys = set()
         for story in payload.get("items", []):
             story_keys.update(story)
+        check("every browser story was approved",
+              all(story["id"] in approved for story in payload.get("items", [])))
         check("the browser payload carries no publisher", "source" not in story_keys)
         check("the browser payload carries no source link", "link" not in story_keys)
         check("the browser payload still carries the stories", len(payload.get("items", [])) > 0)
@@ -270,21 +299,16 @@ def run():
             body = rss.read_text(encoding="utf-8")
             check("the feed names no publisher", not [n for n in PUBLISHERS if n in body])
 
-        # An unrewritten store must leave the existing site alone rather than empty it.
+        # Removing approval or the rewrite must remove public pages as well.
         for item in store["items"]:
             for key in ("ai_body", "ai_title", "ai_summary"):
                 item.pop(key, None)
         (work / "data" / "fetched.json").write_text(
             json.dumps(store, ensure_ascii=False), encoding="utf-8")
         before = len(list((work / "site" / "news").glob("*.html")))
-        refused = False
-        try:
-            build.build(verbose=False)
-        except build.SiteNotReady:
-            refused = True
+        build.build(verbose=False)
         after = len(list((work / "site" / "news").glob("*.html")))
-        check("an empty rewrite leaves the site untouched", before == after and before > 0)
-        check("an empty rewrite is reported as a failure", refused)
+        check("an unrewritten story leaves the public site", before > 0 and after == 0)
 
         # A refused build must not stop fetch_news saving what it did write: stories
         # accumulate across runs, and discarding them would stall the site forever.

@@ -29,6 +29,15 @@ Then open:
 
 GitHub fetches the news and republishes the site on its own; your Mac can be off.
 
+**Editorial approval is now required for automatically fetched news.** Rewritten
+stories wait for an editor to review, edit, approve, or reject them. Approved
+stories are published by the next build; rejected stories never appear on the
+website. The iPhone Home Screen review app and optional push alerts are in
+[`review/README.md`](review/README.md). Until that app is connected to
+Cloudflare and GitHub, new fetched stories remain safely pending; existing
+approved stories stay live. Your own posts still publish through the local
+admin panel.
+
 The workflow asks for every 30 minutes, but GitHub throttles scheduled runs on shared runners and
 actually fires it **about seven times a day**. Check yours with `gh run list -R priyanthants/yarl-murasu`
 — the `schedule` rows are the real cadence, and the rewrite budget below is sized against it.
@@ -46,6 +55,8 @@ It goes live in about a minute.
 | `config/ads.json` | Ad slots (also editable from the admin panel) |
 | `content/posts.json` | Your own stories (written by the admin panel) |
 | `data/fetched.json` | Fetched news (auto) |
+| `data/reviews.json` | Editorial decisions and approved edits for fetched news |
+| `review/` | iPhone Home Screen review app and notification service |
 | `scripts/fetch_news.py` | Fetch latest news + rebuild the site |
 | `scripts/build.py` | Rebuild the site only |
 | `scripts/admin.py` | Local admin panel + preview server |

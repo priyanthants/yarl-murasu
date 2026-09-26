@@ -1,0 +1,12 @@
+{
+  "name": "யாழ் முரசு · செய்தி ஆய்வு",
+  "short_name": "முரசு ஆய்வு",
+  "lang": "ta",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fffaf6",
+  "theme_color": "#7b1f28",
+  "icons": [{"src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}]
+}

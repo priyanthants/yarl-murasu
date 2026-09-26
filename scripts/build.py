@@ -146,17 +146,30 @@ def normalise_post(p, site):
 def collect_items(site):
     posts = load_json(ROOT / "content" / "posts.json", [])
     fetched = load_json(ROOT / "data" / "fetched.json", {"items": []}).get("items", [])
+    reviews = load_json(ROOT / "data" / "reviews.json", {"items": {}}).get("items", {})
     now = dt.datetime.now(dt.timezone.utc)
     items = [normalise_post(p, site) for p in posts
              if not p.get("draft") and parse_date(p.get("published")) <= now + dt.timedelta(minutes=5)]
-    items += fetched
+    for raw in fetched:
+        item = dict(raw)
+        decision = reviews.get(item["id"], {})
+        item["review_state"] = decision.get("state", "pending")
+        if item["review_state"] == "approved":
+            edits = decision.get("edits", {})
+            for public_key, stored_key in (("title", "ai_title"), ("summary", "ai_summary"),
+                                           ("body", "ai_body"), ("category", "category")):
+                if public_key in edits:
+                    item[stored_key] = edits[public_key]
+        items.append(item)
     seen, unique = set(), []
     for i in items:
         if i["id"] not in seen:
             seen.add(i["id"])
             unique.append(i)
     unique.sort(key=lambda i: parse_date(i["published"]), reverse=True)
-    return unique[: site.get("max_items", 200)]
+    # The review queue may contain hundreds of newer pending drafts. Limit only
+    # after the approval filter, or those drafts would hide older approved news.
+    return unique
 
 
 def hold_reason(item):
@@ -171,6 +184,8 @@ def hold_reason(item):
         return ""
     if not item.get("ai_body"):
         return "not rewritten in Tamil yet" if not item.get("ai_thin") else "too little to report"
+    if item.get("review_state") != "approved":
+        return "rejected by editor" if item.get("review_state") == "rejected" else "awaiting editorial review"
     title = re.sub(r"\s+", " ", (item.get("ai_title") or "").strip())
     letters = re.sub(r"[^\w\u0B80-\u0BFF]+", "", title, flags=re.UNICODE)
     if len(letters) < 10 or len(title.split()) < 2:
@@ -214,15 +229,25 @@ def drop_repeats(items, threshold=0.7, min_shared=4):
     return kept
 
 
+def without_source_credit(value, source):
+    """Drop a trailing feed credit that a translator carried into our own text."""
+    if not isinstance(value, str) or not source:
+        return value
+    credit = re.escape(source.strip())
+    return re.sub(r"\s*(?:\(\s*%s\s*\)|[—–-]\s*%s)\s*$" % (credit, credit),
+                  "", value, flags=re.IGNORECASE).rstrip()
+
+
 def display(i):
     """What the reader sees: our own Tamil headline, lede and report."""
     out = dict(i)
+    source = i.get("source", "")
     if i.get("ai_title"):
-        out["title"] = i["ai_title"]
+        out["title"] = without_source_credit(i["ai_title"], source)
     if i.get("ai_summary"):
-        out["summary"] = i["ai_summary"]
+        out["summary"] = without_source_credit(i["ai_summary"], source)
     if i.get("ai_body"):
-        out["body_paragraphs"] = i["ai_body"]
+        out["body_paragraphs"] = [without_source_credit(p, source) for p in i["ai_body"]]
         out["ai"] = True
     return out
 
@@ -540,14 +565,14 @@ def build(verbose=True):
     cats = {c["id"]: c for c in site["categories"]}
     assessed = [(i, hold_reason(i)) for i in collect_items(site)]
     held = [(i, reason) for i, reason in assessed if reason]
-    items = drop_repeats([i for i, reason in assessed if not reason])
+    items = drop_repeats([i for i, reason in assessed if not reason])[:site.get("max_items", 200)]
 
     # Every fetched story has to be rewritten in Tamil before it can be published, so a
     # broken or unconfigured AI step would otherwise quietly empty the site. Rather than
     # publish a near-empty front page, leave the pages already in site/ exactly as they are.
     floor = site.get("min_publishable", 8)
     standing = len(list(NEWS_DIR.glob("*.html"))) if NEWS_DIR.exists() else 0
-    if len(items) < floor and held and standing > len(items):
+    if not site.get("review_required") and len(items) < floor and held and standing > len(items):
         raise SiteNotReady(
             "only %d stories are ready to publish (need %d) and %d are waiting to be "
             "rewritten, but the site already has %d. Refusing to replace it with a "

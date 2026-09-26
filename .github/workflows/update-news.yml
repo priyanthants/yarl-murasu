@@ -37,6 +37,7 @@ jobs:
       # Both rewrite providers, so switching "provider" in config/ai.json is a one-word
       # edit with no workflow change.
       - name: Install the rewrite SDKs
+        if: ${{ !startsWith(github.event.head_commit.message, 'Review story:') }}
         run: pip install --quiet google-genai anthropic
 
       # Guards the rule the whole site rests on: no publisher's words or name reaches
@@ -48,6 +49,7 @@ jobs:
       # resolves to something, so it only stops the run when config/ai.json names a
       # provider whose key is missing. Pages keeps serving the last deployment meanwhile.
       - name: Check the rewrite provider is usable
+        if: ${{ !startsWith(github.event.head_commit.message, 'Review story:') }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -58,10 +60,15 @@ jobs:
           }
 
       - name: Fetch news, write it in Tamil and build the site
+        if: ${{ !startsWith(github.event.head_commit.message, 'Review story:') }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/fetch_news.py
+
+      - name: Build the approved story immediately
+        if: ${{ startsWith(github.event.head_commit.message, 'Review story:') }}
+        run: python scripts/build.py
 
       - name: Make today's share card
         run: python scripts/make_card.py --skip-existing || echo "card skipped"
@@ -69,6 +76,13 @@ jobs:
       # Retries around a moved remote rather than dropping the run's stories.
       - name: Save fetched news
         run: bash scripts/save_news.sh
+
+      - name: Notify editors of ready drafts
+        continue-on-error: true
+        env:
+          REVIEW_API_URL: ${{ vars.REVIEW_API_URL }}
+          REVIEW_INGEST_KEY: ${{ secrets.REVIEW_INGEST_KEY }}
+        run: python scripts/notify_review.py
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

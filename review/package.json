@@ -1,0 +1,19 @@
+{
+  "name": "yarl-murasu-review",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "check": "node --test tests/*.test.mjs",
+    "keys": "node scripts/generate-keys.mjs",
+    "db:local": "wrangler d1 execute review_db --local --file=./schema.sql",
+    "db:remote": "wrangler d1 execute review_db --remote --file=./schema.sql"
+  },
+  "dependencies": {
+    "@mmmike/web-push": "1.3.0"
+  },
+  "devDependencies": {
+    "wrangler": "4.141.0"
+  }
+}
