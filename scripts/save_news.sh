@@ -21,7 +21,8 @@ if git diff --cached --quiet; then
 fi
 git commit -q -m "Auto-update news"
 
-MINE="$(mktemp -t fetched)"
+# BSD mktemp accepts a bare -t template; GNU mktemp needs the X's, so give it both.
+MINE="$(mktemp "${TMPDIR:-/tmp}/fetched.XXXXXX")"
 trap 'rm -f "$MINE"' EXIT
 
 for attempt in 1 2 3; do

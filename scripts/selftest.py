@@ -12,6 +12,7 @@ Exit status is 0 when every check passes, 1 otherwise.
 """
 import json
 import os
+import re
 import shutil
 import sys
 import tempfile
@@ -283,6 +284,18 @@ def run():
         check("the scheduled run saves through the retrying script",
               "scripts/save_news.sh" in workflow
               and (ROOT / "scripts" / "save_news.sh").exists())
+
+        # These run on macOS here and on Linux in CI, where the shell utilities differ.
+        # `mktemp -t name` is the one that bit: fine in BSD, rejected by GNU.
+        import subprocess
+        shell_scripts = sorted((ROOT / "scripts").glob("*.sh"))
+        bad_syntax = [f.name for f in shell_scripts
+                      if subprocess.run(["bash", "-n", str(f)], capture_output=True).returncode]
+        check("the shell scripts parse", not bad_syntax, ", ".join(bad_syntax))
+        bsd_only = [f.name for f in shell_scripts
+                    if re.search(r"mktemp\s+-t\s+[^\s]*$", f.read_text(encoding="utf-8"),
+                                 re.MULTILINE)]
+        check("no BSD-only mktemp templates", not bsd_only, ", ".join(bsd_only))
     finally:
         shutil.rmtree(work, ignore_errors=True)
 
