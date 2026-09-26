@@ -364,6 +364,22 @@ def chunks(text, limit=MM_MAX_BYTES):
     return pieces
 
 
+TAMIL = re.compile(r"[\u0B80-\u0BFF]")
+
+
+def mostly_tamil(text, share=0.5):
+    """True when enough of the letters are Tamil to call the result Tamil.
+
+    A translation service can hand back the English it was given — on an error, or when
+    it has no match for a phrase. Publishing that under a Tamil headline would be worse
+    than publishing nothing, so it is checked rather than trusted.
+    """
+    letters = [c for c in text if c.isalpha()]
+    if not letters:
+        return False
+    return sum(1 for c in letters if TAMIL.match(c)) / float(len(letters)) >= share
+
+
 def trimmed(text, limit):
     """The opening of an article, cut at a sentence end rather than mid-word."""
     text = re.sub(r"\s+", " ", text).strip()
@@ -402,6 +418,8 @@ def translate_rewrite(client, cfg, item, text):
 
     if not headline_ta or not body_ta:
         return None
+    if not mostly_tamil(body_ta) or not mostly_tamil(headline_ta, share=0.3):
+        return None                      # came back in the wrong language
     # A round trip that hands back the original sentence has not re-worded anything.
     if not english and body_ta.strip() == source.strip():
         return None

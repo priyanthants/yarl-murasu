@@ -124,6 +124,10 @@ def run():
           "largest %d bytes" % max(len(x.encode("utf-8")) for x in pieces))
     check("chunking loses no text",
           abs(len(" ".join(pieces)) - len(long_tamil.strip())) <= 10)
+    check("text that came back in the wrong language is rejected",
+          _ai.mostly_tamil("சீரற்ற வானிலை காரணமாக பாடசாலைகள் மூடப்பட்டன")
+          and not _ai.mostly_tamil("Schools were closed because of heavy rain")
+          and not _ai.mostly_tamil(""))
     check("a run cannot exceed its translation budget",
           _refuses_over_budget(_ai))
 
