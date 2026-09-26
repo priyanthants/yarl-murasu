@@ -138,6 +138,15 @@ def run():
           all(float(json.loads((ROOT / "config" / "ai.json").read_text(encoding="utf-8"))
                     .get(n, {}).get("max_seconds", _ai.DEFAULTS["max_seconds"])) <= 900
               for n in ("gemini", "anthropic", "translate")))
+    # A Tamil story goes through English and back, so it costs twice its source length.
+    # A budget below that finishes no story at all while still spending characters.
+    tcfg = live.get("translate", {})
+    source_chars = int(tcfg.get("max_source_chars", 700))
+    run_budget = int(tcfg.get("max_chars_per_run", 0))
+    check("a run can afford at least one whole story",
+          run_budget >= source_chars * 2,
+          "budget %d, a Tamil story costs about %d" % (run_budget, source_chars * 2))
+
     check("free providers pace their requests",
           all(float(live.get(n, {}).get("min_interval_seconds", 0)) > 0
               for n in ("gemini", "translate")),

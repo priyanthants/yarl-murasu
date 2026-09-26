@@ -143,9 +143,10 @@ anonymously and 50,000 with an email address**. **Put your email in `translate.e
 | No email | 2–5 stories |
 | With an email | ~55 English stories, or ~27 Tamil ones (they cost double, going through English and back) |
 
-`max_chars_per_run` (1,000) divides that allowance across the half-hourly runs, so the site gains a
-story or so every half hour rather than spending the day's quota in one go. Raise it if you run the
-fetch by hand instead of on a schedule.
+`max_chars_per_run` (2,400) is what one run may spend. It has to be big enough to finish a whole
+story — a Tamil one costs about twice `max_source_chars`, going through English and back — or a run
+spends characters and produces nothing. Each run now writes two or three stories and stops cleanly
+when the next one will not fit; the service's own daily allowance is what caps the total.
 
 A fully offline option is not practical here: Argos Translate, the usual local translation library,
 has no Tamil at all, and the Tamil models that do exist (Opus-MT, IndicTrans2) need PyTorch and a

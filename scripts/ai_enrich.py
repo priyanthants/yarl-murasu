@@ -308,6 +308,14 @@ class Translator(object):
         self.budget = int(cfg.get("max_chars_per_run", 8000))
         self.spent = 0
 
+    def affordable(self, chars):
+        """Whether a whole story still fits in this run's budget.
+
+        Checked before the first request rather than during: running out halfway leaves
+        the characters spent and no story to show for them.
+        """
+        return self.spent + chars <= self.budget
+
     def phrase(self, text, pair):
         if self.spent + len(text) > self.budget:
             raise RateLimited("this run's %d-character translation budget is used up"
@@ -414,6 +422,12 @@ def translate_rewrite(client, cfg, item, text):
 
     english = item.get("lang") == "en"
     headline = (item.get("title") or "").strip()
+    # A Tamil story goes through English and back, so it costs twice. Stop before
+    # starting one that cannot finish, rather than spending half a story's worth.
+    passes = 1 if english else 2
+    if not client.affordable((len(source) + len(headline)) * passes):
+        raise RateLimited("not enough of this run's %d-character budget left for another "
+                          "story" % client.budget)
     if english:
         headline_ta = client.text(headline, "en|ta")
         body_ta = client.text(source, "en|ta")
