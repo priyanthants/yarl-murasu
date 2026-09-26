@@ -1,7 +1,7 @@
 {
-  "_help": "Every story is rewritten in our own Tamil before it is published; English sources are translated in the same pass. 'provider' picks who does it. gemini = Google's free tier (key from aistudio.google.com, no card) — best balance. anthropic = Claude: the best Tamil, but every story costs money. translate = no key and no language model at all, just machine translation; it publishes short briefs and reads noticeably plainer. Set enabled to false to stop rewriting entirely (the site then publishes only your own posts).",
+  "_help": "Every story is rewritten in our own Tamil before it is published; English sources are translated in the same pass. 'provider' picks who does it. auto (recommended) uses gemini or anthropic when their key is set, and falls back to translate when neither is — so the site publishes with no key and upgrades itself when you add one. gemini = Google's free tier (key from aistudio.google.com, no card). anthropic = Claude: the best Tamil, but every story costs money. translate = no key and no language model at all, just machine translation; short briefs, plainer Tamil. Set enabled to false to stop rewriting entirely (the site then publishes only your own posts).",
   "enabled": true,
-  "provider": "gemini",
+  "provider": "auto",
   "max_items_per_run": 40,
   "min_text_chars": 400,
   "body_paragraphs": "3-5",

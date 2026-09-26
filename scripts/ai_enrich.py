@@ -162,6 +162,22 @@ def save_json(path, data):
     tmp.replace(path)
 
 
+def resolve_provider(name):
+    """Turn "auto" into whichever provider this machine can actually use.
+
+    A key means a language model is available and the writing will be better, so prefer
+    one when it is there. With no key at all, fall back to translation, which needs
+    none — the site keeps publishing, just more plainly, and upgrades itself the moment
+    a key is added.
+    """
+    if name != "auto":
+        return name
+    for candidate in ("gemini", "anthropic"):
+        if any(os.environ.get(key) for key in KEY_FOR[candidate]):
+            return candidate
+    return "translate"
+
+
 def config():
     """Settings for the chosen provider, flattened over the shared ones."""
     cfg = dict(DEFAULTS)
@@ -174,9 +190,9 @@ def config():
         else:
             cfg[key] = value
 
-    name = cfg.get("provider", "gemini")
+    name = resolve_provider(cfg.get("provider", "auto"))
     if name not in PROVIDERS:
-        raise SystemExit("Unknown provider %r in config/ai.json. Use one of: %s"
+        raise SystemExit("Unknown provider %r in config/ai.json. Use one of: auto, %s"
                          % (name, ", ".join(sorted(PROVIDERS))))
     flat = {k: v for k, v in cfg.items() if not isinstance(v, dict)}
     flat.update(cfg.get(name, {}))
@@ -645,9 +661,16 @@ def main():
         cfg = config()
         ok = key_present(cfg)
         wanted = " or ".join(KEY_FOR[cfg["provider"]])
-        print("provider: %s (%s)" % (cfg["provider"], cfg["model"]))
+        chosen = load_json(CONFIG_FILE, {}).get("provider", "auto")
+        print("provider: %s (%s)%s"
+              % (cfg["provider"], cfg["model"], "  [chosen automatically]"
+                 if chosen == "auto" else ""))
         print("%s" % ("no API key needed" if not wanted
                       else "%s: %s" % (wanted, "set" if ok else "NOT SET")))
+        if cfg["provider"] == "translate" and chosen == "auto":
+            print("Writing by translation only, which reads plainer and publishes short")
+            print("briefs. A free key at https://aistudio.google.com/apikey switches this")
+            print("to a proper rewrite on its own — nothing else to change.")
         if not ok:
             print("Stories are rewritten in Tamil before they are published, so without "
                   "this key nothing new can go live.")

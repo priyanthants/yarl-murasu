@@ -41,11 +41,10 @@ jobs:
       - name: Check the publishing rules
         run: python scripts/selftest.py
 
-      # Every story is rewritten in Tamil before it is published, so without a key for
-      # whichever provider config/ai.json names, no new story can go live. Stop here so
-      # the run goes red and GitHub emails about it; Pages keeps serving the last
-      # deployment, so the site stays up meanwhile.
-      - name: Check the rewrite provider has its key
+      # Every story is rewritten in Tamil before it is published. On "auto" this always
+      # resolves to something, so it only stops the run when config/ai.json names a
+      # provider whose key is missing. Pages keeps serving the last deployment meanwhile.
+      - name: Check the rewrite provider is usable
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

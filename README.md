@@ -8,12 +8,11 @@ add your own stories with photos and videos too.
 The website is plain HTML/CSS/JS, so it can be hosted anywhere (GitHub Pages, Netlify,
 cPanel hosting…).
 
-> **One thing must be set up before anything publishes.** The Tamil rewrite needs an API
-> key. The default is Google Gemini's **free tier** — get a key at
-> [aistudio.google.com/apikey](https://aistudio.google.com/apikey), no card needed — and add
-> it to the repository as `GEMINI_API_KEY`. Without a key no story can be rewritten, nothing
-> new goes live, and the site keeps serving the pages it already has.
-> See [The Tamil rewrite](#the-tamil-rewrite) below.
+> **It runs with no API key**, rewriting by machine translation alone — short briefs in plain
+> Tamil. Adding a **free** Gemini key from
+> [aistudio.google.com/apikey](https://aistudio.google.com/apikey) (no card) as the repository
+> secret `GEMINI_API_KEY` upgrades it to a proper rewrite automatically, with nothing else to
+> change. See [The Tamil rewrite](#the-tamil-rewrite) below.
 
 ## Quick start
 
@@ -109,9 +108,13 @@ exactly as it was rather than emptying it.
 
 `provider` in `config/ai.json` picks one. Switching is a one-word edit; the workflow installs both.
 
+`auto` is the default and is what you want: it uses Gemini or Claude when their key is set, and
+falls back to translation when neither is. So the site publishes with no key at all, and upgrades
+itself to a proper rewrite the moment you add one — nothing else to change.
+
 | Provider | Needs a key | Quality | Notes |
 |---|---|---|---|
-| `gemini` (default) | Free key | Good | Key from [aistudio.google.com/apikey](https://aistudio.google.com/apikey), no card. Rate limited per minute and per day, so a run writes what it can and the next one continues. Google may use free-tier content to improve their products. |
+| `gemini` | Free key | Good | Key from [aistudio.google.com/apikey](https://aistudio.google.com/apikey), no card. Rate limited per minute and per day, so a run writes what it can and the next one continues. Google may use free-tier content to improve their products. |
 | `anthropic` | Paid key | Best | Noticeably better Tamil. Roughly 5–8 US cents per story. |
 | `translate` | **No key at all** | Plainest | No language model. See below. |
 

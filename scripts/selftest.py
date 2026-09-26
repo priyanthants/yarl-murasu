@@ -84,6 +84,21 @@ def run():
     # in config/ai.json, and a broken one would only show up at the next scheduled run.
     import ai_enrich as _ai
     stored = json.loads((ROOT / "config" / "ai.json").read_text(encoding="utf-8"))
+    # "auto" must land on a real provider whether or not a key happens to be present.
+    saved = {k: os.environ.pop(k, None) for k in ("GEMINI_API_KEY", "ANTHROPIC_API_KEY",
+                                                  "ANTHROPIC_AUTH_TOKEN")}
+    try:
+        check("auto falls back to a keyless provider",
+              _ai.resolve_provider("auto") == "translate")
+        os.environ["GEMINI_API_KEY"] = "selftest"
+        check("auto prefers a model when a key is present",
+              _ai.resolve_provider("auto") == "gemini")
+    finally:
+        os.environ.pop("GEMINI_API_KEY", None)
+        for k, v in saved.items():
+            if v is not None:
+                os.environ[k] = v
+
     for name in ("gemini", "anthropic", "translate"):
         stored["provider"] = name
         resolved = dict(_ai.DEFAULTS)
