@@ -15,13 +15,12 @@ several admins later. No WhatsApp or Meta messaging account is needed.
 ## Current connection status
 
 The Cloudflare Worker and D1 database are deployed in the current account. The
-session and Web Push keys are installed as Worker secrets, and the alert URL/key
-are connected to this repository's GitHub Actions settings. Do **not** rerun
-`provision:push-keys` after phones subscribe; it intentionally refuses to rotate
-existing keys. The GitHub OAuth client ID and secret are installed. The remaining
-one-time connection is a fine-grained repository Contents write token stored as
-`GITHUB_WRITE_TOKEN` in Cloudflare. The app can sign editors in, but cannot
-read or save story decisions until that token is installed.
+GitHub OAuth credentials, repository-limited publishing token, session key, Web
+Push keys, and alert key are installed as encrypted Worker secrets. The alert
+URL/key are connected to this repository's GitHub Actions settings. Do **not**
+rerun `provision:push-keys` after phones subscribe; it intentionally refuses to
+rotate existing keys. The remaining hands-on check is to sign in from an iPhone
+Home Screen installation, enable notifications, and send a test alert.
 
 ## Before you begin
 
