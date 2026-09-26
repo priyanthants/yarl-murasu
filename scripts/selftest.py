@@ -267,6 +267,13 @@ def run():
         source = (ROOT / "scripts" / "fetch_news.py").read_text(encoding="utf-8")
         guard = source.split("except build.SiteNotReady")[1][:400]
         check("a refused build still saves the run's work", "return 2" not in guard)
+
+        # ...and the saving itself has to survive a remote that moved, or the work is
+        # committed and then thrown away by a rejected push.
+        workflow = (ROOT / ".github" / "workflows" / "update-news.yml").read_text(encoding="utf-8")
+        check("the scheduled run saves through the retrying script",
+              "scripts/save_news.sh" in workflow
+              and (ROOT / "scripts" / "save_news.sh").exists())
     finally:
         shutil.rmtree(work, ignore_errors=True)
 
