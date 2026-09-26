@@ -226,7 +226,12 @@ def gemini_rewrite(client, cfg, item, text):
         "response_json_schema": SCHEMA,
         "max_output_tokens": cfg.get("max_tokens", 16000),
     }
-    if cfg.get("thinking_budget") is not None:
+    # thinking_level is the current control (MINIMAL/LOW/MEDIUM/HIGH); thinking_budget is
+    # the older token-count form, kept for models that still take it.
+    if cfg.get("thinking_level"):
+        settings["thinking_config"] = types.ThinkingConfig(
+            thinking_level=str(cfg["thinking_level"]).upper())
+    elif cfg.get("thinking_budget") is not None:
         settings["thinking_config"] = types.ThinkingConfig(
             thinking_budget=int(cfg["thinking_budget"]))
     try:

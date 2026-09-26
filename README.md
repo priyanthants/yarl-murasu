@@ -164,7 +164,7 @@ own block:
 | `enabled` | `false` stops the rewrite entirely |
 | `gemini.model` | `gemini-3.5-flash-lite` and `gemini-3.1-flash-lite` are lighter on the free quota; `gemini-3.8-flash` is the strongest |
 | `gemini.concurrency` / `min_interval_seconds` | Lower the first and raise the second if you see rate-limit messages |
-| `gemini.thinking_budget` | Set to `0` to turn thinking off and stretch the free quota further |
+| `gemini.thinking_level` | `minimal` / `low` / `medium` / `high` — raise it if the Tamil reads poorly, lower it to stretch the free quota |
 | `anthropic.model` / `effort` | `claude-haiku-4-5` is much cheaper with plainer Tamil; effort is `low`/`medium`/`high` |
 
 **If you use the paid provider**, a rewrite reads a whole article and writes a whole story, so

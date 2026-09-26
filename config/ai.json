@@ -7,8 +7,9 @@
   "body_paragraphs": "3-5",
   "max_attempts": 3,
   "gemini": {
-    "_help": "Free tier. Alternatives: gemini-3.5-flash-lite and gemini-3.1-flash-lite are faster and lighter on the quota; gemini-3.8-flash is the strongest. Lower concurrency and raise min_interval_seconds if you see rate-limit messages. thinking_budget 0 turns thinking off to save quota; leave it out to let the model decide.",
+    "_help": "Free tier. Alternatives: gemini-3.5-flash-lite and gemini-3.1-flash-lite are faster and lighter on the quota; gemini-3.8-flash is the strongest. Lower concurrency and raise min_interval_seconds if you see rate-limit messages. thinking_level is minimal, low, medium or high — raise it if the Tamil reads poorly, lower it to stretch the free quota.",
     "model": "gemini-3.5-flash",
+    "thinking_level": "low",
     "concurrency": 2,
     "min_interval_seconds": 4,
     "max_tokens": 16000
