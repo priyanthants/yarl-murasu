@@ -32,6 +32,18 @@ SUBJECTS = ["நீர் விநியோகம்", "பாடசாலை�
 failures = []
 
 
+def _refuses_over_budget(ai_enrich):
+    """The translator must stop at its character budget rather than spend the day's."""
+    t = ai_enrich.Translator({"max_chars_per_run": 50})
+    try:
+        t.phrase("x" * 100, "en|ta")
+    except ai_enrich.RateLimited:
+        return True
+    except Exception:
+        return False
+    return False
+
+
 def check(name, ok, detail=""):
     print("%-44s %s%s" % (name, "ok" if ok else "FAILED", (" — " + detail) if detail and not ok else ""))
     if not ok:
@@ -72,7 +84,7 @@ def run():
     # in config/ai.json, and a broken one would only show up at the next scheduled run.
     import ai_enrich as _ai
     stored = json.loads((ROOT / "config" / "ai.json").read_text(encoding="utf-8"))
-    for name in ("gemini", "anthropic"):
+    for name in ("gemini", "anthropic", "translate"):
         stored["provider"] = name
         resolved = dict(_ai.DEFAULTS)
         for key, value in stored.items():
@@ -85,6 +97,29 @@ def run():
         check("the %s provider is configured" % name,
               bool(settings.get("model")) and name in _ai.PROVIDERS,
               "model=%r" % settings.get("model"))
+
+    # The translation provider talks to a service that caps each request, so its
+    # chunking must never hand over a piece larger than that ceiling.
+    long_tamil = ("சீரற்ற வானிலை காரணமாக நுவரெலியா கல்வி வலயத்தில் நாளை பாடசாலைகளை "
+                  "நடத்துவதில் சிரமம் காணப்படுமாயின், அது குறித்துத் தீர்மானிக்கும் "
+                  "அதிகாரத்தை வலயக் கல்விப் பணிப்பாளர் வழங்கியுள்ளார். ") * 5
+    pieces = _ai.chunks(long_tamil)
+    check("translation requests stay under the size limit",
+          pieces and all(len(x.encode("utf-8")) <= _ai.MM_MAX_BYTES for x in pieces),
+          "largest %d bytes" % max(len(x.encode("utf-8")) for x in pieces))
+    check("chunking loses no text",
+          abs(len(" ".join(pieces)) - len(long_tamil.strip())) <= 10)
+    check("a run cannot exceed its translation budget",
+          _refuses_over_budget(_ai))
+
+    # Both keyless/free providers must keep a gap between requests, or a run spends its
+    # per-minute allowance in the first second and collects rate-limit errors instead.
+    live = json.loads((ROOT / "config" / "ai.json").read_text(encoding="utf-8"))
+    check("free providers pace their requests",
+          all(float(live.get(n, {}).get("min_interval_seconds", 0)) > 0
+              for n in ("gemini", "translate")),
+          "gemini=%s translate=%s" % (live.get("gemini", {}).get("min_interval_seconds"),
+                                      live.get("translate", {}).get("min_interval_seconds")))
 
     # --- the whole pipeline, on a throwaway copy of the repo --------------------
     work = Path(tempfile.mkdtemp(prefix="yarl-selftest-"))
@@ -101,6 +136,16 @@ def run():
         ai_enrich.CONFIG_FILE = work / "config" / "ai.json"
         build.SITE, build.TEMPLATES = work / "site", work / "templates"
         build.NEWS_DIR = work / "site" / "news"
+
+        # Nothing here calls a real service, so drop the pacing the live config uses to
+        # stay inside a free tier's per-minute limit — otherwise this waits out a real
+        # four-second gap per story and adds two minutes to every CI run.
+        ai_cfg = json.loads((work / "config" / "ai.json").read_text(encoding="utf-8"))
+        for block in ai_cfg.values():
+            if isinstance(block, dict):
+                block["min_interval_seconds"] = 0
+        (work / "config" / "ai.json").write_text(
+            json.dumps(ai_cfg, ensure_ascii=False), encoding="utf-8")
 
         # data/texts.json is gitignored, so it is absent on a fresh checkout and present
         # with whatever a local run last left. Write our own so the run is the same

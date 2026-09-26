@@ -35,9 +35,13 @@ import concurrent.futures
 import datetime as dt
 import json
 import os
+import re
 import sys
 import threading
 import time
+import urllib.error
+import urllib.parse
+import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -66,6 +70,17 @@ DEFAULTS = {
         "concurrency": 4,
         "min_interval_seconds": 0,
         "max_tokens": 16000,
+    },
+    "translate": {
+        # Not a model: a translation service, used one sentence at a time.
+        "model": "mymemory",
+        "email": "",
+        "max_source_chars": 900,
+        "max_chars_per_run": 8000,
+        # One request at a time with a gap: a free service throttles parallel callers,
+        # and there is nothing to gain by going faster than the daily allowance.
+        "concurrency": 1,
+        "min_interval_seconds": 1,
     },
 }
 
@@ -252,6 +267,150 @@ def gemini_rewrite(client, cfg, item, text):
     return (data, tokens) if data else None
 
 
+# ------------------------------------------------------------------ translation only
+
+# MyMemory takes at most 500 bytes per request and allows 5,000 characters a day
+# anonymously, 50,000 with an email address. Tamil costs three bytes a character, so
+# requests are small and the daily allowance is the real limit on this provider.
+MM_URL = "https://api.mymemory.translated.net/get"
+MM_MAX_BYTES = 480          # a little under the 500-byte ceiling, for safety
+SENTENCE_END = re.compile(r"(?<=[.!?।])\s+")
+
+
+class Translator(object):
+    """Counts characters as it goes, so one run cannot silently eat the day's quota."""
+
+    def __init__(self, cfg):
+        self.email = (cfg.get("email") or "").strip()
+        self.budget = int(cfg.get("max_chars_per_run", 8000))
+        self.spent = 0
+
+    def phrase(self, text, pair):
+        if self.spent + len(text) > self.budget:
+            raise RateLimited("this run's %d-character translation budget is used up"
+                              % self.budget)
+        params = {"q": text, "langpair": pair}
+        if self.email:
+            params["de"] = self.email
+        url = MM_URL + "?" + urllib.parse.urlencode(params)
+        request = urllib.request.Request(url, headers={"User-Agent": "yarl-murasu/1.0"})
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                payload = json.loads(response.read().decode("utf-8", "replace"))
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 403):
+                raise RateLimited("translation service said %d" % e.code)
+            raise
+        self.spent += len(text)
+        status = payload.get("responseStatus")
+        if status not in (200, "200"):
+            detail = str(payload.get("responseDetails") or "")[:120]
+            if "LIMIT" in detail.upper() or "QUOTA" in detail.upper():
+                raise RateLimited("daily translation allowance reached: %s" % detail)
+            raise RuntimeError("translation failed (%s): %s" % (status, detail))
+        return (payload.get("responseData") or {}).get("translatedText") or ""
+
+    def text(self, text, pair):
+        """Translate a passage by sending it in pieces the service will accept."""
+        out = []
+        for chunk in chunks(text):
+            done = self.phrase(chunk, pair)
+            if not done:
+                return ""
+            out.append(done.strip())
+        return " ".join(out)
+
+
+def chunks(text, limit=MM_MAX_BYTES):
+    """Split on sentence ends, then on words, so no piece exceeds the byte ceiling."""
+    pieces, current = [], ""
+    for sentence in SENTENCE_END.split(text):
+        candidate = (current + " " + sentence).strip() if current else sentence
+        if len(candidate.encode("utf-8")) <= limit:
+            current = candidate
+            continue
+        if current:
+            pieces.append(current)
+        # A single sentence can still be too long; break it on word boundaries.
+        current = ""
+        for word in sentence.split():
+            candidate = (current + " " + word).strip() if current else word
+            if len(candidate.encode("utf-8")) <= limit:
+                current = candidate
+            else:
+                if current:
+                    pieces.append(current)
+                current = word
+    if current:
+        pieces.append(current)
+    return pieces
+
+
+def trimmed(text, limit):
+    """The opening of an article, cut at a sentence end rather than mid-word."""
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    end = max(cut.rfind(c) for c in ".!?।")
+    return cut[: end + 1] if end > limit // 2 else cut.rsplit(" ", 1)[0]
+
+
+def translate_client(cfg):
+    return Translator(cfg)
+
+
+def translate_rewrite(client, cfg, item, text):
+    """Re-word a story with machine translation and no language model.
+
+    An English report is translated into Tamil, which is new Tamil writing by
+    construction. A Tamil report is sent through English and back, which returns the
+    same facts in different Tamil wording. Neither reads as well as a model-written
+    story, and both stay closer to the original's sentence order, so this provider
+    publishes a short brief rather than a full-length article.
+    """
+    source = trimmed(text, int(cfg.get("max_source_chars", 900)))
+    if len(source) < cfg.get("min_text_chars", 400):
+        return None
+
+    english = item.get("lang") == "en"
+    headline = (item.get("title") or "").strip()
+    if english:
+        headline_ta = client.text(headline, "en|ta")
+        body_ta = client.text(source, "en|ta")
+    else:
+        headline_ta = client.text(client.text(headline, "ta|en"), "en|ta")
+        body_ta = client.text(client.text(source, "ta|en"), "en|ta")
+
+    if not headline_ta or not body_ta:
+        return None
+    # A round trip that hands back the original sentence has not re-worded anything.
+    if not english and body_ta.strip() == source.strip():
+        return None
+
+    sentences = [x.strip() for x in SENTENCE_END.split(body_ta) if x.strip()]
+    if len(sentences) < 2:
+        return None
+    paragraphs, group = [], []
+    for sentence in sentences:
+        group.append(sentence)
+        if len(group) == 2:
+            paragraphs.append(" ".join(group))
+            group = []
+    if group:
+        paragraphs.append(" ".join(group))
+
+    data = {
+        "enough_material": True,
+        "headline": headline_ta,
+        "lede": sentences[0],
+        "body": paragraphs,
+        # No model read this, so the keyword categories fetch_news assigned stand.
+        "category": item.get("category", ""),
+    }
+    return data, (len(source), len(body_ta))
+
+
 # ------------------------------------------------------------------ Claude
 
 def anthropic_client(cfg):
@@ -296,15 +455,19 @@ def anthropic_rewrite(client, cfg, item, text):
 PROVIDERS = {
     "gemini": (gemini_client, gemini_rewrite),
     "anthropic": (anthropic_client, anthropic_rewrite),
+    "translate": (translate_client, translate_rewrite),
 }
 
 # Which environment variable each provider needs, for the pre-flight check.
+# The translation provider needs none, which is the whole point of it.
 KEY_FOR = {"gemini": ("GEMINI_API_KEY",),
-           "anthropic": ("ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN")}
+           "anthropic": ("ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN"),
+           "translate": ()}
 
 
 def key_present(cfg):
-    return any(os.environ.get(name) for name in KEY_FOR[cfg["provider"]])
+    wanted = KEY_FOR[cfg["provider"]]
+    return not wanted or any(os.environ.get(name) for name in wanted)
 
 
 def available_models(cfg):
@@ -313,6 +476,8 @@ def available_models(cfg):
     Model names move: a name that was right when this was written may not be a year
     later. Checking once before a run turns a confusing mid-run error into a clear one.
     """
+    if cfg["provider"] == "translate":
+        return None                      # a translation service, with nothing to choose
     try:
         if cfg["provider"] == "gemini":
             from google import genai
@@ -481,7 +646,8 @@ def main():
         ok = key_present(cfg)
         wanted = " or ".join(KEY_FOR[cfg["provider"]])
         print("provider: %s (%s)" % (cfg["provider"], cfg["model"]))
-        print("%s: %s" % (wanted, "set" if ok else "NOT SET"))
+        print("%s" % ("no API key needed" if not wanted
+                      else "%s: %s" % (wanted, "set" if ok else "NOT SET")))
         if not ok:
             print("Stories are rewritten in Tamil before they are published, so without "
                   "this key nothing new can go live.")

@@ -124,13 +124,19 @@ a responsive bug.
 
 ## Secrets and config
 
-- A rewrite API key is **required**, not optional: every fetched story is rewritten in Tamil before
-  it can be published, so without one nothing new goes live. Which key depends on `provider` in
-  `config/ai.json` — `GEMINI_API_KEY` (free tier, the default) or `ANTHROPIC_API_KEY`. Both are
-  GitHub repository secrets (Settings → Secrets and variables → Actions) and exported variables
-  locally. `scripts/ai_enrich.py --check` reports which is wanted and whether the model name is one
-  that key can use; the workflow runs it and fails with a named error, and `build.py` leaves the
-  existing site untouched.
+- Every fetched story is rewritten in Tamil before it can be published, so the rewrite step must be
+  working or nothing new goes live. `provider` in `config/ai.json` picks who does it: `gemini`
+  (free key, the default), `anthropic` (paid key) or `translate` (no key — machine translation, no
+  language model). Keys are GitHub repository secrets (Settings → Secrets and variables → Actions)
+  and exported variables locally. `scripts/ai_enrich.py --check` reports which key is wanted, if
+  any, and whether the model name is one that key can use; the workflow runs it and fails with a
+  named error, and `build.py` leaves the existing site untouched.
+- The `translate` provider re-words by translation alone: English into Tamil, Tamil through English
+  and back. It is the weakest option — short briefs, plainer Tamil, sentence order close to the
+  original, keyword sections rather than judged ones — and it is bounded by MyMemory's 5,000
+  characters a day (50,000 with an email in `translate.email`), so `max_source_chars` and
+  `max_chars_per_run` are what keep a run inside the allowance. Do not raise them without checking
+  the allowance still covers a day's stories.
 - Adding a provider means adding one entry to `ai_enrich.PROVIDERS` — a `(build_client, rewrite)`
   pair returning `(data, (input_tokens, output_tokens))` against the shared `SCHEMA` — plus a block
   in `config/ai.json` and the key name in `KEY_FOR`. Nothing downstream of `apply()` knows or cares

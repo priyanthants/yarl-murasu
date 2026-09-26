@@ -1,5 +1,5 @@
 {
-  "_help": "Every story is rewritten in our own Tamil before it is published; English sources are translated in the same pass. Choose who writes it with 'provider'. gemini = Google's free tier: get a key at aistudio.google.com (no card needed) and set GEMINI_API_KEY. anthropic = Claude: better Tamil, but every story costs money; set ANTHROPIC_API_KEY. Free-tier requests are rate limited and Google may use free-tier content to improve their products; whatever a run cannot finish is picked up by the next one. Set enabled to false to stop rewriting entirely (the site then publishes only your own posts).",
+  "_help": "Every story is rewritten in our own Tamil before it is published; English sources are translated in the same pass. 'provider' picks who does it. gemini = Google's free tier (key from aistudio.google.com, no card) — best balance. anthropic = Claude: the best Tamil, but every story costs money. translate = no key and no language model at all, just machine translation; it publishes short briefs and reads noticeably plainer. Set enabled to false to stop rewriting entirely (the site then publishes only your own posts).",
   "enabled": true,
   "provider": "gemini",
   "max_items_per_run": 40,
@@ -21,5 +21,14 @@
     "concurrency": 4,
     "min_interval_seconds": 0,
     "max_tokens": 16000
+  },
+  "translate": {
+    "_help": "No API key and no language model. English stories are translated into Tamil; Tamil stories are sent through English and back, which returns the same facts in different wording. Uses MyMemory, which allows 5000 characters a day anonymously and 50000 with an email address here — so set email to raise the ceiling. max_source_chars keeps each story short enough that the daily allowance covers a useful number of them.",
+    "model": "mymemory",
+    "email": "",
+    "max_source_chars": 900,
+    "max_chars_per_run": 8000,
+    "concurrency": 1,
+    "min_interval_seconds": 1
   }
 }

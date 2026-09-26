@@ -109,17 +109,38 @@ exactly as it was rather than emptying it.
 
 `provider` in `config/ai.json` picks one. Switching is a one-word edit; the workflow installs both.
 
-| Provider | Cost | Notes |
-|---|---|---|
-| `gemini` (default) | **Free tier** | Key from [aistudio.google.com/apikey](https://aistudio.google.com/apikey), no card. Rate limited per minute and per day, so a run writes what it can and the next one continues. Google may use free-tier content to improve their products. |
-| `anthropic` | Paid | Noticeably better Tamil. Roughly 5–8 US cents per story. |
+| Provider | Needs a key | Quality | Notes |
+|---|---|---|---|
+| `gemini` (default) | Free key | Good | Key from [aistudio.google.com/apikey](https://aistudio.google.com/apikey), no card. Rate limited per minute and per day, so a run writes what it can and the next one continues. Google may use free-tier content to improve their products. |
+| `anthropic` | Paid key | Best | Noticeably better Tamil. Roughly 5–8 US cents per story. |
+| `translate` | **No key at all** | Plainest | No language model. See below. |
 
-There is no third option: rewriting a news report in Tamil needs a language model. A
-dictionary or translation library either reproduces the publisher's own sentences — which is the
-thing this site exists to avoid — or mangles Tamil, which inflects far too much for word
-substitution to survive.
+### The `translate` provider — no key, no AI model
 
-Set up:
+It uses machine translation only:
+
+- An **English** story is translated into Tamil. The Tamil is new text by construction — the
+  publisher wrote in English.
+- A **Tamil** story is sent through English and back. The same facts return in different Tamil
+  wording, which is a real re-wording rather than a copy.
+
+Be clear about what you get. It writes a **short brief**, not a full article: about 900 characters
+of the source, turned into a headline, a lede and two or three short paragraphs. It reads plainer
+than a model-written story, and it follows the original's sentence order much more closely — it is
+re-wording, not re-reporting. Section headings come from keyword matching rather than from reading
+the story, and it cannot judge whether a page holds a real story, so weak sources get through more
+often.
+
+It uses [MyMemory](https://mymemory.translated.net), which allows **5,000 characters a day
+anonymously and 50,000 with an email address**. Put your email in `translate.email` in
+`config/ai.json` to get the higher ceiling — at roughly 900 characters a story (double that for
+Tamil sources, which make the round trip) that is a few dozen stories a day, not hundreds.
+
+A fully offline option is not practical here: Argos Translate, the usual local translation library,
+has no Tamil at all, and the Tamil models that do exist (Opus-MT, IndicTrans2) need PyTorch and a
+couple of gigabytes, which a half-hourly GitHub run cannot carry.
+
+Set up (skip entirely if you use `translate`, which needs nothing):
 1. Get a key — free at [aistudio.google.com/apikey](https://aistudio.google.com/apikey) for Gemini,
    or console.anthropic.com for Claude.
 2. On GitHub: repository → Settings → Secrets and variables → Actions → New repository secret,
@@ -166,6 +187,9 @@ own block:
 | `gemini.concurrency` / `min_interval_seconds` | Lower the first and raise the second if you see rate-limit messages |
 | `gemini.thinking_level` | `minimal` / `low` / `medium` / `high` — raise it if the Tamil reads poorly, lower it to stretch the free quota |
 | `anthropic.model` / `effort` | `claude-haiku-4-5` is much cheaper with plainer Tamil; effort is `low`/`medium`/`high` |
+| `translate.email` | Raises the daily allowance from 5,000 to 50,000 characters |
+| `translate.max_source_chars` | How much of each article is used (900). Lower it to cover more stories a day |
+| `translate.max_chars_per_run` | Stops one run spending the whole day's allowance |
 
 **If you use the paid provider**, a rewrite reads a whole article and writes a whole story, so
 expect very roughly 5–8 US cents each on `claude-opus-5` — somewhere near 10–15 dollars to clear the
