@@ -12,14 +12,20 @@ https://priyanthants.github.io/yarl-murasu/ (repo `priyanthants/yarl-murasu`).
 python3 scripts/admin.py            # admin panel + preview on http://localhost:8000 (also /admin)
 python3 scripts/fetch_news.py       # fetch → read article pages → rewrite → build   (--no-ai, --no-text, --no-build, -v)
 python3 scripts/build.py            # regenerate site/ from config + content + data
+python3 scripts/selftest.py         # check the publishing rules (offline, no API key)
 scripts/publish.sh                  # push own posts/ads + locally written stories to GitHub
 python3 scripts/make_card.py        # daily Instagram image (--size square|portrait|story, --skip-existing)
 .venv/bin/python scripts/ai_enrich.py   # rewrite every story in our own Tamil (--dry-run, --redo)
 scripts/schedule_mac.sh on|off|status   # local launchd timer (optional; GitHub Actions is primary)
 ```
 
-There is no test framework. Verify changes by running `python3 scripts/build.py`, then screenshot the
-local preview with headless Chrome (see "Headless Chrome" below).
+Run `python3 scripts/selftest.py` after changing the pipeline: it stubs the API and checks, offline
+and for free, that a story only publishes once rewritten, that no publisher's name or link reaches a
+page, the feed or the browser payload, that each story stays labelled machine-assisted, and that an
+empty rewrite leaves the site alone. It is the only test there is, and CI runs it on every push.
+
+Beyond that, verify changes by running `python3 scripts/build.py`, then screenshot the local preview
+with headless Chrome (see "Headless Chrome" below).
 
 ## Python environments
 

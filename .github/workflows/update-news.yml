@@ -34,6 +34,11 @@ jobs:
       - name: Install the Anthropic SDK (for the Tamil rewrite)
         run: pip install --quiet anthropic
 
+      # Guards the rule the whole site rests on: no publisher's words or name reaches
+      # a reader. Runs offline against a stubbed rewrite, so it costs nothing.
+      - name: Check the publishing rules
+        run: python scripts/selftest.py
+
       # Every story is rewritten in Tamil before it is published, so without this secret
       # no new story can go live. Stop here so the run goes red and GitHub emails about
       # it; Pages keeps serving the last deployment, so the site stays up meanwhile.

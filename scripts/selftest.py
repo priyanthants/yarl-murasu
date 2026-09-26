@@ -1,0 +1,167 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Check the publishing rules still hold, without calling the API or touching the site.
+
+The rule this guards is the one that matters: everything a reader sees is our own Tamil
+writing, and no publisher is named anywhere in the output. A stubbed rewrite stands in
+for the API, so this runs offline and for free.
+
+    python3 scripts/selftest.py
+
+Exit status is 0 when every check passes, 1 otherwise.
+"""
+import json
+import os
+import shutil
+import sys
+import tempfile
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+
+PUBLISHERS = ["வீரகேசரி", "BBC", "Ada Derana", "Tamil Guardian", "Newswire", "The Island",
+              "அத தெரண", "வட மாகாண சபை", "அரச செய்திச் சேவை"]
+
+TOWNS = ["வவுனியா", "கிளிநொச்சி", "முல்லைத்தீவு", "மன்னார்", "யாழ்ப்பாணம்", "பருத்தித்துறை",
+         "சாவகச்சேரி", "நல்லூர்", "காரைநகர்", "தெல்லிப்பழை"]
+SUBJECTS = ["நீர் விநியோகம்", "பாடசாலைக் கட்டிடம்", "மீன்பிடித் துறைமுகம்", "வைத்தியசாலை",
+            "வீதி அபிவிருத்தி", "மின்சார இணைப்பு", "விவசாய நிலம்", "நூலகம்", "பேருந்துச் சேவை",
+            "தொழில் பயிற்சி", "குடியிருப்புத் திட்டம்", "பாலம்", "சந்தை", "விளையாட்டு மைதானம்"]
+
+failures = []
+
+
+def check(name, ok, detail=""):
+    print("%-44s %s%s" % (name, "ok" if ok else "FAILED", (" — " + detail) if detail and not ok else ""))
+    if not ok:
+        failures.append(name)
+
+
+class Usage:
+    input_tokens = 1200
+    output_tokens = 600
+
+
+def run():
+    import ai_enrich
+    import build
+
+    # --- rules that need no data ------------------------------------------------
+    mk = lambda t, ty="auto": {"ai_title": t, "title": t, "id": t[:8], "type": ty}
+    same_event = build.drop_repeats([
+        mk("ஜனாதிபதி அநுர குமார திசாநாயக்க நாளை இந்தியா பயணம்"),
+        mk("ஜனாதிபதி அநுர குமார இந்தியா பயணம் நாளை ஆரம்பம்")])
+    check("one story per event", len(same_event) == 1)
+
+    same_name = build.drop_repeats([
+        mk("ஜனாதிபதி அநுர குமார இந்தியா பயணம்"),
+        mk("ஜனாதிபதி அநுர குமார வரவுசெலவுத் திட்டம் சமர்ப்பிப்பு")])
+    check("two stories sharing a name both kept", len(same_name) == 2)
+
+    own = build.drop_repeats([mk("யாழ்ப்பாணத்தில் புதிய மருத்துவமனை திறப்பு"),
+                              mk("யாழ்ப்பாணத்தில் புதிய மருத்துவமனை திறப்பு", "local")])
+    check("an own post is never a wire duplicate", len(own) == 2)
+
+    check("a story without a rewrite is held",
+          bool(build.hold_reason({"type": "auto", "title": "Something"})))
+    check("a rewritten story is publishable",
+          not build.hold_reason({"type": "auto", "ai_title": "வவுனியாவில் புதிய நீர்த் திட்டம்",
+                                 "ai_body": ["ஒரு பந்தி."]}))
+    check("an own post is always publishable", not build.hold_reason({"type": "local"}))
+
+    # --- the whole pipeline, on a throwaway copy of the repo --------------------
+    work = Path(tempfile.mkdtemp(prefix="yarl-selftest-"))
+    try:
+        for rel in ("scripts", "config", "templates", "content", "site", "data"):
+            if (ROOT / rel).exists():
+                shutil.copytree(ROOT / rel, work / rel,
+                                ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))
+        (work / "data").mkdir(exist_ok=True)
+
+        ai_enrich.ROOT = build.ROOT = work
+        ai_enrich.STORE_FILE = work / "data" / "fetched.json"
+        ai_enrich.TEXTS_FILE = work / "data" / "texts.json"
+        ai_enrich.CONFIG_FILE = work / "config" / "ai.json"
+        build.SITE, build.TEMPLATES = work / "site", work / "templates"
+        build.NEWS_DIR = work / "site" / "news"
+
+        calls = {"n": 0}
+
+        def stub(client, cfg, item, text):
+            calls["n"] += 1
+            n = calls["n"]
+            if n % 5 == 0:   # the model judged this one too thin to report
+                return {"enough_material": False, "headline": "", "lede": "", "body": [],
+                        "category": "srilanka"}, Usage()
+            if n % 7 == 0:   # and declined this one outright
+                return None
+            return {
+                "enough_material": True,
+                "headline": "%s மாவட்டத்தில் %s தொடர்பான அறிவிப்பு" % (
+                    TOWNS[n % len(TOWNS)], SUBJECTS[n % len(SUBJECTS)]),
+                "lede": "%s பகுதியில் புதிய திட்டம் அறிவிக்கப்பட்டுள்ளது." % TOWNS[n % len(TOWNS)],
+                "body": ["%s மாவட்டத்தில் புதிய திட்டம் ஆரம்பிக்கப்பட்டுள்ளது." % TOWNS[n % len(TOWNS)],
+                         "இதனால் பல குடும்பங்கள் நன்மையடையும் எனத் தெரிவிக்கப்பட்டது."],
+                "category": "jaffna",
+            }, Usage()
+
+        ai_enrich.rewrite = stub
+        os.environ.setdefault("ANTHROPIC_API_KEY", "selftest-not-a-real-key")
+        sys.modules["anthropic"] = type("m", (), {"Anthropic": lambda *a, **k: None})
+
+        written = ai_enrich.enrich(limit=30, quiet=True)
+        check("the rewrite step writes stories", written > 0, "wrote %d" % written)
+
+        store = json.loads((work / "data" / "fetched.json").read_text(encoding="utf-8"))
+        thin = [i for i in store["items"] if i.get("ai_thin")]
+        check("a story judged too thin is marked, not published",
+              bool(thin) and all(not i.get("ai_body") for i in thin))
+        check("the rewrite decides the section",
+              any(i.get("category") == "jaffna" for i in store["items"] if i.get("ai_body")))
+
+        published = build.build(verbose=False)
+        check("the build publishes the rewritten stories", published > 0, "published %d" % published)
+
+        pages = sorted((work / "site" / "news").glob("*.html"))
+        check("a page is written per published story", len(pages) == published,
+              "%d pages, %d published" % (len(pages), published))
+
+        html = "\n".join(p.read_text(encoding="utf-8") for p in pages)
+        leaked = [name for name in PUBLISHERS if name in html]
+        check("no publisher is named on any page", not leaked, ", ".join(leaked))
+        check("no source box is rendered", "source-box" not in html)
+        check("each story is labelled machine-assisted",
+              all("ai-note" in p.read_text(encoding="utf-8") for p in pages))
+
+        news_js = (work / "site" / "data" / "news.js").read_text(encoding="utf-8")
+        check("the browser payload carries no publisher", '"source"' not in news_js)
+        check("the browser payload carries no source link", '"link"' not in news_js)
+
+        rss = (work / "site" / "rss.xml")
+        if rss.exists():
+            body = rss.read_text(encoding="utf-8")
+            check("the feed names no publisher", not [n for n in PUBLISHERS if n in body])
+
+        # An unrewritten store must leave the existing site alone rather than empty it.
+        for item in store["items"]:
+            for key in ("ai_body", "ai_title", "ai_summary"):
+                item.pop(key, None)
+        (work / "data" / "fetched.json").write_text(
+            json.dumps(store, ensure_ascii=False), encoding="utf-8")
+        before = len(list((work / "site" / "news").glob("*.html")))
+        build.build(verbose=False)
+        after = len(list((work / "site" / "news").glob("*.html")))
+        check("an empty rewrite leaves the site untouched", before == after and before > 0)
+    finally:
+        shutil.rmtree(work, ignore_errors=True)
+
+
+if __name__ == "__main__":
+    run()
+    print()
+    if failures:
+        print("%d check(s) failed: %s" % (len(failures), ", ".join(failures)))
+        sys.exit(1)
+    print("All checks passed.")
+    sys.exit(0)
