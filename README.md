@@ -8,10 +8,12 @@ add your own stories with photos and videos too.
 The website is plain HTML/CSS/JS, so it can be hosted anywhere (GitHub Pages, Netlify,
 cPanel hosting…).
 
-> **One thing must be set up before anything publishes.** The Tamil rewrite runs on the
-> Claude API, so the repository needs an `ANTHROPIC_API_KEY` secret. Without it no story
-> can be rewritten, nothing new goes live, and the site keeps serving the pages it already
-> has. See [The Tamil rewrite](#the-tamil-rewrite--required--costs-money) below.
+> **One thing must be set up before anything publishes.** The Tamil rewrite needs an API
+> key. The default is Google Gemini's **free tier** — get a key at
+> [aistudio.google.com/apikey](https://aistudio.google.com/apikey), no card needed — and add
+> it to the repository as `GEMINI_API_KEY`. Without a key no story can be rewritten, nothing
+> new goes live, and the site keeps serving the pages it already has.
+> See [The Tamil rewrite](#the-tamil-rewrite) below.
 
 ## Quick start
 
@@ -44,7 +46,7 @@ It goes live in about a minute.
 | `scripts/fetch_news.py` | Fetch latest news + rebuild the site |
 | `scripts/build.py` | Rebuild the site only |
 | `scripts/admin.py` | Local admin panel + preview server |
-| `scripts/ai_enrich.py` | Rewrites every story in our own Tamil, translating English (needs an API key) |
+| `scripts/ai_enrich.py` | Rewrites every story in our own Tamil, translating English (Gemini free tier or Claude) |
 | `scripts/make_card.py` | Daily share image for Instagram/Facebook |
 | `config/ai.json` | AI settings (model, how many per run, on/off) |
 | `scripts/publish.sh` | Send your posts/photos/ads to GitHub so they go live |
@@ -90,25 +92,46 @@ report published by a trusted news organisation. No publisher's text is reproduc
 is named on the page — what you read is our own writing, and it is labelled as machine-assisted.
 Stories are held back, not published half-finished, when there was too little to write from.
 
-## The Tamil rewrite (required — costs money)
+## The Tamil rewrite
 
-`scripts/ai_enrich.py` gives Claude the full article a publisher put out and asks for a fresh Tamil
-report written from the facts in it: a new headline, a one-line lede and a few paragraphs of body,
-plus which section the story belongs in. English sources are translated in the same pass.
+`scripts/ai_enrich.py` gives the model the full article a publisher put out and asks for a fresh
+Tamil report written from the facts in it: a new headline, a one-line lede and a few paragraphs of
+body, plus which section the story belongs in. English sources are translated in the same pass.
 
 Nothing is invented — the rewrite may only use what the source states — and when there is too little
 to write from, the story is held back instead of published as a bare headline.
 
-**This step is not optional any more.** Since every story on the site is our own writing, a run
-without `ANTHROPIC_API_KEY` publishes nothing new: the GitHub workflow stops with a named error and
-`build.py` leaves the site exactly as it was rather than emptying it.
+**This step is not optional.** Since every story on the site is our own writing, a run with no key
+publishes nothing new: the GitHub workflow stops with a named error and `build.py` leaves the site
+exactly as it was rather than emptying it.
+
+### Who writes it
+
+`provider` in `config/ai.json` picks one. Switching is a one-word edit; the workflow installs both.
+
+| Provider | Cost | Notes |
+|---|---|---|
+| `gemini` (default) | **Free tier** | Key from [aistudio.google.com/apikey](https://aistudio.google.com/apikey), no card. Rate limited per minute and per day, so a run writes what it can and the next one continues. Google may use free-tier content to improve their products. |
+| `anthropic` | Paid | Noticeably better Tamil. Roughly 5–8 US cents per story. |
+
+There is no third option: rewriting a news report in Tamil needs a language model. A
+dictionary or translation library either reproduces the publisher's own sentences — which is the
+thing this site exists to avoid — or mangles Tamil, which inflects far too much for word
+substitution to survive.
 
 Set up:
-1. Get an API key at console.anthropic.com.
+1. Get a key — free at [aistudio.google.com/apikey](https://aistudio.google.com/apikey) for Gemini,
+   or console.anthropic.com for Claude.
 2. On GitHub: repository → Settings → Secrets and variables → Actions → New repository secret,
-   name `ANTHROPIC_API_KEY`. The workflow picks it up automatically.
-3. On this Mac (optional): `export ANTHROPIC_API_KEY=sk-ant-...` before running, and the project
-   venv (`.venv`) already has the SDK. The admin panel has a button for it.
+   named `GEMINI_API_KEY` (or `ANTHROPIC_API_KEY`). The workflow picks it up automatically.
+3. On this Mac (optional): `export GEMINI_API_KEY=...` before running. The admin panel has a button.
+
+Check it is wired up correctly before a run — this reports the provider, whether its key is set,
+and whether the model name is one your key can actually use:
+
+```bash
+python3 scripts/ai_enrich.py --check --no-build
+```
 
 Before spending anything, see what is queued — this calls nothing:
 
@@ -116,36 +139,37 @@ Before spending anything, see what is queued — this calls nothing:
 .venv/bin/python scripts/ai_enrich.py --dry-run --no-build
 ```
 
-Then try three stories on your Mac and read what comes back, rather than paying for two hundred
-before you know whether you like the Tamil:
+Then try three stories on your Mac and read what comes back, before letting it loose on the
+backlog:
 
 ```bash
-export ANTHROPIC_API_KEY=sk-ant-...
+export GEMINI_API_KEY=...
 .venv/bin/python scripts/ai_enrich.py --limit 3
 python3 scripts/admin.py          # then read them at http://localhost:8000/
 ```
 
-If the writing is not what you want, change `model` or `effort` in `config/ai.json`, or edit the
-instructions at the top of `scripts/ai_enrich.py` (they are in Tamil), and run the same command
-again with `--redo`.
+If the Tamil is not what you want, change the model in `config/ai.json`, switch `provider` to
+`anthropic`, or edit the instructions at the top of `scripts/ai_enrich.py` (they are in Tamil), and
+run the same command again with `--redo`.
 
-**Cost — read this before switching it on.** A rewrite is much bigger than the old one-paragraph
-summary: it reads a whole article and writes a whole story. On the default `claude-opus-5` expect
-very roughly 5-8 US cents per story. Clearing the ~200 stories already waiting costs somewhere near
-10-15 dollars, and after that the day-to-day rate depends on how many new stories the sources carry.
-
-`config/ai.json` holds every knob:
+`config/ai.json` holds every knob. The shared ones sit at the top level, and each provider has its
+own block:
 
 | Setting | What it does |
 |---|---|
-| `model` | `claude-haiku-4-5` is roughly five times cheaper, with plainer Tamil; `claude-sonnet-5` sits in between |
-| `effort` | `low` / `medium` / `high` — how much thinking each story gets |
+| `provider` | `gemini` (free) or `anthropic` (paid) |
 | `max_items_per_run` | Ceiling per run (40), so one run can never surprise you |
-| `concurrency` | How many stories are written at once |
+| `min_text_chars` | Below this much article text, a story is not sent at all |
+| `max_attempts` | How many times a story that keeps failing is retried before it is left alone |
 | `enabled` | `false` stops the rewrite entirely |
+| `gemini.model` | `gemini-3.5-flash-lite` and `gemini-3.1-flash-lite` are lighter on the free quota; `gemini-3.8-flash` is the strongest |
+| `gemini.concurrency` / `min_interval_seconds` | Lower the first and raise the second if you see rate-limit messages |
+| `gemini.thinking_budget` | Set to `0` to turn thinking off and stretch the free quota further |
+| `anthropic.model` / `effort` | `claude-haiku-4-5` is much cheaper with plainer Tamil; effort is `low`/`medium`/`high` |
 
-Watch the first day at console.anthropic.com and turn `model` or `effort` down if it costs more than
-you want it to.
+**If you use the paid provider**, a rewrite reads a whole article and writes a whole story, so
+expect very roughly 5–8 US cents each on `claude-opus-5` — somewhere near 10–15 dollars to clear the
+backlog that is already waiting. Watch the first day at console.anthropic.com.
 
 ## Daily share image (Instagram / Facebook / WhatsApp)
 

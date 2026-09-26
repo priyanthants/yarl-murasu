@@ -1,12 +1,24 @@
 {
-  "_help": "Every story is rewritten in our own Tamil by Claude before it is published; English sources are translated in the same pass. Needs ANTHROPIC_API_KEY. Set enabled to false to turn it off (the site will then publish only your own posts). effort trades cost against writing quality: low, medium, high. Cheaper model options: claude-haiku-4-5, claude-sonnet-5.",
+  "_help": "Every story is rewritten in our own Tamil before it is published; English sources are translated in the same pass. Choose who writes it with 'provider'. gemini = Google's free tier: get a key at aistudio.google.com (no card needed) and set GEMINI_API_KEY. anthropic = Claude: better Tamil, but every story costs money; set ANTHROPIC_API_KEY. Free-tier requests are rate limited and Google may use free-tier content to improve their products; whatever a run cannot finish is picked up by the next one. Set enabled to false to stop rewriting entirely (the site then publishes only your own posts).",
   "enabled": true,
-  "model": "claude-opus-5",
-  "effort": "medium",
+  "provider": "gemini",
   "max_items_per_run": 40,
   "min_text_chars": 400,
   "body_paragraphs": "3-5",
-  "concurrency": 4,
-  "max_tokens": 16000,
-  "max_attempts": 3
+  "max_attempts": 3,
+  "gemini": {
+    "_help": "Free tier. Alternatives: gemini-3.5-flash-lite and gemini-3.1-flash-lite are faster and lighter on the quota; gemini-3.8-flash is the strongest. Lower concurrency and raise min_interval_seconds if you see rate-limit messages. thinking_budget 0 turns thinking off to save quota; leave it out to let the model decide.",
+    "model": "gemini-3.5-flash",
+    "concurrency": 2,
+    "min_interval_seconds": 4,
+    "max_tokens": 16000
+  },
+  "anthropic": {
+    "_help": "Paid. claude-haiku-4-5 is much cheaper with plainer Tamil; claude-sonnet-5 sits in between. effort is low, medium or high.",
+    "model": "claude-opus-5",
+    "effort": "medium",
+    "concurrency": 4,
+    "min_interval_seconds": 0,
+    "max_tokens": 16000
+  }
 }

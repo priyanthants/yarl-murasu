@@ -38,9 +38,7 @@ def check(name, ok, detail=""):
         failures.append(name)
 
 
-class Usage:
-    input_tokens = 1200
-    output_tokens = 600
+TOKENS = (1200, 600)   # what a provider reports back: (input, output)
 
 
 def run():
@@ -69,6 +67,24 @@ def run():
           not build.hold_reason({"type": "auto", "ai_title": "வவுனியாவில் புதிய நீர்த் திட்டம்",
                                  "ai_body": ["ஒரு பந்தி."]}))
     check("an own post is always publishable", not build.hold_reason({"type": "local"}))
+
+    # Both providers have to stay configured: switching between them is a one-word edit
+    # in config/ai.json, and a broken one would only show up at the next scheduled run.
+    import ai_enrich as _ai
+    stored = json.loads((ROOT / "config" / "ai.json").read_text(encoding="utf-8"))
+    for name in ("gemini", "anthropic"):
+        stored["provider"] = name
+        resolved = dict(_ai.DEFAULTS)
+        for key, value in stored.items():
+            if isinstance(value, dict) and isinstance(resolved.get(key), dict):
+                merged = dict(resolved[key]); merged.update(value); resolved[key] = merged
+            else:
+                resolved[key] = value
+        settings = {k: v for k, v in resolved.items() if not isinstance(v, dict)}
+        settings.update(resolved.get(name, {}))
+        check("the %s provider is configured" % name,
+              bool(settings.get("model")) and name in _ai.PROVIDERS,
+              "model=%r" % settings.get("model"))
 
     # --- the whole pipeline, on a throwaway copy of the repo --------------------
     work = Path(tempfile.mkdtemp(prefix="yarl-selftest-"))
@@ -102,7 +118,7 @@ def run():
             n = calls["n"]
             if n % 5 == 0:   # the model judged this one too thin to report
                 return {"enough_material": False, "headline": "", "lede": "", "body": [],
-                        "category": "srilanka"}, Usage()
+                        "category": "srilanka"}, TOKENS
             if n % 7 == 0:   # and declined this one outright
                 return None
             return {
@@ -113,11 +129,12 @@ def run():
                 "body": ["%s மாவட்டத்தில் புதிய திட்டம் ஆரம்பிக்கப்பட்டுள்ளது." % TOWNS[n % len(TOWNS)],
                          "இதனால் பல குடும்பங்கள் நன்மையடையும் எனத் தெரிவிக்கப்பட்டது."],
                 "category": "jaffna",
-            }, Usage()
+            }, TOKENS
 
+        # Stand in for whichever provider config/ai.json names, so this runs with no key,
+        # no network and no provider SDK installed.
         ai_enrich.rewrite = stub
-        os.environ.setdefault("ANTHROPIC_API_KEY", "selftest-not-a-real-key")
-        sys.modules["anthropic"] = type("m", (), {"Anthropic": lambda *a, **k: None})
+        ai_enrich.PROVIDERS = {name: (lambda cfg: None, stub) for name in ai_enrich.PROVIDERS}
 
         written = ai_enrich.enrich(limit=30, quiet=True)
         check("the rewrite step writes stories", written > 0, "wrote %d" % written)

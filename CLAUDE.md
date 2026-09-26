@@ -31,9 +31,9 @@ with headless Chrome (see "Headless Chrome" below).
 
 - Core scripts (`fetch_news`, `build`, `admin`, `make_card`) use **stdlib only** and must stay
   compatible with the system Python 3.9. Do not add third-party imports to them.
-- `ai_enrich.py` needs the `anthropic` SDK (Python 3.10+), so it runs under `.venv` (Homebrew
-  python3.12). `fetch_news.py` invokes it as a subprocess with `.venv/bin/python` when present.
-  In CI, `pip install anthropic` on Python 3.12 covers it.
+- `ai_enrich.py` needs a provider SDK (`google-genai` or `anthropic`, both Python 3.10+), so it runs
+  under `.venv` (Homebrew python3.12). `fetch_news.py` invokes it as a subprocess with
+  `.venv/bin/python` when present. In CI, `pip install google-genai anthropic` covers it.
 
 ## Architecture
 
@@ -124,10 +124,17 @@ a responsive bug.
 
 ## Secrets and config
 
-- `ANTHROPIC_API_KEY` is **required**, not optional: every fetched story is rewritten in Tamil before
-  it can be published, so without the key nothing new goes live. It is a GitHub repository secret
-  (Settings → Secrets and variables → Actions) and an exported variable locally. The workflow fails
-  with a named error when it is missing, and `build.py` leaves the existing site untouched.
+- A rewrite API key is **required**, not optional: every fetched story is rewritten in Tamil before
+  it can be published, so without one nothing new goes live. Which key depends on `provider` in
+  `config/ai.json` — `GEMINI_API_KEY` (free tier, the default) or `ANTHROPIC_API_KEY`. Both are
+  GitHub repository secrets (Settings → Secrets and variables → Actions) and exported variables
+  locally. `scripts/ai_enrich.py --check` reports which is wanted and whether the model name is one
+  that key can use; the workflow runs it and fails with a named error, and `build.py` leaves the
+  existing site untouched.
+- Adding a provider means adding one entry to `ai_enrich.PROVIDERS` — a `(build_client, rewrite)`
+  pair returning `(data, (input_tokens, output_tokens))` against the shared `SCHEMA` — plus a block
+  in `config/ai.json` and the key name in `KEY_FOR`. Nothing downstream of `apply()` knows or cares
+  which provider wrote a story.
 - `config/ai.json` sets the model (`claude-opus-5`) and per-run limits; `config/site.json` holds
   `site_url`, social links and categories; `config/ads.json` holds ad slots.
 - Never commit API keys, and do not put the owner's email address into site output.

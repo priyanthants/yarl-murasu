@@ -135,18 +135,23 @@ def page(msg="", err=False, log=""):
         '<img src="/cards/%s" style="width:210px;border-radius:12px;border:1px solid #e3d8c8">'
         '<figcaption class="hint"><a href="/cards/%s" download>%s ⤓</a></figcaption></figure>'
         % (esc(f.name), esc(f.name), esc(f.name)) for f in card_files)
-    has_key = bool(os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"))
     ai_cfg = load(ROOT / "config" / "ai.json", {})
+    provider = ai_cfg.get("provider", "gemini")
+    key_names = {"gemini": ("GEMINI_API_KEY",),
+                 "anthropic": ("ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN")}.get(provider, ())
+    has_key = any(os.environ.get(n) for n in key_names)
+    model = (ai_cfg.get(provider) or {}).get("model", "")
     fetched = load(ROOT / "data" / "fetched.json", {"items": []}).get("items", [])
     written = sum(1 for i in fetched if i.get("ai_body"))
     waiting = len(fetched) - written
     if has_key:
-        ai_state = ("தமிழில் எழுதப்பட்ட செய்திகள்: %d · எழுதக் காத்திருப்பவை: %d · மாதிரி %s"
-                    % (written, waiting, ai_cfg.get("model", "")))
+        ai_state = ("தமிழில் எழுதப்பட்ட செய்திகள்: %d · எழுதக் காத்திருப்பவை: %d · %s (%s)"
+                    % (written, waiting, model, provider))
     else:
-        ai_state = ("⚠ ANTHROPIC_API_KEY அமைக்கப்படவில்லை. ஒவ்வொரு செய்தியும் தமிழில் "
-                    "மீளெழுதப்பட்ட பின்னரே வெளியிடப்படும் — எனவே இது இல்லாமல் புதிய செய்தி "
-                    "எதுவும் தளத்தில் வராது. (%d செய்திகள் எழுதக் காத்திருக்கின்றன.)" % waiting)
+        ai_state = ("⚠ %s அமைக்கப்படவில்லை. ஒவ்வொரு செய்தியும் தமிழில் மீளெழுதப்பட்ட "
+                    "பின்னரே வெளியிடப்படும் — எனவே இது இல்லாமல் புதிய செய்தி எதுவும் "
+                    "தளத்தில் வராது. (%d செய்திகள் காத்திருக்கின்றன.)"
+                    % (" / ".join(key_names) or "API key", waiting))
 
     notice = '<div class="msg%s">%s</div>' % (" err" if err else "", esc(msg)) if msg else ""
     log_html = "<pre>%s</pre>" % esc(log) if log else ""

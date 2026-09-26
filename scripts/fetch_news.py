@@ -683,7 +683,7 @@ def main():
 
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     if not args.no_ai:
-        # The Anthropic SDK needs Python 3.10+, so use the project venv when the
+        # The provider SDKs need Python 3.10+, so use the project venv when the
         # interpreter running this script is older.
         venv_python = ROOT / ".venv" / "bin" / "python"
         python = str(venv_python) if venv_python.exists() else sys.executable
