@@ -176,21 +176,27 @@ def headline_words(item):
     return {w for w in re.findall(r"[\w஀-௿]+", title, flags=re.UNICODE) if len(w) >= 4}
 
 
-def drop_repeats(items, threshold=0.6):
+def drop_repeats(items, threshold=0.7, min_shared=4):
     """Keep one story per event.
 
     Several outlets cover the same announcement, and each is rewritten separately, so
     the usual identical-headline check never fires. Compare the words of the Tamil
     headlines instead and keep the story that was published first.
+
+    Two headlines must share both a high proportion of their words and at least
+    `min_shared` of them. A proportion alone collapses two unrelated stories that merely
+    name the same minister, and showing one story twice is a far smaller harm than
+    silently dropping one, so both bars are set deliberately high.
     """
     kept, seen = [], []
     for item in items:
         words = headline_words(item)
-        if len(words) >= 3:
+        # Own posts are written deliberately and are never a wire duplicate.
+        if item.get("type") != "local" and len(words) >= 4:
             duplicate = False
             for other in seen:
-                overlap = len(words & other)
-                if overlap and overlap / float(min(len(words), len(other))) >= threshold:
+                shared = len(words & other)
+                if shared >= min_shared and shared / float(min(len(words), len(other))) >= threshold:
                     duplicate = True
                     break
             if duplicate:
