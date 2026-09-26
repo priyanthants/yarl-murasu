@@ -4,25 +4,25 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>யாழ் முரசு — யாழ்ப்பாணத்தின் நம்பகமான செய்திக் குரல்</title>
-<meta name="description" content="யாழ்ப்பாணம், வடமாகாணம் மற்றும் இலங்கையின் சமீபத்திய தமிழ்ச் செய்திகள் — நம்பகமான மூலங்களிலிருந்து.">
+<meta name="description" content="யாழ்ப்பாணம், வடமாகாணம் மற்றும் இலங்கையின் சமீபத்திய செய்திகள் — முழுமையாக, தெளிவான தமிழில்.">
+<link rel="canonical" href="https://priyanthants.github.io/yarl-murasu/">
 <meta name="theme-color" content="#8b1e1e">
 <meta property="og:site_name" content="யாழ் முரசு">
 <meta property="og:type" content="website">
 <meta property="og:title" content="யாழ் முரசு — யாழ்ப்பாணத்தின் நம்பகமான செய்திக் குரல்">
-<meta property="og:description" content="யாழ்ப்பாணம், வடமாகாணம் மற்றும் இலங்கையின் சமீபத்திய தமிழ்ச் செய்திகள் — நம்பகமான மூலங்களிலிருந்து.">
+<meta property="og:description" content="யாழ்ப்பாணம், வடமாகாணம் மற்றும் இலங்கையின் சமீபத்திய செய்திகள் — முழுமையாக, தெளிவான தமிழில்.">
 <meta property="og:url" content="https://priyanthants.github.io/yarl-murasu">
 <meta property="og:image" content="">
 <meta property="og:locale" content="ta_LK">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="யாழ் முரசு — யாழ்ப்பாணத்தின் நம்பகமான செய்திக் குரல்">
-<meta name="twitter:description" content="யாழ்ப்பாணம், வடமாகாணம் மற்றும் இலங்கையின் சமீபத்திய தமிழ்ச் செய்திகள் — நம்பகமான மூலங்களிலிருந்து.">
+<meta name="twitter:description" content="யாழ்ப்பாணம், வடமாகாணம் மற்றும் இலங்கையின் சமீபத்திய செய்திகள் — முழுமையாக, தெளிவான தமிழில்.">
 <meta name="twitter:image" content="">
 <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="யாழ் முரசு" href="rss.xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;500;600;700&family=Noto+Serif+Tamil:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=20260925175100">
+<link rel="preload" href="assets/fonts/noto-sans-tamil.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css?v=20260926124431">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "யாழ் முரசு", "alternateName": "Yarl Murasu", "url": "https://priyanthants.github.io/yarl-murasu/", "inLanguage": "ta-LK", "description": "யாழ்ப்பாணம், வடமாகாணம் மற்றும் இலங்கையின் சமீபத்திய செய்திகள் — முழுமையாக, தெளிவான தமிழில்.", "potentialAction": {"@type": "SearchAction", "target": "https://priyanthants.github.io/yarl-murasu/?q={search_term_string}", "query-input": "required name=search_term_string"}}</script>
 <script>
   try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
 </script>
@@ -34,7 +34,7 @@
   <div class="wrap topbar-in">
     <span class="today"><svg class="i"><use href="#i-clock"/></svg><span id="today"></span></span>
     <div class="topbar-right">
-      
+
       <button class="icon-btn" id="theme-toggle" type="button" aria-label="இருள் / ஒளி பயன்முறை">
         <svg class="i i-moon"><use href="#i-moon"/></svg><svg class="i i-sun"><use href="#i-sun"/></svg>
       </button>
@@ -57,7 +57,7 @@
 
 <nav class="mainnav" aria-label="பிரிவுகள்">
   <div class="wrap nav-in">
-    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="மெனு" aria-expanded="false">
+    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="மெனு" aria-expanded="false" aria-controls="nav-list">
       <svg class="i"><use href="#i-menu"/></svg>
     </button>
     <ul class="nav-list" id="nav-list">
@@ -77,23 +77,24 @@
 
 <div class="ticker" id="ticker" hidden>
   <div class="wrap ticker-in">
-    <span class="ticker-label"><span class="pulse"></span>முக்கிய செய்திகள்</span>
+    <span class="ticker-label"><span class="pulse"></span><span id="ticker-label-text">முக்கிய செய்திகள்</span></span>
     <div class="ticker-track"><div class="ticker-move" id="ticker-move"></div></div>
   </div>
 </div>
 
 
 <main id="content" class="wrap">
-  <section class="hero" id="hero" aria-label="முதன்மைச் செய்திகள்"></section>
+  <section class="hero" id="hero" aria-label="முதன்மைச் செய்திகள்"><a class="lead" href="news/b26169ab7650.html"><div class="thumb"><div class="ph" style="--c:#1f5f8b"><span class="ph-cat">இலங்கை</span></div><img src="https://www.newswire.lk/wp-content/uploads/2026/09/IMG_6370.jpeg" alt="" referrerpolicy="no-referrer" style="position:relative" onerror="this.remove()"></div><div class="lead-body"><span class="cat-badge" style="--c:#1f5f8b">இலங்கை</span><h2 class="lead-title">பொலன்னறுவை நெப்ராலஜி மருத்துவமனையில் ஏற்பட்ட வெடிவிபத்தில் மருத்துவமனை ஊழியர் உயிரிழப்பு</h2><p class="lead-summary">பொலன்னறுவை தேசிய நெப்ராலஜி வைத்தியசாலையின் சமையலறை வளாகத்தில் ஏற்பட்ட வெடிப்பில் காயமடைந்த ஒரு வைத்தியசாலை ஊழியர் உயிரிழந்துள்ளார்.</p><div class="meta"><time datetime="2026-09-26T11:28:12+00:00">சனி, 26 செப்டெம்பர் 2026</time></div></div></a><div class="hero-side"><a class="mini" href="news/65da2dba8e04.html"><div class="thumb"><div class="ph" style="--c:#3d4f7a"><span class="ph-cat">உலகம்</span></div><img src="https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/bdf2/live/d787af40-b972-11f1-b1d1-571ed4d7ff2c.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" style="position:relative" onerror="this.remove()"></div><div><h3 class="mini-title">டிரம்பைக் கையாள ஜி ஜின்பிங் ஒரு வழியைக் கண்டுபிடித்தாரா? சீனா விரும்பிய அனைத்தையும் பெற்றதா?</h3><div class="meta"><time datetime="2026-09-26T11:24:36+00:00">சனி, 26 செப்டெம்பர் 2026</time></div></div></a><a class="mini" href="news/b63f78f55b4e.html"><div class="thumb"><div class="ph" style="--c:#1f5f8b"><span class="ph-cat">இலங்கை</span></div><img src="https://www.newswire.lk/wp-content/uploads/2026/09/Kalani-9.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" style="position:relative" onerror="this.remove()"></div><div><h3 class="mini-title">கவந்திசா டஸ்கர் தொடர்ந்து சிகிச்சையைப் பெறுகிறார்</h3><div class="meta"><time datetime="2026-09-26T11:19:12+00:00">சனி, 26 செப்டெம்பர் 2026</time></div></div></a><a class="mini" href="news/af1a6032d5a7.html"><div class="thumb"><div class="ph" style="--c:#3d4f7a"><span class="ph-cat">உலகம்</span></div><img src="https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/92c5/live/9887e120-b99a-11f1-b722-35f754204359.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" style="position:relative" onerror="this.remove()"></div><div><h3 class="mini-title">26 வயது மனிதனின் கருப்பை: கருவுறாமை காரணமாக மருத்துவரைச் சந்திக்கும் போது ஏற்பட்ட அதிர்ச்சி வெளிப்படுத்தப்பட்டது</h3><div class="meta"><time datetime="2026-09-26T11:08:36+00:00">சனி, 26 செப்டெம்பர் 2026</time></div></div></a><a class="mini" href="news/d6147ec67ecc.html"><div class="thumb"><div class="ph" style="--c:#1f5f8b"><span class="ph-cat">இலங்கை</span></div><img src="https://www.newswire.lk/wp-content/uploads/2026/09/Screenshot_20260926_162159_Editor-Lite.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" style="position:relative" onerror="this.remove()"></div><div><h3 class="mini-title">இந்திரா 50 வயதில்: கரு ஜெயசூரிய இந்திரா புற்றுநோய் அறக்கட்டளையின் பின்னணியில் உள்ள உத்வேகத்தை நினைவு கூர்கிறார்</h3><div class="meta"><time datetime="2026-09-26T11:06:01+00:00">சனி, 26 செப்டெம்பர் 2026</time></div></div></a></div></section>
 
   <div class="layout">
     <div class="main-col">
       <div class="section-head">
         <h2 class="section-title" id="list-title">சமீபத்திய செய்திகள்</h2>
-        <span class="section-count" id="list-count"></span>
+        <span class="section-count" id="list-count" aria-live="polite">11 செய்திகள்</span>
       </div>
-      <div class="chips" id="chips" role="tablist" aria-label="பிரிவுகள்"></div>
-      <div class="grid" id="news-grid"></div>
+      <div class="chips" id="chips" role="group" aria-label="செய்திப் பிரிவுகள்"><a class="chip active" href="#cat=all">அனைத்தும்</a><a class="chip" href="#cat=jaffna">யாழ்ப்பாணம்</a><a class="chip" href="#cat=srilanka">இலங்கை</a><a class="chip" href="#cat=world">உலகம்</a><a class="chip" href="#cat=sports">விளையாட்டு</a><a class="chip" href="#cat=video">காணொளி</a></div>
+      <noscript><p class="notice">தேடல் மற்றும் பிரிவு வடிகட்டலுக்கு JavaScript தேவை. சமீபத்திய செய்திகள் கீழே தொடர்ந்து காணப்படும்.</p></noscript>
+      <div class="grid" id="news-grid"><article class="card"><span class="cat-badge" style="--c:#1f5f8b">இலங்கை</span><div class="thumb"><div class="ph" style="--c:#1f5f8b"><span class="ph-cat">இலங்கை</span></div><img src="https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/9211/live/4ecf7670-b999-11f1-b722-35f754204359.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" style="position:relative" onerror="this.remove()"></div><div class="card-body"><h3 class="card-title"><a href="news/bfad956eb588.html">ஹார்முஸ் ஜலசந்தி 7 நாட்களில் மீண்டும் திறக்கப்படுமா? ஈரானின் முன்மொழிவு குறித்து அமெரிக்கா என்ன கூறியது?</a></h3><p class="card-summary">ஈரான் அமெரிக்காவுடன் ஒரு ஒப்பந்தத்தை முன்மொழிந்ததாகவும், அதன்படி ஹார்முஸ் ஜலசந்தி ஒரு வாரத்திற்குள் மீண்டும் திறக்கப்பட்டது என்றும் ஈரானிய வெளியுறவு மந்திரி அப்பாஸ் அராக்ஸி கூறினார்.</p><div class="card-foot"><div class="meta"><time datetime="2026-09-26T10:59:47+00:00">சனி, 26 செப்டெம்பர் 2026</time></div></div></div></article><article class="card"><span class="cat-badge" style="--c:#1f5f8b">இலங்கை</span><div class="thumb"><div class="ph" style="--c:#1f5f8b"><span class="ph-cat">இலங்கை</span></div><img src="https://www.newswire.lk/wp-content/uploads/2026/09/Kalani-8.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" style="position:relative" onerror="this.remove()"></div><div class="card-body"><h3 class="card-title"><a href="news/21a6e54cd476.html">வீடுகளை வாடகைக்கு விடுவது குறித்து சொத்து உரிமையாளர்களை காவல்துறை எச்சரிக்கிறது</a></h3><p class="card-summary">வீடுகள், வணிக வளாகங்கள் அல்லது பிற சொத்துக்களை வாடகைக்கு எடுப்பதற்கு முன் எச்சரிக்கையாக இருக்கவும், சரியான பின்னணி சோதனைகளை மேற்கொள்ளவும் சொத்து உரிமையாளர்களை போலீசார் வலியுறுத்தியுள்ளனர்.</p><div class="card-foot"><div class="meta"><time datetime="2026-09-26T10:59:16+00:00">சனி, 26 செப்டெம்பர் 2026</time></div></div></div></article><article class="card"><span class="cat-badge" style="--c:#1f5f8b">இலங்கை</span><div class="thumb"><div class="ph" style="--c:#1f5f8b"><span class="ph-cat">இலங்கை</span></div><img src="https://www.newswire.lk/wp-content/uploads/2026/09/Screenshot_20260926_161733_Facebook.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" style="position:relative" onerror="this.remove()"></div><div class="card-body"><h3 class="card-title"><a href="news/dc25cb3f71e8.html">கவர்ச்சியான நகைகளை வாங்குவது? சில பொருட்கள் சட்டவிரோதமாக இருக்கலாம்</a></h3><p class="card-summary">பன்னேகமுவ மற்றும் திஸ்ஸமஹாராம பிரதேசங்களில் மேற்கொள்ளப்பட்ட சோதனையின் போது தந்தம் மற்றும் கறுப்பு பவளத்திலிருந்து தயாரிக்கப்பட்டதாக கூறப்படும் பல நகைகளை வனவிலங்கு அதிகாரிகள் கைப்பற்றியுள்ளனர்.</p><div class="card-foot"><div class="meta"><time datetime="2026-09-26T10:49:49+00:00">சனி, 26 செப்டெம்பர் 2026</time></div></div></div></article><article class="card"><span class="cat-badge" style="--c:#3d4f7a">உலகம்</span><div class="thumb"><div class="ph" style="--c:#3d4f7a"><span class="ph-cat">உலகம்</span></div><img src="https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/df2b/live/ce05b770-b376-11f1-a430-4d16ee157c41.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" style="position:relative" onerror="this.remove()"></div><div class="card-body"><h3 class="card-title"><a href="news/899381826a8f.html">வேற்று கிரக உயிரினங்கள் நம்மை நோய்வாய்ப்படுத்த முடியுமா?</a></h3><p class="card-summary">நாசாவின் விடாமுயற்சி ரோவர் செவ்வாய் கிரகத்தில் பாறை மாதிரிகளை சேகரித்து ஆய்வு செய்து வருகிறது.</p><div class="card-foot"><div class="meta"><time datetime="2026-09-26T10:39:01+00:00">சனி, 26 செப்டெம்பர் 2026</time></div></div></div></article><article class="card"><span class="cat-badge" style="--c:#1f5f8b">இலங்கை</span><div class="thumb"><div class="ph" style="--c:#1f5f8b"><span class="ph-cat">இலங்கை</span></div><img src="https://www.newswire.lk/wp-content/uploads/2026/09/Kalani-1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" style="position:relative" onerror="this.remove()"></div><div class="card-body"><h3 class="card-title"><a href="news/a50ffe847a99.html">மார்க்கெட்டர்கள் டோஸ்ட்மாஸ்டர்ஸ் கிளப் 18 வது கிளப் அதிகாரி நிறுவல் விழாவை நடத்துகிறது</a></h3><p class="card-summary">2009 ஆம் ஆண்டில் நிறுவப்பட்ட மார்க்கெட்டர்ஸ் டோஸ்ட்மாஸ்டர்ஸ் கிளப் கொழும்பில் “வேரூன்றிய எழுச்சி” என்ற கருப்பொருளின் கீழ் நடைபெற்ற 18 வது கிளப் அதிகாரி நிறுவல் விழாவோடு அதன் பயணத்தில் மற்றொரு மைல்கல்லை குறித்தது.</p><div class="card-foot"><div class="meta"><time datetime="2026-09-26T10:36:44+00:00">சனி, 26 செப்டெம்பர் 2026</time></div></div></div></article><article class="card"><span class="cat-badge" style="--c:#1f5f8b">இலங்கை</span><div class="thumb"><div class="ph" style="--c:#1f5f8b"><span class="ph-cat">இலங்கை</span></div><img src="https://www.newswire.lk/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-26-at-15.47.38.jpeg" alt="" loading="lazy" referrerpolicy="no-referrer" style="position:relative" onerror="this.remove()"></div><div class="card-body"><h3 class="card-title"><a href="news/d2d4f70b9abc.html">மேன்ஸ் லங்கா டாப் ஹானர்ஸ் உடன் SLIM DIGIS 2.6 இல் பிரகாசிக்கிறது</a></h3><p class="card-summary">மான்ஸ் லங்கா (பிரைவேட்) லிமிடெட் அவந்த் மீடியாவுடன் இணைந்து உருவாக்கிய &quot;பாலபோரோத்துவே மகா கண்ணையா&quot; பிரச்சாரத்திற்காக SLIM DIGIS 2.6 இல் முக்கிய அங்கீகாரத்தைப் பெற்றது.</p><div class="card-foot"><div class="meta"><time datetime="2026-09-26T09:59:08+00:00">சனி, 26 செப்டெம்பர் 2026</time></div></div></div></article></div>
       <p class="empty" id="empty" hidden>இந்தப் பிரிவில் தற்போது செய்திகள் இல்லை.</p>
       <div class="more-wrap"><button class="btn btn-outline" id="load-more" type="button" hidden>மேலும் செய்திகள்</button></div>
     </div>
@@ -102,11 +103,11 @@
       <div class="ad-slot ad-side" data-ad-slot="sidebar"></div>
       <section class="widget">
         <h3 class="widget-title">சற்று முன்</h3>
-        <ol class="rank-list" id="latest-list"></ol>
+        <ol class="rank-list" id="latest-list"><li><a href="news/b26169ab7650.html"><span class="r-title">பொலன்னறுவை நெப்ராலஜி மருத்துவமனையில் ஏற்பட்ட வெடிவிபத்தில் மருத்துவமனை ஊழியர் உயிரிழப்பு</span><span class="r-meta">சனி, 26 செப்டெம்பர் 2026</span></a></li><li><a href="news/65da2dba8e04.html"><span class="r-title">டிரம்பைக் கையாள ஜி ஜின்பிங் ஒரு வழியைக் கண்டுபிடித்தாரா? சீனா விரும்பிய அனைத்தையும் பெற்றதா?</span><span class="r-meta">சனி, 26 செப்டெம்பர் 2026</span></a></li><li><a href="news/b63f78f55b4e.html"><span class="r-title">கவந்திசா டஸ்கர் தொடர்ந்து சிகிச்சையைப் பெறுகிறார்</span><span class="r-meta">சனி, 26 செப்டெம்பர் 2026</span></a></li><li><a href="news/af1a6032d5a7.html"><span class="r-title">26 வயது மனிதனின் கருப்பை: கருவுறாமை காரணமாக மருத்துவரைச் சந்திக்கும் போது ஏற்பட்ட அதிர்ச்சி வெளிப்படுத்தப்பட்டது</span><span class="r-meta">சனி, 26 செப்டெம்பர் 2026</span></a></li><li><a href="news/d6147ec67ecc.html"><span class="r-title">இந்திரா 50 வயதில்: கரு ஜெயசூரிய இந்திரா புற்றுநோய் அறக்கட்டளையின் பின்னணியில் உள்ள உத்வேகத்தை நினைவு கூர்கிறார்</span><span class="r-meta">சனி, 26 செப்டெம்பர் 2026</span></a></li><li><a href="news/bfad956eb588.html"><span class="r-title">ஹார்முஸ் ஜலசந்தி 7 நாட்களில் மீண்டும் திறக்கப்படுமா? ஈரானின் முன்மொழிவு குறித்து அமெரிக்கா என்ன கூறியது?</span><span class="r-meta">சனி, 26 செப்டெம்பர் 2026</span></a></li></ol>
       </section>
       <section class="widget">
-        <h3 class="widget-title">நம்பகமான மூலங்கள்</h3>
-        <div class="source-tags" id="source-tags"></div>
+        <h3 class="widget-title">பிரிவுகள்</h3>
+        <div class="section-counts" id="section-counts"></div>
       </section>
     </aside>
   </div>
@@ -137,7 +138,7 @@
         <img class="brand-logo" src="assets/img/logo.svg" alt="" width="52" height="52">
         <span class="brand-text"><span class="brand-name">யாழ் முரசு</span><span class="brand-tag">யாழ்ப்பாணத்தின் நம்பகமான செய்திக் குரல்</span></span>
       </a>
-      <p>யாழ்ப்பாணம், வடமாகாணம் மற்றும் இலங்கையின் சமீபத்திய தமிழ்ச் செய்திகள் — நம்பகமான மூலங்களிலிருந்து.</p>
+      <p>யாழ்ப்பாணம், வடமாகாணம் மற்றும் இலங்கையின் சமீபத்திய செய்திகள் — முழுமையாக, தெளிவான தமிழில்.</p>
       <div class="footer-social"></div>
     </div>
     <div>
@@ -148,9 +149,19 @@
 <li><a href="index.html#cat=sports" data-cat="sports">விளையாட்டு</a></li></ul>
     </div>
     <div>
+      <h4>தகவல்</h4>
+      <ul class="footer-links footer-info-links">
+        <li><a href="about.html">எம்மைப் பற்றி</a></li>
+        <li><a href="editorial-policy.html">ஆசிரியர் கொள்கை</a></li>
+        <li><a href="corrections.html">திருத்தங்கள்</a></li>
+        <li><a href="privacy.html">தனியுரிமை</a></li>
+        <li><a href="contact.html">தொடர்பு</a></li>
+      </ul>
+    </div>
+    <div>
       <h4>எம்மைப் பற்றி</h4>
-      <p class="small">தானியங்கிச் செய்திகள் நம்பகமான செய்தி நிறுவனங்களிலிருந்து தலைப்பு, சுருக்கம், மூல இணைப்புடன் மட்டுமே பகிரப்படுகின்றன. முழு உரிமையும் அந்தந்த வெளியீட்டாளர்களுக்கே.</p>
-      <p class="small">விளம்பரங்களுக்கு: </p>
+      <p class="small">இத்தளத்தின் செய்திகள், நம்பகமான செய்தி நிறுவனங்கள் வெளியிட்ட அறிக்கைகளிலுள்ள தகவல்களைக் கொண்டு, தானியங்கி உதவியுடன் எங்கள் சொந்த தமிழில் எழுதப்படுகின்றன.</p>
+
     </div>
   </div>
   <div class="footer-bottom"><div class="wrap">© 2026 யாழ் முரசு · <span id="updated-at"></span></div></div>
@@ -163,11 +174,11 @@
     <h3 id="share-title">இந்தச் செய்தியைப் பகிர்க</h3>
     <p class="sheet-headline" id="share-headline"></p>
     <div class="sheet-grid">
-      <button class="sheet-btn" data-net="facebook"><span class="sheet-ic s-fb"><svg class="i"><use href="#i-fb"/></svg></span>Facebook</button>
-      <button class="sheet-btn" data-net="x"><span class="sheet-ic s-x"><svg class="i"><use href="#i-x"/></svg></span>X</button>
-      <button class="sheet-btn" data-net="instagram"><span class="sheet-ic s-ig"><svg class="i"><use href="#i-ig"/></svg></span>Instagram</button>
-      <button class="sheet-btn" data-net="whatsapp"><span class="sheet-ic s-wa"><svg class="i"><use href="#i-wa"/></svg></span>WhatsApp</button>
-      <button class="sheet-btn" data-net="copy"><span class="sheet-ic s-copy"><svg class="i"><use href="#i-link"/></svg></span>இணைப்பு</button>
+      <button class="sheet-btn" type="button" data-net="facebook"><span class="sheet-ic s-fb"><svg class="i"><use href="#i-fb"/></svg></span>Facebook</button>
+      <button class="sheet-btn" type="button" data-net="x"><span class="sheet-ic s-x"><svg class="i"><use href="#i-x"/></svg></span>X</button>
+      <button class="sheet-btn" type="button" data-net="instagram"><span class="sheet-ic s-ig"><svg class="i"><use href="#i-ig"/></svg></span>Instagram</button>
+      <button class="sheet-btn" type="button" data-net="whatsapp"><span class="sheet-ic s-wa"><svg class="i"><use href="#i-wa"/></svg></span>WhatsApp</button>
+      <button class="sheet-btn" type="button" data-net="copy"><span class="sheet-ic s-copy"><svg class="i"><use href="#i-link"/></svg></span>இணைப்பு</button>
     </div>
     <button class="sheet-close" type="button" data-close>மூடு</button>
   </div>
@@ -183,7 +194,7 @@
 </div>
 
 <!-- photo viewer -->
-<div class="lightbox" id="lightbox" hidden>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="புகைப்படக் காட்சி" hidden>
   <button class="lb-btn lb-close" type="button" data-close aria-label="மூடு"><svg class="i"><use href="#i-close"/></svg></button>
   <button class="lb-btn lb-prev" type="button" aria-label="முந்தைய படம்"><svg class="i"><use href="#i-left"/></svg></button>
   <img id="lightbox-img" alt="">
@@ -213,8 +224,8 @@
   <symbol id="i-sun" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></symbol>
 </svg>
 
-<script src="data/news.js?v=20260925175100"></script>
-<script src="assets/js/app.js?v=20260925175100"></script>
+<script src="data/news.js?v=20260926124431"></script>
+<script src="assets/js/app.js?v=20260926124431"></script>
 
 </body>
 </html>
