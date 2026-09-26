@@ -110,11 +110,24 @@ Set up:
 3. On this Mac (optional): `export ANTHROPIC_API_KEY=sk-ant-...` before running, and the project
    venv (`.venv`) already has the SDK. The admin panel has a button for it.
 
-Check what is waiting without spending anything:
+Before spending anything, see what is queued — this calls nothing:
 
 ```bash
 .venv/bin/python scripts/ai_enrich.py --dry-run --no-build
 ```
+
+Then try three stories on your Mac and read what comes back, rather than paying for two hundred
+before you know whether you like the Tamil:
+
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...
+.venv/bin/python scripts/ai_enrich.py --limit 3
+python3 scripts/admin.py          # then read them at http://localhost:8000/
+```
+
+If the writing is not what you want, change `model` or `effort` in `config/ai.json`, or edit the
+instructions at the top of `scripts/ai_enrich.py` (they are in Tamil), and run the same command
+again with `--redo`.
 
 **Cost — read this before switching it on.** A rewrite is much bigger than the old one-paragraph
 summary: it reads a whole article and writes a whole story. On the default `claude-opus-5` expect
