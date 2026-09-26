@@ -76,6 +76,11 @@ translated into Tamil like everything else. To pull the two blocked sources in, 
 `python3 scripts/fetch_news.py` on your Mac (or switch on `scripts/schedule_mac.sh`) and press
 Publish. Do not try to work around the block — it is their decision to make.
 
+Stories written on your Mac are not lost when GitHub publishes its own: `scripts/publish.sh` merges
+the two sets, keeping whichever copy already has the Tamil rewrite. So the practical setup for strong
+Jaffna coverage is both at once — GitHub every 30 minutes for what it can reach, and
+`scripts/schedule_mac.sh on` for the two Tamil papers only your home connection can.
+
 Categories: யாழ்ப்பாணம் (includes Kilinochchi, Mullaitivu, Vavuniya, Mannar), இலங்கை, உலகம், விளையாட்டு.
 The rewrite step picks the section after reading the whole story, so a report lands where it belongs
 rather than wherever its headline keywords pointed.

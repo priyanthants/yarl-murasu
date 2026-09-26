@@ -1,12 +1,26 @@
 #!/bin/bash
-# Publish your own posts, uploaded photos and ad changes to GitHub.
-# GitHub Actions then rebuilds the site and puts it live within about a minute.
+# Publish your own posts, uploaded photos, ad changes — and any stories this Mac has
+# already written in Tamil — to GitHub. GitHub Actions rebuilds the site and puts it
+# live within about a minute.
 #
-# Only content/, config/ and site/uploads/ are committed. Generated files (site/, data/)
-# are rebuilt by GitHub, so local copies are reset first to avoid clashing with the
-# news bot's commits.
+# Ada Derana Tamil and Virakesari refuse GitHub's servers, so the Jaffna reporting they
+# carry can only be collected here. data/fetched.json therefore holds real work, and is
+# merged with GitHub's copy rather than thrown away. Generated pages under site/ are
+# still discarded, because GitHub rebuilds them.
 set -eu
 cd "$(dirname "$0")/.."
+
+# Keep this Mac's stories in a real file, not a temp one: if anything below fails, the
+# rewrites it holds are hours of work, and the next run picks the backup up again.
+MINE="data/fetched.local.json"
+if [ ! -f "$MINE" ]; then
+  cp data/fetched.json "$MINE" 2>/dev/null || echo '{"items":[]}' > "$MINE"
+fi
+trap 'echo "Stopped early. Your stories are safe in $MINE; run this script again."' ERR
+
+# A rebase needs a clean tree, so drop the generated pages first; GitHub regenerates them.
+git checkout -- site data 2>/dev/null || true
+git clean -fdq site/news site/data 2>/dev/null || true
 
 git add content config site/uploads 2>/dev/null || git add content config
 if git diff --cached --quiet; then
@@ -16,12 +30,19 @@ else
   echo "Saved your changes."
 fi
 
-# Drop locally generated files; GitHub regenerates them.
-git checkout -- site data 2>/dev/null || true
-git clean -fdq site/news site/data 2>/dev/null || true
-
 git pull -q --rebase origin main
+
+# Now fold this Mac's stories into GitHub's copy, keeping whichever side has the rewrite.
+python3 scripts/merge_store.py "$MINE" data/fetched.json data/fetched.json
+git add data/fetched.json
+if git diff --cached --quiet; then
+  echo "No new stories from this Mac."
+else
+  git commit -q -m "Add stories fetched and written on this Mac"
+fi
+
 git push -q origin main
+rm -f "$MINE"
 echo "Pushed to GitHub. The website updates in about a minute."
 
 /usr/bin/env python3 scripts/build.py

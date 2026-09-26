@@ -12,7 +12,7 @@ https://priyanthants.github.io/yarl-murasu/ (repo `priyanthants/yarl-murasu`).
 python3 scripts/admin.py            # admin panel + preview on http://localhost:8000 (also /admin)
 python3 scripts/fetch_news.py       # fetch → read article pages → rewrite → build   (--no-ai, --no-text, --no-build, -v)
 python3 scripts/build.py            # regenerate site/ from config + content + data
-scripts/publish.sh                  # push own posts/ads to GitHub so they go live
+scripts/publish.sh                  # push own posts/ads + locally written stories to GitHub
 python3 scripts/make_card.py        # daily Instagram image (--size square|portrait|story, --skip-existing)
 .venv/bin/python scripts/ai_enrich.py   # rewrite every story in our own Tamil (--dry-run, --redo)
 scripts/schedule_mac.sh on|off|status   # local launchd timer (optional; GitHub Actions is primary)
@@ -93,6 +93,11 @@ A `news-bot` GitHub Action commits regenerated news every 30 minutes, so the rem
   reset to `origin/main`, restore source files from your commit (`git checkout <sha> -- scripts config
   templates content README.md .github`), then re-run `python3 scripts/build.py` and commit.
 - For content-only changes (own posts, ads, uploads) use `scripts/publish.sh`, which does this safely.
+- `data/fetched.json` is written from two machines: the half-hourly GitHub run, and this Mac, which
+  is the only place Ada Derana Tamil and Virakesari can be read from. `publish.sh` therefore does not
+  discard it — it keeps a gitignored `data/fetched.local.json` backup, rebases, then folds the two
+  copies together with `scripts/merge_store.py` (a story present on both sides keeps whichever copy
+  already has the Tamil rewrite). Never go back to resetting that file away.
 
 ## Conventions
 

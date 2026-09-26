@@ -6,3 +6,4 @@ data/texts.json
 .venv/
 site/cards/_card.html
 site/cards/_chrome/
+data/fetched.local.json
