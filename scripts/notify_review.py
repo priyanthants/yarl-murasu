@@ -5,6 +5,7 @@ import datetime as dt
 import json
 import os
 import urllib.request
+import urllib.parse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -40,6 +41,10 @@ def main():
     if not url or not key:
         print("Review alerts are not connected yet; approved-only publishing remains active.")
         return 0
+    parsed = urllib.parse.urlparse(url)
+    if (parsed.scheme != "https" or not parsed.netloc or parsed.username or parsed.password
+            or parsed.path or parsed.query or parsed.fragment):
+        raise ValueError("REVIEW_API_URL must be an HTTPS origin without credentials")
     store = json.loads((ROOT / "data" / "fetched.json").read_text(encoding="utf-8"))
     reviews = json.loads((ROOT / "data" / "reviews.json").read_text(encoding="utf-8")).get("items", {})
     batch = candidates(store, reviews, dt.datetime.now(dt.timezone.utc))

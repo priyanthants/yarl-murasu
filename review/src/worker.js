@@ -186,7 +186,13 @@ export default {
         return login ? api(request, env, login) : json({ error: "Sign in required" }, 401);
       }
       if (request.method !== "GET") return json({ error: "Not found" }, 404);
-      return env.ASSETS.fetch(request);
+      const asset = await env.ASSETS.fetch(request);
+      const headers = new Headers(asset.headers);
+      headers.set("Content-Security-Policy", "default-src 'self'; base-uri 'none'; form-action 'self'; "
+        + "frame-ancestors 'none'; object-src 'none'");
+      headers.set("Referrer-Policy", "no-referrer");
+      headers.set("X-Content-Type-Options", "nosniff");
+      return new Response(asset.body, { status: asset.status, statusText: asset.statusText, headers });
     } catch (error) {
       console.error("Review service error", error?.message || "unknown");
       return json({ error: "The review service could not complete this request" }, 500);
