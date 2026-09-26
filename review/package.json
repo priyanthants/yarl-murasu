@@ -7,6 +7,8 @@
     "deploy": "wrangler deploy",
     "check": "node --test tests/*.test.mjs",
     "keys": "node scripts/generate-keys.mjs",
+    "provision:push-keys": "node scripts/provision-push-keys.mjs",
+    "connect:alerts": "node scripts/connect-alerts.mjs",
     "db:local": "wrangler d1 execute review_db --local --file=./schema.sql",
     "db:remote": "wrangler d1 execute review_db --remote --file=./schema.sql"
   },

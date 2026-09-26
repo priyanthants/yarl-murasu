@@ -6,7 +6,7 @@
   "d1_databases": [{
     "binding": "DB",
     "database_name": "review_db",
-    "database_id": "REPLACE_WITH_D1_DATABASE_ID"
+    "database_id": "8d7a7882-f346-4604-9c86-7829f6e0d920"
   }],
   "vars": {
     "GITHUB_REPOSITORY": "priyanthants/yarl-murasu",

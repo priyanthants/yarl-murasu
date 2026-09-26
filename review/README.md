@@ -12,6 +12,17 @@ The phone app uses standard Web Push. It is designed for an iPhone Home Screen w
 app now; the same app and per-device subscription store can support Android and
 several admins later. No WhatsApp or Meta messaging account is needed.
 
+## Current connection status
+
+The Cloudflare Worker and D1 database are deployed in the current account. The
+session and Web Push keys are installed as Worker secrets, and the alert URL/key
+are connected to this repository's GitHub Actions settings. Do **not** rerun
+`provision:push-keys` after phones subscribe; it intentionally refuses to rotate
+existing keys. The GitHub OAuth client ID and secret are installed. The remaining
+one-time connection is a fine-grained repository Contents write token stored as
+`GITHUB_WRITE_TOKEN` in Cloudflare. The app can sign editors in, but cannot
+read or save story decisions until that token is installed.
+
 ## Before you begin
 
 - A Cloudflare account with Workers and D1 enabled.
@@ -23,31 +34,31 @@ several admins later. No WhatsApp or Meta messaging account is needed.
 ## Set up the Cloudflare app
 
 1. Run `npx wrangler login` and finish Cloudflare authorization in your browser.
-2. Run `npx wrangler d1 create review_db`. Replace
-   `REPLACE_WITH_D1_DATABASE_ID` in `wrangler.jsonc` with the returned database ID.
+2. The current Cloudflare account's `review_db` is already created and its ID is in
+   `wrangler.jsonc`. If deploying to a different account, run
+   `npx wrangler d1 create review_db` and replace the ID there.
 3. Run `npm run db:remote` to create the subscription and notification tables.
-4. Run `npm run deploy`. Note the `https://...workers.dev` address. The editor
+4. Run `npm run deploy`. The current app address is
+   `https://yarl-murasu-review.yarl-murasu-review.workers.dev/`. The editor
    sign-in will show “not configured” until the next steps are finished.
 5. In GitHub, create an **OAuth App** under Settings → Developer settings → OAuth
    Apps. Set its homepage to the Worker address and its callback URL to
-   `https://YOUR-WORKER-ADDRESS/auth/callback`. Keep the client ID and secret.
+   `https://yarl-murasu-review.yarl-murasu-review.workers.dev/auth/callback`.
+   Keep the client ID and secret.
 6. In GitHub, create a **fine-grained personal access token** limited to this
    repository, with **Contents: Read and write**. This token is for the Worker to
    commit editorial decisions; do not use a `GITHUB_TOKEN` from Actions, because
    those commits would not trigger the publication workflow.
-7. Run `npm run keys` once. Record the four values in a password manager. It prints
-   two random app secrets and one Web Push key pair. Rotating the Web Push pair
-   later means phones must enable notifications again.
-8. Set these Worker secrets, entering each value at the prompt:
+7. For a new Cloudflare account, run `npm run provision:push-keys` once to generate
+   the session and Web Push keys directly into Cloudflare without printing them.
+   `npm run keys` is a manual alternative that prints keys to store in a password
+   manager. Rotating the Web Push pair later means phones must enable alerts again.
+8. Set the remaining Worker secrets, entering each value at the prompt:
 
    ```sh
    npx wrangler secret put GITHUB_OAUTH_CLIENT_ID
    npx wrangler secret put GITHUB_OAUTH_CLIENT_SECRET
    npx wrangler secret put GITHUB_WRITE_TOKEN
-   npx wrangler secret put SESSION_SECRET
-   npx wrangler secret put REVIEW_INGEST_KEY
-   npx wrangler secret put VAPID_PUBLIC_KEY
-   npx wrangler secret put VAPID_PRIVATE_KEY
    ```
 
    `GITHUB_OAUTH_CLIENT_ID` is not confidential, but setting it alongside the
@@ -56,11 +67,12 @@ several admins later. No WhatsApp or Meta messaging account is needed.
    usernames with commas and redeploy; each admin signs in and enables alerts on
    their own phone.
 
-9. On GitHub, in the repository's Settings → Secrets and variables → Actions, add
-   a **variable** `REVIEW_API_URL` with the Worker origin (no trailing slash), and
-   a **secret** `REVIEW_INGEST_KEY` with exactly the same value used in Cloudflare.
-   New draft alerts begin after the next news run. Until this is set, the
-   approval gate still works and no push alerts are sent.
+9. For a new setup, `npm run connect:alerts` creates one random alert key and
+   installs it directly in both Cloudflare and this repository's GitHub Actions
+   secrets, then sets the `REVIEW_API_URL` Actions variable. It needs a signed-in
+   Wrangler and an existing GitHub CLI credential for `priyanthants`. New draft
+   alerts begin after the next news run. Until this is set, the approval gate
+   still works and no push alerts are sent.
 
 ## Install on iPhone and check
 

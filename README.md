@@ -37,6 +37,9 @@ website. The iPhone Home Screen review app and optional push alerts are in
 Cloudflare and GitHub, new fetched stories remain safely pending; existing
 approved stories stay live. Your own posts still publish through the local
 admin panel.
+The deployed review app is at
+[yarl-murasu-review.yarl-murasu-review.workers.dev](https://yarl-murasu-review.yarl-murasu-review.workers.dev/);
+sign-in and alerts become available after the account-side credentials are connected.
 
 The workflow asks for every 30 minutes, but GitHub throttles scheduled runs on shared runners and
 actually fires it **about seven times a day**. Check yours with `gh run list -R priyanthants/yarl-murasu`
