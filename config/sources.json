@@ -270,5 +270,6 @@
     "newswire.lk": 2,
     "island.lk": 2
   },
-  "max_article_seconds": 420
+  "max_article_seconds": 420,
+  "max_page_attempts": 2
 }

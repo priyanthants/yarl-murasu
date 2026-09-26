@@ -91,7 +91,10 @@ def decompress(body, encoding):
         if "gzip" in encoding:
             return gzip.decompress(body)
         if "deflate" in encoding:
-            return zlib.decompress(body, -zlib.MAX_WBITS)
+            try:
+                return zlib.decompress(body)            # zlib-wrapped, the common reading
+            except zlib.error:
+                return zlib.decompress(body, -zlib.MAX_WBITS)   # raw deflate
     except Exception:
         return body
     if body[:2] == b"\x1f\x8b":  # gzip magic number, no matter what the header claimed
@@ -551,9 +554,13 @@ def fill_article_texts(items, texts, cfg, now):
             continue
         if not fetchable(item["link"]):
             continue
-        # We have read this page before and it did not hold a story. Reading it again
-        # every half hour until it ages out would just spend the budget on nothing.
+        # We have read this page before and it did not hold a story, or could not be
+        # read at all. Trying again every half hour until it ages out would spend the
+        # budget on pages already known to be a dead end — and a publisher that blocks
+        # data-centre IPs is a dead end on every run.
         if "page_chars" in item and item["page_chars"] < min_chars:
+            continue
+        if item.get("page_fails", 0) >= cfg.get("max_page_attempts", 2):
             continue
         domain = item.get("source_domain") or domain_of(item["link"])
         delay = delays.get(domain, default_delay)
@@ -565,7 +572,8 @@ def fill_article_texts(items, texts, cfg, now):
         try:
             page = http_get(item["link"], timeout=cfg.get("request_timeout", 20), retries=1)
         except Exception as e:
-            log.debug("  page failed %s: %s", item["link"], e)
+            item["page_fails"] = item.get("page_fails", 0) + 1
+            log.debug("  page failed %s (attempt %d): %s", item["link"], item["page_fails"], e)
             continue
         page = page.decode("utf-8", "replace")
         text = article_text(page)
@@ -573,6 +581,7 @@ def fill_article_texts(items, texts, cfg, now):
         if len(text) < len(texts.get(item["id"], "")):
             text = texts[item["id"]]
         item["page_chars"] = len(text)
+        item.pop("page_fails", None)
         if text:
             texts[item["id"]] = text
         if len(text) >= min_chars:
@@ -688,7 +697,11 @@ def main():
 
     if not args.no_build:
         import build
-        build.build()
+        try:
+            build.build()
+        except build.SiteNotReady as why:
+            log.error("REFUSING TO BUILD: %s", why)
+            return 2
 
     # Fail only when every source failed, so schedulers can alert on it.
     enabled = [s for s in cfg.get("sources", []) if s.get("enabled", True)]

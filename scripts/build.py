@@ -33,6 +33,14 @@ TA_WEEKDAYS = ["திங்கள்", "செவ்வாய்", "புத�
 esc = html.escape
 
 
+class SiteNotReady(Exception):
+    """Too few stories are rewritten to publish a site, so nothing was written.
+
+    Raised rather than returned, because every caller has to notice: a run that quietly
+    reports success would let a scheduler re-deploy a stale site and call it fresh.
+    """
+
+
 def load_json(path, default):
     try:
         with open(path, encoding="utf-8") as f:
@@ -538,12 +546,14 @@ def build(verbose=True):
     # broken or unconfigured AI step would otherwise quietly empty the site. Rather than
     # publish a near-empty front page, leave the pages already in site/ exactly as they are.
     floor = site.get("min_publishable", 8)
-    if len(items) < floor and held:
-        print("REFUSING TO BUILD: only %d stories are ready to publish (need %d), and %d are "
-              "waiting to be rewritten.\nThe site in site/ has been left untouched.\n"
-              "Most likely ANTHROPIC_API_KEY is not set, so scripts/ai_enrich.py cannot "
-              "write anything." % (len(items), floor, len(held)))
-        return 0
+    standing = len(list(NEWS_DIR.glob("*.html"))) if NEWS_DIR.exists() else 0
+    if len(items) < floor and held and standing > len(items):
+        raise SiteNotReady(
+            "only %d stories are ready to publish (need %d) and %d are waiting to be "
+            "rewritten, but the site already has %d. Refusing to replace it with a "
+            "smaller one; site/ is untouched. Most likely ANTHROPIC_API_KEY is not set, "
+            "so scripts/ai_enrich.py cannot write anything."
+            % (len(items), floor, len(held), standing))
 
     pages = static_pages(site)
     version = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%d%H%M%S")
@@ -702,5 +712,9 @@ def build(verbose=True):
 
 
 if __name__ == "__main__":
-    build()
+    try:
+        build()
+    except SiteNotReady as why:
+        print("REFUSING TO BUILD: %s" % why)
+        sys.exit(2)
     sys.exit(0)

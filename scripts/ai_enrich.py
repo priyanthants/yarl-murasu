@@ -147,10 +147,13 @@ def prompt_for(cfg, item, text):
 
 
 def rewrite(client, cfg, item, text):
-    """Ask Claude for one rewritten story. Returns (data, usage) or None."""
+    """Ask Claude for one rewritten story. Returns (data, usage), or None when the
+    model declined or the answer was cut off before it was valid JSON."""
     response = client.messages.create(
         model=cfg["model"],
-        max_tokens=8000,
+        # Thinking is on by default and counts towards this, so leave room: a reply cut
+        # off mid-JSON is unparseable and the story would be paid for and thrown away.
+        max_tokens=cfg.get("max_tokens", 16000),
         system=SYSTEM,
         messages=[{"role": "user", "content": prompt_for(cfg, item, text)}],
         output_config={
@@ -158,10 +161,13 @@ def rewrite(client, cfg, item, text):
             "format": {"type": "json_schema", "schema": SCHEMA},
         },
     )
-    if response.stop_reason == "refusal":
+    if response.stop_reason in ("refusal", "max_tokens"):
         return None
     raw = next((b.text for b in response.content if b.type == "text"), "")
-    return json.loads(raw), response.usage
+    try:
+        return json.loads(raw), response.usage
+    except ValueError:
+        return None
 
 
 def apply(item, data, cfg, text_chars=0):
@@ -188,6 +194,7 @@ def apply(item, data, cfg, text_chars=0):
     item["ai_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
     item.pop("ai_thin", None)
     item.pop("ai_thin_chars", None)
+    item.pop("ai_fails", None)
     return True
 
 
@@ -212,6 +219,9 @@ def pending(items, texts, cfg, redo=False):
         # Already judged too thin to report. Only pay for it again if the article page
         # has since given us materially more to work with.
         if not redo and item.get("ai_thin") and len(text) <= item.get("ai_thin_chars", 0):
+            continue
+        # Repeatedly failed: stop paying for the same error every half hour.
+        if not redo and item.get("ai_fails", 0) >= cfg.get("max_attempts", 3):
             continue
         todo.append((item, text))
     return todo
@@ -260,8 +270,12 @@ def enrich(limit=None, redo=False, quiet=False, dry_run=False):
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
         for item, result, chars, error in pool.map(work, todo):
             if error is not None:
+                # Record the attempt so a story that fails the same way every time backs
+                # off instead of being paid for on every run until it ages out.
+                item["ai_fails"] = item.get("ai_fails", 0) + 1
                 failed += 1
-                print("  rewrite failed for %s: %s" % (item["id"], error))
+                print("  rewrite failed for %s (attempt %d): %s"
+                      % (item["id"], item["ai_fails"], error))
                 continue
             if result is None:  # the model declined the request; do not pay for it again
                 item["ai_thin"] = True
@@ -294,7 +308,11 @@ def main():
     if not args.no_build and not args.dry_run:
         sys.path.insert(0, str(Path(__file__).resolve().parent))
         import build
-        build.build()
+        try:
+            build.build()
+        except build.SiteNotReady as why:
+            print("REFUSING TO BUILD: %s" % why)
+            return 2
     return 0
 
 

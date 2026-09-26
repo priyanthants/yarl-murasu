@@ -145,9 +145,16 @@ def run():
         check("each story is labelled machine-assisted",
               all("ai-note" in p.read_text(encoding="utf-8") for p in pages))
 
+        # news.js embeds config/ads.json too, and an image ad legitimately carries a
+        # "link". Check the stories themselves, not the whole file.
         news_js = (work / "site" / "data" / "news.js").read_text(encoding="utf-8")
-        check("the browser payload carries no publisher", '"source"' not in news_js)
-        check("the browser payload carries no source link", '"link"' not in news_js)
+        payload = json.loads(news_js[news_js.index("{"):news_js.rstrip().rstrip(";").rindex("}") + 1])
+        story_keys = set()
+        for story in payload.get("items", []):
+            story_keys.update(story)
+        check("the browser payload carries no publisher", "source" not in story_keys)
+        check("the browser payload carries no source link", "link" not in story_keys)
+        check("the browser payload still carries the stories", len(payload.get("items", [])) > 0)
 
         rss = (work / "site" / "rss.xml")
         if rss.exists():
@@ -161,9 +168,14 @@ def run():
         (work / "data" / "fetched.json").write_text(
             json.dumps(store, ensure_ascii=False), encoding="utf-8")
         before = len(list((work / "site" / "news").glob("*.html")))
-        build.build(verbose=False)
+        refused = False
+        try:
+            build.build(verbose=False)
+        except build.SiteNotReady:
+            refused = True
         after = len(list((work / "site" / "news").glob("*.html")))
         check("an empty rewrite leaves the site untouched", before == after and before > 0)
+        check("an empty rewrite is reported as a failure", refused)
     finally:
         shutil.rmtree(work, ignore_errors=True)
 

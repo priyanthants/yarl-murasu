@@ -349,7 +349,10 @@ class Handler(SimpleHTTPRequestHandler):
                 return self.send_html(page("செய்திகள் தமிழில் எழுதப்பட்டன" if out.returncode == 0 else "பிழை",
                                            out.returncode != 0, (out.stdout + out.stderr)[-3000:]))
             if route == "/admin/build":
-                build.build(verbose=False)
+                try:
+                    build.build(verbose=False)
+                except build.SiteNotReady as why:
+                    return self.redirect("தளம் உருவாக்கப்படவில்லை: %s" % why, err=True)
                 return self.redirect("தளம் மீளுருவாக்கப்பட்டது")
 
             fields, files = self.read_form()

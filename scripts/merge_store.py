@@ -19,6 +19,8 @@ import json
 import sys
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parent.parent
+
 
 def load(path):
     try:
@@ -37,13 +39,39 @@ def better(a, b):
     return a if len(json.dumps(a, ensure_ascii=False)) >= len(json.dumps(b, ensure_ascii=False)) else b
 
 
+def limits():
+    """The same age and size caps fetch_news.py applies, so a merge cannot grow the
+    store past them — this file is rewritten every half hour and its diff is pushed."""
+    try:
+        cfg = json.loads((ROOT / "config" / "sources.json").read_text(encoding="utf-8"))
+    except (FileNotFoundError, ValueError):
+        cfg = {}
+    return cfg.get("max_age_days", 7), cfg.get("max_store_items", 400)
+
+
 def merge(mine, theirs):
     by_id = {}
     for item in list(theirs.get("items", [])) + list(mine.get("items", [])):
         existing = by_id.get(item["id"])
         by_id[item["id"]] = better(item, existing) if existing else item
-    items = sorted(by_id.values(), key=lambda i: i.get("published", ""), reverse=True)
-    return {"updated": dt.datetime.now(dt.timezone.utc).isoformat(), "items": items}
+
+    max_age_days, max_items = limits()
+    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=max_age_days)
+    fresh = []
+    for item in by_id.values():
+        try:
+            when = dt.datetime.fromisoformat(str(item.get("published", "")).replace("Z", "+00:00"))
+        except ValueError:
+            fresh.append(item)          # undated: keep it, the build decides
+            continue
+        if when.tzinfo is None:
+            when = when.replace(tzinfo=dt.timezone.utc)
+        if when >= cutoff:
+            fresh.append(item)
+
+    fresh.sort(key=lambda i: i.get("published", ""), reverse=True)
+    return {"updated": dt.datetime.now(dt.timezone.utc).isoformat(),
+            "items": fresh[:max_items]}
 
 
 def main():
