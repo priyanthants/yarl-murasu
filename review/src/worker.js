@@ -14,6 +14,36 @@ function redirect(url, cookies = []) {
   return new Response(null, { status: 302, headers });
 }
 
+const signInErrors = {
+  expired: "This sign-in link expired or was already used. Start a new sign-in below.",
+  bad_verification_code: "GitHub says this sign-in link expired or was already used. Start a new sign-in below.",
+  incorrect_client_credentials: "The review app's GitHub credentials do not match. Ask the site administrator to reconnect the OAuth client secret.",
+  redirect_uri_mismatch: "The review app's GitHub callback address does not match its registration. Ask the site administrator to correct it.",
+  unverified_user_email: "GitHub requires you to verify your primary email address before signing in.",
+  not_editor: "This GitHub account is not on the editor list.",
+  github_unavailable: "GitHub sign-in could not be completed right now. Please try again."
+};
+
+function signInFailure(origin, reason) {
+  const safeReason = Object.hasOwn(signInErrors, reason) ? reason : "github_unavailable";
+  return redirect(`${origin}/auth/error?reason=${safeReason}`,
+    [secureCookie("review_oauth_state", "", 0)]);
+}
+
+function signInErrorPage(request) {
+  const reason = new URL(request.url).searchParams.get("reason") || "";
+  const message = Object.hasOwn(signInErrors, reason)
+    ? signInErrors[reason] : signInErrors.github_unavailable;
+  return new Response(`<!doctype html><html lang="en"><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Review app sign-in</title><main><h1>Sign-in could not finish</h1>
+    <p>${message}</p><p><a href="/auth/login">Start a new GitHub sign-in</a></p></main>`, {
+    headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store",
+      "Content-Security-Policy": "default-src 'none'; base-uri 'none'; frame-ancestors 'none'",
+      "Referrer-Policy": "no-referrer", "X-Content-Type-Options": "nosniff" }
+  });
+}
+
 async function oauthLogin(request, env) {
   if (!env.GITHUB_OAUTH_CLIENT_ID || !env.GITHUB_OAUTH_CLIENT_SECRET || !env.SESSION_SECRET) {
     return json({ error: "GitHub sign-in is not configured yet" }, 503);
@@ -33,7 +63,7 @@ async function oauthCallback(request, env) {
   const state = url.searchParams.get("state") || "";
   const code = url.searchParams.get("code") || "";
   if (!code || !equalSecret(state, cookie(request, "review_oauth_state"))) {
-    return json({ error: "The sign-in request expired. Please try again." }, 400);
+    return signInFailure(url.origin, "expired");
   }
   const tokenResponse = await fetch("https://github.com/login/oauth/access_token", {
     method: "POST",
@@ -42,16 +72,22 @@ async function oauthCallback(request, env) {
       client_secret: env.GITHUB_OAUTH_CLIENT_SECRET, code,
       redirect_uri: `${url.origin}/auth/callback`, state })
   });
-  if (!tokenResponse.ok) return json({ error: "GitHub sign-in failed" }, 502);
-  const token = (await tokenResponse.json()).access_token;
-  if (!token) return json({ error: "GitHub did not authorize this sign-in" }, 403);
+  if (!tokenResponse.ok) return signInFailure(url.origin, "github_unavailable");
+  const tokenData = await tokenResponse.json().catch(() => null);
+  const token = tokenData?.access_token;
+  if (!token) {
+    const reason = Object.hasOwn(signInErrors, tokenData?.error)
+      ? tokenData.error : "github_unavailable";
+    console.warn("GitHub OAuth exchange failed", reason);
+    return signInFailure(url.origin, reason);
+  }
   const userResponse = await fetch("https://api.github.com/user", {
     headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json",
       "User-Agent": "yarl-murasu-review" }
   });
-  if (!userResponse.ok) return json({ error: "Could not verify your GitHub account" }, 502);
+  if (!userResponse.ok) return signInFailure(url.origin, "github_unavailable");
   const login = String((await userResponse.json()).login || "").toLowerCase();
-  if (!admins(env).has(login)) return json({ error: "This account is not an editor" }, 403);
+  if (!admins(env).has(login)) return signInFailure(url.origin, "not_editor");
   const session = await makeSession(login, env.SESSION_SECRET);
   return redirect(url.origin + "/", [
     secureCookie("review_oauth_state", "", 0),
@@ -177,6 +213,7 @@ export default {
     try {
       if (url.pathname === "/auth/login" && request.method === "GET") return oauthLogin(request, env);
       if (url.pathname === "/auth/callback" && request.method === "GET") return oauthCallback(request, env);
+      if (url.pathname === "/auth/error" && request.method === "GET") return signInErrorPage(request);
       if (url.pathname === "/auth/logout" && request.method === "GET") {
         return redirect(url.origin + "/", [secureCookie("review_session", "", 0)]);
       }

@@ -86,3 +86,25 @@ test("review APIs require a session and reject cross-origin writes", async () =>
   const response = await worker.fetch(request, env);
   assert.equal(response.status, 403);
 });
+
+test("GitHub sign-in failures identify the cause without leaving a code in the URL", async () => {
+  const authEnv = { ...env, GITHUB_OAUTH_CLIENT_ID: "test-client",
+    GITHUB_OAUTH_CLIENT_SECRET: "test-secret" };
+  for (const reason of ["bad_verification_code", "incorrect_client_credentials"]) {
+    const start = await worker.fetch(new Request("https://review.example/auth/login"), authEnv);
+    const state = new URL(start.headers.get("Location")).searchParams.get("state");
+    const oauthCookie = start.headers.get("Set-Cookie").split(";")[0];
+    globalThis.fetch = async () => Response.json({ error: reason });
+    const callback = await worker.fetch(new Request(
+      `https://review.example/auth/callback?code=one-time-code&state=${state}`,
+      { headers: { Cookie: oauthCookie } }), authEnv);
+    assert.equal(callback.status, 302);
+    assert.equal(callback.headers.get("Location"),
+      `https://review.example/auth/error?reason=${reason}`);
+    const page = await worker.fetch(new Request(callback.headers.get("Location")), authEnv);
+    const body = await page.text();
+    assert.equal(page.status, 200);
+    assert.match(body, /Start a new GitHub sign-in/);
+    assert.doesNotMatch(body, /one-time-code/);
+  }
+});
