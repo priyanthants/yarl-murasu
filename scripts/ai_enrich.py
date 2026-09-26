@@ -56,7 +56,7 @@ DEFAULTS = {
     "min_text_chars": 400,
     "body_paragraphs": "3-5",
     "max_attempts": 3,
-    # A run happens every half hour, so no run may take anything like that long.
+    # No run may take anything like as long as the gap between runs.
     "max_seconds": 600,
     "gemini": {
         "model": "gemini-3.5-flash",
@@ -78,8 +78,10 @@ DEFAULTS = {
         "model": "mymemory",
         "email": "",
         "max_source_chars": 700,
-        # The daily allowance divided across half-hourly runs. 50,000 characters a day
-        # (the figure with an email set) over 48 runs is about a thousand each.
+        # The daily allowance divided across the runs that actually happen. GitHub
+        # fires this cron far less often than every half hour — measured at about seven
+        # times a day — so 50,000 characters (the figure with an email set) is about
+        # seven thousand a run. Going over is handled: the service says so and we stop.
         "max_chars_per_run": 1000,
         # One request at a time with a gap: a free service throttles parallel callers,
         # and there is nothing to gain by going faster than the daily allowance.
@@ -601,7 +603,7 @@ def pending(items, texts, cfg, redo=False):
         # has since given us materially more to work with.
         if not redo and item.get("ai_thin") and len(text) <= item.get("ai_thin_chars", 0):
             continue
-        # Repeatedly failed: stop paying for the same error every half hour.
+        # Repeatedly failed: stop paying for the same error on every run.
         if not redo and item.get("ai_fails", 0) >= cfg.get("max_attempts", 3):
             continue
         todo.append((item, text))
@@ -630,8 +632,8 @@ def enrich(limit=None, redo=False, quiet=False, dry_run=False):
     done = thin = failed = 0
     in_tok = out_tok = 0
     stopped = None
-    # A provider can be slow or throttled without ever failing outright. This runs on a
-    # half-hourly schedule, so cap the wall clock and let the next run take the rest.
+    # A provider can be slow or throttled without ever failing outright. Cap the wall
+    # clock so one run cannot stall the schedule, and let the next run take the rest.
     deadline = time.time() + float(cfg.get("max_seconds", 600))
 
     # A free tier counts requests per minute, so hold a minimum gap between them.

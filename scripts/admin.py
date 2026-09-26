@@ -172,7 +172,7 @@ def page(msg="", err=False, log=""):
 <section class="card">
   <h2>சமீபத்திய செய்திகளைப் பெறுக</h2>
   <p class="hint">நம்பகமான மூலங்களிலிருந்து புதிய செய்திகளைப் பெற்று உள்ளூர் முன்னோட்டத்தைப் புதுப்பிக்கும். நேரலைத் தளம் GitHub மூலம் ஒவ்வொரு 30 நிமிடத்திலும் தானாகப் புதுப்பிக்கப்படுகிறது.
-  (Refreshes the local preview. The live site updates itself on GitHub every 30 minutes.)</p>
+  (Refreshes the local preview. GitHub refreshes the live site on its own, a few times a day.)</p>
   <div class="actions">
     <form method="post" action="/admin/fetch"><button>செய்திகளைப் பெறுக</button></form>
     <form method="post" action="/admin/ai"><button class="secondary">தமிழில் எழுதுக / மொழிபெயர்ப்பு</button></form>

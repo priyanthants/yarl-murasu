@@ -539,8 +539,8 @@ def fill_article_texts(items, texts, cfg, now):
     """
     min_chars = cfg.get("min_text_chars", 400)
     budget = cfg.get("max_article_fetches", 60)
-    # Polite crawl delays mean this step could otherwise outlast the half-hourly
-    # schedule; whatever it does not reach is picked up by the next run.
+    # Polite crawl delays mean this step could otherwise run very long; whatever it
+    # does not reach is picked up by the next run.
     deadline = time.time() + cfg.get("max_article_seconds", 420)
     delays = cfg.get("article_delay_seconds", {})
     default_delay = cfg.get("default_article_delay", 2)
@@ -555,7 +555,7 @@ def fill_article_texts(items, texts, cfg, now):
         if not fetchable(item["link"]):
             continue
         # We have read this page before and it did not hold a story, or could not be
-        # read at all. Trying again every half hour until it ages out would spend the
+        # read at all. Trying again on every run until it ages out would spend the
         # budget on pages already known to be a dead end — and a publisher that blocks
         # data-centre IPs is a dead end on every run.
         if "page_chars" in item and item["page_chars"] < min_chars:

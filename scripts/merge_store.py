@@ -4,7 +4,7 @@
 
 Ada Derana Tamil and Virakesari refuse GitHub's servers, so the Jaffna reporting on
 this site can only be collected from a home connection. That means two machines write
-to the same store: the half-hourly GitHub run, and whatever is fetched and rewritten
+to the same store: the scheduled GitHub run, and whatever is fetched and rewritten
 here. Rebasing that file just produces conflicts, so scripts/publish.sh merges the two
 copies instead.
 
@@ -41,7 +41,7 @@ def better(a, b):
 
 def limits():
     """The same age and size caps fetch_news.py applies, so a merge cannot grow the
-    store past them — this file is rewritten every half hour and its diff is pushed."""
+    store past them — this file is rewritten on every run and its diff is pushed."""
     try:
         cfg = json.loads((ROOT / "config" / "sources.json").read_text(encoding="utf-8"))
     except (FileNotFoundError, ValueError):

@@ -92,14 +92,16 @@ site with an empty one; instead the pages already in `site/` stay exactly as the
 
 ## Git workflow
 
-A `news-bot` GitHub Action commits regenerated news every 30 minutes, so the remote moves constantly.
+A `news-bot` GitHub Action commits regenerated news on a schedule, so the remote moves on its own.
+The cron asks for every 30 minutes but GitHub throttles it to roughly seven runs a day — check with
+`gh run list` and filter to `schedule` before sizing anything per-run against it.
 
 - Always `git pull --rebase origin main` before pushing.
 - Rebasing generated files causes mass conflicts. When that happens, do not resolve them by hand:
   reset to `origin/main`, restore source files from your commit (`git checkout <sha> -- scripts config
   templates content README.md .github`), then re-run `python3 scripts/build.py` and commit.
 - For content-only changes (own posts, ads, uploads) use `scripts/publish.sh`, which does this safely.
-- `data/fetched.json` is written from two machines: the half-hourly GitHub run, and this Mac, which
+- `data/fetched.json` is written from two machines: the scheduled GitHub run, and this Mac, which
   is the only place Ada Derana Tamil and Virakesari can be read from. `publish.sh` therefore does not
   discard it — it keeps a gitignored `data/fetched.local.json` backup, rebases, then folds the two
   copies together with `scripts/merge_store.py` (a story present on both sides keeps whichever copy

@@ -27,7 +27,11 @@ Then open:
 
 **https://priyanthants.github.io/yarl-murasu/** (repository: github.com/priyanthants/yarl-murasu)
 
-GitHub fetches the news every 30 minutes and republishes the site on its own; your Mac can be off.
+GitHub fetches the news and republishes the site on its own; your Mac can be off.
+
+The workflow asks for every 30 minutes, but GitHub throttles scheduled runs on shared runners and
+actually fires it **about seven times a day**. Check yours with `gh run list -R priyanthants/yarl-murasu`
+— the `schedule` rows are the real cadence, and the rewrite budget below is sized against it.
 
 **Adding your own news:** run `python3 scripts/admin.py`, add the story/photos/videos/ads, check the
 preview, then press **நேரலையில் வெளியிடு (Publish)** in the admin panel (or run `scripts/publish.sh`).
@@ -71,7 +75,7 @@ The generated site also includes `about.html`, `editorial-policy.html`, `correct
 | The Island (island.lk) | English → Tamil | yes |
 
 **Two Tamil sources only work from a home internet connection.** Ada Derana Tamil and Virakesari
-block requests from data-centre servers (HTTP 403), so the half-hourly GitHub run cannot use them —
+block requests from data-centre servers (HTTP 403), so the scheduled GitHub run cannot use them —
 which is why several English Sri Lankan outlets are in the list: they answer from anywhere and are
 translated into Tamil like everything else. To pull the two blocked sources in, run
 `python3 scripts/fetch_news.py` on your Mac (or switch on `scripts/schedule_mac.sh`) and press
@@ -79,8 +83,9 @@ Publish. Do not try to work around the block — it is their decision to make.
 
 Stories written on your Mac are not lost when GitHub publishes its own: `scripts/publish.sh` merges
 the two sets, keeping whichever copy already has the Tamil rewrite. So the practical setup for strong
-Jaffna coverage is both at once — GitHub every 30 minutes for what it can reach, and
-`scripts/schedule_mac.sh on` for the two Tamil papers only your home connection can.
+Jaffna coverage is both at once — GitHub on its own schedule for what it can reach, and
+`scripts/schedule_mac.sh on` for the two Tamil papers only your home connection can. The Mac timer is
+also the more reliable of the two, since launchd actually keeps to its interval.
 
 Categories: யாழ்ப்பாணம் (includes Kilinochchi, Mullaitivu, Vavuniya, Mannar), இலங்கை, உலகம், விளையாட்டு.
 The rewrite step picks the section after reading the whole story, so a report lands where it belongs
@@ -140,17 +145,18 @@ anonymously and 50,000 with an email address**. **Put your email in `translate.e
 
 | | Per day |
 |---|---|
-| No email | 2–5 stories |
-| With an email | ~55 English stories, or ~27 Tamil ones (they cost double, going through English and back) |
+| No email | about 8 stories |
+| With an email | about 90 |
 
-`max_chars_per_run` (2,400) is what one run may spend. It has to be big enough to finish a whole
-story — a Tamil one costs about twice `max_source_chars`, going through English and back — or a run
-spends characters and produces nothing. Each run now writes two or three stories and stops cleanly
-when the next one will not fit; the service's own daily allowance is what caps the total.
+`max_chars_per_run` (7,000) is what one run may spend: the daily allowance divided across the runs
+that really happen, so each of the few daily runs is worth making. It has to be big enough to finish
+a whole story — a Tamil one costs about twice `max_source_chars`, going through English and back — or
+a run spends characters and produces nothing. Going over the daily allowance is handled: the service
+says so, the run stops, and the next one continues.
 
 A fully offline option is not practical here: Argos Translate, the usual local translation library,
 has no Tamil at all, and the Tamil models that do exist (Opus-MT, IndicTrans2) need PyTorch and a
-couple of gigabytes, which a half-hourly GitHub run cannot carry.
+couple of gigabytes, which a scheduled GitHub run cannot carry.
 
 Set up (skip entirely if you use `translate`, which needs nothing):
 1. Get a key — free at [aistudio.google.com/apikey](https://aistudio.google.com/apikey) for Gemini,
@@ -224,7 +230,7 @@ Instagram does not allow posting from a website, so download the image and post 
 **Option A: GitHub (recommended, runs in the cloud, free)**
 1. Create a GitHub repository and push this folder to its `main` branch.
 2. Repository → Settings → Pages → Source: **GitHub Actions**.
-3. The workflow `.github/workflows/update-news.yml` then fetches news every 30 minutes and
+3. The workflow `.github/workflows/update-news.yml` then fetches news on its schedule and
    publishes the site at `https://<user>.github.io/<repo>/`. Set that address as `site_url`.
 
 **Option B: This Mac**

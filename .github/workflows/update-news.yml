@@ -1,9 +1,12 @@
-# Runs in the cloud on GitHub: fetches news every 30 minutes, commits it,
+# Runs in the cloud on GitHub: fetches news on a schedule, commits it,
 # and publishes the site/ folder to GitHub Pages. Your computer can be off.
 name: Update news
 
 on:
   schedule:
+    # GitHub throttles scheduled runs on shared runners; asking for every 30 minutes
+    # gets roughly seven a day in practice. Left as-is because a lower frequency would
+    # only get fewer, not more.
     - cron: "*/30 * * * *"
   workflow_dispatch:
   push:

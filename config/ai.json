@@ -23,11 +23,11 @@
     "max_tokens": 16000
   },
   "translate": {
-    "_help": "No API key and no language model. English stories are translated into Tamil; Tamil stories are sent through English and back, which returns the same facts in different wording — and costs twice as much of the allowance. Uses MyMemory: 5000 characters a day anonymously, 50000 with an email in 'email' — SET IT, because without it this manages only a story or two a day. max_chars_per_run must be large enough to finish at least one story (a Tamil one costs about twice max_source_chars); the service's own daily allowance is what limits the total.",
+    "_help": "No API key and no language model. English stories are translated into Tamil; Tamil stories are sent through English and back, which returns the same facts in different wording — and costs twice as much of the allowance. Uses MyMemory: 5000 characters a day anonymously, 50000 with an email in 'email' — SET IT. max_chars_per_run is the daily allowance divided across the runs that actually happen (GitHub fires this far less often than the cron asks for; measure with 'gh run list'), and must be large enough to finish at least one story — a Tamil one costs about twice max_source_chars. Running past the daily allowance is handled: the service says so and the run stops.",
     "model": "mymemory",
     "email": "",
     "max_source_chars": 700,
-    "max_chars_per_run": 2400,
+    "max_chars_per_run": 7000,
     "concurrency": 1,
     "min_interval_seconds": 1
   }
