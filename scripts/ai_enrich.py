@@ -589,6 +589,13 @@ def source_text(item, texts, cfg):
     return text[:12000]
 
 
+# A run rewrites only as many stories as its budget allows, so the order decides what a
+# reader actually gets. This is a Jaffna paper: the Northern Province comes first, then
+# the rest of Sri Lanka, and world or sport only once those are done. Without this the
+# budget goes to whatever happens to be newest, which is mostly BBC Tamil features.
+SECTION_ORDER = {"jaffna": 0, "srilanka": 1, "sports": 2, "world": 3}
+
+
 def pending(items, texts, cfg, redo=False):
     todo = []
     for item in items:
@@ -607,6 +614,9 @@ def pending(items, texts, cfg, redo=False):
         if not redo and item.get("ai_fails", 0) >= cfg.get("max_attempts", 3):
             continue
         todo.append((item, text))
+
+    # Stable sort, so within a section the newest story is still first.
+    todo.sort(key=lambda pair: SECTION_ORDER.get(pair[0].get("category"), len(SECTION_ORDER)))
     return todo
 
 

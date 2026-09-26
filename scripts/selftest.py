@@ -81,6 +81,20 @@ def run():
                                  "ai_body": ["ஒரு பந்தி."]}))
     check("an own post is always publishable", not build.hold_reason({"type": "local"}))
 
+    # A run rewrites only what its budget allows, so the order decides what readers get.
+    # This is a Jaffna paper; world features must not crowd out Northern Province news.
+    import ai_enrich as _pre
+    long_enough = "x" * 900
+    mixed = [{"id": "w", "category": "world", "title": "w"},
+             {"id": "s", "category": "srilanka", "title": "s"},
+             {"id": "j", "category": "jaffna", "title": "j"},
+             {"id": "p", "category": "sports", "title": "p"}]
+    order = [i["id"] for i, _ in _pre.pending(
+        mixed, {m["id"]: long_enough for m in mixed},
+        {"min_text_chars": 400, "max_attempts": 3})]
+    check("local news is rewritten before world news", order == ["j", "s", "p", "w"],
+          "got %s" % order)
+
     # Both providers have to stay configured: switching between them is a one-word edit
     # in config/ai.json, and a broken one would only show up at the next scheduled run.
     import ai_enrich as _ai
