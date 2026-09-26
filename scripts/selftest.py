@@ -86,6 +86,15 @@ def run():
         build.SITE, build.TEMPLATES = work / "site", work / "templates"
         build.NEWS_DIR = work / "site" / "news"
 
+        # data/texts.json is gitignored, so it is absent on a fresh checkout and present
+        # with whatever a local run last left. Write our own so the run is the same
+        # everywhere: enough article text for the first 30 stories, and none after.
+        store = json.loads((work / "data" / "fetched.json").read_text(encoding="utf-8"))
+        article = ("இது ஒரு சோதனைக்கான செய்தி உரை. " * 20).strip()
+        (work / "data" / "texts.json").write_text(
+            json.dumps({i["id"]: article for i in store["items"][:30]}, ensure_ascii=False),
+            encoding="utf-8")
+
         calls = {"n": 0}
 
         def stub(client, cfg, item, text):
@@ -114,6 +123,8 @@ def run():
         check("the rewrite step writes stories", written > 0, "wrote %d" % written)
 
         store = json.loads((work / "data" / "fetched.json").read_text(encoding="utf-8"))
+        check("a story with no article text is left alone",
+              all(not i.get("ai_body") and not i.get("ai_thin") for i in store["items"][30:]))
         thin = [i for i in store["items"] if i.get("ai_thin")]
         check("a story judged too thin is marked, not published",
               bool(thin) and all(not i.get("ai_body") for i in thin))
