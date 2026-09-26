@@ -23,11 +23,11 @@
     "max_tokens": 16000
   },
   "translate": {
-    "_help": "No API key and no language model. English stories are translated into Tamil; Tamil stories are sent through English and back, which returns the same facts in different wording. Uses MyMemory, which allows 5000 characters a day anonymously and 50000 with an email address here — so set email to raise the ceiling. max_source_chars keeps each story short enough that the daily allowance covers a useful number of them.",
+    "_help": "No API key and no language model. English stories are translated into Tamil; Tamil stories are sent through English and back, which returns the same facts in different wording. Uses MyMemory: 5000 characters a day anonymously, 50000 with an email in 'email' — SET IT, because without it this manages only two to five stories a day. max_chars_per_run divides the daily allowance across the half-hourly runs; raise it if you run this by hand rather than on a schedule.",
     "model": "mymemory",
     "email": "",
-    "max_source_chars": 900,
-    "max_chars_per_run": 8000,
+    "max_source_chars": 700,
+    "max_chars_per_run": 1000,
     "concurrency": 1,
     "min_interval_seconds": 1
   }

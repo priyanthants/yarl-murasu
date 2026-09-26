@@ -75,8 +75,10 @@ DEFAULTS = {
         # Not a model: a translation service, used one sentence at a time.
         "model": "mymemory",
         "email": "",
-        "max_source_chars": 900,
-        "max_chars_per_run": 8000,
+        "max_source_chars": 700,
+        # The daily allowance divided across half-hourly runs. 50,000 characters a day
+        # (the figure with an email set) over 48 runs is about a thousand each.
+        "max_chars_per_run": 1000,
         # One request at a time with a gap: a free service throttles parallel callers,
         # and there is nothing to gain by going faster than the daily allowance.
         "concurrency": 1,
@@ -667,10 +669,16 @@ def main():
                  if chosen == "auto" else ""))
         print("%s" % ("no API key needed" if not wanted
                       else "%s: %s" % (wanted, "set" if ok else "NOT SET")))
-        if cfg["provider"] == "translate" and chosen == "auto":
-            print("Writing by translation only, which reads plainer and publishes short")
-            print("briefs. A free key at https://aistudio.google.com/apikey switches this")
-            print("to a proper rewrite on its own — nothing else to change.")
+        if cfg["provider"] == "translate":
+            if chosen == "auto":
+                print("Writing by translation only, which reads plainer and publishes short")
+                print("briefs. A free key at https://aistudio.google.com/apikey switches this")
+                print("to a proper rewrite on its own — nothing else to change.")
+            if not (cfg.get("email") or "").strip():
+                print("WARNING: no email set under \"translate\" in config/ai.json. The")
+                print("translation service allows 5,000 characters a day without one and")
+                print("50,000 with one — the difference between a couple of stories a day")
+                print("and a few dozen.")
         if not ok:
             print("Stories are rewritten in Tamil before they are published, so without "
                   "this key nothing new can go live.")

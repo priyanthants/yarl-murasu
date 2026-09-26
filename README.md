@@ -135,9 +135,17 @@ the story, and it cannot judge whether a page holds a real story, so weak source
 often.
 
 It uses [MyMemory](https://mymemory.translated.net), which allows **5,000 characters a day
-anonymously and 50,000 with an email address**. Put your email in `translate.email` in
-`config/ai.json` to get the higher ceiling — at roughly 900 characters a story (double that for
-Tamil sources, which make the round trip) that is a few dozen stories a day, not hundreds.
+anonymously and 50,000 with an email address**. **Put your email in `translate.email` in
+`config/ai.json`** — it is the difference between a usable site and a stalled one:
+
+| | Per day |
+|---|---|
+| No email | 2–5 stories |
+| With an email | ~55 English stories, or ~27 Tamil ones (they cost double, going through English and back) |
+
+`max_chars_per_run` (1,000) divides that allowance across the half-hourly runs, so the site gains a
+story or so every half hour rather than spending the day's quota in one go. Raise it if you run the
+fetch by hand instead of on a schedule.
 
 A fully offline option is not practical here: Argos Translate, the usual local translation library,
 has no Tamil at all, and the Tamil models that do exist (Opus-MT, IndicTrans2) need PyTorch and a
