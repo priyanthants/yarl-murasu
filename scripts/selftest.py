@@ -134,6 +134,10 @@ def run():
     # Both keyless/free providers must keep a gap between requests, or a run spends its
     # per-minute allowance in the first second and collects rate-limit errors instead.
     live = json.loads((ROOT / "config" / "ai.json").read_text(encoding="utf-8"))
+    check("every provider has a wall-clock bound",
+          all(float(json.loads((ROOT / "config" / "ai.json").read_text(encoding="utf-8"))
+                    .get(n, {}).get("max_seconds", _ai.DEFAULTS["max_seconds"])) <= 900
+              for n in ("gemini", "anthropic", "translate")))
     check("free providers pace their requests",
           all(float(live.get(n, {}).get("min_interval_seconds", 0)) > 0
               for n in ("gemini", "translate")),

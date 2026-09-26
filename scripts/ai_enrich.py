@@ -56,6 +56,8 @@ DEFAULTS = {
     "min_text_chars": 400,
     "body_paragraphs": "3-5",
     "max_attempts": 3,
+    # A run happens every half hour, so no run may take anything like that long.
+    "max_seconds": 600,
     "gemini": {
         "model": "gemini-3.5-flash",
         # The free tier allows only a handful of requests a minute, so ask for few at a
@@ -83,6 +85,9 @@ DEFAULTS = {
         # and there is nothing to gain by going faster than the daily allowance.
         "concurrency": 1,
         "min_interval_seconds": 1,
+        # Each request is a network round trip to a free service, so this one is the
+        # slowest by far; keep its share of the run smaller.
+        "max_seconds": 420,
     },
 }
 
@@ -403,7 +408,7 @@ def translate_rewrite(client, cfg, item, text):
     story, and both stay closer to the original's sentence order, so this provider
     publishes a short brief rather than a full-length article.
     """
-    source = trimmed(text, int(cfg.get("max_source_chars", 900)))
+    source = trimmed(text, int(cfg.get("max_source_chars", 700)))
     if len(source) < cfg.get("min_text_chars", 400):
         return None
 
@@ -611,6 +616,9 @@ def enrich(limit=None, redo=False, quiet=False, dry_run=False):
     done = thin = failed = 0
     in_tok = out_tok = 0
     stopped = None
+    # A provider can be slow or throttled without ever failing outright. This runs on a
+    # half-hourly schedule, so cap the wall clock and let the next run take the rest.
+    deadline = time.time() + float(cfg.get("max_seconds", 600))
 
     # A free tier counts requests per minute, so hold a minimum gap between them.
     gap = float(cfg.get("min_interval_seconds", 0) or 0)
@@ -619,6 +627,10 @@ def enrich(limit=None, redo=False, quiet=False, dry_run=False):
 
     def work(pair):
         item, text = pair
+        if time.time() > deadline:
+            raise_later = RateLimited("this run's %d-second budget is used up"
+                                      % cfg.get("max_seconds", 600))
+            return item, None, len(text), raise_later
         if gap:
             with pace:
                 wait = gap - (time.time() - last[0])
