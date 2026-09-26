@@ -551,6 +551,10 @@ def fill_article_texts(items, texts, cfg, now):
             continue
         if not fetchable(item["link"]):
             continue
+        # We have read this page before and it did not hold a story. Reading it again
+        # every half hour until it ages out would just spend the budget on nothing.
+        if "page_chars" in item and item["page_chars"] < min_chars:
+            continue
         domain = item.get("source_domain") or domain_of(item["link"])
         delay = delays.get(domain, default_delay)
         waited = time.time() - last_seen.get(domain, 0)
@@ -568,11 +572,11 @@ def fill_article_texts(items, texts, cfg, now):
         # The feed teaser is usually the article's own first line; keep whichever is fuller.
         if len(text) < len(texts.get(item["id"], "")):
             text = texts[item["id"]]
+        item["page_chars"] = len(text)
+        if text:
+            texts[item["id"]] = text
         if len(text) >= min_chars:
-            texts[item["id"]] = text
             filled += 1
-        elif text:
-            texts[item["id"]] = text
         if not item.get("image"):
             item["image"] = meta_content(page, "og:image") or None
 
