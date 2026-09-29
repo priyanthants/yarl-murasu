@@ -1,6 +1,684 @@
 {
- "updated": "2026-09-29T08:07:21.308264+00:00",
+ "updated": "2026-09-29T14:59:57.898774+00:00",
  "items": [
+  {
+   "id": "5be0ee0d855f",
+   "type": "auto",
+   "title": "சாதிப் பாகுபாட்டை சந்திக்கும் ஐஐடி மாணவர்களுக்கு உதவத் தேவையான ஆதரவு கிடைக்கிறதா?",
+   "summary": "ஐஐடி போன்ற பிரபல கல்வி நிறுவனங்களில்கூட சாதிப் பாகுபாடு பல்வேறு வடிவங்களில் பட்டியல் சாதி, பட்டியல் பழங்குடி மாணவர்களை பாதிப்பதாகக் கூறப்படுகிறது. அத்தகைய நிலையில் அவர்களுக்குத் தேவைப்படும் உளவியல் ஆதரவும் உதவியும் முறையாகக் கிடைக்கிறதா?",
+   "link": "https://www.bbc.com/tamil/articles/cqkgwkzr96zyo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/e2d9/live/d569ccf0-bc12-11f1-a524-3125ac41b7f5.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-09-29T14:34:58+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00",
+   "page_chars": 8000,
+   "ai_title": "சாதி பாகுபாட்டை எதிர்கொள்ளும் IIT மாணவர்களுக்கு அவர்கள் உதவ வேண்டிய ஆதரவு கிடைக்குமா?",
+   "title_ta": "சாதி பாகுபாட்டை எதிர்கொள்ளும் IIT மாணவர்களுக்கு அவர்கள் உதவ வேண்டிய ஆதரவு கிடைக்குமா?",
+   "ai_summary": "எச்சரிக்கை: கட்டுரையில் தற்கொலை பற்றிய விளக்கங்கள் உள்ளன.",
+   "ai_body": [
+    "எச்சரிக்கை: கட்டுரையில் தற்கொலை பற்றிய விளக்கங்கள் உள்ளன. 'ஃப்ரெண்ட்' படத்தில், நடிகர் விஜய் வசந்த் தனது திட்டத்தை சரியான நேரத்தில் முடிக்கத் தவறிய மாணவனாக நடித்தார்.",
+    "பின்னர் அவர் அவ்வாறு செய்யத் தவறியதால் தற்கொலை செய்து கொள்கிறார், மேலும் 2009 இல் வெளியான படம் பகிரங்கமாக ஒரு கேள்வியை எழுப்பியது. அதாவது, வெற்றிபெறுவதற்கான அழுத்தம் வெற்றிபெறுவதற்கான அழுத்தத்தை விஞ்சும்போது, திறமையான இளைஞர்கள் எவ்வாறு அதனுடன் இடைபடுகிறார்கள்?",
+    "படம் வெளியாகி 15 ஆண்டுகளுக்கும் மேலாகிவிட்டது. ஆனால் மாணவர் தற்கொலை பற்றிய கேள்வி இன்னும் தொடர்கிறது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-09-29T15:09:23.598300+00:00"
+  },
+  {
+   "id": "9b6cb3bfced7",
+   "type": "auto",
+   "title": "Indian authorities said illicit funds were used in Krish project, court told",
+   "summary": "Sri Lankan investigators have received a mutual legal assistance communication from India stating that illicit funds were used in the Continue Reading The post Indian authorities said illicit funds were used in Krish project, court told appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/29/indian-authorities-said-illicit-funds-were-used-in-krish-project-court-told/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/namal-Krrish.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "world"
+   ],
+   "published": "2026-09-29T14:31:11+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00",
+   "page_chars": 1145,
+   "ai_title": "கிரிஷ் திட்டத்தில் சட்டவிரோத நிதிகள் பயன்படுத்தப்பட்டதாக இந்திய அதிகாரிகள் தெரிவித்தனர்",
+   "title_ta": "கிரிஷ் திட்டத்தில் சட்டவிரோத நிதிகள் பயன்படுத்தப்பட்டதாக இந்திய அதிகாரிகள் தெரிவித்தனர்",
+   "ai_summary": "கிரிஷ் கட்டுமானத் திட்டத்தில் சட்டவிரோத நிதிகள் பயன்படுத்தப்பட்டதாகக் கூறி இலங்கை புலனாய்வாளர்கள் இந்தியாவில் இருந்து பரஸ்பர சட்ட உதவி தகவல்தொடர்புகளைப் பெற்றுள்ளனர், லஞ்சம் அல்லது ஊழல் குற்றச்சாட்டுகளை விசாரிக்கும் ஆணையம் (CIABOC) கொழும்பு தலைமை மாஜிஸ்திரேட் நீதிமன்றத்தில் தெரிவித்துள்ளது.",
+   "ai_body": [
+    "கிரிஷ் கட்டுமானத் திட்டத்தில் சட்டவிரோத நிதிகள் பயன்படுத்தப்பட்டதாகக் கூறி இலங்கை புலனாய்வாளர்கள் இந்தியாவில் இருந்து பரஸ்பர சட்ட உதவி தகவல்தொடர்புகளைப் பெற்றுள்ளனர், லஞ்சம் அல்லது ஊழல் குற்றச்சாட்டுகளை விசாரிக்கும் ஆணையம் (CIABOC) கொழும்பு தலைமை மாஜிஸ்திரேட் நீதிமன்றத்தில் தெரிவித்துள்ளது. இந்த திட்டம் தொடர்பான கூட்டு விசாரணையின் ஒரு பகுதியாக குற்றவியல் புலனாய்வுத் துறையால் இந்த தகவல் தொடர்பு நடத்தப்பட்டதாக CIABOC உதவி சட்ட இயக்குனர் அமா விஜேசிங்க தெரிவித்தார்.",
+    "நகர அபிவிருத்தி அதிகாரசபைக்கு சொந்தமான கொழும்பு கோட்டைச் சொத்தை கிருஷ் டிரான்ஸ்வொர்க்ஸ் கொழும்பு (பிரைவேட்) லிமிடெட் நிறுவனத்திற்கு குத்தகைக்கு விடுவதற்கு வசதியாக நாமல் ராஜபக்ஷவுக்கு நிமல் பெரேரா மூலம் ரூபா 70 மில்லியன் கிடைத்ததாக ஆணைக்குழு நீதிமன்றத்தில் தெரிவித்தது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-09-29T15:09:06.839906+00:00"
+  },
+  {
+   "id": "073f1e426617",
+   "type": "auto",
+   "title": "Foundation stone laid for 51 Indian funded estate houses in Badulla",
+   "summary": "The foundation stone for 51 new housing units was laid at the Alagolla Estate in the Badulla District on September Continue Reading The post Foundation stone laid for 51 Indian funded estate houses in Badulla appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/29/foundation-stone-laid-for-51-indian-funded-estate-houses-in-badulla/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Indian-Housing-pix.jpg",
+   "lang": "en",
+   "category": "world",
+   "tags": [
+    "world",
+    "srilanka"
+   ],
+   "published": "2026-09-29T14:13:13+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00",
+   "page_chars": 1560,
+   "ai_title": "பதுலாவில் 51 இந்திய நிதியுதவி பெற்ற எஸ்டேட் வீடுகளுக்கு அடிக்கல் நாட்டப்பட்டது",
+   "title_ta": "பதுலாவில் 51 இந்திய நிதியுதவி பெற்ற எஸ்டேட் வீடுகளுக்கு அடிக்கல் நாட்டப்பட்டது",
+   "ai_summary": "51 புதிய வீட்டுவசதி அலகுகளுக்கான அடிக்கல் செப்டம்பர் 29, 2026 அன்று பதுளை மாவட்டத்தில் உள்ள அழகொல்லா தோட்டத்தில் இலங்கையின் பெருந்தோட்ட மற்றும் சமூக உள்கட்டமைப்பு அமைச்சர் கே.வி.சமந்த வித்யாரத்னா மற்றும் துணை அமைச்சர் பிரதீப் சுந்தரலிங்கம் ஆகியோருடன் கண்டியில் உள்ள இந்திய உதவி உயர்ஸ்தானிகர் சரண்யா வி.எஸ்.",
+   "ai_body": [
+    "51 புதிய வீட்டுவசதி அலகுகளுக்கான அடிக்கல் செப்டம்பர் 29, 2026 அன்று பதுளை மாவட்டத்தில் உள்ள அழகொல்லா தோட்டத்தில் இலங்கையின் பெருந்தோட்ட மற்றும் சமூக உள்கட்டமைப்பு அமைச்சர் கே.வி.சமந்த வித்யாரத்னா மற்றும் துணை அமைச்சர் பிரதீப் சுந்தரலிங்கம் ஆகியோருடன் கண்டியில் உள்ள இந்திய உதவி உயர்ஸ்தானிகர் சரண்யா வி.எஸ். அக்டோபர் 2025 இல் ஜனாதிபதி அனுர குமார திசாநாயக்கவால் தொடங்கப்பட்ட IHP கட்டம் IV இன் கட்டம் 2 இன் கீழ் வீட்டு அலகுகள் கட்டப்பட்டு வருகின்றன.",
+    "இலங்கையில் ஆறு மாகாணங்களில் தோட்ட சமூகத்திற்காக 10,000 வீடுகளை நிர்மாணிப்பதை நான்காம் கட்டம் இலக்காகக் கொண்டுள்ளது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-09-29T15:09:25.900857+00:00"
+  },
+  {
+   "id": "0d0caa97bf68",
+   "type": "auto",
+   "title": "I See You Gala draws 300 guests, raises Rs. 2.6 million at auction",
+   "summary": "The inaugural I See You Gala drew 300 guests and raised Rs. 2.6 million through a live auction, the Infinite Continue Reading The post I See You Gala draws 300 guests, raises Rs. 2.6 million at auction appeared first on Newswire .",
+   "link": "https://www.newswire.lk/business/i-see-you-gala-draws-300-guests-raises-rs-2-6-million-at-auction/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Screenshot_20260929_192105_Gallery.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-29T13:52:16+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00",
+   "page_chars": 1262,
+   "ai_title": "I See You Gala 300 விருந்தினர்களை ஈர்க்கிறது, ஏலத்தில் ரூ. 2.6 மில்லியன்",
+   "title_ta": "I See You Gala 300 விருந்தினர்களை ஈர்க்கிறது, ஏலத்தில் ரூ. 2.6 மில்லியன்",
+   "ai_summary": "தொடக்க I See You Gala 300 விருந்தினர்களை ஈர்த்து ரூ.",
+   "ai_body": [
+    "தொடக்க I See You Gala 300 விருந்தினர்களை ஈர்த்து ரூ. நேரடி ஏலத்தின் மூலம் 2.6 மில்லியன் ரூபாய் திரட்டியதாக Infinite Grace Foundation தெரிவித்துள்ளது.",
+    "இந்த நிகழ்வு செப்டம்பர் மாதம் கொழும்பில் உள்ள ஒரு இடத்தில் நடைபெற்றது. துஷ்யந்த் வீரமான் தலைமையிலான ஏலத்தில் ஆறு இடங்கள் இருந்தன: நான்கு நகை துண்டுகள், உலக சாதனையை வென்ற ஒரு சென்சரி பேனல் மற்றும் பாடகர் ஜெஃப் டிம்மன்ஸ் வழங்கிய நினைவு தகடு.",
+    "தகடு அவரது குழுவின் உறுப்பினர்களால் கையொப்பமிடப்பட்டு, வென்ற ஏலதாரருக்கு தனிப்பயனாக்கப்பட்டது. ஒவ்வொரு லாட் திரட்டிய தொகையையும் அறக்கட்டளை வெளியிடவில்லை.",
+    "\"இது ஒருபோதும் ஒரு இரவு நிகழ்வாக உருவாக்கப்படவில்லை\" என்று அறக்கட்டளையின் நிறுவனர் மற்றும் தலைவர் ஸ்டீபனி சிரிவர்தனா கூறினார்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-09-29T15:09:08.939145+00:00"
+  },
+  {
+   "id": "3a343f6c6e5e",
+   "type": "auto",
+   "title": "President orders unified National Digital System to streamline Sri Lanka’s Public Services",
+   "summary": "President Anura Kumara Dissanayake has directed officials to establish a unified national digital framework across the entire public service, moving Continue Reading The post President orders unified National Digital System to streamline Sri Lanka’s Public Services appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/29/president-orders-unified-national-digital-system-to-streamline-sri-lankas-public-services/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Prez-digital.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-29T13:31:16+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00",
+   "page_chars": 1699,
+   "ai_title": "இலங்கையின் பொது சேவைகளை நெறிப்படுத்த ஒருங்கிணைந்த தேசிய டிஜிட்டல் அமைப்புக்கு ஜனாதிபதி உத்தரவு",
+   "title_ta": "இலங்கையின் பொது சேவைகளை நெறிப்படுத்த ஒருங்கிணைந்த தேசிய டிஜிட்டல் அமைப்புக்கு ஜனாதிபதி உத்தரவு",
+   "ai_summary": "தனி நிறுவனங்களால் சுயாதீனமாக இயக்கப்படும் துண்டு துண்டான அமைப்புகளிலிருந்து விலகி, முழு பொது சேவையிலும் ஒரு ஒருங்கிணைந்த தேசிய டிஜிட்டல் கட்டமைப்பை நிறுவுமாறு ஜனாதிபதி அனுர குமார திசாநாயக்க அதிகாரிகளுக்கு அறிவுறுத்தியுள்ளார்.",
+   "ai_body": [
+    "தனி நிறுவனங்களால் சுயாதீனமாக இயக்கப்படும் துண்டு துண்டான அமைப்புகளிலிருந்து விலகி, முழு பொது சேவையிலும் ஒரு ஒருங்கிணைந்த தேசிய டிஜிட்டல் கட்டமைப்பை நிறுவுமாறு ஜனாதிபதி அனுர குமார திசாநாயக்க அதிகாரிகளுக்கு அறிவுறுத்தியுள்ளார். செப்டம்பர் 29 ஆம் தேதி ஜனாதிபதி செயலகத்தில் நடந்த முன்னேற்ற மறுஆய்வுக் கூட்டத்தில் பேசிய ஜனாதிபதி, பொது நிர்வாகம், மாகாண சபைகள் மற்றும் உள்ளாட்சி அமைச்சகம் மற்றும் டிஜிட்டல் பொருளாதார அமைச்சகம் ஆகியவற்றின் முயற்சிகளை கண்டிப்பாக சீரமைக்க உத்தரவிட்டார்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-09-29T15:09:10.862964+00:00"
+  },
+  {
+   "id": "665d3ad25baf",
+   "type": "auto",
+   "title": "Police issue clarification on procurement of 500 body-worn cameras",
+   "summary": "The Sri Lanka Police has refuted claims of irregularities in its ongoing tender to acquire body worn cameras, describing allegations Continue Reading The post Police issue clarification on procurement of 500 body-worn cameras appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/29/police-issue-clarification-on-procurement-of-500-body-worn-cameras/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/IMG_3501.jpeg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-29T13:21:31+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00",
+   "page_chars": 1553,
+   "ai_title": "உடலில் அணிந்திருக்கும் 500 கேமராக்களை வாங்குவது குறித்து காவல்துறை தெளிவுபடுத்துகிறது",
+   "title_ta": "உடலில் அணிந்திருக்கும் 500 கேமராக்களை வாங்குவது குறித்து காவல்துறை தெளிவுபடுத்துகிறது",
+   "ai_summary": "உடல் அணிந்த கேமராக்களை வாங்குவதற்கான டெண்டரில் முறைகேடுகள் நடந்ததாகக் கூறப்படுவதை இலங்கை காவல்துறை மறுத்துள்ளது, ஜன ஆரகலா வியாபார அமைப்பாளர் வசந்த முதலிகே முன்வைத்த குற்றச்சாட்டுகள் ஆதாரமற்றவை மற்றும் சரிபார்க்கப்படாதவை என்று விவரித்தார்.",
+   "ai_body": [
+    "உடல் அணிந்த கேமராக்களை வாங்குவதற்கான டெண்டரில் முறைகேடுகள் நடந்ததாகக் கூறப்படுவதை இலங்கை காவல்துறை மறுத்துள்ளது, ஜன ஆரகலா வியாபார அமைப்பாளர் வசந்த முதலிகே முன்வைத்த குற்றச்சாட்டுகள் ஆதாரமற்றவை மற்றும் சரிபார்க்கப்படாதவை என்று விவரித்தார். ஊடக அறிக்கைகளைத் தொடர்ந்து, போலீஸ் சப்ளைஸ் பிரிவின் இயக்குநர் மூலம் ஒரு அறிக்கை அழைக்கப்பட்டது.",
+    "அந்த அறிக்கையின்படி, ஒரு மூத்த துணை இன்ஸ்பெக்டர் ஜெனரல், ஒரு கணக்காளர் மற்றும் 15 வர்த்தமானி அதிகாரிகள் அடங்கிய போலீஸ் இன்ஸ்பெக்டர் ஜெனரல் நியமித்த குழு, தற்போதைய செயல்பாட்டுத் தேவைகளைப் பூர்த்தி செய்ய 500 உடல் அணிந்த கேமராக்கள் மற்றும் 70 டாக்கிங் நிலையங்களை வாங்க ஒருமனதாக பரிந்துரைத்தது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-09-29T15:09:13.316650+00:00"
+  },
+  {
+   "id": "cdc1d7e3209a",
+   "type": "auto",
+   "title": "‘Mage Awanaduwa’: After acquittal, Gammanpila plans book on 11-year court battle",
+   "summary": "The post ‘Mage Awanaduwa’: After acquittal, Gammanpila plans book on 11-year court battle appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/29/mage-awanaduwa-after-acquittal-gammanpila-plans-book-on-11-year-court-battle-2/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Visual-Stories-28.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-29T13:20:22+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00",
+   "page_chars": 118
+  },
+  {
+   "id": "dcf480edaa57",
+   "type": "auto",
+   "title": "“We will send the people we want, not the people the opposition wants.” -Lal Kantha",
+   "summary": "The post “We will send the people we want, not the people the opposition wants.” -Lal Kantha appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/29/we-will-send-the-people-we-want-not-the-people-the-opposition-wants-lal-kantha/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Visual-Stories-27.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-29T13:14:04+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00",
+   "page_chars": 121
+  },
+  {
+   "id": "efa1fa7c6828",
+   "type": "auto",
+   "title": "Three Sri Lankan military personnel attend counter-terrorism, hostage rescue course in India",
+   "summary": "Three Sri Lankan Armed Forces officers are currently participating in a specialised Counter-Terrorism and Hostage Rescue Course in India, which Continue Reading The post Three Sri Lankan military personnel attend counter-terrorism, hostage rescue course in India appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/29/three-sri-lankan-military-personnel-attend-counter-terrorism-hostage-rescue-course-in-india/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/2854e2fa-b214-4615-b182-7eac6aaf60c4.jpeg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "world"
+   ],
+   "published": "2026-09-29T13:05:38+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00",
+   "page_chars": 1273,
+   "ai_title": "மூன்று இலங்கை இராணுவ வீரர்கள் இந்தியாவில் பயங்கரவாத எதிர்ப்பு, பிணைக் கைதி மீட்புப் பயிற்சியில் கலந்துகொள்கின்றனர்",
+   "title_ta": "மூன்று இலங்கை இராணுவ வீரர்கள் இந்தியாவில் பயங்கரவாத எதிர்ப்பு, பிணைக் கைதி மீட்புப் பயிற்சியில் கலந்துகொள்கின்றனர்",
+   "ai_summary": "கொழும்பு பாதுகாப்பு மாநாட்டின் கட்டமைப்பின் கீழ் செப்டம்பர் 21, 2026 அன்று தொடங்கிய இந்தியாவில் சிறப்பு பயங்கரவாத எதிர்ப்பு மற்றும் பணயக்கைதி மீட்பு பாடநெறியில் மூன்று இலங்கை ஆயுதப்படை அதிகாரிகள் தற்போது பங்கேற்கின்றனர்.",
+   "ai_body": [
+    "கொழும்பு பாதுகாப்பு மாநாட்டின் கட்டமைப்பின் கீழ் செப்டம்பர் 21, 2026 அன்று தொடங்கிய இந்தியாவில் சிறப்பு பயங்கரவாத எதிர்ப்பு மற்றும் பணயக்கைதி மீட்பு பாடநெறியில் மூன்று இலங்கை ஆயுதப்படை அதிகாரிகள் தற்போது பங்கேற்கின்றனர். நிறுவப்பட்ட நடைமுறைகள், செயல்பாட்டு கருத்துக்கள் மற்றும் பயங்கரவாத எதிர்ப்பு மற்றும் பணயக்கைதி மீட்பு நடவடிக்கைகளில் சிறந்த நடைமுறைகளை வெளிப்படுத்தும் வகையில் இந்த பாடநெறி வடிவமைக்கப்பட்டுள்ளது.",
+    "கொழும்பு பாதுகாப்பு மாநாட்டின் உறுப்பு நாடுகளைச் சேர்ந்த பாதுகாப்புப் பணியாளர்களுக்கு தொழில்முறை அனுபவங்களை பரிமாறிக்கொள்வதற்கும் நிறுவன இணைப்புகளை வலுப்படுத்துவதற்கும் இது ஒரு தளமாக செயல்படுகிறது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-09-29T15:09:15.483406+00:00"
+  },
+  {
+   "id": "ef232a0e531e",
+   "type": "auto",
+   "title": "Colombo defends removal of Thileepan statue as enforcement of LTTE proscription",
+   "summary": "The Sri Lankan government has given its first explanation of the removal of the bronze Thileepan statue from the Nallur memorial, its spokesman saying the law does not permit the promotion of a proscribed organisation and that police had placed facts before a court before acting. The cabinet…",
+   "link": "http://www.tamilguardian.com/content/colombo-defends-removal-thileepan-statue-enforcement-ltte-proscription",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "https://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/260915%20Thileepan%20begining/260915%20thileepan4.jpeg",
+   "lang": "en",
+   "category": "jaffna",
+   "tags": [
+    "jaffna",
+    "srilanka"
+   ],
+   "published": "2026-09-29T12:50:56+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00",
+   "page_chars": 4115,
+   "ai_title": "தமிழீழ விடுதலைப் புலிகளின் தடையை அமுல்படுத்துவதாக திலீபன் சிலையை அகற்றியதை கொழும்பு பாதுகாக்கிறது",
+   "title_ta": "தமிழீழ விடுதலைப் புலிகளின் தடையை அமுல்படுத்துவதாக திலீபன் சிலையை அகற்றியதை கொழும்பு பாதுகாக்கிறது",
+   "ai_summary": "நல்லூர் நினைவுச்சின்னத்தில் இருந்து வெண்கலத் திலீபன் சிலையை அகற்றுவது குறித்து இலங்கை அரசு தனது முதல் விளக்கத்தை அளித்துள்ளது, அதன் செய்தித் தொடர்பாளர், தடைசெய்யப்பட்ட அமைப்பை மேம்படுத்துவதற்கு சட்டம் அனுமதிக்கவில்லை என்றும், காவல்துறையினர் செயல்படுவதற்கு முன்பு நீதிமன்றத்தின் முன் உண்மைகளை வைத்திருப்பதாகவும் கூறினார்.",
+   "ai_body": [
+    "நல்லூர் நினைவுச்சின்னத்தில் இருந்து வெண்கலத் திலீபன் சிலையை அகற்றுவது குறித்து இலங்கை அரசு தனது முதல் விளக்கத்தை அளித்துள்ளது, அதன் செய்தித் தொடர்பாளர், தடைசெய்யப்பட்ட அமைப்பை மேம்படுத்துவதற்கு சட்டம் அனுமதிக்கவில்லை என்றும், காவல்துறையினர் செயல்படுவதற்கு முன்பு நீதிமன்றத்தின் முன் உண்மைகளை வைத்திருப்பதாகவும் கூறினார். அமைச்சரவை செய்தித் தொடர்பாளர் நலிந்த ஜயதிசா செவ்வாயன்று செய்தியாளர்களிடம் கூறுகையில், தமிழீழ விடுதலைப் புலிகள் (எல் .டி.டி.இ) இலங்கை சட்டத்தின் கீழ் தடைசெய்யப்பட்ட அமைப்பாகவே உள்ளது.",
+    "\"தடைசெய்யப்பட்ட அமைப்பின் கொடிகள், லோகோ போன்றவற்றை விளம்பரப்படுத்த நம் நாட்டின் சட்டங்கள் அனுமதிக்காது\" என்று அவர் கூறினார். \"இதுபோன்ற நடவடிக்கைகளுக்கு எதிராக சட்ட நடவடிக்கை எடுக்கப்படும்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-09-29T15:09:03.992375+00:00"
+  },
+  {
+   "id": "0a12c521be15",
+   "type": "auto",
+   "title": "மாரடைப்பு அறிகுறிகள் மார்பு தவிர்த்து உடலில் வேறு எங்கெல்லாம் தோன்றும்? அறிவது எப்படி?",
+   "summary": "மாரடைப்பின் அறிகுறி எப்போதும் மார்பு வலியாக மட்டுமே வெளிப்படாது. அதன் அறிகுறிகள் பல்வேறு வடிவங்களில் ஏற்படலாம். எப்படிக் கண்டறிவது? என்ன செய்ய வேண்டும்?",
+   "link": "https://www.bbc.com/tamil/articles/cwkgxr0k902xo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/2a50/live/b37baf30-bbdd-11f1-bc1f-3f186ca4140c.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-09-29T12:49:31+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "dd72f6ef65e0",
+   "type": "auto",
+   "title": "Dashcam footage from car that caused fatal Mattakkuliya crash emerges",
+   "summary": "Dashcam footage from the car involved in the September 16 Mattakkuliya crash that killed three people has emerged. The driver Continue Reading The post Dashcam footage from car that caused fatal Mattakkuliya crash emerges appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/29/dashcam-footage-from-car-that-caused-fatal-mattakkuliya-crash-emerges/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Screenshot_20260929_174301_Editor-Lite.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-29T12:14:37+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00",
+   "page_chars": 311
+  },
+  {
+   "id": "971024551f78",
+   "type": "auto",
+   "title": "சீனாவுக்கு ஆயுதங்கள் விற்க அமெரிக்கா விரும்புகிறதா? திடீர் விவாதம் ஏன்?",
+   "summary": "சமீபத்தில் சீன அதிபர் ஷி ஜின்பிங் அமெரிக்காவுக்கு பயணம் மேற்கொண்டிருந்தார். அதைத் தொடர்ந்து அமெரிக்கா சீனாவுக்கு ஆயுதங்களை விற்க விரும்புவதாக விவாதம் எழுந்துள்ளது ஏன்?",
+   "link": "https://www.bbc.com/tamil/articles/cmx2z78l8268o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/a5df/live/14b9e350-bbfe-11f1-90b9-913e4354ed35.png",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-09-29T12:06:11+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "b82c2585c66a",
+   "type": "auto",
+   "title": "Implementing further relief programme to Public sffected by the Middle East conflict situation",
+   "summary": "Action was taken to provide a fuel relief for the fuel consumers during the months of April, May and June of 2026 to redress by minimizing the impact caused to the day today life of the citizens of this country as well as the entire economy due to the price hike of petroleum fuel in […]",
+   "link": "http://island.lk/implementing-further-relief-programme-to-public-sffected-by-the-middle-east-conflict-situation/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": null,
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-29T11:51:37+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "a291c42c20ca",
+   "type": "auto",
+   "title": "Hasaranga, Shanaka among Top ILT20 auction contenders",
+   "summary": "Wanindu Hasaranga, Dasun Shanaka, Avishka Fernando and Kusal Perera are among the Sri Lankan cricketers shortlisted for the DP World Continue Reading The post Hasaranga, Shanaka among Top ILT20 auction contenders appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/29/hasaranga-shanaka-among-top-ilt20-auction-contenders/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2024/06/Wanindu-Hasaranga-Kusal-Mendis-Sri-Lanka-captains-Zimbabwe.jpg",
+   "lang": "en",
+   "category": "sports",
+   "tags": [
+    "sports",
+    "srilanka",
+    "world"
+   ],
+   "published": "2026-09-29T11:47:15+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "67a5c07f6e05",
+   "type": "auto",
+   "title": "Opposition leader slams Govt over ‘false’ poverty data",
+   "summary": "Opposition Leader Sajith Premadasa has accused the government of using outdated data on poverty and living standards in a newly Continue Reading The post Opposition leader slams Govt over ‘false’ poverty data appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/29/opposition-leader-slams-govt-over-false-poverty-data/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Screenshot_20260929_170311_Editor-Lite-1.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-29T11:38:43+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "9491330520f2",
+   "type": "auto",
+   "title": "Yohani Closes India’s Ziro Festival Stage as International Crowd Sings Along in Sinhala",
+   "summary": "Sri Lankan pop sensation delivers a predominantly Sinhala-language performance at India’s Ziro Festival of Music, marking another milestone in her Continue Reading The post Yohani Closes India’s Ziro Festival Stage as International Crowd Sings Along in Sinhala appeared first on Newswire .",
+   "link": "https://www.newswire.lk/business/yohani-closes-indias-ziro-festival-stage-as-international-crowd-sings-along-in-sinhala/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/1000-Image-2.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "world"
+   ],
+   "published": "2026-09-29T11:37:34+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "bd58c1399c78",
+   "type": "auto",
+   "title": "iCanFly Recognised as Best Emerging OTA Platform of the Year 2026 – Sri Lanka",
+   "summary": "iCanFly has been recognised as the Best Emerging OTA Platform of the Year 2026 – Sri Lanka at the Indian Continue Reading The post iCanFly Recognised as Best Emerging OTA Platform of the Year 2026 – Sri Lanka appeared first on Newswire .",
+   "link": "https://www.newswire.lk/business/icanfly-recognised-as-best-emerging-ota-platform-of-the-year-2026-sri-lanka/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/iCanFly-Recognised-2.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "world"
+   ],
+   "published": "2026-09-29T11:35:27+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "1a96c2283b39",
+   "type": "auto",
+   "title": "Establishment of a Spectrum Management and Monitoring System and a Quality of Service and Quality of Experience System for the Telecommunications Regulatory Commission of Sri Lanka",
+   "summary": "Approval was granted at the Cabinet meeting held on 2025-10-21 for the Ministry of Digital Economy and the Department of External Resources to work with the Asian Development Bank as an international development partner for the “Digital Transformation Development Project”. As a main implementing…",
+   "link": "http://island.lk/establishment-of-a-spectrum-management-and-monitoring-system-and-a-quality-of-service-and-quality-of-experience-system-for-the-telecommunications-regulatory-commission-of-sri-lanka/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": null,
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-29T11:34:10+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "0aa82581d531",
+   "type": "auto",
+   "title": "Appointment of a Committee for the Restitution of Sri Lankan Cultural Heritage Held Abroad",
+   "summary": "Under Articles 7 and 13 of the UNESCO 1970 Convention on the Means of Prohibiting and Preventing the Illicit Import, Export and Transfer of Ownership of Cultural Property, rights are conferred upon a state to request the return of cultural property belonging to it that is currently held abroad…",
+   "link": "http://island.lk/appointment-of-a-committee-for-the-restitution-of-sri-lankan-cultural-heritage-held-abroad/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": null,
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-29T11:26:57+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "a1fd9a92f23a",
+   "type": "auto",
+   "title": "Ten-Year National Action Plan on the Social Protection Sector (2026–2035)",
+   "summary": "Approval has been granted at the Cabinet meeting held on 22-07-2024 for Sri Lanka’s National Social Protection Policy. The National Social Protection Strategy was presented to the Cabinet meeting held on 2025-09-15 to practically implement the aforementioned policy, and the Cabinet of Ministers has…",
+   "link": "http://island.lk/ten-year-national-action-plan-on-the-social-protection-sector-2026-2035/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": null,
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-29T11:21:25+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "034f4c7ea4c2",
+   "type": "auto",
+   "title": "Implementation of Revised National Curriculum Framework under the Education Reforms",
+   "summary": "Approval has been granted at the cabinet meeting held on 01-03-2023 for the National Curriculum Framework and the methodology for implementing the aforementioned framework, which was initiated by the National Institute of Education in 2019 under the education reform process. However, considering…",
+   "link": "http://island.lk/implementation-of-revised-national-curriculum-framework-under-the-education-reforms/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": null,
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-29T11:17:48+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "d0ef43af063e",
+   "type": "auto",
+   "title": "Pillayan further remanded over five Batticaloa killings",
+   "summary": "Former State Minister Sivanesathurai Chandrakanthan, alias Pillayan, who is in custody in connection with five killings in Batticaloa, has been Continue Reading The post Pillayan further remanded over five Batticaloa killings appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/29/pillayan-further-remanded-over-five-batticaloa-killings/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/04/Pillayan.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-29T11:11:12+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "96175081ca4b",
+   "type": "auto",
+   "title": "Sampath Bank and KOKO Launch Credit Facility to Support Merchant Business Growth",
+   "summary": "Sampath Bank PLC and KOKO have partnered to introduce the KOKO Merchants Credit Facility, creating a more convenient pathway to Continue Reading The post Sampath Bank and KOKO Launch Credit Facility to Support Merchant Business Growth appeared first on Newswire .",
+   "link": "https://www.newswire.lk/business/sampath-bank-and-koko-launch-credit-facility-to-support-merchant-business-growth/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Image-1-17-Copy.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-29T11:05:29+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "1d67899db6a1",
+   "type": "auto",
+   "title": "சிவராசா அனோஜன்: சௌதியில் மரண தண்டனை நிறைவேற்று சிறைக்கு மாற்றப்பட்ட இலங்கைத் தமிழர் - என்ன சிக்கல்?",
+   "summary": "சௌதி அரேபியாவில் மரண தண்டனை விதிக்கப்பட்ட இலங்கைத் தமிழர் சிவராசா அனோஜன் தண்டனை நிறைவேற்று சிறைக்கு மாற்றப்பட்டதாக தகவல் வெளியாகியுள்ளது. அவரது மரண தண்டனையைத் தடுக்கும் முயற்சியை இது சிக்கலாக்குமா?",
+   "link": "https://www.bbc.com/tamil/articles/cmly4de0v1nlo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/71e9/live/0b49ff20-bbf0-11f1-9074-3d74885a19d6.jpg",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "world"
+   ],
+   "published": "2026-09-29T11:00:06+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "9ddfb3ef54a4",
+   "type": "auto",
+   "title": "41st Annual Mercantile Athletics Championship – MAS win record 8th consecutive title",
+   "summary": "MAS Holdings continued to stamp their class for the 8th consecutive year as Champions of the Mercantile Athletics Championship organised Continue Reading The post 41st Annual Mercantile Athletics Championship – MAS win record 8th consecutive title appeared first on Newswire .",
+   "link": "https://www.newswire.lk/business/41st-annual-mercantile-athletics-championship-mas-win-record-8th-consecutive-title/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-04_18_39-PM.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-29T10:59:56+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "b7402efbc291",
+   "type": "auto",
+   "title": "Sri Lankan Navy seizes Rs 1.5 billion drug haul off Jaffna coast",
+   "summary": "The Sri Lankan navy has seized around 81 kilograms of heroin and crystal methamphetamine off the Jaffna coast, in what it describes as the largest drug haul taken in the North in recent years. A dinghy was intercepted on 27 September in the coastal area of Kusumanthurai in Madagal, carrying…",
+   "link": "http://www.tamilguardian.com/content/sri-lankan-navy-seizes-rs-15-billion-drug-haul-jaffna-coast",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/260929%20SL%20navy%20drugs.png",
+   "lang": "en",
+   "category": "jaffna",
+   "tags": [
+    "jaffna",
+    "srilanka"
+   ],
+   "published": "2026-09-29T10:55:25+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "f1f6426f5230",
+   "type": "auto",
+   "title": "Ministry warns against using children’s photos and videos for Facebook monetisation",
+   "summary": "The Ministry of Women and Child Affairs has urged parents and guardians to exercise greater caution when sharing photographs and Continue Reading The post Ministry warns against using children’s photos and videos for Facebook monetisation appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/29/ministry-warns-against-using-childrens-photos-and-videos-for-facebook-monetisation/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Children-FB-monetization-1.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-29T10:53:43+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "8795fd23c307",
+   "type": "auto",
+   "title": "Sumanthiran questions CBSL report over Northern Province population figure",
+   "summary": "ITAK General Secretary M.A. Sumanthiran has questioned population data published in a Central Bank report, pointing to a major discrepancy Continue Reading The post Sumanthiran questions CBSL report over Northern Province population figure appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/29/sumanthiran-questions-cbsl-report-over-northern-province-population-figure/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Sumanthiran-CBSL-report-2.jpg",
+   "lang": "en",
+   "category": "jaffna",
+   "tags": [
+    "jaffna",
+    "srilanka"
+   ],
+   "published": "2026-09-29T10:40:50+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "51962e3e0777",
+   "type": "auto",
+   "title": "Cabinet approves Sri Lanka-Brazil pact to modernize dairy industry",
+   "summary": "The Cabinet of Ministers has granted approval to execute a new technical cooperation agreement with Brazil aimed at boosting Sri Continue Reading The post Cabinet approves Sri Lanka-Brazil pact to modernize dairy industry appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/29/cabinet-approves-sri-lanka-brazil-pact-to-modernize-dairy-industry/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Dairy-Pix-new.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-29T10:38:36+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "13611d2392cb",
+   "type": "auto",
+   "title": "Sri Lanka's defence and police get Rs 688 billion in NPP's 2027 budget",
+   "summary": "File photograph: Soldiers of the Sri Lankan army's 56th Infantry Division cultivating paddy in the Tamil homeland Sri Lanka's National People's Power government's 2027 Appropriation Bill allocates Rs 458 billion to the defence ministry and Rs 230.5 billion to public security, a combined Rs 688.5…",
+   "link": "http://www.tamilguardian.com/content/sri-lankas-defence-and-police-get-rs-688-billion-npps-2027-budget",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2024/Sri%20Lanka/militarisation%201-12-24/paddy%20sowing.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "jaffna"
+   ],
+   "published": "2026-09-29T10:20:30+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "70107096ebb9",
+   "type": "auto",
+   "title": "இந்திய பங்குச் சந்தை தொடர்ந்து சரிவது ஏன்? நான்கு முக்கியக் காரணங்கள்",
+   "summary": "இந்திய பங்குச் சந்தை தொடர்ந்து சரிவைச் சந்தித்து, திங்கள் கிழமை நிஃப்டி 50 குறியீடு கிட்டத்தட்ட ஆறு மாதங்களில் இல்லாத அளவுக்குச் சரிந்துள்ளது. ஏன்? இதன் பின்னணியில் உள்ள காரணங்கள் யாவை?",
+   "link": "https://www.bbc.com/tamil/articles/c9p803n0dx33o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/2b89/live/b93704f0-bbed-11f1-9074-3d74885a19d6.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-09-29T10:12:39+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "421b29c6974d",
+   "type": "auto",
+   "title": "Mahinda Rajapaksa escapes indictment over attack on Aragalaya protesters",
+   "summary": "File photograph: Mahinda Rajapaksa, who was Sri Lankan prime minister when government supporters attacked the protest camps at Galle Face in May 2022, and Sri Lankan president through the final years of the Tamil genocide. The Sri Lankan Attorney General has decided not to indict Mahinda Rajapaksa…",
+   "link": "http://www.tamilguardian.com/content/mahinda-rajapaksa-escapes-indictment-over-attack-aragalaya-protesters",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2025/Maaveerar%20Naal%202025/Jaffna/Koppay/mahinda%20rajapaksa_0.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "jaffna"
+   ],
+   "published": "2026-09-29T09:57:36+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
+  {
+   "id": "5aa3520e32bc",
+   "type": "auto",
+   "title": "Navy and police given seats on new fisheries committees across the North-East",
+   "summary": "Sri Lanka has established special district-level committees to curb illegal fishing across 15 fisheries districts, seven of them along the North-East coast, bringing the defence ministry, the navy, the coast guard and the police into the administration of fisheries in a region where fishermen have…",
+   "link": "http://www.tamilguardian.com/content/navy-and-police-given-seats-new-fisheries-committees-across-north-east",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/260929%20Defence%20fishing.png",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "jaffna"
+   ],
+   "published": "2026-09-29T09:35:23+00:00",
+   "fetched": "2026-09-29T14:59:57.898774+00:00"
+  },
   {
    "id": "66864bb5447b",
    "type": "auto",
@@ -8172,660 +8850,6 @@
    "published": "2026-09-25T08:07:23+00:00",
    "fetched": "2026-09-25T12:54:00.438488+00:00",
    "page_chars": 6211
-  },
-  {
-   "id": "3b33f7b348fb",
-   "type": "auto",
-   "title": "உதேனி தசநாயக்க இலஞ்ச ஊழல் ஆணைக்குழுவினால் கைது",
-   "summary": "இலங்கை கனிப்பொருள் மணல் லிமிட்டட் நிறுவனத்தின் முன்னாள் தலைவர் உதேனி தசநாயக்க இன்று (25) கைது செய்யப்பட்டுள்ளார். இலஞ்ச ஊழல் விசாரணை ஆணைக்குழுவின் அதிகாரிகளால் அவர் இவ்வாறு கைது செய்யப்பட்டுள்ளார்.",
-   "link": "https://adaderanatamil.lk/news/cmugo8dt00009356owrfeblrz",
-   "source": "அத தெரண தமிழ்",
-   "source_domain": "adaderanatamil.lk",
-   "image": null,
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T08:00:51+00:00",
-   "fetched": "2026-09-25T20:26:07.786832+00:00",
-   "page_fails": 2
-  },
-  {
-   "id": "e3139ee46549",
-   "type": "auto",
-   "title": "நவம்பர் முதல் TIN இலக்கம் கட்டாயம் - வௌியானது புதிய அறிவிப்பு",
-   "summary": "2026 நவம்பர் 01 ஆம் திகதி முதல் சில குறிப்பிட்ட செயல்பாடுகளின் போது செல்லுபடியாகும் வரி செலுத்துவோர் அடையாள இலக்கத்தை (TIN) சமர்ப்பிப்பது கட்டாயமாக்கப்பட்டுள்ளது என உள்நாட்டு இறைவரித் திணைக்களம் அறிவித்துள்ளது.",
-   "link": "https://adaderanatamil.lk/news/cmugn37n50008356o6399awbg",
-   "source": "அத தெரண தமிழ்",
-   "source_domain": "adaderanatamil.lk",
-   "image": null,
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T07:31:10+00:00",
-   "fetched": "2026-09-25T20:26:07.786832+00:00",
-   "page_fails": 2
-  },
-  {
-   "id": "5d53b76e70e7",
-   "type": "auto",
-   "title": "மைத்ரேயி ராமகிருஷ்ணன்: 'தமிழ் ஈழப்பெண்' என கூறியதற்கு எதிர்ப்பை சந்திக்கும் நடிகை - என்ன சர்ச்சை?",
-   "summary": "\"நான் தமிழ் பெண். என் குடும்பம் இலங்கையைச் சேர்ந்தது. என் கலாசாரம் தமிழ். என் நாடு கனடா. என் வேர்கள் இலங்கையில் இருக்கின்றன.\" கனடா நடிகை மைத்ரேயி ராமகிருஷ்ணன் கூறிய இந்த வார்த்தைகள் சமூக வலைதளங்கள் விவாதப்பொருளாகியுள்ளன.",
-   "link": "https://www.bbc.com/tamil/articles/cq8jdn1ezz4xo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5005/live/05b500b0-b8ac-11f1-8257-a79ccb54f692.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-09-25T07:00:28+00:00",
-   "fetched": "2026-09-25T07:22:41.802113+00:00",
-   "page_chars": 6891,
-   "ai_title": "மைத்ரேய் ராமகிருஷ்ணன்: 'தமிழீழம்' என்று கூறியதற்காக எதிர்க்கட்சியை சந்தித்த நடிகை - என்ன சர்ச்சை?",
-   "title_ta": "மைத்ரேய் ராமகிருஷ்ணன்: 'தமிழீழம்' என்று கூறியதற்காக எதிர்க்கட்சியை சந்தித்த நடிகை - என்ன சர்ச்சை?",
-   "ai_summary": "\" நான் ஒரு தமிழ்ப் பெண், என் குடும்பம் இலங்கையைச் சேர்ந்தது.",
-   "ai_body": [
-    "\" நான் ஒரு தமிழ்ப் பெண், என் குடும்பம் இலங்கையைச் சேர்ந்தது. எனது கலாச்சாரம் தமிழ்.",
-    "என் நாடு கனடா. எனது வேர்கள் இலங்கையில் உள்ளன.\" கனேடிய நடிகை மைத்ரேய் ராமகிருஷ்ணனின் இந்த வார்த்தைகள் சமூக ஊடகங்களில் விவாதப் பொருளாக மாறியுள்ளன.",
-    "தன்னை ஒரு \"தமிழீழப் பெண்\" என்று அடையாளப்படுத்திக் கொண்டதற்காக அவர் தற்போது கடுமையான விமர்சனங்களை எதிர்கொள்கிறார். மைத்ரேயா ராமகிருஷ்ணன் ஒரு தமிழ் பின்னணி கொண்ட கனடிய நடிகை.",
-    "2001 இல் கனடாவில் பிறந்த மைத்ரேயா ராமகிருஷ்ணனுக்கு 24 வயது. 2020 நெட்ஃபிக்ஸ் தொடரான 'நெவர் ஹேவ் ஐ எவர்' மூலம் அவர் சர்வதேச கவனத்தைப் பெற்றார்.",
-    "இந்தத் தொடரில் விஸ்வகுமார் வேடத்தில் தேவி நடித்தார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-09-26T23:49:20.440519+00:00"
-  },
-  {
-   "id": "6d08553d21f1",
-   "type": "auto",
-   "title": "நுவரெலியாவில் இடைவிடாது பெய்யும் கனமழை",
-   "summary": "மத்திய மலைநாட்டில் கடந்த சில நாள்களாகக் காற்று, இடி மற்றும் மின்னலுடன் கூடிய கனமழை கொட்டித் தீர்த்து வருகிறது. இன்று (25) காலை முதலும் பலத்த காற்றுடன் கூடிய மழை தொடர்ந்து பெய்து வருகின்றது.",
-   "link": "https://adaderanatamil.lk/news/cmuglwtgf000a356oj25l31m5",
-   "source": "அத தெரண தமிழ்",
-   "source_domain": "adaderanatamil.lk",
-   "image": null,
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T06:57:26+00:00",
-   "fetched": "2026-09-25T20:26:07.786832+00:00",
-   "page_fails": 2
-  },
-  {
-   "id": "0d2f06c26549",
-   "type": "auto",
-   "title": "புத்தகங்களுக்கு விதிக்கப்பட்டுள்ள வற் வரியை நீக்க எதிர்பார்ப்பு",
-   "summary": "புத்தகங்களுக்கு தற்போது விதிக்கப்பட்டுள்ள VAT வரியை எதிர்வரும் வரவுசெலவுத் திட்டத்தில் மாற்றுவதற்கு அதிகபட்ச முயற்சி எடுக்கப்படும் என்றும், அது குறித்து சாதகமான நம்பிக்கையைக் கொண்டிருக்க முடியும் என்றும் ஜனாதிபதி கூறியதாக பிரதமர் கலாநிதி ஹரிணி அமரசூரிய தெரிவித்துள்ளார்.",
-   "link": "https://adaderanatamil.lk/news/cmuglvjsr0007356odgtchlrf",
-   "source": "அத தெரண தமிழ்",
-   "source_domain": "adaderanatamil.lk",
-   "image": null,
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T06:55:52+00:00",
-   "fetched": "2026-09-25T20:26:07.786832+00:00",
-   "page_fails": 2
-  },
-  {
-   "id": "4e9f36578af1",
-   "type": "auto",
-   "title": "'கடலுக்குள் புதைந்து கிடக்கும் பூம்புகார் நகரம்'- மூன்றாம் கட்ட கடலடி அகழாய்வில் தெரிய வந்தது என்ன?",
-   "summary": "மயிலாடுதுறை மாவட்டம் பூம்புகாரில் கடந்த இரண்டு வாரங்களுக்கும் மேலாக நடைபெற்று வந்த தமிழக தொல்லியல் துறையின் மூன்றாம் கட்ட கடலடி அகழாய்வு செப்டம்பர் 22ஆம் தேதி நிறைவடைந்துள்ளது. வழக்கமான நிலப்பகுதி அகழாய்வுகளுடன் ஒப்பிடும்போது, சவால்கள் நிறைந்த இந்த கடலடி அகழாய்வு எப்படி நடத்தப்பட்டது?",
-   "link": "https://www.bbc.com/tamil/articles/cmn8en3430e4o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/ad4d/live/2b362a20-b83a-11f1-b4bc-39c67eb36497.png",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-09-25T06:19:04+00:00",
-   "fetched": "2026-09-25T07:22:41.802113+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "59710ec1a847",
-   "type": "auto",
-   "title": "காணொளி: 'என் பதக்கம் தாலிபன்களுக்கு செய்தியாக அமையும்' - ஆப்கன் வீராங்கனை",
-   "summary": "ஆப்கன் நாட்டை சேர்ந்த சைக்கிள் பந்தய வீராங்கனை, பல எதிர்ப்புகளையும் தாண்டி, ஆசிய போட்டிகளில் பங்கேற்று பதக்கம் வென்றுள்ளார். அவர் வாங்கிய பதக்கம் தாலிபன்களுக்கு வலுவான செய்தியாக இருப்பதுடன் மற்ற வீராங்கனைகளுக்கு ஊக்கமளிப்பதாக இருக்குமென்றும் கூறுகிறார்.",
-   "link": "https://www.bbc.com/tamil/watch/cklye51jq8ero?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/c1fc/live/dff30580-b8a0-11f1-b1d1-571ed4d7ff2c.png",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-09-25T05:21:03+00:00",
-   "fetched": "2026-09-25T07:22:41.802113+00:00",
-   "page_chars": 303
-  },
-  {
-   "id": "81fb41513d99",
-   "type": "auto",
-   "title": "உத்தர பிரதேசம்: பூஜையின் போது மனைவி, மகன், 2 பூசாரிகள் சுட்டுக் கொலை; வரவழைக்கப்பட்ட கமாண்டோ படை - அடுத்து என்ன நடந்தது?",
-   "summary": "உத்தரப் பிரதேச மாநிலம் அசம்கர் பகுதியில் ஒரே குடும்பத்தைச் சேர்ந்தவர்கள் ஐந்து பேர் துப்பாக்கிச் சூடு சம்பவத்தில் கொல்லப்பட்டனர்.",
-   "link": "https://www.bbc.com/tamil/articles/cqn74n243pe5o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/c81c/live/47e3de60-b826-11f1-a430-4d16ee157c41.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-09-25T05:12:06+00:00",
-   "fetched": "2026-09-25T07:22:41.802113+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "23c22bb4ed1e",
-   "type": "auto",
-   "title": "Sri Lankan police fail in court bid to bar Hindu worship at Vedukkunaari",
-   "summary": "The Vavuniya Magistrate's Court has rejected an application by Sri Lankan police to stop Hindu and Buddhist devotees worshipping at Vedukkunaari Hill at the same time, telling officers to come to court only if the law is actually broken. Sri Lankan police at Nedunkeni station had argued that the…",
-   "link": "http://www.tamilguardian.com/content/do-not-waste-courts-time-sl-police-bid-restrict-hindu-worship-vedukkunaari-rejected",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/260925%20Vedukkunaari%20court%20case/260925%20Vedukkunaari%20case2.jpg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna",
-    "srilanka"
-   ],
-   "published": "2026-09-25T03:49:30+00:00",
-   "fetched": "2026-09-25T12:54:00.438488+00:00",
-   "page_chars": 4778,
-   "ai_title": "வேதுக்குணாரியில் இந்து வழிபாட்டை தடை செய்ய நீதிமன்ற முயற்சியில் இலங்கை காவல்துறை தோல்வியடைந்தது",
-   "title_ta": "வேதுக்குணாரியில் இந்து வழிபாட்டை தடை செய்ய நீதிமன்ற முயற்சியில் இலங்கை காவல்துறை தோல்வியடைந்தது",
-   "ai_summary": "வேதுக்குனாரி மலையில் ஒரே நேரத்தில் வழிபடும் இந்து மற்றும் பௌத்த பக்தர்களை தடுத்து நிறுத்துமாறு இலங்கை பொலிஸார் விடுத்த கோரிக்கையை வவுனியா மாஜிஸ்திரேட் நீதிமன்றம் நிராகரித்துள்ளதுடன், சட்டம் உண்மையில் மீறப்பட்டால் மட்டுமே நீதிமன்றத்திற்கு வருமாறு அதிகாரிகளுக்கு உத்தரவிட்டுள்ளது.",
-   "ai_body": [
-    "வேதுக்குனாரி மலையில் ஒரே நேரத்தில் வழிபடும் இந்து மற்றும் பௌத்த பக்தர்களை தடுத்து நிறுத்துமாறு இலங்கை பொலிஸார் விடுத்த கோரிக்கையை வவுனியா மாஜிஸ்திரேட் நீதிமன்றம் நிராகரித்துள்ளதுடன், சட்டம் உண்மையில் மீறப்பட்டால் மட்டுமே நீதிமன்றத்திற்கு வருமாறு அதிகாரிகளுக்கு உத்தரவிட்டுள்ளது. நெடுங்கேணி நிலையத்தில் உள்ள இலங்கை காவல்துறையினர், இரு குழுக்களும் ஒரே நேரத்தில் அந்த இடத்தில் இருப்பது \"அமைதி மீறலுக்கு\" வழிவகுக்கும் என்று வாதிட்டனர்.",
-    "செப்டம்பர் 26 சனிக்கிழமையன்று, வட மாகாணத்தின் தலைமை தேரர் சந்தபோதி தலைமையிலான ஒரு பௌத்த நிகழ்வு மலையில் நடைபெறவிருப்பதை அவர்கள் சுட்டிக்காட்டினர், இது புரட்டாசி சனிக்கிழமையன்று இந்து சடங்குகளுடன் ஒத்துப்போகிறது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-09-26T18:29:30.450748+00:00"
-  },
-  {
-   "id": "a09eab487a00",
-   "type": "auto",
-   "title": "நேபாள பெருவெள்ளம்: \"சீன எல்லைக்குள் பாதுகாப்பாக இருக்கலாம்\" - ஒரு மாதமாக நம்பிக்கையுடன் காத்திருக்கும் குடும்பங்கள்",
-   "summary": "நேபாள பெருவெள்ளத்தில் காணாமல் போன தமிழ்நாட்டை சேர்ந்தவர்களில் சிலர் சீன எல்லைக்குள் சிக்கியிருக்கலாம் என்று அவர்களின் உறவினர்கள் நம்பிக்கையுடன் இருக்கின்றனர்.",
-   "link": "https://www.bbc.com/tamil/articles/cqe9e73j0kxgo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/8271/live/19cd5c40-b81c-11f1-b19f-05e2dfdadad2.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-09-25T02:24:38+00:00",
-   "fetched": "2026-09-25T07:22:41.802113+00:00",
-   "page_chars": 5311
-  },
-  {
-   "id": "8b9252c700a9",
-   "type": "auto",
-   "title": "உடல்நலம் சரியில்லாதபோதும் விடுப்பு எடுக்காமல் வேலைக்கு செல்கிறீர்களா? இந்த மனநிலை உணர்த்தும் விஷயங்கள்",
-   "summary": "பாதிக்கும் மேற்பட்டோர் உடல்நலக்குறைவுள்ள நிலையிலும் வேலை செய்வதாகத் தெரிவிக்கின்றனர். இதற்கான காரணங்கள் சிக்கலானவை என்று நிபுணர்கள் கூறுகின்றனர்.",
-   "link": "https://www.bbc.com/tamil/articles/cmn8en49ed5eo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/474e/live/76cbdd80-b881-11f1-bc1f-3f186ca4140c.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-09-25T01:39:28+00:00",
-   "fetched": "2026-09-25T01:46:00.234202+00:00",
-   "page_chars": 7347
-  },
-  {
-   "id": "3ee6ae129235",
-   "type": "auto",
-   "title": "‘Vision’ Programme Marks Two Years",
-   "summary": "Marking the completion of two years of the ‘Vision’ Programme, students from Pinnawala Central College and Matale Siri Seevali College were given an opportunity on Thursday (24) to visit the Presidential Secretariat. The ‘Vision’ Programme was launched for schoolchildren jointly by the Presidential…",
-   "link": "http://island.lk/vision-programme-marks-two-years/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T01:20:06+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_chars": 0
-  },
-  {
-   "id": "26a7fe255b54",
-   "type": "auto",
-   "title": "Costa Rica minister fired for unapproved meeting with Trump in US",
-   "summary": "Costa Rican President Laura Fernandez has fired Foreign Minister Manuel Tovar after he attended a US-led regional security summit with United States President Donald Trump without notifying her, an omission the government has said blocked her own participation and caused major strategic harm to the…",
-   "link": "http://island.lk/costa-rica-minister-fired-for-unapproved-meeting-with-trump-in-us/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "world",
-   "tags": [
-    "world",
-    "srilanka"
-   ],
-   "published": "2026-09-25T01:11:05+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_chars": 0
-  },
-  {
-   "id": "460fa27ad577",
-   "type": "auto",
-   "title": "At least 41 die as boat capsizes in DRC’s Lake Tanganyika",
-   "summary": "At least 41 people have died, and 49 others have been rescued, after a boat capsized on Lake Tanganyika in the Democratic Republic of the Congo (DRC). Norris Mulongoyi, the provincial transport minister for DRC’s Tanganyika province, told The Associated Press news agency that search operations were…",
-   "link": "http://island.lk/at-least-41-die-as-boat-capsizes-in-drcs-lake-tanganyika/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T01:04:32+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_chars": 0
-  },
-  {
-   "id": "1a8ce91e1fc8",
-   "type": "auto",
-   "title": "Showers will occur at times in the Western, Sabaragamuwa, Southern, Central and North-western provinces",
-   "summary": "WEATHER FORECAST FOR 25 SEPTEMBER 2026 Issued at 05.30 a.m. on 25 September 2026 by the Department of Meteorology The deep depression over the Bay of Bengal is weakening into a depression. The impact of this system on Sri Lanka’s weather is expected to gradually decrease from today. Showers or…",
-   "link": "http://island.lk/showers-will-occur-at-times-in-the-western-sabaragamuwa-southern-central-and-north-western-provinces/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T00:49:06+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_chars": 0
-  },
-  {
-   "id": "031275f218e8",
-   "type": "auto",
-   "title": "Sajith vows to scrap 22A under future govt.",
-   "summary": "Opposition and SJB Leader Sajith Premadasa yesterday vowed that an SJB government would repeal the 22nd Amendment (22A) to the Constitution.Premadasa made the pledge while addressing thousands of SJB supporters who gathered near Parliament to protest against 22A. Addressing the rally at Polduwa…",
-   "link": "http://island.lk/sajith-vows-to-scrap-22a-under-future-govt/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T00:06:33+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_chars": 0
-  },
-  {
-   "id": "0bfa4dac5aa7",
-   "type": "auto",
-   "title": "Two retired female Navy officers remanded over disappearance of two women during war",
-   "summary": "Two retired female Navy petty officers were ordered to be remanded until October 5 over their alleged involvement in the abduction and disappearance of two women in Trincomalee during the war. Trincomalee Chief Magistrate M.S.M. Samsudeen yesterday ordered that the two suspects be remanded and…",
-   "link": "http://island.lk/two-retired-female-navy-officers-remanded-over-disappearance-of-two-women-during-war/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T00:05:30+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_chars": 0
-  },
-  {
-   "id": "4458056582dd",
-   "type": "auto",
-   "title": "FSP: Govt. moving to introduce far more sinister legislation to replace PTA",
-   "summary": "The Frontline Socialist party through its People’s Struggle Alliance (Janatha Aragala Sandhanaya) yesterday accused the government of seeking to introduce a new anti-terror law containing provisions that could restrict fundamental rights and suppress dissent. Speaking at a media briefing in…",
-   "link": "http://island.lk/fsp-govt-moving-to-introduce-far-more-sinister-legislation-to-replace-pta/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T00:04:27+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_chars": 0
-  },
-  {
-   "id": "f9bb9c8469cb",
-   "type": "auto",
-   "title": "Habeebu Lebbe sworn in as MP",
-   "summary": "Habeebu Lebbe Mohammed Rifan was sworn in yesterday (24) as a Member of the Tenth Parliament before Speaker, Dr. Jagath Wickramaratne. Following the oath and affirmation before the Speaker, he signed the Members’ Roll placed before Secretary General of Parliament, Kushani Rohanadeera. Habeebu Lebbe…",
-   "link": "http://island.lk/habeebu-lebbe-sworn-in-as-mp/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T00:01:21+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_chars": 0
-  },
-  {
-   "id": "8a1a25b49eba",
-   "type": "auto",
-   "title": "Banks tighten online security as fraudsters outpace safeguards",
-   "summary": "by Chaminda Silva Lankan banks are introducing additional security measures for online banking as increasingly sophisticated phishing attacks and cloned banking websites are being used by international scam networks to steal customers’ credentials and gain unauthorised access to their accounts…",
-   "link": "http://island.lk/banks-tighten-online-security-as-fraudsters-outpace-safeguards/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T00:00:24+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_chars": 0
-  },
-  {
-   "id": "5fdb472cf912",
-   "type": "auto",
-   "title": "தமிழ்நாட்டில் எதிரொலித்த தேர்தல் ஆணைய விவகாரம்: ஸ்டாலின் உள்ளிட்ட தலைவர்கள் கூறுவது என்ன?",
-   "summary": "இந்திய தேர்தல் ஆணையத்துக்குள் தலைமைத் தேர்தல் ஆணையர் ஞானேஷ் குமார் மற்றும் மற்ற இரண்டு தேர்தல் ஆணையர்களுக்கு இடையே கருத்து வேறுபாடுகள் இருந்ததாக வெளியான தகவல்களைத் தொடர்ந்து அரசியல் விவாதம் தீவிரமடைந்துள்ளது.",
-   "link": "https://www.bbc.com/tamil/articles/cwr7dk04nnzvo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f8fa/live/598059b0-b834-11f1-b1d1-571ed4d7ff2c.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-09-24T16:24:21+00:00",
-   "fetched": "2026-09-24T16:48:56.118812+00:00",
-   "page_chars": 7461
-  },
-  {
-   "id": "0f6f92039973",
-   "type": "auto",
-   "title": "Tenth day of Thileepan's hunger strike commemorated in Nallur",
-   "summary": "Tamils gathered at Lt. Col. Thileepan's memorial in Nallur, Jaffna today to commemorate the tenth day of his hunger strike. Chinniah Reethamma, the mother of fallen cadre Sandhiya, lit the flame of sacrifice whilst other attendees laid flowers by Thileepan's statue. Over the last ten days, people…",
-   "link": "http://www.tamilguardian.com/content/commemorations-continue-nallur-remembrance-thileepan",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/260924%20Thileepan%20Day%2010/260924%20Thileepan%20Day10_2.jpg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna"
-   ],
-   "published": "2026-09-24T15:58:41+00:00",
-   "fetched": "2026-09-24T16:48:56.118812+00:00",
-   "page_chars": 1367,
-   "ai_title": "திலீபனின் உண்ணாவிரதத்தின் பத்தாம் நாள் நல்லூரில் நினைவுகூரப்பட்டது",
-   "title_ta": "திலீபனின் உண்ணாவிரதத்தின் பத்தாம் நாள் நல்லூரில் நினைவுகூரப்பட்டது",
-   "ai_summary": "யாழ்ப்பாணத்தில் உள்ள நல்லூரில் உள்ள லெப்டினன்ட் கர்னல் திலீபனின் நினைவிடத்தில் இன்று தமிழர்கள் கூடி அவரது உண்ணாவிரதத்தின் பத்தாவது நாளை நினைவுகூர்ந்தனர்.",
-   "ai_body": [
-    "யாழ்ப்பாணத்தில் உள்ள நல்லூரில் உள்ள லெப்டினன்ட் கர்னல் திலீபனின் நினைவிடத்தில் இன்று தமிழர்கள் கூடி அவரது உண்ணாவிரதத்தின் பத்தாவது நாளை நினைவுகூர்ந்தனர். விழுந்த கேடர் சந்தியாவின் தாயார் சின்னையா ரீதம்மா தியாக தீபத்தை ஏற்றினார், மற்ற பங்கேற்பாளர்கள் திலீபனின் சிலைக்கு பூஜை செய்தனர்.",
-    "கடந்த பத்து நாட்களாக, விடுதலைப் புலிகளின் அரசியல் பிரிவின் தலைவரின் நினைவிடத்தில் மக்கள் மலர் தூவி அஞ்சலி செலுத்தி வருகின்றனர். இந்திய-இலங்கை உடன்படிக்கையைத் தொடர்ந்து தமிழ் மக்களுக்கு அளித்த வாக்குறுதிகளை இந்திய அரசு மதிக்க வேண்டும் என்று கோரி 1987 செப்டம்பர் 15 அன்று நல்லூர் கந்தசாமி கோயிலில் திலீபன் தனது உண்ணாவிரதத்தைத் தொடங்கினார்.",
-    "உணவு மற்றும் தண்ணீரை மறுத்த 11 நாட்களுக்குப் பிறகு அவர் இறந்தார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-09-26T18:29:32.859103+00:00"
-  },
-  {
-   "id": "6146c367efe7",
-   "type": "auto",
-   "title": "\"தலைமை தேர்தல் ஆணையர் ஞானேஷ் குமார் அரசுத் தரப்பு சாட்சியாக வேண்டும்\": செய்தியாளர் சந்திப்பில் ராகுல் கூறியது என்ன?",
-   "summary": "ஆங்கில நாளிதழான 'தி இந்தியன் எக்ஸ்பிரஸ்'-இல் புதன்கிழமையன்று வெளியான புலனாய்வு செய்தி ஒன்றைத் தொடர்ந்து, மக்களவை எதிர்க்கட்சித் தலைவரான ராகுல் காந்தி வியாழக்கிழமையன்று சிறப்புச் செய்தியாளர் சந்திப்பு ஒன்றை நடத்தினார். அதில் பாஜக மீது பல்வேறு குற்றச்சாட்டுகளை முன்வைத்தார். அதற்கு பாஜகவின் பதில் என்ன?",
-   "link": "https://www.bbc.com/tamil/articles/c3vgy8pvdxe4o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/906c/live/53144c30-b811-11f1-9172-17f860da9de7.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-09-24T15:23:46+00:00",
-   "fetched": "2026-09-24T16:48:56.118812+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "94fda2050060",
-   "type": "auto",
-   "title": "Sinhala nationalist campaign targets Maitreyi Ramakrishnan over Eelam Tamil identity",
-   "summary": "Maitreyi Ramakrishnan, who has identified publicly as Tamil-Canadian since her casting in Never Have I Ever in 2019 The Tamil-Canadian actor Maitreyi Ramakrishnan has faced an organised online campaign from Sinhala nationalist pages after publicly affirming her Eelam Tamil identity and rejecting…",
-   "link": "http://www.tamilguardian.com/content/sinhala-nationalist-campaign-targets-maitreyi-ramakrishnan-over-eelam-tamil-identity",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2025/Arts%20%26%20Culture/251119%20Maitreyi%20Ramakrishnan/251119%20Maitreyi%20Ramakrishnan%20(7).jpeg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna"
-   ],
-   "published": "2026-09-24T14:50:53+00:00",
-   "fetched": "2026-09-24T16:48:56.118812+00:00",
-   "page_chars": 4628,
-   "ai_title": "சிங்கள தேசியவாத பிரச்சாரம் ஈழத் தமிழ் அடையாளத்தின் மீது மைத்ரேயி ராமகிருஷ்ணனை இலக்காகக் கொண்டது",
-   "title_ta": "சிங்கள தேசியவாத பிரச்சாரம் ஈழத் தமிழ் அடையாளத்தின் மீது மைத்ரேயி ராமகிருஷ்ணனை இலக்காகக் கொண்டது",
-   "ai_summary": "2019 ஆம் ஆண்டில் நெவர் ஹேவ் ஐ எவர் படத்தில் நடித்ததிலிருந்து தமிழ்-கனடியன் என்று பகிரங்கமாக அடையாளம் காட்டியுள்ள மைத்ரேய் ராமகிருஷ்ணன், தமிழ்-கனடிய நடிகர் மைத்ரேய் ராமகிருஷ்ணன் தனது ஈழத் தமிழ் அடையாளத்தை பகிரங்கமாக உறுதிப்படுத்திய பின்னர் சிங்கள தேசியவாத பக்கங்களிலிருந்து ஒரு ஒழுங்கமைக்கப்பட்ட ஆன்லைன் பிரச்சாரத்தை எதிர்கொண்டார் மற்றும் தனது நெட்ஃபிக்ஸ் திரைப்படத்தை விளம்பரப்படுத்தும் போது ஸ்ரீலங்கன் என்ற லேபிளை நிராகரித்தார்.",
-   "ai_body": [
-    "2019 ஆம் ஆண்டில் நெவர் ஹேவ் ஐ எவர் படத்தில் நடித்ததிலிருந்து தமிழ்-கனடியன் என்று பகிரங்கமாக அடையாளம் காட்டியுள்ள மைத்ரேய் ராமகிருஷ்ணன், தமிழ்-கனடிய நடிகர் மைத்ரேய் ராமகிருஷ்ணன் தனது ஈழத் தமிழ் அடையாளத்தை பகிரங்கமாக உறுதிப்படுத்திய பின்னர் சிங்கள தேசியவாத பக்கங்களிலிருந்து ஒரு ஒழுங்கமைக்கப்பட்ட ஆன்லைன் பிரச்சாரத்தை எதிர்கொண்டார் மற்றும் தனது நெட்ஃபிக்ஸ் திரைப்படத்தை விளம்பரப்படுத்தும் போது ஸ்ரீலங்கன் என்ற லேபிளை நிராகரித்தார். சமூக ஊடகங்களில் ராமகிருஷ்ணன் இயக்கிய இனவெறி மற்றும் தவறான துஷ்பிரயோகத்தின் வெள்ளத்துடன், ஐஎம்டிபியில் படத்திற்கு ஒரு நட்சத்திர மதிப்பீடுகளை வழங்குமாறு இலங்கை பயனர்கள் வலியுறுத்தப்பட்டனர்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-09-26T18:29:35.229926+00:00"
-  },
-  {
-   "id": "8a3048fb0c50",
-   "type": "auto",
-   "title": "தலைமை தேர்தல் ஆணையருடன் முரண்பட்ட இரு ஆணையர்கள் யார்? அவர்களின் நியமனத்தை காங்கிரஸ் எதிர்த்தது ஏன்?",
-   "summary": "தலைமைத் தேர்தல் ஆணையர் ஞானேஷ் குமாருடன் தேர்தல் ஆணையர்கள் விவேக் ஜோஷி மற்றும் சுக்பீர் சிங் சந்து ஆகியோர் கருத்து வேறுபாடு கொண்டதிலிருந்து பல்வேறு அர்த்தங்கள் கற்பிக்கப்பட்டு வருகின்றன.",
-   "link": "https://www.bbc.com/tamil/articles/ck9dw8q5pv9po?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/b989/live/2793d7e0-b7ff-11f1-bc1f-3f186ca4140c.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-09-24T14:46:41+00:00",
-   "fetched": "2026-09-24T16:48:56.118812+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "fec1d0c84acf",
-   "type": "auto",
-   "title": "'மழை பெய்தால் மட்டுமே காப்பாற்ற முடியும்' - சம்பா சாகுபடிக்கு நீர் பற்றாக்குறை என டெல்டா விவசாயிகள் கவலை",
-   "summary": "கர்நாடகாவில் இருந்து கிடைக்க வேண்டிய காவிரி நீர் முழுமையாக கிடைக்காத நிலையில், மேட்டூர் அணையின் நீர் இருப்பும் குறைந்து வருகிறது. இதனால் ஏற்கெனவே தாமதமாகத் தொடங்கிய சம்பா சாகுபடியை முழுமையாக மேற்கொள்ள முடியுமா என்ற கவலை டெல்டா விவசாயிகளிடம் எழுந்துள்ளது.",
-   "link": "https://www.bbc.com/tamil/articles/ckrerlq1rx1po?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/dac5/live/6117ad20-b81d-11f1-b1d1-571ed4d7ff2c.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-09-24T13:45:12+00:00",
-   "fetched": "2026-09-24T16:48:56.118812+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "d72f4685c926",
-   "type": "auto",
-   "title": "வெகுஜன நாயகனாக நானி கவர்ந்தாரா? - 'தி பாரடைஸ்' விமர்சனம்",
-   "summary": "‘தி பாரடைஸ்’ திரைப்படத்திற்காக ரசிகர்கள் நீண்ட காலமாகக் காத்திருக்கின்றனர். இந்தப் படத்திற்காக நானி தனது தோற்றத்தை மாற்ற மிகவும் கடினமாக உழைத்துள்ளார். தனது தலைமுடியை நீளமாக வளர்த்துள்ளார்.",
-   "link": "https://www.bbc.com/tamil/articles/cjr4v9ngz59po?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/8d9a/live/1e64b850-b814-11f1-bc1f-3f186ca4140c.png",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-09-24T12:05:08+00:00",
-   "fetched": "2026-09-24T16:48:56.118812+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "9a56e52d7458",
-   "type": "auto",
-   "title": "ஏஐ கிறிஸ்துவுக்கு எதிரானது என சிலர் நம்புவது ஏன்? அது மனிதர்களை சாத்தானை வணங்கச் செய்யும் கருவியாக செயல்படுகிறதா?",
-   "summary": "டிக்‌டாக், பாட்காஸ்ட், பதிப்பகம் போன்ற தளங்களில், பல முக்கிய கிறிஸ்துவர்கள், செயற்கை நுண்ணறிவு உலக அழிவுக்கான தூண்டுதலாக இருக்குமா என்ற விவாதத்தைத் தொடங்கியுள்ளனர்.",
-   "link": "https://www.bbc.com/tamil/articles/cq07ly09klx0o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/20c6/live/5ec04ba0-b367-11f1-a430-4d16ee157c41.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-09-24T11:33:30+00:00",
-   "fetched": "2026-09-24T11:33:26.220083+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "ec5fd1139875",
-   "type": "auto",
-   "title": "ஞானேஷ் குமார்: எதிர்க்கட்சிகளின் விமர்சனத்துக்கு ஆளாகியிருக்கும் தலைமை தேர்தல் ஆணையரின் முழு பின்னணி",
-   "summary": "புதன்கிழமையன்று மத்தியத் தேர்தல் ஆணையமும், தேர்தல் ஆணையர்களும் செய்திகளில் முக்கிய இடம்பிடித்தனர். தலைமைத் தேர்தல் ஆணையருக்கும் மற்ற இரு ஆணையர்களான விவேக் ஜோஷி மற்றும் சுக்பீர் சிங் சந்து ஆகியோருக்கும் இடையே கருத்து வேறுபாடுகள் நிலவுவதாக வெளியான தகவல்களைத் தொடர்ந்து, எதிர்க்கட்சிகள் ஞானேஷ் குமாரை…",
-   "link": "https://www.bbc.com/tamil/articles/cr5y5e91k7p2o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/0db3/live/fe223870-b7c2-11f1-b20d-91a809c6d0f2.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-09-24T11:30:15+00:00",
-   "fetched": "2026-09-24T11:33:26.220083+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "550b811a559c",
-   "type": "auto",
-   "title": "'வெள்ளை நிறம், உயரம், ஆங்கிலம் பேசுவதை வைத்து பட்டியல் சாதி சான்றிதழை ரத்து செய்ய முடியாது' - நீதிமன்ற உத்தரவின் பின்னணி",
-   "summary": "சென்னையைச் சேர்ந்த மத்திய அரசு ஊழியர் ஒருவரின் சாதிச் சான்றிதழ் உண்மையானது அல்ல என்று கூறி ரத்து செய்யப்பட்டதற்கு எதிராக தொடரப்பட்ட வழக்கில் சென்னை உயர்நீதிமன்றம் உத்தரவு பிறப்பித்துள்ளது.",
-   "link": "https://www.bbc.com/tamil/articles/ckd68e9j1039o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/2677/live/5e402430-b74e-11f1-bc1f-3f186ca4140c.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-09-24T08:46:43+00:00",
-   "fetched": "2026-09-24T11:33:26.220083+00:00",
-   "page_chars": 7786
-  },
-  {
-   "id": "970c8b40014f",
-   "type": "auto",
-   "title": "விளையாடும்போது சிலர் ஏன் திடீரென உயிரிழக்கிறார்கள்? இதய மருத்துவர் பதிலளிக்கும் 8 கேள்வி",
-   "summary": "விளையாடும்போதோ அல்லது உடற்பயிற்சி செய்யும்போதோ ஏற்படும் திடீர் மரணங்கள் அனைத்தும் மாரடைப்பால் நிகழ்வதில்லை, மாறாக மரபணு சார்ந்த அல்லது மின் சுற்றில் ஏற்படும் கோளாறுகளால் உண்டாகும் 'இதய செயலிழப்பே' (Cardiac Arrest) முதன்மைக் காரணம் என்றும், ஆபத்துக் காரணிகள் உள்ளவர்கள் முறையான பரிசோதனைகளுடன்…",
-   "link": "https://www.bbc.com/tamil/articles/c693e4l11d29o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/35a4/live/a35bef50-b7de-11f1-bc1f-3f186ca4140c.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-09-24T08:44:27+00:00",
-   "fetched": "2026-09-24T11:33:26.220083+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "0a4f04e164ab",
-   "type": "auto",
-   "title": "'ஆர்டர் செய்யலாம், பொருள் வராது' - திரில்லுக்காக இந்தியர்களிடையே உருவாகும் புதிய ஷாப்பிங் போக்கு",
-   "summary": "ஜூன் மாதம் தொடங்கப்பட்டதில் இருந்து இதுவரை 27 லட்சத்துக்கும் அதிகமானோர் இந்த இணையதளத்தைப் பார்வையிட்டுள்ளதாக ஃபுட் நெவர் கம்ஸ் கூறுகிறது.",
-   "link": "https://www.bbc.com/tamil/articles/ck4gjv30213go?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/083e/live/e4049770-b732-11f1-9f81-a10976817ca3.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-09-24T05:54:42+00:00",
-   "fetched": "2026-09-24T11:33:26.220083+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "4b91876fb56d",
-   "type": "auto",
-   "title": "Open Competitive Structural Interview for Recruitment to Grade III Health Assistant (Junior) in Northern Province – 2026",
-   "summary": "Click Here",
-   "link": "https://np.gov.lk/result-2026-npcha2026/",
-   "source": "வட மாகாண சபை",
-   "source_domain": "np.gov.lk",
-   "image": null,
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna"
-   ],
-   "published": "2026-09-24T04:57:03+00:00",
-   "fetched": "2026-09-24T05:56:37.795456+00:00",
-   "page_chars": 10
-  },
-  {
-   "id": "a14d452af338",
-   "type": "auto",
-   "title": "'தீ சூழ்ந்த போது 12 குழந்தைகளை காப்பாற்றினேன்; ஆனால் என் குழந்தையை இழந்தேன்'",
-   "summary": "அடிலாபாத் 'ரிம்ஸ்' அரசு மருத்துவமனையின் பிறந்த குழந்தைகள் பராமரிப்புப் பிரிவில் ஏற்பட்ட தீ விபத்தில் 5 குழந்தைகள் உயிரிழந்த சோகமான சூழலிலும், தன் குழந்தையை இழந்து 12 குழந்தைகளைக் காப்பாற்றிய தந்தையின் நெகிழ்ச்சியான களப் பதிவே இந்தச் செய்தியாகும்.",
-   "link": "https://www.bbc.com/tamil/articles/cr93e48879w5o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/4602/live/007b2e80-b7c1-11f1-bc1f-3f186ca4140c.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-09-24T04:07:34+00:00",
-   "fetched": "2026-09-24T05:56:37.795456+00:00",
-   "page_chars": 6269
   }
  ]
 }
