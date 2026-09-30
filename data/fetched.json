@@ -1,6 +1,551 @@
 {
- "updated": "2026-09-30T04:49:24.038100+00:00",
+ "updated": "2026-09-30T11:00:33.121511+00:00",
  "items": [
+  {
+   "id": "7e2d2183c98c",
+   "type": "auto",
+   "title": "Sri Lankan Forest Department halts boundary marking on Vavuniya farmers' land",
+   "summary": "P. Sathiyalingam Sri Lanka's Forest Department has stopped placing boundary stones on land belonging to residents of Aruvithottam in Vavuniya, after farmers said officials had been marking their land without authorisation. The Aruvithottam Farmers' Association took the matter to the Ilankai Tamil…",
+   "link": "http://www.tamilguardian.com/content/forest-department-halts-boundary-marking-residents-lands-vavuniya",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/260929shanakiyan/images%20(16).jpeg",
+   "lang": "en",
+   "category": "jaffna",
+   "tags": [
+    "jaffna",
+    "srilanka"
+   ],
+   "published": "2026-09-30T16:04:13+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 2419,
+   "ai_title": "வவுனியா விவசாயிகளின் நிலத்தில் எல்லைக் குறியீட்டை நிறுத்தியது இலங்கை வனத்துறை",
+   "title_ta": "வவுனியா விவசாயிகளின் நிலத்தில் எல்லைக் குறியீட்டை நிறுத்தியது இலங்கை வனத்துறை",
+   "ai_summary": "வவுனியாவில் அருவிதோட்டம் குடியிருப்பாளர்களுக்குச் சொந்தமான நிலத்தில் அனுமதியின்றி அதிகாரிகள் தங்கள் நிலத்தைக் குறிப்பதாக விவசாயிகள் கூறியதையடுத்து, இலங்கை வனத்துறை எல்லைக் கற்களை வைப்பதை நிறுத்தியுள்ளது.",
+   "ai_body": [
+    "வவுனியாவில் அருவிதோட்டம் குடியிருப்பாளர்களுக்குச் சொந்தமான நிலத்தில் அனுமதியின்றி அதிகாரிகள் தங்கள் நிலத்தைக் குறிப்பதாக விவசாயிகள் கூறியதையடுத்து, இலங்கை வனத்துறை எல்லைக் கற்களை வைப்பதை நிறுத்தியுள்ளது. அருவிதோட்டம் உழவர் சங்கம் இந்த விஷயத்தை இளன்கை தமிழரசு கட்சி நாடாளுமன்ற உறுப்பினர் பி.",
+    "செட்டிகுளம் பிரதேச செயலகத்திற்குள் வரும் இப்பகுதியில் குடியிருப்பாளர்களின் நிலத்தில் வனத்துறை அதிகாரிகள் எல்லைக் கற்களை வைத்திருப்பதாக குற்றம் சாட்டி 22 செப்டம்பர் அன்று சத்தியலிங்கம். சத்தியலிங்கம் அதை வவுனியா மாவட்ட செயலாளர் மற்றும் செட்டிகுளம் பிரதேச செயலாளர் மற்றும் மாவட்ட வனத்துறை அதிகாரியிடம் எழுப்பினார்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-09-30T11:02:59.477558+00:00"
+  },
+  {
+   "id": "1b9236bac49e",
+   "type": "auto",
+   "title": "வெளிநாட்டு செலாவணிச் சட்டத்தின் கீழான ஒழுங்குவிதிகள் மற்றும் கட்டளைக்கு அரசாங்க நிதி பற்றிய குழுவில் அங்கீகாரம்",
+   "summary": "2026ஆம் ஆண்டின் 01ஆம் மற்றும் 02ஆம் இலக்க வெளிநாட்டு செலாவணி ஒழுங்குவிதி மற்றும் வெளிநாட்டு சட்டத்தின் 22ஆம் பிரிவின் கீழான கட்டளை தொடர்பில் இலங்கை மத்திய வங்கியின் அதிகாரிகளுடன் கலந்துரையாடியதைத் தொடர்ந்து குறித்த ஒழுங்கு விதிகள் மற்றும் கட்டளைகளுக்கு அரசாங்க நிதி பற்றிய குழுவில் அங்கீகாரம்…",
+   "link": "https://tamil.news.lk/news/velinattu-celavanic-cattattin-kilana-olunkuvitikal-marrum-kattalaikku-aracanka-niti-parriya-kuluvil-ankikaram",
+   "source": "அரச செய்திச் சேவை",
+   "source_domain": "tamil.news.lk",
+   "image": "https://tamil.news.lk/images/2026/09/30/1dbe24cd-9fe9-4c07-adfd-506c5738fc60_large.webp",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-30T12:06:41+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 5748,
+   "ai_title": "அரசாங்க நிதிக் குழுவால் அந்நியச் செலாவணிச் சட்டத்தின் கீழ் ஒழுங்குமுறைகள் மற்றும் கட்டளைகளை அங்கீகரித்தல்",
+   "title_ta": "அரசாங்க நிதிக் குழுவால் அந்நியச் செலாவணிச் சட்டத்தின் கீழ் ஒழுங்குமுறைகள் மற்றும் கட்டளைகளை அங்கீகரித்தல்",
+   "ai_summary": "இலங்கை மத்திய வங்கியின் அதிகாரிகளுடன் அந்நியச் செலாவணி ஒழுங்குமுறை எண் 01 மற்றும் 2026 ஆம் ஆண்டின் எண் 02 மற்றும் வெளிநாட்டுச் சட்டத்தின் பிரிவு 22 இன் கீழ் உள்ள உத்தரவு மற்றும் கலந்துரையாடலைத் தொடர்ந்து, ஒழுங்கு விதிகள் மற்றும் உத்தரவுகள் அரசாங்க நிதிக் குழுவால் அங்கீகரிக்கப்பட்டன.",
+   "ai_body": [
+    "இலங்கை மத்திய வங்கியின் அதிகாரிகளுடன் அந்நியச் செலாவணி ஒழுங்குமுறை எண் 01 மற்றும் 2026 ஆம் ஆண்டின் எண் 02 மற்றும் வெளிநாட்டுச் சட்டத்தின் பிரிவு 22 இன் கீழ் உள்ள உத்தரவு மற்றும் கலந்துரையாடலைத் தொடர்ந்து, ஒழுங்கு விதிகள் மற்றும் உத்தரவுகள் அரசாங்க நிதிக் குழுவால் அங்கீகரிக்கப்பட்டன. மாண்புமிகு நாடாளுமன்ற உறுப்பினர் டாக்டர் தலைமையில் சமீபத்தில் கூடிய அரசாங்க நிதி தொடர்பான குழுவில் வெளிநாட்டு முதலீடுகள்.",
+    "ஹர்ஷத் சில்வா, புலம்பெயர்ந்தோர் தங்கள் நிதியை வெளிநாடுகளுக்கு மாற்றுவது மற்றும் அந்நிய செலாவணி புறப்படுவதைக் கட்டுப்படுத்துவது தொடர்பான ஏற்பாடுகள் குறித்து விசாரிக்கப்பட்டது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-09-30T11:03:09.057084+00:00"
+  },
+  {
+   "id": "a8e3b00e1caa",
+   "type": "auto",
+   "title": "'ரத்தம் தோய்ந்த சட்டை' - இஸ்ரேல் சென்ற விமானத்தில் நடுவானில் விமானிகள் மோதல், சௌதியில் திடீர் தரையிறக்கம் - நேரில் கண்ட பயணிகள் கூறுவது என்ன?",
+   "summary": "இஸ்ரேல் சென்றுகொண்டிருந்த விமானத்தில் நடுவானில் விமானிகள் இடையே ஏற்பட்ட சண்டையில் 'சட்டைகள் முழுக்க ரத்தம் தோய்ந்து இருந்ததாக' பயணிகள் விவரிக்கின்றனர். என்ன நடந்தது?",
+   "link": "https://www.bbc.com/tamil/articles/cqx2ze41x4zvo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/c5f1/live/2f262970-bca2-11f1-bd53-81692d9847e1.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-09-30T10:59:27+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 7544
+  },
+  {
+   "id": "b0b503a8aaa6",
+   "type": "auto",
+   "title": "Rain stays away as India and Sri Lanka look for fair contest to enter final",
+   "summary": "After six abandoned matches, five of them without a toss, because of incessant rain – Shreyas Iyer called it a “torrential downpour” – in Nisshin, we might finally get some cricket again at the men’s Asian Games. The timing couldn’t have been better because the four remaining games will decide the…",
+   "link": "http://island.lk/rain-stays-away-as-india-and-sri-lanka-look-for-fair-contest-to-enter-final/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_960/lsci/db/PICTURES/CMS/286900/286937.14.jpg",
+   "lang": "en",
+   "category": "sports",
+   "tags": [
+    "sports",
+    "srilanka",
+    "world"
+   ],
+   "published": "2026-09-30T10:34:02+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 299
+  },
+  {
+   "id": "79bda318b58c",
+   "type": "auto",
+   "title": "பெண் யூட்யூபரின் 'வீடியோக்களால்' ஒரு கோடி மதிப்புள்ள நகை கொள்ளை - நால்வர் சிக்கிய பின்னணி",
+   "summary": "நாகர்கோயிலில் யூட்யூபர் பெண் ஒருவர் வெளியிட்ட வீடியோக்களை பார்த்து, திட்டமிட்டு, அவரது வீட்டில் சுமார் 110 சவரன் நகைகள் திருடப்பட்டுள்ளன. சந்தேக நபர்கள் சிக்கியது எப்படி?",
+   "link": "https://www.bbc.com/tamil/articles/cmqxv51dl287o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/fac8/live/4d0eee90-bcb6-11f1-a3e9-bbda6f9b9e25.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-09-30T10:06:23+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 7924
+  },
+  {
+   "id": "c0353d8f5c6d",
+   "type": "auto",
+   "title": "Revello Wins Three Awards at SLIM DIGIS 2.6 for “Winning The Christmas Feed” Campaign",
+   "summary": "Revello, the premium chocolate brand of CBL Foods International, has won three awards at SLIM DIGIS 2.6 for its seasonal Continue Reading The post Revello Wins Three Awards at SLIM DIGIS 2.6 for “Winning The Christmas Feed” Campaign appeared first on Newswire .",
+   "link": "https://www.newswire.lk/business/revello-wins-three-awards-at-slim-digis-2-6-for-winning-the-christmas-feed-campaign/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-30-at-2.45.10-PM.jpeg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-30T09:11:44+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 1398,
+   "ai_title": "“கிறிஸ்துமஸ் ஃபீட்” பிரச்சாரத்தை வென்றதற்காக ரெவெல்லோ SLIM DIGIS 2.6 இல் மூன்று விருதுகளை வென்றார்",
+   "title_ta": "“கிறிஸ்துமஸ் ஃபீட்” பிரச்சாரத்தை வென்றதற்காக ரெவெல்லோ SLIM DIGIS 2.6 இல் மூன்று விருதுகளை வென்றார்",
+   "ai_summary": "CBL ஃபுட்ஸ் இன்டர்நேஷனலின் பிரீமியம் சாக்லேட் பிராண்டான ரெவெல்லோ, “கிறிஸ்துமஸ் ஃபீடை வெல்வது” என்ற பருவகால பிரச்சாரத்திற்காக SLIM DIGIS 2.6 இல் மூன்று விருதுகளை வென்றுள்ளது.",
+   "ai_body": [
+    "CBL ஃபுட்ஸ் இன்டர்நேஷனலின் பிரீமியம் சாக்லேட் பிராண்டான ரெவெல்லோ, “கிறிஸ்துமஸ் ஃபீடை வெல்வது” என்ற பருவகால பிரச்சாரத்திற்காக SLIM DIGIS 2.6 இல் மூன்று விருதுகளை வென்றுள்ளது. \"இந்த பிரச்சாரம் பருவகால பிரச்சார பிரிவில் வெள்ளிப் பதக்கத்தையும், FMCG – உணவு மற்றும் பான பிராண்டுகளில் வெண்கலத்தையும், 550 க்கும் மேற்பட்ட உள்ளீடுகளைக் கொண்ட மிகவும் போட்டித் துறையில் தனித்து நிற்கும் அனுபவ மற்றும் தரையில் டிஜிட்டல் பெருக்கத்தின் சிறந்த பயன்பாட்டிற்கான வெண்கலத்தையும் பெற்றது.",
+    "பிரீமியம் சாக்லேட் பிராண்டாக, ரெவெல்லோ நீண்ட காலமாக பகிர்வுக்காக தயாரிக்கப்பட்ட தரத்தில் கவனம் செலுத்தி வருகிறது. SLIM DIGIS 2.6 இல் மூன்று வெற்றிகள் அதன் பிராண்ட் அனுபவங்களுக்கு அந்த நற்பெயரை நீட்டிக்கின்றன, இது இலங்கையின் மிட்டாய் பிரிவில் பிராண்டிற்கு ஒரு பெருமைமிக்க மைல்கல்லை குறிக்கிறது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-09-30T11:03:11.531056+00:00"
+  },
+  {
+   "id": "727f79633b1d",
+   "type": "auto",
+   "title": "Namal granted bail in Airbus money laundering case, remains in custody",
+   "summary": "The Colombo Fort Magistrate’s Court on Sept. 30 granted MP Namal Rajapaksa bail in the money laundering case linked to Continue Reading The post Namal granted bail in Airbus money laundering case, remains in custody appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/30/namal-granted-bail-in-airbus-money-laundering-case-remains-in-custody/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Namal.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "world"
+   ],
+   "published": "2026-09-30T09:10:21+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 457,
+   "ai_title": "ஏர்பஸ் பணமோசடி வழக்கில் நாமலுக்கு ஜாமீன் வழங்கப்பட்டது, காவலில் உள்ளது",
+   "title_ta": "ஏர்பஸ் பணமோசடி வழக்கில் நாமலுக்கு ஜாமீன் வழங்கப்பட்டது, காவலில் உள்ளது",
+   "ai_summary": "ஏர்பஸ் ஒப்பந்தத்துடன் தொடர்புடைய பணமோசடி வழக்கில் நாமல் ராஜபக்ஷவுக்கு கொழும்பு கோட்டை மாஜிஸ்திரேட் நீதிமன்றம் செப்டம்பர் 30 அன்று ஜாமீன் வழங்கியது, ரூ.",
+   "ai_body": [
+    "ஏர்பஸ் ஒப்பந்தத்துடன் தொடர்புடைய பணமோசடி வழக்கில் நாமல் ராஜபக்ஷவுக்கு கொழும்பு கோட்டை மாஜிஸ்திரேட் நீதிமன்றம் செப்டம்பர் 30 அன்று ஜாமீன் வழங்கியது, ரூ. 500,000 ரொக்க ஜாமீன் மற்றும் ரூ.",
+    "100 மில்லியன் ஜாமீன் வழங்க உத்தரவிட்டது. இருப்பினும், ராஜபக்சேவுக்கு தனி நடவடிக்கைகளில் ஜாமீன் வழங்கப்படாததால் அவர் ரிமாண்ட் காவலில் இருப்பார்.",
+    "ஃபோர்ட் மாஜிஸ்திரேட் நீதிமன்றம் பிறப்பித்த ஜாமீன் உத்தரவு பணமோசடி வழக்குக்கு பொருந்தும் மற்றும் அவர் காவலில் இருந்து விடுவிக்கப்படுவதில்லை. (நியூஸ்வைர்)"
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-09-30T11:03:13.301989+00:00"
+  },
+  {
+   "id": "ac8782d2ab00",
+   "type": "auto",
+   "title": "Namal Rajapaksa granted bail over money laundering allegations in Airbus case",
+   "summary": "Parliamentarian Namal Rajapaksa, who was remanded over money laundering allegations linked to the Airbus case, has been released on bail Continue Reading The post Namal Rajapaksa granted bail over money laundering allegations in Airbus case appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/30/namal-rajapaksa-granted-bail-over-money-laundering-allegations-in-airbus-case/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Namal-Rajapaksa-2.jpg",
+   "lang": "en",
+   "category": "world",
+   "tags": [
+    "world",
+    "srilanka"
+   ],
+   "published": "2026-09-30T09:07:34+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 574
+  },
+  {
+   "id": "400a65801d4c",
+   "type": "auto",
+   "title": "Pilots reportedly clash as Israel-bound flight makes emergency landing",
+   "summary": "A flydubai flight from Dubai to Tel Aviv is reported to have made an emergency landing in Saudi Arabia on Continue Reading The post Pilots reportedly clash as Israel-bound flight makes emergency landing appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/30/pilots-reportedly-clash-as-israel-bound-flight-makes-emergency-landing/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Kalani-12.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-30T08:48:10+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 1127,
+   "ai_title": "இஸ்ரேல் செல்லும் விமானம் அவசரமாக தரையிறங்கும்போது விமானிகள் மோதிக்கொண்டதாகக் கூறப்படுகிறது",
+   "title_ta": "இஸ்ரேல் செல்லும் விமானம் அவசரமாக தரையிறங்கும்போது விமானிகள் மோதிக்கொண்டதாகக் கூறப்படுகிறது",
+   "ai_summary": "துபாயில் இருந்து டெல் அவிவ் செல்லும் ஃப்ளைதுபாய் விமானம் செப்டம்பர் 30 ஆம் தேதி சவுதி அரேபியாவில் அவசரமாக தரையிறங்கியதாக கூறப்படுகிறது, விமானிகளுக்கு இடையே வாக்குவாதம் ஏற்பட்டதாக அதிகாரிகள் தெரிவித்தனர்.",
+   "ai_body": [
+    "துபாயில் இருந்து டெல் அவிவ் செல்லும் ஃப்ளைதுபாய் விமானம் செப்டம்பர் 30 ஆம் தேதி சவுதி அரேபியாவில் அவசரமாக தரையிறங்கியதாக கூறப்படுகிறது, விமானிகளுக்கு இடையே வாக்குவாதம் ஏற்பட்டதாக அதிகாரிகள் தெரிவித்தனர். FZ1073 விமானம் தபுக் விமான நிலையத்தில் பாதுகாப்பாக தரையிறங்கியது என்பதை விமான நிறுவனம் உறுதிப்படுத்தியது.",
+    "அனைத்து பயணிகளும் பாதுகாப்பாக இருந்தனர் மற்றும் கணக்கிடப்பட்டனர் என்று ராய்ட்டர்ஸ் தெரிவித்துள்ளது. கடத்தல் குறித்த ஆரம்ப அச்சங்களுக்கு மத்தியில் இஸ்ரேல் போர் விமானங்களை சுட்டு வீழ்த்தியது, ஒரு அதிகாரி அசோசியேட்டட் பிரஸ்ஸிடம் கூறினார்.",
+    "இஸ்ரேலிய அதிகாரிகள் பின்னர் நிலைமை கட்டுப்பாட்டில் இருப்பதாகவும், பயணிகளை இஸ்ரேலுக்கு அழைத்து வருவதற்கான முயற்சிகள் நடந்து வருவதாகவும் கூறினர்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-09-30T11:03:15.933435+00:00"
+  },
+  {
+   "id": "7ca566e175f3",
+   "type": "auto",
+   "title": "Ranil’s misuse of state funds case ajourned till November",
+   "summary": "The Colombo Fort Magistrate’s Court today ordered that the case filed by the Criminal Investigation Department (CID) against former President Continue Reading The post Ranil’s misuse of state funds case ajourned till November appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/30/ranils-misuse-of-state-funds-case-ajourned-till-november/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Kalani-11.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-30T08:43:40+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 1252,
+   "ai_title": "ரணிலின் மாநில நிதி முறைகேடு வழக்கு நவம்பர் வரை ஒத்திவைக்கப்பட்டது",
+   "title_ta": "ரணிலின் மாநில நிதி முறைகேடு வழக்கு நவம்பர் வரை ஒத்திவைக்கப்பட்டது",
+   "ai_summary": "முன்னாள் ஜனாதிபதி ரணில் விக்கிரமசிங்க மற்றும் முன்னாள் ஜனாதிபதி செயலாளர் சமன் ஏகநாயக்க ஆகியோருக்கு எதிராக குற்றப் புலனாய்வுத் திணைக்களம் தாக்கல் செய்த வழக்கை சட்டமா அதிபரின் ஆலோசனையைப் பெறுவதற்காக நவம்பர் 11 ஆம் திகதி மீண்டும் விசாரணைக்கு எடுத்துக் கொள்ளுமாறு கொழும்பு கோட்டை நீதவான் நீதிமன்றம் இன்று உத்தரவிட்டுள்ளது.",
+   "ai_body": [
+    "முன்னாள் ஜனாதிபதி ரணில் விக்கிரமசிங்க மற்றும் முன்னாள் ஜனாதிபதி செயலாளர் சமன் ஏகநாயக்க ஆகியோருக்கு எதிராக குற்றப் புலனாய்வுத் திணைக்களம் தாக்கல் செய்த வழக்கை சட்டமா அதிபரின் ஆலோசனையைப் பெறுவதற்காக நவம்பர் 11 ஆம் திகதி மீண்டும் விசாரணைக்கு எடுத்துக் கொள்ளுமாறு கொழும்பு கோட்டை நீதவான் நீதிமன்றம் இன்று உத்தரவிட்டுள்ளது. இந்த வழக்கு கொழும்பு கோட்டை நீதவான் பாசன் அமரசேன முன்னிலையில் விசாரணைக்கு வந்ததுடன், விக்கிரமசிங்க மற்றும் ஏகநாயக்க இருவரும் நீதிமன்றத்தில் ஆஜரானார்கள்.",
+    "விசாரணையின் முன்னேற்றம் மற்றும் அட்டர்னி ஜெனரலின் ஆலோசனையைப் பெற வேண்டியதன் அவசியத்தை கருத்தில் கொண்டு நீதிமன்றம் இந்த உத்தரவை பிறப்பித்தது. இந்த வழக்கு தோராயமாக ரூ.",
+    "16 முறைகேடு தொடர்பான குற்றச்சாட்டுகளிலிருந்து உருவாகிறது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-09-30T11:03:18.485608+00:00"
+  },
+  {
+   "id": "d7d47865de0f",
+   "type": "auto",
+   "title": "மத்திய பிரதேசத்தில் மசூதியின் ஒரு பகுதியை இடிக்கும் சர்ச்சை - '600 ஆண்டுகள்' பழைய ஷாஹி மசூதியின் வரலாறு என்ன?",
+   "summary": "2028 சிம்ஹஸ்த் கும்பமேளாவை முன்னிட்டு மேற்கொள்ளப்பட்ட சாலை விரிவாக்கப் பணிகளின் போது, பல நூற்றாண்டுகள் பழமை வாய்ந்த உஜ்ஜைன் ஷாஹி மசூதியின் ஒரு பகுதியை அகற்றியதைத் தொடர்ந்து பதற்றம் ஏற்பட்ட நிலையில், அதன் வரலாற்றுப் பின்னணி மற்றும் சட்ட ஆவணங்கள் மீண்டும் கவனத்திற்கு வந்துள்ளன.",
+   "link": "https://www.bbc.com/tamil/articles/cm89j45p75jqo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/535e/live/11275730-bc81-11f1-a430-4d16ee157c41.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-09-30T08:17:34+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "97636b4ebff0",
+   "type": "auto",
+   "title": "New endemic plant species identified in Kithulgala",
+   "summary": "Researchers have identified a new plant species endemic to Sri Lanka in the Mannakeththa Ella ecosystem in Kithulgala, Kegalle District. Continue Reading The post New endemic plant species identified in Kithulgala appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/30/new-endemic-plant-species-identified-in-kithulgala/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-30-at-12.15.23-PM.jpeg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-30T07:30:01+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 1246,
+   "ai_title": "கிதுல்கலாவில் அடையாளம் காணப்பட்ட புதிய உள்ளூர் தாவர இனங்கள்",
+   "title_ta": "கிதுல்கலாவில் அடையாளம் காணப்பட்ட புதிய உள்ளூர் தாவர இனங்கள்",
+   "ai_summary": "கேகாலை மாவட்டத்தின் கிதுல்கலாவில் உள்ள மன்னகெத்தா எல்லா சுற்றுச்சூழல் அமைப்பில் இலங்கைக்கு சொந்தமான ஒரு புதிய தாவர இனத்தை ஆராய்ச்சியாளர்கள் அடையாளம் கண்டுள்ளனர்.",
+   "ai_body": [
+    "கேகாலை மாவட்டத்தின் கிதுல்கலாவில் உள்ள மன்னகெத்தா எல்லா சுற்றுச்சூழல் அமைப்பில் இலங்கைக்கு சொந்தமான ஒரு புதிய தாவர இனத்தை ஆராய்ச்சியாளர்கள் அடையாளம் கண்டுள்ளனர். Impatiens yakandawalarum என்று பெயரிடப்பட்ட இந்த இனம், பால்சம் குடும்பத்தைச் சேர்ந்தது மற்றும் ஆங்கிலத்தில் \"கிதுல்கலா பால்சம்\" மற்றும் சிங்களத்தில் \"राम रोगला Balsam\" என்ற பொதுவான பெயர்கள் வழங்கப்பட்டுள்ளன.",
+    "அந்த பகுதிக்கு விஜயம் செய்த போது சலானி குணரத்ன அவர்களால் எடுக்கப்பட்ட புகைப்படங்களுடன் இந்த கண்டுபிடிப்பு ஆரம்பமானது. ஆராய்ச்சியாளர் பெஷாலா பாசன் கருணாரத்ன தாவரத்திற்கும் ஒத்த இம்பாட்டியன்ஸ் ஜந்தீனாவுக்கும் இடையிலான வேறுபாடுகளைக் கவனித்து, கண்டுபிடிப்புகளை பேராதனை பல்கலைக்கழக ஆராய்ச்சியாளர் பாத்திய கோபல்லவாவிடம் பரிந்துரைத்தார்.",
+    "களப் பரிசோதனைகள் இதை முன்னர் விவரிக்கப்படாத இனமாக உறுதிப்படுத்தின."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-09-30T11:03:20.909240+00:00"
+  },
+  {
+   "id": "b0e285578a0b",
+   "type": "auto",
+   "title": "Income Tax payment deadline today",
+   "summary": "The Inland Revenue Department has reminded taxpayers that today (30) is the deadline for making the final income tax payment Continue Reading The post Income Tax payment deadline today appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/30/income-tax-payment-deadline-today/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/05/Income-Tax.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-30T07:25:56+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 788,
+   "ai_title": "இன்று வருமான வரி செலுத்தும் காலக்கெடு",
+   "title_ta": "இன்று வருமான வரி செலுத்தும் காலக்கெடு",
+   "ai_summary": "மதிப்பீட்டின் 2025/2026 ஆண்டிற்கான இறுதி வருமான வரி செலுத்துவதற்கான காலக்கெடு இன்று (30) என்று உள்நாட்டு வருவாய் துறை வரி செலுத்துவோருக்கு நினைவூட்டியுள்ளது.",
+   "ai_body": [
+    "மதிப்பீட்டின் 2025/2026 ஆண்டிற்கான இறுதி வருமான வரி செலுத்துவதற்கான காலக்கெடு இன்று (30) என்று உள்நாட்டு வருவாய் துறை வரி செலுத்துவோருக்கு நினைவூட்டியுள்ளது. நிறுவனங்கள், தனிநபர்கள் மற்றும் கூட்டாண்மை சார்பாக வருமான வரி செலுத்தும் அனைத்து வரி செலுத்துவோரும் பணம் செலுத்தும் போது 25260 என்ற கட்டணக் காலக் குறியீட்டைப் பயன்படுத்த வேண்டும் என்று திணைக்களம் கூறியது.",
+    "நிறுவனத்தின் வருமான வரி: வரி வகைக் குறியீடு 02 தனிநபர் வருமான வரி: வரி வகைக் குறியீடு 05 கூட்டு வருமான வரி: வரி வகைக் குறியீடு 09 வரி செலுத்துவோர் ஆன்லைனில் அல்லது இலங்கை வங்கியின் எந்த கிளையிலும் பணம் செலுத்தலாம். காலக்கெடுவுக்குப் பிறகு செய்யப்படும் கொடுப்பனவுகளுக்கு வட்டி மற்றும் அபராதம் விதிக்கப்படும் என்று உள்நாட்டு வருவாய் துறை எச்சரித்து, வரி செலுத்துவோர் தங்கள் நிலுவைத் தொகையை இன்றுக்குள் தீர்த்து வைக்குமாறு கேட்டுக்கொண்டது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-09-30T11:03:23.387948+00:00"
+  },
+  {
+   "id": "fcecc472e171",
+   "type": "auto",
+   "title": "செளதி ஆதரவு படைகள் - ஹூத்திகள் மோதும் ஏமனின் முன்கள நகரில் நடப்பது என்ன?",
+   "summary": "ஏமனின் மோதல் பகுதிக்கு அரிதாகக் கிடைக்கும் அணுகல் வாய்ப்பைப் பயன்படுத்தி, அரசாங்க ஆதரவுப் படைகளின் வீரர்களுடன் பிபிசி (BBC) போர்க்களத்தின் முன்னணிக் கோட்டிற்குச் செல்கிறது.",
+   "link": "https://www.bbc.com/tamil/articles/cv5yj17lrdw0o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/b03e/live/dca633d0-bab6-11f1-aa85-8f10bc212c53.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-09-30T07:12:36+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "f52b4bdfbca6",
+   "type": "auto",
+   "title": "Parliament sets dates for 2027 Budget debate and votes",
+   "summary": "The Second Reading of the Appropriation Bill for 2027, marking the presentation of the government’s Budget proposals, will take place Continue Reading The post Parliament sets dates for 2027 Budget debate and votes appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/30/parliament-sets-dates-for-2027-budget-debate-and-votes/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/08/K-web-pix-21.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-30T06:36:41+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 2688
+  },
+  {
+   "id": "2e6a89c4bbe7",
+   "type": "auto",
+   "title": "76-year-old man kills wife, dies by suicide",
+   "summary": "A 76-year-old man has died by suicide after allegedly killing his 75-year-old wife at their home in the Kirindiwela area Continue Reading The post 76-year-old man kills wife, dies by suicide appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/30/76-year-old-man-kills-wife-dies-by-suicide/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Kirindiwela.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-30T06:32:02+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 642
+  },
+  {
+   "id": "dbc44d0d90f0",
+   "type": "auto",
+   "title": "Protests grow across the North-East over the removal of Lt Col Thileepan's statue",
+   "summary": "Protesters gather at Gandhi Park in Batticaloa to condemn the removal of the Thileepan statue at Nallur Protests have spread across the Tamil homeland since Sri Lankan police removed Lt Col Thileepan's statue from his memorial at Nallur on Sunday, with demonstrations held in districts across the…",
+   "link": "http://www.tamilguardian.com/content/thileepan-statue-protests-draft",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/260929%20thileepan%20statue%20protests1/260929%20Batticaloa1/260929%20batti%20thileepan%20statue%20protest.jpg",
+   "lang": "en",
+   "category": "jaffna",
+   "tags": [
+    "jaffna",
+    "srilanka"
+   ],
+   "published": "2026-09-30T06:25:41+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 4519,
+   "ai_title": "லெப்டினன்ட் கர்னல் திலீபனின் சிலையை அகற்றியதற்கு எதிராக வடகிழக்கு முழுவதும் போராட்டங்கள்",
+   "title_ta": "லெப்டினன்ட் கர்னல் திலீபனின் சிலையை அகற்றியதற்கு எதிராக வடகிழக்கு முழுவதும் போராட்டங்கள்",
+   "ai_summary": "நல்லூரில் உள்ள திலீபன் சிலை அகற்றப்பட்டதைக் கண்டித்து மட்டக்களப்பில் உள்ள காந்தி பூங்காவில் ஆர்ப்பாட்டக்காரர்கள் கூடினர்.",
+   "ai_body": [
+    "நல்லூரில் உள்ள திலீபன் சிலை அகற்றப்பட்டதைக் கண்டித்து மட்டக்களப்பில் உள்ள காந்தி பூங்காவில் ஆர்ப்பாட்டக்காரர்கள் கூடினர். ஞாயிற்றுக்கிழமை நல்லூரில் உள்ள அவரது நினைவிடத்திலிருந்து லெப்டினன்ட் கர்னல் திலீபனின் சிலையை இலங்கை காவல்துறை அகற்றியதில் இருந்து தமிழர் தாயகம் முழுவதும் பரவியுள்ளது.",
+    "வடகிழக்கு மற்றும் தமிழ் அரசியல்வாதிகள், சிவில் சமூக ஆர்வலர்கள், மத பிரமுகர்கள், மாணவர்கள் மற்றும் பொது உறுப்பினர்கள் ஆகியோர் சிலை மீண்டும் நிலைநிறுத்தப்பட வேண்டும் என்று கோரி ஆர்ப்பாட்டங்கள் நடத்தப்பட்டன. திலீபனின் மரணத்தின் 39 ஆவது ஆண்டு நிறைவைக் குறிக்கும் வகையில் நாடு முழுவதும் உள்ள தமிழர்கள் காலை வேளையில் இந்த சிலை எடுத்துச் செல்லப்பட்டது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-09-30T11:03:02.120087+00:00"
+  },
+  {
+   "id": "830c2de431c6",
+   "type": "auto",
+   "title": "Five Pakistanis held as India seizes 526kg of drugs from Iranian Dhow",
+   "summary": "The Indian Coast Guard has seized 526 kilograms of heroin and methamphetamine valued at more than ₹3,000 crore from an Continue Reading The post Five Pakistanis held as India seizes 526kg of drugs from Iranian Dhow appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/30/five-pakistanis-held-as-india-seizes-526kg-of-drugs-from-iranian-dhow/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/India-drug-bust.jpg",
+   "lang": "en",
+   "category": "world",
+   "tags": [
+    "world",
+    "srilanka"
+   ],
+   "published": "2026-09-30T06:11:08+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 1151
+  },
+  {
+   "id": "ed476570fdd7",
+   "type": "auto",
+   "title": "'எனது உயிரையும் பொருட்படுத்தாமல்தான் இதை செய்தேன்' - கோவையில் காரின் மேற்கூரையில் இருந்தபடி துரத்திச் சென்றார் காவலர்",
+   "summary": "",
+   "link": "https://www.bbc.com/tamil/watch/c6804893mdj8o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/b8e5/live/24466c20-bc95-11f1-bc1f-3f186ca4140c.png",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-09-30T06:07:25+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 335
+  },
+  {
+   "id": "003d2d6f64b9",
+   "type": "auto",
+   "title": "Mano Ganesan appeals to Saudi Crown Prince for clemency for Anojan Sivarasa",
+   "summary": "Tamil Progressive Alliance (TPA) Leader Mano Ganesan has appealed to Saudi Crown Prince and Prime Minister Mohammed bin Salman to Continue Reading The post Mano Ganesan appeals to Saudi Crown Prince for clemency for Anojan Sivarasa appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/30/mano-ganesan-appeals-to-saudi-crown-prince-for-clemency-for-anojan-sivarasa/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Mano-Ganesan-Anojan-Sivarasa.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-30T06:04:55+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 1231
+  },
+  {
+   "id": "135f3960f794",
+   "type": "auto",
+   "title": "SLPP briefs US Embassy on alleged misuse of laws and concerns over democracy",
+   "summary": "The Sri Lanka Podujana Peramuna (SLPP) has met with officials of the US Embassy in Sri Lanka to raise concerns Continue Reading The post SLPP briefs US Embassy on alleged misuse of laws and concerns over democracy appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/30/slpp-briefs-us-embassy-on-alleged-misuse-of-laws-and-concerns-over-democracy/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Sagara-Kariyawasam.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "world"
+   ],
+   "published": "2026-09-30T05:49:39+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 931
+  },
+  {
+   "id": "d5f7d3b759b9",
+   "type": "auto",
+   "title": "Dollar rate today: Rupee gains slightly against USD",
+   "summary": "The Sri Lankan Rupee has appreciated slightly against the US Dollar across commercial banks in Sri Lanka today (30), compared Continue Reading The post Dollar rate today: Rupee gains slightly against USD appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/30/dollar-rate-today-rupee-gains-slightly-against-usd/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/05/US-Dollar.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "world"
+   ],
+   "published": "2026-09-30T05:46:26+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 968
+  },
+  {
+   "id": "6e89d7ead663",
+   "type": "auto",
+   "title": "அமெரிக்காவில் 41 ஆண்டு சிறையில் இருந்த மரண தண்டனை கைதிக்கு 71 வயதில் 'புதிய ஆதாரத்தால்' நடந்த திருப்பம்",
+   "summary": "அமெரிக்காவில் ஒரு பெண்ணைக் கொலை செய்ததாகக் குற்றம்சாட்டப்பட்டு, 41 ஆண்டுகள் மரண தண்டனை கைதியாக இருந்த நபர் ஒருவர் பிணையில் விடுவிக்கப்பட்டுள்ளார். புதிதாக ஆய்வு செய்யப்பட்ட டிஎன்ஏ ஆதாரங்கள் அவருக்கும் அந்தக் குற்றத்துக்கும் தொடர்பு இருப்பதை நிரூபிக்கவில்லை என்று அரசு தரப்பு வழக்கறிஞர்கள்…",
+   "link": "https://www.bbc.com/tamil/articles/cxj065d4q82po?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/2704/live/51841780-bbfc-11f1-90b9-913e4354ed35.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-09-30T05:11:48+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 4726
+  },
+  {
+   "id": "8fb1ef551888",
+   "type": "auto",
+   "title": "Court of Appeal dismisses Dilith Jayaweera’s writ petition over contempt of court matter",
+   "summary": "The Court of Appeal has dismissed without hearing a writ petition filed by MP Dilith Jayaweera challenging a determination made Continue Reading The post Court of Appeal dismisses Dilith Jayaweera’s writ petition over contempt of court matter appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/30/court-of-appeal-dismisses-dilith-jayaweeras-writ-petition-over-contempt-of-court-matter/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/06/Dilith-Jayaweera.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-09-30T05:11:23+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 660
+  },
+  {
+   "id": "ee7f09488e11",
+   "type": "auto",
+   "title": "JVP’s Tilvin Silva holds talks with Senior BJP leaders in India",
+   "summary": "Janatha Vimukthi Peramuna (JVP) General Secretary Tilvin Silva and a party delegation have held discussions with Bharatiya Janata Party (BJP) Continue Reading The post JVP’s Tilvin Silva holds talks with Senior BJP leaders in India appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/09/30/jvps-tilvin-silva-holds-talks-with-senior-bjp-leaders-in-india/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Tilvin-Silva-BJP-India.jpg",
+   "lang": "en",
+   "category": "world",
+   "tags": [
+    "world",
+    "srilanka"
+   ],
+   "published": "2026-09-30T04:53:40+00:00",
+   "fetched": "2026-09-30T11:00:33.121511+00:00",
+   "page_chars": 1196
+  },
   {
    "id": "005657ec9ef1",
    "type": "auto",
@@ -8523,523 +9068,6 @@
    ],
    "ai_model": "mymemory",
    "ai_at": "2026-09-26T18:01:13.606657+00:00"
-  },
-  {
-   "id": "33f23631a264",
-   "type": "auto",
-   "title": "நீதித்துறை (திருத்தச்) சட்டமூலம் விசேட பெரும்பான்மையுடன் நிறைவேற்றம்",
-   "summary": "நீதித்துறை (திருத்தச்) சட்டமூலம் வெள்ளிக்கிழமை (25) பாராளுமன்றத்தில் விசேட பெரும்பான்மையுடன் நிறைவேற்றப்பட்டது. சட்டமூலத்திற்கு ஆதரவாக 158 வாக்குகளும், எதிராக 63 வாக்குகளும் பதிவாகின. சட்டமூலம் தொடர்பான வாக்கெடுப்பு சபாநாயகர் தலைமையில் சற்று முன்னர் பாராளுமன்றத்தில் நடைபெற்றது.",
-   "link": "https://www.virakesari.lk/article/261310",
-   "source": "வீரகேசரி",
-   "source_domain": "virakesari.lk",
-   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/261310/thumb_large_saba.png",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T14:42:00+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_fails": 2
-  },
-  {
-   "id": "88974c8f41da",
-   "type": "auto",
-   "title": "ஆசிய விளையாட்டு விழா 400 மீற்றரில் காலிங்க குமாரகேவுக்கு பதக்கம் கிடைப்பது எளிதல்ல",
-   "summary": "ஜப்பானில் நடைபெற்றுவரும் 20ஆவது ஆசிய விளையாட்டு விழாவில் சனிக்கிழமை (26) நடைபெறவுள்ள ஆண்களுக்கான 400 மீற்றர் ஓட்டப் போட்டியில் இலங்கையின் காலிங்க குமாரகே பதக்கம் வெல்வதாக இருந்தால் கடுமையாக முயற்சிக்க வேண்டிவரும். இந்த வருட ஆசிய விளையாட்டு விழாவில் இலங்கையின் ஈட்டி எறிதல் வீரர் ருமேஷ் தரங்க…",
-   "link": "https://www.virakesari.lk/article/261309",
-   "source": "வீரகேசரி",
-   "source_domain": "virakesari.lk",
-   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/261309/thumb_large_neel.png",
-   "lang": "ta",
-   "category": "sports",
-   "tags": [
-    "sports",
-    "srilanka"
-   ],
-   "published": "2026-09-25T14:36:00+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_fails": 2
-  },
-  {
-   "id": "34bafadf9f81",
-   "type": "auto",
-   "title": "Sri Lanka passes 22nd Amendment as opposition warns of threat to judicial independence",
-   "summary": "The Supreme Court of Sri Lanka in Colombo. Photograph: Mystìc / Wikimedia Commons The Sri Lankan parliament has passed the 22nd Amendment to the constitution, raising the retirement ages of superior court judges, with the opposition warning that the change undermines judicial independence and the…",
-   "link": "http://www.tamilguardian.com/content/sri-lanka-passes-22nd-amendment-opposition-warns-threat-judicial-independence",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "https://www.tamilguardian.com/sites/default/files/Image/pictures/2020/SL%20Government/Supreme_Court_Colombo.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "jaffna"
-   ],
-   "published": "2026-09-25T14:31:15+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_chars": 3722,
-   "ai_title": "நீதித்துறை சுதந்திரத்திற்கு அச்சுறுத்தல் இருப்பதாக எதிர்க்கட்சி எச்சரித்ததால் இலங்கை 22 ஆவது திருத்தத்தை நிறைவேற்றியது",
-   "title_ta": "நீதித்துறை சுதந்திரத்திற்கு அச்சுறுத்தல் இருப்பதாக எதிர்க்கட்சி எச்சரித்ததால் இலங்கை 22 ஆவது திருத்தத்தை நிறைவேற்றியது",
-   "ai_summary": "கொழும்பில் உள்ள இலங்கை உச்ச நீதிமன்றம்.",
-   "ai_body": [
-    "கொழும்பில் உள்ள இலங்கை உச்ச நீதிமன்றம். புகைப்படம்: மிஸ்டிக்/ விக்கிமீடியா காமன்ஸ் உயர் நீதிமன்ற நீதிபதிகளின் ஓய்வூதிய வயதை உயர்த்துவதன் மூலம் இலங்கை பாராளுமன்றம் அரசியலமைப்பின் 22 வது திருத்தத்தை நிறைவேற்றியுள்ளது, இந்த மாற்றம் நீதித்துறை சுதந்திரத்தை குறைமதிப்பிற்கு உட்படுத்துகிறது என்றும், அரசாங்கம் அதை வலியுறுத்துவது வழக்கு பின்னிணைப்புகளை அகற்றுவதாகும் என்றும் எதிர்க்கட்சி எச்சரித்துள்ளது.",
-    "மூன்றாவது வாசிப்பு வெள்ளிக்கிழமை 158 வாக்குகளால் 63 க்கு எதிராக நிறைவேற்றப்பட்டது, எந்தவொரு வாக்கெடுப்பும் இல்லாமல், 95 பெரும்பான்மை மற்றும் தேவைப்படும் மூன்றில் இரண்டு பங்கு சிறப்பு பெரும்பான்மையை விட வசதியாக இருந்தது. இரண்டு நாள் விவாதத்திற்குப் பிறகு அதே விளிம்பால் நடத்தப்பட்ட இரண்டாவது வாசிப்பு.",
-    "அதனுடன் கூடிய நீதித்துறை (திருத்த) மசோதா 158 வாக்குகளால் 62 க்கு எதிராக நிறைவேற்றப்பட்டது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-09-26T18:09:49.531750+00:00"
-  },
-  {
-   "id": "3b3c81a8df18",
-   "type": "auto",
-   "title": "மட்டக்களப்பில் புற்றுநோய் கட்டுப்பாடு மற்றும் தடுப்பு தொடர்பான விசேட மீளாய்வுக் கூட்டம்",
-   "summary": "மட்டக்களப்பு மாவட்டத்திற்கான புற்றுநோயை கட்டுப்படுத்தலும் தடுத்தலும் தொடர்பான விசேட மீளாய்வு கூட்டமொன்று மட்டக்களப்பு பிராந்திய சுகாதார சேவைகள் பணிமனையில் இடம்பெற்றுள்ளது. மட்டக்களப்பு மாவட்ட தொற்றா நோய்க்குரிய பொறுப்பு வைத்திய அதிகாரி டாக்டர் ருதேசன் ஏற்பாட்டிலும் பிராந்திய சுகாதார சேவைகள் பிரதிப்…",
-   "link": "https://www.virakesari.lk/article/261308",
-   "source": "வீரகேசரி",
-   "source_domain": "virakesari.lk",
-   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/261308/thumb_large_suga.png",
-   "lang": "ta",
-   "category": "jaffna",
-   "tags": [
-    "jaffna"
-   ],
-   "published": "2026-09-25T14:26:00+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_fails": 2
-  },
-  {
-   "id": "b7f3d3c4d392",
-   "type": "auto",
-   "title": "22nd Amendment to the Constitution passed in Parliament",
-   "summary": "The Third Reading of the Twenty-Second Amendment to the Constitution Bill was passed with amendments by a special majority in Continue Reading The post 22nd Amendment to the Constitution passed in Parliament appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/09/25/22nd-amendment-to-the-constitution-passed-in-parliament/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Kalani-4.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T13:58:46+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_chars": 349
-  },
-  {
-   "id": "e3ef095a8e8f",
-   "type": "auto",
-   "title": "அரசியலமைப்பின் 22ஆவது திருத்தம் 95 மேலதிக வாக்குகளால் நிறைவேற்றம்",
-   "summary": "அரசியலமைப்பின் 22ஆவது திருத்தச் சட்டமூலம் பாராளுமன்றத்தில் 95 மேலதிக வாக்குகளால் நிறைவேற்றப்பட்டுள்ளது. வெள்ளிக்கிழமை (25) மாலை நடைபெற்ற வாக்கெடுப்பில், திருத்தச் சட்டமூலத்திற்கு ஆதரவாக 158 பாராளுமன்ற உறுப்பினர்களும், எதிராக 63 உறுப்பினர்களும் வாக்களித்துள்ளனர். இதன்படி, 95 மேலதிக வாக்குகளுடன்…",
-   "link": "https://www.virakesari.lk/article/261307",
-   "source": "வீரகேசரி",
-   "source_domain": "virakesari.lk",
-   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/261307/thumb_large_dat.png",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "jaffna"
-   ],
-   "published": "2026-09-25T13:56:00+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_fails": 2
-  },
-  {
-   "id": "d1c774dae137",
-   "type": "auto",
-   "title": "22 ஆவது திருத்தச் சட்டமூலம் பாராளுமன்றில் நிறைவேற்றம்",
-   "summary": "அரசியலமைப்பின் 22 ஆவது திருத்தச் சட்டமூலம் பாராளுமன்றில் 95 மேலதிக வாக்குகளால் நிறைவேறியுள்ளது. பாராளுமன்றில் இன்று (25) மாலை இடம்பெற்ற குறித்த சட்டமூலத்தின் இரண்டாம் வாசிப்பின் போதான வாக்கெடுப்பின்",
-   "link": "https://adaderanatamil.lk/news/cmuh0rmef000n356ommpes6id",
-   "source": "அத தெரண தமிழ்",
-   "source_domain": "adaderanatamil.lk",
-   "image": "https://ada-derana-prod-tamil-news-temp.s3.amazonaws.com/news-articles/cmuh0rmef000n356ommpes6id/MediaFile_20260925_192205_217.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T13:52:05+00:00",
-   "fetched": "2026-09-25T20:26:07.786832+00:00",
-   "page_fails": 2
-  },
-  {
-   "id": "18a4c5bf6574",
-   "type": "auto",
-   "title": "ராமர் பாலத்துடன் தொடர்புடைய 3வது மணல் திட்டை நோக்கி படகு சேவை",
-   "summary": "உலக சுற்றுலா தின விழாவையொட்டி மன்னார் மாவட்டத்தில் முக்கியமான ராமர் பாலத்துடன் தொடர்புடைய 8 மணல் திட்டுகளையும் பார்ப்பதற்குரிய ஏற்பாடுகள் மேற்கொள்ளப்பட்ட நிலையில் இன்றைய தினம் வெள்ளிக்கிழமை (25) காலை வெள்ளோட்ட நடவடிக்கை முன்னெடுக்கப்பட்டது.",
-   "link": "https://adaderanatamil.lk/news/cmuh0bmap000m356oaqe197zy",
-   "source": "அத தெரண தமிழ்",
-   "source_domain": "adaderanatamil.lk",
-   "image": null,
-   "lang": "ta",
-   "category": "jaffna",
-   "tags": [
-    "jaffna",
-    "world",
-    "srilanka"
-   ],
-   "published": "2026-09-25T13:39:41+00:00",
-   "fetched": "2026-09-26T01:21:19.592137+00:00",
-   "page_fails": 2
-  },
-  {
-   "id": "4dc90cb239ba",
-   "type": "auto",
-   "title": "European Parliament delegation discusses GSP+ and Constitutional reforms",
-   "summary": "A visiting delegation from the European Parliament met with Sri Lankan parliamentary leaders on September 24, 2026, where discussions highlighted Continue Reading The post European Parliament delegation discusses GSP+ and Constitutional reforms appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/09/25/european-parliament-delegation-discusses-gsp-and-constitutional-reforms-in-sri-lanka/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Parliament-delegation.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T13:32:54+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_chars": 1859,
-   "ai_title": "ஐரோப்பிய பாராளுமன்ற பிரதிநிதிகள் குழு GSP+ மற்றும் அரசியலமைப்பு சீர்திருத்தங்கள் பற்றி விவாதிக்கிறது",
-   "title_ta": "ஐரோப்பிய பாராளுமன்ற பிரதிநிதிகள் குழு GSP+ மற்றும் அரசியலமைப்பு சீர்திருத்தங்கள் பற்றி விவாதிக்கிறது",
-   "ai_summary": "ஐரோப்பிய பாராளுமன்றத்திலிருந்து வருகை தரும் தூதுக்குழு செப்டம்பர் 24, 2026 அன்று இலங்கை நாடாளுமன்றத் தலைவர்களைச் சந்தித்தது, அங்கு ஐரோப்பிய ஒன்றியத்தின் பொது முன்னுரிமைகள் பிளஸ் (GSP+) கட்டமைப்பின் கீழ் தொடர்ந்து ஈடுபடுவதற்கும், தீவின் சமூக-பொருளாதார வளர்ச்சி மற்றும் சர்வதேச தரங்களுக்கு அதன் பங்களிப்புக்கும் விவாதங்கள் பாராட்டுக்களை எடுத்துரைத்தன.",
-   "ai_body": [
-    "ஐரோப்பிய பாராளுமன்றத்திலிருந்து வருகை தரும் தூதுக்குழு செப்டம்பர் 24, 2026 அன்று இலங்கை நாடாளுமன்றத் தலைவர்களைச் சந்தித்தது, அங்கு ஐரோப்பிய ஒன்றியத்தின் பொது முன்னுரிமைகள் பிளஸ் (GSP+) கட்டமைப்பின் கீழ் தொடர்ந்து ஈடுபடுவதற்கும், தீவின் சமூக-பொருளாதார வளர்ச்சி மற்றும் சர்வதேச தரங்களுக்கு அதன் பங்களிப்புக்கும் விவாதங்கள் பாராட்டுக்களை எடுத்துரைத்தன. ஐரோப்பிய நாடாளுமன்ற உறுப்பினர் தலைமையிலான தூதுக்குழுவின் சந்திப்பின் போது பேராசிரியர்.",
-    "அரசியலமைப்பு விவகாரங்களுக்கான ஐரோப்பிய பாராளுமன்றக் குழுவின் (AFCO) தலைவர் ஸ்வென் சைமன், பாராளுமன்ற சபாநாயகர் டாக்டர் ஜகத் விக்கிரமரத்ன பாராளுமன்ற ஒத்துழைப்பை வலுப்படுத்துவதை வலியுறுத்தினார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-09-26T18:09:52.412449+00:00"
-  },
-  {
-   "id": "7c0cc5122b2b",
-   "type": "auto",
-   "title": "வங்காள விரிகுடாவில் நிலைகொண்டுள்ள ஆழமான தாழமுக்கம் அடுத்த 24 மணிநேரத்தில் வலுவிழக்கும்",
-   "summary": "வங்காள விரிகுடா கடற்பரப்புகளுக்கு மேலாக விருத்தியடைந்த ஆழமான தாழமுக்கம் அடுத்த 24 மணித்தியாலங்களில் படிப்படியாக குறைவடையும் என்று வளிமண்டவிலயல் திணைக்களம் தெரிவித்துள்ளது. மேல், சப்ரகமுவ, மத்திய, வடமேல், மற்றும் தென் மாகாணங்களிலும் கண்டி மற்றும் நுவரெலியா மாவட்டத்திலும் அவ்வப்போது சுமார் 75 மி.மீ…",
-   "link": "https://www.virakesari.lk/article/261306",
-   "source": "வீரகேசரி",
-   "source_domain": "virakesari.lk",
-   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/261306/thumb_large_valimandalaviyal-thinaikkalam.png",
-   "lang": "ta",
-   "category": "jaffna",
-   "tags": [
-    "jaffna"
-   ],
-   "published": "2026-09-25T13:32:00+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_fails": 2
-  },
-  {
-   "id": "22df090f9641",
-   "type": "auto",
-   "title": "கல்முனை பிரதேச செயலகத்திற்கு நிரந்தர பிரதேச செயலாளரை நியமிக்குக! - காதர் மஸ்தான் கோரிக்கை",
-   "summary": "கல்முனை பிரதேச செயலகத்தில் கடந்த ஒன்றரை வருடங்களாக பிரதேச செயலாளர் நிரந்தரமாக நியமிக்கப்படாமல் பதில் கடமைக்காக நியமிக்கப்பட்ட ஒருவரே இன்று வரை கடமையாற்றி வருகிறார். அதனால் அரசாங்கம் நிரந்தர பிரதேச செயலாளர் ஒருவரை விரைவாக நியமிக்க நடவடிக்கை எடுக்கவேண்டும் என தொழில் கட்சி தலைவர் காதர் மஸ்தான்…",
-   "link": "https://www.virakesari.lk/article/261302",
-   "source": "வீரகேசரி",
-   "source_domain": "virakesari.lk",
-   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/261302/thumb_large_thumb_large_kathar.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T13:18:00+00:00",
-   "fetched": "2026-09-25T20:26:07.786832+00:00",
-   "page_fails": 2
-  },
-  {
-   "id": "fd6e1ba3d9e3",
-   "type": "auto",
-   "title": "இலங்கையில் நீதித்துறை சுதந்திரமாக செயற்படுகிறதா? – சிறிதரன் சபையில் கேள்வி",
-   "summary": "உலகத்தில் நீதித்துறை சுதந்திரமானதாக உள்ளபோது இலங்கையில் நீதித்துறை சுதந்திரமாக செயற்படுகிறதா என்ற கேள்விகள் எழுகின்றன. குருந்தூர் மலைக்கொரு நீதி, வெடுக்குநாறி மலைக்கொரு நீதி, கன்னியா வெந்நீர் ஊற்றுக்கு ஒரு நீதி, நாட்டில் ஏனைய இனங்களுக்கான நீதி என்று நீதி வேறுபடுத்தப்படுகிறது. மதத் தலைவர்கள்…",
-   "link": "https://www.virakesari.lk/article/261294",
-   "source": "வீரகேசரி",
-   "source_domain": "virakesari.lk",
-   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/261294/thumb_large_thumb_large_srithran.png",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world",
-    "jaffna"
-   ],
-   "published": "2026-09-25T13:16:00+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_fails": 2
-  },
-  {
-   "id": "b7577db03080",
-   "type": "auto",
-   "title": "Two arrested with Black Coral in Mount Lavinia, Ratmalana",
-   "summary": "Two suspects were arrested today (25) near the Maliban Junction in Rathmalana and the “Nisala Sevana” cemetery in Mount Lavinia Continue Reading The post Two arrested with Black Coral in Mount Lavinia, Ratmalana appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/09/25/two-arrested-with-black-coral-in-mount-lavinia-ratmalana/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/Kalani-3.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T13:13:54+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_chars": 645,
-   "ai_title": "ரத்மலானாவின் லாவினியா மலையில் கறுப்பு பவளத்துடன் இருவர் கைது",
-   "title_ta": "ரத்மலானாவின் லாவினியா மலையில் கறுப்பு பவளத்துடன் இருவர் கைது",
-   "ai_summary": "கறுப்பு பவளத்தை சட்டவிரோதமாக வைத்திருந்ததற்காக இன்று (25) ரத்மலானாவில் உள்ள மாலிபான் சந்திப்பு மற்றும் லாவீனியா மலையில் உள்ள \"நிசாலா செவானா\" கல்லறை அருகே இரண்டு சந்தேக நபர்கள் கைது செய்யப்பட்டனர்.",
-   "ai_body": [
-    "கறுப்பு பவளத்தை சட்டவிரோதமாக வைத்திருந்ததற்காக இன்று (25) ரத்மலானாவில் உள்ள மாலிபான் சந்திப்பு மற்றும் லாவீனியா மலையில் உள்ள \"நிசாலா செவானா\" கல்லறை அருகே இரண்டு சந்தேக நபர்கள் கைது செய்யப்பட்டனர். பெல்லன்விலவில் அமைந்துள்ள கொழும்பு மாவட்ட வரம்பு வன அலுவலகத்திலிருந்து விமானப்படை புலனாய்வு அதிகாரிகள் மற்றும் வனவிலங்கு அதிகாரிகள் நடத்திய கூட்டு சோதனையின் போது இந்த கைதுகள் மேற்கொள்ளப்பட்டதாக கூறப்படுகிறது.",
-    "இது தொடர்பான மேலதிக விசாரணைகள் பெல்லன்விலாவில் உள்ள கொழும்பு மாவட்ட வனவிலங்கு வரம்பு வன அலுவலகத்தினால் மேற்கொள்ளப்பட்டு வருகின்றன. இதற்கிடையில் சோதனைகள் தொடர்பான உண்மைகள் மவுண்ட் லாவீனியா மாஜிஸ்திரேட் நீதிமன்றத்தில் தெரிவிக்கப்பட வேண்டும் என்று வனவிலங்கு பாதுகாப்புத் துறை தெரிவித்துள்ளது.",
-    "(Newswire)"
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-09-26T18:09:54.835957+00:00"
-  },
-  {
-   "id": "e2603fcc2421",
-   "type": "auto",
-   "title": "அமெரிக்காவில் ஜின்பிங்: பிரமாண்டம் இருந்தாலும் பெரிதாக முன்னேற்றம் இல்லாதது ஏன்?",
-   "summary": "சீன அதிபர் ஷி ஜின்பிங்கின் அமெரிக்கப் பயணம் பற்றி இதுவரை நடந்தவற்றை பார்க்கும்போது, அது பிரமாண்ட வரவேற்புகளால் கவனம் ஈர்த்திருந்தாலும், முக்கியமான விவகாரங்களில் குறிப்பிடத்தக்க முன்னேற்றம் ஏற்பட்டதாகத் தெரியவில்லை.",
-   "link": "https://www.bbc.com/tamil/articles/c63d73ynn83xo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/3a46/live/b3788b10-b8e1-11f1-a430-4d16ee157c41.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-09-25T13:12:11+00:00",
-   "fetched": "2026-09-25T17:50:33.299189+00:00",
-   "page_chars": 5300
-  },
-  {
-   "id": "5a052c78525f",
-   "type": "auto",
-   "title": "ஷிரான் பாசிக்கின் தந்தைக்கு மீண்டும் விளக்கமறியல்",
-   "summary": "டுபாயில் இருந்து இலங்கைக்கு அழைத்து வரப்பட்ட பெருமளவிலான போதைப்பொருள் கடத்தல்காரர் எனக் கூறப்படும் ஷிரான் பாசிக்கின் தந்தையான அப்துல் ரசாக் மொஹமட் பாசிக் என்பவரை மீண்டும் எதிர்வரும் 18ஆம் திகதி வரை விளக்கமறியலில் வைக்க உத்தரவிடப்பட்டுள்ளது.",
-   "link": "https://adaderanatamil.lk/news/cmugyi4n1000l356ourbzm9s3",
-   "source": "அத தெரண தமிழ்",
-   "source_domain": "adaderanatamil.lk",
-   "image": "https://ada-derana-prod-tamil-news-temp.s3.amazonaws.com/news-articles/cmugyi4n1000l356ourbzm9s3/MediaFile_20260925_181920_899.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T12:48:39+00:00",
-   "fetched": "2026-09-25T20:26:07.786832+00:00",
-   "page_fails": 2
-  },
-  {
-   "id": "6711d8e462d0",
-   "type": "auto",
-   "title": "Bimal Rathnayake demands corrections from media over 22nd Amendment remarks",
-   "summary": "Leader of the House Minister Bimal Rathnayake has demanded corrections from several media organisations over reports that he had acknowledged Continue Reading The post Bimal Rathnayake demands corrections from media over 22nd Amendment remarks appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/09/25/bimal-rathnayake-demands-corrections-from-media-over-22nd-amendment-remarks/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/e39d459c-5304-4660-8c82-9030a97caf3a.jpeg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T12:43:53+00:00",
-   "fetched": "2026-09-25T20:41:08.616725+00:00",
-   "page_chars": 1171,
-   "ai_title": "பிமல் ரத்நாயக்க 22 ஆவது திருத்தக் கருத்துக்கள் தொடர்பாக ஊடகங்களிடமிருந்து திருத்தங்களைக் கோருகிறார்",
-   "title_ta": "பிமல் ரத்நாயக்க 22 ஆவது திருத்தக் கருத்துக்கள் தொடர்பாக ஊடகங்களிடமிருந்து திருத்தங்களைக் கோருகிறார்",
-   "ai_summary": "22 ஆவது திருத்தச் சட்டம் தொடர்பாக அரசாங்கத்திற்குள் பிளவை ஏற்படுத்தியதை தாம் ஏற்றுக்கொண்டதாக வெளியான தகவல்கள் தொடர்பில் பல ஊடக நிறுவனங்களிடம் திருத்தம் கோரியுள்ளதாக சபை அமைச்சர் பிமல் ரத்நாயக்க தெரிவித்துள்ளார்.",
-   "ai_body": [
-    "22 ஆவது திருத்தச் சட்டம் தொடர்பாக அரசாங்கத்திற்குள் பிளவை ஏற்படுத்தியதை தாம் ஏற்றுக்கொண்டதாக வெளியான தகவல்கள் தொடர்பில் பல ஊடக நிறுவனங்களிடம் திருத்தம் கோரியுள்ளதாக சபை அமைச்சர் பிமல் ரத்நாயக்க தெரிவித்துள்ளார். பாராளுமன்றத்தில் ஒரு கட்டளையை எழுப்பிய ரத்நாயக்க, தனது கருத்துக்கள் தவறாக சித்தரிக்கப்பட்டுள்ளதாகவும், முன்மொழியப்பட்ட திருத்தம் தொடர்பாக சமூகத்தில் தோன்றிய ஒரு பிரிவைக் குறிப்பிடுவதாகவும், அரசாங்கத்திற்குள் அல்ல என்றும் வலியுறுத்தினார்.",
-    "\"நான் மிகத் தெளிவாகக் கூறியது என்னவென்றால், ஒரு அரசாங்கமாக, சமூகத்தை இரண்டாகப் பிரிப்பதன் மூலம் நாங்கள் இதுவரை செயல்படவில்லை. இந்த பிரச்சினை சமூகத்திற்குள் ஒரு குறிப்பிட்ட பிளவை உருவாக்கியுள்ளது என்பதை நாங்கள் அறிவோம், அதை நாங்கள் ஏற்றுக்கொள்கிறோம்” என்று ரத்நாயக்க கூறினார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-09-26T18:09:57.240348+00:00"
-  },
-  {
-   "id": "7dfe79fbdf08",
-   "type": "auto",
-   "title": "Retired Sri Lankan navy officers remanded over 'Gun Site' disappearances",
-   "summary": "'Gun Site' - secret detention and torture site located in Trincomalee. Photography by ITJP Two retired female Sri Lankan navy officers have been remanded in custody until 5 October over the disappearance of two Tamil women abducted in Trincomalee in 2008, in a case that turns on the \"Gun Site\"…",
-   "link": "http://www.tamilguardian.com/content/retired-sri-lankan-navy-officers-remanded-over-gun-site-disappearances",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "https://www.tamilguardian.com/sites/default/files/Image/pictures/2020/SL%20military/200717%20SL%20navy%20promotion/gunsite%20(2).png",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world",
-    "jaffna"
-   ],
-   "published": "2026-09-25T12:42:29+00:00",
-   "fetched": "2026-09-25T12:54:00.438488+00:00",
-   "page_chars": 3929,
-   "ai_title": "'துப்பாக்கி தளம்' காணாமல் போனது தொடர்பாக ஓய்வுபெற்ற இலங்கை கடற்படை அதிகாரிகள் ரிமாண்ட்",
-   "title_ta": "'துப்பாக்கி தளம்' காணாமல் போனது தொடர்பாக ஓய்வுபெற்ற இலங்கை கடற்படை அதிகாரிகள் ரிமாண்ட்",
-   "ai_summary": "'துப்பாக்கி தளம்' - திருகோணமலையில் அமைந்துள்ள இரகசிய தடுப்புக்காவல் மற்றும் சித்திரவதை தளம்.",
-   "ai_body": [
-    "'துப்பாக்கி தளம்' - திருகோணமலையில் அமைந்துள்ள இரகசிய தடுப்புக்காவல் மற்றும் சித்திரவதை தளம். 2008 ஆம் ஆண்டில் திருகோணமலையில் கடத்தப்பட்ட இரண்டு தமிழ் பெண்கள் காணாமல் போனது தொடர்பாக ஓய்வுபெற்ற இரண்டு இலங்கை கடற்படை அதிகாரிகள் அக்டோபர் 5 ஆம் தேதி வரை காவலில் வைக்கப்பட்டுள்ளனர், இது கடற்படைத் தளத்திற்குள் உள்ள \"துப்பாக்கி தளம்\" நிலத்தடி தடுப்பு வசதியை இயக்குகிறது.",
-    "இருவரும் செப்டம்பர் 20 ஆம் தேதி குற்றவியல் புலனாய்வுத் துறையால் கைது செய்யப்பட்டு திருகோணமலை தலைமை மாஜிஸ்திரேட் எம் .எஸ் .எம். சம்சுதீன் முன் ஆஜர்படுத்தப்பட்டனர், அவர் அவர்களை நடத்த உத்தரவிட்டார் மற்றும் அக்டோபர் 5 ஆம் தேதி அடையாள அணிவகுப்பு நடத்த உத்தரவிட்டார்.",
-    "ஒருவர் சிலாவில் வசிக்கிறார், மற்றவர் ஹபுடேலில் வசிக்கிறார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-09-26T18:09:59.548973+00:00"
-  },
-  {
-   "id": "5d53b76e70e7",
-   "type": "auto",
-   "title": "'தமிழ் ஈழப்பெண்' என்று கூறியதற்காக எதிர்ப்பை சந்திக்கும் நடிகை - யார் இவர்?",
-   "summary": "\"நான் தமிழ் பெண். என் குடும்பம் இலங்கையைச் சேர்ந்தது. என் கலாசாரம் தமிழ். என் நாடு கனடா. என் வேர்கள் இலங்கையில் இருக்கின்றன.\" கனடா நடிகை மைத்ரேயி ராமகிருஷ்ணன் கூறிய இந்த வார்த்தைகள் சமூக வலைதளங்கள் விவாதப்பொருளாகியுள்ளன.",
-   "link": "https://www.bbc.com/tamil/articles/cq8jdn1ezz4xo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/ceaa/live/86f35a80-b8db-11f1-953d-97bd0803bc08.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-09-25T12:20:55+00:00",
-   "fetched": "2026-09-29T19:56:39.299706+00:00"
-  },
-  {
-   "id": "a90594b125a0",
-   "type": "auto",
-   "title": "வௌ்ளத்தில் மூழ்கிய நாவலப்பிட்டி பஸ் நிலையம்",
-   "summary": "நிலவும் பலத்த மழை காரணமாக நாவலப்பிட்டி பஸ் நிலையம் இன்று (25) பிற்பகலில் முழுமையாக நீரில் மூழ்கியுள்ளது. பஸ் நிலையத்தின் வடிகான் தொகுதி அடைபட்டு மழைநீர் பஸ் நிலையத்தின் ஊடாகப் பாய்ந்ததே இதற்குக் காரணம் என அங்குள்ள வர்த்தகர்கள் தெரிவிக்கின்றனர்.",
-   "link": "https://adaderanatamil.lk/news/cmugxgeyd000k356o4yv212tt",
-   "source": "அத தெரண தமிழ்",
-   "source_domain": "adaderanatamil.lk",
-   "image": "https://ada-derana-prod-tamil-news-temp.s3.amazonaws.com/news-articles/cmugxgeyd000k356o4yv212tt/MediaFile_20260925_175308_358.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T12:19:16+00:00",
-   "fetched": "2026-09-25T20:26:07.786832+00:00",
-   "page_fails": 2
-  },
-  {
-   "id": "08fe8e4a0703",
-   "type": "auto",
-   "title": "மூன்று உயர் பதவிகளுக்கு கிடைத்த அனுமதி",
-   "summary": "புதிய தூதுவர், உயர்ஸ்தானிகர் மற்றும் நிறுவனத் தலைவர் ஆகிய மூன்று நியமனங்களுக்கு உயர் பதவிகள் பற்றிய குழுவில் அனுமதி வழங்கப்பட்டது. பிரதமர் கலாநிதி ஹரிணி அமரசூரியவின் தலைமையில் அண்மையில் கூடிய உயர் பதவிகள் பற்றிய குழுவிலேயே இவ்வாறு அனுமதி வழங்கப்பட்டுள்ளது.",
-   "link": "https://adaderanatamil.lk/news/cmugwkdzj000j356o73wniuyq",
-   "source": "அத தெரண தமிழ்",
-   "source_domain": "adaderanatamil.lk",
-   "image": "https://ada-derana-prod-tamil-news-temp.s3.amazonaws.com/news-articles/cmugwkdzj000j356o73wniuyq/MediaFile_20260925_172539_992.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T11:55:40+00:00",
-   "fetched": "2026-09-25T20:26:07.786832+00:00",
-   "page_fails": 2
-  },
-  {
-   "id": "db5ef6126cf1",
-   "type": "auto",
-   "title": "சியெட் களனி நிறுவனத்தின் Fitch ‘AA+’ மதிப்பீடு தொடர்ந்து ஆறாவது ஆண்டாக நீடிப்பு",
-   "summary": "இலங்கையின் முன்னணி டயர் உற்பத்தியாளரான சியெட் களனி ஹோல்டிங்ஸ் (CEAT Kelani Holdings - CKH) நிறுவனம், Fitch Ratings நிறுவனத்திடமிருந்து பெற்றுவரும் தேசிய நீண்டகால கடன் தர மதிப்பீடான ‘AA+(lka)’ தரத்தை தொடர்ந்து ஆறாவது ஆண்டாகத் தக்கவைத்துள்ளது.",
-   "link": "https://adaderanatamil.lk/news/cmugwi9hs00062a6g9pg3qz4q",
-   "source": "அத தெரண தமிழ்",
-   "source_domain": "adaderanatamil.lk",
-   "image": "https://ada-derana-prod-tamil-news-temp.s3.amazonaws.com/news-articles/cmugwi9hs00062a6g9pg3qz4q/MediaFile_20260925_172245_165.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T11:52:44+00:00",
-   "fetched": "2026-09-25T20:26:07.786832+00:00",
-   "page_fails": 2
-  },
-  {
-   "id": "4359cb8f432f",
-   "type": "auto",
-   "title": "உங்கள் வீட்டில் சோலார் பேனல் அமைக்க ரூ.1 லட்சம் மானியம் பெறுவது எப்படி? செலவு, வங்கிக்கடன், பராமரிப்பு உள்பட முழு விவரம்",
-   "summary": "தமிழ்நாட்டில் பருவமழைக் காலத்திலும் வெயில் இன்னும் சுட்டெரிக்கிறது. இந்த வெயிலை பயன்படுத்தி சூரியஒளி மின்சாரத்தை உற்பத்தி செய்வதன் மூலம், மின் கட்டணத்தை பெருமளவில் குறைக்க முடியுமென்று மத்திய, மாநில அரசுகள் வலியுறுத்துகின்றன.",
-   "link": "https://www.bbc.com/tamil/articles/cmy5zd6np3ddo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/9a0d/live/67a93d60-b8d7-11f1-9247-0dbab683e1d2.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-09-25T11:51:23+00:00",
-   "fetched": "2026-09-25T12:54:00.438488+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "3d1b6c145c27",
-   "type": "auto",
-   "title": "British and Canadian Tamil students back Maitreyi Ramakrishnan",
-   "summary": "Maitreyi Ramakrishnan Tamil youth organisations and student unions across Britain and Canada have issued joint statements in support of the Netflix actor Maitreyi Ramakrishnan, after she was targeted by a coordinated online campaign over her affirmation of her Eelam Tamil identity. Fifteen Canadian…",
-   "link": "http://www.tamilguardian.com/content/british-and-canadian-tamil-students-back-maitreyi-ramakrishnan",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2025/Arts%20%26%20Culture/251119%20Maitreyi%20Ramakrishnan/251119%20Maitreyi%20Ramakrishnan%20(5).jpeg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna"
-   ],
-   "published": "2026-09-25T11:49:52+00:00",
-   "fetched": "2026-09-25T12:54:00.438488+00:00",
-   "page_chars": 5002,
-   "ai_title": "பிரிட்டிஷ் மற்றும் கனேடிய தமிழ் மாணவர்கள் மைத்ரேய் ராமகிருஷ்ணனை ஆதரிக்கின்றனர்",
-   "title_ta": "பிரிட்டிஷ் மற்றும் கனேடிய தமிழ் மாணவர்கள் மைத்ரேய் ராமகிருஷ்ணனை ஆதரிக்கின்றனர்",
-   "ai_summary": "நெட்ஃபிக்ஸ் நடிகர் மைத்ரேய் ராமகிருஷ்ணனுக்கு ஆதரவாக பிரிட்டன் மற்றும் கனடா முழுவதும் உள்ள தமிழ் இளைஞர் அமைப்புகளும் மாணவர் சங்கங்களும் கூட்டு அறிக்கைகளை வெளியிட்டுள்ளன.",
-   "ai_body": [
-    "நெட்ஃபிக்ஸ் நடிகர் மைத்ரேய் ராமகிருஷ்ணனுக்கு ஆதரவாக பிரிட்டன் மற்றும் கனடா முழுவதும் உள்ள தமிழ் இளைஞர் அமைப்புகளும் மாணவர் சங்கங்களும் கூட்டு அறிக்கைகளை வெளியிட்டுள்ளன. பதினைந்து கனேடிய தமிழ் மாணவர் சங்கங்கள், தமிழ் இளைஞர் அமைப்பு கனடாவுடன் இணைந்து, ராமகிருஷ்ணன் எடுத்த நிலைப்பாட்டைப் பற்றி பெருமிதம் கொள்வதாகவும், அதை அவரோடு சேர்ந்து கூறுவதாகவும் கூறின.",
-    "\"நாங்கள் ஈழத் தமிழர்கள் என்று அடையாளம் காட்டுகிறோம். நமது தனித்துவமான வரலாறு, நமது மரபுகள், நமது மாவீரரின் தியாகங்கள், நமது மூதாதையர் தாயகம் மற்றும் நமது மக்கள் ஆகியவற்றிலிருந்து நமது அடையாளம் வருகிறது.",
-    "நாங்கள் இலங்கையர்கள் அல்ல."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-09-26T18:00:48.406860+00:00"
-  },
-  {
-   "id": "ec18e238ca71",
-   "type": "auto",
-   "title": "SLIM Digis போட்டியில் தனது முதல் பங்கேற்பிலேயே வாகன துறையில் அதிக விருதுகளை வென்ற முகவராக ‘Zirateh’ சாதனை",
-   "summary": "'Zirateh' நிறுவனம் SLIM Digis விருது விழாவில் தனது முதலாவது பங்கேற்பிலேயே மூன்று விருதுகளை வென்று, வாகனத் துறையில் அதிக விருதுகளைப் பெற்ற விளம்பர நிறுவனமாக உருவெடுத்துள்ளது. வெள்ளி (Silver), வெண்கலம் (Bronze) மற்றும் இறுதிப் போட்டியாளர்",
-   "link": "https://adaderanatamil.lk/news/cmugw9dh900052a6gychjbwzm",
-   "source": "அத தெரண தமிழ்",
-   "source_domain": "adaderanatamil.lk",
-   "image": "https://ada-derana-prod-tamil-news-temp.s3.amazonaws.com/news-articles/cmugw9dh900052a6gychjbwzm/MediaFile_20260925_171626_324.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T11:46:25+00:00",
-   "fetched": "2026-09-25T20:26:07.786832+00:00",
-   "page_fails": 2
-  },
-  {
-   "id": "d93427e79a2c",
-   "type": "auto",
-   "title": "22வது திருத்தம் மூலம் நீதித்துறை நிறைவேற்றுத் துறையின் கை பொம்மையாக்கப்படுகிறது - சஜித் விசனம்",
-   "summary": "22 ஆவது திருத்தத்தின் மூலம் நீதித்துறை தொடர்பில் நாட்டு மக்களின் நம்பிக்கை சீர்குலைக்கப்பட்டுள்ளது.அத்துடன் நீதிபதிகள் மீதான மரியாதை இல்லாமல் செய்யப்பட்டு, நீதித்துறை நிறைவேற்றுத் துறையின் கை பொம்மையாக மாற்றப்படுகிறது. இது ஜனநாயக விரோதச் செயற்திட்டம் என்பதைத் தெளிவாக தெரிவிக்கிறேன் என எதிர்கட்சித்…",
-   "link": "https://www.virakesari.lk/article/261291",
-   "source": "வீரகேசரி",
-   "source_domain": "virakesari.lk",
-   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/261291/thumb_large_29.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-09-25T11:41:00+00:00",
-   "fetched": "2026-09-25T20:26:07.786832+00:00",
-   "page_fails": 2
   }
  ]
 }
