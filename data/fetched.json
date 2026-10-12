@@ -1,6 +1,821 @@
 {
- "updated": "2026-10-12T08:51:43.950177+00:00",
+ "updated": "2026-10-12T18:46:48.864572+00:00",
  "items": [
+  {
+   "id": "afa665f11624",
+   "type": "auto",
+   "title": "Sri Lankan ambassador visits death-row prisoner Anojan in Saudi Arabia",
+   "summary": "File photograph: Sivarasa Anojan Sri Lanka's ambassador to Saudi Arabia has met Sivarasa Anojan, the Eelam Tamil migrant worker on death row in Dammam prison, after embassy officials were earlier refused access to him following his family's claims that he had been attacked by another inmate. The…",
+   "link": "http://www.tamilguardian.com/content/sri-lankan-ambassador-visits-death-row-prisoner-anojan-saudi-arabia",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/261010anojan/images.jpeg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "jaffna"
+   ],
+   "published": "2026-10-12T16:58:04+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 2289,
+   "ai_title": "இலங்கை தூதர் சவுதி அரேபியாவில் மரண தண்டனை கைதி அனோஜனை பார்வையிட்டார்",
+   "title_ta": "இலங்கை தூதர் சவுதி அரேபியாவில் மரண தண்டனை கைதி அனோஜனை பார்வையிட்டார்",
+   "ai_summary": "சவூதி அரேபியாவிற்கான இலங்கையின் தூதர் தம்மம் சிறையில் மரண தண்டனையில் ஈழத் தமிழ் புலம்பெயர்ந்த தொழிலாளியான சிவராசா அனோஜனை சந்தித்தார், அவர் மற்றொரு கைதியால் தாக்கப்பட்டார் என்ற அவரது குடும்பத்தினரின் கூற்றுக்களைத் தொடர்ந்து தூதரக அதிகாரிகள் அவரை அணுக மறுத்த பின்னர்.",
+   "ai_body": [
+    "சவூதி அரேபியாவிற்கான இலங்கையின் தூதர் தம்மம் சிறையில் மரண தண்டனையில் ஈழத் தமிழ் புலம்பெயர்ந்த தொழிலாளியான சிவராசா அனோஜனை சந்தித்தார், அவர் மற்றொரு கைதியால் தாக்கப்பட்டார் என்ற அவரது குடும்பத்தினரின் கூற்றுக்களைத் தொடர்ந்து தூதரக அதிகாரிகள் அவரை அணுக மறுத்த பின்னர். தூதர் ஓ.எல்.",
+    "அமீர் அஜ்வாத், அக்டோபர் 8 ஆம் தேதி தம்மம் மத்திய சிறைச்சாலைக்கு விஜயம் செய்ததாக ரியாத்தில் உள்ள இலங்கை தூதரகம் தெரிவித்துள்ளது . அவர் அனோஜனின் கவலைகளுக்கு செவிசாய்த்தார், நேரடி தகவல்தொடர்புக்கான தனது தொடர்பு விவரங்களை அவருக்கு வழங்கினார் மற்றும் தூதரக மற்றும் சட்ட உதவிகளை வழங்குவதற்கான தூதரகத்தின் உறுதிப்பாட்டை மீண்டும் உறுதிப்படுத்தினார்.",
+    "அனோஜன் நல்ல ஆரோக்கியத்துடன் இருப்பதாகவும், சவுதி சிறை அதிகாரிகள் அவரது நலனுக்காகக் கலந்து கொள்வதாகவும் அஜ்வத் விஜயத்திற்குப் பிறகு கூறினார்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-12T18:49:09.600859+00:00"
+  },
+  {
+   "id": "dbc66a12521f",
+   "type": "auto",
+   "title": "வெளிநாட்டில் 3 இந்தியர்களை கடத்தி கோடிக்கணக்கில் பேரமா? அமெரிக்கா ஆசையில் ஏமாந்த குடும்பம்",
+   "summary": "செப்டம்பர் 22 அன்று தான் கனடா வந்து சேர்ந்ததாக மம்தா தனது தந்தை கிரித் செளகானிடம் போனில் தெரிவித்தார். அதன்பிறகு செப்டம்பர் 29 வரை குடும்பத்தினரால் அவரை தொடர்பு கொள்ளமுடியவில்லை, இது தொடர்பாகக் காவல் நிலையத்தில் புகார் அளிக்கப்பட்டது",
+   "link": "https://www.bbc.com/tamil/articles/c8x23e36437eo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/972a/live/e3fa9080-c313-11f1-8f04-85217d686658.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-10-12T16:36:14+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "7199055cdd69",
+   "type": "auto",
+   "title": "Sri Lankan government denies political revenge against Rajapaksas after former first lady's arrest",
+   "summary": "File photograph A Sri Lankan government minister has rejected opposition claims that the National People's Power government is pursuing political revenge against the Rajapaksa family, days after the former first lady Shiranthi Rajapaksa was arrested by the Bribery Commission. Speaking to the media…",
+   "link": "http://www.tamilguardian.com/content/sri-lankan-government-denies-political-revenge-against-rajapaksa-family",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/260309disappeared/images%20(1).jpeg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "jaffna"
+   ],
+   "published": "2026-10-12T16:35:48+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 2567,
+   "ai_title": "முன்னாள் முதல் பெண்மணியின் கைதுக்குப் பிறகு ராஜபக்சேவுக்கு எதிரான அரசியல் பழிவாங்கலை இலங்கை அரசு மறுக்கிறது",
+   "title_ta": "முன்னாள் முதல் பெண்மணியின் கைதுக்குப் பிறகு ராஜபக்சேவுக்கு எதிரான அரசியல் பழிவாங்கலை இலங்கை அரசு மறுக்கிறது",
+   "ai_summary": "முன்னாள் முதல் பெண்மணி ஷிரந்தி ராஜபக்சே லஞ்ச ஆணைக்குழுவால் கைது செய்யப்பட்ட சில நாட்களுக்குப் பிறகு, ராஜபக்ச குடும்பத்திற்கு எதிராக தேசிய மக்கள் சக்தி அரசாங்கம் அரசியல் பழிவாங்கலைத் தொடர்கிறது என்ற எதிர்க்கட்சி கூற்றுக்களை இலங்கை அரசாங்க அமைச்சர் ஒருவர் நிராகரித்துள்ளார்.",
+   "ai_body": [
+    "முன்னாள் முதல் பெண்மணி ஷிரந்தி ராஜபக்சே லஞ்ச ஆணைக்குழுவால் கைது செய்யப்பட்ட சில நாட்களுக்குப் பிறகு, ராஜபக்ச குடும்பத்திற்கு எதிராக தேசிய மக்கள் சக்தி அரசாங்கம் அரசியல் பழிவாங்கலைத் தொடர்கிறது என்ற எதிர்க்கட்சி கூற்றுக்களை இலங்கை அரசாங்க அமைச்சர் ஒருவர் நிராகரித்துள்ளார். சனிக்கிழமையன்று கொழும்பில் ஊடகங்களிடம் பேசிய சுகாதார பிரதி அமைச்சர் ஹன்சாகா விஜேமுனி, பழிவாங்கும் நோக்கத்தை அரசாங்கம் கொண்டிருக்கவில்லை என்றும் பொருளாதாரத்தை மீண்டும் கட்டியெழுப்புவதில் கவனம் செலுத்தி வருவதாகவும் கூறினார்.",
+    "பழிவாங்கல் அதன் நோக்கமாக இருந்திருந்தால், அது முன்னதாக குடும்பத்திற்கு எதிராக செயல்பட்டிருக்கலாம் என்று அவர் கூறினார். \"நாட்டின் சரிந்த பொருளாதாரத்தை மீண்டும் கட்டியெழுப்புவதே எங்கள் பொறுப்பு.",
+    "பழிவாங்கும் அரசியல் எங்கள் நிகழ்ச்சி நிரலின் ஒரு பகுதியாக இல்லை\" என்று அவர் கூறினார்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-12T18:49:11.424949+00:00"
+  },
+  {
+   "id": "934ccb1e1f7e",
+   "type": "auto",
+   "title": "Riyadh International Airport to remain closed until October 17",
+   "summary": "Saudi Arabia has extended the closure of King Khalid International Airport in Riyadh until October 17 following a series of Continue Reading The post Riyadh International Airport to remain closed until October 17 appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/riyadh-international-airport-to-remain-closed-until-october-17/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261012_114427_X.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T16:19:01+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 1347,
+   "ai_title": "ரியாத் சர்வதேச விமான நிலையம் அக்டோபர் 17 வரை மூடப்படும்",
+   "title_ta": "ரியாத் சர்வதேச விமான நிலையம் அக்டோபர் 17 வரை மூடப்படும்",
+   "ai_summary": "யேமனின் ஈரானுடன் இணைந்த ஹவுத்தி கிளர்ச்சியாளர்களால் தொடர்ச்சியான கொடிய தாக்குதல்களைத் தொடர்ந்து ரியாத்தில் உள்ள கிங் காலித் சர்வதேச விமான நிலையத்தை அக்டோபர் 17 வரை சவுதி அரேபியா மூடியுள்ளது.",
+   "ai_body": [
+    "யேமனின் ஈரானுடன் இணைந்த ஹவுத்தி கிளர்ச்சியாளர்களால் தொடர்ச்சியான கொடிய தாக்குதல்களைத் தொடர்ந்து ரியாத்தில் உள்ள கிங் காலித் சர்வதேச விமான நிலையத்தை அக்டோபர் 17 வரை சவுதி அரேபியா மூடியுள்ளது. ராய்ட்டர்ஸின் கூற்றுப்படி, திங்களன்று (அக்டோபர் 12) வெளியிடப்பட்ட விமானப் பயணங்களுக்கான அறிவிப்பு (NOTAM), சவுதி அரேபியாவில் அக்டோபர் 18 நள்ளிரவுக்கு சமமான அக்டோபர் 17 அன்று இரவு 9 மணி வரை விமான நிலையம் மூடப்பட்டிருக்கும் என்பதை உறுதிப்படுத்தியது.",
+    "பாதுகாப்பு ஆய்வுகளை முடிக்க அதிகாரிகளை அனுமதிப்பதற்கும், விமான நிலைய வசதிகள் மீண்டும் செயல்பாடுகளைத் தொடங்கத் தயாராக இருப்பதை உறுதி செய்வதற்கும் இந்த இடைநீக்கம் நீட்டிக்கப்பட்டதாக சவுதி அரேபியாவின் பொது சிவில் விமானப் போக்குவரத்து ஆணையம் தெரிவித்துள்ளது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-12T18:49:13.331274+00:00"
+  },
+  {
+   "id": "8e983a9855a5",
+   "type": "auto",
+   "title": "Eelam Tamil refugees in Tamil Nadu seek Indian citizenship and passports",
+   "summary": "Residents of the Sri Lankan Tamil rehabilitation camp at Kulathulvaipatti, in Thoothukudi district, appeal for basic amenities in May. File photograph Eelam Tamil refugees living in camps across Tamil Nadu have urged the state government to help them obtain Indian citizenship and passports, after…",
+   "link": "http://www.tamilguardian.com/content/sri-lankan-tamil-refugees-tamil-nadu-seek-indian-citizenship-and-passports",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/260529refugee/IMG_20260529_155151_220.jpg",
+   "lang": "en",
+   "category": "sports",
+   "tags": [
+    "sports",
+    "srilanka",
+    "world",
+    "jaffna"
+   ],
+   "published": "2026-10-12T16:14:51+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 2768
+  },
+  {
+   "id": "22372ab0d065",
+   "type": "auto",
+   "title": "இலங்கையில் மகிந்த ராஜபக்ஸ, அவரது மனைவி இருவரும் திடீரென மருத்துவமனையில் அனுமதி",
+   "summary": "இலங்கையில் முன்னாள் ஜனாதிபதி மஹிந்த ராஜபக்ஸவும், அவரது மனைவியான ஷிரந்தி ராஜபக்ஸவும் ஒரே நாளில் அடுத்தடுத்து மருத்துவமனைகளில் அனுமதிக்கப்பட்டுள்ளனர். அதற்கு என்ன காரணம்?",
+   "link": "https://www.bbc.com/tamil/articles/c6rrydrw1nwgo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/dfbb/live/a7ee1080-c656-11f1-9a39-31b474234113.jpg",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "world"
+   ],
+   "published": "2026-10-12T16:10:19+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 4176,
+   "ai_title": "மஹிந்த ராஜபக்ஷவும் அவரது மனைவியும் இலங்கையில் மருத்துவமனையில் அனுமதிக்கப்பட்டனர்",
+   "title_ta": "மஹிந்த ராஜபக்ஷவும் அவரது மனைவியும் இலங்கையில் மருத்துவமனையில் அனுமதிக்கப்பட்டனர்",
+   "ai_summary": "இலங்கை முன்னாள் ஜனாதிபதி மஹிந்த ராஜபக்ஷவின் மனைவி ஷிரந்தி ராஜபக்ஷ கொழும்பு தேசிய வைத்தியசாலையில் அனுமதிக்கப்பட்டுள்ளதாக சிறைச்சாலைகள் தலைமையகம் தெரிவித்துள்ளது.",
+   "ai_body": [
+    "இலங்கை முன்னாள் ஜனாதிபதி மஹிந்த ராஜபக்ஷவின் மனைவி ஷிரந்தி ராஜபக்ஷ கொழும்பு தேசிய வைத்தியசாலையில் அனுமதிக்கப்பட்டுள்ளதாக சிறைச்சாலைகள் தலைமையகம் தெரிவித்துள்ளது. பிபிசி சிங்கள சேவைக்கு பேட்டியளித்த செனகல் சிறைச்சாலைகளின் ஊடகப் பேச்சாளர் மற்றும் சிறைச்சாலைகள் ஆணையாளர் ஷிரந்தி ராஜபக்ஷ, விசேட வைத்தியரின் பரிந்துரையின் பேரில் இன்று (ஒக்டோபர் 12) கொழும்பு தேசிய வைத்தியசாலைக்கு கொண்டு செல்லப்பட்டார்.",
+    "\"சிறைச்சாலை வைத்தியசாலையின் விசேட வைத்தியரின் பரிந்துரையின் பேரில் சிராந்தி ராஜபக்ஷ இன்று கொழும்பு தேசிய வைத்தியசாலையில் அனுமதிக்கப்பட்டுள்ளார். அவரை பரிசோதித்த இதயநோயியல் நிபுணர் ஒருவர், அவரை கொழும்பு தேசிய வைத்தியசாலையில் அனுமதிக்குமாறு பரிந்துரைத்தார்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-12T18:49:19.646043+00:00"
+  },
+  {
+   "id": "529cf9ea3e9e",
+   "type": "auto",
+   "title": "IMF exit or another agreement? President reveals what’s next",
+   "summary": "President Anura Kumara Dissanayake says Sri Lanka has not ruled out entering another International Monetary Fund (IMF) programme after the Continue Reading The post IMF exit or another agreement? President reveals what’s next appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/imf-exit-or-another-agreement-president-reveals-whats-next/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261012_212601_Editor-Lite.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T15:57:06+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 2596,
+   "ai_title": "IMF வெளியேறுமா அல்லது வேறு ஒப்பந்தமா? அடுத்து என்ன என்பதை ஜனாதிபதி வெளிப்படுத்துகிறார்",
+   "title_ta": "IMF வெளியேறுமா அல்லது வேறு ஒப்பந்தமா? அடுத்து என்ன என்பதை ஜனாதிபதி வெளிப்படுத்துகிறார்",
+   "ai_summary": "தற்போதைய ஏற்பாடு முடிவடைந்த பின்னர் இலங்கை மற்றொரு சர்வதேச நாணய நிதியத்தின் (ஐ.எம் .எஃப்) திட்டத்தில் நுழைவதை நிராகரிக்கவில்லை, ஆனால் அரசாங்கம் இன்னும் இறுதி முடிவை எடுக்கவில்லை என்று ஜனாதிபதி அனுர குமார திசாநாயக்க கூறினார்.",
+   "ai_body": [
+    "தற்போதைய ஏற்பாடு முடிவடைந்த பின்னர் இலங்கை மற்றொரு சர்வதேச நாணய நிதியத்தின் (ஐ.எம் .எஃப்) திட்டத்தில் நுழைவதை நிராகரிக்கவில்லை, ஆனால் அரசாங்கம் இன்னும் இறுதி முடிவை எடுக்கவில்லை என்று ஜனாதிபதி அனுர குமார திசாநாயக்க கூறினார். இலங்கை வர்த்தக சபை ஏற்பாடு செய்திருந்த கலந்துரையாடலின் போது உரையாற்றிய ஜனாதிபதி, தற்போதுள்ள சர்வதேச நாணய நிதியத் திட்டத்தின் கீழ் அடையப்பட்ட பொருளாதார ஸ்திரத்தன்மையைப் பாதுகாக்கும் அதே வேளையில் பொருளாதார வளர்ச்சியை மையமாகக் கொண்ட புதிய ஒப்பந்தத்தின் சாத்தியக்கூறுகளை அரசாங்கம் ஆராய்ந்து வருவதாகக் கூறினார்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-12T18:49:21.941686+00:00"
+  },
+  {
+   "id": "268ea6ce66bf",
+   "type": "auto",
+   "title": "Palaly residents protest for 17th week demanding return of military-held lands",
+   "summary": "Palaly residents at Sunday's protest demanding the return of their lands Displaced residents of Palaly protested for the 17th consecutive Sunday, demanding the return of ancestral lands held by the Sri Lankan military for 36 years. The residents, displaced from Palaly decades ago, have gathered…",
+   "link": "http://www.tamilguardian.com/content/palaly-residents-continue-17th-week-protest-demanding-release-ancestral-lands",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/261011palaly/33%20(3).jpeg",
+   "lang": "en",
+   "category": "jaffna",
+   "tags": [
+    "jaffna",
+    "srilanka"
+   ],
+   "published": "2026-10-12T15:55:44+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 2045,
+   "ai_title": "இராணுவம் வசம் உள்ள நிலங்களை மீள ஒப்படைக்கக் கோரி பலாலி குடியிருப்பாளர்கள் 17வது வாரமாக ஆர்ப்பாட்டம்",
+   "title_ta": "இராணுவம் வசம் உள்ள நிலங்களை மீள ஒப்படைக்கக் கோரி பலாலி குடியிருப்பாளர்கள் 17வது வாரமாக ஆர்ப்பாட்டம்",
+   "ai_summary": "36 ஆண்டுகளாக இலங்கை இராணுவம் வைத்திருந்த மூதாதையர் நிலங்களை திருப்பித் தரக் கோரி பலாலி மக்கள் ஞாயிற்றுக்கிழமை ஆர்ப்பாட்டத்தில் ஈடுபட்டனர்.",
+   "ai_body": [
+    "36 ஆண்டுகளாக இலங்கை இராணுவம் வைத்திருந்த மூதாதையர் நிலங்களை திருப்பித் தரக் கோரி பலாலி மக்கள் ஞாயிற்றுக்கிழமை ஆர்ப்பாட்டத்தில் ஈடுபட்டனர். பல தசாப்தங்களுக்கு முன்னர் பலாலியில் இருந்து இடம்பெயர்ந்த குடியிருப்பாளர்கள், ஜூன் முதல் ஒவ்வொரு ஞாயிற்றுக்கிழமையும் தங்கள் நிலங்களை விடுவிக்குமாறு அதிகாரிகளுக்கு அழுத்தம் கொடுத்து, வீடு திரும்பவும், தங்கள் வாழ்வாதாரங்களை மீண்டும் கட்டியெழுப்பவும், தங்கள் பாரம்பரிய சொத்தை மீட்டெடுக்கவும் அனுமதிக்கும் ஒரு நிரந்தர தீர்வுக்கு அழைப்பு விடுத்துள்ளனர்.",
+    "36 ஆண்டுகளாக சமூகம் தங்கள் வீடுகளை விட்டு விலகி வாழ்ந்து வருவதாக ஒரு வயதான குடியிருப்பாளர் கூறினார்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-12T18:49:02.620179+00:00"
+  },
+  {
+   "id": "08c3a211e485",
+   "type": "auto",
+   "title": "அரிசி விலை கிடுகிடு உயர்வு: தமிழ்நாட்டில் அரிசி தட்டுப்பாடு என்பது உண்மையா?",
+   "summary": "அண்டை மாநிலங்களில் நெல் விளைச்சல் குறைந்துள்ளது. தமிழ்நாட்டின் தேவைக்கு பெரும்பாலும் அண்டை மாநிலங்களை நம்பியிருப்பதால் தற்போது சந்தையில் அரிசி விலையேறியுள்ளது. அரிசி ஆலைகளில் சன்ன ரக அரிசி வரத்து குறைந்துள்ளது.",
+   "link": "https://www.bbc.com/tamil/articles/c6kg787x0jxjo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5485/live/8967c320-c653-11f1-a64c-550be9e3c66b.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-10-12T15:42:42+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 5328
+  },
+  {
+   "id": "bfc3bbc7c4c9",
+   "type": "auto",
+   "title": "Red alert for heavy rain in several parts of Sri Lanka on Tuesday",
+   "summary": "The Department of Meteorology has issued a heavy rain advisory warning of severe weather conditions affecting several provinces across Sri Continue Reading The post Red alert for heavy rain in several parts of Sri Lanka on Tuesday appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/red-alert-for-heavy-rain-in-several-parts-of-sri-lanka-on-tuesday/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Rain.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T15:41:54+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 827,
+   "ai_title": "இலங்கையின் பல பகுதிகளில் செவ்வாய்க்கிழமை பலத்த மழைக்கு சிவப்பு எச்சரிக்கை",
+   "title_ta": "இலங்கையின் பல பகுதிகளில் செவ்வாய்க்கிழமை பலத்த மழைக்கு சிவப்பு எச்சரிக்கை",
+   "ai_summary": "இலங்கை முழுவதும் பல மாகாணங்களை பாதிக்கும் கடுமையான வானிலை நிலைமைகள் குறித்து பலத்த மழை எச்சரிக்கை ஒன்றை வளிமண்டலவியல் திணைக்களம் வெளியிட்டுள்ளது, இது அக்டோபர் 13 அன்று மாலை 6:30 மணி வரை நடைமுறைக்கு வரும்.",
+   "ai_body": [
+    "இலங்கை முழுவதும் பல மாகாணங்களை பாதிக்கும் கடுமையான வானிலை நிலைமைகள் குறித்து பலத்த மழை எச்சரிக்கை ஒன்றை வளிமண்டலவியல் திணைக்களம் வெளியிட்டுள்ளது, இது அக்டோபர் 13 அன்று மாலை 6:30 மணி வரை நடைமுறைக்கு வரும். அக்டோபர் 12 ஆம் தேதி மாலை 6:30 மணிக்கு இயற்கை அபாயங்கள் ஆரம்ப எச்சரிக்கை மையத்தால் வெளியிடப்பட்ட புல்லட்டின், தீவின் பெரும்பாலான பகுதிகளில் மழை அல்லது இடியுடன் கூடிய மழை பெய்யும் என்று எச்சரிக்கிறது.",
+    "சிவப்பு எச்சரிக்கை (நடவடிக்கை எடு) அபாய மட்டத்தின் கீழ், மேற்கு, சப்ரகமுவ மற்றும் தெற்கு மாகாணங்களிலும், கண்டி மற்றும் நுவரெலியா மாவட்டங்களிலும் சில இடங்களில் 100 மி.மீ.க்கு மேல் கனமழை பெய்யக்கூடும். இதற்கிடையில், மிதமான ஆபத்தில் சித்தரிக்கப்பட்டுள்ள மீதமுள்ள பகுதிகளுக்கு அம்பர் ஆலோசனை வழங்கப்பட்டுள்ளது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-12T18:49:23.942743+00:00"
+  },
+  {
+   "id": "9cf3f2cd19e0",
+   "type": "auto",
+   "title": "President announces plans for 75 new CPC fuel stations amid concerns over private suppliers",
+   "summary": "President Anura Kumara Dissanayake has announced plans to establish 75 new fuel stations under the Ceylon Petroleum Corporation (CPC), raising Continue Reading The post President announces plans for 75 new CPC fuel stations amid concerns over private suppliers appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/president-announces-plans-for-75-new-cpc-fuel-stations-amid-concerns-over-private-suppliers/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261012_210213_Gallery.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T15:33:02+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 2335
+  },
+  {
+   "id": "8a6e3ba0ce74",
+   "type": "auto",
+   "title": "Army Commander honours courageous soldier who saved drowning four-year-old child",
+   "summary": "Commander of the Army Lieutenant General Nilantha Premaratne commended and honored Lance Corporal L. H. V. Jayanath of the Sri Continue Reading The post Army Commander honours courageous soldier who saved drowning four-year-old child appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/army-commander-honours-courageous-soldier-who-saved-drowning-four-year-old-child/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.50.58.jpeg",
+   "lang": "en",
+   "category": "world",
+   "tags": [
+    "world",
+    "srilanka"
+   ],
+   "published": "2026-10-12T15:09:46+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 752
+  },
+  {
+   "id": "69c8c9e06f71",
+   "type": "auto",
+   "title": "“Gnanasara Thera’s six-year prison sentence completely illegal”: Former CJ Sarath N Silva",
+   "summary": "Former Chief Justice Sarath N. Silva has questioned the legality of the six-year prison sentence imposed on Ven. Galagoda Aththe Continue Reading The post “Gnanasara Thera’s six-year prison sentence completely illegal”: Former CJ Sarath N Silva appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/gnanasara-theras-six-year-prison-sentence-completely-illegal-former-cj-sarath-n-silva/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261012_203547_Editor-Lite.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T15:06:42+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 1628
+  },
+  {
+   "id": "6c0a55289232",
+   "type": "auto",
+   "title": "ஜந்தர் மந்தரில் போராட தடை: டெல்லியில் வேறு 3 இடங்கள் போராட்டங்களுக்காக ஒதுக்கீடு - சிஜேபி கூறியது என்ன?",
+   "summary": "கடந்த முப்பத்தைந்து ஆண்டுகளாக இந்தியாவில் பல்வேறு போராட்டங்களுக்கும் அமைதியான ஆர்ப்பாட்டங்களுக்கும் மையப்புள்ளியாகத் திகழ்ந்த டெல்லி ஜந்தர் மந்தர், இனி போராட்டங்களுக்கான அதிகாரப்பூர்வ இடமாக இருக்காது என்று அரசு அறிவித்துள்ளது.",
+   "link": "https://www.bbc.com/tamil/articles/cmy93d335e29o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/d1c5/live/7d9c05e0-c64b-11f1-a64c-550be9e3c66b.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-10-12T14:56:26+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 7206
+  },
+  {
+   "id": "976a97fa820c",
+   "type": "auto",
+   "title": "Sri Lankan government blocks Tamil MP's call for Black July presidential inquiry",
+   "summary": "Sinhala rioters celebrate as they pause in the destruction of Tamil homes and businesses in Colombo in July 1983. File photograph The Sri Lankan government has blocked a Tamil MP’s motion calling for a Presidential Commission of Inquiry into the Black July pogrom of 1983, proposing a parliamentary…",
+   "link": "http://www.tamilguardian.com/content/sri-lankan-government-blocks-tamil-mps-call-black-july-presidential-inquiry",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/1983%20rioters%20fire%20%281%29.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "jaffna"
+   ],
+   "published": "2026-10-12T14:54:51+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 3596
+  },
+  {
+   "id": "a5cb30c42d3d",
+   "type": "auto",
+   "title": "Chamara Sampath remanded until October 23",
+   "summary": "The post Chamara Sampath remanded until October 23 appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/chamara-sampath-remanded-until-october-23-2/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Visual-Stories-33.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T14:49:21+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 79
+  },
+  {
+   "id": "bdecb463d24c",
+   "type": "auto",
+   "title": "சௌதியில் சிவராசா அனோஜனுக்கு மரண தண்டனை ரத்தாகுமா? மேன்முறையீட்டு மனு தாக்கல்",
+   "summary": "நபிகள் நாயகம் குறித்த சமூக ஊடகப் பதிவு பற்றிய குற்றச்சாட்டின் கீழ் சௌதி அரேபியாவில் மரண தண்டனை விதிக்கப்பட்டுள்ள சிவராசா அனோஜன் என்ற இலங்கைத் தமிழரை, மரண தண்டனையிலிருந்து விடுவிக்கும் நோக்கில், அந்த நாட்டு உச்ச நீதிமன்றத்தில் மேன்முறையீடு செய்யப்பட்டுள்ளது.",
+   "link": "https://www.bbc.com/tamil/articles/cvkgk8kxp56ko?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/773b/live/cb637080-c649-11f1-a64c-550be9e3c66b.jpg",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "world"
+   ],
+   "published": "2026-10-12T14:34:42+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 5710
+  },
+  {
+   "id": "fad110d43842",
+   "type": "auto",
+   "title": "காவல்துறை தடுத்ததால் வேறு வழியில் உச்ச நீதிமன்றம் சென்ற தலைவர்கள் - புதிய மனு தாக்கல்",
+   "summary": "டெல்லியில் தலைமைத் தேர்தல் ஆணையர் ஞானேஷ் குமாருக்கு எதிராக பேரணியில் ஈடுபட்டுள்ள எதிர்க்கட்சித் தலைவர்கள், பலத்த பாதுகாப்பு ஏற்பாடுகளையும் மீறி திலக் மார்க் வழியாக உச்ச நீதிமன்றத்தின் 'கேட் பி' நுழைவாயிலை அடைந்தனர். 'இந்தியா' கூட்டணியைச் சேர்ந்த உறுப்பினர்கள் உச்ச நீதிமன்றத்தில் மனு ஒன்றை தாக்கல்…",
+   "link": "https://www.bbc.com/tamil/articles/cqdjvy4z7gddo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/1b00/live/7b7467c0-c647-11f1-bc2e-018d645d8d21.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-10-12T14:20:17+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "3f49215d80a6",
+   "type": "auto",
+   "title": "Amber landslide warning issued for several areas in Kegalle district",
+   "summary": "The National Building Research Institute (NBRI) has issued updated landslide early warnings for multiple districts effective from 4:00 p.m. on Continue Reading The post Amber landslide warning issued for several areas in Kegalle district appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/amber-landslide-warning-issued-for-several-areas-in-kegalle-district/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/images-20.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T14:10:26+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 1406
+  },
+  {
+   "id": "63d7d54b57d1",
+   "type": "auto",
+   "title": "HRCSL finds Customs violated Tamil author’s rights by seizing books",
+   "summary": "The Human Rights Commission of Sri Lanka (HRCSL) has found that Sri Lanka Customs violated the fundamental rights of Tamil Continue Reading The post HRCSL finds Customs violated Tamil author’s rights by seizing books appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/hrcsl-finds-customs-violated-tamil-authors-rights-by-seizing-books/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261012_193857_ChatGPT.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T14:09:22+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 1614
+  },
+  {
+   "id": "0eff8bbe1d7a",
+   "type": "auto",
+   "title": "டெல்லியில் 'இந்தியா' கூட்டணி பேரணி - முக்கிய நிகழ்வுகளை காட்டும் புகைப்படத் தொகுப்பு",
+   "summary": "டெல்லியில் தலைமைத் தேர்தல் ஆணையர் ஞானேஷ் குமாருக்கு எதிராக உச்ச நீதிமன்றத்தை நோக்கிய எதிர்க்கட்சிகள் பேரணி நடக்கிறது. திட்டமிடப்பட்ட பாதையில் பேரணி சென்ற போது பாதி வழியில், அதாவது மண்டி ஹவுஸ் பகுதியில் காவல்துறையினர் தடுத்து நிறுத்தியதால் போராட்டக்காரர்கள் இந்திய கேட் பகுதியை நோக்கிச் சென்றனர்.",
+   "link": "https://www.bbc.com/tamil/articles/cqze4d44y19zo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/836d/live/62f7c6f0-c643-11f1-a64c-550be9e3c66b.png",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-10-12T14:06:56+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 764
+  },
+  {
+   "id": "8dc86488654b",
+   "type": "auto",
+   "title": "Prime Minister engages in dialogue with young people on mental health",
+   "summary": "Prime Minister Dr. Harini Amarasuriya engaged in an informal dialogue with young people focusing on mental health and wellbeing on Continue Reading The post Prime Minister engages in dialogue with young people on mental health appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/prime-minister-engages-in-dialogue-with-young-people-on-mental-health/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-17.34.39.jpeg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T14:03:53+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 1263
+  },
+  {
+   "id": "79974e84f402",
+   "type": "auto",
+   "title": "HRCSL calls for new rules allowing religious attire for Govt employees",
+   "summary": "The Human Rights Commission of Sri Lanka (HRCSL) has recommended that the government issue a new circular explicitly permitting public Continue Reading The post HRCSL calls for new rules allowing religious attire for Govt employees appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/hrcsl-calls-for-new-rules-allowing-religious-attire-for-govt-employees/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261012_192729_ChatGPT.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "world"
+   ],
+   "published": "2026-10-12T13:57:49+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 1836
+  },
+  {
+   "id": "7fb6fd237eee",
+   "type": "auto",
+   "title": "Today’s News Digest – October 12",
+   "summary": "Today’s News Digest: Your go-to summary of the key events and headlines that shaped the day. From major developments to Continue Reading The post Today’s News Digest – October 12 appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/todays-news-digest-october-12/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Copy-of-Mirudhulath-11.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T13:45:24+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 4390
+  },
+  {
+   "id": "70f60238e5e3",
+   "type": "auto",
+   "title": "Human Rights Commission rules hospital violated Muslim workers’ rights over hijab restrictions",
+   "summary": "The Human Rights Commission of Sri Lanka (HRCSL) has ruled that the fundamental rights of six Muslim female healthcare assistants Continue Reading The post Human Rights Commission rules hospital violated Muslim workers’ rights over hijab restrictions appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/human-rights-commission-rules-hospital-violated-muslim-workers-rights-over-hijab-restrictions/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261012_190334_ChatGPT.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T13:35:47+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 3757
+  },
+  {
+   "id": "6fdfa1d54165",
+   "type": "auto",
+   "title": "Ravikaran cites Maitreyi Ramakrishnan backlash in asking how Tamils can feel Sri Lankan",
+   "summary": "Thurairasa Ravikaran speaking in parliament The Vanni MP Thurairasa Ravikaran has told parliament that the backlash against the actor Maitreyi Ramakrishnan for identifying herself as an Eelam Tamil shows why Tamils on the island cannot feel themselves Sri Lankan, asking how they could when their…",
+   "link": "http://www.tamilguardian.com/content/ravikaran-asks-how-tamils-can-feel-sri-lankan-when-their-killing-counted-victory",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/261009%20Ravikaran%20parliament/261009%20Ravikaran%20parliament%20(1).jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "jaffna"
+   ],
+   "published": "2026-10-12T13:29:11+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 6241
+  },
+  {
+   "id": "057d7eaa4682",
+   "type": "auto",
+   "title": "Political analyst and lawyer C A Yogalingam dies at 70",
+   "summary": "C A Yogalingam C A Yogalingam, the political analyst, lawyer and writer who chaired the Social Science Research Centre and who wrote on Eelam politics and Tamil nationalism for more than four decades, has died in Jaffna at the age of 70, with his funeral held at Kuppilan on Monday. He died on…",
+   "link": "http://www.tamilguardian.com/content/political-analyst-and-lawyer-c-yogalingam-dies-70",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/261012%20CA%20Yogalingam/261012%20CA%20Yogalingam%20(1).jpg",
+   "lang": "en",
+   "category": "jaffna",
+   "tags": [
+    "jaffna"
+   ],
+   "published": "2026-10-12T13:27:12+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 2472,
+   "ai_title": "அரசியல் ஆய்வாளரும் வழக்கறிஞருமான சி.ஏ. யோகலிங்கம் 70 வயதில் காலமானார்",
+   "title_ta": "அரசியல் ஆய்வாளரும் வழக்கறிஞருமான சி.ஏ. யோகலிங்கம் 70 வயதில் காலமானார்",
+   "ai_summary": "சமூக அறிவியல் ஆராய்ச்சி மையத்தின் தலைவராகவும், நான்கு தசாப்தங்களுக்கும் மேலாக ஈழ அரசியல் மற்றும் தமிழ் தேசியவாதம் குறித்து எழுதிய அரசியல் ஆய்வாளர், வழக்கறிஞர் மற்றும் எழுத்தாளர் சி.ஏ.",
+   "ai_body": [
+    "சமூக அறிவியல் ஆராய்ச்சி மையத்தின் தலைவராகவும், நான்கு தசாப்தங்களுக்கும் மேலாக ஈழ அரசியல் மற்றும் தமிழ் தேசியவாதம் குறித்து எழுதிய அரசியல் ஆய்வாளர், வழக்கறிஞர் மற்றும் எழுத்தாளர் சி.ஏ. யோகலிங்கம், 70 வயதில் யாழ்ப்பாணத்தில் காலமானார், திங்களன்று குப்பிலனில் அவரது இறுதிச் சடங்குகளுடன்.",
+    "அடிவயிற்றில் கட்டியை அகற்ற அறுவை சிகிச்சைக்காக அனுமதிக்கப்பட்டிருந்த யாழ்ப்பாணம் போதனா வைத்தியசாலையில் அவர் வெள்ளிக்கிழமை காலமானார். வியாழக்கிழமை மேற்கொள்ளப்பட்ட அறுவை சிகிச்சை எட்டு மணி நேரத்திற்கும் மேலாக நீடித்தது, அடுத்த நாள் இறப்பதற்கு முன்பு அவர் தீவிர சிகிச்சைக்கு மாற்றப்பட்டார்.",
+    "அரசியல்வாதிகள், சமூக ஆர்வலர்கள் மற்றும் பொது உறுப்பினர்கள் வார இறுதியில் தங்கள் மரியாதையை செலுத்தினர்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-12T18:49:05.055635+00:00"
+  },
+  {
+   "id": "7fbbfe1333b2",
+   "type": "auto",
+   "title": "Third protest in five days as four new liquor licences issued across Jaffna",
+   "summary": "Protesters march to the excise office at Mandan against the liquor outlet licensed at Nelliady Residents at Nelliady have marched to the excise office at Mandan demanding that a licence for a new liquor outlet be cancelled, the third protest in Jaffna in five days against four new outlets approved…",
+   "link": "http://www.tamilguardian.com/content/third-protest-five-days-four-new-liquor-licences-issued-across-jaffna",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/261012%20Jaffna%20liquor%20protests/261012%20Jaffna%20liquor%20protests%20(1).jpg",
+   "lang": "en",
+   "category": "jaffna",
+   "tags": [
+    "jaffna"
+   ],
+   "published": "2026-10-12T13:24:38+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 2680,
+   "ai_title": "யாழ்ப்பாணம் முழுவதும் நான்கு புதிய மதுபான உரிமங்கள் வழங்கப்பட்டதால் ஐந்து நாட்களில் மூன்றாவது போராட்டம்",
+   "title_ta": "யாழ்ப்பாணம் முழுவதும் நான்கு புதிய மதுபான உரிமங்கள் வழங்கப்பட்டதால் ஐந்து நாட்களில் மூன்றாவது போராட்டம்",
+   "ai_summary": "நெல்லியடியில் உள்ள நெல்லியடி குடியிருப்பாளர்கள் உரிமம் பெற்ற மதுபான விற்பனை நிலையத்திற்கு எதிராக மண்டனில் உள்ள மதுபான விற்பனை நிலையத்திற்கு எதிர்ப்பாளர்கள் அணிவகுத்துச் சென்று புதிய மதுபான விற்பனை நிலையத்திற்கான உரிமத்தை ரத்து செய்யக் கோரி மண்டனில் உள்ள மதுபான அலுவலகத்திற்கு அணிவகுத்துச் சென்றனர், தீபகற்பம் முழுவதும் அங்கீகரிக்கப்பட்ட நான்கு புதிய விற்பனை நிலையங்களுக்கு எதிராக ஐந்து நாட்களில் யாழ்ப்பாணத்தில் மூன்றாவது போராட்டம்.",
+   "ai_body": [
+    "நெல்லியடியில் உள்ள நெல்லியடி குடியிருப்பாளர்கள் உரிமம் பெற்ற மதுபான விற்பனை நிலையத்திற்கு எதிராக மண்டனில் உள்ள மதுபான விற்பனை நிலையத்திற்கு எதிர்ப்பாளர்கள் அணிவகுத்துச் சென்று புதிய மதுபான விற்பனை நிலையத்திற்கான உரிமத்தை ரத்து செய்யக் கோரி மண்டனில் உள்ள மதுபான அலுவலகத்திற்கு அணிவகுத்துச் சென்றனர், தீபகற்பம் முழுவதும் அங்கீகரிக்கப்பட்ட நான்கு புதிய விற்பனை நிலையங்களுக்கு எதிராக ஐந்து நாட்களில் யாழ்ப்பாணத்தில் மூன்றாவது போராட்டம். திங்களன்று மந்தன் கலினேசன் சமூக மையத்திற்கு வெளியே தொடங்கிய ஆர்ப்பாட்டம், மந்தனில் உள்ள கலால் துறை அலுவலகத்திற்கு அணிவகுப்பாக நகர்ந்தது, அங்கு ஆர்ப்பாட்டக்காரர்கள் தங்கள் எதிர்ப்பை தெரிவிக்க கூடினர்.",
+    "நெல்லியடியில் முன்மொழியப்பட்ட விற்பனை நிலையத்திற்கு எதிராக குடியிருப்பாளர்களிடமிருந்து சேகரிக்கப்பட்ட கையொப்பங்களைக் கொண்ட மனு அலுவலகத்தில் உள்ள பொறுப்பான அதிகாரியிடம் ஒப்படைக்கப்பட்டது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-12T18:49:07.499998+00:00"
+  },
+  {
+   "id": "7754ae978770",
+   "type": "auto",
+   "title": "Rs. 50M ADB funded renovation begins at Anamaduwa Base Hospital",
+   "summary": "A Rs. 50 million project to renovate four wards at the Anamaduwa Base Hospital was officially launched yesterday (11) under Continue Reading The post Rs. 50M ADB funded renovation begins at Anamaduwa Base Hospital appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/rs-50m-adb-funded-renovation-begins-at-anamaduwa-base-hospital/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Copy-of-Mirudhulath-12.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T13:15:02+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 883
+  },
+  {
+   "id": "e3efe1abf9dc",
+   "type": "auto",
+   "title": "Bribe from gem businessmen ? : Why Chamara Sampath was arrested",
+   "summary": "The Commission to Investigate Allegations of Bribery or Corruption (CIABOC) has released details of the allegations against former State Minister Continue Reading The post Bribe from gem businessmen ? : Why Chamara Sampath was arrested appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/bribe-from-gem-businessmen-why-chamara-sampath-was-arrested/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261012_184320_ChatGPT.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T13:14:50+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 1647
+  },
+  {
+   "id": "25bc7823a2e9",
+   "type": "auto",
+   "title": "26-member committee appointed to formulate National Policy for Engineering Education",
+   "summary": "A 26-member expert committee headed by Professor K. T. M. Udayanga Hemapala, Vice-Chancellor of the University of Moratuwa, has been Continue Reading The post 26-member committee appointed to formulate National Policy for Engineering Education appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/26-member-committee-appointed-to-formulate-national-policy-for-engineering-education/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Nalaka-Kaluwewa-1.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T13:10:52+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 864
+  },
+  {
+   "id": "b1e1f165c1d9",
+   "type": "auto",
+   "title": "Man fined Rs. 80,000 for possession of four illegal trap guns",
+   "summary": "A suspect arrested with four illegal trap guns in the Vannamkulama area was fined Rs. 80,000 by the Kahatagasdigiliya Magistrate’s Continue Reading The post Man fined Rs. 80,000 for possession of four illegal trap guns appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/man-fined-rs-80000-for-possession-of-four-illegal-trap-guns/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Copy-of-Mirudhulath-15.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T13:06:29+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 558
+  },
+  {
+   "id": "661cfe2d03d0",
+   "type": "auto",
+   "title": "Speaker, MP Rishad attend 153rd IPU Assembly in Tanzania",
+   "summary": "Speaker of the Parliament (Dr.) Jagath Wickramaratne and Member of Parliament Rishad Bathiudeen participated in the 153rd Inter Parliamentary Union Continue Reading The post Speaker, MP Rishad attend 153rd IPU Assembly in Tanzania appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/speaker-mp-rishad-attend-153rd-ipu-assembly-in-tanzania/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Copy-of-Mirudhulath-13.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T13:00:12+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 3939
+  },
+  {
+   "id": "643b699b600a",
+   "type": "auto",
+   "title": "Ashok Abeysinghe resigns from all SJB positions",
+   "summary": "Former State Minister Ashok Abeysinghe has resigned as the Samagi Jana Balawegaya’s (SJB) chief organiser for the Kurunegala electorate Continue Reading The post Ashok Abeysinghe resigns from all SJB positions appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/12/ashok-abeysinghe-resigns-from-all-sjb-positions/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/image_69072f0b45.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T12:42:00+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 690
+  },
+  {
+   "id": "9243f5e62a1b",
+   "type": "auto",
+   "title": "Navy Commander attends Trans-Regional Seapower Symposium in Italy",
+   "summary": "The Commander of the Sri Lanka Navy, Vice Admiral Damian Fernando attended the 15th edition of Trans-Regional Seapower Symposium, organised by the Italian Navy in Venice in Italy, on 6 and 7 October 2026. The symposium was held at the Italian Navy‟s historic Arsenal in Venice under the theme “From…",
+   "link": "http://island.lk/navy-commander-attends-trans-regional-seapower-symposium-in-italy/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": null,
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T11:51:38+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 299
+  },
+  {
+   "id": "1af81435fa85",
+   "type": "auto",
+   "title": "Heavy showers about (100-150) mm are likely at some places in the Central, Sabaragamuwa, Uva and Southern provinces",
+   "summary": "WEATHER FORECAST FOR 13 October 2026 Issued at 2.00 p.m. on 12 October 2026 by the Department of Meteorology A low-pressure area may form over the southeastern Bay of Bengal by 13 October. Under the influence of this system, an increase in rainfall is expected over the island and the deep and…",
+   "link": "http://island.lk/heavy-showers-about-100-150-mm-are-likely-at-some-places-in-the-central-sabaragamuwa-uva-and-southern-provinces/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": null,
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T11:33:05+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 294
+  },
+  {
+   "id": "a34294d67311",
+   "type": "auto",
+   "title": "'நதி நீர்மட்டம் சுமார் 21 அடி உயர்ந்தது' - நேபாளத்தில் மீண்டும் வெள்ளப்பெருக்கால் மக்கள் அச்சம்",
+   "summary": "நேபாளத்தில் உள்ள பிரதான நதி ஒன்றில் ஏற்பட்ட வெள்ளப்பெருக்கால் வீடுகளும் பாலங்களும் அடித்துச் செல்லப்பட்டதுடன், நீர்மின் நிலையம் ஒன்றின் ஒரு பகுதியும் சேதமடைந்துள்ளதாக அதிகாரிகள் தெரிவித்துள்ளனர்.",
+   "link": "https://www.bbc.com/tamil/articles/crwyqejjqd4eo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/b63d/live/59ca52b0-c624-11f1-b048-6946f232cb95.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-10-12T11:29:09+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 4205
+  },
+  {
+   "id": "17d4d481ca2b",
+   "type": "auto",
+   "title": "Elephant enrichment programme centred on the Thabbowa Reservoir proves successful",
+   "summary": "As part of the new government’s initiative to formulate scientifically grounded, long-term solutions to the human-elephant conflict, a programme aimed at sustainably fulfilling the natural food and water requirements of wild elephants within forest ecosystems is being successfully implemented…",
+   "link": "http://island.lk/elephant-enrichment-programme-centred-on-the-thabbowa-reservoir-proves-successful/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": null,
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-12T11:25:13+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 294
+  },
+  {
+   "id": "9aeabc3f1b94",
+   "type": "auto",
+   "title": "சிஜேபி முக்கிய தலைவர்கள் மூவரும் அடுத்த ஓராண்டுக்கு போராட்டங்களில் ஈடுபட முடியாதா? பிணைப் பத்திரத்தால் எழும் கேள்வி",
+   "summary": "\"அமைதியைப் பேணுவதையும் நல்ல நடத்தையை உறுதிப்படுத்துவதையும் நோக்கமாகக் கொண்டு, ஒரு ஆண்டுக் காலத்திற்கு செல்லுபடியாகும் ரூ.50,000 மதிப்புள்ள உத்தரவாதப் பிணைப்பத்திரத்தில் கையெழுத்து பெறப்பட்டது. அதன் பின்னர் நீதிமன்றம் அவர்களை விடுவித்தது\" என்றும் காவல்துறை கூறியது. இதனால், சிஜேபி முக்கிய தலைவர்கள்…",
+   "link": "https://www.bbc.com/tamil/articles/cmrryd840deeo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/e0e2/live/db441660-c628-11f1-a64c-550be9e3c66b.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-10-12T10:39:51+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 5849
+  },
+  {
+   "id": "245973ab37b4",
+   "type": "auto",
+   "title": "ஜென் ஸி இளைஞர்களை ஈர்ப்பது பாஜகவுக்கு சவாலாக உள்ளதா? போராட்டக் களத்தில் வெளிப்படும் கோபம் பற்றிய ஒரு பார்வை",
+   "summary": "\"இதன் பொருள் என்னவென்றால், நான் துன்பப்பட்டு, வேதனைப்பட்டு, எனக்குக் கிடைக்க வேண்டியவை கிடைக்கவில்லை என்றாலும், எனது அரசாங்கத்தை மாற்றுவதற்காக வாக்களிக்கக்கூட முடியாது என்பது தான். சமூகத்தின் அடித்தட்டில் உள்ள மக்களிடையே, நமது வாக்களிக்கும் உரிமை தொடர்பாக ஏதோ தவறு நடக்கிறது என்ற சந்தேகமும்…",
+   "link": "https://www.bbc.com/tamil/articles/c6rryd1rr2xzo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/6310/live/020cdb90-c626-11f1-9a39-31b474234113.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-10-12T10:17:00+00:00",
+   "fetched": "2026-10-12T18:46:48.864572+00:00",
+   "page_chars": 8000
+  },
   {
    "id": "048744388c9d",
    "type": "auto",
@@ -8217,879 +9032,6 @@
    "published": "2026-10-08T00:03:15+00:00",
    "fetched": "2026-10-08T07:08:42.621860+00:00",
    "page_chars": 297
-  },
-  {
-   "id": "9c4a530e644f",
-   "type": "auto",
-   "title": "Former NSB Chairman Kariyawasam granted bail",
-   "summary": "Former National Savings Bank (NSB) Chairman Pradeep Kariyawasam was yesterday granted bail by the Colombo Magistrate’s Court following his arrest by the Commission to Investigate Allegations of Bribery or Corruption (CIABOC). Kariyawasam, husband of former Chief Justice Shirani Bandaranayake, was…",
-   "link": "http://island.lk/former-nsb-chairman-kariyawasam-granted-bail/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-08T00:02:16+00:00",
-   "fetched": "2026-10-08T07:08:42.621860+00:00",
-   "page_chars": 298
-  },
-  {
-   "id": "a58fbc3cfea5",
-   "type": "auto",
-   "title": "Katchatheevu row: India SC urges fishermen to avoid Sri Lankan waters",
-   "summary": "India’s Supreme Court on Tuesday, while hearing a batch of petitions challenging the “unconstitutional ceding” of Katchatheevu island to Sri Lanka, orally observed that Indian Tamil fishermen need to be sensitised against entering Sri Lankan waters for fishing in Katchatheevu, The New Indian…",
-   "link": "http://island.lk/katchatheevu-row-india-sc-urges-fishermen-to-avoid-sri-lankan-waters/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-10-08T00:01:34+00:00",
-   "fetched": "2026-10-08T07:08:42.621860+00:00",
-   "page_chars": 293
-  },
-  {
-   "id": "a201bab3ff2b",
-   "type": "auto",
-   "title": "Remembering Juvenal, Coke, Acton and Machiavelli",
-   "summary": "Thursday 8th Octobber, 2026 Hardly a day passes in this country without a torrent of news about politicians whose actions evoke memories of famous poets, thinkers, historians and jurists of yore, such as Juvenal, Edward Coke, Lord Acton and Niccolò Machiavelli. This has been particularly so during…",
-   "link": "http://island.lk/remembering-juvenal-coke-acton-and-machiavelli/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "world",
-   "tags": [
-    "world",
-    "srilanka"
-   ],
-   "published": "2026-10-08T00:00:41+00:00",
-   "fetched": "2026-10-08T07:08:42.621860+00:00",
-   "page_chars": 299
-  },
-  {
-   "id": "e1584bcb9e42",
-   "type": "auto",
-   "title": "West Asian conflict undergoing manifold complications",
-   "summary": "Israeli Prime Minister Benjamin Netanyahu’s message to Israel’s enemies was blunt and stark.‘We’re going to win; we have no choice.’ He said so while the majority of attendees at a recent UN General Assembly session walked out of the conference hall when the Israeli Prime Minister took the podium…",
-   "link": "http://island.lk/west-asian-conflict-undergoing-manifold-complications/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2025/01/lynn.jpg",
-   "lang": "en",
-   "category": "world",
-   "tags": [
-    "world",
-    "srilanka"
-   ],
-   "published": "2026-10-08T00:00:39+00:00",
-   "fetched": "2026-10-08T07:08:42.621860+00:00",
-   "page_chars": 298
-  },
-  {
-   "id": "aef4f41c4955",
-   "type": "auto",
-   "title": "Nissanka absence opens door for Sri Lanka’s young guns",
-   "summary": "Sri Lanka will begin their three match T20I series against Pakistan in Rawalpindi on Friday with an opportunity for several youngsters to stake their claims, although the absence of Pathum Nissanka leaves a sizeable hole at the top of the order. Nissanka, Sri Lanka’s highest-ranked batter in the…",
-   "link": "http://island.lk/nissanka-absence-opens-door-for-sri-lankas-young-guns/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-08T00:00:35+00:00",
-   "fetched": "2026-10-08T07:08:42.621860+00:00",
-   "page_chars": 297
-  },
-  {
-   "id": "fafe32ba33a8",
-   "type": "auto",
-   "title": "The prelate who walked the talk",
-   "summary": "A monk’s four days in Jaffna, another monk’s restored prison term, and a party visit to Delhi are one argument: trust follows conduct, and the North will not be healed by a file. By Mahil Dole Senior Superintendent of Police (Retd.) The sea, the monk writes, brings us all sorts of things. One…",
-   "link": "http://island.lk/the-prelate-who-walked-the-talk/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna",
-    "world",
-    "srilanka"
-   ],
-   "published": "2026-10-08T00:00:34+00:00",
-   "fetched": "2026-10-08T07:08:42.621860+00:00",
-   "page_chars": 294
-  },
-  {
-   "id": "09618f112e38",
-   "type": "auto",
-   "title": "Needs of populace hit by Cyclone Ditwah seen as waiting to be addressed",
-   "summary": "By Hiran H. Senewiratne The government is yet to address fully the needs of the Cyclone Ditwah affected populace though one year has elapsed. The devastation cost the country more than US $ 4.1 billion, an Australia-based Chartered Engineer of Sri Lankan origin said. ‘Cyclone Ditwah affected more…",
-   "link": "http://island.lk/needs-of-populace-hit-by-cyclone-ditwah-seen-as-waiting-to-be-addressed/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-10-08T00:00:22+00:00",
-   "fetched": "2026-10-08T07:08:42.621860+00:00",
-   "page_chars": 298
-  },
-  {
-   "id": "1dbbdde6e3a8",
-   "type": "auto",
-   "title": "Future of Sri Lanka’s state university system: Should it be shut down and reopened?",
-   "summary": "by Professor Ranjith Bandara Emeritus Professor of Economics, University of Colombo My life has been closely connected with Sri Lanka’s state university system for more than four decades. Its doors opened to me first as a student and later as an academic. The system gave me knowledge, opportunities…",
-   "link": "http://island.lk/future-of-sri-lankas-state-university-system-should-it-be-shut-down-and-reopened/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-10-07T23:59:36+00:00",
-   "fetched": "2026-10-08T00:50:27.938243+00:00",
-   "page_chars": 300
-  },
-  {
-   "id": "55c9596b57b9",
-   "type": "auto",
-   "title": "Girls secure all four semi-final spots for hosts",
-   "summary": "ATF Under-16 Colombo Week 1 Tennis Sri Lanka’s junior players delivered a series of impressive performances on Wednesday, with the girls claiming all four semi-final places at the ATF Under-16 Colombo 2026 Week 1 tournament, held at the Sri Lanka Tennis Association courts. ‎ Methuli Naotunne led…",
-   "link": "http://island.lk/girls-secure-all-four-semi-final-spots-for-hosts/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2026/10/Damsath-Peiris.webp",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-07T23:59:29+00:00",
-   "fetched": "2026-10-08T00:50:27.938243+00:00",
-   "page_chars": 297
-  },
-  {
-   "id": "fcfb6497f2d2",
-   "type": "auto",
-   "title": "WB forecast buoys bourse but weak investor participation slows momentum",
-   "summary": "By Hiran H. Senewiratne The CSE yesterday kicked off on a positive note due to a World Bank forecast that Sri Lanka could achieve 4.4 percent economic growth this year but later lost momentum due to weak investor participation. Amid those developments both indices moved upwards. The All Share Price…",
-   "link": "http://island.lk/wb-forecast-buoys-bourse-but-weak-investor-participation-slows-momentum/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-10-07T23:59:19+00:00",
-   "fetched": "2026-10-08T00:50:27.938243+00:00",
-   "page_chars": 300
-  },
-  {
-   "id": "ca2f31106f53",
-   "type": "auto",
-   "title": "Travel Trends Leisure crowned champions at Mosvold Sixes",
-   "summary": "Mosvold Sixes 2026 concluded on Sunday at the Colombo Malay Cricket Club with Travel Trends Leisure crowned champions after a closely fought final against last year’s winners, Connaissance De Ceylan Sri Lanka, who finished as runners-up. Transco Travels were second runners-up. Twenty three…",
-   "link": "http://island.lk/travel-trends-leisure-crowned-champions-at-mosvold-sixes/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "sports",
-   "tags": [
-    "sports",
-    "srilanka"
-   ],
-   "published": "2026-10-07T23:58:37+00:00",
-   "fetched": "2026-10-08T00:50:27.938243+00:00",
-   "page_chars": 291
-  },
-  {
-   "id": "0f80af46aacc",
-   "type": "auto",
-   "title": "Huawei continues to showcase practical AI applications at Sri Lanka AI Week 2026",
-   "summary": "Sri Lanka AI Week 2026 continued into its second day bringing together government, industry, academia and technology partners to explore practical applications of artificial intelligence. As the AI Technology Partner for the second consecutive year, Huawei showcased 18 use cases spanning…",
-   "link": "http://island.lk/huawei-continues-to-showcase-practical-ai-applications-at-sri-lanka-ai-week-2026/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-07T23:58:16+00:00",
-   "fetched": "2026-10-08T00:50:27.938243+00:00",
-   "page_chars": 289
-  },
-  {
-   "id": "e61a84264655",
-   "type": "auto",
-   "title": "ComBank unveils ‘Prestige’ banking to empower clients",
-   "summary": "New three-tier proposition combines bespoke banking, strategic wealth management, expert advisory, refined lifestyle privileges and enriching rewards The Commercial Bank of Ceylon has reaffirmed its commitment to providing a bespoke banking experience with the launch of ‘Prestige’ for Sri Lanka’s…",
-   "link": "http://island.lk/combank-unveils-prestige-banking-to-empower-clients/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-07T23:57:12+00:00",
-   "fetched": "2026-10-08T00:50:27.938243+00:00",
-   "page_chars": 298
-  },
-  {
-   "id": "2ec0899be95b",
-   "type": "auto",
-   "title": "Samash cracks quick fire knock as Josephians cruise to victory",
-   "summary": "by Reemus Fernando ‎ Aveesha Samash smashed a quick fire half century as St. Joseph’s College Darley Road recorded a comfortable seven-wicket victory over St. Servatius’ College, Matara in the Under 19 Division I Tier A Limited Overs Tournament encounter at Uyanwatta Stadium, Matara, yesterday…",
-   "link": "http://island.lk/samash-cracks-quick-fire-knock-as-josephians-cruise-to-victory/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "world",
-   "tags": [
-    "world",
-    "srilanka"
-   ],
-   "published": "2026-10-07T23:56:32+00:00",
-   "fetched": "2026-10-08T00:50:27.938243+00:00",
-   "page_chars": 295
-  },
-  {
-   "id": "044510f4ccd3",
-   "type": "auto",
-   "title": "One Galle Face marks Children’s Day",
-   "summary": "One Galle Face has partnered with the Indira Cancer Trust (ICT) and Make-A-Wish Sri Lanka to create meaningful and memorable “Wish Experiences” for children with critical illnesses in line with Children’s Day. As a leading lifestyle and retail destination, One Galle Face recognizes the importance…",
-   "link": "http://island.lk/one-galle-face-marks-childrens-day/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-07T23:56:18+00:00",
-   "fetched": "2026-10-08T00:50:27.938243+00:00",
-   "page_chars": 298
-  },
-  {
-   "id": "e8856d8f06b6",
-   "type": "auto",
-   "title": "SLT-MOBITEL shines for Project Excellence at NPME Awards 2026",
-   "summary": "In recognition for turning ideas into impactful solutions, delivering tangible benefit, and resolving real-world challenges into results that will shape a smarter, more connected future, SLT-MOBITEL, the National ICT Solutions Provider, received multiple accolades at the National Project Management…",
-   "link": "http://island.lk/slt-mobitel-shines-for-project-excellence-at-npme-awards-2026/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "world",
-   "tags": [
-    "world",
-    "srilanka"
-   ],
-   "published": "2026-10-07T23:55:20+00:00",
-   "fetched": "2026-10-08T00:50:27.938243+00:00",
-   "page_chars": 300
-  },
-  {
-   "id": "2d1279784e74",
-   "type": "auto",
-   "title": "16 komaatha eng",
-   "summary": "Combating the severe drought caused by the “EL-Nino” climate phenomenon, Hon. N. Vethanayahan, Governor of Northern province, declared open a new tank constructed under “Kaithady Komatha Drinking Water Scheme – 2026” with the joint effort of people to address the needs for water for cattle…",
-   "link": "https://np.gov.lk/16-komaatha-eng/",
-   "source": "வட மாகாண சபை",
-   "source_domain": "np.gov.lk",
-   "image": "https://i.imgur.com/3pbW0Ir.jpg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna"
-   ],
-   "published": "2026-10-07T23:54:40+00:00",
-   "fetched": "2026-10-08T00:50:27.938243+00:00",
-   "page_chars": 1631,
-   "ai_thin": true,
-   "ai_thin_chars": 4382
-  },
-  {
-   "id": "4478435bbea8",
-   "type": "auto",
-   "title": "Digital Economy Secretary Waruna Sri Dhanapala at RCSS Strategic Dialogue: ‘Maritime Security and the Digital Economy should no longer be treated as separate policy areas’",
-   "summary": "Secretary of the Ministry of Digital Economy Mr. Waruna Sri Dhanapala has observed that maritime security and the digital economy should no longer be treated as separate policy areas, but as interconnected components of national stability, economic resilience and technological sovereignty. He made…",
-   "link": "http://island.lk/digital-economy-secretary-waruna-sri-dhanapala-at-rcss-strategic-dialogue-maritime-security-and-the-digital-economy-should-no-longer-be-treated-as-separate-policy-areas/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-07T23:54:27+00:00",
-   "fetched": "2026-10-08T00:50:27.938243+00:00",
-   "page_chars": 299
-  },
-  {
-   "id": "c940cef61fa8",
-   "type": "auto",
-   "title": "15 health Review eng",
-   "summary": "Commending the Northern Provincial Department of Health Services for its progress in project implementation and fund utilization, Hon. N. Vethanayahan, Governor of Northern Province instructed officials to complete ongoing work as earlier by utilizing allocated funds within the timeframe. It was…",
-   "link": "https://np.gov.lk/15-health-review-eng/",
-   "source": "வட மாகாண சபை",
-   "source_domain": "np.gov.lk",
-   "image": "https://i.imgur.com/OzA17t8.jpg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna"
-   ],
-   "published": "2026-10-07T23:51:49+00:00",
-   "fetched": "2026-10-08T00:50:27.938243+00:00",
-   "page_chars": 4581,
-   "ai_title": "15 ஹெல்த் ரிவியூ ENG",
-   "title_ta": "15 ஹெல்த் ரிவியூ ENG",
-   "ai_summary": "தமிழ் ஒன் பிட்காயின் வம்சாவளியைச் சேர்ந்தவர்கள் மற்றும் பயனர்கள் இந்த பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின்கள் வடகிழக்கு மாநிலங்கள், ஒன்பது மாநிலங்கள், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம் ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், யாழ்ப்பாணம், யாழ்ப்பாணம், யாழ்ப்பாணம் போன்ற பகுதிகளில் உள்ள மக்கள் விடுதலைப் புலிகள் அமைப்பைச் சேர்ந்தவர்கள்.",
-   "ai_body": [
-    "தமிழ் ஒன் பிட்காயின் வம்சாவளியைச் சேர்ந்தவர்கள் மற்றும் பயனர்கள் இந்த பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின்கள் வடகிழக்கு மாநிலங்கள், ஒன்பது மாநிலங்கள், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம் ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், ஒரு மாநிலம், யாழ்ப்பாணம், யாழ்ப்பாணம், யாழ்ப்பாணம் போன்ற பகுதிகளில் உள்ள மக்கள் விடுதலைப் புலிகள் அமைப்பைச் சேர்ந்தவர்கள். முச்சக்கர வண்டியின் முச்சக்கர வண்டியை முச்சக்கர வண்டியின் முச்சக்கர வண்டியில் செலுத்த வேண்டும்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-08T00:53:36.597118+00:00"
-  },
-  {
-   "id": "61574805719b",
-   "type": "auto",
-   "title": "14 agri review eng",
-   "summary": "The Governor Hon. N. Vethanayahan has directed officials to properly document the direct benefits people receive from 516 development projects, carried out at the cost of Rs. 4,081 million across various sectors in Northern Province, including agriculture, irrigation, and fisheries. He made this…",
-   "link": "https://np.gov.lk/14-agri-review-eng/",
-   "source": "வட மாகாண சபை",
-   "source_domain": "np.gov.lk",
-   "image": "https://i.imgur.com/cBSKWqQ.jpg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna"
-   ],
-   "published": "2026-10-07T23:48:48+00:00",
-   "fetched": "2026-10-08T00:50:27.938243+00:00",
-   "page_chars": 1611,
-   "ai_thin": true,
-   "ai_thin_chars": 3880
-  },
-  {
-   "id": "f90c40fb1c9f",
-   "type": "auto",
-   "title": "CCTV Cameras to Monitor the Waste Dumpers – All Local Authorities Must Take Action – Governor",
-   "summary": "Hon. N. Vethanayahan, Governor of Northern Province emphasized that all local authorities must to identify people dumping waste in public places by CCTV cameras and impose fines on them. These actions are essential to prevent public littering and ensure a clean environment. The Governor gave these…",
-   "link": "https://np.gov.lk/cctv-cameras-to-monitor-the-waste-dumpers-all-local-authorities-must-take-action-governor/",
-   "source": "வட மாகாண சபை",
-   "source_domain": "np.gov.lk",
-   "image": "https://i.imgur.com/3C1y1CG.jpg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna"
-   ],
-   "published": "2026-10-07T23:43:27+00:00",
-   "fetched": "2026-10-08T00:50:27.938243+00:00",
-   "page_chars": 4882,
-   "ai_thin": true,
-   "ai_thin_chars": 4882
-  },
-  {
-   "id": "05c588b3e863",
-   "type": "auto",
-   "title": "Sri Lanka gazettes organised crime bill with year-long detention powers",
-   "summary": "File photograph: The Sri Lankan president Anura Kumara Dissanayake Sri Lanka's government has gazetted a Prevention of Organised Crimes Bill that would allow suspects to be held on detention orders for up to a year, months after the Sri Lankan president Anura Kumara Dissanayake promised that the…",
-   "link": "http://www.tamilguardian.com/content/sri-lanka-gazettes-organised-crime-bill-year-long-detention-powers",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2024/Sri%20Lanka/2024-10-29/2024-10-29%20-%20NPP%20PTA.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "jaffna"
-   ],
-   "published": "2026-10-07T21:38:08+00:00",
-   "fetched": "2026-10-07T20:43:37.610770+00:00",
-   "page_chars": 2603,
-   "ai_title": "இலங்கை அரசிதழ்கள் ஆண்டு முழுவதும் தடுப்புக்காவல் அதிகாரங்களுடன் ஒழுங்கமைக்கப்பட்ட குற்ற மசோதா",
-   "title_ta": "இலங்கை அரசிதழ்கள் ஆண்டு முழுவதும் தடுப்புக்காவல் அதிகாரங்களுடன் ஒழுங்கமைக்கப்பட்ட குற்ற மசோதா",
-   "ai_summary": "கோப்பு புகைப்படம்: புதிய சட்டம் \"ஒழுங்கமைக்கப்பட்ட குற்றவாளிகள் மீது பிரத்தியேகமாக கவனம் செலுத்தும்\" என்று இலங்கை ஜனாதிபதி அனுரகுமார திசாநாயக்க உறுதியளித்த சில மாதங்களுக்குப் பிறகு, ஒரு வருடம் வரை சந்தேக நபர்களை தடுப்புக்காவலில் வைக்க அனுமதிக்கும் ஒழுங்கமைக்கப்பட்ட குற்றங்களைத் தடுக்கும் மசோதாவை இலங்கை அரசு வர்த்தமானி வெளியிட்டுள்ளது.",
-   "ai_body": [
-    "கோப்பு புகைப்படம்: புதிய சட்டம் \"ஒழுங்கமைக்கப்பட்ட குற்றவாளிகள் மீது பிரத்தியேகமாக கவனம் செலுத்தும்\" என்று இலங்கை ஜனாதிபதி அனுரகுமார திசாநாயக்க உறுதியளித்த சில மாதங்களுக்குப் பிறகு, ஒரு வருடம் வரை சந்தேக நபர்களை தடுப்புக்காவலில் வைக்க அனுமதிக்கும் ஒழுங்கமைக்கப்பட்ட குற்றங்களைத் தடுக்கும் மசோதாவை இலங்கை அரசு வர்த்தமானி வெளியிட்டுள்ளது. நீதி மற்றும் தேசிய ஒருங்கிணைப்பு அமைச்சரால் வெளியிட உத்தரவிடப்பட்ட இந்த மசோதா, நாடுகடந்த ஒழுங்கமைக்கப்பட்ட குற்றங்களுக்கு எதிரான ஐக்கிய நாடுகளின் மாநாட்டை நடைமுறைப்படுத்த முற்படுகிறது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-07T20:45:57.317199+00:00"
-  },
-  {
-   "id": "90e087308ee9",
-   "type": "auto",
-   "title": "Opposition mounts as Sri Lanka presents PTA replacement bill to parliament",
-   "summary": "File photograph: A signature campaign against the PTA and the proposed PSTA in Sengkalady earlier this year Sri Lanka's government presented the Protection of the State from Terrorism Bill to parliament on Tuesday, as journalists protested in Colombo demanding its withdrawal and international…",
-   "link": "http://www.tamilguardian.com/content/opposition-mounts-sri-lanka-presents-pta-replacement-bill-parliament",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2025/North-East/260220signature/bf1b4a50-ae76-479e-beba-460b645556a8.jpeg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "jaffna"
-   ],
-   "published": "2026-10-07T21:37:33+00:00",
-   "fetched": "2026-10-07T20:43:37.610770+00:00",
-   "page_chars": 4355,
-   "ai_title": "PTA மாற்று மசோதாவை நாடாளுமன்றத்தில் சமர்ப்பிக்கும் எதிர்க்கட்சிகள்",
-   "title_ta": "PTA மாற்று மசோதாவை நாடாளுமன்றத்தில் சமர்ப்பிக்கும் எதிர்க்கட்சிகள்",
-   "ai_summary": "கோப்பு புகைப்படம்: இந்த ஆண்டு தொடக்கத்தில் செங்கலடியில் PTA மற்றும் முன்மொழியப்பட்ட PSTA-க்கு எதிரான ஒரு கையொப்ப பிரச்சாரம் இலங்கை அரசாங்கம் பயங்கரவாத மசோதாவில் இருந்து மாநிலத்தைப் பாதுகாப்பதற்கான மசோதாவை செவ்வாய்க்கிழமை நாடாளுமன்றத்தில் சமர்ப்பித்தது, ஏனெனில் கொழும்பில் பத்திரிகையாளர்கள் திரும்பப் பெறக் கோரி ஆர்ப்பாட்டம் செய்தனர் மற்றும் சர்வதேச உரிமைக் குழுக்கள் பயங்கரவாதத் தடுப்புச் சட்டத்தின் துஷ்பிரயோக அதிகாரங்களைத் தக்க வைத்துக் கொண்டிருப்பதாக எச்சரித்தன.",
-   "ai_body": [
-    "கோப்பு புகைப்படம்: இந்த ஆண்டு தொடக்கத்தில் செங்கலடியில் PTA மற்றும் முன்மொழியப்பட்ட PSTA-க்கு எதிரான ஒரு கையொப்ப பிரச்சாரம் இலங்கை அரசாங்கம் பயங்கரவாத மசோதாவில் இருந்து மாநிலத்தைப் பாதுகாப்பதற்கான மசோதாவை செவ்வாய்க்கிழமை நாடாளுமன்றத்தில் சமர்ப்பித்தது, ஏனெனில் கொழும்பில் பத்திரிகையாளர்கள் திரும்பப் பெறக் கோரி ஆர்ப்பாட்டம் செய்தனர் மற்றும் சர்வதேச உரிமைக் குழுக்கள் பயங்கரவாதத் தடுப்புச் சட்டத்தின் துஷ்பிரயோக அதிகாரங்களைத் தக்க வைத்துக் கொண்டிருப்பதாக எச்சரித்தன. இந்த மசோதா 1979 இல் இயற்றப்பட்ட PTA ஐ ரத்து செய்து, பயங்கரவாதம் தொடர்பான குற்றங்களுக்கான புதிய சட்ட கட்டமைப்பை அறிமுகப்படுத்தும்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-07T20:45:59.999626+00:00"
-  },
-  {
-   "id": "6310c7029424",
-   "type": "auto",
-   "title": "25-year-old arrested over alleged US$25 million foreign transfer scheme",
-   "summary": "A 25-year-old man has been arrested in Sri Lanka over allegations that US$25 million (about Rs. 7.5 billion) was transferred Continue Reading The post 25-year-old arrested over alleged US$25 million foreign transfer scheme appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/08/25-year-old-arrested-over-alleged-us25-million-foreign-transfer-scheme/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261008_011640_ChatGPT.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-07T19:47:04+00:00",
-   "fetched": "2026-10-07T20:43:37.610770+00:00",
-   "page_chars": 822,
-   "ai_title": "25 மில்லியன் அமெரிக்க$ அந்நிய செலாவணி திட்டத்திற்காக 25 வயது இளைஞர் கைது செய்யப்பட்டார்",
-   "title_ta": "25 மில்லியன் அமெரிக்க$ அந்நிய செலாவணி திட்டத்திற்காக 25 வயது இளைஞர் கைது செய்யப்பட்டார்",
-   "ai_summary": "எந்தவொரு பொருட்களும் நாட்டிற்கு இறக்குமதி செய்யப்படாமல் 25 மில்லியன் அமெரிக்க$ (சுமார் 7.5 பில்லியன் ரூபாய்) வெளிநாட்டு கணக்குகளுக்கு மாற்றப்பட்டதாக குற்றச்சாட்டின் பேரில் 25 வயதான ஒருவர் இலங்கையில் கைது செய்யப்பட்டுள்ளார்.",
-   "ai_body": [
-    "எந்தவொரு பொருட்களும் நாட்டிற்கு இறக்குமதி செய்யப்படாமல் 25 மில்லியன் அமெரிக்க$ (சுமார் 7.5 பில்லியன் ரூபாய்) வெளிநாட்டு கணக்குகளுக்கு மாற்றப்பட்டதாக குற்றச்சாட்டின் பேரில் 25 வயதான ஒருவர் இலங்கையில் கைது செய்யப்பட்டுள்ளார். தந்தி பரிமாற்றங்களைப் (TT) பயன்படுத்தி வணிக வங்கிகள் மூலம் நிதி நகர்வு குறித்த விசாரணையின் ஒரு பகுதியாக வெல்லம்பிட்டியாவில் வசிக்கும் சந்தேக நபரை நிதிக் குற்றப் புலனாய்வுப் பிரிவு (FCID) கைது செய்தது.",
-    "சரக்குகளை இறக்குமதி செய்வதற்காக வெளிநாட்டு நிறுவனங்களுக்கு கொடுப்பனவுகளாக வழங்கப்பட்ட பரிவர்த்தனைகளுடன், இலங்கையில் உள்ள ஆறு நிறுவனங்கள் இடமாற்றம் செய்ய பயன்படுத்தப்பட்டதாக புலனாய்வாளர்கள் குற்றம் சாட்டுகின்றனர். எவ்வாறாயினும், கொடுப்பனவுகளுடன் தொடர்புடைய எந்தப் பொருட்களும் இறக்குமதி செய்யப்படவில்லை என்பது அவர்களின் விசாரணைகளில் கண்டறியப்பட்டதாக அதிகாரிகள் கூறுகின்றனர்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-07T20:46:02.487291+00:00"
-  },
-  {
-   "id": "23b404c99404",
-   "type": "auto",
-   "title": "Piyath Nikeshala, Sri Ranga and 4 others discharged in Ranil’s house arson case",
-   "summary": "Social activist Piyath Nikeshala, former MP J. Sri Ranga and four others were released today (7) following instructions from the Continue Reading The post Piyath Nikeshala, Sri Ranga and 4 others discharged in Ranil’s house arson case appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/07/piyath-nikeshala-sri-ranga-and-4-others-discharged-in-ranils-house-arson-case/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/1737712263-Court-oder-l.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-07T16:44:15+00:00",
-   "fetched": "2026-10-07T20:43:37.610770+00:00",
-   "page_chars": 1249,
-   "ai_title": "ரணிலின் வீட்டில் தீ வைத்த வழக்கில் பியாத் நிகேஷலா, ஸ்ரீ ரங்கா மற்றும் 4 பேர் விடுவிக்கப்பட்டனர்",
-   "title_ta": "ரணிலின் வீட்டில் தீ வைத்த வழக்கில் பியாத் நிகேஷலா, ஸ்ரீ ரங்கா மற்றும் 4 பேர் விடுவிக்கப்பட்டனர்",
-   "ai_summary": "முன்னாள் ஜனாதிபதி ரணில் விக்கிரமசிங்கவின் தனிப்பட்ட இல்லம் மீதான தாக்குதல் தொடர்பாக சட்டமா அதிபரின் அறிவுறுத்தல்களைத் தொடர்ந்து சமூக செயற்பாட்டாளர் பியாத் நிகேஷலா, முன்னாள் பாராளுமன்ற உறுப்பினர் ஜே.",
-   "ai_body": [
-    "முன்னாள் ஜனாதிபதி ரணில் விக்கிரமசிங்கவின் தனிப்பட்ட இல்லம் மீதான தாக்குதல் தொடர்பாக சட்டமா அதிபரின் அறிவுறுத்தல்களைத் தொடர்ந்து சமூக செயற்பாட்டாளர் பியாத் நிகேஷலா, முன்னாள் பாராளுமன்ற உறுப்பினர் ஜே. ஸ்ரீ ரங்கா மற்றும் நான்கு பேர் இன்று (7) விடுவிக்கப்பட்டனர்.",
-    "இந்த வழக்கு மே 9, 2022 அன்று, ‘அரகலாயா’ எதிர்ப்பு இயக்கத்தின் போது, குடியிருப்புக்கு தீ வைக்கப்பட்டு, சம்பவம் தொடர்பாக சந்தேக நபர்கள் பெயரிடப்பட்ட சம்பவத்துடன் தொடர்புடையது. அட்டர்னி ஜெனரலின் ஆலோசனையின் பேரில் பல சந்தேக நபர்கள் முன்பு வழக்கில் இருந்து விடுவிக்கப்பட்டனர்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-07T20:46:04.911794+00:00"
-  },
-  {
-   "id": "d83097e817b1",
-   "type": "auto",
-   "title": "'சோறு சாப்பிடுவதை நிறுத்தி 40 ஆண்டாகிவிட்டது' - இவரது வைராக்கியத்திற்கு என்ன காரணம்?",
-   "summary": "\"எனக்கு அவரை முப்பது ஆண்டுகளுக்கும் மேலாகத் தெரியும். முறையான உணவை உட்கொள்ளாத நிலையிலும் அவர் உற்சாகமாகவே காணப்படுகிறார். அவருடைய வீட்டில் அரிசி, எண்ணெய், மசாலாப் பொருட்கள் அல்லது சமையல் பாத்திரங்கள் எதையும் காண முடியாது; நிலக்கடலை, வெல்லம் மற்றும் தேயிலைத் தூள் மட்டுமே அங்கு இருக்கும்\" என்று நரஹரி…",
-   "link": "https://www.bbc.com/tamil/articles/cr4g1zdkxqz1o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/a657/live/b2750cc0-c200-11f1-9895-010ee6df064e.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-07T16:13:36+00:00",
-   "fetched": "2026-10-07T20:43:37.610770+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "8efbed1e8411",
-   "type": "auto",
-   "title": "Suspended Colombo Fort Magistrate Kosala Senadheera reinstated with back pay",
-   "summary": "The Judicial Service Commission(JSC) has taken steps to reinstate Kosala Senadheera, who was under suspension while serving as the Colombo Continue Reading The post Suspended Colombo Fort Magistrate Kosala Senadheera reinstated with back pay appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/07/suspended-colombo-fort-magistrate-kosala-senadheera-reinstated-with-back-pay/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-21.34.52.jpeg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-07T16:06:21+00:00",
-   "fetched": "2026-10-07T20:43:37.610770+00:00",
-   "page_chars": 786,
-   "ai_title": "சஸ்பெண்ட் செய்யப்பட்ட கொழும்பு கோட்டை மாஜிஸ்திரேட் கோசலா சேனதீரா மீண்டும் பணியில் அமர்த்தப்பட்டார்",
-   "title_ta": "சஸ்பெண்ட் செய்யப்பட்ட கொழும்பு கோட்டை மாஜிஸ்திரேட் கோசலா சேனதீரா மீண்டும் பணியில் அமர்த்தப்பட்டார்",
-   "ai_summary": "கொழும்பு கோட்டை நீதவான் பதவி வகிக்கும் போது இடைநீக்கம் செய்யப்பட்டிருந்த கொசல சேனதீரவை உடனடியாக அமல்படுத்த நீதித்துறை சேவை ஆணைக்குழு(JSC) நடவடிக்கை எடுத்துள்ளது.",
-   "ai_body": [
-    "கொழும்பு கோட்டை நீதவான் பதவி வகிக்கும் போது இடைநீக்கம் செய்யப்பட்டிருந்த கொசல சேனதீரவை உடனடியாக அமல்படுத்த நீதித்துறை சேவை ஆணைக்குழு(JSC) நடவடிக்கை எடுத்துள்ளது. அதன்படி, அவர் அனைத்து குற்றச்சாட்டுகளிலிருந்தும் விடுவிக்கப்பட்டார் மற்றும் அவரது பின் ஊதியத்துடன் கொழும்பு மாஜிஸ்திரேட் நீதிமன்றத்தில் இணைக்கப்பட்டார்.",
-    "சேனதீரா தனது உத்தியோகபூர்வ இல்லத்திற்கு சட்டவிரோதமாக மின்சாரம் மற்றும் தண்ணீரைப் பெற்றார் என்ற குற்றச்சாட்டின் அடிப்படையில், ஜூலை 10, 2024 முதல் அவரது சேவை இடைநிறுத்தப்பட்டது. தலைமை நீதிபதி தலைமையிலான நீதித்துறை சேவை ஆணையம், 27 மாதங்கள் நீடித்த நீண்ட மற்றும் முறையான விசாரணையைத் தொடர்ந்து இந்த முடிவை எட்டியது, இதன் போது 20 க்கும் மேற்பட்ட சாட்சிகளிடமிருந்து சாட்சியங்கள் பதிவு செய்யப்பட்டன."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-07T20:46:07.383418+00:00"
-  },
-  {
-   "id": "2912d24d546e",
-   "type": "auto",
-   "title": "ராகுல், பிரியங்காவை போராட்டக் களத்திற்கே செல்ல விடாத காவல்துறை - என்ன நடந்தது? புகைப்பட தொகுப்பு",
-   "summary": "டெல்லியில் தேர்தல் ஆணையம் மற்றும் தலைமைத் தேர்தல் ஆணையர் ஞானேஷ் குமாருக்கு எதிராக போராட ஜந்தர்மந்தர் செல்லும் வழியிலேயே மக்களவை எதிர்க்கட்சித் தலைவர் ராகுல் காந்தி ராகுல் காந்தி தடுத்து நிறுத்தப்பட்டார். காவல் நிலையத்திற்கு அழைத்துச் செல்லப்பட்ட அவர் பின்னர் சிறிது நேரத்தில் விடுவிக்கப்பட்டார்.",
-   "link": "https://www.bbc.com/tamil/articles/cm0qk0e2nzqxo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/786d/live/d7517a90-c266-11f1-babe-4199b0e7ccea.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-07T15:57:38+00:00",
-   "fetched": "2026-10-07T20:43:37.610770+00:00",
-   "page_chars": 1955
-  },
-  {
-   "id": "b374220f9a82",
-   "type": "auto",
-   "title": "Sri Lanka Cricket facilitates Bahrain Cricket with training facilities in Sri Lanka",
-   "summary": "Sri Lanka Cricket (SLC) recently facilitated the Bahrain Cricket Federation by providing logistical and coaching support to help train its Continue Reading The post Sri Lanka Cricket facilitates Bahrain Cricket with training facilities in Sri Lanka appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/07/sri-lanka-cricket-facilitates-bahrain-cricket-with-training-facilities-in-sri-lanka/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Mirudhulath-23.jpg",
-   "lang": "en",
-   "category": "sports",
-   "tags": [
-    "sports",
-    "srilanka"
-   ],
-   "published": "2026-10-07T15:45:31+00:00",
-   "fetched": "2026-10-07T20:43:37.610770+00:00",
-   "page_chars": 1071
-  },
-  {
-   "id": "9cd3f6aa60d6",
-   "type": "auto",
-   "title": "Mahanayake Theras raise serious concern over Gnanasara Thera’s removal of robes",
-   "summary": "The Mahanayake Theras of Sri Lanka’s main Buddhist chapters have expressed serious concern over the decision by prison authorities to Continue Reading The post Mahanayake Theras raise serious concern over Gnanasara Thera’s removal of robes appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/07/mahanayake-theras-raise-serious-concern-over-gnanasara-theras-removal-of-robes/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/IMG-20261007-WA0081.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-10-07T15:35:24+00:00",
-   "fetched": "2026-10-07T20:43:37.610770+00:00",
-   "page_chars": 2459,
-   "ai_title": "ஞானசார தேரர் ஆடைகளை அகற்றுவது குறித்து மகாநாயக்க தேரர்கள் தீவிர கவலையை எழுப்புகின்றனர்",
-   "title_ta": "ஞானசார தேரர் ஆடைகளை அகற்றுவது குறித்து மகாநாயக்க தேரர்கள் தீவிர கவலையை எழுப்புகின்றனர்",
-   "ai_summary": "இலங்கையின் பிரதான பௌத்த அத்தியாயங்களின் மகாநாயக்க தேரர்கள் வென் தயாரிப்பதற்கான சிறை அதிகாரிகளின் முடிவு குறித்து தீவிர கவலையை வெளிப்படுத்தியுள்ளனர்.",
-   "ai_body": [
-    "இலங்கையின் பிரதான பௌத்த அத்தியாயங்களின் மகாநாயக்க தேரர்கள் வென் தயாரிப்பதற்கான சிறை அதிகாரிகளின் முடிவு குறித்து தீவிர கவலையை வெளிப்படுத்தியுள்ளனர். கலகொட ஞானசார தேரர் தனது அங்கிகளுக்குப் பதிலாக சிவிலியன் உடைகளில் நீதிமன்றத்தில் ஆஜரானார்.",
-    "சிறைச்சாலை ஆணையாளர் நாயகத்திற்கு அனுப்பிய கடிதத்தில், மகாநாயக்க தேரர்கள் அரசியலமைப்பு மற்றும் நீதித்துறை செயல்முறையை முழுமையாக மதிக்கும் அதே வேளையில், ஒரு பௌத்த துறவியின் அங்கிகளை அகற்றுவது அல்லது அவரது துறவற அந்தஸ்தை நீக்குவது என்பது சிறை விதிமுறைகளால் நிர்வகிக்கப்படும் நிர்வாக விஷயமாக மட்டுமே கருதப்பட முடியாது என்று கூறினார். இதுபோன்ற விஷயங்கள் மகா சங்கத்தின் மத அதிகாரத்திற்குள் வரும் என்று அவர்கள் கூறினர்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-07T20:46:09.826773+00:00"
-  },
-  {
-   "id": "2610d34fff5b",
-   "type": "auto",
-   "title": "Over 12,000 Scouts expected for Sri Lanka National Scout Jamboree in 2027",
-   "summary": "A discussion between Secretary to the President Dr. Nandika Sanath Kumanayake and the heads of State and private sector institutions Continue Reading The post Over 12,000 Scouts expected for Sri Lanka National Scout Jamboree in 2027 appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/07/over-12000-scouts-expected-for-sri-lanka-national-scout-jamboree-in-2027/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-20.39.56.jpeg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-07T15:30:35+00:00",
-   "fetched": "2026-10-07T20:43:37.610770+00:00",
-   "page_chars": 1468,
-   "ai_title": "2027 ஆம் ஆண்டில் இலங்கை தேசிய சாரணர் ஜம்போரிக்கு 12,000 க்கும் மேற்பட்ட சாரணர்கள் எதிர்பார்க்கப்படுகிறார்கள்",
-   "title_ta": "2027 ஆம் ஆண்டில் இலங்கை தேசிய சாரணர் ஜம்போரிக்கு 12,000 க்கும் மேற்பட்ட சாரணர்கள் எதிர்பார்க்கப்படுகிறார்கள்",
-   "ai_summary": "இலங்கை தேசிய சாரணர் ஜம்போரிக்கு நிதியுதவி வழங்கும் அரச மற்றும் தனியார் துறை நிறுவனங்களின் தலைவர்களுக்கும் ஜனாதிபதியின் செயலாளர் டாக்டர் நந்திகா சனத் குமாநாயக்கவுக்கும் இடையிலான கலந்துரையாடல் நேற்று (06) ஜனாதிபதி செயலகத்தில் நடைபெற்றது.",
-   "ai_body": [
-    "இலங்கை தேசிய சாரணர் ஜம்போரிக்கு நிதியுதவி வழங்கும் அரச மற்றும் தனியார் துறை நிறுவனங்களின் தலைவர்களுக்கும் ஜனாதிபதியின் செயலாளர் டாக்டர் நந்திகா சனத் குமாநாயக்கவுக்கும் இடையிலான கலந்துரையாடல் நேற்று (06) ஜனாதிபதி செயலகத்தில் நடைபெற்றது. இந்த கலந்துரையாடல் ஜம்போரியை ஆதரிக்கும் அரசு நிறுவனங்கள் மற்றும் நிகழ்வின் வெற்றிகரமான அமைப்பை உறுதி செய்வதற்காக நிதி நிதியுதவி வழங்கும் அரசு மற்றும் தனியார் துறை நிறுவனங்களால் வழங்கப்படும் பங்களிப்புகள் குறித்து கவனம் செலுத்தியது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-07T20:46:11.431552+00:00"
-  },
-  {
-   "id": "2f75da20bfdc",
-   "type": "auto",
-   "title": "'மோதி, ஷா, பகவத், ஞானேஷை விட மாட்டோம்' - இரண்டாவது நாளும் தடுக்கப்பட்ட ராகுல் கூறியது என்ன?",
-   "summary": "டெல்லியில் எதிர்க்கட்சி எம்.பி.க்களுடன் இணைந்து போராட்டம் நடத்துவதற்காக ஜந்தர் மந்தருக்குச் செல்ல முயன்ற மக்களவை எதிர்க்கட்சித் தலைவர் ராகுல் காந்தியை காவல்துறையினர் தடுத்து நிறுத்தியுள்ளது. காவல்துறையினர் அவரை தற்காலிகமாகத் தடுத்து வைத்ததாக, சம்பவ இடத்தில் இருந்த பிபிசி செய்தியாளர் தில்நவாஸ் பாஷா…",
-   "link": "https://www.bbc.com/tamil/articles/cmqxnwxj8q17o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/8d07/live/316ff380-c262-11f1-a64c-550be9e3c66b.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-07T15:18:36+00:00",
-   "fetched": "2026-10-07T15:21:23.766838+00:00",
-   "page_chars": 6238
-  },
-  {
-   "id": "82317b81afb9",
-   "type": "auto",
-   "title": "Shiranthi’s health conditions detailed in court; hospital visit ordered for eye treatment",
-   "summary": "Several health conditions affecting former First Lady Shiranthi Rajapaksa were detailed before the Colombo Magistrate’s Court as her lawyers sought Continue Reading The post Shiranthi’s health conditions detailed in court; hospital visit ordered for eye treatment appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/07/shiranthis-health-conditions-detailed-in-court-hospital-visit-ordered-for-eye-treatment/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/IMG-20261007-WA01521.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-07T15:15:24+00:00",
-   "fetched": "2026-10-07T15:21:23.766838+00:00",
-   "page_chars": 1556,
-   "ai_title": "ஷிரந்தியின் உடல்நிலை நீதிமன்றத்தில் விவரிக்கப்பட்டுள்ளது; மருத்துவமனை வருகை கண் சிகிச்சைக்கு உத்தரவிடப்பட்டது",
-   "title_ta": "ஷிரந்தியின் உடல்நிலை நீதிமன்றத்தில் விவரிக்கப்பட்டுள்ளது; மருத்துவமனை வருகை கண் சிகிச்சைக்கு உத்தரவிடப்பட்டது",
-   "ai_summary": "சிறிலியா சவியா விசாரணை தொடர்பாக கைது செய்யப்பட்டதைத் தொடர்ந்து அவரது வழக்கறிஞர்கள் ஜாமீன் கோரியதால், முன்னாள் முதல் பெண்மணி ஷிரந்தி ராஜபக்ஷவை பாதித்த பல சுகாதார நிலைமைகள் கொழும்பு மாஜிஸ்திரேட் நீதிமன்றத்தில் விவரிக்கப்பட்டன.",
-   "ai_body": [
-    "சிறிலியா சவியா விசாரணை தொடர்பாக கைது செய்யப்பட்டதைத் தொடர்ந்து அவரது வழக்கறிஞர்கள் ஜாமீன் கோரியதால், முன்னாள் முதல் பெண்மணி ஷிரந்தி ராஜபக்ஷவை பாதித்த பல சுகாதார நிலைமைகள் கொழும்பு மாஜிஸ்திரேட் நீதிமன்றத்தில் விவரிக்கப்பட்டன. ராஜபக்ஷவுக்காக ஆஜரான ஜனாதிபதியின் வழக்கறிஞர் அனில் சில்வா, 73 வயதான அவர் 2019 முதல் இதய நிலைக்கு சிகிச்சை பெற்று வருவதாக நீதிமன்றத்தில் தெரிவித்தார்.",
-    "2021 ஆம் ஆண்டில் ராஜபக்ஷவும் மூளை ஸ்கேனிங்கிற்கு உட்படுத்தப்பட்டதாகவும், திடீர் தலைச்சுற்றல் மற்றும் மயக்கம் ஏற்படக்கூடிய ஒரு நிலையில் அவதிப்படுவதாகவும் பாதுகாப்பு வட்டாரங்கள் தெரிவித்தன."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-07T15:24:14.771817+00:00"
-  },
-  {
-   "id": "fd8a3b41a064",
-   "type": "auto",
-   "title": "Ceybank celebrates 35 years of stability and growth",
-   "summary": "Ceybank celebrated its 35th anniversary recently, heralding a legacy of resilience, continuity and investment expertise built throughout three and a Continue Reading The post Ceybank celebrates 35 years of stability and growth appeared first on Newswire .",
-   "link": "https://www.newswire.lk/business/ceybank-celebrates-35-years-of-stability-and-growth/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Image-2026-10-02.jpeg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-07T15:04:07+00:00",
-   "fetched": "2026-10-07T15:21:23.766838+00:00",
-   "page_chars": 5370,
-   "ai_title": "சீபேங்க் 35 ஆண்டுகால ஸ்திரத்தன்மை மற்றும் வளர்ச்சியைக் கொண்டாடுகிறது",
-   "title_ta": "சீபேங்க் 35 ஆண்டுகால ஸ்திரத்தன்மை மற்றும் வளர்ச்சியைக் கொண்டாடுகிறது",
-   "ai_summary": "சீபேங்க் தனது 35 வது ஆண்டு நிறைவை சமீபத்தில் கொண்டாடியது, இது மூன்றரை தசாப்தங்களாக கட்டமைக்கப்பட்ட பின்னடைவு, தொடர்ச்சி மற்றும் முதலீட்டு நிபுணத்துவத்தின் பாரம்பரியத்தை அறிவித்தது.",
-   "ai_body": [
-    "சீபேங்க் தனது 35 வது ஆண்டு நிறைவை சமீபத்தில் கொண்டாடியது, இது மூன்றரை தசாப்தங்களாக கட்டமைக்கப்பட்ட பின்னடைவு, தொடர்ச்சி மற்றும் முதலீட்டு நிபுணத்துவத்தின் பாரம்பரியத்தை அறிவித்தது. இலங்கையில் பல்வேறு பொருளாதாரச் சுழற்சிகள் மற்றும் சந்தை மாற்றங்களில் செயல்பட்ட நிறுவனத்தின் நீண்ட ஆயுள் நிறுவன வலிமை மற்றும் தலைமுறை முதலீட்டாளர்களிடையே சம்பாதித்த நம்பிக்கையின் சான்றாகும்.",
-    "35 ஆண்டு கால மைல்கல், நிறுவனத்தின் முன்னேற்றம் மற்றும் முன்னோக்கி செல்லும் பாதையை பிரதிபலிக்கும் வகையில், பங்குதாரர்களையும் தலைமைத்துவத்தையும் ஒன்றிணைத்து, கொழும்பில் உள்ள சீபேங்க் கார்ப்பரேட் அலுவலகத்தில் ஒரு தனியார் கூட்டத்துடன் குறிக்கப்பட்டது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-07T15:24:22.230490+00:00"
-  },
-  {
-   "id": "190376eca147",
-   "type": "auto",
-   "title": "Shiranthi’s defence: Rs. 10 million remains in Siriliya Saviya account",
-   "summary": "Former First Lady Shiranthi Rajapaksa, through her lawyers, told the Colombo Magistrate’s Court that funds received by the Siriliya Saviya Continue Reading The post Shiranthi’s defence: Rs. 10 million remains in Siriliya Saviya account appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/07/shiranthis-defence-rs-10-million-remains-in-siriliya-saviya-account/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Azzam_20261007_190818_0000.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-07T15:04:04+00:00",
-   "fetched": "2026-10-07T15:21:23.766838+00:00",
-   "page_chars": 2694,
-   "ai_title": "ஷிரந்தியின் பாதுகாப்பு: ரூ. 10 மில்லியன் சிறிலியா சவியா கணக்கில் உள்ளது",
-   "title_ta": "ஷிரந்தியின் பாதுகாப்பு: ரூ. 10 மில்லியன் சிறிலியா சவியா கணக்கில் உள்ளது",
-   "ai_summary": "முன்னாள் முதல் பெண்மணி ஷிரந்தி ராஜபக்ஷ, தனது வழக்கறிஞர்கள் மூலம், கொழும்பு மாஜிஸ்திரேட் நீதிமன்றத்தில், சிறிலியா சவிய அமைப்பால் பெறப்பட்ட நிதி அதன் வங்கிக் கணக்கில் உள்ளது என்றும், அந்த பணம் தவறாகப் பயன்படுத்தப்பட்டது என்ற குற்றச்சாட்டுகளை நிராகரித்தது என்றும் கூறினார்.",
-   "ai_body": [
-    "முன்னாள் முதல் பெண்மணி ஷிரந்தி ராஜபக்ஷ, தனது வழக்கறிஞர்கள் மூலம், கொழும்பு மாஜிஸ்திரேட் நீதிமன்றத்தில், சிறிலியா சவிய அமைப்பால் பெறப்பட்ட நிதி அதன் வங்கிக் கணக்கில் உள்ளது என்றும், அந்த பணம் தவறாகப் பயன்படுத்தப்பட்டது என்ற குற்றச்சாட்டுகளை நிராகரித்தது என்றும் கூறினார். சிறிலியா சவியாவுக்கு கிடைத்த நிதி தொடர்பான விசாரணை தொடர்பாக இலஞ்சம் அல்லது ஊழல் குற்றச்சாட்டுகளை விசாரிப்பதற்கான ஆணைக்குழுவால் கைது செய்யப்பட்ட பின்னர் ராஜபக்ஷ அக்டோபர் 13 ஆம் திகதி வரை விளக்கமறியலில் வைக்கப்பட்டார்.",
-    "ராஜபக்ஷவுக்காக ஆஜரான ஜனாதிபதியின் வழக்கறிஞர் அனில் சில்வா, சிறிலியா சவியா 2006 முதல் அரசாங்கத்தால் அங்கீகரிக்கப்பட்ட நலன்புரி அமைப்பாக செயல்பட்டு வருவதாகவும், பல்வேறு தொண்டு நடவடிக்கைகளை மேற்கொண்டதாகவும் நீதிமன்றத்தில் தெரிவித்தார். ரூ.50,000/-க்கு தகராறு செய்யவில்லை என்று பாதுகாப்புத் துறை கூறியது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-07T15:24:25.261723+00:00"
-  },
-  {
-   "id": "a8f41842ec71",
-   "type": "auto",
-   "title": "Man arrested in Ethul Kotte with Sambar and Spotted Deer antlers",
-   "summary": "A joint raid conducted by the Air Force Intelligence Service and the Colombo District Wildlife Range Office in Bellanwila led Continue Reading The post Man arrested in Ethul Kotte with Sambar and Spotted Deer antlers appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/07/man-arrested-in-ethul-kotte-with-sambar-and-spotted-deer-antlers/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-20.07.53.jpeg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-07T15:01:59+00:00",
-   "fetched": "2026-10-07T15:21:23.766838+00:00",
-   "page_chars": 795,
-   "ai_title": "சாம்பார் மற்றும் ஸ்பாட்டட் மான் கொம்புகளுடன் எத்துல் கோட்டேயில் கைது செய்யப்பட்ட நபர்",
-   "title_ta": "சாம்பார் மற்றும் ஸ்பாட்டட் மான் கொம்புகளுடன் எத்துல் கோட்டேயில் கைது செய்யப்பட்ட நபர்",
-   "ai_summary": "விமானப்படை புலனாய்வு சேவை மற்றும் பெல்லன்விலாவில் உள்ள கொழும்பு மாவட்ட வனவிலங்கு வரம்பு அலுவலகம் இணைந்து நடத்திய கூட்டு சோதனையின் காரணமாக, சட்டவிரோதமான உடைமை மற்றும் பாதுகாக்கப்பட்ட வனவிலங்கு பாகங்களை பொதுமக்கள் பார்வைக்கு வைத்திருந்ததற்காக இன்று (07) எத்துல் கோட்டை பகுதியில் சந்தேகநபர் கைது செய்யப்பட்டார்.",
-   "ai_body": [
-    "விமானப்படை புலனாய்வு சேவை மற்றும் பெல்லன்விலாவில் உள்ள கொழும்பு மாவட்ட வனவிலங்கு வரம்பு அலுவலகம் இணைந்து நடத்திய கூட்டு சோதனையின் காரணமாக, சட்டவிரோதமான உடைமை மற்றும் பாதுகாக்கப்பட்ட வனவிலங்கு பாகங்களை பொதுமக்கள் பார்வைக்கு வைத்திருந்ததற்காக இன்று (07) எத்துல் கோட்டை பகுதியில் சந்தேகநபர் கைது செய்யப்பட்டார். அதிகாரிகள் கண்டிப்பாக பாதுகாக்கப்பட்ட சாம்பார் மான் (ருசா யூனிகலர்) மற்றும் பாதுகாக்கப்பட்ட ஸ்பாட்டட் மான் (அச்சு அச்சு) இரண்டு எறும்பு ரேக்குகளுடன் எறும்பு ரேக்கை மீட்டனர், அவை விலங்குகள் மற்றும் தாவர பாதுகாப்பு கட்டளைச் சட்டத்தை மீறி விற்பனைக்கு வைக்கப்பட்டு காட்சிக்கு வைக்கப்பட்டன.",
-    "கைப்பற்றப்பட்ட பொருட்களுடன் சந்தேகநபர் நாளை (08) நுகேகொட நீதவான் நீதிமன்றத்தில் ஆஜர்படுத்தப்படவுள்ளார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-07T15:24:27.819373+00:00"
-  },
-  {
-   "id": "83b2af748952",
-   "type": "auto",
-   "title": "Sri Lanka’s homegrown delivery platform ‘Ting’ unveils multi-vendor ordering and built-in bill splitting",
-   "summary": "Sri Lanka’s delivery landscape is about to take a different direction. Ting, a homegrown innovation-first platform, built for Sri Lankan Continue Reading The post Sri Lanka’s homegrown delivery platform ‘Ting’ unveils multi-vendor ordering and built-in bill splitting appeared first on Newswire .",
-   "link": "https://www.newswire.lk/business/sri-lankas-homegrown-delivery-platform-ting-unveils-multi-vendor-ordering-and-built-in-bill-splitting/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Ting-Image-1.jpeg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-07T14:49:57+00:00",
-   "fetched": "2026-10-07T15:21:23.766838+00:00",
-   "page_chars": 3323,
-   "ai_title": "இலங்கையின் உள்நாட்டு டெலிவரி தளமான ‘டிங்‘ பல விற்பனையாளர் ஆர்டர் மற்றும் உள்ளமைக்கப்பட்ட பில் பிரிப்பை அறிமுகப்படுத்துகிறது",
-   "title_ta": "இலங்கையின் உள்நாட்டு டெலிவரி தளமான ‘டிங்‘ பல விற்பனையாளர் ஆர்டர் மற்றும் உள்ளமைக்கப்பட்ட பில் பிரிப்பை அறிமுகப்படுத்துகிறது",
-   "ai_summary": "இலங்கையின் டெலிவரி நிலப்பரப்பு வேறு திசையில் செல்ல உள்ளது.",
-   "ai_body": [
-    "இலங்கையின் டெலிவரி நிலப்பரப்பு வேறு திசையில் செல்ல உள்ளது. இலங்கையின் ஆர்டர் பழக்கவழக்கங்களுக்காக கட்டப்பட்ட உள்நாட்டு கண்டுபிடிப்பு-முதல் தளமான டிங், 30 அக்டோபர் 2026 அன்று கொழும்பு மாவட்டத்தில் அதிகாரப்பூர்வமாக தொடங்கப்படும், பாரம்பரிய டெலிவரி பயன்பாடுகள் எவ்வாறு செயல்படுகின்றன என்பதை விட மக்கள் உண்மையில் எவ்வாறு ஒன்றாக ஆர்டர் செய்கிறார்கள் என்பதைச் சுற்றி வடிவமைக்கப்பட்ட உணவு விநியோகத்திற்கான புதிய அணுகுமுறையை அறிமுகப்படுத்துகிறது.",
-    "‘டிங்’ என்பது முழுமையாக இலங்கைக்கு சொந்தமான இயங்குதள சேவை நிறுவனமான எடின் சர்வீசஸ் (பிரைவேட்) லிமிடெட் நிறுவனத்தின் ஒரு பகுதியாகும்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-07T15:24:29.875512+00:00"
-  },
-  {
-   "id": "12fb26ca7c2f",
-   "type": "auto",
-   "title": "Remanded former First Lady Shiranthi Rajapaksa taken to prison",
-   "summary": "The post Remanded former First Lady Shiranthi Rajapaksa taken to prison appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/07/remanded-former-first-lady-shiranthi-rajapaksa-taken-to-prison/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Visual-Stories-32.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-07T14:19:08+00:00",
-   "fetched": "2026-10-07T15:21:23.766838+00:00",
-   "page_chars": 100
-  },
-  {
-   "id": "15c612affa82",
-   "type": "auto",
-   "title": "211,666 leave for foreign employment in first nine months of 2026",
-   "summary": "A total of 211,666 Sri Lankan migrant workers departed for foreign employment during the first nine months of the year, Continue Reading The post 211,666 leave for foreign employment in first nine months of 2026 appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/07/211666-leave-for-foreign-employment-in-first-nine-months-of-2026/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/migrant-workers.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-07T14:17:54+00:00",
-   "fetched": "2026-10-07T15:21:23.766838+00:00",
-   "page_chars": 705,
-   "ai_title": "2026 ஆம் ஆண்டின் முதல் ஒன்பது மாதங்களில் 211,666 வெளிநாட்டு வேலைவாய்ப்புக்கு விடுப்பு",
-   "title_ta": "2026 ஆம் ஆண்டின் முதல் ஒன்பது மாதங்களில் 211,666 வெளிநாட்டு வேலைவாய்ப்புக்கு விடுப்பு",
-   "ai_summary": "இந்த ஆண்டின் முதல் ஒன்பது மாதங்களில் மொத்தம் 211,666 இலங்கை புலம்பெயர்ந்த தொழிலாளர்கள் வெளிநாட்டு வேலைவாய்ப்புக்காக புறப்பட்டதாக இலங்கை வெளிநாட்டு வேலைவாய்ப்பு பணியகம் (SLBFE) தெரிவித்துள்ளது.",
-   "ai_body": [
-    "இந்த ஆண்டின் முதல் ஒன்பது மாதங்களில் மொத்தம் 211,666 இலங்கை புலம்பெயர்ந்த தொழிலாளர்கள் வெளிநாட்டு வேலைவாய்ப்புக்காக புறப்பட்டதாக இலங்கை வெளிநாட்டு வேலைவாய்ப்பு பணியகம் (SLBFE) தெரிவித்துள்ளது. அந்த மொத்தத்தில், 141,916 தனிநபர்கள் தங்கள் சொந்த வழிகளில் வெளிநாடுகளுக்குச் சென்றனர், அதே நேரத்தில் 69,750 பேர் வெளிநாட்டு வேலைவாய்ப்பு முகவர் மூலம் பயணம் செய்தனர்.",
-    "புறப்பட்டவர்களில் 134,761 ஆண்களும் 76,905 பெண்களும் இருந்தனர், 108,343 பேர் திறமையான தொழில் வல்லுநர்களாக வகைப்படுத்தப்பட்டனர். மொத்தம் 29,752 தொழிலாளர்கள் நாட்டை விட்டு வெளியேறியதால், செப்டம்பர் இதுவரை இந்த ஆண்டிற்கான மிக உயர்ந்த மாதாந்திர புறப்பாடு அளவைப் பதிவு செய்தது.",
-    "கூடுதலாக, 2026 ஆம் ஆண்டின் முதல் எட்டு மாதங்களில் இலங்கை 6,131 மில்லியன் அமெரிக்க டாலர்களை தொழிலாளர்களுக்கு பணம் அனுப்பியதாக SLBFE தெரிவித்துள்ளது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-07T15:24:32.391066+00:00"
-  },
-  {
-   "id": "4f013c66e41f",
-   "type": "auto",
-   "title": "For the First Time in Sri Lanka, a Supermarket Brand Introduces Full Cream Milk Powder Made with New Zealand Milk",
-   "summary": "In a first for the Sri Lankan supermarket sector, SPAR Sri Lanka has introduced SPAR Full Cream Milk Powder, bringing Continue Reading The post For the First Time in Sri Lanka, a Supermarket Brand Introduces Full Cream Milk Powder Made with New Zealand Milk appeared first on Newswire .",
-   "link": "https://www.newswire.lk/business/for-the-first-time-in-sri-lanka-a-supermarket-brand-introduces-full-cream-milk-powder-made-with-new-zealand-milk/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Image-2026-10-05-at-15.36.18.jpeg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-07T13:59:34+00:00",
-   "fetched": "2026-10-07T15:21:23.766838+00:00",
-   "page_chars": 1562,
-   "ai_title": "இலங்கையில் முதல் முறையாக, ஒரு பல்பொருள் அங்காடி பிராண்ட் நியூசிலாந்து பாலுடன் தயாரிக்கப்பட்ட முழு கிரீம் பால் பவுடரை அறிமுகப்படுத்துகிறது",
-   "title_ta": "இலங்கையில் முதல் முறையாக, ஒரு பல்பொருள் அங்காடி பிராண்ட் நியூசிலாந்து பாலுடன் தயாரிக்கப்பட்ட முழு கிரீம் பால் பவுடரை அறிமுகப்படுத்துகிறது",
-   "ai_summary": "இலங்கை பல்பொருள் அங்காடித் துறைக்கு முதன்முதலில், SPAR இலங்கை SPAR முழு கிரீம் பால் பவுடரை அறிமுகப்படுத்தியுள்ளது, இது நம்பகமான ஸ்பார் பல்பொருள் அங்காடி பிராண்டின் கீழ் நுகர்வோருக்கு நியூசிலாந்து பால் பவுடரை மலிவு விலையில் கொண்டு வந்துள்ளது.",
-   "ai_body": [
-    "இலங்கை பல்பொருள் அங்காடித் துறைக்கு முதன்முதலில், SPAR இலங்கை SPAR முழு கிரீம் பால் பவுடரை அறிமுகப்படுத்தியுள்ளது, இது நம்பகமான ஸ்பார் பல்பொருள் அங்காடி பிராண்டின் கீழ் நுகர்வோருக்கு நியூசிலாந்து பால் பவுடரை மலிவு விலையில் கொண்டு வந்துள்ளது. இந்த புதிய தயாரிப்பு வாடிக்கையாளர்களுக்கு தரம், தேர்வு மற்றும் மதிப்பை வழங்குவதற்கான இலங்கையின் பயணத்தில் மற்றொரு மைல்கல்லை பிரதிநிதித்துவப்படுத்துகிறது, அதே நேரத்தில் சர்வதேச அளவில் பெறப்பட்ட தயாரிப்புகளை இலங்கை குடும்பங்களுக்கு அணுகக்கூடியதாக ஆக்குகிறது.",
-    "\"இலங்கை நுகர்வோருக்கு சிறந்த தரம், சிறந்த தேர்வு மற்றும் சிறந்த மதிப்பை வழங்குவதே எங்கள் நோக்கம்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-07T15:24:34.866512+00:00"
   }
  ]
 }
