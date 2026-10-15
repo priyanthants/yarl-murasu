@@ -1,6 +1,720 @@
 {
- "updated": "2026-10-15T09:02:39.507219+00:00",
+ "updated": "2026-10-15T14:19:39.738698+00:00",
  "items": [
+  {
+   "id": "92f93372de2d",
+   "type": "auto",
+   "title": "European states, Canada and Japan back International Criminal Court amidst US sanctions",
+   "summary": "The foreign ministers of Canada, Denmark, Germany, France, Italy, Japan, the Netherlands, and the United Kingdom released a joint statement declaring support for the International Criminal Court (ICC) amidst recent sanctions by the United States. In the statement published on Friday, the countries…",
+   "link": "http://www.tamilguardian.com/content/foreign-ministers-back-international-criminal-court-amidst-us-sanctions",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/International_Criminal_Court_at_The_Hague_(ICC)_(54032051190).jpg",
+   "lang": "en",
+   "category": "world",
+   "tags": [
+    "world",
+    "jaffna"
+   ],
+   "published": "2026-10-15T19:47:52+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 3718
+  },
+  {
+   "id": "74457f40c053",
+   "type": "auto",
+   "title": "Indian business delegations visit Sri Lanka to explore investment",
+   "summary": "The Sri Lankan deputy minister of industry and entrepreneurship development, Chathuranga Abeysinghe, meets the Confederation of Indian Industry delegation in Colombo. Photograph: Newswire Two Indian business delegations have visited Sri Lanka to explore trade and investment, meeting Sri Lankan…",
+   "link": "http://www.tamilguardian.com/content/sri-lanka-and-india-explore-new-industrial-investment-opportunities",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/261014india/Chathuranga-India-delegation.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "world",
+    "jaffna"
+   ],
+   "published": "2026-10-15T16:41:35+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 3017,
+   "ai_title": "முதலீட்டை ஆராய்வதற்காக இந்திய வணிகத் தூதுக்குழுக்கள் இலங்கைக்கு வருகை தருகின்றன",
+   "title_ta": "முதலீட்டை ஆராய்வதற்காக இந்திய வணிகத் தூதுக்குழுக்கள் இலங்கைக்கு வருகை தருகின்றன",
+   "ai_summary": "இலங்கையின் கைத்தொழில் மற்றும் தொழில்முனைவோர் அபிவிருத்தி பிரதி அமைச்சர் சதுரங்க அபேசிங்க, கொழும்பில் இந்திய கைத்தொழில் தூதுக்குழுவின் கூட்டமைப்பை சந்திக்கிறார்.",
+   "ai_body": [
+    "இலங்கையின் கைத்தொழில் மற்றும் தொழில்முனைவோர் அபிவிருத்தி பிரதி அமைச்சர் சதுரங்க அபேசிங்க, கொழும்பில் இந்திய கைத்தொழில் தூதுக்குழுவின் கூட்டமைப்பை சந்திக்கிறார். புகைப்படம்: புதுடெல்லி தமிழ் வடகிழக்கு உட்பட தீவில் தனது பொருளாதார அடிச்சுவட்டை தொடர்ந்து விரிவுபடுத்துவதால், வர்த்தகம் மற்றும் முதலீட்டை ஆராய்வதற்கும், இலங்கை அமைச்சர்கள் மற்றும் முதலீட்டு அதிகாரிகளை கொழும்பில் சந்திப்பதற்கும் இரண்டு இந்திய வணிகக் குழுக்கள் இலங்கைக்கு விஜயம் செய்துள்ளன."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-15T14:22:15.413491+00:00"
+  },
+  {
+   "id": "46de1beed75f",
+   "type": "auto",
+   "title": "Monks refuse to leave Presidential Secretariat after talks fail",
+   "summary": "Buddhist monks staging a sit-in protest outside the Presidential Secretariat in Colombo have refused to leave after discussions with presidential Continue Reading The post Monks refuse to leave Presidential Secretariat after talks fail appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/monks-refuse-to-leave-presidential-secretariat-after-talks-fail/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261015_192923_YouTube.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-15T14:02:08+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 1103,
+   "ai_title": "பேச்சுவார்த்தைகள் தோல்வியடைந்த பிறகு துறவிகள் ஜனாதிபதி செயலகத்தை விட்டு வெளியேற மறுக்கிறார்கள்",
+   "title_ta": "பேச்சுவார்த்தைகள் தோல்வியடைந்த பிறகு துறவிகள் ஜனாதிபதி செயலகத்தை விட்டு வெளியேற மறுக்கிறார்கள்",
+   "ai_summary": "கொழும்பில் உள்ள ஜனாதிபதி செயலகத்திற்கு வெளியே ஆர்ப்பாட்டத்தில் ஈடுபட்ட பௌத்த துறவிகள் ஜனாதிபதி அதிகாரிகளுடன் கலந்துரையாடல்கள் வென் விடுவிப்பதற்கான கோரிக்கைக்கு சாதகமான பதிலை வழங்கத் தவறியதை அடுத்து வெளியேற மறுத்துவிட்டனர்.",
+   "ai_body": [
+    "கொழும்பில் உள்ள ஜனாதிபதி செயலகத்திற்கு வெளியே ஆர்ப்பாட்டத்தில் ஈடுபட்ட பௌத்த துறவிகள் ஜனாதிபதி அதிகாரிகளுடன் கலந்துரையாடல்கள் வென் விடுவிப்பதற்கான கோரிக்கைக்கு சாதகமான பதிலை வழங்கத் தவறியதை அடுத்து வெளியேற மறுத்துவிட்டனர். கலகொட அத ஞானசார தேரர்.",
+    "சிறையில் அடைக்கப்பட்டுள்ள துறவியின் விடுதலையை உறுதிப்படுத்தும் அறிவிப்பை அரசாங்கம் வெளியிடும் வரை தமது போராட்டத்தை தொடருவதாக துறவிகள் தெரிவித்தனர். ஜனாதிபதி செயலாளர் டாக்டர்.",
+    "நந்திகா சனத் குமாநாயக்க அவர்களின் கோரிக்கைகளைப் பற்றி விவாதிக்க முன்னதாக ஆர்ப்பாட்டத்தில் ஈடுபட்ட துறவிகளை சந்தித்தார். இருப்பினும், எதிர்ப்பாளர்களின் கூற்றுப்படி, ஜனாதிபதி அதிகாரிகள் இந்த விஷயத்தில் ஒரு முடிவை எடுக்க குறைந்தது ஒரு மாதமாவது தேவைப்படும் என்று தெரிவித்தனர்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-15T14:22:17.616833+00:00"
+  },
+  {
+   "id": "8e3291c4a0f4",
+   "type": "auto",
+   "title": "Fake SriLankan Airlines app used to steal bank details in",
+   "summary": "The Criminal Investigation Department (CID) has informed the Colombo Chief Magistrate’s Court of a large-scale financial scam involving a fraudulent Continue Reading The post Fake SriLankan Airlines app used to steal bank details in appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/fake-srilankan-airlines-app-used-to-steal-bank-details-in/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261015_192620_ChatGPT.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-15T13:56:54+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 1358,
+   "ai_title": "போலி ஸ்ரீலங்கன் ஏர்லைன்ஸ் செயலி வங்கி விவரங்களைத் திருடப் பயன்படுகிறது",
+   "title_ta": "போலி ஸ்ரீலங்கன் ஏர்லைன்ஸ் செயலி வங்கி விவரங்களைத் திருடப் பயன்படுகிறது",
+   "ai_summary": "உத்தியோகபூர்வ ஸ்ரீலங்கன் ஏர்லைன்ஸ் செயலியை ஒத்த வகையில் வடிவமைக்கப்பட்ட மோசடி மொபைல் செயலி சம்பந்தப்பட்ட ஒரு பெரிய அளவிலான நிதி மோசடி குறித்து குற்றவியல் புலனாய்வுத் திணைக்களம் (சிஐடி) கொழும்பு தலைமை மாஜிஸ்திரேட் நீதிமன்றத்திற்கு அறிவித்துள்ளது.",
+   "ai_body": [
+    "உத்தியோகபூர்வ ஸ்ரீலங்கன் ஏர்லைன்ஸ் செயலியை ஒத்த வகையில் வடிவமைக்கப்பட்ட மோசடி மொபைல் செயலி சம்பந்தப்பட்ட ஒரு பெரிய அளவிலான நிதி மோசடி குறித்து குற்றவியல் புலனாய்வுத் திணைக்களம் (சிஐடி) கொழும்பு தலைமை மாஜிஸ்திரேட் நீதிமன்றத்திற்கு அறிவித்துள்ளது. ஏர்லைன் டிக்கெட் வாங்குதல்களில் 50% வருமானத்தை வழங்கும் போலி விண்ணப்பத்தை விளம்பரப்படுத்த மோசடி செய்பவர்கள் ஏர்லைன்ஸின் பிராண்டிங் மற்றும் லோகோவைப் பயன்படுத்தியதாக சிஐடி கொழும்பு தலைமை மாஜிஸ்திரேட் அசங்கா எஸ்.",
+    "போடரகமவிடம் தெரிவித்துள்ளது. ஆய்வாளர்களின் கூற்றுப்படி, விண்ணப்பத்தில் பதிவு செய்ய பயனர்களுக்கு ஆரம்பத்தில் ரூ.",
+    "250 வசூலிக்கப்பட்டது. பதிவுசெய்ததும், பயனர்கள் தனிப்பட்ட தகவல்களை உள்ளிட ஊக்குவிக்கப்பட்டனர், பின்னர் அது திருடப்பட்டு அவர்களின் வங்கிக் கணக்குகளுக்கு அங்கீகரிக்கப்படாத அணுகலைப் பெற பயன்படுத்தப்பட்டது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-15T14:22:19.728585+00:00"
+  },
+  {
+   "id": "2a65ddcab02d",
+   "type": "auto",
+   "title": "Today’s News Digest – October 15",
+   "summary": "Today’s News Digest: Your go-to summary of the key events and headlines that shaped the day. From major developments to Continue Reading The post Today’s News Digest – October 15 appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/todays-news-digest-october-15/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Mirudhula-4.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-15T13:47:57+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 5402,
+   "ai_title": "இன்றைய செய்தி டைஜஸ்ட் – அக்டோபர் 15",
+   "title_ta": "இன்றைய செய்தி டைஜஸ்ட் – அக்டோபர் 15",
+   "ai_summary": "இன்றைய செய்தி டைஜஸ்ட்: அந்த நாளை வடிவமைத்த முக்கிய நிகழ்வுகள் மற்றும் தலைப்புச் செய்திகளின் சுருக்கம்.",
+   "ai_body": [
+    "இன்றைய செய்தி டைஜஸ்ட்: அந்த நாளை வடிவமைத்த முக்கிய நிகழ்வுகள் மற்றும் தலைப்புச் செய்திகளின் சுருக்கம். முக்கிய முன்னேற்றங்கள் முதல் பிரேக்கிங் நியூஸ் வரை, இன்று நடந்த அனைத்தையும் ஒரு விரைவான மற்றும் எளிதான வாசிப்பில் நாங்கள் உங்களுக்குக் கொண்டு வருகிறோம்.",
+    "தற்போதைய திட்டத்திற்கு அப்பால் இலங்கையை ஆதரிக்க சர்வதேச நாணய நிதியம் தயாராக உள்ளது: சர்வதேச நாணய நிதியம் (சர்வதேச நாணய நிதியம்) இலங்கையை ஆதரிப்பதற்கான தனது உறுதிப்பாட்டை மீண்டும் உறுதிப்படுத்தியுள்ளது, நாடு தனது பொருளாதார மீட்சியைத் தொடர்கிறது மற்றும் அதன் தற்போதைய சர்வதேச நாணய நிதியத் திட்டத்தை நிறைவு செய்வதை நெருங்கி வருவதால் அது நம்பகமான பங்காளியாக இருக்கும் என்பதை வலியுறுத்துகிறது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-15T14:22:21.715968+00:00"
+  },
+  {
+   "id": "f19417aff38a",
+   "type": "auto",
+   "title": "Environment Minister inspects ailing elephant Kavantissa",
+   "summary": "Minister of Environment Dr. Dammika Patabedige conducted an emergency inspection visit to review the current health condition of the ailing Continue Reading The post Environment Minister inspects ailing elephant Kavantissa appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/environment-minister-inspects-ailing-elephant-kavantissa/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-18.53.59.jpeg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-15T13:42:39+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 1831,
+   "ai_title": "நோய்வாய்ப்பட்ட யானை கவண்டிசாவை சுற்றுச்சூழல் அமைச்சர் ஆய்வு செய்கிறார்",
+   "title_ta": "நோய்வாய்ப்பட்ட யானை கவண்டிசாவை சுற்றுச்சூழல் அமைச்சர் ஆய்வு செய்கிறார்",
+   "ai_summary": "சுற்றுச்சூழல் அமைச்சர் டாக்டர் தம்மிகா படபேடிஜ், நோய்வாய்ப்பட்ட யானை “கவண்டிசா” வின் தற்போதைய சுகாதார நிலையை மறுஆய்வு செய்வதற்கும், நடந்துகொண்டிருக்கும் மருத்துவ சிகிச்சை நெறிமுறைகளை முறைப்படுத்துவதற்கும் அவசரகால ஆய்வு விஜயத்தை மேற்கொண்டார்.",
+   "ai_body": [
+    "சுற்றுச்சூழல் அமைச்சர் டாக்டர் தம்மிகா படபேடிஜ், நோய்வாய்ப்பட்ட யானை “கவண்டிசா” வின் தற்போதைய சுகாதார நிலையை மறுஆய்வு செய்வதற்கும், நடந்துகொண்டிருக்கும் மருத்துவ சிகிச்சை நெறிமுறைகளை முறைப்படுத்துவதற்கும் அவசரகால ஆய்வு விஜயத்தை மேற்கொண்டார். வருகையின் போது, யானையின் சுகாதார நிலை மற்றும் வனவிலங்கு பாதுகாப்புத் துறை, தேசிய விலங்கியல் பூங்காத் துறை மற்றும் கால்நடை மருத்துவத்தின் பேராதனை பீடத்தின் பேராசிரியர்கள் ஆகியோரால் கூட்டாக வகுக்கப்பட்ட சிகிச்சைத் திட்டம் குறித்து அமைச்சர் கவனம் செலுத்தினார்.",
+    "தேவைக்கேற்ப விலங்கியல் துறையிலிருந்து கூடுதல் நிபுணர் கால்நடை உதவியைப் பெறவும், நிறுவனங்களுக்கு இடையேயான ஒருங்கிணைப்பை வலுப்படுத்தவும் அதிகாரிகளுக்கு அவர் அறிவுறுத்தினார்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-15T14:22:23.651913+00:00"
+  },
+  {
+   "id": "7e806db20ca7",
+   "type": "auto",
+   "title": "Sri Lankan MP Chamara Sampath remanded over alleged phosphate export bribes",
+   "summary": "Chamara Sampath Dassanayake. File photograph: Newswire The Sri Lankan MP Chamara Sampath Dassanayake, a former Uva chief minister who once forced a Tamil school principal to kneel before him, has been remanded over allegations that he took bribes in exchange for helping companies export phosphate…",
+   "link": "http://www.tamilguardian.com/content/sri-lankan-mp-chamara-sampath-arrested-over-alleged-phosphate-export-bribery",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/261014police/Chamara-Sampath-Dassanayake.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "jaffna"
+   ],
+   "published": "2026-10-15T13:39:13+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 3209,
+   "ai_title": "பாஸ்பேட் ஏற்றுமதி லஞ்சம் கொடுத்ததாக இலங்கை நாடாளுமன்ற உறுப்பினர் சம்பத் கைது",
+   "title_ta": "பாஸ்பேட் ஏற்றுமதி லஞ்சம் கொடுத்ததாக இலங்கை நாடாளுமன்ற உறுப்பினர் சம்பத் கைது",
+   "ai_summary": "சாமர சம்பத் தஸ்ஸநாயக்க.",
+   "ai_body": [
+    "சாமர சம்பத் தஸ்ஸநாயக்க. கோப்பு புகைப்படம்: முன்னாள் ஊவா முதலமைச்சர் சாமர சம்பத் தஸ்ஸநாயக்க, ஒரு காலத்தில் ஒரு தமிழ் பாடசாலை அதிபரை தனது முன் மண்டியிட கட்டாயப்படுத்தினார், அரசுக்கு சொந்தமான லங்கா பாஸ்பேட் லிமிடெட் மூலம் நிறுவனங்களுக்கு பாஸ்பேட் ஏற்றுமதி செய்ய உதவியதற்கு ஈடாக லஞ்சம் வாங்கினார் என்ற குற்றச்சாட்டில் ரிமாண்ட் செய்யப்பட்டுள்ளார்.",
+    "பதுளைக்கான புதிய ஜனநாயக முன்னணி பாராளுமன்ற உறுப்பினரான தசநாயக்க, இலஞ்சம் அல்லது ஊழல் குற்றச்சாட்டுகளை புலனாய்வு செய்வதற்கான ஆணைக்குழுவால் (CIABOC) அக்டோபர் 12 ஆம் திகதி கைது செய்யப்பட்டார். அவர் கொழும்பு பிரதான நீதவான் அசங்க போடரகம முன்னிலையில் ஆஜர்படுத்தப்பட்டு ஒக்டோபர் 23 ஆம் திகதி வரை விளக்கமறியலில் வைக்கப்பட்டார்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-15T14:22:25.706487+00:00"
+  },
+  {
+   "id": "8525b93bf8b2",
+   "type": "auto",
+   "title": "Irrigation Department issues Amber flood warning for Nilwala River Basin",
+   "summary": "The Irrigation Department has issued an Amber flood warning for the Nilwala River Basin, cautioning that minor flooding could occur Continue Reading The post Irrigation Department issues Amber flood warning for Nilwala River Basin appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/irrigation-department-issues-amber-flood-warning-for-nilwala-river-basin/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-19.00.33.jpeg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-15T13:35:14+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 1018
+  },
+  {
+   "id": "27db3235ac8b",
+   "type": "auto",
+   "title": "ரஜினியின் ஜெயிலர் 2 எதிர்பார்ப்புகளை பூர்த்தி செய்ததா? - ரசிகர்கள் கூறுவது என்ன?",
+   "summary": "'ஜெயிலர் 2' திரைப்படம் இன்று ( அக் 15 ) திரையரங்குகளில் வெளியாகியுள்ளது.",
+   "link": "https://www.bbc.com/tamil/articles/cjqln2g3npk9o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/e23a/live/d1d5c690-c890-11f1-b0a4-81e564f1cfaa.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-10-15T13:33:58+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 3808
+  },
+  {
+   "id": "324aa4027d8f",
+   "type": "auto",
+   "title": "Batticaloa group accuses Sri Lankan police of links to illicit liquor trade",
+   "summary": "Members of the Batticaloa anti-corruption and anti-drug organisation at the press conference in Palaimeenmadu on Sunday. Photograph: Pagetamil A Batticaloa civil society group has accused Sri Lankan police at Kokkuvil station of complicity in the illicit liquor trade in Thiraimadu, after a separate…",
+   "link": "http://www.tamilguardian.com/content/batticaloa-police-accused-links-illicit-liquor-trade",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/261015%20thara%20edits/261011-batti-presser.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "jaffna"
+   ],
+   "published": "2026-10-15T13:30:30+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 3743,
+   "ai_thin": true,
+   "ai_thin_chars": 3743
+  },
+  {
+   "id": "d07bc922ef49",
+   "type": "auto",
+   "title": "அங்கிதா பண்டாரி கொலை வழக்கு: சிக்கிம் ஆளுநர் நியமனத்தால் மீண்டும் விவாதப் பொருளாவது ஏன்? 8 கேள்வி-பதில்கள்",
+   "summary": "உத்தரகாண்ட் மாநிலத்தில் நடந்த அங்கிதா பண்டாரி கொலை வழக்கு மீண்டும் ஒருமுறை விவாதத்திற்கு வந்துள்ளது. அவர் கொலை செய்யப்பட்டது தொடர்பாக, பாஜக தலைவரும் தற்போது சிக்கிம் மாநில ஆளுநராக இருப்பவருமான துஷ்யந்த் குமார் கௌதம் மீதான விமர்சனங்களுக்கு காரணம் என்ன?",
+   "link": "https://www.bbc.com/tamil/articles/cq23dmed2dr1o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/b3e3/live/2273db30-c86b-11f1-971b-634f423608e9.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-10-15T13:05:55+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "1efbc838a73e",
+   "type": "auto",
+   "title": "School roof collapse in Pakistan kills at least 29 people",
+   "summary": "Pix: Al Jazeera At least 28 students and a teacher were killed and more than 50 others injured, when the Continue Reading The post School roof collapse in Pakistan kills at least 29 people appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/school-roof-collapse-in-pakistan-kills-at-least-29-people/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Mirudhula-7.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-15T13:00:19+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 1248
+  },
+  {
+   "id": "c09470b9b4f3",
+   "type": "auto",
+   "title": "Lanka Sathosa recorded Rs. 22,000 million loss by end-2024: Trade Minister",
+   "summary": "Minister of Trade, Commerce, Food Security and Cooperative Development Wasantha Samarasinghe said that Lanka Sathosa accumulated a total loss of Continue Reading The post Lanka Sathosa recorded Rs. 22,000 million loss by end-2024: Trade Minister appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/lanka-sathosa-recorded-rs-22000-million-loss-by-end-2024-trade-minister/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Mirudhula-6.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-15T12:54:39+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 1493
+  },
+  {
+   "id": "d27bf56d76a9",
+   "type": "auto",
+   "title": "Presidential secretary intervenes as monks refuse to end protest",
+   "summary": "Presidential Secretary Dr. Nandika Sanath Kumanayake has arrived for discussions with members of the Maha Sangha staging a sit-in protest Continue Reading The post Presidential secretary intervenes as monks refuse to end protest appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/presidential-secretary-intervenes-as-monks-refuse-to-end-protest/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261015_181924_WhatsApp.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-15T12:52:43+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 518
+  },
+  {
+   "id": "be5e8e052a4a",
+   "type": "auto",
+   "title": "Ella eatery fined Rs. 260,000 for overpricing water bottles, displaying expired sodas",
+   "summary": "The Bandarawela Magistrate’s Court has ordered a fine of Rs. 260,000 against an eatery in Ella following a Consumer Continue Reading The post Ella eatery fined Rs. 260,000 for overpricing water bottles, displaying expired sodas appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/ella-eatery-fined-rs-260000-for-overpricing-water-bottles-displaying-expired-sodas/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Mirudhula-5.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-15T12:46:27+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 1697
+  },
+  {
+   "id": "fe1c609546fa",
+   "type": "auto",
+   "title": "New Zealand Tamils press Green MPs to take Chemmani to parliament",
+   "summary": "Members of the New Zealand Tamil Coordinating Committee with Green MPs Lawrence Xu-Nan and Ricardo Menéndez March in Auckland, 13 October 2026. Photograph: Thaarakam Representatives of the New Zealand Tamil Coordinating Committee met two MPs from the Green Party of Aotearoa New Zealand in Auckland…",
+   "link": "http://www.tamilguardian.com/content/new-zealand-tamils-press-green-mps-take-chemmani-parliament",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/articles/tg-greens-lead.jpg",
+   "lang": "en",
+   "category": "jaffna",
+   "tags": [
+    "jaffna"
+   ],
+   "published": "2026-10-15T12:42:34+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 2955,
+   "ai_title": "செம்மணியை நாடாளுமன்றத்திற்கு அழைத்துச் செல்ல நியூசிலாந்து தமிழர்கள் பசுமை எம் .பி.க்களை வலியுறுத்துகின்றனர்",
+   "title_ta": "செம்மணியை நாடாளுமன்றத்திற்கு அழைத்துச் செல்ல நியூசிலாந்து தமிழர்கள் பசுமை எம் .பி.க்களை வலியுறுத்துகின்றனர்",
+   "ai_summary": "13 அக்டோபர் 2026 அன்று ஆக்லாந்தில் பசுமை எம் .பி.க்கள் லாரன்ஸ் சு-நான் மற்றும் ரிக்கார்டோ மெனெண்டெஸ் மார்ச் ஆகியோருடன் நியூசிலாந்து தமிழ் ஒருங்கிணைப்புக் குழுவின் உறுப்பினர்கள்.",
+   "ai_body": [
+    "13 அக்டோபர் 2026 அன்று ஆக்லாந்தில் பசுமை எம் .பி.க்கள் லாரன்ஸ் சு-நான் மற்றும் ரிக்கார்டோ மெனெண்டெஸ் மார்ச் ஆகியோருடன் நியூசிலாந்து தமிழ் ஒருங்கிணைப்புக் குழுவின் உறுப்பினர்கள். புகைப்படம்: நியூசிலாந்து தமிழ் ஒருங்கிணைப்புக் குழுவின் தாரகம் பிரதிநிதிகள் ஆக்லாந்தில் உள்ள Aotearoa நியூசிலாந்தின் பசுமைக் கட்சியைச் சேர்ந்த இரண்டு எம் .பி.க்களை இந்த வாரம் சந்தித்து செம்மணி வெகுஜன புதைகுழியை பாராளுமன்றத்தில் எழுப்ப வலியுறுத்தினர், இரு தரப்பினரும் பாராளுமன்ற மனுவை அரசியல் நிகழ்ச்சி நிரலில் கட்டாயப்படுத்துவதற்கான பாதையாக விவாதித்தனர்.",
+    "பசுமைவாதிகளின் நீதி மற்றும் இன சமூகங்களின் இலாகாக்களை வைத்திருக்கும் டாக்டர் லாரன்ஸ் சு-நான் மற்றும் ரிக்கார்டோ மெனெண்டெஸ் மார்ச் ஆகியோருடன் அக்டோபர் 13 அன்று இந்த சந்திப்பு நடந்தது. இருவரும் ஆக்லாந்தை தளமாகக் கொண்ட பட்டியல் எம் .பி.க்கள்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-15T14:22:07.964562+00:00"
+  },
+  {
+   "id": "eeac8b87fc25",
+   "type": "auto",
+   "title": "Tamil children learning to identify grenades and anti-tank mines at school says Rosamund Pike",
+   "summary": "Rosamund Pike with schoolchildren at a landmine risk education session in the North. Photograph: Avani Rai / Mines Advisory Group Children in the Tamil North are being taught at school to recognise grenades and anti-tank mines left over from the armed conflict, the British actor Rosamund Pike has…",
+   "link": "http://www.tamilguardian.com/content/families-tamil-north-still-waiting-safe-land-rosamund-pike-says-after-minefield-visit",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/261015%20Rosamund%20Pike%20minefields/261015%20Rosamund%20Pike%20minefields%20%284%29.jpg",
+   "lang": "en",
+   "category": "jaffna",
+   "tags": [
+    "jaffna"
+   ],
+   "published": "2026-10-15T12:32:34+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 5105,
+   "ai_title": "பள்ளியில் கையெறி குண்டுகள் மற்றும் தொட்டி எதிர்ப்பு சுரங்கங்களை அடையாளம் காண தமிழ் குழந்தைகள் கற்றுக்கொள்கிறார்கள் என்று ரோசமுண்ட் பைக் கூறுகிறார்",
+   "title_ta": "பள்ளியில் கையெறி குண்டுகள் மற்றும் தொட்டி எதிர்ப்பு சுரங்கங்களை அடையாளம் காண தமிழ் குழந்தைகள் கற்றுக்கொள்கிறார்கள் என்று ரோசமுண்ட் பைக் கூறுகிறார்",
+   "ai_summary": "வடக்கில் உள்ள ஒரு சுரங்க இடர் கல்வி அமர்வில் பள்ளி மாணவர்களுடன் ரோசமுண்ட் பைக்.",
+   "ai_body": [
+    "வடக்கில் உள்ள ஒரு சுரங்க இடர் கல்வி அமர்வில் பள்ளி மாணவர்களுடன் ரோசமுண்ட் பைக். புகைப்படம்: ஆயுத மோதலில் இருந்து மீதமுள்ள கையெறி குண்டுகள் மற்றும் டேங்க் எதிர்ப்பு சுரங்கங்களை அடையாளம் காண தமிழ் வடக்கில் உள்ள அவானி ராய் / சுரங்க ஆலோசனைக் குழு குழந்தைகள் பள்ளியில் கற்பிக்கப்படுகிறார்கள் என்று பிரிட்டிஷ் நடிகர் ரோசமுண்ட் பைக் கூறினார், இடம்பெயர்ந்த குடும்பங்கள் இன்னும் தங்கள் நிலம் பாதுகாக்கப்படுவதற்காகக் காத்திருக்கும் சுரங்க வயல்களைப் பார்வையிட்ட பிறகு, யுத்தம் முடிந்து 17 ஆண்டுகளுக்குப் பிறகும்.",
+    "சுரங்க ஆலோசனைக் குழுவின் (MAG) தூதரான பைக், ஆகஸ்ட் மாதம் மன்னார் மற்றும் முல்லைத்தீவில் உள்ள சுரங்கத் துறைகளை பார்வையிட்டார். அக்டோபர் 13 அன்று MAG ஆல் வெளியிடப்பட்ட ஒரு முதல் நபர் கணக்கில், சுரங்கத் துறைகள் பயமுறுத்தும் என்று தான் எதிர்பார்த்ததாக அவர் எழுதினார்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-15T14:22:10.095476+00:00"
+  },
+  {
+   "id": "aec643da5060",
+   "type": "auto",
+   "title": "Protest demanding Gnanasara Thera’s release reaches Presidential Secretariat",
+   "summary": "A group of protesters demanding the release of Ven. Galagoda Aththe Gnanasara Thera has reached the Presidential Secretariat in Colombo, Continue Reading The post Protest demanding Gnanasara Thera’s release reaches Presidential Secretariat appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/protest-demanding-gnanasara-theras-release-reaches-presidential-secretariat/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261015_175141_Gallery.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-15T12:22:10+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 1055
+  },
+  {
+   "id": "673c84810096",
+   "type": "auto",
+   "title": "Central Expressway extension to Galewela set to begin this year",
+   "summary": "Construction of the Kurunegala-Galewela section of the Central Expressway is expected to begin before the end of 2026, Deputy Minister Continue Reading The post Central Expressway extension to Galewela set to begin this year appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/central-expressway-extension-to-galewela-set-to-begin-this-year/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261015_173517_Chrome.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-15T12:05:59+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 1139
+  },
+  {
+   "id": "4802789f3f7c",
+   "type": "auto",
+   "title": "German woman alleges assault by Sri Lankan boyfriend, seeks return of €25,000",
+   "summary": "A 40-year-old German woman has lodged a complaint with Rathgama Police, alleging that her 29-year-old Sri Lankan boyfriend assaulted her Continue Reading The post German woman alleges assault by Sri Lankan boyfriend, seeks return of €25,000 appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/german-woman-alleges-assault-by-sri-lankan-boyfriend-seeks-return-of-e25000/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261015_172305_ChatGPT.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-15T11:54:46+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 867
+  },
+  {
+   "id": "31a7d5e36a6b",
+   "type": "auto",
+   "title": "AgriConnect Sri Lanka’ to be launched on 30 October to Modernise the Agricultural Sector Through Digitalisation",
+   "summary": "A discussion on the official launch of the ‘AgriConnect Sri Lanka’ programme was held at the Presidential Secretariat on Tuesday (13) morning between Secretary to the President Dr. Nandika Sanath Kumanayake and a delegation led by Gevorg Sargsyan, World Bank Group Manager for Sri Lanka and the…",
+   "link": "http://island.lk/agriconnect-sri-lanka-to-be-launched-on-30-october-to-modernise-the-agricultural-sector-through-digitalisation/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": null,
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "world"
+   ],
+   "published": "2026-10-15T11:45:32+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 295
+  },
+  {
+   "id": "a582ff3261db",
+   "type": "auto",
+   "title": "57th Annual Saints’ Quadrangular Tournament on Saturday and Sunday",
+   "summary": "The much-anticipated 57th Annual Saints’ Quadrangular Tournament which brings together four of Sri Lanka’s leading Catholic schools, St. Anthony’s College, Kandy, St. Benedict’s College, Colombo 13, St.Joseph’s College, Colombo 10, and St. Peter’s College, Colombo 04, for a weekend of spirited…",
+   "link": "http://island.lk/57th-annual-saints-quadrangular-tournament-on-saturday-and-sunday/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": null,
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-15T11:27:10+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 295
+  },
+  {
+   "id": "d898cc08b77f",
+   "type": "auto",
+   "title": "\"நன்றாக படித்தேன், ஆனால் தோல்வியடைந்துவிட்டேன்\"; தகுதித் தேர்வில் தேர்ச்சி பெறாத 1 லட்சம் ஆசிரியர்கள்: என்ன சிக்கல்?",
+   "summary": "ஆசிரியர் தகுதித்தேர்வில் சுமார் 1 லட்சம் ஆசிரியர்கள் தோல்வியடைந்துள்ள நிலையில், பணியில் தொடர்வதில் உள்ள சிக்கல்கள் குறித்த விவாதங்கள் எழுந்துள்ளன.",
+   "link": "https://www.bbc.com/tamil/articles/cm4g1rql7dx7o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/6fde/live/5bdc1220-c889-11f1-bc2e-018d645d8d21.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-10-15T11:09:54+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "05464aacad29",
+   "type": "auto",
+   "title": "Deputy Minister seeks correction over alleged AI-generated image shown on TV",
+   "summary": "Deputy Minister of Industry and Entrepreneurship Development Chathuranga Abeysinghe has sought a formal clarification and correction from a private television Continue Reading The post Deputy Minister seeks correction over alleged AI-generated image shown on TV appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/deputy-minister-seeks-correction-over-alleged-ai-generated-image-shown-on-tv/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Chathuranga-wimal-ai-image.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-15T11:03:18+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 2952
+  },
+  {
+   "id": "9707ff43eee2",
+   "type": "auto",
+   "title": "Buddhist monk backs down on assault claim after Sri Lankan police reject link to Gnanasara march",
+   "summary": "Thiththagalle Anandasiri Thera in videos posted on social media. Photograph: Newswire A Sinhala Buddhist monk accompanying the march demanding the release of the extremist monk Galagoda Aththe Gnanasara has said he \"assumed\" a man injured in a roadside assault was a supporter of the march, after…",
+   "link": "http://www.tamilguardian.com/content/monk-defends-assault-claims-sri-lankan-police-reject-protest-link",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/261015monk/Screenshot_20261015_144716_Editor-Lite.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "jaffna"
+   ],
+   "published": "2026-10-15T10:53:00+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 4373
+  },
+  {
+   "id": "13015b6ec6e0",
+   "type": "auto",
+   "title": "Construction begins on new Coastal Park in Mannar",
+   "summary": "Construction work on a new coastal recreational park in the Silavathurai–Arippu area of Mannar has commenced, with the project aimed Continue Reading The post Construction begins on new Coastal Park in Mannar appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/construction-begins-on-new-coastal-park-in-mannar/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Coastal-Park-Mannar.jpg",
+   "lang": "en",
+   "category": "jaffna",
+   "tags": [
+    "jaffna",
+    "srilanka"
+   ],
+   "published": "2026-10-15T10:42:53+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 1424,
+   "ai_title": "மன்னாரில் புதிய கடலோர பூங்காவில் கட்டுமானம் தொடங்குகிறது",
+   "title_ta": "மன்னாரில் புதிய கடலோர பூங்காவில் கட்டுமானம் தொடங்குகிறது",
+   "ai_summary": "மன்னாரின் சிலவத்துரை-அரிப்பு பகுதியில் ஒரு புதிய கடலோர பொழுதுபோக்கு பூங்காவின் கட்டுமானப் பணிகள் தொடங்கப்பட்டுள்ளன, இந்த திட்டம் கடலோரப் பகுதியைப் பாதுகாத்தல், உள்ளூர் மீன்பிடி சமூகத்தை ஆதரித்தல் மற்றும் சுற்றுலாவை மேம்படுத்துதல் ஆகியவற்றை நோக்கமாகக் கொண்டுள்ளது.",
+   "ai_body": [
+    "மன்னாரின் சிலவத்துரை-அரிப்பு பகுதியில் ஒரு புதிய கடலோர பொழுதுபோக்கு பூங்காவின் கட்டுமானப் பணிகள் தொடங்கப்பட்டுள்ளன, இந்த திட்டம் கடலோரப் பகுதியைப் பாதுகாத்தல், உள்ளூர் மீன்பிடி சமூகத்தை ஆதரித்தல் மற்றும் சுற்றுலாவை மேம்படுத்துதல் ஆகியவற்றை நோக்கமாகக் கொண்டுள்ளது. இத்திட்டத்திற்கான அடிக்கல் நேற்று (14) சுற்றுச்சூழல் துணை அமைச்சர் அன்டன் ஜெயகோடி அவர்களின் ஆதரவின் கீழ் நாட்டப்பட்டது.",
+    "சுற்றுச்சூழல் அமைச்சகத்தின் கூற்றுப்படி, நாடு முழுவதும் உள்ள கடலோர பகுதிகளில் பொழுதுபோக்கு பூங்காக்களின் வளர்ச்சியை உள்ளடக்கிய அரசாங்கத்தின் கடலோர பாதுகாப்பு திட்டத்தின் ஒரு பகுதியாக இந்த திட்டம் செயல்படுத்தப்பட்டு வருகிறது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-15T14:22:12.295618+00:00"
+  },
+  {
+   "id": "b5ea7a0e6822",
+   "type": "auto",
+   "title": "Sri Lanka receives Rs. 330 Mn worth of cancer medicines from US charity",
+   "summary": "Sri Lanka has received a donation of essential cancer medicines worth Rs. 330 million from a US-based charitable organisation, while Continue Reading The post Sri Lanka receives Rs. 330 Mn worth of cancer medicines from US charity appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/sri-lanka-receives-rs-330-mn-worth-of-cancer-medicines-from-us-charity/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/US-Charity-Cancer-medicine.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "world"
+   ],
+   "published": "2026-10-15T10:31:57+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 2164
+  },
+  {
+   "id": "32ce07288b2e",
+   "type": "auto",
+   "title": "Denmark Tamils mark 39 years since death of 2nd Lt Maalathy",
+   "summary": "The memorial at the commemoration in Aabenraa, with portraits of 2nd Lt Maalathy and of Kumarappa and Pulendran Tamils in Denmark have marked the 39th anniversary of the death of 2nd Lt Maalathy alongside Eelam Tamil Women’s Day, at an event in Aabenraa organised by the Denmark Tamil Women’s…",
+   "link": "http://www.tamilguardian.com/content/denmark-tamils-mark-39-years-2nd-lt-maalathy-and-eelam-tamil-womens-day",
+   "source": "Tamil Guardian",
+   "source_domain": "tamilguardian.com",
+   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/261010%20Denmark%20Maalathy/261010%20Denmark%20Maalathy%20(1).jpg",
+   "lang": "en",
+   "category": "jaffna",
+   "tags": [
+    "jaffna"
+   ],
+   "published": "2026-10-15T10:31:22+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 2823,
+   "ai_title": "2 வது லெப்டினன்ட் மாலதி இறந்ததில் இருந்து டென்மார்க் தமிழர்கள் குறி 39 ஆண்டுகள்",
+   "title_ta": "2 வது லெப்டினன்ட் மாலதி இறந்ததில் இருந்து டென்மார்க் தமிழர்கள் குறி 39 ஆண்டுகள்",
+   "ai_summary": "டென்மார்க்கில் உள்ள 2 வது லெப்டினன்ட் மாலதி மற்றும் குமாரப்பா மற்றும் புலேந்திரன் தமிழர்களின் உருவப்படங்களுடன், ஆபென்ராவில் நினைவுச்சின்னத்தில் ஈழத் தமிழ் மகளிர் தினத்துடன் 2 வது லெப்டினன்ட் மாலதி இறந்த 39 வது ஆண்டு நிறைவைக் குறிக்கும் வகையில், டென்மார்க் தமிழ் மகளிர் அமைப்பு (மகளிர் அமைப்பு) ஏற்பாடு செய்திருந்த ஆபென்ராவில் ஒரு நிகழ்வில்.",
+   "ai_body": [
+    "டென்மார்க்கில் உள்ள 2 வது லெப்டினன்ட் மாலதி மற்றும் குமாரப்பா மற்றும் புலேந்திரன் தமிழர்களின் உருவப்படங்களுடன், ஆபென்ராவில் நினைவுச்சின்னத்தில் ஈழத் தமிழ் மகளிர் தினத்துடன் 2 வது லெப்டினன்ட் மாலதி இறந்த 39 வது ஆண்டு நிறைவைக் குறிக்கும் வகையில், டென்மார்க் தமிழ் மகளிர் அமைப்பு (மகளிர் அமைப்பு) ஏற்பாடு செய்திருந்த ஆபென்ராவில் ஒரு நிகழ்வில். நினைவுச்சின்னம் அக்டோபர் 10 ஆம் தேதி நடைபெற்றது மற்றும் பிரதான சுடரின் விளக்குகளுடன் திறக்கப்பட்டது.",
+    "ஆபென்ராவிலுள்ள நினைவுகூருதலின் துவக்கம்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-10-15T14:22:13.821650+00:00"
+  },
+  {
+   "id": "4df94a9c5ae4",
+   "type": "auto",
+   "title": "New website launched for public inquiries on education reforms",
+   "summary": "The Government has launched a new official website to provide accurate information and address public inquiries regarding Sri Lanka’s proposed Continue Reading The post New website launched for public inquiries on education reforms appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/new-website-launched-for-public-inquiries-on-education-reforms/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Education-Reform.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-15T10:28:18+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 2523
+  },
+  {
+   "id": "a847eee382c4",
+   "type": "auto",
+   "title": "High Risk Rain Alert for 8 districts",
+   "summary": "Sri Lanka’s Department of Meteorology has issued an amber advisory warning of heavy rainfall exceeding 100 mm in parts of Continue Reading The post High Risk Rain Alert for 8 districts appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/high-risk-rain-alert-for-8-districts/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/05/Expressway-rain.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-15T10:21:22+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 588
+  },
+  {
+   "id": "638abba28dcd",
+   "type": "auto",
+   "title": "'டைகர்' முத்துவேல் பாண்டியனாக மீண்டும் களமிறங்கிய ரஜினி - எப்படி இருக்கிறது? ஜெயிலர் 2 ஊடக விமர்சனம்",
+   "summary": "நடிகர் ரஜினிகாந்த் நடித்த 'ஜெயிலர் 2' திரைப்படம் இன்று (அக்டோபர் 15) வெளியாகியுள்ளது. 'ஜெயிலர் 2' திரைப்படத்தை சன் பிக்சர்ஸ் தயாரித்துள்ளது. இயக்குனர் நெல்சன் திலீப்குமார் இயக்கியுள்ளார். படம் குறித்து பல்வேறு ஊடகங்களில் வெளியான விமர்சனங்கள் இங்கே தொகுக்கப்பட்டுள்ளன.",
+   "link": "https://www.bbc.com/tamil/articles/cm9dzq9qxw1qo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/946b/live/da9fbfe0-c874-11f1-bc2e-018d645d8d21.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-10-15T10:15:55+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 7069
+  },
+  {
+   "id": "61ef0883cc88",
+   "type": "auto",
+   "title": "Dehiwala Zoo Zebra recovering well after successful emergency surgery",
+   "summary": "A zebra at the Dehiwala National Zoological Gardens is recovering well and has resumed eating normally following a successful emergency Continue Reading The post Dehiwala Zoo Zebra recovering well after successful emergency surgery appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/dehiwala-zoo-zebra-recovering-well-after-successful-emergency-surgery/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Dehiwala-Zoo-Zebra.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-15T10:10:29+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 1789
+  },
+  {
+   "id": "99a90eca003d",
+   "type": "auto",
+   "title": "Monk who linked assault to NPP now says he assumed victim was protest supporter",
+   "summary": "Ven. Thiththagalle Anandasiri Thera has responded to allegations by Sri Lanka Police that he spread false information about an assault Continue Reading The post Monk who linked assault to NPP now says he assumed victim was protest supporter appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/10/15/monk-who-linked-assault-to-npp-now-says-he-assumed-victim-was-protest-supporter/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261015_144716_Editor-Lite.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-10-15T09:20:43+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 3273
+  },
+  {
+   "id": "4e0a46376552",
+   "type": "auto",
+   "title": "கேரளாவை உலுக்கிய மினி கூப்பர் விபத்து - 3 பேர் உயிரிழப்பு, எழும் சர்ச்சைகள்",
+   "summary": "கேரள மாநிலம் கொச்சி சர்வதேச விமான நிலையம் செல்லும் சாலையில், கடந்த அக்டோபர் 11 அதிகாலையில் நடந்த ஒரு விபத்தில், ஸ்கூட்டர் மீது கார் மோதியதில் 3 பேர் உயிரிழந்துள்ளனர். காலை 1:45 மணியளவில் கொச்சி விமான நிலையச் சாலையில் மூழியல் என்ற இடத்தில் அதிவேகமாகச் சென்ற மினி கூப்பர் கார், ஸ்கூட்டர் மீது…",
+   "link": "https://www.bbc.com/tamil/articles/cq77p14r0yr5o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/d3d1/live/a6026270-c7dd-11f1-bc2e-018d645d8d21.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-10-15T09:00:44+00:00",
+   "fetched": "2026-10-15T14:19:39.738698+00:00",
+   "page_chars": 8000
+  },
   {
    "id": "0c0d085695e0",
    "type": "auto",
@@ -8309,759 +9023,6 @@
    "published": "2026-10-11T00:05:21+00:00",
    "fetched": "2026-10-11T06:14:30.542931+00:00",
    "page_chars": 295
-  },
-  {
-   "id": "9910c6ed9a37",
-   "type": "auto",
-   "title": "Navi Pillay’s Lankan affairs in focus as she wins 2026 Nobel Peace Prize",
-   "summary": "Former UN High Commissioner for Human Rights and International Court of Justice judge Navanethem “Navi” Pillay has won the 2026 Nobel Peace Prize for her contribution to international law and efforts to promote peace, the Norwegian Nobel Committee announced in Oslo on Friday. Announcing the award…",
-   "link": "http://island.lk/navi-pillays-lankan-affairs-in-focus-as-she-wins-2026-nobel-peace-prize/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "world",
-   "tags": [
-    "world",
-    "srilanka"
-   ],
-   "published": "2026-10-11T00:04:18+00:00",
-   "fetched": "2026-10-11T06:14:30.542931+00:00",
-   "page_chars": 298
-  },
-  {
-   "id": "c24f17fb70e6",
-   "type": "auto",
-   "title": "Lanka welcomes Indian SC remarks on Katchatheevu dispute",
-   "summary": "Minister of Fisheries, Aquatic and Ocean Resources, Ramalingam Chandrasekar, has welcomed observations made by the Indian Supreme Court calling for Tamil Nadu fishermen to be educated on the need to avoid entering Sri Lankan waters illegally. In a statement, the Minister said the court’s…",
-   "link": "http://island.lk/lanka-welcomes-indian-sc-remarks-on-katchatheevu-dispute/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-10-11T00:01:16+00:00",
-   "fetched": "2026-10-11T06:14:30.542931+00:00",
-   "page_chars": 289
-  },
-  {
-   "id": "bc581f1afda5",
-   "type": "auto",
-   "title": "UN at Crossroads, Trump nearing End of the Road",
-   "summary": "by Rajan Philips Down but not out may be too uncharitable a way to describe a global agency that was launched with lofty expectations 81 years ago, and has just entered its ninth decade of existence with more forebodings than promises. The precarity of the UN’s circumstance is also a reflection of…",
-   "link": "http://island.lk/un-at-crossroads-trump-nearing-end-of-the-road/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2026/10/aaee.jpg",
-   "lang": "en",
-   "category": "world",
-   "tags": [
-    "world",
-    "srilanka"
-   ],
-   "published": "2026-10-11T00:00:21+00:00",
-   "fetched": "2026-10-11T06:14:30.542931+00:00",
-   "page_chars": 299
-  },
-  {
-   "id": "ae990a93858c",
-   "type": "auto",
-   "title": "Opposition moves to oust Speaker",
-   "summary": "A no-confidence motion against Speaker Dr. Jagath Wickramaratne, signed by 44 Opposition MPs, was formally handed over to Secretary-General of Parliament Kushani Rohanadheera on Friday. The 12-page motion contains around 50 allegations against the Speaker, including alleged misconduct, misuse of…",
-   "link": "http://island.lk/opposition-moves-to-oust-speaker/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-11T00:00:14+00:00",
-   "fetched": "2026-10-11T06:14:30.542931+00:00",
-   "page_chars": 297
-  },
-  {
-   "id": "3c7dad6d91d0",
-   "type": "auto",
-   "title": "Sri Lanka escalates anti-graft drive with Shiranthi’s jailing",
-   "summary": "MONETABRIEF – More members of the once-powerful Rajapaksa family and their associates are expected to be hauled up under Sri Lanka’s renewed anti-corruption drive following the arrest of former first lady Shiranthi Rajapaksa. The wife of former president Mahinda Rajapaksa was arrested over…",
-   "link": "http://island.lk/sri-lanka-escalates-anti-graft-drive-with-shiranthis-jailing/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-11T00:00:11+00:00",
-   "fetched": "2026-10-11T00:22:22.135672+00:00",
-   "page_chars": 291
-  },
-  {
-   "id": "0c370ee532e1",
-   "type": "auto",
-   "title": "Gota seeks Supreme Court protection",
-   "summary": "(PTI) Former President Gotabaya Rajapaksa on Friday moved the Supreme Court seeking protection from arrest under anti-terrorism laws in connection with the 2019 Easter Sunday bombings that killed nearly 270 people. The appeal comes after the Court of Appeal dismissed Rajapaksa’s writ petition on…",
-   "link": "http://island.lk/gota-seeks-supreme-court-protection/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-11T00:00:09+00:00",
-   "fetched": "2026-10-11T00:22:22.135672+00:00",
-   "page_chars": 297
-  },
-  {
-   "id": "0dc55c877fa0",
-   "type": "auto",
-   "title": "The artist who painted a vanishing Sri Lanka",
-   "summary": "By Ifham Nizam The boat had been travelling for hours under the relentless sun when Royden Oswald Gibbs finally reached the lighthouse. For most people, the journey would have been enough. For Gibbs, it was only the beginning. He opened his sketchbook and began to draw, carefully observing the…",
-   "link": "http://island.lk/the-artist-who-painted-a-vanishing-sri-lanka/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2026/10/Dutch-Fort-Katuwana-Matara.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-10-10T23:58:51+00:00",
-   "fetched": "2026-10-11T00:22:22.135672+00:00",
-   "page_chars": 295
-  },
-  {
-   "id": "bb72b96c8aa8",
-   "type": "auto",
-   "title": "Behind the runway Ramani Fernando and CFW",
-   "summary": "For years, Ramani Fernando has been part of Colombo Fashion Week, bringing her expertise in hair, beauty and styling to one of Sri Lanka’s most anticipated fashion platforms. From the excitement backstage to the glamour of the runway, her journey with CFW reflects the remarkable evolution and the…",
-   "link": "http://island.lk/behind-the-runway-ramani-fernando-and-cfw/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2026/10/IMG-20260923-WA0024.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-10T23:50:40+00:00",
-   "fetched": "2026-10-11T00:22:22.135672+00:00",
-   "page_chars": 298
-  },
-  {
-   "id": "d87c9fc4edb7",
-   "type": "auto",
-   "title": "Comeuppance for some, lessons for others",
-   "summary": "The past few weeks have seen several high-profile arrests, much to the delight of critics of former rulers whose governments were widely associated with abuse of power, the suppression of democracy, political interference in key state institutions and corruption. The arrest and remand of former…",
-   "link": "http://island.lk/comeuppance-for-some-lessons-for-others/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-10T23:50:24+00:00",
-   "fetched": "2026-10-11T00:22:22.135672+00:00",
-   "page_chars": 296
-  },
-  {
-   "id": "c9987580b73d",
-   "type": "auto",
-   "title": "Jayakumar unanimously elected Sri Lanka-Thailand Society president",
-   "summary": "British India Hotels Managing Director K. Jayakumar has been unanimously elected president of the Sri Lanka-Thailand Society at its 29th Annual General Meeting held at the Grand Oriental Hotel, Colombo recently. The AGM was attended by Thai Ambassador to Sri Lanka Paitoon Mahapannaporn, members of…",
-   "link": "http://island.lk/jayakumar-unanimously-elected-sri-lanka-thailand-society-president/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-10-10T23:45:58+00:00",
-   "fetched": "2026-10-11T00:22:22.135672+00:00",
-   "page_chars": 299
-  },
-  {
-   "id": "78f13367f4c8",
-   "type": "auto",
-   "title": "Lankan refugees in Tamil Nadu seek citizenship, passports",
-   "summary": "Tamil Nadu State Government Minister for Non Resident Tamils Welfare K. Thennarasu on Thursday inaugurated a library built at a cost of INR 20 lakh at Sri Lankan Tamils Rehabilitation Camp at Thappathi in Thoothukudi district, reported The Hindu. The Hindu report said: Following the inauguration…",
-   "link": "http://island.lk/lankan-refugees-in-tamil-nadu-seek-citizenship-passports/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "sports",
-   "tags": [
-    "sports",
-    "srilanka"
-   ],
-   "published": "2026-10-10T23:45:55+00:00",
-   "fetched": "2026-10-11T00:22:22.135672+00:00",
-   "page_chars": 297
-  },
-  {
-   "id": "8ff4fa780995",
-   "type": "auto",
-   "title": "30 Eggs, Bawa’s Breudher Pan and a Culinary Who Did It?",
-   "summary": "From The Pathfinder Collection By Jennifer Moragoda jennifermoragoda@sltnet.lk Let There Be Light At Lunuganga, Geoffrey Bawa’s country home, a stone bishop stands along the passage from the entrance vestibule, crozier in hand and apparently illuminated from nowhere. Look up and the source reveals…",
-   "link": "http://island.lk/30-eggs-bawas-breudher-pan-and-a-culinary-who-did-it/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2026/10/SI-SP17-11-10-PDC-8.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-10T23:45:55+00:00",
-   "fetched": "2026-10-11T00:22:22.135672+00:00",
-   "page_chars": 299
-  },
-  {
-   "id": "b82d39bb784f",
-   "type": "auto",
-   "title": "When Spies Go Rogue",
-   "summary": "by Nilantha Ilangamuwa A former German intelligence chief has been arrested on suspicion of treasonous espionage just as a former senior CIA official has pleaded guilty after using his government position to defraud the United States of approximately $194 million, including the acquisition of 298…",
-   "link": "http://island.lk/when-spies-go-rogue/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": null,
-   "lang": "en",
-   "category": "world",
-   "tags": [
-    "world",
-    "srilanka"
-   ],
-   "published": "2026-10-10T23:45:55+00:00",
-   "fetched": "2026-10-11T00:22:22.135672+00:00",
-   "page_chars": 298
-  },
-  {
-   "id": "24a340eced96",
-   "type": "auto",
-   "title": "I was very fortunate with the members of my family",
-   "summary": "Excerpted from The Art of Governance, autobiography of MDD Peiris) This concludes some of the main events of the first two decades of my life. But this autobiographical interlude would not be complete without some brief reference to persons near and dear who have been closely associated with my…",
-   "link": "http://island.lk/i-was-very-fortunate-with-the-members-of-my-family/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2026/10/SI-P05-11-10-PDC-2.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-10T23:45:54+00:00",
-   "fetched": "2026-10-11T00:22:22.135672+00:00",
-   "page_chars": 296
-  },
-  {
-   "id": "4372e4b1f85f",
-   "type": "auto",
-   "title": "19 OTHIYAMALAI ENG",
-   "summary": "முல்லைத்தீவு மாவட்டத்தின் ஒதியமலை பிரதேச மக்கள் முன்வைத்த வீதிப் புனரமைப்பு, நீர்ப்பாசனம், குடிநீர், சுகாதாரம், கல்வி உள்ளிட்ட பல்வேறு தேவைகள் தொடர்பில் நேரில் ஆராய்ந்த வடக்கு மாகாண கௌரவ ஆளுநர் நா.வேதநாயகன், அவற்றுக்குத் தீர்வு காண்பதற்கான நடவடிக்கைகளைத் துரிதப்படுத்துமாறு சம்பந்தப்பட்ட…",
-   "link": "https://np.gov.lk/19-othiyamalai-eng/",
-   "source": "வட மாகாண சபை",
-   "source_domain": "np.gov.lk",
-   "image": "https://i.imgur.com/vlwP2Pr.jpg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna"
-   ],
-   "published": "2026-10-10T23:32:20+00:00",
-   "fetched": "2026-10-11T00:22:22.135672+00:00",
-   "page_chars": 5274,
-   "ai_title": "19 ஒத்தியாமலை எங்",
-   "title_ta": "19 ஒத்தியாமலை எங்",
-   "ai_summary": "முல்லைத்தீவு ஒருதீவு ஒருதீவு ஒருதீவு ஒருதீவு ஒருதீவு ஒருதீவு ஒருத்தீவு ஒருத்தீவு ஒருத்தீவு ஒருத்தர் வீட்டுப் பொண்ணு, நீரப் பொண்ணு, குட்டிப் பொண்ணு, குட்டிப் பொண்ணு, கலையரசு, கலையரசு ஒருத்தர் வீட்டுப் பொண்ணு வ.க.க.க.அணுகுநாதன், அவருடனான சந்திப்பு, அவருடனான சந்திப்பு போன்றவைகள் ஒருபுறம் இருக்கட்டும், இன்னொருபுறம் இருக்கட்டும்.",
-   "ai_body": [
-    "முல்லைத்தீவு ஒருதீவு ஒருதீவு ஒருதீவு ஒருதீவு ஒருதீவு ஒருதீவு ஒருத்தீவு ஒருத்தீவு ஒருத்தீவு ஒருத்தர் வீட்டுப் பொண்ணு, நீரப் பொண்ணு, குட்டிப் பொண்ணு, குட்டிப் பொண்ணு, கலையரசு, கலையரசு ஒருத்தர் வீட்டுப் பொண்ணு வ.க.க.க.அணுகுநாதன், அவருடனான சந்திப்பு, அவருடனான சந்திப்பு போன்றவைகள் ஒருபுறம் இருக்கட்டும், இன்னொருபுறம் இருக்கட்டும். வன்கொடுமை தடுப்புச் சட்டம் (09.10.2026) வன்கொடுமை தடுப்புச் சட்டம் (09.10.2026) வன்கொடுமை தடுப்புச் சட்டம் (09.10.2026) வன்கொடுமை தடுப்புச் சட்டம் (09.10.2026) சுடித்காட் பிட்காயின்மற்றும் அபிராமி பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயின் பிட்காயினர்கள்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-11T00:25:26.525525+00:00"
-  },
-  {
-   "id": "725dd558585b",
-   "type": "auto",
-   "title": "Yezhu Kadal Yezhu Malai - A train of thought",
-   "summary": "Director Ram’s first three films - 2007’s ‘Kattradhu Thamizh’, 2013’s ‘Thanga Meenkal’ and 2017’s ‘Taramani’ - are informally called the ‘Globalisation trilogy’, as they explore the impact globalisation has had on Tamil society and culture through different genres and perspectives. Ram’s next film…",
-   "link": "http://www.tamilguardian.com/content/yezhu-kadal-yezhu-malai-train-thought",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Culture%20and%20Community/yezhu%20kadal.jpeg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna"
-   ],
-   "published": "2026-10-10T21:29:21+00:00",
-   "fetched": "2026-10-11T00:22:22.135672+00:00",
-   "page_chars": 7839,
-   "ai_title": "Yezhu Kadal Yezhu Malai - ஒரு சிந்தனைப் பயணம்",
-   "title_ta": "Yezhu Kadal Yezhu Malai - ஒரு சிந்தனைப் பயணம்",
-   "ai_summary": "இயக்குனர் ராமின் முதல் மூன்று படங்கள் - 2007 ஆம் ஆண்டின் ‘கட்டுது தமிழிஷ்’, 2013 ஆம் ஆண்டின் ‘தங்க மீன்கல்’ மற்றும் 2017 ஆம் ஆண்டின் ‘தரமணி’ - ஆகியவை முறைசாரா முறையில் ‘உலகமயமாக்கல் முத்தொகுப்பு’ என்று அழைக்கப்படுகின்றன, ஏனெனில் அவை உலகமயமாக்கல் தமிழ் சமூகம் மற்றும் கலாச்சாரத்தில் வெவ்வேறு வகைகள் மற்றும் கண்ணோட்டங்கள் மூலம் ஏற்படுத்திய தாக்கத்தை ஆராய்கின்றன.",
-   "ai_body": [
-    "இயக்குனர் ராமின் முதல் மூன்று படங்கள் - 2007 ஆம் ஆண்டின் ‘கட்டுது தமிழிஷ்’, 2013 ஆம் ஆண்டின் ‘தங்க மீன்கல்’ மற்றும் 2017 ஆம் ஆண்டின் ‘தரமணி’ - ஆகியவை முறைசாரா முறையில் ‘உலகமயமாக்கல் முத்தொகுப்பு’ என்று அழைக்கப்படுகின்றன, ஏனெனில் அவை உலகமயமாக்கல் தமிழ் சமூகம் மற்றும் கலாச்சாரத்தில் வெவ்வேறு வகைகள் மற்றும் கண்ணோட்டங்கள் மூலம் ஏற்படுத்திய தாக்கத்தை ஆராய்கின்றன. ராமின் அடுத்த படம் 2019 இன் ‘பேரன்பு’ - இது இதுவரை 21 ஆம் நூற்றாண்டின் சிறந்த தமிழ் படமாக நான் கருதுகிறேன் - இது இந்த கருப்பொருள் மையத்திலிருந்து விலகிவிட்டது.",
-    "முந்தைய ஆண்டுகளின் 'பரந்து போ’ மற்றும் இப்போது ‘யேசு கடல் யேசு மலாய்’ ஆகியவற்றுடன், ராம் மற்றொரு கருப்பொருளாக இணைக்கப்பட்ட முத்தொகுப்பை முடித்துவிட்டார் என்பது தெளிவாகியுள்ளது, மேலும் முக்கிய கருத்தை பல்வேறு வகைகள் மற்றும் கண்ணோட்டங்களுடன் மீண்டும் பிரிக்கிறது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-11T00:25:29.104377+00:00"
-  },
-  {
-   "id": "bc02cddedc43",
-   "type": "auto",
-   "title": "“You can increase your fuel prices, but we won’t”: Govt tells private suppliers",
-   "summary": "Energy Minister Anura Karunathilaka says the government will not increase fuel prices to meet the demands of private fuel suppliers Continue Reading The post “You can increase your fuel prices, but we won’t”: Govt tells private suppliers appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/11/you-can-increase-your-fuel-prices-but-we-wont-govt-tells-private-suppliers/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/images-24.jpeg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-10T20:48:14+00:00",
-   "fetched": "2026-10-10T21:22:03.020266+00:00",
-   "page_chars": 771,
-   "ai_title": "\"நீங்கள் உங்கள் எரிபொருள் விலையை அதிகரிக்கலாம், ஆனால் நாங்கள் அவ்வாறு செய்ய மாட்டோம்\": அரசு தனியார் சப்ளையர்களிடம் கூறுகிறது",
-   "title_ta": "\"நீங்கள் உங்கள் எரிபொருள் விலையை அதிகரிக்கலாம், ஆனால் நாங்கள் அவ்வாறு செய்ய மாட்டோம்\": அரசு தனியார் சப்ளையர்களிடம் கூறுகிறது",
-   "ai_summary": "நுகர்வோரின் இழப்பில் தனியார் எரிபொருள் சப்ளையர்களின் கோரிக்கைகளை பூர்த்தி செய்ய அரசாங்கம் எரிபொருள் விலையை அதிகரிக்காது என எரிசக்தி அமைச்சர் அனுர கருணாதிலக தெரிவித்துள்ளார்.",
-   "ai_body": [
-    "நுகர்வோரின் இழப்பில் தனியார் எரிபொருள் சப்ளையர்களின் கோரிக்கைகளை பூர்த்தி செய்ய அரசாங்கம் எரிபொருள் விலையை அதிகரிக்காது என எரிசக்தி அமைச்சர் அனுர கருணாதிலக தெரிவித்துள்ளார். தனியார் எரிபொருள் நிறுவனங்கள் தங்கள் செயல்பாடுகளை நிர்வகிக்கும் ஒப்பந்தங்களின்படி, தங்கள் செலவுகளின் அடிப்படையில் தங்கள் சொந்த விற்பனை விலையை நிர்ணயிக்கும் விருப்பம் உள்ளது என்று அமைச்சர் கூறினார்.",
-    "தனியார் நிறுவனங்களின் தேவைகளுக்கு ஏற்ப எரிபொருள் விலையை அதிகரிப்பதன் மூலம் நுகர்வோருக்கு சுமையைச் சுமக்க அரசாங்கம் தயாராக இல்லை என்று அவர் வலியுறுத்தினார். தனியார் எரிபொருள் சப்ளையர்கள் எரிபொருள் விநியோகத்தை தொடர்ந்து கட்டுப்படுத்தினால் அரசாங்கம் தகுந்த நடவடிக்கை எடுக்கும் என்றும் கருணாதிலக எச்சரித்தார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-10T21:24:24.892406+00:00"
-  },
-  {
-   "id": "2a07893e7ec6",
-   "type": "auto",
-   "title": "India rules out reopening Katchatheevu agreements as Supreme Court hears challenge",
-   "summary": "File photograph: The Sri Lankan president Anura Kumara Dissanayake visits Katchatheevu in September 2025 The Indian government has told the Supreme Court it will not reopen the agreements under which Katchatheevu was ceded to Sri Lanka, citing its \"excellent relationship\" with Colombo, as the court…",
-   "link": "http://www.tamilguardian.com/content/indian-supreme-court-urges-tamil-nadu-fishermen-avoid-sri-lankan-waters",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2025/Sri%20Lanka/250903%20AKD%20Katchatheevu/250903%20AKD%20Katchatheevu%20(1).jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world",
-    "jaffna"
-   ],
-   "published": "2026-10-10T17:53:27+00:00",
-   "fetched": "2026-10-10T12:55:30.217061+00:00",
-   "page_chars": 3221,
-   "ai_title": "உச்சநீதிமன்றம் சவாலை விசாரித்ததால் கச்சத்தீவு ஒப்பந்தங்களை மீண்டும் திறப்பதை இந்தியா நிராகரிக்கிறது",
-   "title_ta": "உச்சநீதிமன்றம் சவாலை விசாரித்ததால் கச்சத்தீவு ஒப்பந்தங்களை மீண்டும் திறப்பதை இந்தியா நிராகரிக்கிறது",
-   "ai_summary": "கோப்பு புகைப்படம்: இலங்கை ஜனாதிபதி அனுரகுமார திசாநாயக்க செப்டம்பர் 2025 இல் கச்சத்தீவுக்கு விஜயம் செய்தார்.",
-   "ai_body": [
-    "கோப்பு புகைப்படம்: இலங்கை ஜனாதிபதி அனுரகுமார திசாநாயக்க செப்டம்பர் 2025 இல் கச்சத்தீவுக்கு விஜயம் செய்தார். இந்திய அரசாங்கம் உச்சநீதிமன்றத்தில் கச்சத்தீவு இலங்கைக்கு ஒப்படைக்கப்பட்ட ஒப்பந்தங்களை மீண்டும் திறக்காது என்று கூறியுள்ளது, கொழும்புடனான அதன் \"சிறந்த உறவை\" மேற்கோளிட்டு, கடல் எல்லை குறித்து மீனவர்களுக்கு விழிப்புணர்வை ஏற்படுத்துமாறு நீதிமன்றம் புதுடெல்லி மற்றும் தமிழகத்திற்கு அறிவுறுத்தியது.",
-    "நீதிபதிகள் சஞ்சய் குமார் மற்றும் சஞ்சீவ் சச்ச்தேவா ஆகியோர் அடங்கிய பெஞ்ச், 1974 கடல்சார் ஒப்பந்தம் மற்றும் இலங்கை கடற்பரப்பில் இந்திய மீனவர்களின் உரிமைகளை கட்டுப்படுத்திய 1976 ஒப்பந்தத்தின் கீழ் கச்சத்தீவின் \" அரசியலமைப்பிற்கு முரணான சரணடைதலை\" சவால் செய்யும் மனுக்களை 2008 முதல் நிலுவையில் உள்ளது. மூத்த வழக்கறிஞர் பி."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-10T12:57:49.634330+00:00"
-  },
-  {
-   "id": "c81acc74b8f9",
-   "type": "auto",
-   "title": "Missile strikes Riyadh airport terminal, many injured in fresh attack – AP",
-   "summary": "A missile struck a passenger terminal at King Khalid International Airport in Riyadh, Saudi Arabia, on Saturday (Oct. 10), injuring Continue Reading The post Missile strikes Riyadh airport terminal, many injured in fresh attack – AP appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/10/missile-strikes-riyadh-airport-terminal-many-injured-in-fresh-attack-ap/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261010_221544_X.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-10T16:46:03+00:00",
-   "fetched": "2026-10-10T17:42:57.435620+00:00",
-   "page_chars": 1527,
-   "ai_title": "ஏவுகணை ரியாத் விமான நிலைய முனையத்தைத் தாக்கியது, புதிய தாக்குதலில் பலர் காயமடைந்தனர் – AP",
-   "title_ta": "ஏவுகணை ரியாத் விமான நிலைய முனையத்தைத் தாக்கியது, புதிய தாக்குதலில் பலர் காயமடைந்தனர் – AP",
-   "ai_summary": "சவூதி அரேபியாவின் ரியாத்தில் உள்ள கிங் காலித் சர்வதேச விமான நிலையத்தில் சனிக்கிழமை (அக்டோபர் 10) பயணிகள் முனையத்தில் ஒரு ஏவுகணை தாக்கியது, பலரைக் காயப்படுத்தியது மற்றும் விமான நிலையத்தை வெளியேற்ற கட்டாயப்படுத்தியது என்று அசோசியேட்டட் பிரஸ் (AP) தெரிவித்துள்ளது.",
-   "ai_body": [
-    "சவூதி அரேபியாவின் ரியாத்தில் உள்ள கிங் காலித் சர்வதேச விமான நிலையத்தில் சனிக்கிழமை (அக்டோபர் 10) பயணிகள் முனையத்தில் ஒரு ஏவுகணை தாக்கியது, பலரைக் காயப்படுத்தியது மற்றும் விமான நிலையத்தை வெளியேற்ற கட்டாயப்படுத்தியது என்று அசோசியேட்டட் பிரஸ் (AP) தெரிவித்துள்ளது. இரண்டு பிராந்திய அதிகாரிகள் விமான நிலையம் தாக்குதலுக்கு உள்ளானதை உறுதிப்படுத்தினர், ஒரு ஏவுகணை பயணிகள் முனையத்தை தாக்கி பலரைக் காயப்படுத்தியதாக ஒருவர் தெரிவித்தார்.",
-    "பொதுவில் பேசுவதற்கு அங்கீகாரம் இல்லாததால் அதிகாரிகள் பெயர் தெரியாத நிலையில் பேசினர். தாக்குதலைத் தொடர்ந்து ஆம்புலன்ஸ்கள் விமான நிலையத்தை நோக்கி விரைந்து செல்வதைக் காண முடிந்தது, அதே நேரத்தில் ரியாத்துக்குச் செல்லும் விமானங்கள் மற்ற இடங்களுக்கு திருப்பி விடப்பட்டன."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-10T17:45:24.175778+00:00"
-  },
-  {
-   "id": "201b09cca0b9",
-   "type": "auto",
-   "title": "மொழி, கல்வி, வினாதாள் கசிவு குறித்து சென்னையில் ராகுல்காந்தி பேசியது என்ன?",
-   "summary": "மாநிலத்தின் மீது மற்றொரு மொழி அல்லது சித்தாந்தத்தைத் திணிப்பது நாட்டின் பன்முகத்தன்மைக்கு எதிரானது என்று ராகுல்காந்தி தெரிவித்தார். சென்னையில் நடைபெற்ற மாணவர்களுடனான கலந்துரையடலின்போது அவர்கள் பேசிய கருத்துக்களுக்கு பதிலளிக்கும் வகையில் பேசிய ராகுல் காந்தி இதனை தெரிவித்தார்.",
-   "link": "https://www.bbc.com/tamil/articles/cxg5jylvv71jo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/0aa8/live/b2a55900-c4c8-11f1-9ce9-55293bd7f0d9.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-10T16:38:36+00:00",
-   "fetched": "2026-10-10T17:42:57.435620+00:00",
-   "page_chars": 4155,
-   "ai_title": "மொழி, கல்வி, கேள்வித்தாள் கசிவு குறித்து சென்னையில் ராகுல் காந்தி என்ன கூறினார்?",
-   "title_ta": "மொழி, கல்வி, கேள்வித்தாள் கசிவு குறித்து சென்னையில் ராகுல் காந்தி என்ன கூறினார்?",
-   "ai_summary": "ஒரு மாநிலத்தின் மீது மற்றொரு மொழி அல்லது சித்தாந்தத்தை திணிப்பது நாட்டின் பன்முகத்தன்மைக்கு எதிரானது என்று ராகுல் காந்தி கூறினார்.",
-   "ai_body": [
-    "ஒரு மாநிலத்தின் மீது மற்றொரு மொழி அல்லது சித்தாந்தத்தை திணிப்பது நாட்டின் பன்முகத்தன்மைக்கு எதிரானது என்று ராகுல் காந்தி கூறினார். சென்னையில் மாணவர்களுடன் கலந்துரையாடியபோது மாணவர்கள் தெரிவித்த கருத்துக்களுக்கு பதிலளிக்கும் போதே அவர் இதனைத் தெரிவித்தார்.",
-    "கூட்டத்தின் போது, ஒரு மாணவர் ராகுல் காந்தியை \"எங்களுடன் தங்கி, ஒரு நாள் எங்கள் வாழ்க்கை முறையைக் கவனித்து புரிந்து கொள்ள வேண்டும்\" என்று அழைத்தார். இதற்கு பதிலளித்த ராகுல் காந்தி, “நான் எப்போது வருவேன் என்று சொல்லுங்கள்.\" மாணவர்களுடனான இந்த கலந்துரையாடலில் அவர்கள் கூறிய கருத்துக்கள் என்ன?",
-    "அவர்களுக்கு ராகுல் காந்தியின் பதில்கள் என்ன?"
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-11T00:25:38.751703+00:00"
-  },
-  {
-   "id": "6a3950e2df06",
-   "type": "auto",
-   "title": "நோபல் பரிசு பெற்ற நவனீதம் பிள்ளை இலங்கை போருக்கு பின்னர் தமிழர் விவகாரத்தில் எப்படி செயல்பட்டார்?",
-   "summary": "2026ம் ஆண்டின் அமைதிக்கான நோபல் பரிசை தன்வசப்படுத்திக் கொள்ளும் தமிழ் வம்சாவளியைச் சேர்ந்த நவனீதம் பிள்ளை, இலங்கையுடன் நெருங்கிய தொடர்புகளை பேணி வந்துள்ளார்.",
-   "link": "https://www.bbc.com/tamil/articles/cqj34ezgny8ro?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/8490/live/023992d0-c463-11f1-9a39-31b474234113.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-10-10T15:31:55+00:00",
-   "fetched": "2026-10-10T17:42:57.435620+00:00",
-   "page_chars": 8000,
-   "ai_title": "இலங்கைப் போருக்குப் பிறகு நோபல் பரிசு பெற்ற நவநீதம் பிள்ளை தமிழர்களை எவ்வாறு கையாண்டார்?",
-   "title_ta": "இலங்கைப் போருக்குப் பிறகு நோபல் பரிசு பெற்ற நவநீதம் பிள்ளை தமிழர்களை எவ்வாறு கையாண்டார்?",
-   "ai_summary": "2026 ஆம் ஆண்டு அமைதிக்கான நோபல் பரிசைப் பெற்ற தமிழ் வம்சாவளியைச் சேர்ந்த நவநீதம் பிள்ளை இலங்கையுடன் நெருங்கிய உறவைப் பேணி வருகிறார்.",
-   "ai_body": [
-    "2026 ஆம் ஆண்டு அமைதிக்கான நோபல் பரிசைப் பெற்ற தமிழ் வம்சாவளியைச் சேர்ந்த நவநீதம் பிள்ளை இலங்கையுடன் நெருங்கிய உறவைப் பேணி வருகிறார். இலங்கையில் 3 தசாப்த கால உள்நாட்டுப் போர் மே 2009 இல் நிறுத்தப்பட்டது.",
-    "இந்தப் போர் முடிவுக்கு வரும் காலகட்டத்தில் ஐக்கிய நாடுகளின் மனித உரிமைகளுக்கான உயர் ஆணையராக நவ்னீத் பிள்ளை பணியாற்றியிருந்தார். இலங்கையில் போர்க்காலத்தில் இடம்பெற்றதாகக் கூறப்படும் மனித உரிமை மீறல்கள் குறித்தும் போர்க்குற்றங்கள் உட்பட போர்க்கால மக்கள் எதிர்கொண்ட பாதிப்புகள் குறித்தும் நவனிதம் பிள்ளை தொடர்ந்து குரல் கொடுத்து இலங்கையை உன்னிப்பாகக் கண்காணித்து வந்தார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-10T17:45:32.089225+00:00"
-  },
-  {
-   "id": "41393e1651ac",
-   "type": "auto",
-   "title": "Hurricane Isaias downgraded after making landfall in Florida",
-   "summary": "Hurricane Isaias has been downgraded to a post-tropical cyclone the day after it made landfall along the northern Gulf Coast of Florida, bringing with it heavy rains and powerful winds. Isaias – which is the first of the 2026 Atlantic season – is still surging across south-eastern parts of the US…",
-   "link": "http://island.lk/hurricane-isaias-downgraded-after-making-landfall-in-florida/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "https://ichef.bbci.co.uk/news/480/cpsprodpb/8176/live/024113b0-c3f1-11f1-913a-eb4b8e15ad15.jpg.webp",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-10T14:39:35+00:00",
-   "fetched": "2026-10-10T17:42:57.435620+00:00",
-   "page_chars": 298
-  },
-  {
-   "id": "5aafda5e7c8e",
-   "type": "auto",
-   "title": "‘Cockroach’ group leaders among hundreds detained in Delhi protest",
-   "summary": "Hundreds of protesters have been detained in Delhi during the latest demonstration by the Gen-Z led Cockroach Janta Party (CJP) over electoral reforms. The group said its founder Abhijeet Dipke, who began the movement in May after India’s Chief Justice likened some jobless young people to…",
-   "link": "http://island.lk/cockroach-group-leaders-among-hundreds-detained-in-delhi-protest/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "https://ichef.bbci.co.uk/news/480/cpsprodpb/842a/live/d22d4aa0-c499-11f1-bc2e-018d645d8d21.jpg.webp",
-   "lang": "en",
-   "category": "world",
-   "tags": [
-    "world",
-    "srilanka"
-   ],
-   "published": "2026-10-10T14:21:47+00:00",
-   "fetched": "2026-10-10T17:42:57.435620+00:00",
-   "page_chars": 290
-  },
-  {
-   "id": "6e58b90411d4",
-   "type": "auto",
-   "title": "Sri Lanka hope to get out of T20I rut and keep series alive",
-   "summary": "During the f8rst T20I against Sri Lanka on Friday, Pakistan demonstrated that 2026 is not quite like 2019. Back then, they had stumbled in pursuit of three Sri Lankan totals in succession – two of them lower than the 182 they gunned down with relative ease two days back, while the third was exactly…",
-   "link": "http://island.lk/sri-lanka-hope-to-get-out-of-t20i-rut-and-keep-series-alive/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_800,q_50/lsci/db/PICTURES/CMS/417800/417805.4.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-10T14:06:31+00:00",
-   "fetched": "2026-10-10T17:42:57.435620+00:00",
-   "page_chars": 300
-  },
-  {
-   "id": "09e8749d365c",
-   "type": "auto",
-   "title": "Mrs. Tourism World 2026 Nimesha Premachandra to help promote Sri Lanka tourism globally",
-   "summary": "Sri Lankan schoolteacher, television presenter and actress Nimesha Premachandra, who won the Mrs. Tourism World 2026 title in the Philippines, Continue Reading The post Mrs. Tourism World 2026 Nimesha Premachandra to help promote Sri Lanka tourism globally appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/10/mrs-tourism-world-2026-nimesha-premachandra-to-help-promote-sri-lanka-tourism-globally/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/IMG-20261010-WA0076.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-10-10T14:04:32+00:00",
-   "fetched": "2026-10-10T17:42:57.435620+00:00",
-   "page_chars": 1360,
-   "ai_title": "திருமதி டூரிசம் வேர்ல்ட் 2026 நிமேஷா பிரேமச்சந்திரா உலகளாவிய ரீதியில் இலங்கை சுற்றுலாவை மேம்படுத்துவதற்கு உதவுவதற்காக",
-   "title_ta": "திருமதி டூரிசம் வேர்ல்ட் 2026 நிமேஷா பிரேமச்சந்திரா உலகளாவிய ரீதியில் இலங்கை சுற்றுலாவை மேம்படுத்துவதற்கு உதவுவதற்காக",
-   "ai_summary": "பிலிப்பைன்ஸில் திருமதி டூரிசம் வேர்ல்ட் 2026 பட்டத்தை வென்ற இலங்கை பள்ளி ஆசிரியர், தொலைக்காட்சி தொகுப்பாளர் மற்றும் நடிகை நிமேஷா பிரேமச்சந்திரா, இலங்கையை உலகளாவிய சுற்றுலாத் தலமாக ஊக்குவிக்க தனது சர்வதேச அங்கீகாரத்தைப் பயன்படுத்துவார் என்று எதிர்பார்க்கப்படுகிறது.",
-   "ai_body": [
-    "பிலிப்பைன்ஸில் திருமதி டூரிசம் வேர்ல்ட் 2026 பட்டத்தை வென்ற இலங்கை பள்ளி ஆசிரியர், தொலைக்காட்சி தொகுப்பாளர் மற்றும் நடிகை நிமேஷா பிரேமச்சந்திரா, இலங்கையை உலகளாவிய சுற்றுலாத் தலமாக ஊக்குவிக்க தனது சர்வதேச அங்கீகாரத்தைப் பயன்படுத்துவார் என்று எதிர்பார்க்கப்படுகிறது. அக்டோபர் மாதம் வெளிவிவகார, வெளிநாட்டு வேலைவாய்ப்பு மற்றும் சுற்றுலா அமைச்சர் விஜிதா ஹேரத் மற்றும் சுற்றுலா துணை அமைச்சர் பேராசிரியர் ருவன் ரணசிங்க ஆகியோரை நிமேஷா சந்தித்தார்.",
-    "9 இலங்கையின் சுற்றுலாத் துறையை மேம்படுத்துவதற்கான வாய்ப்புகள் குறித்து விவாதிக்க. இலங்கையின் கலாச்சார பாரம்பரியம், இயற்கை அழகு மற்றும் சுற்றுலா ஈர்ப்புகளை உலகெங்கிலும் உள்ள பார்வையாளர்களுக்கு காட்சிப்படுத்த அவரது சர்வதேச தளத்தைப் பயன்படுத்துவதில் கலந்துரையாடல் கவனம் செலுத்தியது.",
-    "நிமேஷாவுக்கு திருமதி."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-10T17:45:34.560181+00:00"
-  },
-  {
-   "id": "40fccd8b88ad",
-   "type": "auto",
-   "title": "டெல்லியில் காக்ரோச் ஜனதா கட்சி போராட்டம் நடக்கும் நாளில் ராகுல் காந்தி சென்னை சென்றது ஏன்?",
-   "summary": "கடந்த சில நாள்களாக ஞானேஷ் குமார் பதவி விலகக் கோரி போராட்டங்களில் ஈடுபட்டு வந்த காங்கிரஸ் தலைவர் ராகுல் காந்தி இன்று டெல்லியில் இல்லை.",
-   "link": "https://www.bbc.com/tamil/articles/cw0k052kx31yo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/fcc9/live/b1f3f410-c4ac-11f1-ac13-6da90f5ff039.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-10T14:01:38+00:00",
-   "fetched": "2026-10-10T17:42:57.435620+00:00",
-   "page_chars": 7270,
-   "ai_title": "டெல்லியில் கக்ரோச் ஜனதா கட்சி எதிர்ப்புத் தெரிவிக்கும் நாளில் ராகுல் காந்தி ஏன் சென்னைக்குச் சென்றார்?",
-   "title_ta": "டெல்லியில் கக்ரோச் ஜனதா கட்சி எதிர்ப்புத் தெரிவிக்கும் நாளில் ராகுல் காந்தி ஏன் சென்னைக்குச் சென்றார்?",
-   "ai_summary": "தலைமை தேர்தல் ஆணையர் ஞானேஷ் குமார் ராஜினாமா செய்யக் கோரி கக்ரோச் ஜனதா கட்சி சனிக்கிழமை டெல்லியின் ஜந்தர் மந்தரில் பேரணிக்கு அழைப்பு விடுத்திருந்தது.",
-   "ai_body": [
-    "தலைமை தேர்தல் ஆணையர் ஞானேஷ் குமார் ராஜினாமா செய்யக் கோரி கக்ரோச் ஜனதா கட்சி சனிக்கிழமை டெல்லியின் ஜந்தர் மந்தரில் பேரணிக்கு அழைப்பு விடுத்திருந்தது. போராட்டக்காரர்கள் ஜந்தர் மந்தரை அடைவதைத் தடுக்க டெல்லி போலீசார் பாதுகாப்பு ஏற்பாடுகளை செய்திருந்தனர்.",
-    "இருப்பினும், ஏராளமான மாணவர்கள், சமூக ஆர்வலர்கள், பொதுமக்கள் மற்றும் அரசியல்வாதிகள் வீதிகளில் இறங்கி எதிர்ப்புத் தெரிவித்தனர். அவர்களில் பலர் காவலில் வைக்கப்பட்டனர்.",
-    "அபிஜித் தீப்கே, நேஹா போரா, மம்தா பானர்ஜி, பிருந்தா காரத், தீபங்கர் பட்டாச்சார்யா, அரவிந்த் கெஜ்ரிவால் உள்ளிட்ட அரசியல் தலைவர்கள் காவல்துறையினரால் தடுத்து வைக்கப்பட்டுள்ளனர்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-11T00:25:46.764170+00:00"
-  },
-  {
-   "id": "530cfcd43821",
-   "type": "auto",
-   "title": "Ananda, Devi Balika, Kebithigollewa Central & Kegalu Balika honoured for producing highest number of serving Army personnel",
-   "summary": "The Sri Lanka Army has recognized 12 schools that have contributed the highest number of currently serving officers and soldiers, Continue Reading The post Ananda, Devi Balika, Kebithigollewa Central & Kegalu Balika honoured for producing highest number of serving Army personnel appeared first on…",
-   "link": "https://www.newswire.lk/2026/10/10/ananda-devi-balika-kebithigollewa-central-kegalu-balika-honoured-for-producing-highest-number-of-serving-army-personnel/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/IMG-20261010-WA0050-1.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-10T13:47:54+00:00",
-   "fetched": "2026-10-10T17:42:57.435620+00:00",
-   "page_chars": 1737,
-   "ai_title": "ஆனந்தா, தேவி பாலிகா, கெபித்திகொல்லேவா சென்ட்ரல் & கேகாலு பாலிகா அதிக எண்ணிக்கையிலான இராணுவ வீரர்களை உருவாக்கியதற்காக க honored ரவிக்கப்பட்டார்",
-   "title_ta": "ஆனந்தா, தேவி பாலிகா, கெபித்திகொல்லேவா சென்ட்ரல் & கேகாலு பாலிகா அதிக எண்ணிக்கையிலான இராணுவ வீரர்களை உருவாக்கியதற்காக க honored ரவிக்கப்பட்டார்",
-   "ai_summary": "அக்டோபர் 10 ஆம் தேதி பனகொட இராணுவக் கன்டோன்மென்ட்டில் நடைபெற்ற அதன் 77 வது ஆண்டுவிழா கொண்டாட்டங்களின் ஒரு பகுதியாக, தற்போது அதிக எண்ணிக்கையிலான அதிகாரிகள் மற்றும் வீரர்களை பங்களித்த 12 பள்ளிகளை இலங்கை இராணுவம் அங்கீகரித்துள்ளது.",
-   "ai_body": [
-    "அக்டோபர் 10 ஆம் தேதி பனகொட இராணுவக் கன்டோன்மென்ட்டில் நடைபெற்ற அதன் 77 வது ஆண்டுவிழா கொண்டாட்டங்களின் ஒரு பகுதியாக, தற்போது அதிக எண்ணிக்கையிலான அதிகாரிகள் மற்றும் வீரர்களை பங்களித்த 12 பள்ளிகளை இலங்கை இராணுவம் அங்கீகரித்துள்ளது. இராணுவத்தின் கூற்றுப்படி, இலங்கையின் ஆயுதப்படைகளின் வரலாற்றில் முதன்முறையாக அங்கீகார விழா ஏற்பாடு செய்யப்பட்டது, தற்போது இராணுவத்தில் பணியாற்றும் முன்னாள் மாணவர்களின் எண்ணிக்கையின் அடிப்படையில் நான்கு பிரிவுகளில் பள்ளிகள் விருதுகளைப் பெறுகின்றன.",
-    "இந்த விருதுகளை இராணுவத் தளபதி லெப்டினன்ட் ஜெனரல் நிலந்த பிரேமரத்ன வழங்கினார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-10T17:45:37.007531+00:00"
-  },
-  {
-   "id": "c5bce6dd24de",
-   "type": "auto",
-   "title": "Ranil explains why Gnanasara Thera was granted presidential pardon in 2019",
-   "summary": "Former President Ranil Wickremesinghe has defended the decision to grant a presidential pardon to Ven. Galagoda Aththe Gnanasara Thera in Continue Reading The post Ranil explains why Gnanasara Thera was granted presidential pardon in 2019 appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/10/ranil-explains-why-gnanasara-thera-was-granted-presidential-pardon-in-2019/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261010_184721_Editor-Lite.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-10T13:18:04+00:00",
-   "fetched": "2026-10-10T17:42:57.435620+00:00",
-   "page_chars": 2050,
-   "ai_title": "2019 ஆம் ஆண்டில் ஞானசார தேரருக்கு ஏன் ஜனாதிபதி மன்னிப்பு வழங்கப்பட்டது என்பதை ரணில் விளக்குகிறார்",
-   "title_ta": "2019 ஆம் ஆண்டில் ஞானசார தேரருக்கு ஏன் ஜனாதிபதி மன்னிப்பு வழங்கப்பட்டது என்பதை ரணில் விளக்குகிறார்",
-   "ai_summary": "வென்னிற்கு ஜனாதிபதி மன்னிப்பு வழங்குவதற்கான முடிவை முன்னாள் ஜனாதிபதி ரணில் விக்கிரமசிங்க ஆதரித்துள்ளார்.",
-   "ai_body": [
-    "வென்னிற்கு ஜனாதிபதி மன்னிப்பு வழங்குவதற்கான முடிவை முன்னாள் ஜனாதிபதி ரணில் விக்கிரமசிங்க ஆதரித்துள்ளார். 2019 ஆம் ஆண்டில் கலகொட அத்வானி ஞானசார தேரர், சிறைத்தண்டனை அனுபவிக்கும் போது பௌத்த துறவியின் அங்கிகளை அகற்றுவதன் மத தாக்கங்கள் குறித்த கலந்துரையாடல்களைத் தொடர்ந்து வந்ததாகக் கூறினார்.",
-    "கொழும்பு மலர் சாலையில் உள்ள கட்சியின் அரசியல் அலுவலகத்தில் ஐக்கிய தேசியக் கட்சியின் வழக்கறிஞர்கள் கூட்டத்தில் பேசிய விக்கிரமசிங்க, 2018 ஆம் ஆண்டில் ஹோமாகம நீதவான் நீதிமன்றத்தில் நடந்த ஒரு சம்பவத்தைத் தொடர்ந்து நீதிமன்ற அவமதிப்புக்காக ஞானசார தேரருக்கு சிறைத்தண்டனை விதிக்கப்பட்டதாக கூறினார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-10T17:45:39.821944+00:00"
-  },
-  {
-   "id": "1dfa0a692082",
-   "type": "auto",
-   "title": "டெல்லி போராட்டத்தில் என்ன நடந்தது? காவலில் எடுக்கப்பட்ட தலைவர்கள், தடியடி – நிகழ்வுகளை காட்டும் 15 புகைப்படங்கள்",
-   "summary": "தலைநகர் டெல்லியில் காக்ரோச் ஜனதா கட்சி சார்பில் ஜந்தர் மந்தர் பகுதியில் நடைபெறவிருந்த பேரணிக்குத் தடை விதிக்கப்பட்டதைத் தொடர்ந்து, அப்பகுதியில் கடுமையான கட்டுப்பாடுகளும் காவல்துறையின் அதிரடி நடவடிக்கைகளும் மேற்கொள்ளப்பட்டு வருகின்றன.",
-   "link": "https://www.bbc.com/tamil/articles/cwly3kp9nj38o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/a895/live/73c4c390-c4ac-11f1-9a39-31b474234113.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-10T13:17:35+00:00",
-   "fetched": "2026-10-10T17:42:57.435620+00:00",
-   "page_chars": 1549,
-   "ai_title": "டெல்லி போராட்டத்தில் என்ன நடந்தது? தலைவர்கள் தடுத்து வைக்கப்பட்டனர், தாக்கப்பட்டனர் – நிகழ்வுகளைக் காட்டும் 15 புகைப்படங்கள்",
-   "title_ta": "டெல்லி போராட்டத்தில் என்ன நடந்தது? தலைவர்கள் தடுத்து வைக்கப்பட்டனர், தாக்கப்பட்டனர் – நிகழ்வுகளைக் காட்டும் 15 புகைப்படங்கள்",
-   "ai_summary": "தலைநகர் டெல்லியில் கக்ரோச் ஜனதா கட்சி சார்பில் ஜந்தர் மந்தர் பகுதியில் பேரணிக்கு தடை விதிக்கப்பட்டதைத் தொடர்ந்து, அப்பகுதியில் கடுமையான கட்டுப்பாடுகள் விதிக்கப்பட்டுள்ளன.",
-   "ai_body": [
-    "தலைநகர் டெல்லியில் கக்ரோச் ஜனதா கட்சி சார்பில் ஜந்தர் மந்தர் பகுதியில் பேரணிக்கு தடை விதிக்கப்பட்டதைத் தொடர்ந்து, அப்பகுதியில் கடுமையான கட்டுப்பாடுகள் விதிக்கப்பட்டுள்ளன. இந்த ஆர்ப்பாட்டம் காரணமாக டெல்லியில் சுமார் 25,000 முதல் 30,000 காவல்துறையினர் மற்றும் துணை ராணுவ வீரர்கள் நிறுத்தப்பட்டுள்ளனர்.",
-    "மேலும், பிரதான சாலைகளில் வலுவான தடைகள் போடப்பட்டுள்ளன. கக்ரோச் ஜனதா கட்சி நிறுவனர் அபிஜித் தீப்கே, நேஹா போரா, பிரசாந்த் பூஷண், யோகேந்திர யாதவ் மற்றும் துருவ் ரதி உள்ளிட்ட பலர் காவல்துறையினரால் கைது செய்யப்பட்டுள்ளனர்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-11T00:25:53.522478+00:00"
-  },
-  {
-   "id": "f0a7a957daac",
-   "type": "auto",
-   "title": "அமெரிக்காவில் சுமார் 100 ஆண்டுகளுக்கு பிறகு மீண்டும் மக்கள் முன்னிலையில் மரண தண்டனை - ஏன் இந்த முடிவு?",
-   "summary": "அமெரிக்காவின் கென்டக்கி மாகாணத்தில், கணவரை இழந்த வயதான வெள்ளையின பெண் ஒருவரைப் பாலியல் வன்கொடுமை செய்து கொலை செய்ததாகக் குற்றம்சாட்டப்பட்ட கறுப்பின ஆண் ஒருவரைப் பொதுவெளியில் தூக்கிலிடுவதைக் காண ஆண்கள், பெண்கள், குழந்தைகள் எனப் பலரும் ஆற்றங்கரையில் வரிசையாக நின்றனர்.",
-   "link": "https://www.bbc.com/tamil/articles/ck3r5w3rwvdro?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/ca0b/live/df708420-c48a-11f1-a915-a1cdb09cbaf6.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-10T12:38:16+00:00",
-   "fetched": "2026-10-10T17:42:57.435620+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "bc5e1148d2c0",
-   "type": "auto",
-   "title": "காணொளி: சென்னையில் போராட்டம் நடத்திய சிஜேபி ஆதரவாளர்கள் - தடுப்பு காவலில் வைத்த போலீஸ்",
-   "summary": "காணொளி: சென்னையில் போராட்டம் நடத்திய சிஜேபி ஆதரவாளர்கள் தடுப்புக் காவலில் வைக்கப்பட்டனர்",
-   "link": "https://www.bbc.com/tamil/watch/c6gr8nlvewx2o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/250e/live/a7959bc0-c49f-11f1-a64c-550be9e3c66b.png",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-10T11:49:31+00:00",
-   "fetched": "2026-10-10T12:55:30.217061+00:00",
-   "page_chars": 559
-  },
-  {
-   "id": "0ec74d8dd7a9",
-   "type": "auto",
-   "title": "Car overturns after collision on Southern Expressway",
-   "summary": "A car overturned following a collision with a van near the 29-kilometer post on Sri Lanka’s Southern Expressway. According to Continue Reading The post Car overturns after collision on Southern Expressway appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/10/car-overturns-after-collision-on-southern-expressway/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261010_171447_Chrome.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-10T11:47:39+00:00",
-   "fetched": "2026-10-10T12:55:30.217061+00:00",
-   "page_chars": 418,
-   "ai_title": "தெற்கு அதிவேக நெடுஞ்சாலையில் மோதியதில் கார் கவிழ்ந்தது",
-   "title_ta": "தெற்கு அதிவேக நெடுஞ்சாலையில் மோதியதில் கார் கவிழ்ந்தது",
-   "ai_summary": "இலங்கையின் தெற்கு அதிவேக நெடுஞ்சாலையில் 29 கிலோமீட்டர் தூரத்திற்கு வேன் ஒன்றுடன் மோதியதில் கார் கவிழ்ந்தது.",
-   "ai_body": [
-    "இலங்கையின் தெற்கு அதிவேக நெடுஞ்சாலையில் 29 கிலோமீட்டர் தூரத்திற்கு வேன் ஒன்றுடன் மோதியதில் கார் கவிழ்ந்தது. அதிவேக நெடுஞ்சாலையில் முறியடிக்கப்படுவதற்கு முன்பு கார் வேனின் பின்புறத்தில் மோதியதில் இந்த விபத்து ஏற்பட்டதாக தகவல்கள் தெரிவிக்கின்றன.",
-    "இந்த சம்பவத்தில் பலத்த காயங்கள் எதுவும் ஏற்படவில்லை. தெற்கு அதிவேக நெடுஞ்சாலை அதிகாரிகள் சம்பவ இடத்திற்கு வந்து கவிழ்ந்த வாகனத்தை சாலையில் இருந்து அகற்ற நடவடிக்கை எடுத்தனர்.",
-    "(நியூஸ்வைர்)"
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-10T12:57:51.067355+00:00"
-  },
-  {
-   "id": "f18201111759",
-   "type": "auto",
-   "title": "Grandpass Police help nearly 30 school dropouts return to classrooms",
-   "summary": "Nearly 30 children who had stopped attending school for an extended period have resumed their education following an initiative by Continue Reading The post Grandpass Police help nearly 30 school dropouts return to classrooms appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/10/grandpass-police-help-nearly-30-school-dropouts-return-to-classrooms/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261010_171202_Facebook.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-10T11:44:06+00:00",
-   "fetched": "2026-10-10T12:55:30.217061+00:00",
-   "page_chars": 2017,
-   "ai_title": "ஏறக்குறைய 30 பள்ளி இடைநிற்றல்கள் வகுப்பறைகளுக்குத் திரும்ப கிராண்ட்பாஸ் காவல்துறை உதவுகிறது",
-   "title_ta": "ஏறக்குறைய 30 பள்ளி இடைநிற்றல்கள் வகுப்பறைகளுக்குத் திரும்ப கிராண்ட்பாஸ் காவல்துறை உதவுகிறது",
-   "ai_summary": "கொழும்பில் உள்ள கிராண்ட்பாஸ் காவல் நிலையத்தின் சமூக பொலிஸ் பிரிவின் முன்முயற்சியைத் தொடர்ந்து நீண்ட காலமாக பள்ளிக்குச் செல்வதை நிறுத்திய கிட்டத்தட்ட 30 குழந்தைகள் தங்கள் கல்வியை மீண்டும் தொடங்கியுள்ளனர்.",
-   "ai_body": [
-    "கொழும்பில் உள்ள கிராண்ட்பாஸ் காவல் நிலையத்தின் சமூக பொலிஸ் பிரிவின் முன்முயற்சியைத் தொடர்ந்து நீண்ட காலமாக பள்ளிக்குச் செல்வதை நிறுத்திய கிட்டத்தட்ட 30 குழந்தைகள் தங்கள் கல்வியை மீண்டும் தொடங்கியுள்ளனர். இலங்கை காவல்துறையின் கூற்றுப்படி, உலக குழந்தைகள் தின நிகழ்ச்சியின் ஒரு பகுதியாக அதிகாரிகள் புளூமெந்தல் சிங்கள வித்யாலயாவுக்கு விஜயம் செய்த பின்னர் இந்த முயற்சி தொடங்கியது, இதன் போது மாணவர்களுக்கு ஐஸ்கிரீம் விநியோகிக்கப்பட்டது.",
-    "நிகழ்ச்சியின் போது, பல மாணவர்கள் நீண்ட காலமாக பள்ளிக்கு வரவில்லை என்று பள்ளியின் துணை முதல்வர் சமூக காவல் பிரிவின் பொறுப்பான போலீஸ் சார்ஜென்ட் சமரவிக்ரமவிடம் தெரிவித்தார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-10T12:57:53.813203+00:00"
-  },
-  {
-   "id": "37747f6904fa",
-   "type": "auto",
-   "title": "'மெத்தையை தூக்கியதும் வெளியே வந்த லட்சக்கணக்கான மூட்டைப்பூச்சிகள்' - இந்த வீட்டில் கட்டில், மெத்தையை எரிக்கும் நிலை ஏன் ஏற்பட்டது?",
-   "summary": "''மெத்தையில் இருந்து லட்சக்கணக்கான மூட்டைப்பூச்சிகள் வெளியே ஊர்ந்து வந்தன'' - தனது 38 ஆண்டு அனுபவத்தில் இதுபோன்ற மிக மோசமான பாதிப்பைத் தான் பார்த்ததில்லை என்று பூச்சிக் கட்டுப்பாட்டு நிபுணர் ஒருவர் தெரிவித்துள்ளார்.",
-   "link": "https://www.bbc.com/tamil/articles/cq203g86g2k3o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/ec5d/live/1dc83fd0-c30d-11f1-bc2e-018d645d8d21.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-10T11:29:59+00:00",
-   "fetched": "2026-10-10T12:55:30.217061+00:00",
-   "page_chars": 3431
   }
  ]
 }
