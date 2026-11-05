@@ -1,6 +1,918 @@
 {
- "updated": "2026-11-04T23:25:32.262816+00:00",
+ "updated": "2026-11-05T03:39:40.343813+00:00",
  "items": [
+  {
+   "id": "1a0b91334d5e",
+   "type": "auto",
+   "title": "Nagapattinam – Kankesanthurai ferry fares reduced; passengers allowed 30 kg free luggage",
+   "summary": "",
+   "link": "https://adaderana.lk/news/251130",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/251130/MediaFile_20261105_031648_986.jpg",
+   "lang": "en",
+   "category": "jaffna",
+   "tags": [
+    "jaffna",
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 3727,
+   "ai_title": "நாகப்பட்டினம் – காங்கேசன்துறை படகு கட்டணம் குறைக்கப்பட்டது; பயணிகள் 30 கிலோ இலவச சாமான்களை அனுமதித்தனர்",
+   "title_ta": "நாகப்பட்டினம் – காங்கேசன்துறை படகு கட்டணம் குறைக்கப்பட்டது; பயணிகள் 30 கிலோ இலவச சாமான்களை அனுமதித்தனர்",
+   "ai_summary": "இந்தியாவின் நாகப்பட்டினத்திற்கும் காங்கேசன்துறைக்கும் இடையிலான ஒரு வழிப் படகு கட்டணம் ரூ.",
+   "ai_body": [
+    "இந்தியாவின் நாகப்பட்டினத்திற்கும் காங்கேசன்துறைக்கும் இடையிலான ஒரு வழிப் படகு கட்டணம் ரூ. 500 குறைக்கப்பட்டுள்ளது, அதே நேரத்தில் பயணிகள் இப்போது 30 கிலோ வரை சாமான்களை இலவசமாக எடுத்துச் செல்ல அனுமதிக்கப்படுவார்கள்.",
+    "நாகப்பட்டினத்தில் செய்தியாளர்களிடம் பேசியபோது, படகு இயக்க நிறுவனத்தின் தலைமை வணிக அதிகாரி இந்த அறிவிப்பை வெளியிட்டார். நாகப்பட்டினம் மற்றும் காங்கேசன்துரை இடையே பயணிகள் படகு சேவை இரண்டு ஆண்டுகளுக்கும் மேலாக இயங்கி வருகிறது.",
+    "இந்த பயணம் தோராயமாக மூன்று முதல் நான்கு மணி நேரம் ஆகும், செவ்வாய்க்கிழமைகளைத் தவிர வாரத்தில் ஆறு நாட்கள் சேவைகள் இயங்குகின்றன."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-05T03:47:24.102782+00:00"
+  },
+  {
+   "id": "8ecadb695b7a",
+   "type": "auto",
+   "title": "Heroin and Ice worth Rs. 3 billion found aboard seized fishing trawler",
+   "summary": "",
+   "link": "https://adaderana.lk/news/251127",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/251127/MediaFile_20261105_021550_143.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 3382
+  },
+  {
+   "id": "e2bc0ca9883d",
+   "type": "auto",
+   "title": "Trump says Republicans harmed by Iran war, inability to 'transfer the love' for him",
+   "summary": "",
+   "link": "https://adaderana.lk/news/251126",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/251126/MediaFile_20261105_020031_161.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 3206
+  },
+  {
+   "id": "b25ec67b3c39",
+   "type": "auto",
+   "title": "Lung cancer cases in Sri Lanka rise by 50% since 2010, experts warn",
+   "summary": "",
+   "link": "https://adaderana.lk/news/251125",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/251125/MediaFile_20261105_015705_609.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 3773
+  },
+  {
+   "id": "e350f154c61e",
+   "type": "auto",
+   "title": "Two arrested for demanding Rs. 1 million in ransom and making death threats in Unawatuna",
+   "summary": "",
+   "link": "https://adaderana.lk/news/251124",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/251124/MediaFile_20261105_014057_497.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 2828
+  },
+  {
+   "id": "55ceda63ddb7",
+   "type": "auto",
+   "title": "LIV Golf to wind down after backers withdraw support",
+   "summary": "",
+   "link": "https://adaderana.lk/news/251129",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/251129/MediaFile_20261105_023200_749.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 5397
+  },
+  {
+   "id": "06fe58a4d7a8",
+   "type": "auto",
+   "title": "World record 51 red cards shown in Brazilian youth game",
+   "summary": "",
+   "link": "https://adaderana.lk/news/251123",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/251123/MediaFile_20261105_013229_816.jpg",
+   "lang": "en",
+   "category": "world",
+   "tags": [
+    "world",
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 3671
+  },
+  {
+   "id": "bd8600d598bf",
+   "type": "auto",
+   "title": "Harshitha Samarawickrama to lead Sri Lanka in Emerging Nations Trophy",
+   "summary": "",
+   "link": "https://adaderana.lk/news/251119",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/251119/MediaFile_20261105_005616_196.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 4094
+  },
+  {
+   "id": "0332aa243e35",
+   "type": "auto",
+   "title": "Pavan Rathnayake climbs 20 places in latest ODI batting rankings",
+   "summary": "",
+   "link": "https://adaderana.lk/news/251101",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/251101/MediaFile_20261104_132437_450.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 3042
+  },
+  {
+   "id": "ae86dcacc4d8",
+   "type": "auto",
+   "title": "Jake Paul says he will retire from boxing if he loses to Cedric Doumbe",
+   "summary": "",
+   "link": "https://adaderana.lk/news/251095",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/251095/MediaFile_20261104_111433_928.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 4402
+  },
+  {
+   "id": "ae273fa5823c",
+   "type": "auto",
+   "title": "Google turns off AI for schoolchildren by default",
+   "summary": "",
+   "link": "https://adaderana.lk/news/251128",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/251128/MediaFile_20261105_022441_298.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 5045
+  },
+  {
+   "id": "046812b02c4d",
+   "type": "auto",
+   "title": "Apple AI tools come to China after two-year delay",
+   "summary": "",
+   "link": "https://adaderana.lk/news/251078",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/251078/MediaFile_20261104_065935_474.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 5228
+  },
+  {
+   "id": "a110d2956431",
+   "type": "auto",
+   "title": "North Korea denies being behind record $6.3bn Binance hack",
+   "summary": "",
+   "link": "https://adaderana.lk/news/251015",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/251015/MediaFile_20261103_060949_541.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 5274
+  },
+  {
+   "id": "2740979c3cef",
+   "type": "auto",
+   "title": "Apple to launch next-gen touch-screen MacBook Pro with M7 Pro, M7 Max chips",
+   "summary": "",
+   "link": "https://adaderana.lk/news/250958",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/250958/MediaFile_20261102_101713_099.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 4504
+  },
+  {
+   "id": "04c20b19f503",
+   "type": "auto",
+   "title": "Former 007 actor Pierce Brosnan shares his pick for the next James Bond",
+   "summary": "",
+   "link": "https://adaderana.lk/news/251103",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/251103/MediaFile_20261104_134709_933.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 6226
+  },
+  {
+   "id": "34bfe7ebed86",
+   "type": "auto",
+   "title": "Justin Timberlake to star in tell-all docuseries",
+   "summary": "",
+   "link": "https://adaderana.lk/news/251096",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/251096/MediaFile_20261104_111748_887.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 4899
+  },
+  {
+   "id": "5903f700893f",
+   "type": "auto",
+   "title": "SRK marks 61st birthday with release of Arijit Singh-Ed Sheeran track from ‘King’",
+   "summary": "",
+   "link": "https://adaderana.lk/news/250935",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/250935/MediaFile_20261102_051700_616.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 3864
+  },
+  {
+   "id": "d00c6f1788a9",
+   "type": "auto",
+   "title": "Shah Rukh Khan's 'King' sets new record with overseas rights sold for INR 1.75 bln ahead of the Christmas release",
+   "summary": "",
+   "link": "https://adaderana.lk/news/250888",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/250888/MediaFile_20261101_083359_024.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 4110
+  },
+  {
+   "id": "f8c9f7d86985",
+   "type": "auto",
+   "title": "Hong Kong court sentences activist Joshua Wong to 10 years on national security charge",
+   "summary": "",
+   "link": "https://adaderana.lk/news/251131",
+   "source": "Ada Derana",
+   "source_domain": "adaderana.lk",
+   "image": "https://media.adaderanaenglish.lk/articles/251131/MediaFile_20261105_033958_623.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:39:40.343813+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 2743
+  },
+  {
+   "id": "6748dd316d24",
+   "type": "auto",
+   "title": "நாகப்பட்டினம் - இலங்கை கப்பல் போக்குவரத்து கட்டணம் குறைப்பு",
+   "summary": "நாகப்பட்டினம் - இலங்கை இடையேயான கப்பல் போக்குவரத்து கட்டணம் குறைக்கப்பட்டுள்ளது. 30 கிலோ வரையிலான சுமைகளை இலவசமாக எடுத்து செல்லலாம் என்றும் அறிவிக்கப்பட்டுள்ளது.",
+   "link": "https://adaderanatamil.lk/news/251522",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251522/MediaFile_20261105_033718_754.jpg",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T03:37:18+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 2006
+  },
+  {
+   "id": "6f4056b215cc",
+   "type": "auto",
+   "title": "'சீதையின் தந்தை, ராமரின் உறவினர்' - ராவணன் குறித்து பல்வேறு 'ராமாயணங்கள்' கூறுவது என்ன?",
+   "summary": "உலகில் நூற்றுக்கணக்கான ராமாயணங்கள் உள்ளன. அவை பல்வேறு மொழிகளிலும், காவியம், புராணங்கள், நாடகங்கள், பொம்மலாட்டங்கள், சிற்பங்கள் மற்றும் பிற வடிவங்களிலும் பரவியுள்ளது. அவற்றில் ராவணன் குறித்துப் பல்வேறு விதமாகக் கூறப்படுகின்றன.",
+   "link": "https://www.bbc.com/tamil/articles/crpdg0495q9lo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/ed04/live/1b3ddaf0-d883-11f1-a364-a1fce50dd192.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-11-05T03:29:51+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "720bf46ccc53",
+   "type": "auto",
+   "title": "தேர்தல் தோல்விக்கு பின்னரும் ஈரானுக்கு எதிரான போரை நியாயப்படுத்தும் ட்ரம்ப்!",
+   "summary": "அமெரிக்க பாராளுமன்ற இடைத்தேர்தலில் ஆளும் குடியரசுக் கட்சி கட்டுப்பாட்டை இழந்து பின்னடைவைச் சந்தித்தபோதிலும், ஈரான் மீதான போர் நியாயமானதுதான் என அமெரிக்க அதிபர் டொனால்ட் ட்ரம்ப்",
+   "link": "https://adaderanatamil.lk/news/251521",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251521/MediaFile_20261105_031252_851.jpg",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "world"
+   ],
+   "published": "2026-11-05T03:12:07+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 1306
+  },
+  {
+   "id": "44f23139a922",
+   "type": "auto",
+   "title": "10 லட்சம் ரூபாய் கப்பம் கேட்டு கொலை மிரட்டல் விடுத்த இருவர் கைது",
+   "summary": "கப்பத் தொகையாக 10 லட்சம் ரூபாய் பணத்தைக் கேட்டு கொலை மிரட்டல் விடுத்தமை தொடர்பில் இரண்டு சந்தேகநபர்கள் மத்திய குற்றத் தடுப்புப் பணியகத்தினால் கைது செய்யப்பட்டுள்ளனர்.குறித்த சந்தேகநபர்கள் நேற்று (04) ஹபராதுவ பொலிஸ்",
+   "link": "https://adaderanatamil.lk/news/251520",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251520/MediaFile_20261105_025716_767.jpg",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T02:57:16+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 1178
+  },
+  {
+   "id": "9d9578bd6f2b",
+   "type": "auto",
+   "title": "கடற்படையால் பொறுப்பேற்கப்பட்ட படகில் 150 கிலோவிற்கும் அதிகமான போதைப்பொருள்",
+   "summary": "கடற்படை மற்றும் புலனாய்வுப் பிரிவினர் இணைந்து நடத்திய சோதனையில், தெற்கு ஆழ்கடல் பகுதியில் கடற்படையினரால் பொறுப்பேற்கப்பட்ட நெடுநாள் மீன்பிடிப் படகில் இருந்து 150 கிலோ கிராமிற்கும்",
+   "link": "https://adaderanatamil.lk/news/251519",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251519/MediaFile_20261105_023328_006.jpg",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T02:33:27+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 2847
+  },
+  {
+   "id": "95393c6a84ca",
+   "type": "auto",
+   "title": "மின் கட்டண திருத்தம் குறித்த இறுதி தீர்மானம் அடுத்த வாரம்",
+   "summary": "நடப்பு ஆண்டின் இறுதி காலாண்டிற்கான முன்மொழியப்பட்ட மின் கட்டண திருத்தம் தொடர்பான இறுதி தீர்மானம் அடுத்த வாரம் அறிவிக்கப்படும் என இலங்கை பொது பயன்பாடுகள் ஆணைக்குழு தெரிவித்துள்ளது.",
+   "link": "https://adaderanatamil.lk/news/251518",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251518/MediaFile_20261105_020510_551.jpg",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T02:05:10+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 1963
+  },
+  {
+   "id": "dee569125bc4",
+   "type": "auto",
+   "title": "பாகிஸ்தானின் அணுசக்தி திட்டத்திற்கு நிதியளித்ததாக அமெரிக்க சிறையில் அடைக்கப்பட்ட வங்கியாளர்",
+   "summary": "ஆகா ஹசன் அபிதி நிறுவிய வங்கி மீது பாகிஸ்தானின் அணுசக்தித் திட்டத்திற்கு நிதியுதவி அளித்ததாக குற்றச்சாட்டு எழுந்தது ஏன்? உலகின் தேடப்படும் நபர்களில் ஒருவராக மாறியது எப்படி?",
+   "link": "https://www.bbc.com/tamil/articles/cw7vpgg67y35o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/eedf/live/299a03a0-d6b5-11f1-a701-fddedf244c16.png",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-11-05T02:01:52+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "19bdeb084823",
+   "type": "auto",
+   "title": "நபர் ஒருவருக்கான மாதாந்த குறைந்தபட்சச் செலவு 1,742/- ஆக உயர்வு",
+   "summary": "தொகைமதிப்பு மற்றும் புள்ளிவிபரத் திணைக்களத்தினால் வெளியிடப்பட்ட புதிய தரவுகளின்படி, 2026 செப்டம்பர் மாதத்தில் இலங்கையின் உத்தியோகபூர்வ தேசிய வறுமைக்கோடு நபர் ஒருவருக்கு மாதத்திற்கு",
+   "link": "https://adaderanatamil.lk/news/251517",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251517/MediaFile_20261105_014253_954.jpg",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T01:42:53+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 1804
+  },
+  {
+   "id": "c85cb67c056b",
+   "type": "auto",
+   "title": "போதைப்பொருட்களை கடத்தியதாக சந்தேகிக்கப்படும் படகு திக்கோவிட்ட துறைமுகத்திற்கு",
+   "summary": "நாட்டிற்கு தெற்கே உள்ள ஆழ்கடல் பகுதியில் கடற்படையினரால் பொறுப்பேற்கப்பட்ட போதைப்பொருட்களை கடத்திச் சென்றதாக சந்தேகிக்கப்படும் நெடுநாள் மீன்பிடிப் படகும் சந்தேகநபர்களும் திக்கோவிட்ட மீன்பிடித்",
+   "link": "https://adaderanatamil.lk/news/251516",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251516/MediaFile_20261105_012932_150.jpg",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T01:29:31+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 1178
+  },
+  {
+   "id": "0bb7dd64c5da",
+   "type": "auto",
+   "title": "இன்றைய வானிலை",
+   "summary": "நாட்டின் பெரும்பாலான பகுதிகளில் பிற்பகல் ஒரு மணிக்குப் பின்னர் மழை அல்லது இடியுடன் கூடிய மழை பெய்யக்கூடும். மத்திய, சப்ரகமுவ, மேல், வடமேல், தென் மற்றும் ஊவா மாகாணங்களின் சில இடங்களிலும் அத்துடன் பொலனறுவை மற்றும் மன்னார் மாவட்டங்களின் சில இடங்களிலும் 75 mm இலும் கூடிய ஓரளவு பலத்த மழை பெய்யக்கூடும்…",
+   "link": "https://www.virakesari.lk/article/265854",
+   "source": "வீரகேசரி",
+   "source_domain": "virakesari.lk",
+   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/265854/thumb_large_Weather.png",
+   "lang": "ta",
+   "category": "jaffna",
+   "tags": [
+    "jaffna",
+    "srilanka"
+   ],
+   "published": "2026-11-05T01:28:00+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "ai_title": "இன்றைய வானிலை",
+   "title_ta": "இன்றைய வானிலை",
+   "ai_summary": "நாட்டின் பெரும்பாலான பகுதிகளில் ஒரு மணி நேரத்திற்குப் பிறகு மழை அல்லது இடியுடன் கூடிய மழை பெய்யக்கூடும்.",
+   "ai_body": [
+    "நாட்டின் பெரும்பாலான பகுதிகளில் ஒரு மணி நேரத்திற்குப் பிறகு மழை அல்லது இடியுடன் கூடிய மழை பெய்யக்கூடும். மத்திய, சப்ரகமுவ, மேற்கு, வடமேற்கு, தெற்கு மற்றும் ஊவா மாகாணங்களில் தனிமைப்படுத்தப்பட்ட இடங்களிலும், பொலன்னறுவை மற்றும் மன்னார் மாவட்டங்களில் தனிமைப்படுத்தப்பட்ட இடங்களிலும் ஓரளவு கனமழை 75 மி.மீ.",
+    "இதுபோன்ற சந்தர்ப்பங்களில் பொதுமக்கள் எச்சரிக்கையுடன் இருக்குமாறு கேட்டுக்கொள்ளப்படுகிறார்கள். மத்திய , சப்ரகமுவ மற்றும் ஊவா மாகாணங்களின் சில பகுதிகள் அதிகாலையில் மூடுபனி காணப்படும்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-05T03:47:29.886966+00:00"
+  },
+  {
+   "id": "00106fda30d7",
+   "type": "auto",
+   "title": "ஓட்டமாவடியில் இந்து ஆலயக் காணியை ஹிஸ்புல்லா ஜனவரி 14ஆம் திகதிக்கு முன் ஒப்படைக்க வேண்டும் – ஈரோஸ் பிரபா எச்சரிக்கை",
+   "summary": "ஓட்டமாவடியில் அழிக்கப்பட்டு அபகரித்து அதில் பள்ளிவாசல் மற்றும் மீன் சந்தை கட்டிய இந்து ஆலயத்திற்கு உரிய காணி நாடாளுமன்ற உறுப்பினர் ஏ.எல்.எம்.ஹிஸ்புல்லா எதிர்வரும் ஜனவரி 14ம் திகதிக்கு முன் தர வேண்டும் இல்லாவிட்டால் நீதிமன்றத்தில் வழக்கு தாக்கல் அதேவேளை முன்னாள் இராஜாங்க அமைச்சர் ஹரீஸ் தமிழ்…",
+   "link": "https://www.virakesari.lk/article/265853",
+   "source": "வீரகேசரி",
+   "source_domain": "virakesari.lk",
+   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/265853/thumb_large_piraba.png",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T01:26:00+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
+  },
+  {
+   "id": "34280c1af774",
+   "type": "auto",
+   "title": "செட்டிகுளத்தில் வாகனங்களை மறித்து திடீர் சோதனை: தேவையற்ற அலங்காரங்களை நீக்குமாறு சாரதிகளுக்கு எச்சரிக்கை",
+   "summary": "வவுனியா, செட்டிகுளம் பிரதேச செயலகம் முன்பாக போக்குவரத்து பொலிசார் மற்றும் மோட்டோ வாகன பரிசோதகர் இணைந்து இந்த நடவடிக்கையை முன்னெடுத்திருந்தனர். இதன்போது, பேரூந்துகளில் அலங்காரத்திற்காக பொருத்தப்பட்ட வெள்ளி, இரும்புகள், ஸ்டிக்கர்கள், அதிக ஒலி எழுப்பும் கோன்கள், தேவையற்ற ஒளி விளக்குகள் உள்ளிட்டவை…",
+   "link": "https://www.virakesari.lk/article/265852",
+   "source": "வீரகேசரி",
+   "source_domain": "virakesari.lk",
+   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/265852/thumb_large_moter.png",
+   "lang": "ta",
+   "category": "jaffna",
+   "tags": [
+    "jaffna",
+    "srilanka"
+   ],
+   "published": "2026-11-05T01:18:00+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "ai_title": "செட்டிகுளத்தில் வாகனங்களின் சீரற்ற சோதனை: தேவையற்ற அலங்காரங்களை அகற்ற ஓட்டுநர்களை எச்சரித்தல்",
+   "title_ta": "செட்டிகுளத்தில் வாகனங்களின் சீரற்ற சோதனை: தேவையற்ற அலங்காரங்களை அகற்ற ஓட்டுநர்களை எச்சரித்தல்",
+   "ai_summary": "போக்குவரத்து காவல்துறையும் மோட்டார் வாகன ஆய்வாளரும் கூட்டாக வவுனியா, செட்டிக்குளம் பிரதேச செயலகத்திற்கு முன்பாக இந்த நடவடிக்கையை மேற்கொண்டனர்.",
+   "ai_body": [
+    "போக்குவரத்து காவல்துறையும் மோட்டார் வாகன ஆய்வாளரும் கூட்டாக வவுனியா, செட்டிக்குளம் பிரதேச செயலகத்திற்கு முன்பாக இந்த நடவடிக்கையை மேற்கொண்டனர். இந்த நேரத்தில், சில்வர், இரும்பு, ஸ்டிக்கர்கள், உயர் தொகுதி கூம்புகள், தேவையற்ற லைட் பல்புகள் போன்றவை கேரவன்களில் காணப்பட்டன.",
+    "இதைத் தொடர்ந்து வாகன ஓட்டுநர்களுக்கு கடுமையான எச்சரிக்கை, வாகனத்திலிருந்து தேவையற்ற மற்றும் கூடுதல் அலங்காரப் பொருட்களை அகற்றி, மோட்டாரை அகற்றுதல் போக்குவரத்து ஆய்வாளருக்குக் காண்பிக்குமாறு அறிவுறுத்தப்பட்டது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-05T03:47:34.672377+00:00"
+  },
+  {
+   "id": "b146f6051f86",
+   "type": "auto",
+   "title": "சவூதி அரேபியாவின் மீதான அச்சுறுத்தல்கள் மற்றும் அதற்கு எதிரான தாக்குதல்கள் கண்டிக்கத்தக்கதாகும் - மௌலவி எம்.எஸ். எம் தாஸீம்",
+   "summary": "சவூதி அரேபியாவின் புனித தளங்கள் மீதான அச்சுறுத்தல்கள் மற்றும் தாக்குதல்களை வன்மையாக கண்டிப்பதாக ஆமிஸ் நிறுவனத்தின் பணிப்பாளரும் அகில இலங்கை ஜம்மிய்யதுல் உலமாவின் உதவிப் பொதுச் செயலாளருமாகிய மௌலவி எம்.எஸ். எம் தாஸீம் தெரிவித்துள்ளார். இதுதொடர்பாக அவர் விடுத்துள்ள கண்ட அறிக்கையில் மேலும்…",
+   "link": "https://www.virakesari.lk/article/265851",
+   "source": "வீரகேசரி",
+   "source_domain": "virakesari.lk",
+   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/265851/thumb_large_akila.png",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T01:13:00+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
+  },
+  {
+   "id": "2edfdd75d969",
+   "type": "auto",
+   "title": "பகிடிவதை காணொளி தொடர்பான தகவலை மறுத்தது கம்பஹா விக்ரமாராச்சி பல்கலைக்கழக நிர்வாகம்",
+   "summary": "கம்பஹா விக்ரமாராச்சி தேசிய சுதேச மருத்துவப் பல்கலைக்கழகத்தில் பகிடிவதை இடம்பெறுவதாகக் கூறி சமூக ஊடகங்களில் பரவி வரும் காணொளி தொடர்பில் பல்கலைக்கழக நிர்வாகம் மறுப்பு தெரிவிப்பதாக அறிவித்துள்ளது. இது தொடர்பாக புதன்கிழைமை (04) வெளியிடப்பட்ட ஊடக அறிக்கையில் மேலும் தெரிவிக்கப்பட்டுள்ளதாவது, கடந்த…",
+   "link": "https://www.virakesari.lk/article/265850",
+   "source": "வீரகேசரி",
+   "source_domain": "virakesari.lk",
+   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/265850/thumb_large_vikarama.png",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T01:09:00+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
+  },
+  {
+   "id": "55e81ded5758",
+   "type": "auto",
+   "title": "குடியரசுக் கட்சியின் தோல்விக்குப் பின்னால் இருக்கும் 5 முக்கியக் காரணங்கள்",
+   "summary": "அமெரிக்க இடைக்காலத் தேர்தலில் குடியரசுக் கட்சியின் தோல்விக்கு பின்னுள்ள முக்கியக் காரணங்கள் என்ன? டிரம்பின் பங்கு இதில் எந்த அளவுக்கு உள்ளது?",
+   "link": "https://www.bbc.com/tamil/articles/cqj34dryrnlmo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/34a1/live/e3937d70-d860-11f1-85ab-b3cc3b5498c6.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-11-05T01:08:48+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "5eb5ce839d61",
+   "type": "auto",
+   "title": "குற்றவியல் கும்பல்களுடன் அரசாங்கத்தினருக்கு எவ்விதத் தொடர்பும் இல்லை – கௌஷல்யா ஆரியரத்ன",
+   "summary": "தேசிய மக்கள் சக்தி அரசாங்கம் ஊழலற்ற தூய்மையான நிர்வாகத்தை முன்னெடுத்து வருவதுடன் தற்போதைய அரசாங்கத்தில் எவருக்கும் குற்றவியல் கும்பல்களுடன் எவ்விதத் தொடர்பும் கிடையாது என ஊடகத்துறை பிரதியமைச்சர் கௌஷல்யா ஆரியரத்ன தெரிவித்தார். பாராளுமன்றத்தில் புதன்கிழமை (4) இடம்பெற்ற இறக்குமதி மற்றும் ஏற்றுமதி…",
+   "link": "https://www.virakesari.lk/article/265849",
+   "source": "வீரகேசரி",
+   "source_domain": "virakesari.lk",
+   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/265849/thumb_large_kowsaliya-aariyaratna.png",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T01:04:00+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
+  },
+  {
+   "id": "86e3d0b5a7bd",
+   "type": "auto",
+   "title": "மேய்ச்சல் நிலத்துக்காகப் போராடும் நிலைக்கு தமிழ் மக்கள் தள்ளப்பட்டுள்ளனர் – அர்ச்சுனா இராமநாதன்",
+   "summary": "ஒரு காலத்தில் தனி நாடு கேட்டு போராடிய இனம் இன்று மாட்டை மேய்க்க மண்ணை கேட்டு போராடும் நிலையில் உள்ளது. பாராளுமன்ற உறுப்பினர் கந்தசாமி பிரபுவின் மண்ணைக் காட்டிக் கொடுக்கும் செயற்பாடுகளை பார்த்து வெட்கப்படுகின்றேன் என யாழ். மாவட்ட சுயேச்சைக்குழு பாராளுமன்ற உறுப்பினர் அர்ச்சுனா இராமநாதன் தெரிவித்தார்…",
+   "link": "https://www.virakesari.lk/article/265848",
+   "source": "வீரகேசரி",
+   "source_domain": "virakesari.lk",
+   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/265848/thumb_large_ramanathan-archchuna.png",
+   "lang": "ta",
+   "category": "jaffna",
+   "tags": [
+    "jaffna",
+    "srilanka"
+   ],
+   "published": "2026-11-05T01:03:00+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
+  },
+  {
+   "id": "940b8e20ded6",
+   "type": "auto",
+   "title": "‘This is a disaster’: Angry Republicans blame Trump for midterms defeat",
+   "summary": "Inside the Republican Party, initial shock at the stunning election results on Tuesday night quickly gave way to anger with US President Donald Trump. After Democrats won upset after upset in deep-red states like Texas, Kansas and South Carolina, some Republicans focused their ire on Trump, arguing…",
+   "link": "http://island.lk/this-is-a-disaster-angry-republicans-blame-trump-for-midterms-defeat/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "https://ichef.bbci.co.uk/news/480/cpsprodpb/a4b0/live/0eaf5140-d82b-11f1-be97-417dbcdedd32.jpg.webp",
+   "lang": "en",
+   "category": "world",
+   "tags": [
+    "world",
+    "srilanka"
+   ],
+   "published": "2026-11-05T00:54:09+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "bcc63adff351",
+   "type": "auto",
+   "title": "மயிலத்தமடு பிரச்சினையில் அரசியல் நோக்கத்துடன் போராட்டங்கள் முன்னெடுக்கப்படுகின்றன – கந்தசாமி பிரபு",
+   "summary": "2020 பொதுத்தேர்தலின் போது போனஸ் ஆசனத்தைக் கூட கிழக்கு மாகாணத்திற்கு வழங்காதவர்கள் தற்போது கிழக்கு மாகாணத்திற்கு வந்து போராடுகின்றனர். மயிலத்தமடு, மாதவனை பிரச்சினையில் கடந்த காலங்களில் எந்தவித நிபந்தனைகளையும் இன்றி நல்லாட்சி அரசாங்கத்துக்கு ஆதரவு வழங்கியவர்கள் எங்கே போயிருந்தனர்? எதிர்க்கட்சித்…",
+   "link": "https://www.virakesari.lk/article/265847",
+   "source": "வீரகேசரி",
+   "source_domain": "virakesari.lk",
+   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/265847/thumb_large_kanthasami-pirabu.png",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T00:51:00+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
+  },
+  {
+   "id": "72dc0d74c367",
+   "type": "auto",
+   "title": "நாட்டின் பெரும்பாலான பகுதிகளில் பலத்த மழைக்கு வாய்ப்பு",
+   "summary": "நாட்டின் பெரும்பாலான பகுதிகளில் பிற்பகல் 1.00 மணிக்குக்குப் பிறகு மழை அல்லது இடியுடன் கூடிய மழை பெய்யக்கூடும் என வளிமண்டலவியல் திணைக்களம் அறிவித்துள்ளது.",
+   "link": "https://adaderanatamil.lk/news/251515",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251515/MediaFile_20261105_004706_048.jpg",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T00:47:05+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 1178
+  },
+  {
+   "id": "259da990d16e",
+   "type": "auto",
+   "title": "சம்பிக்க ரணவக்கவுக்கு எதிரான வழக்கின் விசாரணைக்கு முந்தைய ஒன்றுகூடல் எதிர்வரும் 10ஆம் திகதி",
+   "summary": "2016 ஆம் ஆண்டு ராஜகிரிய பகுதியில் இடம்பெற்ற வீதி விபத்து மற்றும் அதன் சாட்சியங்களை மறைக்க முற்பட்டமை தொடர்பில் முன்னாள் அமைச்சர் பாடலி சம்பிக்க ரணவகவுக்கு எதிராகத் தொடரப்பட்டுள்ள வழக்கின், வழக்கு விசாரணைக்கு முன்னரான ஒன்று கூடல் எதிர்வரும் 10 ஆம் திகதி இடம்பெறும் என கொழும்பு மேல் நீதிமன்றம்…",
+   "link": "https://www.virakesari.lk/article/265846",
+   "source": "வீரகேசரி",
+   "source_domain": "virakesari.lk",
+   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/265846/thumb_large_court.png",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "jaffna"
+   ],
+   "published": "2026-11-05T00:46:00+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
+  },
+  {
+   "id": "9d8f446fcc0c",
+   "type": "auto",
+   "title": "மலையகப் பெருந்தோட்ட மக்களின் பிரச்சினைகளுக்குத் தீர்வு காண ஆணைக்குழு அமைக்க வேண்டும் – வேலுசாமி ராதாகிருஷ்ணன்",
+   "summary": "மலையகப் பெருந்தோட்ட மக்களின் அனைத்து பிரச்சினைகளுக்கும் தீர்வு காணும் வகையில் அரசாங்கம் ஆணைக்குழுவொன்றை உருவாக்கி, அவர்களும் இந்த நாட்டின் ஏனைய சமூகத்தைப் போன்று சம அந்தஸ்து, உரிமையுள்ள பிரஜைகள் என்பதை அரசாங்கம் உறுதிப்படுத்த வேண்டும் என வேலுசாமி ராதாகிருஷ்ணன் எம்.பி தெரிவித்தார். பாராளுமன்றத்தில்…",
+   "link": "https://www.virakesari.lk/article/265845",
+   "source": "வீரகேசரி",
+   "source_domain": "virakesari.lk",
+   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/265845/thumb_large_rathakirushsnan.png",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "jaffna"
+   ],
+   "published": "2026-11-05T00:37:00+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
+  },
+  {
+   "id": "5218be1272da",
+   "type": "auto",
+   "title": "PUCSL proposes 1.46% power tariff increase for final quarter of 2026",
+   "summary": "By Ifham Nizam Electricity consumers could face a further increase in their bills during the final quarter of this year, with the Public Utilities Commission of Sri Lanka (PUCSL) proposing a 1.46 percent tariff adjustment, following a preliminary review of electricity sector costs and projected…",
+   "link": "http://island.lk/pucsl-proposes-1-46-power-tariff-increase-for-final-quarter-of-2026/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/PUCSL.webp",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T00:05:13+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "4af1b73a3015",
+   "type": "auto",
+   "title": "GR’s request to end travel ban: Court decision on 25 Nov.",
+   "summary": "The Colombo Fort Magistrate’s Court will deliver its decision on 25 Nov. regarding former President Gotabaya Rajapaksa’s request to lift the foreign travel ban imposed on him. The former President appeared before the Colombo Fort Magistrate’s Court yesterday (04). The court imposed the travel ban…",
+   "link": "http://island.lk/grs-request-to-end-travel-ban-court-decision-on-25-nov/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/10/Gota-seeks-Supreme-Court-protection.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T00:03:19+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 8000,
+   "ai_thin": true,
+   "ai_thin_chars": 8000
+  },
+  {
+   "id": "ce63724f3a6d",
+   "type": "auto",
+   "title": "ITAK laments continuing LTTE ban by Canada",
+   "summary": "ITAK MP Sivagnanam Shritharan has requested Canada’s Conservative MPs to press for a review of Canada’s ban on the LTTE and to provide forensic expertise for the Chemmani mass grave investigation. The Tamil Guardian reported that the request was made at a meeting on Parliament Hill, in Ottawa…",
+   "link": "http://island.lk/itak-laments-continuing-ltte-ban-by-canada/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/ITAK-laments-continuing-LTTE-ban-by-Canada.webp",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T00:02:22+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "395909d06487",
+   "type": "auto",
+   "title": "Hashish haul intended for SL seized in TN",
+   "summary": "Indian police seized 19.8 kg of hashish intended for Sri Lanka and arrested a key suspect near Pasipattinam beach in Ramanathapuram district, Tamil Nadu, officials said on Wednesday. Indian media reported that acting on specific intelligence, an Indian police team, led by Inspector David Ravirajan…",
+   "link": "http://island.lk/hashish-haul-intended-for-sl-seized-in-tn/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/indian-police-arrest-hashish-19kg.webp",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "world"
+   ],
+   "published": "2026-11-05T00:01:16+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "d45606fc932a",
+   "type": "auto",
+   "title": "Mendis and Udara steady ship with warm-up fifties",
+   "summary": "Sri Lanka swapped coloured clothing for whites as their marathon tour of Pakistan entered its red ball phase yesterday, with Kusal Mendis and Lahiru Udara striking half-centuries in the warm-up game against PCB Patron’s XI in Islamabad. Having spent the white ball leg shuttling between Rawalpindi…",
+   "link": "http://island.lk/mendis-and-udara-steady-ship-with-warm-up-fifties/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/Kusal-Mendis-and-Saad-Baig.webp",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T00:00:29+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "3df5638108cb",
+   "type": "auto",
+   "title": "France allows LTTE commemoration despite ban",
+   "summary": "The LTTE has been proscribed by the EU, but France has allowed a commemoration of LTTE spokesman S.P. Thamilselvan. The event took place at La Courneuve. The SLAF killed Thamilselvan on 02 Nov., 2007. French Tamils laid garlands at a bust of Tamilselvan beside a public street. The commemoration was…",
+   "link": "http://island.lk/france-allows-ltte-commemoration-despite-ban/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/France-LTTE.webp",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T00:00:25+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 7818
+  },
+  {
+   "id": "47b96caeb33b",
+   "type": "auto",
+   "title": "ACJU highlights inclusive growth in talks with Chinese ambassador",
+   "summary": "By Ifham Nizam The All Ceylon Jamiyyathul Ulama (ACJU) has highlighted the importance of inclusive economic development, equal opportunities and stronger people-to-people ties in Sri Lanka’s engagement with China, stressing that international partnerships must benefit communities across the…",
+   "link": "http://island.lk/acju-highlights-inclusive-growth-in-talks-with-chinese-ambassador/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/China.webp",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T00:00:24+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "0758823f2e01",
+   "type": "auto",
+   "title": "JAAF statement on PSTA and GSP: ‘Don’t be your own worst enemy’",
+   "summary": "by Gomi Senadhira The Joint Apparel Association Forum’s (JAAF) recent statement on the Protection of the State from Terrorism Bill (PSTA) and its impact on the GSP Plus, to my mind, is a classic case of being one’s own worst enemy. Why? Because statements like these get amplified, often with…",
+   "link": "http://island.lk/jaaf-statement-on-psta-and-gsp-dont-be-your-own-worst-enemy/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/GSP.webp",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-05T00:00:18+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 8000
+  },
   {
    "id": "dbb7b38850da",
    "type": "auto",
@@ -144,6 +1056,43 @@
    "ai_at": "2026-11-04T17:57:09.091737+00:00"
   },
   {
+   "id": "c01e86fb6f13",
+   "type": "auto",
+   "title": "அமெரிக்க இடைக்காலத் தேர்தலில் டொனால்ட் ட்ரம்ப் தோல்வி",
+   "summary": "அமெரிக்க இடைக்காலத் தேர்தலில் காங்கிரஸின் செனட் சபையின் அதிகாரத்தை உறுதிப்படுத்திக் கொள்ள ஜனநாயகக் கட்சியால் முடிந்துள்ளது.",
+   "link": "https://adaderanatamil.lk/news/251514",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251514/MediaFile_20261104_182459_870.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world",
+    "srilanka"
+   ],
+   "published": "2026-11-04T18:24:59+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 1178
+  },
+  {
+   "id": "741dfd386c43",
+   "type": "auto",
+   "title": "வெளிநாட்டு கடல் எல்லைகளில் கைதான 795 மீனவர்களில் 753 பேர் 66 படகுகளுடன் விடுவிப்பு",
+   "summary": "பிற நாடுகளின் பிரத்தியேக பொருளாதார வலயங்களுக்குள் பிரவேசித்தமை காரணமாக, 2020 ஆம் ஆண்டு முதல் 2026 ஒக்டோபர் 23 ஆம் திகதி வரை 145 மீன்பிடிப் படகுகளுடன் 795 மீனவர்கள் கைது",
+   "link": "https://adaderanatamil.lk/news/251513",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251513/MediaFile_20261104_180120_350.jpg",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-04T18:01:20+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 2531
+  },
+  {
    "id": "5514caea072f",
    "type": "auto",
    "title": "Octane 95 petrol increased effective midnight today (04)",
@@ -218,6 +1167,24 @@
    "ai_at": "2026-11-04T23:29:07.842032+00:00"
   },
   {
+   "id": "a1c40112b83b",
+   "type": "auto",
+   "title": "2026ஆம் ஆண்டின் 8ஆம் இலக்க குறைநிரப்பு மதிப்பீடு நாளை விவாதத்திற்கு",
+   "summary": "2026ஆம் ஆண்டின் 8ஆம் இலக்க குறைநிரப்பு மதிப்பீட்டை விவாதத்திற்கு எடுத்துக்கொள்ள சபாநாயகர் வைத்தியர் ஜகத் விக்கிரமரத்னவின் தலைமையில் இன்று (04) நடைபெற்ற பாராளுமன்ற அலுவல்கள் பற்றிய",
+   "link": "https://adaderanatamil.lk/news/251512",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251512/MediaFile_20261104_173211_329.jpg",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-04T17:32:10+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 1192
+  },
+  {
    "id": "af63f0db683a",
    "type": "auto",
    "title": "Lanka IOC and Sinopec increase 95 Octane petrol price",
@@ -249,6 +1216,25 @@
    "ai_at": "2026-11-04T23:29:10.416794+00:00"
   },
   {
+   "id": "599c796f41e3",
+   "type": "auto",
+   "title": "ஒக்டேன் 95 பெற்றோல் விலையை உயர்த்திய ஐ.ஓ.சி மற்றும் சினோபெக்",
+   "summary": "லங்கா இந்தியன் ஒயில் (LIOC) மற்றும் சினோபெக் (Sinopec) ஆகிய நிறுவனங்கள் ஒக்டேன் 95 பெற்றோல் லீற்றர் ஒன்றின் விலையை 20 ரூபாவினால் உயர்த்தியுள்ளன.",
+   "link": "https://adaderanatamil.lk/news/251511",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251511/MediaFile_20261104_171735_077.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world",
+    "srilanka"
+   ],
+   "published": "2026-11-04T17:15:35+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 1178
+  },
+  {
    "id": "b258bfb19af5",
    "type": "auto",
    "title": "Sri Lankan military vacates Batticaloa school after more than 20 years",
@@ -275,6 +1261,24 @@
    ],
    "ai_model": "mymemory",
    "ai_at": "2026-11-04T23:29:12.915162+00:00"
+  },
+  {
+   "id": "1ae02238df2f",
+   "type": "auto",
+   "title": "தீபாவளி பண்டிகையை முன்னிட்டு கொழும்பில் இருந்து விசேட பேருந்து சேவைகள்",
+   "summary": "வரவிருக்கும் தீபாவளி பண்டிகையை முன்னிட்டு கொழும்பில் இருந்து சொந்த ஊர்களுக்குச் செல்லும் பயணிகளுக்காக இலங்கை போக்குவரத்து சபையும் (SLTB) தேசிய போக்குவரத்து ஆணைக்குழுவும் (NTC)",
+   "link": "https://adaderanatamil.lk/news/251510",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251510/MediaFile_20261104_163055_636.jpg",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-04T16:30:55+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 1259
   },
   {
    "id": "e8495d64ef2c",
@@ -388,6 +1392,24 @@
    "ai_at": "2026-11-04T23:29:23.333942+00:00"
   },
   {
+   "id": "59833fd5b0fb",
+   "type": "auto",
+   "title": "துமிந்தவுக்கு எதிரான தங்க முலாம் துப்பாக்கி வழக்கு திகதியிடப்பட்டது",
+   "summary": "அண்மையில் வீட்டுத் தொகுதியொன்றில் தங்க முலாம் பூசப்பட்ட துப்பாக்கி மீட்கப்பட்ட சம்பவத்தில் பிரதிவாதிகளாக பெயரிடப்பட்டுள்ள முன்னாள் அமைச்சர் துமிந்த திசாநாயக்க மற்றும் பெண் ஒருவருக்கு",
+   "link": "https://adaderanatamil.lk/news/251509",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251509/MediaFile_20261104_154245_614.jpg",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-04T15:42:45+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 1178
+  },
+  {
    "id": "ddf86ccc59af",
    "type": "auto",
    "title": "Sri Lanka sees Tamil nationhood as a threat to Buddhism, Ponnambalam tells Delhi conference",
@@ -432,6 +1454,24 @@
    "published": "2026-11-04T14:55:22+00:00",
    "fetched": "2026-11-04T17:54:05.721737+00:00",
    "page_chars": 275
+  },
+  {
+   "id": "5b4a628f2800",
+   "type": "auto",
+   "title": "6 மாவட்டங்களுக்கு மண்சரிவு அபாய எச்சரிக்கை",
+   "summary": "நாட்டில் நிலவும் வானிலை காரணமாக 06 மாவட்டங்களுக்கு தேசிய கட்டிட ஆராய்ச்சி நிறுவனத்தினால் (NBRO) மண்சரிவு முன்னெச்சரிக்கை அறிவித்தல் விடுக்கப்பட்டுள்ளது.",
+   "link": "https://adaderanatamil.lk/news/251508",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251508/MediaFile_20261104_145231_878.jpg",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-04T14:52:31+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 1178
   },
   {
    "id": "930af02e5a43",
@@ -525,6 +1565,25 @@
    "ai_at": "2026-11-04T23:29:30.847071+00:00"
   },
   {
+   "id": "a3e65d65cf7d",
+   "type": "auto",
+   "title": "தெலங்கானாவில் ஓடும் பேருந்தில் இருந்து தள்ளிவிடப்பட்ட பெண் நடத்துநர் பலி!",
+   "summary": "இந்தியாவில் தெலங்கான மாநிலத்தில் சில்லறைப் பிரச்சனை காரணமாக ஏற்பட்ட வாக்குவாதத்தில் பேருந்தில் இருந்து தள்ளிவிடப்பட்ட பெண் நடத்துநர் குண்ட்லா பிரவலிகா (24) சிகிச்சை பலனின்றி பத்து நாட்களுக்கு",
+   "link": "https://adaderanatamil.lk/news/251507",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251507/MediaFile_20261104_141845_847.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world",
+    "srilanka"
+   ],
+   "published": "2026-11-04T14:18:45+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 1553
+  },
+  {
    "id": "9b6487260b1d",
    "type": "auto",
    "title": "Parliament to debate Rs. 4.26bn supplementary estimate for Air Force UAV system tomorrow",
@@ -568,6 +1627,24 @@
    ],
    "ai_model": "mymemory",
    "ai_at": "2026-11-04T17:57:11.589912+00:00"
+  },
+  {
+   "id": "79d82d6c8ab7",
+   "type": "auto",
+   "title": "ஆழ்கடலில் போதைப்பொருள் என சந்தேகிக்கப்படும் பொதிகளுடன் படகொன்று சுற்றிவளைப்பு",
+   "summary": "இலங்கைக்கு தெற்கே அமைந்துள்ள ஆழ்கடல் பகுதியில், இலங்கை கடற்படையினரால் மேற்கொள்ளப்பட்ட விசேட நடவடிக்கையின்போது, போதைப்பொருட்கள் எனச் சந்தேகிக்கப்படும் பொதிகளை ஏற்றிச் சென்ற",
+   "link": "https://adaderanatamil.lk/news/251506",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251506/MediaFile_20261104_135408_255.jpg",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-04T13:54:08+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 1178
   },
   {
    "id": "f19e0145740c",
@@ -672,6 +1749,25 @@
    "page_chars": 1213
   },
   {
+   "id": "9464dcb7bb5e",
+   "type": "auto",
+   "title": "திலித் ஜயவீர - புதிய சீனத் தூதுவருக்கும் இடையில் சந்திப்பு!",
+   "summary": "சர்வஜன அதிகாரத்தின் தலைவரும் பாராளுமன்ற உறுப்பினருமான திலித் ஜயவீர, இலங்கைக்கு புதிதாக நியமிக்கப்பட்டுள்ள சீன மக்கள் குடியரசின் தூதுவர் வெய் ஹுவாக்சியாங்கை (Wei Huaxiang) இன்று (04)",
+   "link": "https://adaderanatamil.lk/news/251504",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251504/MediaFile_20261104_131355_767.jpg",
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka",
+    "world"
+   ],
+   "published": "2026-11-04T13:13:55+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 4016
+  },
+  {
    "id": "5088f6db4687",
    "type": "auto",
    "title": "Ridi Viharaya set for transformation into International Spiritual Wellness destination",
@@ -688,6 +1784,25 @@
    "published": "2026-11-04T13:03:26+00:00",
    "fetched": "2026-11-04T17:54:05.721737+00:00",
    "page_chars": 1527
+  },
+  {
+   "id": "6e277ae721db",
+   "type": "auto",
+   "title": "சச்சின் சாதனையை முறியடித்த விராட் கோலி!",
+   "summary": "இந்திய அணியின் நட்சத்திர துடுப்பாட்ட வீரரான விராட் கோலி ஒருநாள் போட்டியில் அதிக சதம் அடித்த வீரராக திகழ்ந்து வருகிறார். அவர் 55 சதங்கள் அடித்துள்ளார். சேஸிங்கில் விராட் கோலி அபாரமாக விளையாடக் கூடியவர். இதனால் அவரை சேஸிங் கிங் என்று கூட அழைப்பர்.",
+   "link": "https://adaderanatamil.lk/news/251503",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": "https://media.adaderanatamil.lk/news-articles/251503/MediaFile_20261104_125145_803.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world",
+    "srilanka"
+   ],
+   "published": "2026-11-04T12:51:45+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00",
+   "page_chars": 1178
   },
   {
    "id": "37f84f4988cc",
@@ -724,6 +1839,23 @@
    "published": "2026-11-04T12:42:15+00:00",
    "fetched": "2026-11-04T17:54:05.721737+00:00",
    "page_chars": 1626
+  },
+  {
+   "id": "0f78fd7a3962",
+   "type": "auto",
+   "title": "பாடசாலை மாணவர்களை ஏற்றிச் சென்ற முச்சக்கர வண்டி பள்ளத்தில் கவிழ்ந்து விபத்து",
+   "summary": "ஹட்டன் - புலியாவத்தை பிரதான வீதியில் உள்ள பி.டபிள்யூ. பகுதியில் ஆரம்பப் பிரிவு மாணவர்கள் நால்வரை ஏற்றிச் சென்ற முச்சக்கர வண்டி ஒன்று சுமார் 10 அடி செங்குத்தான பள்ளத்தில் கவிழ்ந்து",
+   "link": "https://adaderanatamil.lk/news/251502",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": null,
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-04T12:40:15+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
   },
   {
    "id": "2a7ee9e187d0",
@@ -780,6 +1912,23 @@
    "page_chars": 3021
   },
   {
+   "id": "1faf4db1d884",
+   "type": "auto",
+   "title": "விவசாய மற்றும் கிராமிய அபிவிருத்திக்காக IFAD-இன் ஆதரவைப் பெற கலந்துரையாடல்",
+   "summary": "2028–2030 காலப்பகுதியில் இலங்கையில் நடைமுறைப்படுத்தப்படவுள்ள வேலைத்திட்டங்களுக்கு சர்வதேச விவசாய அபிவிருத்தி நிதியத்தின் (IFAD) ஆதரவை ப் பெற்றுக்கொள்வது தொடர்பான கலந்துரையாடல்,",
+   "link": "https://adaderanatamil.lk/news/251501",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": null,
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-04T12:12:00+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
+  },
+  {
    "id": "f3a393c5dc67",
    "type": "auto",
    "title": "National Youth Services Council Director granted bail in Rs. 5.1 million corruption case",
@@ -834,6 +1983,91 @@
    "page_chars": 8000
   },
   {
+   "id": "7fbca435e47c",
+   "type": "auto",
+   "title": "புசல்லாவையில் பெண்ணொருவர் படுகொலை - ஆண் ஒருவர் சடலமாக மீட்பு",
+   "summary": "புசல்லாவ பொலிஸ் பிரிவிற்குட்பட்ட தொரகல, பகுதியில் பெண்ணொருவர் கூரிய ஆயுதத்தால் வெட்டி படுகொலை செய்யப்பட்டுள்ளார். சம்பவம் தொடர்பில் புஸல்லாவ பொலிஸ் நிலையத்திற்கு கிடைத்த 119 அவசர தொலைபேசி",
+   "link": "https://adaderanatamil.lk/news/251500",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": null,
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-04T11:39:09+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
+  },
+  {
+   "id": "b6b6560e7d8f",
+   "type": "auto",
+   "title": "போதைப்பொருள் தொடர்பில் 208 பொலிஸ் அதிகாரிகள் கைது!",
+   "summary": "போதைப்பொருள் தொடர்பான குற்றங்கள் உட்பட பல்வேறு குற்றங்களுடன் தொடர்புடைய குற்றச்சாட்டில் இதுவரை 208 பொலிஸ் அதிகாரிகள் கைது செய்யப்பட்டுள்ளதாக பொலிஸ் ஊடகப் பேச்சாளரும், உதவி",
+   "link": "https://adaderanatamil.lk/news/251499",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": null,
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-04T11:08:20+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
+  },
+  {
+   "id": "fa8598332692",
+   "type": "auto",
+   "title": "மட்டு. போதனா வைத்தியசாலையின் நிரந்தர பணிப்பாளர் பொறுப்பேற்பு!",
+   "summary": "சுகாதார அமைச்சினால் மட்டக்களப்பு போதனா வைத்தியசாலையின் நிரந்தர பணிப்பாளராக நியமிக்கப்பட்டுள்ள வைத்தியர் குணசிங்கம் சுகுணன் இன்று (04) தனது கடமைகளைப் பொறுப்பேற்றுக் கொண்டார்.",
+   "link": "https://adaderanatamil.lk/news/251498",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": null,
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-04T10:58:28+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
+  },
+  {
+   "id": "16383106e0f6",
+   "type": "auto",
+   "title": "பலத்த மின்னல் தாக்கம் குறித்து எச்சரிக்கை",
+   "summary": "வளிமண்டலவியல் திணைக்களத்தினால் பலத்த மின்னல் தொடர்பிலான எச்சரிக்கை அறிவித்தல் ஒன்று விடுக்கப்பட்டுள்ளது.இன்று (04) முற்பகல் 11.51 மணிக்கு விடுக்கப்பட்டுள்ள இந்த அறிவித்தல், நாளை அதிகாலை",
+   "link": "https://adaderanatamil.lk/news/251497",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": null,
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-04T10:33:01+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
+  },
+  {
+   "id": "f32cb482dfc3",
+   "type": "auto",
+   "title": "கொழும்பு பங்குச் சந்தையில் குறிப்பிடத்தக்க வளர்ச்சி",
+   "summary": "கொழும்பு பங்குச் சந்தையின் விலைச் சுட்டெண்களில் இன்று (04) குறிப்பிடத்தக்க உயர்ச்சி காணப்பட்டது. அதன் உயர் வளர்ச்சி வேகத்தைக் காட்டும் வகையில்",
+   "link": "https://adaderanatamil.lk/news/251496",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": null,
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-04T10:22:51+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
+  },
+  {
    "id": "6bfd82c7c059",
    "type": "auto",
    "title": "கோடீஸ்வரர் விவேக் ராமசாமியை வீழ்த்திய ஏமி ஆக்டன் - டிரம்ப் ஆதரித்த 'சர்ச்சை' பிரசாரத்தை மீறி வெற்றி",
@@ -852,6 +2086,40 @@
    "page_chars": 5142
   },
   {
+   "id": "39133e793896",
+   "type": "auto",
+   "title": "பட்டுவத்தே சாமர விளக்கமறியலில்",
+   "summary": "கணேமுல்ல சஞ்சீவ படுகொலைச் சம்பவத்துடன் தொடர்புடைய பிரதான சந்தேகநபர்களில் ஒருவரான பட்டுவத்தே சாமர என்ற மனோஜ் சுரங்க லியனகே என்பவரை எதிர்வரும் 13ஆம் திகதி வரை விளக்கமறியலில்",
+   "link": "https://adaderanatamil.lk/news/251495",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": null,
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-04T09:42:30+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
+  },
+  {
+   "id": "0cc58e7febf3",
+   "type": "auto",
+   "title": "கோட்டாபயவின் வெளிநாட்டுப் பயணத் தடை தொடர்பான தீர்ப்பு 25ஆம் திகதி!",
+   "summary": "முன்னாள் ஜனாதிபதி கோட்டாபய ராஜபக்ஷவுக்கு விதிக்கப்பட்டுள்ள வெளிநாட்டுப் பயணத் தடையை நீக்குமாறு கோரி முன்வைக்கப்பட்டுள்ள கோரிக்கை தொடர்பான தீர்ப்பை எதிர்வரும் 25ஆம் திகதி அறிவிப்பதற்கு கொழும்பு",
+   "link": "https://adaderanatamil.lk/news/251494",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": null,
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-04T09:35:59+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
+  },
+  {
    "id": "b800eebe2677",
    "type": "auto",
    "title": "'48 மணிநேரம் கடந்தும் தகவல் இல்லை' - கடலில் காணாமல் போன 9 காசிமேடு மீனவர்கள் - உரிமையாளர் கூறுவது என்ன?",
@@ -868,6 +2136,40 @@
    "published": "2026-11-04T08:34:38+00:00",
    "fetched": "2026-11-04T17:54:05.721737+00:00",
    "page_chars": 4974
+  },
+  {
+   "id": "70dcd02b88bc",
+   "type": "auto",
+   "title": "மக்கள் போராட்ட இயக்கத்தின் ஆர்ப்பாட்டம் பொல்துவ சந்தியில் ஆரம்பம்",
+   "summary": "அரசாங்கத்தினால் கொண்டுவரப்படவுள்ள அரசைப் பயங்கரவாதத்திலிருந்து பாதுகாக்கும் சட்டமூலத்திற்கும் (PSTA) ஒழுங்கமைக்கப்பட்ட குற்றங்கள் தொடர்பான சட்டமூலத்திற்கும் எதிராக மக்கள் போராட்ட இயக்கத்தின் ஆர்ப்பாட்டம் ஒன்று",
+   "link": "https://adaderanatamil.lk/news/251493",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": null,
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-04T08:29:51+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
+  },
+  {
+   "id": "35b7e24d3ea6",
+   "type": "auto",
+   "title": "தலவத்துகொடை ஹேமாஸ் மருத்துவமனையில் இலங்கையின் முதலாவது Deep Resolve AI வசதி கொண்ட MRI ஸ்கேனரை நிறுவிய DIMO Healthcare",
+   "summary": "DIMO Healthcare நிறுவனம், தலவத்துகொடை ஹேமாஸ் மருத்துவமனையில் Siemens Healthineers MAGNETOM Sola 1.5T MRI தொகுதியை வெற்றிகரமாக நிறுவியுள்ளது. இது",
+   "link": "https://adaderanatamil.lk/news/251492",
+   "source": "அத தெரண தமிழ்",
+   "source_domain": "adaderanatamil.lk",
+   "image": null,
+   "lang": "ta",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-04T08:06:21+00:00",
+   "fetched": "2026-11-05T03:39:40.343813+00:00"
   },
   {
    "id": "b7f2b1cf7713",
@@ -7568,1675 +8870,6 @@
    ],
    "ai_model": "mymemory",
    "ai_at": "2026-10-31T23:36:54.184489+00:00"
-  },
-  {
-   "id": "ef25a8b783db",
-   "type": "auto",
-   "title": "Cardinal Malcolm Ranjith led delegation meets Presidential Secretary over environmental issues",
-   "summary": "A delegation led by Cardinal Malcolm Ranjith met Secretary to the President Dr. Nandika Sanath Kumanayake at the Presidential Secretariat Continue Reading The post Cardinal Malcolm Ranjith led delegation meets Presidential Secretary over environmental issues appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/31/cardinal-malcolm-ranjith-led-delegation-meets-presidential-secretary-over-environmental-issues/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/864828535_1054672080929115_6072881152912209941_n.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-31T05:15:08+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 1082,
-   "ai_title": "கார்டினல் மால்கம் ரஞ்சித் தலைமையிலான தூதுக்குழு சுற்றுச்சூழல் பிரச்சினைகள் தொடர்பாக ஜனாதிபதி செயலாளரை சந்தித்தது",
-   "title_ta": "கார்டினல் மால்கம் ரஞ்சித் தலைமையிலான தூதுக்குழு சுற்றுச்சூழல் பிரச்சினைகள் தொடர்பாக ஜனாதிபதி செயலாளரை சந்தித்தது",
-   "ai_summary": "முத்துராஜாவல, நீர்கொழும்பு லாகூன் மற்றும் கம்பஹா மாவட்டத்தின் பல பகுதிகளை பாதிக்கும் சுற்றுச்சூழல் பிரச்சினைகள் குறித்து விவாதிக்க கார்டினல் மால்கம் ரஞ்சித் தலைமையிலான தூதுக்குழு 30 ஆம் திகதி ஜனாதிபதி செயலகத்தில் ஜனாதிபதியின் செயலாளர் டாக்டர் நந்திகா சனத் குமநாயக்கவை சந்தித்தது.",
-   "ai_body": [
-    "முத்துராஜாவல, நீர்கொழும்பு லாகூன் மற்றும் கம்பஹா மாவட்டத்தின் பல பகுதிகளை பாதிக்கும் சுற்றுச்சூழல் பிரச்சினைகள் குறித்து விவாதிக்க கார்டினல் மால்கம் ரஞ்சித் தலைமையிலான தூதுக்குழு 30 ஆம் திகதி ஜனாதிபதி செயலகத்தில் ஜனாதிபதியின் செயலாளர் டாக்டர் நந்திகா சனத் குமநாயக்கவை சந்தித்தது. இந்த கலந்துரையாடல் முத்துராஜாவல ஈரநிலங்களுக்கு சுற்றுச்சூழல் சேதம், பாமுனுகம கடற்கரையோரத்தில் கடலோர சீரழிவு மற்றும் சீதுவாவின் லியனகேமுல்லாவில் தொழில்துறை தொடர்பான பிரச்சினைகள் குறித்து கவனம் செலுத்தியது.",
-    "கலந்துரையாடலைத் தொடர்ந்து, பாதிக்கப்பட்ட பகுதிகளில் மேலும் சுற்றுச்சூழல் சேதத்தைத் தடுக்க தேவையான நடவடிக்கைகளை எடுக்குமாறு ஜனாதிபதியின் செயலாளர் சம்பந்தப்பட்ட அதிகாரிகளுக்கு அறிவுறுத்தினார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T05:23:48.284969+00:00"
-  },
-  {
-   "id": "a84df0e5a2b2",
-   "type": "auto",
-   "title": "US dollar rises by Rs. 22.62 against Sri Lankan rupee in first 9 months of 2026",
-   "summary": "The Sri Lankan rupee has depreciated by 6.8% against the US dollar during the first ten months of 2026, according Continue Reading The post US dollar rises by Rs. 22.62 against Sri Lankan rupee in first 9 months of 2026 appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/31/us-dollar-rises-by-rs-22-62-against-sri-lankan-rupee-in-first-9-months-of-2026/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261031_103325_X.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-10-31T05:09:49+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 1494,
-   "ai_title": "2026 ஆம் ஆண்டின் முதல் 9 மாதங்களில் இலங்கை ரூபாய்க்கு எதிராக அமெரிக்க டாலர் ரூ. 22.62 அதிகரித்துள்ளது",
-   "title_ta": "2026 ஆம் ஆண்டின் முதல் 9 மாதங்களில் இலங்கை ரூபாய்க்கு எதிராக அமெரிக்க டாலர் ரூ. 22.62 அதிகரித்துள்ளது",
-   "ai_summary": "இலங்கை மத்திய வங்கியின் (CBSL) கூற்றுப்படி, 2026 ஆம் ஆண்டின் முதல் பத்து மாதங்களில் அமெரிக்க டாலருக்கு எதிராக இலங்கை ரூபாயின் மதிப்பு 6.8% குறைந்துள்ளது.",
-   "ai_body": [
-    "இலங்கை மத்திய வங்கியின் (CBSL) கூற்றுப்படி, 2026 ஆம் ஆண்டின் முதல் பத்து மாதங்களில் அமெரிக்க டாலருக்கு எதிராக இலங்கை ரூபாயின் மதிப்பு 6.8% குறைந்துள்ளது. அதன் சமீபத்திய வெளிப்புறத் துறை செயல்திறன் அறிக்கையில், மத்திய வங்கி 2026 அக்டோபர் மாத இறுதியில் ஒரு அமெரிக்க டாலருக்கு மாற்று விகிதம் ரூ.",
-    "332.61 ஆக இருந்தது, இது 2025 ஆம் ஆண்டின் இறுதியில் ரூ. 309.99 ஆக இருந்தது.",
-    "இது பத்து மாத காலப்பகுதியில் ஒரு அமெரிக்க டாலரின் ரூபாயின் மதிப்பில் ரூ. 22.62.",
-    "மத்திய வங்கியின் புள்ளிவிவரங்கள் 2024 ஆம் ஆண்டின் இறுதியில் ஒரு அமெரிக்க டாலருக்கு மாற்று விகிதம் ரூ. 292.58 ஆக இருந்தது, இது கடந்த இரண்டு ஆண்டுகளில் டாலருக்கு எதிரான ரூபாயின் தொடர்ச்சியான தேய்மானத்தைக் குறிக்கிறது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T05:23:50.596695+00:00"
-  },
-  {
-   "id": "ee91bda89d52",
-   "type": "auto",
-   "title": "Canada has ‘learned we are overdependent on the US’ – PM Mark Carney",
-   "summary": "Canadian Prime Minister Mark Carney spoke to DW on Friday after talks in Montreal with European Union leaders seeking to Continue Reading The post Canada has ‘learned we are overdependent on the US’ – PM Mark Carney appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/31/canada-has-learned-we-are-overdependent-on-the-us-pm-mark-carney/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Mark-Carney.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-31T05:09:38+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 4673,
-   "ai_title": "கனடா ‘நாங்கள் அமெரிக்காவைச் சார்ந்து இருப்பதை கற்றுக்கொண்டோம்’ – பிரதமர் மார்க் கார்னி",
-   "title_ta": "கனடா ‘நாங்கள் அமெரிக்காவைச் சார்ந்து இருப்பதை கற்றுக்கொண்டோம்’ – பிரதமர் மார்க் கார்னி",
-   "ai_summary": "கனேடிய பிரதம மந்திரி மார்க் கார்னி வெள்ளிக்கிழமை மாண்ட்ரீலில் ஐரோப்பிய ஒன்றியத் தலைவர்களுடன் பேச்சுவார்த்தை நடத்திய பின்னர் கனடாவிற்கும் ஐரோப்பிய ஒன்றியத்திற்கும் இடையிலான ஒரு புதிய, நெருக்கமான கூட்டாண்மை பற்றிய விவரங்களைத் தெரிவிக்க முயன்றார்.",
-   "ai_body": [
-    "கனேடிய பிரதம மந்திரி மார்க் கார்னி வெள்ளிக்கிழமை மாண்ட்ரீலில் ஐரோப்பிய ஒன்றியத் தலைவர்களுடன் பேச்சுவார்த்தை நடத்திய பின்னர் கனடாவிற்கும் ஐரோப்பிய ஒன்றியத்திற்கும் இடையிலான ஒரு புதிய, நெருக்கமான கூட்டாண்மை பற்றிய விவரங்களைத் தெரிவிக்க முயன்றார். கனடாவின் மிகப்பெரிய வர்த்தக பங்காளியை பிரதிநிதித்துவப்படுத்தும் அமெரிக்க ஜனாதிபதி டொனால்ட் டிரம்புடனான கடினமான பேச்சுவார்த்தைகளுக்கு மத்தியில், கார்னி, தானும் தனது தோழர்களும் தெற்கே உள்ள பொருளாதார சக்தியை நம்பியிருப்பதை உணர்ந்ததாக கூறினார்.",
-    "\"நாங்கள் எடுத்த பாடம், ஒட்டுமொத்த கனேடியர்களும், நாங்கள் அமெரிக்காவை அதிகமாகச் சார்ந்துள்ளோம். அமெரிக்காவுடன் மிக நெருக்கமாக இணைக்கப்பட்டுள்ளது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T05:23:52.871040+00:00"
-  },
-  {
-   "id": "43507e136fb6",
-   "type": "auto",
-   "title": "Sri Lanka’s fuel import bill jumps 51.5% to US$ 4.5 billion",
-   "summary": "Sri Lanka’s expenditure on fuel imports increased by 51.5% during the first nine months of 2026 compared to the corresponding Continue Reading The post Sri Lanka’s fuel import bill jumps 51.5% to US$ 4.5 billion appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/31/sri-lankas-fuel-import-bill-jumps-51-5-to-us-4-5-billion/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261030_223852_ChatGPT.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-31T05:08:57+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 1319,
-   "ai_title": "இலங்கையின் எரிபொருள் இறக்குமதி பில் 51.5% உயர்ந்து அமெரிக்க$ 4.5 பில்லியனாக உள்ளது",
-   "title_ta": "இலங்கையின் எரிபொருள் இறக்குமதி பில் 51.5% உயர்ந்து அமெரிக்க$ 4.5 பில்லியனாக உள்ளது",
-   "ai_summary": "கடந்த ஆண்டு இதே காலப்பகுதியுடன் ஒப்பிடும்போது 2026 ஆம் ஆண்டின் முதல் ஒன்பது மாதங்களில் எரிபொருள் இறக்குமதிக்கான இலங்கையின் செலவு 51.5% அதிகரித்துள்ளதாக இலங்கை மத்திய வங்கி (CBSL) தெரிவித்துள்ளது.",
-   "ai_body": [
-    "கடந்த ஆண்டு இதே காலப்பகுதியுடன் ஒப்பிடும்போது 2026 ஆம் ஆண்டின் முதல் ஒன்பது மாதங்களில் எரிபொருள் இறக்குமதிக்கான இலங்கையின் செலவு 51.5% அதிகரித்துள்ளதாக இலங்கை மத்திய வங்கி (CBSL) தெரிவித்துள்ளது. சமீபத்திய வெளிப்புறத் துறை செயல்திறன் அறிக்கை 2026 ஜனவரி-செப்டம்பர் காலப்பகுதியில் ஒட்டுமொத்த எரிபொருள் இறக்குமதி செலவு தோராயமாக 4.5 பில்லியன் அமெரிக்க$ ஐ எட்டியது.",
-    "இருப்பினும், செப்டம்பர் மாதத்தில் தொடர்ச்சியாக ஐந்தாவது மாதமாக எரிபொருள் இறக்குமதிக்கான மாதாந்திர செலவு குறைந்துள்ளதாக மத்திய வங்கி குறிப்பிட்டது. மாதாந்திர செலவினங்களில் இந்த சமீபத்திய கீழ்நோக்கிய போக்கு இருந்தபோதிலும், ஒட்டுமொத்த எரிபொருள் இறக்குமதி பில் கடந்த ஆண்டு இதே காலகட்டத்தில் இருந்ததை விட கணிசமாக அதிகமாக இருந்தது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T05:23:55.026766+00:00"
-  },
-  {
-   "id": "2fb482630864",
-   "type": "auto",
-   "title": "சென்னை மேயர் பிரியாவை விஜய் அரசு புறக்கணிக்கிறதா? திமுக கவுன்சிலர்கள் குற்றச்சாட்டின் பின்னணி",
-   "summary": "முதலமைச்சர் விஜயின் ஆய்வுக் கூட்டங்கள் குறித்துத் தகவல் தெரிவிக்கப்படுவதில்லை என சென்னை மேயர் பிரியா குற்றம்சாட்டியுள்ளார். திமுக கவுன்சிலர்களின் புகார்களைத் தவெக மறுக்கும் நிலையில், மாநகராட்சியில் நடப்பது என்ன?",
-   "link": "https://www.bbc.com/tamil/articles/ckpqgp3nr5j3o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/795b/live/439bc1c0-d4e0-11f1-9022-338230830d22.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-31T05:02:15+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "6d6d63efe5a5",
-   "type": "auto",
-   "title": "Sri Lankans spend 62% more on foreign travel in 2026",
-   "summary": "Sri Lanka’s expenditure on foreign travel increased by 62.4% during the first nine months of 2026 compared to the corresponding Continue Reading The post Sri Lankans spend 62% more on foreign travel in 2026 appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/31/sri-lankans-spend-62-more-on-foreign-travel-in-2026/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261030_223554_ChatGPT.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-31T05:01:50+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 1221,
-   "ai_title": "2026 ஆம் ஆண்டில் இலங்கையர்கள் வெளிநாடுகளுக்கு 62% அதிகமாக செலவிடுகின்றனர்",
-   "title_ta": "2026 ஆம் ஆண்டில் இலங்கையர்கள் வெளிநாடுகளுக்கு 62% அதிகமாக செலவிடுகின்றனர்",
-   "ai_summary": "கடந்த ஆண்டு இதே காலப்பகுதியுடன் ஒப்பிடும்போது 2026 ஆம் ஆண்டின் முதல் ஒன்பது மாதங்களில் வெளிநாட்டுப் பயணங்களுக்கான இலங்கையின் செலவு 62.4% அதிகரித்துள்ளதாக இலங்கை மத்திய வங்கி (CBSL) தெரிவித்துள்ளது.",
-   "ai_body": [
-    "கடந்த ஆண்டு இதே காலப்பகுதியுடன் ஒப்பிடும்போது 2026 ஆம் ஆண்டின் முதல் ஒன்பது மாதங்களில் வெளிநாட்டுப் பயணங்களுக்கான இலங்கையின் செலவு 62.4% அதிகரித்துள்ளதாக இலங்கை மத்திய வங்கி (CBSL) தெரிவித்துள்ளது. சமீபத்திய வெளிப்புறத் துறை செயல்திறன் அறிக்கை 2026 ஜனவரி-செப்டம்பர் மாதங்களில் வெளிநாடுகளுக்குச் செல்வதற்கான செலவு 937.2 மில்லியன் அமெரிக்க$ ஐ எட்டியது, இது 2025 ஆம் ஆண்டின் இதே காலகட்டத்தில் 577 மில்லியன் அமெரிக்க$ உடன் ஒப்பிடும்போது.",
-    "செப்டம்பரில் மட்டும், வெளிநாட்டு பயணச் செலவு 64.9% அதிகரித்து $ 122 மில்லியனாக இருந்தது, இது கடந்த ஆண்டு செப்டம்பரில் $ 74 மில்லியனாக இருந்தது. வெளிநாட்டு பயணச் செலவினங்களின் கூர்மையான அதிகரிப்பு மாதத்தில் உயர் சேவைகள் தொடர்பான வெளிப்பாய்வுகளுக்கு பங்களித்தது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T05:23:57.215146+00:00"
-  },
-  {
-   "id": "aecf06353b51",
-   "type": "auto",
-   "title": "TIN Certificate mandatory for key transactions from tomorrow",
-   "summary": "A valid Taxpayer Identification Number (TIN) Certificate will become mandatory from tomorrow (November 1) for several key transactions, including opening Continue Reading The post TIN Certificate mandatory for key transactions from tomorrow appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/31/tin-certificate-mandatory-for-key-transactions-from-tomorrow/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/09/TIN-IRD.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-31T04:59:28+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 1691,
-   "ai_title": "நாளை முதல் முக்கிய பரிவர்த்தனைகளுக்கு TIN சான்றிதழ் கட்டாயமாகும்",
-   "title_ta": "நாளை முதல் முக்கிய பரிவர்த்தனைகளுக்கு TIN சான்றிதழ் கட்டாயமாகும்",
-   "ai_summary": "வங்கிக் கணக்குகளைத் திறத்தல், வாகனங்கள் மற்றும் நிலங்களைப் பதிவு செய்தல், வணிகங்களைப் பதிவு செய்தல் மற்றும் கிரெடிட் கார்டுகளைப் பெறுதல் உள்ளிட்ட பல முக்கிய பரிவர்த்தனைகளுக்கு செல்லுபடியாகும் வரி செலுத்துவோர் அடையாள எண் (TIN) சான்றிதழ் நாளை (நவம்பர் 1) முதல் கட்டாயமாக்கப்படும் என்று உள்நாட்டு வருவாய் துறை (IRD) தெரிவித்துள்ளது.",
-   "ai_body": [
-    "வங்கிக் கணக்குகளைத் திறத்தல், வாகனங்கள் மற்றும் நிலங்களைப் பதிவு செய்தல், வணிகங்களைப் பதிவு செய்தல் மற்றும் கிரெடிட் கார்டுகளைப் பெறுதல் உள்ளிட்ட பல முக்கிய பரிவர்த்தனைகளுக்கு செல்லுபடியாகும் வரி செலுத்துவோர் அடையாள எண் (TIN) சான்றிதழ் நாளை (நவம்பர் 1) முதல் கட்டாயமாக்கப்படும் என்று உள்நாட்டு வருவாய் துறை (IRD) தெரிவித்துள்ளது. 2026 ஆம் ஆண்டின் 11 ஆம் இலக்க உள்நாட்டு வருவாய் (திருத்தம்) சட்டத்தின் கீழ் இந்த தேவை அறிமுகப்படுத்தப்படுகிறது, மேலும் உள்நாட்டு வருவாய் சட்டத்தின் பிரிவு 102(3) இன் கீழ் குறிப்பிடப்பட்டுள்ள பரிவர்த்தனைகளுக்கு இது பொருந்தும்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T05:23:58.731884+00:00"
-  },
-  {
-   "id": "c927c1d00613",
-   "type": "auto",
-   "title": "October 17 power outage: Norochcholai unit failure triggered outage, preliminary report says",
-   "summary": "The sudden disconnection of 187 megawatts of electricity from the first unit of the Norochcholai Lakvijaya Power Plant triggered the Continue Reading The post October 17 power outage: Norochcholai unit failure triggered outage, preliminary report says appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/31/october-17-power-outage-norochcholai-unit-failure-triggered-outage-preliminary-report-says/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Power-failure-report.png",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-31T04:54:29+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 1973,
-   "ai_title": "அக்டோபர் 17 மின் தடை: நூரோச்சோலை யூனிட் செயலிழப்பைத் தூண்டியது, பூர்வாங்க அறிக்கை கூறுகிறது",
-   "title_ta": "அக்டோபர் 17 மின் தடை: நூரோச்சோலை யூனிட் செயலிழப்பைத் தூண்டியது, பூர்வாங்க அறிக்கை கூறுகிறது",
-   "ai_summary": "நூரோச்சோலை லக்விஜயா மின் நிலையத்தின் முதல் அலகிலிருந்து 187 மெகாவாட் மின்சாரம் திடீரென துண்டிக்கப்பட்டதால், இலங்கை பொதுப் பயன்பாட்டு ஆணையத்திற்கு (PUCSL) தேசிய கணினி ஆபரேட்டர் (NSO) சமர்ப்பித்த பூர்வாங்க விசாரணை அறிக்கையின்படி, அக்டோபர் 17 அன்று தீவு முழுவதும் மின் அமைப்பு சரிந்தது.",
-   "ai_body": [
-    "நூரோச்சோலை லக்விஜயா மின் நிலையத்தின் முதல் அலகிலிருந்து 187 மெகாவாட் மின்சாரம் திடீரென துண்டிக்கப்பட்டதால், இலங்கை பொதுப் பயன்பாட்டு ஆணையத்திற்கு (PUCSL) தேசிய கணினி ஆபரேட்டர் (NSO) சமர்ப்பித்த பூர்வாங்க விசாரணை அறிக்கையின்படி, அக்டோபர் 17 அன்று தீவு முழுவதும் மின் அமைப்பு சரிந்தது. காலை 11.43 மணியளவில் ஜெனரேட்டிங் யூனிட் துண்டிக்கப்பட்டதாக அறிக்கை கூறுகிறது 450 மில்லி விநாடிகளுக்குள், கணினி அதிர்வெண் 48.75 ஹெர்ட்ஸாகக் குறையும்.",
-    "இதன் விளைவாக, முழு தேசிய மின்சார அமைப்பும் 4.1 வினாடிகளில் சரிந்தது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T05:24:01.078154+00:00"
-  },
-  {
-   "id": "cc7814d50d3f",
-   "type": "auto",
-   "title": "Oil jumps 2%, settles at 6-month highs on fears of escalation in Iran",
-   "summary": "Oil prices jumped more than 2% on Friday and settled ​at their highest levels since the end of April, as Continue Reading The post Oil jumps 2%, settles at 6-month highs on fears of escalation in Iran appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/31/oil-jumps-2-settles-at-6-month-highs-on-fears-of-escalation-in-iran/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Oil-prices.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-31T04:34:55+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 3004,
-   "ai_title": "எண்ணெய் 2% உயர்ந்து, ஈரானில் அதிகரிக்கும் என்ற அச்சத்தில் 6 மாத உச்சத்தில் குடியேறுகிறது",
-   "title_ta": "எண்ணெய் 2% உயர்ந்து, ஈரானில் அதிகரிக்கும் என்ற அச்சத்தில் 6 மாத உச்சத்தில் குடியேறுகிறது",
-   "ai_summary": "அமெரிக்க இடைக்காலத் தேர்தல்களுக்குப் பிறகு, ஹார்முஸ் ஜலசந்தியில் ஒரு டேங்கர் மீது தாக்குதல் நடத்தப்பட்டதால், எண்ணெய் விலைகள் வெள்ளிக்கிழமை 2% க்கும் அதிகமாக உயர்ந்தன மற்றும் ஏப்ரல் மாத இறுதியில் இருந்து அவற்றின் மிக உயர்ந்த மட்டங்களில் குடியேறின.",
-   "ai_body": [
-    "அமெரிக்க இடைக்காலத் தேர்தல்களுக்குப் பிறகு, ஹார்முஸ் ஜலசந்தியில் ஒரு டேங்கர் மீது தாக்குதல் நடத்தப்பட்டதால், எண்ணெய் விலைகள் வெள்ளிக்கிழமை 2% க்கும் அதிகமாக உயர்ந்தன மற்றும் ஏப்ரல் மாத இறுதியில் இருந்து அவற்றின் மிக உயர்ந்த மட்டங்களில் குடியேறின. வெள்ளிக்கிழமை காலாவதியான டிசம்பர் மாதத்திற்கான ப்ரெண்ட் கச்சா எதிர்காலம், $ 118 ஐத் தொட்ட பிறகு, ஒரு பீப்பாய்க்கு $ 2.76 அல்லது 2.4% உயர்ந்து $ 117.64 ஆக இருந்தது.",
-    "மிகவும் சுறுசுறுப்பான ஜனவரி ஒப்பந்தம் $ 2.63 ஐ $ 113.43 ஆகப் பெற்றது. US வெஸ்ட் டெக்சாஸ் இன்டர்மீடியட் (WTI) கச்சா எதிர்காலங்கள் $ 2.12, அல்லது 2.08%, $ 104.12 ஆக உயர்ந்தது.",
-    "மாதத்திற்கு, ப்ரெண்ட் 13.6% அதிகரித்துள்ளது, அதே நேரத்தில் WTI 15.2% உயர்ந்தது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T23:36:56.487649+00:00"
-  },
-  {
-   "id": "c457dc7b676e",
-   "type": "auto",
-   "title": "வாக்குச்சீட்டு தேர்தலில் காங்கிரஸை கிண்டல் செய்த பிரதமர் மோதி - நாக்பூர், வாரணாசியில் பாஜகவுக்கு என்ன நடந்தது?",
-   "summary": "28 சட்ட மேலவைத் தொகுதிகளுக்கான தேர்தல் முடிவுகளை முன்வைத்து காங்கிரஸை பிரதமர் மோதி விமர்சித்துள்ளார். வாக்குச்சீட்டு முறை, மின்னணு வாக்குப்பதிவு இயந்திரங்கள் குறித்த விவாதம் மீண்டும் எழுந்திருப்பது ஏன்?",
-   "link": "https://www.bbc.com/tamil/articles/ck87zq888g0xo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/1bbc/live/39b0b700-d40a-11f1-a701-fddedf244c16.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-10-31T04:31:09+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 8000,
-   "ai_title": "வாரணாசியின் நாக்பூரில் பாஜகவுக்கு என்ன நடந்தது, அங்கு பிரதமர் மோடி வாக்குச் சீட்டுகளில் காங்கிரஸை கேலி செய்தார்?",
-   "title_ta": "வாரணாசியின் நாக்பூரில் பாஜகவுக்கு என்ன நடந்தது, அங்கு பிரதமர் மோடி வாக்குச் சீட்டுகளில் காங்கிரஸை கேலி செய்தார்?",
-   "ai_summary": "நான்கு மாநிலங்களில் உள்ள 28 சட்டமன்றத் தொகுதிகளுக்கான தேர்தலில் பாஜக தலைமையிலான தேசிய ஜனநாயகக் கூட்டணி பெரும்பாலான இடங்களை வென்றதைத் தொடர்ந்து, பிரதமர் நரேந்திர மோடி புதன்கிழமை, காங்கிரஸ் கட்சி மீது சமூக ஊடகப் பக்கம் X இல் கடுமையான தாக்குதலை வெளியிட்டார்.",
-   "ai_body": [
-    "நான்கு மாநிலங்களில் உள்ள 28 சட்டமன்றத் தொகுதிகளுக்கான தேர்தலில் பாஜக தலைமையிலான தேசிய ஜனநாயகக் கூட்டணி பெரும்பாலான இடங்களை வென்றதைத் தொடர்ந்து, பிரதமர் நரேந்திர மோடி புதன்கிழமை, காங்கிரஸ் கட்சி மீது சமூக ஊடகப் பக்கம் X இல் கடுமையான தாக்குதலை வெளியிட்டார். தனது பதிவில், நரேந்திர மோடி, “தேர்தல் வாக்குச் சீட்டு முறையில் நடைபெற்றது.",
-    "காங்கிரஸ் எத்தனை இடங்களை வென்றிருக்கும் என்று கற்பனை செய்து பாருங்கள். \"புதன்கிழமை மாலை பிரதமர் நரேந்திர மோடி இந்த சாதனையை வெளியிட்டபோது, சட்டமன்றத் தேர்தலில் காங்கிரஸ் ஒரு இடத்தில் கூட வெற்றி பெறவில்லை.",
-    "இருப்பினும், பின்னர் மகாராஷ்டிராவில் நாக்பூர் தொகுதியில் காங்கிரஸ் வெற்றி பெற்றது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T23:37:02.670023+00:00"
-  },
-  {
-   "id": "136173d65708",
-   "type": "auto",
-   "title": "Peterite Cricket League returns after 13 years with 8-team tournament",
-   "summary": "The Peterite Cricket League (PCL) is set to return after a 13-year break, with an eight-team franchise cricket tournament scheduled Continue Reading The post Peterite Cricket League returns after 13 years with 8-team tournament appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/31/peterite-cricket-league-returns-after-13-years-with-8-team-tournament/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261031_094851_Gallery.jpg",
-   "lang": "en",
-   "category": "sports",
-   "tags": [
-    "sports",
-    "srilanka"
-   ],
-   "published": "2026-10-31T04:24:10+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 2418
-  },
-  {
-   "id": "0279f3817611",
-   "type": "auto",
-   "title": "Woman arrested over Rs. 1.45 million WhatsApp gift scam",
-   "summary": "A 46-year-old woman has been arrested at the passenger terminal of Bandaranaike International Airport in Katunayake over an alleged financial Continue Reading The post Woman arrested over Rs. 1.45 million WhatsApp gift scam appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/31/woman-arrested-over-rs-1-45-million-whatsapp-gift-scam/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/IMG_6849.jpeg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-31T04:05:17+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 720,
-   "ai_title": "ரூ. 1.45 மில்லியனுக்கும் அதிகமான வாட்ஸ்அப் பரிசு மோசடி செய்த பெண் கைது",
-   "title_ta": "ரூ. 1.45 மில்லியனுக்கும் அதிகமான வாட்ஸ்அப் பரிசு மோசடி செய்த பெண் கைது",
-   "ai_summary": "வாட்ஸ்அப் குழு சம்பந்தப்பட்டதாகக் கூறப்படும் நிதி மோசடி தொடர்பாக காட்டுநாயக்கவில் உள்ள பண்டாரநாயக்க சர்வதேச விமான நிலையத்தின் பயணிகள் முனையத்தில் 46 வயதான ஒரு பெண் கைது செய்யப்பட்டுள்ளதாக போலீசார் தெரிவித்தனர்.",
-   "ai_body": [
-    "வாட்ஸ்அப் குழு சம்பந்தப்பட்டதாகக் கூறப்படும் நிதி மோசடி தொடர்பாக காட்டுநாயக்கவில் உள்ள பண்டாரநாயக்க சர்வதேச விமான நிலையத்தின் பயணிகள் முனையத்தில் 46 வயதான ஒரு பெண் கைது செய்யப்பட்டுள்ளதாக போலீசார் தெரிவித்தனர். சந்தேக நபர் ஒரு வாட்ஸ்அப் குழு மூலம் ஒரு மதிப்புமிக்க பரிசு பார்சலை உறுதியளித்ததாகவும், ஒரு நபரை ரூ.",
-    "1,455,000 அவரது வங்கிக் கணக்கில் டெபாசிட் செய்யுமாறு வற்புறுத்தியதாகவும் கூறப்படுகிறது. மோசடி நடந்ததாகக் கூறப்படும் புகாரைத் தொடர்ந்து விசாரணை தொடங்கப்பட்டது.",
-    "வடமேல் மாகாணத்தின் கணினி குற்றப் புலனாய்வுப் பிரிவின் உதவியுடன் இந்த கைது நடவடிக்கை மேற்கொள்ளப்பட்டது. சந்தேக நபர் நுகேகொடவில் வசிப்பவர்.",
-    "கணினி குற்றப் புலனாய்வுப் பிரிவின் வடமேல் மாகாணப் பிரிவினால் மேலதிக விசாரணைகள் மேற்கொள்ளப்படுகின்றன."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T23:37:04.750404+00:00"
-  },
-  {
-   "id": "a5b9e1e87120",
-   "type": "auto",
-   "title": "Overseas Realty Launches Havelock City Residences, the Fifth and Final Phase of Havelock City",
-   "summary": "En Ping Ong Director ORCL and Pravir Samarasinghe Director / Group CEO ORCL unveiling the model for HAVELOCK CITY RESIDENCES Continue Reading The post Overseas Realty Launches Havelock City Residences, the Fifth and Final Phase of Havelock City appeared first on Newswire .",
-   "link": "https://www.newswire.lk/business/overseas-realty-launches-havelock-city-residences-the-fifth-and-final-phase-of-havelock-city/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-31-at-09.26.59.jpeg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-31T03:59:51+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 3929,
-   "ai_title": "ஹேவ்லாக் நகரத்தின் ஐந்தாவது மற்றும் இறுதி கட்டமான ஹேவ்லாக் நகர குடியிருப்புகளை வெளிநாட்டு ரியால்டி தொடங்குகிறது",
-   "title_ta": "ஹேவ்லாக் நகரத்தின் ஐந்தாவது மற்றும் இறுதி கட்டமான ஹேவ்லாக் நகர குடியிருப்புகளை வெளிநாட்டு ரியால்டி தொடங்குகிறது",
-   "ai_summary": "ஹேவ்லாக் நகரத்தின் ஐந்தாவது மற்றும் இறுதி கட்டமான ஹேவ்லாக் நகர குடியிருப்புகளைத் தொடங்குவதாக வெளிநாட்டு ரியாலிட்டி (இலங்கை) பிஎல்சி அறிவித்தது, இது கொழும்பின் மிகவும் மதிப்புமிக்க ஒருங்கிணைந்த கலப்பு-பயன்பாட்டு வளர்ச்சியின் பார்வையை நிறைவு செய்யும்.",
-   "ai_body": [
-    "ஹேவ்லாக் நகரத்தின் ஐந்தாவது மற்றும் இறுதி கட்டமான ஹேவ்லாக் நகர குடியிருப்புகளைத் தொடங்குவதாக வெளிநாட்டு ரியாலிட்டி (இலங்கை) பிஎல்சி அறிவித்தது, இது கொழும்பின் மிகவும் மதிப்புமிக்க ஒருங்கிணைந்த கலப்பு-பயன்பாட்டு வளர்ச்சியின் பார்வையை நிறைவு செய்யும். அக்டோபர் 29, 2026 அன்று ஹில்டன் கொழும்பில் நடைபெற்ற ஒரு கவர்ச்சியான வெளியீட்டு நிகழ்வில் ஹேவ்லாக் சிட்டி ரெசிடென்ஸின் அதிகாரப்பூர்வ வெளியீடு கொண்டாடப்பட்டது, இதில் அழைக்கப்பட்ட விருந்தினர்கள் பிரத்தியேகமாக கூடியிருந்தனர்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T23:37:06.330195+00:00"
-  },
-  {
-   "id": "2341be6279b1",
-   "type": "auto",
-   "title": "Weather: Showers after 1 pm today",
-   "summary": "Showers or thundershowers are expected in several parts of Sri Lanka after 1 p.m. today (Oct. 31), the Department of Continue Reading The post Weather: Showers after 1 pm today appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/31/weather-showers-after-1-pm-today/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/05/IMG_0916.jpeg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-31T03:53:54+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 1076,
-   "ai_title": "வானிலை: இன்று மதியம் 1 மணிக்குப் பிறகு மழை பெய்யும்",
-   "title_ta": "வானிலை: இன்று மதியம் 1 மணிக்குப் பிறகு மழை பெய்யும்",
-   "ai_summary": "இன்று (அக்டோபர் 31) பிற்பகல் 1 மணிக்குப் பிறகு இலங்கையின் பல பகுதிகளில் மழை அல்லது இடியுடன் கூடிய மழை பெய்யும் என்று வானிலை ஆய்வுத் துறை தெரிவித்துள்ளது.",
-   "ai_body": [
-    "இன்று (அக்டோபர் 31) பிற்பகல் 1 மணிக்குப் பிறகு இலங்கையின் பல பகுதிகளில் மழை அல்லது இடியுடன் கூடிய மழை பெய்யும் என்று வானிலை ஆய்வுத் துறை தெரிவித்துள்ளது. மேற்கு, சப்ரகமுவ, மத்திய, ஊவா மற்றும் தெற்கு மாகாணங்களிலும், குருநாகல், அம்பாறை மற்றும் மட்டக்களப்பு மாவட்டங்களிலும் மழை அல்லது இடியுடன் கூடிய மழை பெய்யக்கூடும்.",
-    "தீவின் பிற பகுதிகளில் முக்கியமாக நியாயமான வானிலை எதிர்பார்க்கப்படுகிறது. இடியுடன் கூடிய மழை பெய்யும் போது தற்காலிக, உள்ளூர்மயமாக்கப்பட்ட பலத்த காற்று மற்றும் மின்னலுக்கு எதிராக போதுமான முன்னெச்சரிக்கை நடவடிக்கைகளை எடுக்க பொதுமக்களுக்கு அறிவுறுத்தப்பட்டுள்ளது.",
-    "அடுத்த 24 மணி நேரத்தில் தீவைச் சுற்றியுள்ள கடல் பகுதிகளில் பல இடங்களில் மழை அல்லது இடியுடன் கூடிய மழை பெய்யும் என்று எதிர்பார்க்கப்படுகிறது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T23:37:08.344974+00:00"
-  },
-  {
-   "id": "846e7eea10dd",
-   "type": "auto",
-   "title": "“UNP-SJB alliance not enough”: Ranil targets 8 million Gen Z, Millennial voters",
-   "summary": "Former President and United National Party (UNP) Leader Ranil Wickremesinghe says an alliance between the UNP and Samagi Jana Balawegaya Continue Reading The post “UNP-SJB alliance not enough”: Ranil targets 8 million Gen Z, Millennial voters appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/31/unp-sjb-alliance-not-enough-ranil-targets-8-million-gen-z-millennial-voters/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2025/08/Ranil-UNP.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-31T03:08:59+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 2302,
-   "ai_title": "\"UNP-SJB கூட்டணி போதாது\": ரணில் 8 மில்லியன் ஜெனரல் இசட், மில்லினியல் வாக்காளர்களை இலக்காகக் கொண்டுள்ளார்",
-   "title_ta": "\"UNP-SJB கூட்டணி போதாது\": ரணில் 8 மில்லியன் ஜெனரல் இசட், மில்லினியல் வாக்காளர்களை இலக்காகக் கொண்டுள்ளார்",
-   "ai_summary": "முன்னாள் ஜனாதிபதியும் ஐக்கிய தேசியக் கட்சியின் (யூ.என் .பி) தலைவருமான ரணில் விக்கிரமசிங்க, யூ.என் .பி மற்றும் சமகி ஜன பலவேகய (எஸ் .ஜே .பி) இடையேயான கூட்டணியொன்று மாத்திரம் தேர்தல் வெற்றிக்கான உத்தரவாதத்தை வழங்காது என்றும், அடுத்த தேர்தலுக்கு முன்னதாக சுமார் எட்டு மில்லியன் ஜெனரல் இசட் மற்றும் ஆயிரக்கணக்கான வாக்காளர்களை ஈர்க்க வேண்டியதன் அவசியத்தை வலியுறுத்தினார்.",
-   "ai_body": [
-    "முன்னாள் ஜனாதிபதியும் ஐக்கிய தேசியக் கட்சியின் (யூ.என் .பி) தலைவருமான ரணில் விக்கிரமசிங்க, யூ.என் .பி மற்றும் சமகி ஜன பலவேகய (எஸ் .ஜே .பி) இடையேயான கூட்டணியொன்று மாத்திரம் தேர்தல் வெற்றிக்கான உத்தரவாதத்தை வழங்காது என்றும், அடுத்த தேர்தலுக்கு முன்னதாக சுமார் எட்டு மில்லியன் ஜெனரல் இசட் மற்றும் ஆயிரக்கணக்கான வாக்காளர்களை ஈர்க்க வேண்டியதன் அவசியத்தை வலியுறுத்தினார். எந்த அரசியல் கட்சியை ஆதரிப்பது என்று பல இளைய வாக்காளர்கள் இன்னும் முடிவு செய்யவில்லை என்றும், அவர்களின் நம்பிக்கையை வெல்வது எதிர்கால தேர்தல் வெற்றிக்கு முக்கியமானது என்றும் விக்கிரமசிங்க கூறினார்.",
-    "\"யூ.என் .பி.யும் எஸ் .ஜே .பியும் ஒன்றிணைந்தால், நாங்கள் வெல்வோம் என்று சிலர் நம்புகிறார்கள். அது அப்படியல்ல” என்று அவர் கூறினார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T23:37:10.543524+00:00"
-  },
-  {
-   "id": "060b261ff326",
-   "type": "auto",
-   "title": "Vehicle imports: Major change recorded in September",
-   "summary": "Sri Lanka’s expenditure on motor vehicle imports declined by 34.4% in September 2026 compared to the same month last Continue Reading The post Vehicle imports: Major change recorded in September appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/31/vehicle-imports-major-change-recorded-in-september/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261030_222903_ChatGPT.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-31T02:54:21+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 1205
-  },
-  {
-   "id": "306317d8c82f",
-   "type": "auto",
-   "title": "வெற்றிகரமாக விண்ணில் ஏவப்பட்ட இஸ்ரோவின் என்.வி.எஸ்-03 செயற்கைக்கோளின் பயன்கள்",
-   "summary": "இஸ்ரோவின் ஜி.எஸ்.எல்.வி-எஃப் 18 ராக்கெட், என்.வி.எஸ்-03 செயற்கைக்கோளை வெற்றிகரமாகச் சுற்றுப்பாதையில் நிலைநிறுத்தியுள்ளது. இந்தியாவின் உள்நாட்டு வழிகாட்டுதல் அமைப்பான NavIC-ஐ வலுப்படுத்தும் இந்தச் செயற்கைக்கோளின் முக்கியத்துவம் என்ன?",
-   "link": "https://www.bbc.com/tamil/articles/cmdx3ppwke90o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/24a0/live/279409f0-d4d2-11f1-b441-2b33b063138f.png",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-31T02:46:09+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 3142
-  },
-  {
-   "id": "7718c5f643b0",
-   "type": "auto",
-   "title": "19ஆம் நூற்றாண்டில் உடை, நடை என ஆண்கள் போலவே வாழ முயன்ற பெண்களின் புகைப்படங்கள்",
-   "summary": "19ஆம் நூற்றாண்டு முழுவதும், 20ஆம் நூற்றாண்டின் தொடக்க காலத்திலும் பல பெண்கள், ஆண் போல வேடமிட்டு, ஆண்களைப் போல வாழ முயன்றனர். ஏன் தெரியுமா?",
-   "link": "https://www.bbc.com/tamil/articles/cke8rp46gvdgo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/a23b/live/5701f0e0-d43b-11f1-b441-2b33b063138f.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-31T02:09:56+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "abb9e9ba87ec",
-   "type": "auto",
-   "title": "பட்டாசுகளை ஆன்லைனில் வாங்குவது ஏன் ஆபத்தானது? வாடிக்கையாளர்கள் கவனமாக இருப்பது எப்படி?",
-   "summary": "ஆன்லைனில் நடக்கும் 'பட்டாசு மோசடிகளில்' சிக்காமல் பாதுகாப்பாக இருப்பது எப்படி? இது தொடர்பாக பட்டாசு விற்பனையாளர்கள் கூறுவது என்ன?",
-   "link": "https://www.bbc.com/tamil/articles/cmz7x2ryzx47o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5560/live/7640d6b0-d47c-11f1-80bc-6d398902272f.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-31T01:16:10+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 7813
-  },
-  {
-   "id": "77dd28279ec0",
-   "type": "auto",
-   "title": "Showers will occur at several places in the Western, Sabaragamuwa, Central, Uva and Southern provinces and in Kurunegala, Ampara and Batticaloa districts after 1.00 p.m.",
-   "summary": "WEATHER FORECAST FOR 31 October 2026 Issued at 5.30 a.m. on 31 October 2026 by the Department of Meteorology Misty conditions can be expected at some places in the Western, Sabaragamuwa, Central and Uva provinces and in Anuradapura district during the early hours of the morning. Showers or…",
-   "link": "http://island.lk/showers-will-occur-at-several-places-in-the-western-sabaragamuwa-central-uva-and-southern-provinces-and-in-kurunegala-ampara-and-batticaloa-districts-after-1-00-p-m/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2026/03/Weather-2.png",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-31T01:07:25+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 3209
-  },
-  {
-   "id": "7e17e118bb20",
-   "type": "auto",
-   "title": "PSTB sharply deviates from expert committee’s report",
-   "summary": "Political and legal sources said that the National People’s Power (NPP) owed an explanation as to why the government disregarded the recommendations made by a Committee, headed by Senior President’s Counsel Rienzie Arsekularatne, pertaining to the proposed Protection of the State from Terrorism Act…",
-   "link": "http://island.lk/pstb-sharply-deviates-from-expert-committees-report/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2026/10/PSTB-sharply-deviates-from.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-31T00:06:34+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "305e98ec9ceb",
-   "type": "auto",
-   "title": "ITAK, DTNA mount joint protest against PTA",
-   "summary": "Two main Tamil parliamentary blocs have agreed to mount a joint public protest against the Prevention of Terrorism Act, after meeting at the home of the Eelam People’s Revolutionary Liberation Front (EPRLF) leader, Suresh Premachandran, early this week. The meeting between the Ilankai Tamil Arasu…",
-   "link": "http://island.lk/itak-dtna-mount-joint-protest-against-pta/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2026/10/ITAK-DTNA-mount.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-31T00:05:31+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "d590467f8228",
-   "type": "auto",
-   "title": "Geneva, too, finds fault with PSTA",
-   "summary": "Geneva-based Office of the United Nations High Commissioner for Human Rights (OHCHR) in a special report that dealt with the Protection of the State from Terrorism Act (PSTA) has underscored the need to narrow and clarify the definition of terrorism and related offences; remove or significantly…",
-   "link": "http://island.lk/geneva-too-finds-fault-with-psta/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2026/10/Geneva-too-find.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-31T00:04:27+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 8000,
-   "ai_thin": true,
-   "ai_thin_chars": 8000
-  },
-  {
-   "id": "751acd69cf30",
-   "type": "auto",
-   "title": "ILO: Heat stress could cost Sri Lanka, Maldives 147,000 jobs by 2040",
-   "summary": "The International Labour Organization (ILO) has warned that rising temperatures and workplace heat stress were affecting workers, productivity and economies in Sri Lanka and the Maldives. According to new studies by the ILO, the findings show that the economic and employment consequences could…",
-   "link": "http://island.lk/ilo-heat-stress-could-cost-sri-lanka-maldives-147000-jobs-by-2040/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2026/10/ILO-Heat-stress-could-cost-Sri-Lanka-1000x600.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-31T00:01:24+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "af2408d532a0",
-   "type": "auto",
-   "title": "1,391,830 Aswesuma application rejected: Opportunity given to appeal",
-   "summary": "The government has given an opportunity for those who were refused Aswesuma benefits to apply. Sources said that applicants, who were found ineligible for the Aswesuma welfare benefit scheme, could submit appeals. According to the Board, a total of 1,391,830 applications, submitted for Aswesuma…",
-   "link": "http://island.lk/1391830-aswesuma-application-rejected-opportunity-given-to-appeal/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2026/10/1391830-Aswesuma-application-1.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-31T00:00:20+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 7417
-  },
-  {
-   "id": "7f4e1c148102",
-   "type": "auto",
-   "title": "Domestic mechanisms enough for Chemmani says govt. member",
-   "summary": "Deputy Minister of Plantation and Infrastructure facilities, Sundaralingam Pradeep, declared in Jaffna that domestic mechanisms are sufficient for the Chemmani mass grave investigation as Tamil families, Tamil parliamentarians and international legislators press for an independent international…",
-   "link": "http://island.lk/domestic-mechanisms-enough-for-chemmani-says-govt-member/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2026/10/Domestic-mechanisms-enough.jpg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna",
-    "srilanka"
-   ],
-   "published": "2026-10-31T00:00:16+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 8000,
-   "ai_title": "செம்மணிக்கு போதுமான உள்நாட்டு வழிமுறைகள் அரசு உறுப்பினர் என்கிறார்",
-   "title_ta": "செம்மணிக்கு போதுமான உள்நாட்டு வழிமுறைகள் அரசு உறுப்பினர் என்கிறார்",
-   "ai_summary": "தமிழ் குடும்பங்கள், தமிழ் பாராளுமன்ற உறுப்பினர்கள் மற்றும் சர்வதேச சட்டமன்ற உறுப்பினர்கள் சுயாதீனமான சர்வதேச விசாரணைக்கு அழுத்தம் கொடுப்பதால், செம்மணி வெகுஜன கடுமையான விசாரணைக்கு உள்நாட்டு வழிமுறைகள் போதுமானது என்று பெருந்தோட்ட மற்றும் உள்கட்டமைப்பு வசதிகளின் துணை அமைச்சர் சுந்தரலிங்கம் பிரதீப் யாழ்ப்பாணத்தில் அறிவித்தார்.",
-   "ai_body": [
-    "தமிழ் குடும்பங்கள், தமிழ் பாராளுமன்ற உறுப்பினர்கள் மற்றும் சர்வதேச சட்டமன்ற உறுப்பினர்கள் சுயாதீனமான சர்வதேச விசாரணைக்கு அழுத்தம் கொடுப்பதால், செம்மணி வெகுஜன கடுமையான விசாரணைக்கு உள்நாட்டு வழிமுறைகள் போதுமானது என்று பெருந்தோட்ட மற்றும் உள்கட்டமைப்பு வசதிகளின் துணை அமைச்சர் சுந்தரலிங்கம் பிரதீப் யாழ்ப்பாணத்தில் அறிவித்தார். இந்த வார தொடக்கத்தில் யாழ்ப்பாண பிரஸ் கிளப்பில் இடம்பெற்ற செய்தியாளர் சந்திப்பில் துணை அமைச்சர் பிரதீப் பேசினார்.",
-    "\"செம்மணி விஷயத்தைப் பொருத்தவரை, முந்தைய எந்த அரசாங்கமும் செய்யாத பணிகள் இப்போது மேற்கொள்ளப்படுகின்றன,\" என்று அவர் கூறினார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T05:23:38.349993+00:00"
-  },
-  {
-   "id": "89486424a6c8",
-   "type": "auto",
-   "title": "Narendra de Silva appointed EDL CEO amid power sector reforms",
-   "summary": "Veteran engineer brings utility management, research and power systems expertise to new role By Ifham Nizam Dr. P. S. Narendra de Silva, an electrical engineer with extensive experience in utility management, power distribution and engineering research, has been appointed Chief Executive Officer of…",
-   "link": "http://island.lk/narendra-de-silva-appointed-edl-ceo-amid-power-sector-reforms/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2026/10/Narendra-de-Silva-700x600.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T23:50:00+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "b76a829fca56",
-   "type": "auto",
-   "title": "SIMCON 2026: A future of innovation in internal medicine",
-   "summary": "The Sri Lanka College of Internal Medicine (SLCIM) will host its 10th Annual Academic Congress, SIMCON 2026, from 5th to 7th November, 2026, at Shangri-La, Colombo, bringing together distinguished physicians, academics, researchers, postgraduate trainees and healthcare professionals from Sri Lanka…",
-   "link": "http://island.lk/simcon-2026-a-future-of-innovation-in-internal-medicine/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2026/10/SIMCON-2026-800x600.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T23:46:13+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "53e211bb4612",
-   "type": "auto",
-   "title": "Committee on Public Finance approves Appropriation Bill for 2027",
-   "summary": "The Budget estimates, relating to the Appropriation Bill for 2027, the management of public revenue and expenditure, and priority development projects, were discussed and approved recently at the Committee on Public Finance in Parliament. These matters were discussed with officials of the Ministry…",
-   "link": "http://island.lk/committee-on-public-finance-approves-appropriation-bill-for-2027/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2026/10/Committee-on-Public-Finance-approves.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T23:45:49+00:00",
-   "fetched": "2026-10-31T05:21:07.538892+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "21e7cf8d4b01",
-   "type": "auto",
-   "title": "Companies warned of Rs. 1 million fine, 10-year jail term over ownership disclosure failures",
-   "summary": "The Department of the Registrar of Companies has issued a final warning to companies that have failed to submit their Continue Reading The post Companies warned of Rs. 1 million fine, 10-year jail term over ownership disclosure failures appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/31/companies-warned-of-rs-1-million-fine-10-year-jail-term-over-ownership-disclosure-failures/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261031_015252_Facebook.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T20:23:25+00:00",
-   "fetched": "2026-10-30T23:58:12.427105+00:00",
-   "page_chars": 1534,
-   "ai_title": "நிறுவனங்கள் ரூ. 1 மில்லியன் அபராதம், உரிமையை வெளிப்படுத்தும் தோல்விகளுக்கு 10 ஆண்டு சிறைத்தண்டனை",
-   "title_ta": "நிறுவனங்கள் ரூ. 1 மில்லியன் அபராதம், உரிமையை வெளிப்படுத்தும் தோல்விகளுக்கு 10 ஆண்டு சிறைத்தண்டனை",
-   "ai_summary": "நிறுவனங்கள் பதிவாளர் திணைக்களம் தங்கள் நன்மை பயக்கும் உரிமையாளர் தகவல்களைச் சமர்ப்பிக்கத் தவறிய நிறுவனங்களுக்கு இறுதி எச்சரிக்கையை விடுத்துள்ளது, தொடர்ந்து இணங்காதது ரூ.",
-   "ai_body": [
-    "நிறுவனங்கள் பதிவாளர் திணைக்களம் தங்கள் நன்மை பயக்கும் உரிமையாளர் தகவல்களைச் சமர்ப்பிக்கத் தவறிய நிறுவனங்களுக்கு இறுதி எச்சரிக்கையை விடுத்துள்ளது, தொடர்ந்து இணங்காதது ரூ. 1 மில்லியன் வரை அபராதம் அல்லது 10 ஆண்டுகள் வரை சிறைத்தண்டனை உட்பட சட்ட நடவடிக்கைக்கு வழிவகுக்கும் என்று எச்சரித்துள்ளது.",
-    "அக்டோபர் 28 அன்று வெளியிடப்பட்ட அறிவிப்பில், நிறுவனங்களின் பதிவாளர் ஜெனரல், அக்டோபர் 21, 2026 இன் நீட்டிக்கப்பட்ட காலக்கெடு காலாவதியாகிவிட்டதாகக் கூறினார், மேலும் தாமதமின்றி நிலுவையில் உள்ள தகவல்களைச் சமர்ப்பிக்குமாறு அனைத்து நிறுவனங்களையும் வலியுறுத்தினார். செப்டம்பர் 30, 2026 இன் அசல் காலக்கெடு முன்பு அக்டோபர் 21 வரை நீட்டிக்கப்பட்டது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T00:00:45.393373+00:00"
-  },
-  {
-   "id": "fd6c03f6b6c2",
-   "type": "auto",
-   "title": "PM Harini to lead Sri Lankan delegation to Commonwealth Summit in Antigua & Barbuda",
-   "summary": "Prime Minister Dr. Harini Amarasuriya will lead Sri Lanka’s delegation to the 28th Commonwealth Heads of Government Meeting (CHOGM 2026), Continue Reading The post PM Harini to lead Sri Lankan delegation to Commonwealth Summit in Antigua & Barbuda appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/31/pm-harini-to-lead-sri-lankan-delegation-to-commonwealth-summit-in-antigua-barbuda/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/01/Harini-Amarasuriya-1.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T19:39:12+00:00",
-   "fetched": "2026-10-30T20:01:26.561972+00:00",
-   "page_chars": 1314,
-   "ai_title": "ஆண்டிகுவா & பார்புடா காமன்வெல்த் உச்சிமாநாட்டிற்கு இலங்கை தூதுக்குழுவை பிரதமர் ஹரிணி வழிநடத்துவார்",
-   "title_ta": "ஆண்டிகுவா & பார்புடா காமன்வெல்த் உச்சிமாநாட்டிற்கு இலங்கை தூதுக்குழுவை பிரதமர் ஹரிணி வழிநடத்துவார்",
-   "ai_summary": "நவம்பர் 1 முதல் 4 வரை செயின்ட் ஜான்ஸ், ஆண்டிகுவா மற்றும் பார்புடாவில் நடைபெறவுள்ள 28 வது காமன்வெல்த் அரசாங்கத் தலைவர்களின் கூட்டத்திற்கு (CHOGM 2026) இலங்கையின் தூதுக்குழுவை பிரதமர் டாக்டர் ஹரிணி அமரசூரியா வழிநடத்துவார்.",
-   "ai_body": [
-    "நவம்பர் 1 முதல் 4 வரை செயின்ட் ஜான்ஸ், ஆண்டிகுவா மற்றும் பார்புடாவில் நடைபெறவுள்ள 28 வது காமன்வெல்த் அரசாங்கத் தலைவர்களின் கூட்டத்திற்கு (CHOGM 2026) இலங்கையின் தூதுக்குழுவை பிரதமர் டாக்டர் ஹரிணி அமரசூரியா வழிநடத்துவார். வெளியுறவு, வெளிநாட்டு வேலைவாய்ப்பு மற்றும் சுற்றுலா அமைச்சகத்தின் கூற்றுப்படி, \"செழிப்பான காமன்வெல்த் கூட்டாண்மை மற்றும் முதலீட்டை விரைவுபடுத்துதல்\" என்ற கருப்பொருளின் கீழ் நடைபெற்ற இந்த உச்சிமாநாட்டில் காமன்வெல்த் 56 உறுப்பு நாடுகளைச் சேர்ந்த தலைவர்களுடன் பிரதமர் கலந்து கொள்வார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-30T20:03:54.726090+00:00"
-  },
-  {
-   "id": "02b423a090a5",
-   "type": "auto",
-   "title": "SC orders 3 police officers to compensate businessman tortured and forced to hand over gold",
-   "summary": "The Supreme Court has ruled that three police officers attached to the Negombo Divisional Criminal Investigation Department violated the fundamental Continue Reading The post SC orders 3 police officers to compensate businessman tortured and forced to hand over gold appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/sc-orders-3-police-officers-to-compensate-businessman-tortured-and-forced-to-hand-over-gold/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/8829F9D5-4CF9-4FF4-BFC1-051CE4204CB5.jpeg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T17:49:00+00:00",
-   "fetched": "2026-10-30T20:01:26.561972+00:00",
-   "page_chars": 2856,
-   "ai_title": "சித்திரவதை செய்யப்பட்டு, தங்கத்தை ஒப்படைக்க நிர்பந்திக்கப்பட்ட தொழிலதிபருக்கு இழப்பீடு வழங்குமாறு 3 காவல்துறை அதிகாரிகளுக்கு உச்ச நீதிமன்றம் உத்தரவு",
-   "title_ta": "சித்திரவதை செய்யப்பட்டு, தங்கத்தை ஒப்படைக்க நிர்பந்திக்கப்பட்ட தொழிலதிபருக்கு இழப்பீடு வழங்குமாறு 3 காவல்துறை அதிகாரிகளுக்கு உச்ச நீதிமன்றம் உத்தரவு",
-   "ai_summary": "நீர்கொழும்பு பிரதேச குற்றப் புலனாய்வுத் திணைக்களத்துடன் இணைக்கப்பட்ட மூன்று பொலிஸ் உத்தியோகத்தர்கள் குளியபிட்டியைச் சேர்ந்த நகை வியாபாரி ஒருவரின் அடிப்படை உரிமைகளை மீறியதாகவும், பொலிஸ் விசாரணையின் போது உடல் ரீதியான தாக்குதல், துன்புறுத்தல் மற்றும் சட்டவிரோத தடுப்புக்காவலுக்கு உட்படுத்தப்பட்டதாகவும் உச்ச நீதிமன்றம் தீர்ப்பளித்துள்ளது.",
-   "ai_body": [
-    "நீர்கொழும்பு பிரதேச குற்றப் புலனாய்வுத் திணைக்களத்துடன் இணைக்கப்பட்ட மூன்று பொலிஸ் உத்தியோகத்தர்கள் குளியபிட்டியைச் சேர்ந்த நகை வியாபாரி ஒருவரின் அடிப்படை உரிமைகளை மீறியதாகவும், பொலிஸ் விசாரணையின் போது உடல் ரீதியான தாக்குதல், துன்புறுத்தல் மற்றும் சட்டவிரோத தடுப்புக்காவலுக்கு உட்படுத்தப்பட்டதாகவும் உச்ச நீதிமன்றம் தீர்ப்பளித்துள்ளது. மூன்று அதிகாரிகளுக்கும் தனிப்பட்ட முறையில் ரூ.",
-    "100,000, ரூ. 300,000, தொழிலதிபருக்கு இழப்பீடாக வழங்க நீதிமன்றம் உத்தரவிட்டது.",
-    "நீதிபதிகள் ஏ.எல். ஷிரண் கூனரத்ன, மஹிந்த சமயவர்தன மற்றும் மேனகா விஜேசுந்தர ஆகியோர் அடங்கிய மூன்று நீதிபதிகள் கொண்ட பெஞ்ச் இந்த தீர்ப்பை வழங்கியது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-30T20:03:57.341203+00:00"
-  },
-  {
-   "id": "2bb2581ef2cc",
-   "type": "auto",
-   "title": "Search continues for missing Mullaitivu fishermen",
-   "summary": "Fishermen push a boat out at Puthumathalan to join the search on 28 October. At least three Tamil fishermen from Mullaitivu remain missing, as their families have demanded an air and sea search, with rescue efforts ongoing. The three fishermen left Puthumathalan in Puthukkudiyiruppu, Mullaitivu, on…",
-   "link": "http://www.tamilguardian.com/content/seven-fishermen-missing-mullaitivu-and-matara",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/261028%20Mullaitivu%20fishermen%20search/261028%20Mullaitivu%20fishermen%20search%20(1).jpg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna"
-   ],
-   "published": "2026-10-30T17:37:24+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 3014,
-   "ai_title": "காணாமல் போன முல்லைத்தீவு மீனவர்களைத் தேடும் பணி தொடர்கிறது",
-   "title_ta": "காணாமல் போன முல்லைத்தீவு மீனவர்களைத் தேடும் பணி தொடர்கிறது",
-   "ai_summary": "அக்டோபர் 28 ஆம் தேதி மீனவர்கள் புத்துமத்தலனில் ஒரு படகில் சென்று தேடுதலில் சேர வேண்டும்.",
-   "ai_body": [
-    "அக்டோபர் 28 ஆம் தேதி மீனவர்கள் புத்துமத்தலனில் ஒரு படகில் சென்று தேடுதலில் சேர வேண்டும். முல்லைத்தீவைச் சேர்ந்த குறைந்தது மூன்று தமிழ் மீனவர்களைக் காணவில்லை, ஏனெனில் அவர்களின் குடும்பங்கள் வான் மற்றும் கடல் தேடலைக் கோரியுள்ளன, மீட்பு முயற்சிகள் நடந்து வருகின்றன.",
-    "மூன்று மீனவர்களும் அக்டோபர் 26 ஆம் தேதி முல்லைத்தீவில் உள்ள புதுக்குடியிருப்பில் இருந்து புறப்பட்டுச் சென்றனர், ஆனால் திரும்பி வரவில்லை, மறுநாள் அவர்களைக் காணவில்லை என்று அவர்களின் படகு உரிமையாளர் தெரிவித்தார். தேடுதல் வேட்டையை முடுக்கிவிடுமாறு பாதுகாப்பு அமைச்சு, இலங்கை கடற்படை மற்றும் விமானப்படையிடம் கேட்டுக் கொண்டதாக மீன்பிடித்துறை அமைச்சர் ராமலிங்கம் சந்திரசேகர் தெரிவித்தார்.",
-    "அவர்கள் காலை 7 மணியளவில் MLT/1742 பதிவு செய்யப்பட்ட படகில் கொக்கி மற்றும் கோடுடன் மீன் பிடிக்க வெளியே சென்றிருந்தனர்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-30T15:15:59.156221+00:00"
-  },
-  {
-   "id": "526a36848bb1",
-   "type": "auto",
-   "title": "Sri Lanka earns less from tourists despite welcoming nearly 1.7 million visitors",
-   "summary": "Sri Lanka’s tourism earnings declined by 9.2% during the first nine months of 2026, despite the country welcoming nearly 1.7 Continue Reading The post Sri Lanka earns less from tourists despite welcoming nearly 1.7 million visitors appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/sri-lanka-earns-less-from-tourists-despite-welcoming-nearly-1-7-million-visitors/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261030_225949_ChatGPT.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T17:30:33+00:00",
-   "fetched": "2026-10-30T20:01:26.561972+00:00",
-   "page_chars": 1826,
-   "ai_title": "ஏறக்குறைய 1.7 மில்லியன் பார்வையாளர்களை வரவேற்ற போதிலும் இலங்கை சுற்றுலாப் பயணிகளிடமிருந்து குறைவாக சம்பாதிக்கிறது",
-   "title_ta": "ஏறக்குறைய 1.7 மில்லியன் பார்வையாளர்களை வரவேற்ற போதிலும் இலங்கை சுற்றுலாப் பயணிகளிடமிருந்து குறைவாக சம்பாதிக்கிறது",
-   "ai_summary": "கிட்டத்தட்ட 1.7 மில்லியன் சர்வதேச பார்வையாளர்களை நாடு வரவேற்ற போதிலும், 2026 ஆம் ஆண்டின் முதல் ஒன்பது மாதங்களில் இலங்கையின் சுற்றுலா வருவாய் 9.2% குறைந்துள்ளது என்று இலங்கை மத்திய வங்கி (CBSL) தெரிவித்துள்ளது.",
-   "ai_body": [
-    "கிட்டத்தட்ட 1.7 மில்லியன் சர்வதேச பார்வையாளர்களை நாடு வரவேற்ற போதிலும், 2026 ஆம் ஆண்டின் முதல் ஒன்பது மாதங்களில் இலங்கையின் சுற்றுலா வருவாய் 9.2% குறைந்துள்ளது என்று இலங்கை மத்திய வங்கி (CBSL) தெரிவித்துள்ளது. சமீபத்திய வெளிப்புறத் துறை செயல்திறன் அறிக்கை, ஜனவரி-செப்டம்பர் 2026 ஆம் ஆண்டில் சுற்றுலா வருவாய் 2.25 பில்லியன் அமெரிக்க$ ஆக வீழ்ச்சியடைந்தது, இது கடந்த ஆண்டு இதே காலகட்டத்தில் 2.47 பில்லியன் அமெரிக்க$ ஆக இருந்தது.",
-    "ஒன்பது மாத காலப்பகுதியில் சுற்றுலாப் பயணிகளின் வருகையும் 1.8% குறைந்துள்ளது, இலங்கை 1,693,679 வருகைகளைப் பதிவு செய்துள்ளது. இருப்பினும், சுற்றுலா வருவாயின் சரிவு பார்வையாளர்களின் எண்ணிக்கையைக் குறைப்பதை விட கணிசமாக கூர்மையாக இருந்தது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-30T20:03:59.688572+00:00"
-  },
-  {
-   "id": "95a6cc6d206a",
-   "type": "auto",
-   "title": "Six arrested over assault on bus driver, conductor in Kalutara released on bail",
-   "summary": "Six suspects have been arrested in connection with the assault on a bus driver and conductor after a group of Continue Reading The post Six arrested over assault on bus driver, conductor in Kalutara released on bail appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/six-arrested-over-assault-on-bus-driver-conductor-in-kalutara-released-on-bail/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/IMG_4186.jpeg",
-   "lang": "en",
-   "category": "world",
-   "tags": [
-    "world",
-    "srilanka"
-   ],
-   "published": "2026-10-30T17:21:46+00:00",
-   "fetched": "2026-10-30T20:01:26.561972+00:00",
-   "page_chars": 1202
-  },
-  {
-   "id": "f5183ec215ae",
-   "type": "auto",
-   "title": "ராட்சத கழுகுகளின் குழந்தை வேட்டை மனித இனத்தின் மொழி, கலாசாரம் உருவாக வழிவகுத்தது எப்படி?",
-   "summary": "கற்காலத்தில் வாழ்வது மிகவும் ஆபத்தானதாக இருந்திருக்க வேண்டும். அப்போது, பிரம்மாண்டமான விலங்குகள் பூமியில் ஆதிக்கம் செலுத்தின. அந்த பிரம்மாண்டமான பறவைகள் எப்படித் தோன்றின?",
-   "link": "https://www.bbc.com/tamil/articles/cmwyv217g4k1o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/2ca9/live/562573f0-d485-11f1-80bc-6d398902272f.png",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-30T17:14:23+00:00",
-   "fetched": "2026-10-30T20:01:26.561972+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "9f46c8576d5a",
-   "type": "auto",
-   "title": "Sri Lanka records highest-ever monthly merchandise exports in September",
-   "summary": "Sri Lanka recorded its highest-ever monthly merchandise export earnings in September 2026, reaching US$ 1.37 billion, according to the Central Continue Reading The post Sri Lanka records highest-ever monthly merchandise exports in September appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/263830/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261030_221010_ChatGPT.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T16:41:05+00:00",
-   "fetched": "2026-10-30T20:01:26.561972+00:00",
-   "page_chars": 1416,
-   "ai_title": "செப்டம்பர் மாதத்தில் மிக உயர்ந்த மாதாந்திர வணிக ஏற்றுமதியை இலங்கை பதிவு செய்துள்ளது",
-   "title_ta": "செப்டம்பர் மாதத்தில் மிக உயர்ந்த மாதாந்திர வணிக ஏற்றுமதியை இலங்கை பதிவு செய்துள்ளது",
-   "ai_summary": "இலங்கை மத்திய வங்கியின் (CBSL) கூற்றுப்படி, செப்டம்பர் 2026 இல் இலங்கை தனது மிக உயர்ந்த மாதாந்திர வணிக ஏற்றுமதி வருவாயை பதிவு செய்தது, இது 1.37 பில்லியன் அமெரிக்க$ ஐ எட்டியது.",
-   "ai_body": [
-    "இலங்கை மத்திய வங்கியின் (CBSL) கூற்றுப்படி, செப்டம்பர் 2026 இல் இலங்கை தனது மிக உயர்ந்த மாதாந்திர வணிக ஏற்றுமதி வருவாயை பதிவு செய்தது, இது 1.37 பில்லியன் அமெரிக்க$ ஐ எட்டியது. அதன் சமீபத்திய வெளிப்புறத் துறை செயல்திறன் அறிக்கையில், மத்திய வங்கி, செப்டம்பர் 2025 உடன் ஒப்பிடும்போது வணிக ஏற்றுமதிகள் 21% அதிகரித்துள்ளன, இது ஜூலை 2025 இல் பதிவு செய்யப்பட்ட முந்தைய $ 1.30 பில்லியனை விட அதிகமாக உள்ளது.",
-    "2026 ஆம் ஆண்டின் முதல் ஒன்பது மாதங்களில் மொத்த வணிக ஏற்றுமதி வருவாய் 10.75 பில்லியன் அமெரிக்க$ ஐ எட்டியது, இது கடந்த ஆண்டு இதே காலத்துடன் ஒப்பிடும்போது 5.3% அதிகரிப்பை பிரதிபலிக்கிறது. இதற்கிடையில், செப்டம்பர் மாதத்தில் சேவை ஏற்றுமதி 11.2% அதிகரித்து 559 மில்லியன் அமெரிக்க$ ஆக உயர்ந்தது, இருப்பினும் ஒட்டுமொத்த சேவைகளின் ஏற்றுமதி வருவாய் 0% குறைந்துள்ளது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-30T20:04:02.394352+00:00"
-  },
-  {
-   "id": "4a667c32ea11",
-   "type": "auto",
-   "title": "'வலியில்லாத கணமே இல்லை': இருமுறை மரண ஊசி செலுத்தியும் உயிர் பிழைத்த பெண் கூறியது என்ன?",
-   "summary": "அமெரிக்காவில் மரண தண்டனையை எதிர்கொண்டுள்ள கிறிஸ்டா பைக், கடந்த செப்டம்பரில் அவருக்கு மரண தண்டனையை நிறைவேற்றும் முயற்சி தோல்வியடைந்த பிறகு, முதல்முறையாகப் பொதுவெளியில் தனது கருத்துகளைத் தெரிவித்துள்ளார். இந்த நிலையில், இந்த விவகாரத்தின் பின்னணி குறித்து இந்தக் கட்டுரை விளக்குகிறது.",
-   "link": "https://www.bbc.com/tamil/articles/cm2d62n1k5ngo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/963b/live/58f60c00-d478-11f1-93e1-3b657b665bcf.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-30T16:12:51+00:00",
-   "fetched": "2026-10-30T20:01:26.561972+00:00",
-   "page_chars": 3578
-  },
-  {
-   "id": "310e07f4bd1a",
-   "type": "auto",
-   "title": "“I never play the race card for the sake of it”: Sangakkara rejects Ryanair claims, reveals what happened at Dublin Airport",
-   "summary": "Sri Lankan cricket legend Kumar Sangakkara has rejected Ryanair’s claims that he refused to provide visa documents at Dublin Airport, Continue Reading The post “I never play the race card for the sake of it”: Sangakkara rejects Ryanair claims, reveals what happened at Dublin Airport appeared first…",
-   "link": "https://www.newswire.lk/2026/10/30/i-never-play-the-race-card-for-the-sake-of-it-sangakkara-rejects-ryanair-claims-reveals-what-happened-at-dublin-airport/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261030_214116_X.jpg",
-   "lang": "en",
-   "category": "sports",
-   "tags": [
-    "sports",
-    "srilanka"
-   ],
-   "published": "2026-10-30T16:12:22+00:00",
-   "fetched": "2026-10-30T20:01:26.561972+00:00",
-   "page_chars": 3110
-  },
-  {
-   "id": "1e6357d31d6e",
-   "type": "auto",
-   "title": "Ministry refutes false social media claims regarding Buddhist Temporalities Ordinance violation",
-   "summary": "The Ministry of Buddhasasana, Religious and Cultural Affairs has requested the Director General of Government Information to intervene against a Continue Reading The post Ministry refutes false social media claims regarding Buddhist Temporalities Ordinance violation appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/ministry-refutes-false-social-media-claims-regarding-buddhist-temporalities-ordinance-violation/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Copy-of-Mirudhula-News-12.jpg",
-   "lang": "en",
-   "category": "world",
-   "tags": [
-    "world",
-    "srilanka"
-   ],
-   "published": "2026-10-30T15:48:07+00:00",
-   "fetched": "2026-10-30T20:01:26.561972+00:00",
-   "page_chars": 1008
-  },
-  {
-   "id": "cc9b7020accd",
-   "type": "auto",
-   "title": "Sri Lanka and US discuss trade and maritime security amid deepening military ties",
-   "summary": "Sri Lankan prime minister Harini Amarasuriya meets US ambassador Eric Meyer at Temple Trees Sri Lanka and the United States have discussed expanding trade, tourism and maritime security cooperation, as Washington deepens its military ties with Sri Lanka’s armed forces, which are accused of war…",
-   "link": "http://www.tamilguardian.com/content/sri-lanka-us-discuss-trade-tourism-and-maritime-security-cooperation",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2025/North-East/261029us/PM-Harini-US-Eric-Meyer.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world",
-    "jaffna"
-   ],
-   "published": "2026-10-30T15:35:32+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 3062,
-   "ai_title": "ஆழமான இராணுவ உறவுகளுக்கு மத்தியில் இலங்கையும் அமெரிக்காவும் வர்த்தகம் மற்றும் கடல்சார் பாதுகாப்பு குறித்து விவாதிக்கின்றன",
-   "title_ta": "ஆழமான இராணுவ உறவுகளுக்கு மத்தியில் இலங்கையும் அமெரிக்காவும் வர்த்தகம் மற்றும் கடல்சார் பாதுகாப்பு குறித்து விவாதிக்கின்றன",
-   "ai_summary": "இலங்கைப் பிரதமர் ஹரிணி அமரசூரிய அமெரிக்கத் தூதுவர் எரிக் மேயரை டெம்பிள் ட்ரீஸ் ஸ்ரீலங்காவில் சந்தித்து வர்த்தகம், சுற்றுலா மற்றும் கடல்சார் பாதுகாப்பு ஒத்துழைப்பை விரிவுபடுத்துவது குறித்து அமெரிக்கா விவாதித்துள்ளது, ஏனெனில் வாஷிங்டன் இலங்கையின் ஆயுதப்படைகளுடனான இராணுவ உறவுகளை ஆழப்படுத்துகிறது, அவை போர்க்குற்றங்கள் மற்றும் தமிழர்களுக்கு எதிரான இனப்படுகொலை என்று குற்றம் சாட்டப்படுகின்றன.",
-   "ai_body": [
-    "இலங்கைப் பிரதமர் ஹரிணி அமரசூரிய அமெரிக்கத் தூதுவர் எரிக் மேயரை டெம்பிள் ட்ரீஸ் ஸ்ரீலங்காவில் சந்தித்து வர்த்தகம், சுற்றுலா மற்றும் கடல்சார் பாதுகாப்பு ஒத்துழைப்பை விரிவுபடுத்துவது குறித்து அமெரிக்கா விவாதித்துள்ளது, ஏனெனில் வாஷிங்டன் இலங்கையின் ஆயுதப்படைகளுடனான இராணுவ உறவுகளை ஆழப்படுத்துகிறது, அவை போர்க்குற்றங்கள் மற்றும் தமிழர்களுக்கு எதிரான இனப்படுகொலை என்று குற்றம் சாட்டப்படுகின்றன. இலங்கைப் பிரதமர் ஹரிணி அமரசூரிய, அமெரிக்கத் தூதர் எரிக் மேயர் மற்றும் கோயில் மரங்களில் உள்ள ஒரு தூதுக்குழுவை செவ்வாய்க்கிழமை சந்தித்தார், அங்கு அவர்கள் பொருளாதார உறவுகள் , சுற்றுலா, கடல்சார் பாதுகாப்பு மற்றும் கல்வி குறித்து விவாதித்ததாக இலங்கை அரசாங்கம் தெரிவித்துள்ளது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-30T15:16:14.339014+00:00"
-  },
-  {
-   "id": "6c01bfd3568e",
-   "type": "auto",
-   "title": "Sri Lanka ready for Pakistan challenge as Kusal Mendis eyes tri-series title",
-   "summary": "Sri Lanka captain Kusal Mendis says his team is well prepared and determined to deliver a strong performance against Pakistan Continue Reading The post Sri Lanka ready for Pakistan challenge as Kusal Mendis eyes tri-series title appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/sri-lanka-ready-for-pakistan-challenge-as-kusal-mendis-eyes-tri-series-title/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261030_205449_X.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T15:25:27+00:00",
-   "fetched": "2026-10-30T20:01:26.561972+00:00",
-   "page_chars": 2767,
-   "ai_title": "Kusal Mendis eyes tri-series title என பாகிஸ்தான் சவாலுக்கு இலங்கை தயாராக உள்ளது",
-   "title_ta": "Kusal Mendis eyes tri-series title என பாகிஸ்தான் சவாலுக்கு இலங்கை தயாராக உள்ளது",
-   "ai_summary": "லாகூரில் உள்ள கடாபி ஸ்டேடியத்தில் சனிக்கிழமை நடந்த முத்தரப்பு ஒருநாள் தொடரின் இறுதிப் போட்டியில் பாகிஸ்தானுக்கு எதிராக வலுவான செயல்திறனை வெளிப்படுத்த தனது அணி நன்கு தயாராக இருப்பதாகவும் உறுதியுடன் இருப்பதாகவும் இலங்கை கேப்டன் குசல் மெண்டிஸ் கூறுகிறார்.",
-   "ai_body": [
-    "லாகூரில் உள்ள கடாபி ஸ்டேடியத்தில் சனிக்கிழமை நடந்த முத்தரப்பு ஒருநாள் தொடரின் இறுதிப் போட்டியில் பாகிஸ்தானுக்கு எதிராக வலுவான செயல்திறனை வெளிப்படுத்த தனது அணி நன்கு தயாராக இருப்பதாகவும் உறுதியுடன் இருப்பதாகவும் இலங்கை கேப்டன் குசல் மெண்டிஸ் கூறுகிறார். இறுதிப் போட்டிக்கு முன்னதாக பேசிய மெண்டிஸ், பாகிஸ்தானின் சமீபத்திய செயல்திறனை ஒப்புக் கொண்டார், ஆனால் இலங்கையின் தயாரிப்புகளில் நம்பிக்கை தெரிவித்தார்.",
-    "\"இறுதிப் போட்டி எங்களுக்கு ஒரு பெரிய விளையாட்டு. பாகிஸ்தான் தங்கள் சமீபத்திய போட்டிகளில் நல்ல கிரிக்கெட்டை விளையாடியுள்ளது.",
-    "நாங்கள் நன்கு தயாராக இருக்கிறோம், இறுதிப் போட்டியை எதிர்நோக்குகிறோம்,”என்று மெண்டிஸ் கூறினார். செவ்வாயன்று நடந்த முந்தைய போட்டியில் பாகிஸ்தானுக்கு எதிராக எட்டு விக்கெட்டுகள் வித்தியாசத்தில் வெற்றி பெற்றதன் மூலம் இலங்கை நம்பிக்கையுடன் தலைப்பு மோதலில் நுழையும்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-30T20:04:04.807534+00:00"
-  },
-  {
-   "id": "d7a3425b3d3e",
-   "type": "auto",
-   "title": "ரூ.59,000 கோடி கிரிப்டோகரன்சி திருட்டு: பினன்ஸ் ஹேக்கிங் பற்றி இதுவரை தெரியவந்தது என்ன?",
-   "summary": "உலகின் மிகப்பெரிய கிரிப்டோகரன்சி பரிவர்த்தனைத் தளமான பினன்ஸ் (Binance), இதுவரை இல்லாத மிகப்பெரிய கிரிப்டோ ஹேக்கிங் தாக்குதலாகக் கருதப்படும் ஒரு சைபர் தாக்குதலுக்கு உள்ளாகியுள்ளது. இதில் 6.3 பில்லியன் டாலர் (இந்திய மதிப்பில் சுமார் 59 ஆயிரம் கோடி ரூபாய்) மதிப்பிலான கிரிப்டோகரன்சி…",
-   "link": "https://www.bbc.com/tamil/articles/cqm24pdnv2evo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/4fee/live/71785650-d475-11f1-93e1-3b657b665bcf.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-30T15:24:39+00:00",
-   "fetched": "2026-10-30T20:01:26.561972+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "94aea19aeafa",
-   "type": "auto",
-   "title": "PM launches Rs. 1,104 Mn Ratmalana drainage project to mitigate flooding",
-   "summary": "A development project worth Rs. 1,104 million has been launched to expand the drainage system along Kandawala Road in Ratmalana Continue Reading The post PM launches Rs. 1,104 Mn Ratmalana drainage project to mitigate flooding appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/pm-launches-rs-1104-mn-ratmalana-drainage-project-to-mitigate-flooding/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/M00000001733_WhatsApp-Image-2026-10-30-at-16.18.56.jpeg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T15:20:51+00:00",
-   "fetched": "2026-10-30T20:01:26.561972+00:00",
-   "page_chars": 776,
-   "ai_title": "வெள்ளத்தைத் தணிக்க ரூ.1,104 மில்லியன் ரத்மலானா வடிகால் திட்டத்தை பிரதமர் தொடங்கி வைத்தார்",
-   "title_ta": "வெள்ளத்தைத் தணிக்க ரூ.1,104 மில்லியன் ரத்மலானா வடிகால் திட்டத்தை பிரதமர் தொடங்கி வைத்தார்",
-   "ai_summary": "ரத்மலானையில் உள்ள கந்தவாலா சாலையில் உள்ள வடிகால் முறையை விரிவுபடுத்துவதற்காக ரூ.1,104 மில்லியன் மதிப்புள்ள அபிவிருத்தித் திட்டம் தொடங்கப்பட்டுள்ளது.",
-   "ai_body": [
-    "ரத்மலானையில் உள்ள கந்தவாலா சாலையில் உள்ள வடிகால் முறையை விரிவுபடுத்துவதற்காக ரூ.1,104 மில்லியன் மதிப்புள்ள அபிவிருத்தித் திட்டம் தொடங்கப்பட்டுள்ளது. மேற்கு மாகாண அபிவிருத்தி நிதியிலிருந்து நிதி ஏற்பாடுகளுடன் மேற்கு மாகாணத்தின் சாலைகள் மற்றும் போக்குவரத்து அமைச்சினால் மேற்கொள்ளப்பட்ட இந்த முன்முயற்சி, முறையான புயல் நீர் வடிகால் உறுதி செய்வதை நோக்கமாகக் கொண்டுள்ளது மற்றும் வடிகால் வலையமைப்பைத் தடுக்கும் அங்கீகரிக்கப்படாத கட்டுமானங்களை அகற்றுவதையும் உள்ளடக்கியது.",
-    "பிரதமர் டாக்டர்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-30T20:04:07.603442+00:00"
-  },
-  {
-   "id": "a4d5da7a17f2",
-   "type": "auto",
-   "title": "இந்தியாவில் ஒரு லட்சத்திற்கும் அதிகமான ஓராசிரியர் பள்ளிகள் - தமிழ்நாட்டில் நிலவரம் என்ன?",
-   "summary": "\"பள்ளிப் பராமரிப்பு, ஆன்லைன் பயிற்சி வகுப்புகள், மதிய உணவுத் திட்ட மேலாண்மை போன்ற நிர்வாகப் பணிகளையும் நான் கவனிக்கிறேன். மாணவர்களுக்கு கற்பிக்கப் போதுமான நேரமே கிடைப்பதில்லை. குழந்தைகளுக்குத் தரமான கல்வியை வழங்கும் விஷயத்தில் முழுமையாக நியாயம் செய்ய முடியாமல் உள்ளது\"",
-   "link": "https://www.bbc.com/tamil/articles/cm62yl1pe6wgo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/27e8/live/66bc05e0-d470-11f1-b441-2b33b063138f.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-30T14:55:19+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "b112dc2dee60",
-   "type": "auto",
-   "title": "Recommended Newswire / Bizwire Headline ‘Once Upon a Christmas’ to Bring International Circus Spectacle to Colombo This Festive Season",
-   "summary": "Colombo Gets Ready for a Christmas Spectacular Like No Other International circus artistry, Christmas music and festive dining come together Continue Reading The post Recommended Newswire / Bizwire Headline ‘Once Upon a Christmas’ to Bring International Circus Spectacle to Colombo This Festive…",
-   "link": "https://www.newswire.lk/business/recommended-newswire-bizwire-headline-once-upon-a-christmas-to-bring-international-circus-spectacle-to-colombo-this-festive-season/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Image-I.jpeg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-10-30T14:47:51+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 5651,
-   "ai_title": "இந்த பண்டிகை காலத்தில் கொழும்புக்கு சர்வதேச சர்க்கஸ் காட்சியைக் கொண்டுவர பரிந்துரைக்கப்பட்ட நியூஸ்வைர்/பிஸ்வைர் தலைப்பு ‘ஒரு கிறிஸ்துமஸ் மீது ஒருமுறை'",
-   "title_ta": "இந்த பண்டிகை காலத்தில் கொழும்புக்கு சர்வதேச சர்க்கஸ் காட்சியைக் கொண்டுவர பரிந்துரைக்கப்பட்ட நியூஸ்வைர்/பிஸ்வைர் தலைப்பு ‘ஒரு கிறிஸ்துமஸ் மீது ஒருமுறை'",
-   "ai_summary": "கொழும்பு மற்ற சர்வதேச சர்க்கஸ் கலை, கிறிஸ்துமஸ் இசை மற்றும் பண்டிகை உணவு போன்ற ஒரு கிறிஸ்துமஸ் பிரமாண்டத்திற்கு தயாராகிறது ஒன்ஸ் அபான் எ கிறிஸ்மஸ் – கொழும்பில் கிரேட்டஸ்ட் கிறிஸ்துமஸ் ஷோ கிறிஸ்துமஸ் இன்னும் நிறைய மந்திரங்களைப் பெற உள்ளது.",
-   "ai_body": [
-    "கொழும்பு மற்ற சர்வதேச சர்க்கஸ் கலை, கிறிஸ்துமஸ் இசை மற்றும் பண்டிகை உணவு போன்ற ஒரு கிறிஸ்துமஸ் பிரமாண்டத்திற்கு தயாராகிறது ஒன்ஸ் அபான் எ கிறிஸ்மஸ் – கொழும்பில் கிரேட்டஸ்ட் கிறிஸ்துமஸ் ஷோ கிறிஸ்துமஸ் இன்னும் நிறைய மந்திரங்களைப் பெற உள்ளது. நட்சத்திரங்களின் கீழ் ஒரு மாலையை கற்பனை செய்து பாருங்கள், மூச்சடைக்க வைக்கும் சர்க்கஸ் செயல்கள், பருவத்தின் உணர்வைக் கைப்பற்றும் இசை மற்றும் குடும்பங்கள், நண்பர்கள் மற்றும் சக ஊழியர்கள் ஒன்றாகக் கொண்டாடக்கூடிய ஒரு பண்டிகை சூழ்நிலையைக் கற்பனை செய்து பாருங்கள்.",
-    "இலங்கையின் கிறிஸ்துமஸ் கொண்டாட்டங்களுக்கு ஒரு சர்வதேச பரிமாணத்தைக் கொண்டுவருவதற்கான ஒரு லட்சிய புதிய தயாரிப்பான ஒன்ஸ் அபான் எ கிறிஸ்மஸ் – தி கிரேட்டஸ்ட் கிறிஸ்மஸ் ஷோவின் வாக்குறுதி இதுதான்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-30T15:16:17.671860+00:00"
-  },
-  {
-   "id": "0029bf82e283",
-   "type": "auto",
-   "title": "British Council and HSBC Launch ‘Green Pathways’ to Empower Sri Lankan Youth for Blue-Green Economy",
-   "summary": "The British Council, in partnership with HSBC Sri Lanka, has launched Youth Connect: Inclusive Economic Empowerment (IEE) – Green Pathways, Continue Reading The post British Council and HSBC Launch ‘Green Pathways’ to Empower Sri Lankan Youth for Blue-Green Economy appeared first on Newswire .",
-   "link": "https://www.newswire.lk/business/british-council-and-hsbc-launch-green-pathways-to-empower-sri-lankan-youth-for-blue-green-economy/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/British-Council-1-scaled.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T14:39:56+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 3183,
-   "ai_title": "நீல-பச்சை பொருளாதாரத்திற்காக இலங்கை இளைஞர்களை மேம்படுத்துவதற்காக பிரிட்டிஷ் கவுன்சில் மற்றும் எச்எஸ்பிசி ‘பசுமை பாதைகளை’ தொடங்குகின்றன",
-   "title_ta": "நீல-பச்சை பொருளாதாரத்திற்காக இலங்கை இளைஞர்களை மேம்படுத்துவதற்காக பிரிட்டிஷ் கவுன்சில் மற்றும் எச்எஸ்பிசி ‘பசுமை பாதைகளை’ தொடங்குகின்றன",
-   "ai_summary": "பிரிட்டிஷ் கவுன்சில், HSBC இலங்கையுடன் இணைந்து, இளைஞர் இணைப்பு: உள்ளடக்கிய பொருளாதார அதிகாரமளித்தல் (IEE) – பசுமை பாதைகளை அறிமுகப்படுத்தியுள்ளது, இது இலங்கையின் வளர்ந்து வரும் நீல-பச்சை பொருளாதாரத்தில் வேலைவாய்ப்பு, தொழில்முனைவோர் மற்றும் தலைமைத்துவ வாய்ப்புகளை அணுகுவதில் இலங்கையில் உள்ள இளைஞர்களை ஆதரிப்பதற்காக வடிவமைக்கப்பட்ட ஒரு புதிய முயற்சியாகும்.",
-   "ai_body": [
-    "பிரிட்டிஷ் கவுன்சில், HSBC இலங்கையுடன் இணைந்து, இளைஞர் இணைப்பு: உள்ளடக்கிய பொருளாதார அதிகாரமளித்தல் (IEE) – பசுமை பாதைகளை அறிமுகப்படுத்தியுள்ளது, இது இலங்கையின் வளர்ந்து வரும் நீல-பச்சை பொருளாதாரத்தில் வேலைவாய்ப்பு, தொழில்முனைவோர் மற்றும் தலைமைத்துவ வாய்ப்புகளை அணுகுவதில் இலங்கையில் உள்ள இளைஞர்களை ஆதரிப்பதற்காக வடிவமைக்கப்பட்ட ஒரு புதிய முயற்சியாகும். சேவாந்தா நகர்ப்புற வள மையம் மற்றும் முஸ்லீம் உதவி இலங்கை ஆகியவற்றால் செயல்படுத்தப்படும் இந்தத் திட்டம், இளைஞர்களை உள்ளடக்கிய மற்றும் நிலையான பொருளாதார வளர்ச்சியை ஊக்குவிக்கும் அதே வேளையில் வேலைவாய்ப்பு மற்றும் தொழில்முனைவோருக்கான பாதைகளை ஆராய உதவும்.",
-    "இந்நிகழ்வில் பிரிட்டிஷ் கவுன்சில் மற்றும் எச்எஸ்பிசி இலங்கைக்கு இடையிலான கூட்டாண்மையைக் கொண்டாடும் குறியீட்டு வெளியீடும் இடம்பெற்றது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-30T15:16:20.742345+00:00"
-  },
-  {
-   "id": "c97da82e41ba",
-   "type": "auto",
-   "title": "‘They are trying to kill him’: Imran Khan’s son issues urgent warning over father’s life",
-   "summary": "Imran Khan’s son has said no one has heard from his father since August, when the former Pakistani prime minister Continue Reading The post ‘They are trying to kill him’: Imran Khan’s son issues urgent warning over father’s life appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/they-are-trying-to-kill-him-imran-khans-son-issues-urgent-warning-over-fathers-life/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Imran-Khan-1.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T14:34:10+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 3393,
-   "ai_title": "‘அவர்கள் அவரைக் கொல்ல முயற்சிக்கிறார்கள்’: தந்தையின் உயிர் குறித்து இம்ரான் கானின் மகன் அவசர எச்சரிக்கை",
-   "title_ta": "‘அவர்கள் அவரைக் கொல்ல முயற்சிக்கிறார்கள்’: தந்தையின் உயிர் குறித்து இம்ரான் கானின் மகன் அவசர எச்சரிக்கை",
-   "ai_summary": "முன்னாள் பாகிஸ்தான் பிரதமர் தான் சித்திரவதை செய்யப்படுவதாகக் கூறிய ஆகஸ்ட் முதல் தனது தந்தையிடமிருந்து யாரும் கேள்விப்பட்டதில்லை என்று இம்ரான் கானின் மகன் கூறியுள்ளார்.",
-   "ai_body": [
-    "முன்னாள் பாகிஸ்தான் பிரதமர் தான் சித்திரவதை செய்யப்படுவதாகக் கூறிய ஆகஸ்ட் முதல் தனது தந்தையிடமிருந்து யாரும் கேள்விப்பட்டதில்லை என்று இம்ரான் கானின் மகன் கூறியுள்ளார். பிரிட்டிஷ் வாரிசு ஜெமிமா கோல்ட்ஸ்மித் உடனான தனது முதல் திருமணத்திலிருந்து அவரது மகன் சுலைமான் கான், தனது தந்தையின் உயிருக்கு ஆபத்து இருப்பதாகக் குற்றம் சாட்டியதோடு, பாகிஸ்தான் இராணுவத் தலைவர் ஜெனரல் அசிம் முனீரை தொடர்ந்து சிறையில் அடைத்ததற்காகக் குற்றம் சாட்டினார்.",
-    "74 வயதான திரு கான், ஊழல் மற்றும் லஞ்சக் குற்றச்சாட்டுகள் தொடர்பான குற்றச்சாட்டுகளைத் தொடர்ந்து ராவல்பிண்டியின் மோசமான அடியாலா சிறையில் சிறைத்தண்டனை அனுபவித்து வருகிறார். சிறையில் அவர் சிகிச்சை பெறுவது மற்றும் உடல்நலம் மோசமடைவது குறித்து அவரது குடும்பத்தினர் பலமுறை கவலைகளை எழுப்பியுள்ளனர்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-30T15:16:23.425457+00:00"
-  },
-  {
-   "id": "f7013d4b3615",
-   "type": "auto",
-   "title": "SC rejects People’s Leasing’s US$700,000 insurance claim against Amana Takaful",
-   "summary": "The Supreme Court has dismissed an appeal filed by People’s Leasing and Finance PLC against Amana Takaful PLC over a Continue Reading The post SC rejects People’s Leasing’s US$700,000 insurance claim against Amana Takaful appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/sc-rejects-peoples-leasings-us700000-insurance-claim-against-amana-takaful/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261030_200232_Facebook.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T14:33:59+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 2689,
-   "ai_title": "அமனா தாகஃபுலுக்கு எதிரான பீப்பிள்ஸ் லீசிங்கின் அமெரிக்க$ 700,000 காப்பீட்டு கோரிக்கையை உச்ச நீதிமன்றம் நிராகரித்தது",
-   "title_ta": "அமனா தாகஃபுலுக்கு எதிரான பீப்பிள்ஸ் லீசிங்கின் அமெரிக்க$ 700,000 காப்பீட்டு கோரிக்கையை உச்ச நீதிமன்றம் நிராகரித்தது",
-   "ai_summary": "2009 ஆம் ஆண்டில் மூழ்கிய ஒரு கப்பல் தொடர்பான 700,000 அமெரிக்கடாலர் காப்பீட்டு உரிமைகோரல் தொடர்பாக அமனா தகஃபுல் பிஎல்சிக்கு எதிராக மக்கள் குத்தகை மற்றும் நிதி பிஎல்சி தாக்கல் செய்த மேல்முறையீட்டை உச்ச நீதிமன்றம் தள்ளுபடி செய்துள்ளது.",
-   "ai_body": [
-    "2009 ஆம் ஆண்டில் மூழ்கிய ஒரு கப்பல் தொடர்பான 700,000 அமெரிக்கடாலர் காப்பீட்டு உரிமைகோரல் தொடர்பாக அமனா தகஃபுல் பிஎல்சிக்கு எதிராக மக்கள் குத்தகை மற்றும் நிதி பிஎல்சி தாக்கல் செய்த மேல்முறையீட்டை உச்ச நீதிமன்றம் தள்ளுபடி செய்துள்ளது. நீதிபதிகள் மஹிந்த சமயவர்தன, டாக்டர் சோபிதா ராஜகருணா மற்றும் சம்பத் கே.பி.",
-    "விஜரத்ன ஆகியோர் அடங்கிய மூன்று நீதிபதிகள் கொண்ட பெஞ்ச், இந்த கோரிக்கையை நிராகரிப்பதற்கான வணிக உயர்நீதிமன்றத்தின் முந்தைய தீர்ப்பை உறுதி செய்தது. மே 31, 2009 அன்று மாலத்தீவு கொடியிடப்பட்ட எம் .வி.",
-    "மேதுபாரு கப்பல் மூழ்கிய பின்னர் இந்த தகராறு எழுந்தது. சவஹில் லைன்ஸ் (பிரைவேட்) லிமிடெட் உடனான குத்தகை ஒப்பந்தத்தின் கீழ் கப்பலின் சட்ட உரிமையைத் தக்க வைத்துக் கொண்ட பீப்பிள்ஸ் லீசிங், அமனா டகாஃபுல்லிடமிருந்து ஹல் டகாஃபுல் காப்பீட்டுக் கொள்கையைப் பெற்றது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-30T15:16:26.197677+00:00"
-  },
-  {
-   "id": "1418955269f1",
-   "type": "auto",
-   "title": "INSEE Ecocycle Launches First Electric Waste Collection Truck in Sri Lanka’s Greener Logistics Push",
-   "summary": "INSEE Ecocycle Lanka, a leading environmental solutions provider specializing in waste management and circular economy solutions, has marked a significant Continue Reading The post INSEE Ecocycle Launches First Electric Waste Collection Truck in Sri Lanka’s Greener Logistics Push appeared first on…",
-   "link": "https://www.newswire.lk/business/insee-ecocycle-launches-first-electric-waste-collection-truck-in-sri-lankas-greener-logistics-push/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Image-6.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T14:28:50+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 2427,
-   "ai_title": "INSEE Ecocycle இலங்கையின் பசுமை தளவாட உந்துதலில் முதல் மின்சார கழிவு சேகரிப்பு டிரக்கை அறிமுகப்படுத்துகிறது",
-   "title_ta": "INSEE Ecocycle இலங்கையின் பசுமை தளவாட உந்துதலில் முதல் மின்சார கழிவு சேகரிப்பு டிரக்கை அறிமுகப்படுத்துகிறது",
-   "ai_summary": "INSEE Ecocycle Lanka, கழிவு மேலாண்மை மற்றும் வட்ட பொருளாதார தீர்வுகளில் நிபுணத்துவம் பெற்ற ஒரு முன்னணி சுற்றுச்சூழல் தீர்வுகள் வழங்குநரான லங்கா, அதன் கழிவு சேகரிப்பு கடற்படையை மின்சார வாகனங்களாக படிப்படியாக மாற்றுவதற்கான முதல் படியைக் குறிக்கும் “பசுமை பயணம்” (ஒரு பசுமை பயணம்) என்ற கருப்பொருளின் கீழ் அதன் முதல் முழுமையான மின்சார (EV) கழிவு சேகரிப்பு டிரக்கை அறிமுகப்படுத்தியதன் மூலம் ஒரு குறிப்பிடத்தக்க மைல்கல்லை அடைந்துள்ளது.",
-   "ai_body": [
-    "INSEE Ecocycle Lanka, கழிவு மேலாண்மை மற்றும் வட்ட பொருளாதார தீர்வுகளில் நிபுணத்துவம் பெற்ற ஒரு முன்னணி சுற்றுச்சூழல் தீர்வுகள் வழங்குநரான லங்கா, அதன் கழிவு சேகரிப்பு கடற்படையை மின்சார வாகனங்களாக படிப்படியாக மாற்றுவதற்கான முதல் படியைக் குறிக்கும் “பசுமை பயணம்” (ஒரு பசுமை பயணம்) என்ற கருப்பொருளின் கீழ் அதன் முதல் முழுமையான மின்சார (EV) கழிவு சேகரிப்பு டிரக்கை அறிமுகப்படுத்தியதன் மூலம் ஒரு குறிப்பிடத்தக்க மைல்கல்லை அடைந்துள்ளது. முதல் வாகனம் INSEE ECOCYCLE, ENG இன் இயக்குனர் முன்னிலையில், கதுநாயக்கவில் உள்ள INSEE ECOCYCLE வசதியில் அதிகாரப்பூர்வமாக வெளியிடப்பட்டது.",
-    "சுஜித் குணவர்தனா. INSEE சுற்றுச்சூழல் சுழற்சி மின்சார கழிவு சேகரிப்பு லாரிகளை நோக்கி நகர்வது அதன் லாஜிஸ்டிக்ஸ் செயல்பாடுகளை கார்பன் நீக்கம் செய்வதில் ஒரு குறிப்பிடத்தக்க படியாகும்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-30T20:04:10.683263+00:00"
-  },
-  {
-   "id": "aef0826d92f9",
-   "type": "auto",
-   "title": "Sri Lanka Partners with World Bank and IFAD to launch $665 Mn AgriConnect plan",
-   "summary": "The Government of Sri Lanka, in partnership with the World Bank Group and the International Fund for Agricultural Development (IFAD), Continue Reading The post Sri Lanka Partners with World Bank and IFAD to launch $665 Mn AgriConnect plan appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/sri-lanka-partners-with-world-bank-and-ifad-to-launch-665-mn-agriconnect-plan/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Copy-of-Mirudhula-News-10.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-10-30T14:27:03+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 3412,
-   "ai_title": "உலக வங்கி மற்றும் IFAD உடனான இலங்கை பார்ட்னர்கள் $ 665 மில்லியன் அக்ரிகனெக்ட் திட்டத்தை தொடங்க உள்ளனர்",
-   "title_ta": "உலக வங்கி மற்றும் IFAD உடனான இலங்கை பார்ட்னர்கள் $ 665 மில்லியன் அக்ரிகனெக்ட் திட்டத்தை தொடங்க உள்ளனர்",
-   "ai_summary": "இலங்கை அரசாங்கம், உலக வங்கி குழுமம் மற்றும் வேளாண் அபிவிருத்திக்கான சர்வதேச நிதியத்துடன் (IFAD) இணைந்து, நாட்டின் வேளாண் உணவுத் துறையை நவீனமயமாக்குவதற்கும், வேலைவாய்ப்புகளை உருவாக்குவதற்கும், உணவுப் பாதுகாப்பை வலுப்படுத்துவதற்கும் இலங்கை அக்ரிகனெக்ட் கூட்டு அமலாக்கத் திட்டத்தை அதிகாரப்பூர்வமாக அறிமுகப்படுத்தியுள்ளது.",
-   "ai_body": [
-    "இலங்கை அரசாங்கம், உலக வங்கி குழுமம் மற்றும் வேளாண் அபிவிருத்திக்கான சர்வதேச நிதியத்துடன் (IFAD) இணைந்து, நாட்டின் வேளாண் உணவுத் துறையை நவீனமயமாக்குவதற்கும், வேலைவாய்ப்புகளை உருவாக்குவதற்கும், உணவுப் பாதுகாப்பை வலுப்படுத்துவதற்கும் இலங்கை அக்ரிகனெக்ட் கூட்டு அமலாக்கத் திட்டத்தை அதிகாரப்பூர்வமாக அறிமுகப்படுத்தியுள்ளது. \"நமது வேளாண் துறையை முதன்மையாக பொருட்களை உற்பத்தி செய்யும் துறையிலிருந்து அதிக மதிப்பு, சிறந்த வேலைகள் மற்றும் கிராமப்புற சமூகங்களுக்கு வலுவான வாய்ப்புகளை உருவாக்கும் துறையாக மாற்ற இலங்கை உறுதிபூண்டுள்ளது.",
-    "நமது விவசாயிகள், மீனவர்கள் மற்றும் கிராமப்புற சமூகங்கள் வெறுமனே வளர்ச்சியின் பயனாளிகள் அல்ல, அவர்கள் வலுவான, அதிக உற்பத்தி மற்றும் நெகிழக்கூடிய பொருளாதாரத்தை உருவாக்குவதில் பங்காளிகளாக உள்ளனர்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-30T20:04:13.347888+00:00"
-  },
-  {
-   "id": "403c89c185de",
-   "type": "auto",
-   "title": "India High Commissioner, Deputy Minister inaugurate Ceylon Craft Week 2026",
-   "summary": "High Commissioner of India to Sri Lanka Santosh Jha, alongside Deputy Minister of Industry and Entrepreneurship Development Chathuranga Abeysinghe, inaugurated Continue Reading The post India High Commissioner, Deputy Minister inaugurate Ceylon Craft Week 2026 appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/india-high-commissioner-deputy-minister-inaugurate-ceylon-craft-week-2026/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/870607583_1189508663401175_2307174740287978659_n.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-10-30T14:19:36+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 793,
-   "ai_title": "இந்திய உயர் ஸ்தானிகர், துணை அமைச்சர் இலங்கை கைவினை வாரம் 2026 ஐ திறந்து வைத்தார்",
-   "title_ta": "இந்திய உயர் ஸ்தானிகர், துணை அமைச்சர் இலங்கை கைவினை வாரம் 2026 ஐ திறந்து வைத்தார்",
-   "ai_summary": "இலங்கைக்கான இந்திய உயர் ஸ்தானிகர் சந்தோஷ் ஜா, கைத்தொழில் மற்றும் தொழில்முனைவோர் மேம்பாட்டு துணை அமைச்சர் சதுரங்க அபேசிங்கவுடன் இணைந்து, ஹேவ்லாக் சிட்டி மாலில் 2026 ஆம் ஆண்டு இலங்கை கைவினை வாரத்தை திறந்து வைத்தார்.",
-   "ai_body": [
-    "இலங்கைக்கான இந்திய உயர் ஸ்தானிகர் சந்தோஷ் ஜா, கைத்தொழில் மற்றும் தொழில்முனைவோர் மேம்பாட்டு துணை அமைச்சர் சதுரங்க அபேசிங்கவுடன் இணைந்து, ஹேவ்லாக் சிட்டி மாலில் 2026 ஆம் ஆண்டு இலங்கை கைவினை வாரத்தை திறந்து வைத்தார். தொடக்க விழாவில் பேசிய உயர் ஸ்தானிகர் ஜா, கலைகள், கைவினைப்பொருட்கள் மற்றும் கலாச்சாரம் ஆகியவை புவியியல் எல்லைகளை எவ்வாறு தாண்டி நாடுகளுக்கிடையேயான நட்பின் நீண்டகால பிணைப்பை வளர்க்கின்றன என்பதை எடுத்துரைத்தார்.",
-    "இந்த நிகழ்வு இந்தியா, இலங்கை மற்றும் நேபாளத்தைச் சேர்ந்த சிறந்த கைவினைஞர்களை ஒன்றிணைத்து அவர்களின் படைப்பாற்றல் மற்றும் பாரம்பரிய கைவினைத்திறனை வெளிப்படுத்துகிறது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-30T20:04:15.909965+00:00"
-  },
-  {
-   "id": "6c62ee2804b5",
-   "type": "auto",
-   "title": "Hayleys Mobility Enters Sri Lanka’s Two-Wheeler Market with First CFMOTO Flagship Showroom",
-   "summary": "Hayleys Mobility Limited, the mobility segment of Hayleys Fentons Limited, a member of the Hayleys Group, has entered Sri Lanka’s Continue Reading The post Hayleys Mobility Enters Sri Lanka’s Two-Wheeler Market with First CFMOTO Flagship Showroom appeared first on Newswire .",
-   "link": "https://www.newswire.lk/business/hayleys-mobility-enters-sri-lankas-two-wheeler-market-with-first-cfmoto-flagship-showroom/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/IMG-02.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T14:18:53+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 2847,
-   "ai_title": "முதல் CFMOTO ஃபிளாக்ஷிப் ஷோரூம் மூலம் இலங்கையின் இரு சக்கர வாகன சந்தையில் Hayleys மொபிலிட்டி நுழைகிறது",
-   "title_ta": "முதல் CFMOTO ஃபிளாக்ஷிப் ஷோரூம் மூலம் இலங்கையின் இரு சக்கர வாகன சந்தையில் Hayleys மொபிலிட்டி நுழைகிறது",
-   "ai_summary": "ஹேலீஸ் குழுமத்தின் உறுப்பினரான ஹேலீஸ் ஃபென்டன்ஸ் லிமிடெட் நிறுவனத்தின் மொபிலிட்டி பிரிவான ஹேலீஸ் மொபிலிட்டி லிமிடெட், இலங்கையின் இரு சக்கர வாகன சந்தையில் தனது CFMOTO முதன்மை ஷோரூமை 200, டீன்ஸ் சாலை, கொழும்பு 10 இல் திறந்துள்ளது.",
-   "ai_body": [
-    "ஹேலீஸ் குழுமத்தின் உறுப்பினரான ஹேலீஸ் ஃபென்டன்ஸ் லிமிடெட் நிறுவனத்தின் மொபிலிட்டி பிரிவான ஹேலீஸ் மொபிலிட்டி லிமிடெட், இலங்கையின் இரு சக்கர வாகன சந்தையில் தனது CFMOTO முதன்மை ஷோரூமை 200, டீன்ஸ் சாலை, கொழும்பு 10 இல் திறந்துள்ளது. உலகின் முன்னணி பவர்ஸ்போர்ட்ஸ் மற்றும் மோட்டார் சைக்கிள் பிராண்டுகளில் ஒன்றான CFMOTO மற்றும் ZEEHO எலக்ட்ரிக் ஸ்கூட்டர்களிலிருந்து பிரீமியம் மோட்டார் சைக்கிள்களை ஒன்றிணைத்து, இந்த அறிமுகம் சாகச சுற்றுப்பயணம், ஸ்போர்ட் ரைடிங், க்ரூசிங் மற்றும் அன்றாட பயணம் ஆகியவற்றில் ஹேலிஸ் மொபிலிட்டியின் போர்ட்ஃபோலியோவை விரிவுபடுத்துகிறது.",
-    "இது 'ஒவ்வொரு பயணத்திற்கும் ஒரு பிராண்ட்‘ என்ற நிறுவனத்தின் வாக்குறுதியையும் மேம்படுத்துகிறது, அதன் சலுகையை பரந்த அளவிலான பயணிகள் மற்றும் பயணத் தேவைகளுக்கு விரிவுபடுத்துகிறது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-30T20:04:18.588857+00:00"
-  },
-  {
-   "id": "b05e56f1dcd3",
-   "type": "auto",
-   "title": "ஒரு ஊசி ரூ.16 கோடி: தமிழ்நாட்டில் இந்த குழந்தைகளை பாதித்துள்ள அரிய நோய் என்ன?",
-   "summary": "\"தற்போது அவசர சிகிச்சைப் பிரிவில் மகளுக்கு சிகிச்சை நடந்து வருகிறது. மூச்சு விடுவதில் சிரமம் ஏற்பட்டதால் அதனை சரிசெய்வதற்கான முயற்சியில் மருத்துவர்கள் ஈடுபட்டுள்ளனர். இப்போதே ஐந்து நாட்கள் ஆகிவிட்டது\"",
-   "link": "https://www.bbc.com/tamil/articles/c54g1484dvr1o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/3853/live/104e27f0-d46c-11f1-9dda-1ba6fcc7d159.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-30T14:18:29+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 6460
-  },
-  {
-   "id": "3adae606edd7",
-   "type": "auto",
-   "title": "Former LTTE member arrested on return from India released by Mallakam court",
-   "summary": "Krishnakumar Kandasamy (in a checked shirt) is escorted to Mallakam Magistrate’s Court A former member of the Liberation Tigers of Tamil Eelam (LTTE), who was arrested by Sri Lanka’s Terrorism Investigation Division (TID) on his return from years of detention in India, has been released by the…",
-   "link": "http://www.tamilguardian.com/content/former-ltte-member-arrested-bia-released-mallakam-court",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/261029%20krishnakumar%20Kandasamy%20released1/20261029_krishnakumar%20kandasamy1.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world",
-    "jaffna"
-   ],
-   "published": "2026-10-30T14:10:06+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 2804,
-   "ai_title": "மல்லகம் நீதிமன்றத்தால் விடுவிக்கப்பட்ட முன்னாள் விடுதலைப் புலிகள் உறுப்பினர் இந்தியாவில் இருந்து திரும்பியபோது கைது செய்யப்பட்டார்",
-   "title_ta": "மல்லகம் நீதிமன்றத்தால் விடுவிக்கப்பட்ட முன்னாள் விடுதலைப் புலிகள் உறுப்பினர் இந்தியாவில் இருந்து திரும்பியபோது கைது செய்யப்பட்டார்",
-   "ai_summary": "கிருஷ்ணகுமார் கந்தசாமி (சோதனையிடப்பட்ட சட்டையில்) மல்லகம் மாஜிஸ்திரேட் நீதிமன்றத்திற்கு அழைத்துச் செல்லப்படுகிறார்.",
-   "ai_body": [
-    "கிருஷ்ணகுமார் கந்தசாமி (சோதனையிடப்பட்ட சட்டையில்) மல்லகம் மாஜிஸ்திரேட் நீதிமன்றத்திற்கு அழைத்துச் செல்லப்படுகிறார். இலங்கையின் பயங்கரவாத புலனாய்வுப் பிரிவினால் (டிஐடி) கைது செய்யப்பட்ட தமிழீழ விடுதலைப் புலிகளின் முன்னாள் உறுப்பினர் மல்லகம் மாஜிஸ்திரேட் நீதிமன்றத்தால் விடுவிக்கப்பட்டார்.",
-    "யாழ்ப்பாணத்தின் மாசியபிட்டியில் உள்ள அம்மன் கோவிலாடியைச் சேர்ந்த கிருஷ்ணகுமார் கந்தசாமி (50) வியாழக்கிழமை நீதிமன்றத்தில் ஆஜர்படுத்தப்பட்டார். நீதிமன்றம் அவரை விடுவித்து, இந்த வழக்கில் மேலதிக நடவடிக்கைகளை நவம்பர் 12 வரை தள்ளி வைத்தது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T00:00:49.944394+00:00"
-  },
-  {
-   "id": "9cd3edc8d50d",
-   "type": "auto",
-   "title": "சிங்கப்பூர் புறப்பட்ட கப்பல் ஆந்திராவில் கரை ஒதுங்கியது ஏன்? கப்பலின் பின்னணி",
-   "summary": "அந்தர்வேதிக் கடற்கரைக்கு அருகே கப்பல் ஒன்று கரை ஒதுங்கியதைக் காட்டும் காணொளிகள் கடந்த இரண்டு நாட்களாகச் சமூக வலைதளங்களில் வைரலாகி வருகின்றன. புயலில் சிக்கியது எப்படி? அதில் என்ன இருந்தது? என்று இந்தக் கட்டுரை விளக்குகிறது.",
-   "link": "https://www.bbc.com/tamil/articles/cx5yn79yeegro?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/97a4/live/22dd8300-d45f-11f1-ab12-eb0c94f5b382.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-10-30T13:51:47+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 4382
-  },
-  {
-   "id": "21abbc98d779",
-   "type": "auto",
-   "title": "Today’s News Digest – October 30",
-   "summary": "Today’s News Digest: Your go-to summary of the key events and headlines that shaped the day. From major developments to Continue Reading The post Today’s News Digest – October 30 appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/todays-news-digest-october-30/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Copy-of-Mirudhula-News-8.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T13:49:05+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 4038,
-   "ai_title": "இன்றைய செய்தி டைஜஸ்ட் – அக்டோபர் 30",
-   "title_ta": "இன்றைய செய்தி டைஜஸ்ட் – அக்டோபர் 30",
-   "ai_summary": "இன்றைய செய்தி டைஜஸ்ட்: அந்த நாளை வடிவமைத்த முக்கிய நிகழ்வுகள் மற்றும் தலைப்புச் செய்திகளின் சுருக்கம்.",
-   "ai_body": [
-    "இன்றைய செய்தி டைஜஸ்ட்: அந்த நாளை வடிவமைத்த முக்கிய நிகழ்வுகள் மற்றும் தலைப்புச் செய்திகளின் சுருக்கம். முக்கிய முன்னேற்றங்கள் முதல் பிரேக்கிங் நியூஸ் வரை, இன்று நடந்த அனைத்தையும் ஒரு விரைவான மற்றும் எளிதான வாசிப்பில் நாங்கள் உங்களுக்குக் கொண்டு வருகிறோம்.",
-    "சபாநாயகருக்கு எதிரான நம்பிக்கையில்லா பிரேரணை நவம்பர் 3 ஆம் திகதி பாராளுமன்றத்தில் விவாதிக்கப்படாது – சபாநாயகர் ஜகத் விக்கிரமரத்னவுக்கு எதிராக எதிர்க்கட்சி சமர்ப்பித்த நம்பிக்கையில்லா பிரேரணை நவம்பர் 3 ஆம் திகதி பாராளுமன்றத்தில் விவாதத்திற்கு எடுத்துக்கொள்ளப்படாது என்று சபை அரசாங்கத் தலைவர் அமைச்சர் பிமல் ரத்நாயக்க தெரிவித்துள்ளார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T00:00:55.446569+00:00"
-  },
-  {
-   "id": "9b0b6ee9e37a",
-   "type": "auto",
-   "title": "Murder over stolen chicken: Supreme Court upholds death sentences of 2 men",
-   "summary": "The Supreme Court has dismissed an appeal filed by two men convicted of murder, upholding the death sentences imposed by Continue Reading The post Murder over stolen chicken: Supreme Court upholds death sentences of 2 men appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/murder-over-stolen-chicken-supreme-court-upholds-death-sentences-of-2-men/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261030_191801_ChatGPT.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T13:48:34+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 1938,
-   "ai_title": "திருடப்பட்ட கோழி மீதான கொலை: 2 பேரின் மரண தண்டனையை உறுதி செய்தது உச்ச நீதிமன்றம்",
-   "title_ta": "திருடப்பட்ட கோழி மீதான கொலை: 2 பேரின் மரண தண்டனையை உறுதி செய்தது உச்ச நீதிமன்றம்",
-   "ai_summary": "டங்கல்லே உயர் நீதிமன்றத்தால் விதிக்கப்பட்ட மரண தண்டனையை உறுதிசெய்து, கொலை குற்றவாளிகள் இருவர் தாக்கல் செய்த மேல்முறையீட்டை உச்ச நீதிமன்றம் தள்ளுபடி செய்துள்ளது.",
-   "ai_body": [
-    "டங்கல்லே உயர் நீதிமன்றத்தால் விதிக்கப்பட்ட மரண தண்டனையை உறுதிசெய்து, கொலை குற்றவாளிகள் இருவர் தாக்கல் செய்த மேல்முறையீட்டை உச்ச நீதிமன்றம் தள்ளுபடி செய்துள்ளது. ராஜபுர சுகத் வீரரத்ன மற்றும் ராஜமுனிகே நிஹால் சமிந்தா அல்லது மகத்தைய ஆகிய இரு குற்றவாளிகளும் விஜயமுனிகே குணவர்தனவை கொலை செய்ததாக குற்றஞ்சாட்டப்பட்டனர்.",
-    "நீதிபதிகள் ஜனக் டி சில்வா, மேனகா விஜேசுந்தரா மற்றும் சம்பத் பி. அபயகோன் ஆகியோர் அடங்கிய மூன்று நீதிபதிகள் கொண்ட உச்சநீதிமன்ற பெஞ்ச் அக்டோபர் 30 அன்று தீர்ப்பை வழங்கியது.",
-    "ஒரு கோழி திருடப்பட்டதாகக் கூறப்படும் ஒரு சர்ச்சையைத் தொடர்ந்து இந்த வழக்கு ஒரு கொடிய கத்தியால் குத்தப்பட்டது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T00:01:00.904775+00:00"
-  },
-  {
-   "id": "8fbadb298643",
-   "type": "auto",
-   "title": "Father wins two-year battle against private hospital over newborn’s weight reading",
-   "summary": "A father’s nearly two-year battle against Ninewells Hospital over an allegedly incorrect weight measurement of his newborn baby has ended Continue Reading The post Father wins two-year battle against private hospital over newborn’s weight reading appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/father-wins-two-year-battle-against-private-hospital-over-newborns-weight-reading/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-30-at-15.19.51.jpeg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T13:47:21+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 4063,
-   "ai_title": "புதிதாகப் பிறந்தவரின் எடை வாசிப்பு தொடர்பாக தனியார் மருத்துவமனைக்கு எதிரான இரண்டு ஆண்டு போரில் தந்தை வெற்றி பெற்றார்",
-   "title_ta": "புதிதாகப் பிறந்தவரின் எடை வாசிப்பு தொடர்பாக தனியார் மருத்துவமனைக்கு எதிரான இரண்டு ஆண்டு போரில் தந்தை வெற்றி பெற்றார்",
-   "ai_summary": "தனது புதிதாகப் பிறந்த குழந்தையின் எடையை தவறாக அளவிடுவது தொடர்பாக நினிவெல்ஸ் மருத்துவமனைக்கு எதிரான ஒரு தந்தையின் கிட்டத்தட்ட இரண்டு ஆண்டுகால போராட்டம் வெற்றியில் முடிந்தது, நுகர்வோர் விவகார ஆணையம் (CAA) தனியார் மருத்துவமனைக்கு இழப்பீடு வழங்க உத்தரவிட்டது.",
-   "ai_body": [
-    "தனது புதிதாகப் பிறந்த குழந்தையின் எடையை தவறாக அளவிடுவது தொடர்பாக நினிவெல்ஸ் மருத்துவமனைக்கு எதிரான ஒரு தந்தையின் கிட்டத்தட்ட இரண்டு ஆண்டுகால போராட்டம் வெற்றியில் முடிந்தது, நுகர்வோர் விவகார ஆணையம் (CAA) தனியார் மருத்துவமனைக்கு இழப்பீடு வழங்க உத்தரவிட்டது. ஜூன் 2024 இல் மருத்துவமனைக்கு எதிராக முறையான புகார் அளித்த வழக்கறிஞர் பானுகா மாளவியாராச்சி, நியூஸ்வையரிடம் பேசுகையில், தனது 10 நாள் குழந்தை சம்பந்தப்பட்ட ஒரு சம்பவம் தொடர்பாக நீதிக்கான நீண்ட போராட்டத்திற்குப் பிறகு இந்த தீர்ப்பு வந்துள்ளது என்றார்.",
-    "\"நினிவெல்ஸ் மருத்துவமனைக்கு எதிராக நான் அளித்த புகார் தொடர்பாக, CAA இறுதியாக எனக்கு ஆதரவாக ஒரு தீர்ப்பை வழங்கியுள்ளது மற்றும் நினிவெல்ஸ் மருத்துவமனைக்கு ரூ. 45,900 இழப்பீடு வழங்குமாறு உத்தரவிட்டது\" என்று மாளவியாராச்சி நியூஸ்வையரிடம் தெரிவித்தார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T00:01:04.564371+00:00"
-  },
-  {
-   "id": "458da37b3cb5",
-   "type": "auto",
-   "title": "Denis Halliday, the UN official who quit over Iraq and stood with Eelam Tamils",
-   "summary": "Denis Halliday speaking at the European Parliament in October 2019. Photograph: GUE/NGL / Wikimedia Commons (CC BY-SA 2.0) Denis Halliday, the former UN Assistant Secretary-General who resigned in protest at sanctions on Iraq and later co-chaired the people's tribunal that found Sri Lanka guilty of…",
-   "link": "http://www.tamilguardian.com/content/denis-halliday-un-official-who-quit-over-iraq-and-stood-eelam-tamils",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/Sri%20Lanka/261023%20Denis%20Halliday/261023%20Denis%20Halliday%20%281%29.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world",
-    "jaffna"
-   ],
-   "published": "2026-10-30T13:39:08+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 8000,
-   "ai_title": "ஈராக்கிலிருந்து வெளியேறி ஈழத் தமிழர்களுடன் நின்ற ஐ.நா. அதிகாரி டெனிஸ் ஹாலிடே",
-   "title_ta": "ஈராக்கிலிருந்து வெளியேறி ஈழத் தமிழர்களுடன் நின்ற ஐ.நா. அதிகாரி டெனிஸ் ஹாலிடே",
-   "ai_summary": "2019 அக்டோபரில் ஐரோப்பிய நாடாளுமன்றத்தில் டெனிஸ் ஹாலிடே பேசினார்.",
-   "ai_body": [
-    "2019 அக்டோபரில் ஐரோப்பிய நாடாளுமன்றத்தில் டெனிஸ் ஹாலிடே பேசினார். புகைப்படம்: GUE/NGL/ விக்கிமீடியா காமன்ஸ் (CC BY-SA 2.0) ஈராக் மீதான பொருளாதாரத் தடைகளை எதிர்த்து ராஜினாமா செய்த முன்னாள் ஐ.நா.",
-    "உதவி பொதுச்செயலாளர் டெனிஸ் ஹாலிடே, பின்னர் ஈழத் தமிழர்களுக்கு எதிரான இனப்படுகொலைக்கு இலங்கை குற்றவாளியாகக் கண்டறியப்பட்ட மக்கள் தீர்ப்பாயத்தின் இணைத் தலைவர், டப்ளினில் 85 வயதில் காலமானார். தி ஐரிஷ் டைம்ஸில் வெளியிடப்பட்ட மரண அறிவிப்பின்படி, அவர் அக்டோபர் 11 ஆம் தேதி தனது குடும்பத்தினரின் முன்னிலையில் அமைதியாக இறந்தார், அது \"அவரது நம்பிக்கைகளின் தைரியம், அவரது நேர்மை மற்றும் கருணைக்காக எப்போதும் நினைவுகூரப்படும்\" என்று கூறியது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T00:01:07.700831+00:00"
-  },
-  {
-   "id": "7f589c1bd23e",
-   "type": "auto",
-   "title": "Ryanair responds to Sangakkara but remains silent on racism and discrimination allegations",
-   "summary": "Ryanair has responded to former Sri Lanka cricket captain Kumar Sangakkara over an incident at Dublin Airport, claiming he refused Continue Reading The post Ryanair responds to Sangakkara but remains silent on racism and discrimination allegations appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/ryanair-responds-to-sangakkara-but-remains-silent-on-racism-and-discrimination-allegations/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Zafran-News.jpeg",
-   "lang": "en",
-   "category": "sports",
-   "tags": [
-    "sports",
-    "srilanka"
-   ],
-   "published": "2026-10-30T13:37:45+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 2793
-  },
-  {
-   "id": "6a2a1d87aef4",
-   "type": "auto",
-   "title": "Sri Lanka Navy seizes 1,500 illegal sea cucumbers and apprehends suspect in Kilinochchi",
-   "summary": "The Sri Lanka Navy arrested one suspect and seized a small boat carrying approximately 1,500 illegally harvested sea cucumbers during Continue Reading The post Sri Lanka Navy seizes 1,500 illegal sea cucumbers and apprehends suspect in Kilinochchi appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/sri-lanka-navy-seizes-1500-illegal-sea-cucumbers-and-apprehends-suspect-in-kilinochchi/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Sea-cucumber-navy-pix.jpeg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna",
-    "srilanka"
-   ],
-   "published": "2026-10-30T13:22:17+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 608,
-   "ai_title": "இலங்கை கடற்படை 1,500 சட்டவிரோத கடல் வெள்ளரிகளை பறிமுதல் செய்து கிளிநொச்சியில் சந்தேக நபரை கைது செய்தது",
-   "title_ta": "இலங்கை கடற்படை 1,500 சட்டவிரோத கடல் வெள்ளரிகளை பறிமுதல் செய்து கிளிநொச்சியில் சந்தேக நபரை கைது செய்தது",
-   "ai_summary": "நேற்று (ஒக்டோபர் 29) கிளிநொச்சியில் உள்ள வாலைபாடு ஏரியில் மேற்கொள்ளப்பட்ட நடவடிக்கையின் போது இலங்கை கடற்படை ஒரு சந்தேக நபரை கைது செய்து சுமார் 1,500 சட்டவிரோதமாக அறுவடை செய்யப்பட்ட கடல் வெள்ளரிகளை ஏற்றிச் சென்ற ஒரு சிறிய படகையும் கைப்பற்றியது.",
-   "ai_body": [
-    "நேற்று (ஒக்டோபர் 29) கிளிநொச்சியில் உள்ள வாலைபாடு ஏரியில் மேற்கொள்ளப்பட்ட நடவடிக்கையின் போது இலங்கை கடற்படை ஒரு சந்தேக நபரை கைது செய்து சுமார் 1,500 சட்டவிரோதமாக அறுவடை செய்யப்பட்ட கடல் வெள்ளரிகளை ஏற்றிச் சென்ற ஒரு சிறிய படகையும் கைப்பற்றியது. வட மத்திய கடற்படை கட்டளையின் கீழ் செயல்படும் எஸ் .எல் .என் .எஸ் புவனேகாவைச் சேர்ந்த பணியாளர்கள், டிங்கியை இடைமறித்து, செல்லுபடியாகும் அனுமதியின்றி சட்டவிரோத மீன்பிடிப்பைக் கண்டுபிடித்தனர்.",
-    "கிரஞ்சியில் வசிக்கும் 35 வயதான சந்தேக நபர், படகு மற்றும் கடல் வெள்ளரிக்காய்களுடன், மேலதிக சட்ட நடவடிக்கைகளுக்காக மீன்வளம் மற்றும் நீர்வாழ் வளத் துறையின் கிளிநொச்சி அலுவலகத்திற்கு மாற்றப்பட்டார். (Newswire)"
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-30T15:16:02.090985+00:00"
-  },
-  {
-   "id": "386da17c2e53",
-   "type": "auto",
-   "title": "India to provide 430 free electric motorbikes worth Rs 265 mn to Sri Lanka Fisheries officers",
-   "summary": "India has agreed to provide 430 electric motorbikes to fisheries officials in Sri Lanka under a grant assistance programme worth Continue Reading The post India to provide 430 free electric motorbikes worth Rs 265 mn to Sri Lanka Fisheries officers appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/india-to-provide-430-free-electric-motorbikes-worth-rs-265-mn-to-sri-lanka-fisheries-officers/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261030_184901_Gmail.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-10-30T13:21:54+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 1532,
-   "ai_title": "இலங்கை மீன்வள அதிகாரிகளுக்கு ரூ.265 மில்லியன் மதிப்புள்ள 430 இலவச மின்சார மோட்டார் சைக்கிள்களை இந்தியா வழங்க உள்ளது",
-   "title_ta": "இலங்கை மீன்வள அதிகாரிகளுக்கு ரூ.265 மில்லியன் மதிப்புள்ள 430 இலவச மின்சார மோட்டார் சைக்கிள்களை இந்தியா வழங்க உள்ளது",
-   "ai_summary": "265 மில்லியன் ரூபாய் மதிப்பிலான மானிய உதவித் திட்டத்தின் கீழ் இலங்கையில் உள்ள மீன்வள அதிகாரிகளுக்கு 430 மின்சார மோட்டார் சைக்கிள்களை வழங்க இந்தியா ஒப்புக் கொண்டுள்ளது.",
-   "ai_body": [
-    "265 மில்லியன் ரூபாய் மதிப்பிலான மானிய உதவித் திட்டத்தின் கீழ் இலங்கையில் உள்ள மீன்வள அதிகாரிகளுக்கு 430 மின்சார மோட்டார் சைக்கிள்களை வழங்க இந்தியா ஒப்புக் கொண்டுள்ளது. இலங்கைக்கான இந்திய உயர் ஸ்தானிகர் சந்தோஷ் ஜா மற்றும் மீன்வளம், நீர்வாழ் மற்றும் பெருங்கடல் வள அமைச்சின் செயலாளர் டாக்டர் பி.கே.",
-    "கோலிதா கமல் ஜினதாசா இடையே புரிந்துணர்வு ஒப்பந்தம் கையெழுத்தானது. கையெழுத்து விழா மீன்வளத்துறை அமைச்சர் ராமலிங்கம் சந்திரசேகர் முன்னிலையில் நடைபெற்றது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T00:01:10.030431+00:00"
-  },
-  {
-   "id": "7b82a8b7ed41",
-   "type": "auto",
-   "title": "Sri Lankan exporters briefed on new EU regulations on coconut products and spices",
-   "summary": "The Department of Commerce of Sri Lanka (DOC), in collaboration with the Embassy of Sri Lanka in Brussels and the Continue Reading The post Sri Lankan exporters briefed on new EU regulations on coconut products and spices appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/sri-lankan-exporters-briefed-on-new-eu-regulations-on-coconut-products-and-spices/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/img1.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T13:18:09+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 2000,
-   "ai_title": "தேங்காய் பொருட்கள் மற்றும் மசாலாப் பொருட்கள் மீதான புதிய ஐரோப்பிய ஒன்றிய விதிமுறைகள் குறித்து இலங்கை ஏற்றுமதியாளர்கள் விளக்கினர்",
-   "title_ta": "தேங்காய் பொருட்கள் மற்றும் மசாலாப் பொருட்கள் மீதான புதிய ஐரோப்பிய ஒன்றிய விதிமுறைகள் குறித்து இலங்கை ஏற்றுமதியாளர்கள் விளக்கினர்",
-   "ai_summary": "இலங்கை வர்த்தகத் திணைக்களம் (DOC), பிரஸ்ஸல்ஸில் உள்ள இலங்கைத் தூதரகம் மற்றும் இலங்கை வர்த்தக சபை (CCC) ஆகியவற்றுடன் இணைந்து, வரவிருக்கும் ஐரோப்பிய ஒன்றியம் (EU) கனிம எண்ணெய் நறுமண ஹைட்ரோகார்பன்கள் (MOAH) குறித்த ஒழுங்குமுறை குறித்து உள்ளூர் ஏற்றுமதியாளர்களுக்கு கற்பிப்பதற்காக அக்டோபர் 21, 2026 அன்று ஒரு விழிப்புணர்வு அமர்வை ஏற்பாடு செய்தது.",
-   "ai_body": [
-    "இலங்கை வர்த்தகத் திணைக்களம் (DOC), பிரஸ்ஸல்ஸில் உள்ள இலங்கைத் தூதரகம் மற்றும் இலங்கை வர்த்தக சபை (CCC) ஆகியவற்றுடன் இணைந்து, வரவிருக்கும் ஐரோப்பிய ஒன்றியம் (EU) கனிம எண்ணெய் நறுமண ஹைட்ரோகார்பன்கள் (MOAH) குறித்த ஒழுங்குமுறை குறித்து உள்ளூர் ஏற்றுமதியாளர்களுக்கு கற்பிப்பதற்காக அக்டோபர் 21, 2026 அன்று ஒரு விழிப்புணர்வு அமர்வை ஏற்பாடு செய்தது. CCC ஆடிட்டோரியத்தில் நடைபெற்ற இந்த நிகழ்வு, ஏற்றுமதியாளர்கள், வர்த்தக அறை பிரதிநிதிகள் மற்றும் அரசாங்க அதிகாரிகள் உட்பட 100 க்கும் மேற்பட்ட பங்கேற்பாளர்களை ஈர்த்தது, ஐரோப்பிய ஒன்றியத்திற்கு தேங்காய் அடிப்படையிலான பொருட்கள் மற்றும் மசாலாப் பொருட்களின் ஏற்றுமதியைப் பாதுகாக்கத் தேவையான தடுப்பு நடவடிக்கைகள் குறித்து விவாதிக்கப்பட்டது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T00:01:13.979895+00:00"
-  },
-  {
-   "id": "85f6f9a710ae",
-   "type": "auto",
-   "title": "இஸ்ரேல் நாடாளுமன்ற தேர்தலில் நெதன்யாகு பின்னடைவு பற்றி அரபு ஊடகங்கள் கூறுவது என்ன?",
-   "summary": "இஸ்ரேலில், நெதன்யாகுவின் கூட்டணி பெரும்பான்மையைப் பெறுவதில் தோல்வியடைந்துள்ளது. இந்தத் தேர்தல்கள் குறித்து அரபு ஊடகங்களில் பரவலாக விவாதிக்கப்பட்டு வருகின்றன.",
-   "link": "https://www.bbc.com/tamil/articles/c6kglpxyll1zo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/a086/live/2cff6830-d464-11f1-93e1-3b657b665bcf.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-10-30T13:17:36+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 8000,
-   "ai_title": "இஸ்ரேலிய நாடாளுமன்றத் தேர்தலில் நெதன்யாகுவின் பின்னடைவு குறித்து அரபு ஊடகங்கள் என்ன கூறுகின்றன?",
-   "title_ta": "இஸ்ரேலிய நாடாளுமன்றத் தேர்தலில் நெதன்யாகுவின் பின்னடைவு குறித்து அரபு ஊடகங்கள் என்ன கூறுகின்றன?",
-   "ai_summary": "இஸ்ரேலிய தேர்தலுக்கான வாக்கு எண்ணிக்கை நிறைவடைந்துள்ளது.",
-   "ai_body": [
-    "இஸ்ரேலிய தேர்தலுக்கான வாக்கு எண்ணிக்கை நிறைவடைந்துள்ளது. அக்டோபர் 29 மாலை நிலவரப்படி, உள்ளூர் ஊடக அறிக்கைகளின்படி, நெதன்யாகுவுக்கு எதிரான கட்சிகள் மொத்தம் 67 இடங்களை வென்றுள்ளன.",
-    "'சேனல் 12' வெளியிட்ட தகவல்களின்படி, பிரதமர் பெஞ்சமின் நெதன்யாகு தலைமையிலான கூட்டணி 53 இடங்களை மட்டுமே வென்றுள்ளது. இஸ்ரேலிய பாராளுமன்றமான நெசெட்டில் பெரும்பான்மைக்கு 61 இடங்கள் தேவை.",
-    "நெதன்யாகுவின் கூட்டணி அரசாங்கத்தை அமைக்க பெரும்பான்மையைப் பெற முடியவில்லை. இடதுசாரி செய்தித்தாளான 'ஹாரெட்ஸில்' வெளியான ஒரு அறிக்கையின்படி, நெதன்யாகுவின் லிகுட் கட்சி கூட்டணியில் உள்ள 53 இடங்களில் 27 இடங்களை மட்டுமே வென்றது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-10-31T00:01:22.947252+00:00"
-  },
-  {
-   "id": "d27f02e2ecba",
-   "type": "auto",
-   "title": "Sarath Weerasekara threatens Rs. 100 million legal action against Kingsbury Hotel over leaking CCTV",
-   "summary": "Former Public Security Minister Rear Admiral Dr. Sarath Weerasekara has issued a letter of demand to The Kingsbury Hotel in Continue Reading The post Sarath Weerasekara threatens Rs. 100 million legal action against Kingsbury Hotel over leaking CCTV appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/sarath-weerasekara-threatens-rs-100-million-legal-action-against-kingsbury-hotel-over-leaking-cctv/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Screenshot_20261030_184119_Editor-Lite.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T13:11:53+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 2619
-  },
-  {
-   "id": "d3fd7aebf9be",
-   "type": "auto",
-   "title": "Met Department issues amber alert for Bay of Bengal as low-pressure system intensifies",
-   "summary": "The Natural Hazards Early Warning Centre of the Department of Meteorology has issued an amber alert warning naval and fishing Continue Reading The post Met Department issues amber alert for Bay of Bengal as low-pressure system intensifies appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/met-department-issues-amber-alert-for-bay-of-bengal-as-low-pressure-system-intensifies/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Rough-sea-1.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T13:00:42+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 1089
-  },
-  {
-   "id": "1b2ac0489408",
-   "type": "auto",
-   "title": "Bribery commission asked to probe Rajapaksa-era sale of state land to hotel company",
-   "summary": "The Commission to Investigate Allegations of Bribery or Corruption. Image: The Morning An anti-corruption group has asked Sri Lanka's bribery commission to investigate the sale of prime state land to a private hotel company under Mahinda Rajapaksa, who presided over the genocide of Tamils at…",
-   "link": "http://www.tamilguardian.com/content/bribery-commission-asked-probe-rajapaksa-era-sale-state-land-hotel-company",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/Sri%20Lanka/261030%20CIABOC%20Rajapaksa%20land%20%281%29.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "jaffna"
-   ],
-   "published": "2026-10-30T12:52:56+00:00",
-   "fetched": "2026-10-30T20:01:26.561972+00:00",
-   "page_chars": 2673
-  },
-  {
-   "id": "e12940638141",
-   "type": "auto",
-   "title": "Election monitor urges Sri Lankan president to review terror and organised crime bills",
-   "summary": "Protesters against the proposed terror law at Gandhi Park in Batticaloa earlier this month. File photograph Sri Lanka's leading election monitoring organisation, People's Action for Free and Fair Elections (PAFFREL), has written to the Sri Lankan president, Anura Kumara Dissanayake, urging a…",
-   "link": "http://www.tamilguardian.com/content/election-monitor-paffrel-urges-sri-lankan-president-review-terror-and-organised-crime-bills",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/261010%20psta%20protests/261010%20psta%20protests%20batti/20261009_psta%20protest%20batti2.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "jaffna"
-   ],
-   "published": "2026-10-30T12:51:53+00:00",
-   "fetched": "2026-11-02T01:22:45.065211+00:00"
-  },
-  {
-   "id": "14e9fd60a5ac",
-   "type": "auto",
-   "title": "Sri Lanka’s Colombo inflation edges up to 8.3% in October",
-   "summary": "Sri Lanka’s inflation rate based on the Colombo Consumer Price Index (CCPI) rose to 8.3 percent in October, up from Continue Reading The post Sri Lanka’s Colombo inflation edges up to 8.3% in October appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/sri-lankas-colombo-inflation-edges-up-to-8-3-in-october/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/10/Copy-of-Mirudhula-News-9.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T12:49:41+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 532
-  },
-  {
-   "id": "04f9b18dc74d",
-   "type": "auto",
-   "title": "Gen Z and Millennium UNP: New decision from UNP",
-   "summary": "The United National Party (UNP) has officially introduced two new membership categories targeting younger generations, as part of efforts to Continue Reading The post Gen Z and Millennium UNP: New decision from UNP appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/10/30/gen-z-and-millennium-unp-new-decision-from-unp/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/08/UNP-logo.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-10-30T12:48:20+00:00",
-   "fetched": "2026-10-30T15:13:19.902214+00:00",
-   "page_chars": 1289
   }
  ]
 }
