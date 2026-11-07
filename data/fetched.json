@@ -1,6 +1,299 @@
 {
- "updated": "2026-11-06T21:22:50.177534+00:00",
+ "updated": "2026-11-07T01:04:26.743444+00:00",
  "items": [
+  {
+   "id": "e55595da4395",
+   "type": "auto",
+   "title": "Heavy rainfall exceeding 100 mm forecast for several areas today",
+   "summary": "The Department of Meteorology has warned of heavy rainfall exceeding 100 mm in several parts of Sri Lanka today (07). Continue Reading The post Heavy rainfall exceeding 100 mm forecast for several areas today appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/11/07/heavy-rainfall-exceeding-100-mm-forecast-for-several-areas-today/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/Rain.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-07T00:37:33+00:00",
+   "fetched": "2026-11-07T01:04:26.743444+00:00",
+   "page_chars": 796,
+   "ai_title": "இன்று பல பகுதிகளுக்கு 100 மி.மீ.க்கு மேல் கனமழை பெய்யும்",
+   "title_ta": "இன்று பல பகுதிகளுக்கு 100 மி.மீ.க்கு மேல் கனமழை பெய்யும்",
+   "ai_summary": "இலங்கையின் பல பகுதிகளில் இன்று (07) 100 மில்லிமீட்டருக்கு மேல் பலத்த மழை பெய்யக்கூடும் என வளிமண்டலவியல் திணைக்களம் எச்சரித்துள்ளது.",
+   "ai_body": [
+    "இலங்கையின் பல பகுதிகளில் இன்று (07) 100 மில்லிமீட்டருக்கு மேல் பலத்த மழை பெய்யக்கூடும் என வளிமண்டலவியல் திணைக்களம் எச்சரித்துள்ளது. சமீபத்திய வானிலை முன்னறிவிப்பின்படி, மேற்கு, சப்ரகமுவ, மத்திய மற்றும் வடமேற்கு மாகாணங்கள் மற்றும் காலி மற்றும் மாத்தறை மாவட்டங்களின் சில பகுதிகளிலும் பலத்த மழை பெய்யக்கூடும்.",
+    "வடக்கு, கிழக்கு மற்றும் ஊவா மாகாணங்களில் பல இடங்களில் மழை அல்லது இடியுடன் கூடிய மழை பெய்யும் என்று எதிர்பார்க்கப்படுகிறது. இதற்கிடையில், பிற்பகல் 1 மணிக்குப் பிறகு நாட்டின் பிற பகுதிகளில் மழை அல்லது இடியுடன் கூடிய மழை பெய்யும் என்று வானிலை ஆய்வு மையம் எச்சரித்துள்ளதுடன், இடியுடன் கூடிய மழையின் போது தற்காலிகமாக பலத்த காற்று மற்றும் இடியுடன் கூடிய மழை பெய்யும் என்று எச்சரித்துள்ளதுடன், தேவையான முன்னெச்சரிக்கை நடவடிக்கைகளை எடுக்குமாறு பொதுமக்களை வலியுறுத்தியுள்ளது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-07T01:06:49.136509+00:00"
+  },
+  {
+   "id": "7c128b9ed9a1",
+   "type": "auto",
+   "title": "JAAF calls for evidence before Colombo Port charging rules are changed",
+   "summary": "Apparel industry says a US$50 million forex leakage claim needs to be tested, and that exporters need cost certainty The Joint Apparel Association Forum (JAAF) is calling on the authorities to test a reported claim that Sri Lanka “could be losing” more than US$50 million a year in foreign exchange…",
+   "link": "http://island.lk/jaaf-calls-for-evidence-before-colombo-port-charging-rules-are-changed/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/JAAF-Logo.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-06T23:58:54+00:00",
+   "fetched": "2026-11-07T01:04:26.743444+00:00",
+   "page_chars": 8000,
+   "ai_title": "கொழும்பு துறைமுக சார்ஜிங் விதிகள் மாற்றப்படுவதற்கு முன்னர் JAAF ஆதாரங்களை கோருகிறது",
+   "title_ta": "கொழும்பு துறைமுக சார்ஜிங் விதிகள் மாற்றப்படுவதற்கு முன்னர் JAAF ஆதாரங்களை கோருகிறது",
+   "ai_summary": "ஏற்றுமதியாளர்கள் நம்பியிருக்கும் விதிகளில் ஏதேனும் மாற்றங்கள் செய்யப்படுவதற்கு முன்னர், கொழும்பு துறைமுக சார்ஜிங் ஏற்பாடுகள் மூலம் இலங்கை ஆண்டுக்கு 50 மில்லியன் அமெரிக்க டாலருக்கும் அதிகமான அந்நிய செலாவணியை இழக்கக்கூடும் என்ற புகாரளிக்கப்பட்ட கூற்றை சோதிக்குமாறு கூட்டு ஆடைகள் சங்க மன்றம் (JAAF) அதிகாரிகளுக்கு அழைப்பு விடுத்துள்ளது.",
+   "ai_body": [
+    "ஏற்றுமதியாளர்கள் நம்பியிருக்கும் விதிகளில் ஏதேனும் மாற்றங்கள் செய்யப்படுவதற்கு முன்னர், கொழும்பு துறைமுக சார்ஜிங் ஏற்பாடுகள் மூலம் இலங்கை ஆண்டுக்கு 50 மில்லியன் அமெரிக்க டாலருக்கும் அதிகமான அந்நிய செலாவணியை இழக்கக்கூடும் என்ற புகாரளிக்கப்பட்ட கூற்றை சோதிக்குமாறு கூட்டு ஆடைகள் சங்க மன்றம் (JAAF) அதிகாரிகளுக்கு அழைப்பு விடுத்துள்ளது. $ இந்த கோரிக்கையை இலங்கை சரக்கு மற்றும் தளவாட சங்கம் (CEYFFA) முன்வைத்தது, அதன் பொதுச் செயலாளர் இனாம் காஃபூர், 31 அக்டோபர் 2026 அன்று சண்டே தீவில் நடந்த பத்திரிகையாளர் சந்திப்பில் அதை எழுப்பினார்.",
+    "அறிக்கை எந்த ஆதாரத்தையும் வழங்கவில்லை, கணக்கீடு, காலம், கொள்கலன் அளவு அல்லது பரிவர்த்தனைத் தரவை வழங்கவில்லை, மேலும் அதன் சொற்கள் \"முடியும்\", \"உள்ளது\" அல்ல."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-07T01:06:51.368741+00:00"
+  },
+  {
+   "id": "166051392f80",
+   "type": "auto",
+   "title": "A shameful bid to fleece consumers fails",
+   "summary": "Saturday 7th November, 2026 Those who welcomed the 2024 regime change, hoping that the new government would do everything possible to improve their lot, must be gnashing their teeth. Powerful rice millers have become a law unto themselves, determining prices according to their whims and fancies…",
+   "link": "http://island.lk/a-shameful-bid-to-fleece-consumers-fails/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/03/edit-1-1-1000x600.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-06T23:47:30+00:00",
+   "fetched": "2026-11-07T01:04:26.743444+00:00",
+   "page_chars": 8000,
+   "ai_title": "வாடிக்கையாளர்களை ஏமாற்றுவதற்கான வெட்கக்கேடான முயற்சி தோல்வியடைகிறது",
+   "title_ta": "வாடிக்கையாளர்களை ஏமாற்றுவதற்கான வெட்கக்கேடான முயற்சி தோல்வியடைகிறது",
+   "ai_summary": "2024 ஆட்சி மாற்றத்தை வரவேற்றவர்கள், புதிய அரசாங்கம் தங்கள் பங்கை மேம்படுத்த தங்களால் முடிந்த அனைத்தையும் செய்யும் என்று நம்பி, தங்கள் பற்களைக் கடித்துக் கொண்டிருக்க வேண்டும்.",
+   "ai_body": [
+    "2024 ஆட்சி மாற்றத்தை வரவேற்றவர்கள், புதிய அரசாங்கம் தங்கள் பங்கை மேம்படுத்த தங்களால் முடிந்த அனைத்தையும் செய்யும் என்று நம்பி, தங்கள் பற்களைக் கடித்துக் கொண்டிருக்க வேண்டும். சக்திவாய்ந்த அரிசி ஆலைகள் தங்களுக்கு ஒரு சட்டமாக மாறிவிட்டன, அவற்றின் விருப்பங்களுக்கும் ஆசைகளுக்கும் ஏற்ப விலைகளை நிர்ணயித்தன, அரசாங்கம் அவற்றைக் கட்டுப்படுத்த விலைமதிப்பற்றதைச் செய்தது.",
+    "அத்தியாவசியப் பொருட்களின் இறக்குமதியாளர்கள் அவர்கள் விருப்பப்படி செய்கிறார்கள். அரச நிறுவனங்களும் சிறப்பாக இல்லை.",
+    "அவர்களும் பொதுமக்களைத் துரத்துகிறார்கள். எரிபொருள் விலைகள் தன்னிச்சையாக திருத்தப்படுகின்றன மற்றும் வெளிப்படைத்தன்மைக்கான அழைப்புகள் கவனிக்கப்படாமல் போகின்றன.",
+    "தேசிய கணினி ஆபரேட்டர் (NSO) சமீபத்தில் 2026 ஆம் ஆண்டின் நான்காம் காலாண்டில் 2.88% மின் கட்டண உயர்வைக் கோரியது, எதிர்பார்க்கப்படும் வருவாய் பற்றாக்குறை ரூ. 4.4 பில்லியன்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-07T01:06:53.430107+00:00"
+  },
+  {
+   "id": "41972fb7ed8e",
+   "type": "auto",
+   "title": "Former Krrish Company Director Janaki Siriwardhana further remanded",
+   "summary": "Former Krrish Company Director Janaki Siriwardhana was further remanded until November 20 by the Colombo Chief Magistrate’s Court yesterday. The case was taken up before Colombo Chief Magistrate Asanga S. Bodaragama, who also ordered that former Parliamentarian Namal Rajapaksa be produced before…",
+   "link": "http://island.lk/former-krrish-company-director-janaki-siriwardhana-further-remanded/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/Former-Krrish-Company.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-06T23:45:45+00:00",
+   "fetched": "2026-11-07T01:04:26.743444+00:00",
+   "page_chars": 4887,
+   "ai_title": "கிரிஷ் நிறுவனத்தின் முன்னாள் இயக்குனர் ஜானகி சிரிவர்தனா மேலும் ரிமாண்ட் செய்யப்பட்டார்",
+   "title_ta": "கிரிஷ் நிறுவனத்தின் முன்னாள் இயக்குனர் ஜானகி சிரிவர்தனா மேலும் ரிமாண்ட் செய்யப்பட்டார்",
+   "ai_summary": "கிரிஷ் நிறுவனத்தின் முன்னாள் பணிப்பாளர் ஜானகி சிறிவர்தன நேற்று கொழும்பு பிரதான நீதவான் நீதிமன்றத்தினால் நவம்பர் 20 ஆம் திகதி வரை விளக்கமறியலில் வைக்கப்பட்டார்.",
+   "ai_body": [
+    "கிரிஷ் நிறுவனத்தின் முன்னாள் பணிப்பாளர் ஜானகி சிறிவர்தன நேற்று கொழும்பு பிரதான நீதவான் நீதிமன்றத்தினால் நவம்பர் 20 ஆம் திகதி வரை விளக்கமறியலில் வைக்கப்பட்டார். இந்த வழக்கு கொழும்பு தலைமை நீதவான் அசங்கா எஸ்.",
+    "போடரகம முன்னிலையில் விசாரணைக்கு எடுத்துக் கொள்ளப்பட்டது. அவர் முன்னாள் பாராளுமன்ற உறுப்பினர் நாமல் ராஜபக்ஷவை அடுத்த விசாரணை தேதியில் நீதிமன்றத்தில் ஆஜர்படுத்த உத்தரவிட்டார்.",
+    "இந்த வழக்கு தொடர்பாக நவம்பர் 03 அன்று ராஜபக்சேவுக்கு கொழும்பு மாஜிஸ்திரேட் நீதிமன்றம் ஜாமீன் வழங்கியிருந்தாலும், கொழும்பில் உள்ள நிரந்தர உயர்நீதிமன்ற விசாரணைக்கு முன்பாக விசாரிக்கப்பட்டு வரும் ஏர்பஸ் ஊழல் வழக்கு தொடர்பாக அவர் காவலில் வைக்கப்பட்டுள்ளார். ராஜபக்சேவுக்கு ரூ."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-07T01:06:55.313940+00:00"
+  },
+  {
+   "id": "0b867a9da157",
+   "type": "auto",
+   "title": "Over 55,000 use Nagapattinam-KKS ferry",
+   "summary": "More than 55,000 passengers have used the passenger ferry service between India’s Nagapattinam and Kankesanthurai (KKS) during its two-and-a-half years of operation, with the operator announcing a reduction in fares and an increase in the free baggage allowance. The ferry operator said 55,310…",
+   "link": "http://island.lk/over-55000-use-nagapattinam-kks-ferry/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/Over-55000-use-Nagapattinam-1.jpg",
+   "lang": "en",
+   "category": "jaffna",
+   "tags": [
+    "jaffna",
+    "world",
+    "srilanka"
+   ],
+   "published": "2026-11-06T23:45:22+00:00",
+   "fetched": "2026-11-07T01:04:26.743444+00:00",
+   "page_chars": 6329,
+   "ai_title": "நாகப்பட்டினம்-கே.கே.எஸ் படகில் 55,000 க்கும் மேற்பட்டோர் பயன்படுத்துகின்றனர்",
+   "title_ta": "நாகப்பட்டினம்-கே.கே.எஸ் படகில் 55,000 க்கும் மேற்பட்டோர் பயன்படுத்துகின்றனர்",
+   "ai_summary": "இந்தியாவின் நாகப்பட்டினம் மற்றும் காங்கேசன்துறை (KKS) இடையேயான இரண்டரை ஆண்டுகால செயல்பாட்டின் போது 55,000 க்கும் மேற்பட்ட பயணிகள் பயணிகள் பயணிகள் படகு சேவையைப் பயன்படுத்தியுள்ளனர், ஆபரேட்டர் கட்டணங்களைக் குறைப்பதாகவும், இலவச சாமான்கள் கொடுப்பனவு அதிகரிப்பதாகவும் அறிவித்தார்.",
+   "ai_body": [
+    "இந்தியாவின் நாகப்பட்டினம் மற்றும் காங்கேசன்துறை (KKS) இடையேயான இரண்டரை ஆண்டுகால செயல்பாட்டின் போது 55,000 க்கும் மேற்பட்ட பயணிகள் பயணிகள் பயணிகள் படகு சேவையைப் பயன்படுத்தியுள்ளனர், ஆபரேட்டர் கட்டணங்களைக் குறைப்பதாகவும், இலவச சாமான்கள் கொடுப்பனவு அதிகரிப்பதாகவும் அறிவித்தார். இந்த சேவை தொடங்கப்பட்டதிலிருந்து மத, சுற்றுலா மற்றும் வணிக நோக்கங்களுக்காக 55,310 பயணிகள் இரு நாடுகளுக்கும் இடையில் பயணம் செய்ததாக படகு ஆபரேட்டர் தெரிவித்தார்.",
+    "சமீபத்திய பண்டிகை கால சலுகையின் கீழ், ஒரு வழி கட்டணம் 6,000 ரூபாயிலிருந்து 5,500 ரூபாயாக குறைக்கப்பட்டுள்ளது. பயணிகள் 30 கிலோ வரை சாமான்களை இலவசமாக எடுத்துச் செல்ல அனுமதிக்கப்படுவார்கள்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-07T01:06:47.008650+00:00"
+  },
+  {
+   "id": "e69eeaaf8b26",
+   "type": "auto",
+   "title": "Nearly 540 Polish tourists arrive as tourism season gets underway",
+   "summary": "Sri Lanka’s tourism season got off to a strong start on Friday with nearly 540 Polish tourists arriving on three special charter flights at Bandaranaike International Airport, boosting efforts to attract more visitors from Europe. Operated by Polish carrier Enter Air, the three flights arrived in…",
+   "link": "http://island.lk/nearly-540-polish-tourists-arrive-as-tourism-season-gets-underway/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/Nearly-540-Polish-1.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-06T23:45:18+00:00",
+   "fetched": "2026-11-07T01:04:26.743444+00:00",
+   "page_chars": 5865,
+   "ai_title": "சுற்றுலா பருவம் தொடங்கும்போது கிட்டத்தட்ட 540 போலந்து சுற்றுலாப் பயணிகள் வருகிறார்கள்",
+   "title_ta": "சுற்றுலா பருவம் தொடங்கும்போது கிட்டத்தட்ட 540 போலந்து சுற்றுலாப் பயணிகள் வருகிறார்கள்",
+   "ai_summary": "இலங்கையின் சுற்றுலாப் பருவம் வெள்ளிக்கிழமை ஒரு வலுவான தொடக்கத்திற்கு வந்தது, கிட்டத்தட்ட 540 போலந்து சுற்றுலாப் பயணிகள் பண்டாரநாயக்க சர்வதேச விமான நிலையத்தில் மூன்று சிறப்பு பட்டய விமானங்களில் வந்தனர், இது ஐரோப்பாவில் இருந்து அதிகமான பார்வையாளர்களை ஈர்க்கும் முயற்சிகளை அதிகரித்தது.",
+   "ai_body": [
+    "இலங்கையின் சுற்றுலாப் பருவம் வெள்ளிக்கிழமை ஒரு வலுவான தொடக்கத்திற்கு வந்தது, கிட்டத்தட்ட 540 போலந்து சுற்றுலாப் பயணிகள் பண்டாரநாயக்க சர்வதேச விமான நிலையத்தில் மூன்று சிறப்பு பட்டய விமானங்களில் வந்தனர், இது ஐரோப்பாவில் இருந்து அதிகமான பார்வையாளர்களை ஈர்க்கும் முயற்சிகளை அதிகரித்தது. போலந்து கேரியர் என்டர் ஏர் மூலம் இயக்கப்படும் இந்த மூன்று விமானங்களும் இரண்டு மணி நேர காலத்திற்குள் கதுநாயக்கவை வந்தடைந்தன, உச்ச பயணக் காலத்தின் போது இலங்கைக்கு வருகை தரும் விடுமுறை பயணிகளை ஏற்றிச் சென்றன.",
+    "ENT 7607 விமானம் காலை 7.40 மணிக்கு கடோவைஸிலிருந்து வந்தது, அதைத் தொடர்ந்து ENT 1913 காலை 8.25 மணிக்கு போஸ்னனில் இருந்தும், ENT 1561 காலை 9.40 மணிக்கு வார்சாவில் இருந்தும் வந்தது. ஒவ்வொரு விமானமும் கிட்டத்தட்ட 180 பயணிகள் மற்றும் பணியாளர்களை ஏற்றிச் சென்றது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-07T01:06:57.183731+00:00"
+  },
+  {
+   "id": "fc96c5215275",
+   "type": "auto",
+   "title": "Court extends freeze on Rakitha Rajapakshe’s assets",
+   "summary": "The Colombo High Court on Thursday ordered the continued suspension of several bank accounts and vehicles belonging to lawyer Rakitha Rajapakshe, son of former Minister Wijedasa Rajapakshe, which had been frozen by the Commission to Investigate Allegations of Bribery or Corruption (CIABOC). The…",
+   "link": "http://island.lk/court-extends-freeze-on-rakitha-rajapakshes-assets/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/Court-extends-freeze-on-1.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-06T23:45:14+00:00",
+   "fetched": "2026-11-07T01:04:26.743444+00:00",
+   "page_chars": 5078,
+   "ai_title": "ரகிதா ராஜபக்சேவின் சொத்துக்களை முடக்க நீதிமன்றம் உத்தரவு",
+   "title_ta": "ரகிதா ராஜபக்சேவின் சொத்துக்களை முடக்க நீதிமன்றம் உத்தரவு",
+   "ai_summary": "லஞ்சம் அல்லது ஊழல் குற்றச்சாட்டுகளை விசாரிக்கும் ஆணைக்குழுவால் (CIABOC) முடக்கப்பட்ட முன்னாள் அமைச்சர் விஜேதாச ராஜபக்ஷவின் மகன் வழக்கறிஞர் ரகிதா ராஜபக்ஷவின் பல வங்கிக் கணக்குகள் மற்றும் வாகனங்களை தொடர்ந்து இடைநிறுத்த கொழும்பு உயர் நீதிமன்றம் வியாழக்கிழமை உத்தரவிட்டது.",
+   "ai_body": [
+    "லஞ்சம் அல்லது ஊழல் குற்றச்சாட்டுகளை விசாரிக்கும் ஆணைக்குழுவால் (CIABOC) முடக்கப்பட்ட முன்னாள் அமைச்சர் விஜேதாச ராஜபக்ஷவின் மகன் வழக்கறிஞர் ரகிதா ராஜபக்ஷவின் பல வங்கிக் கணக்குகள் மற்றும் வாகனங்களை தொடர்ந்து இடைநிறுத்த கொழும்பு உயர் நீதிமன்றம் வியாழக்கிழமை உத்தரவிட்டது. லஞ்ச ஆணைக்குழுவின் சமர்ப்பிப்புகளை பரிசீலித்த பின்னர் நீதிமன்றம் மூன்று மாத காலத்திற்கு இந்த உத்தரவை பிறப்பித்தது.",
+    "வங்கிக் கணக்குகள் மற்றும் வாகனங்கள் அதன் விசாரணையின் ஒரு பகுதியாக CIABOC ஆல் முன்பு இடைநிறுத்தப்பட்டன."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-07T01:06:59.014615+00:00"
+  },
+  {
+   "id": "c359fabc8971",
+   "type": "auto",
+   "title": "Eight Lankan universities slip in QS Asia rankings",
+   "summary": "Eight of Sri Lanka’s 12 universities included in the latest QS Asia University Rankings have slipped in the rankings, with the University of Colombo recording the biggest drop, according to QS Quacquarelli Symonds. The University of Colombo fell 46 places to 364th in Asia, but retained its position…",
+   "link": "http://island.lk/eight-lankan-universities-slip-in-qs-asia-rankings/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/Eight-Lankan-universities-1.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-06T23:45:10+00:00",
+   "fetched": "2026-11-07T01:04:26.743444+00:00",
+   "page_chars": 6162,
+   "ai_title": "QS ஆசிய தரவரிசையில் எட்டு இலங்கை பல்கலைக்கழகங்கள் சரிவு",
+   "title_ta": "QS ஆசிய தரவரிசையில் எட்டு இலங்கை பல்கலைக்கழகங்கள் சரிவு",
+   "ai_summary": "QS குவாக்கரெல்லி சைமண்ட்ஸின் கூற்றுப்படி, சமீபத்திய QS ஆசியா பல்கலைக்கழக தரவரிசையில் சேர்க்கப்பட்ட இலங்கையின் 12 பல்கலைக்கழகங்களில் எட்டு தரவரிசையில் சரிந்துள்ளன, கொழும்பு பல்கலைக்கழகம் மிகப்பெரிய வீழ்ச்சியைப் பதிவு செய்துள்ளது.",
+   "ai_body": [
+    "QS குவாக்கரெல்லி சைமண்ட்ஸின் கூற்றுப்படி, சமீபத்திய QS ஆசியா பல்கலைக்கழக தரவரிசையில் சேர்க்கப்பட்ட இலங்கையின் 12 பல்கலைக்கழகங்களில் எட்டு தரவரிசையில் சரிந்துள்ளன, கொழும்பு பல்கலைக்கழகம் மிகப்பெரிய வீழ்ச்சியைப் பதிவு செய்துள்ளது. கொழும்புப் பல்கலைக்கழகம் 46 இடங்கள் சரிந்து ஆசியாவில் 364 வது இடத்தைப் பிடித்தது, ஆனால் தொடர்ந்து ஐந்தாவது ஆண்டாக இப்பகுதியில் இலங்கையின் மிக உயர்ந்த தரவரிசைப் பல்கலைக்கழகமாகத் தனது நிலையைத் தக்க வைத்துக் கொண்டது.",
+    "பேராதனை பல்கலைக்கழகம் மற்றும் ஸ்ரீ ஜயவர்தனபுர பல்கலைக்கழகம் முறையே 389 மற்றும் 398 வது இடங்களைப் பெற்றுள்ளன. இருப்பினும், மொரட்டுவ பல்கலைக்கழகம் 37 இடங்கள் முன்னேறி 517 வது இடத்திற்கும், களனி பல்கலைக்கழகம் 44 இடங்கள் முன்னேறி 687 வது இடத்திற்கும் முன்னேறியது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-07T01:07:00.787476+00:00"
+  },
+  {
+   "id": "73304c93edff",
+   "type": "auto",
+   "title": "Open prisons, work camps considered to ease overcrowding",
+   "summary": "A Parliamentary committee is considering open prisons and work camps as measures to address prison overcrowding, alongside legal and administrative reforms aimed at reducing the number of inmates, Parliament sources said. The proposals were discussed when the Sectoral Oversight Committee on…",
+   "link": "http://island.lk/open-prisons-work-camps-considered-to-ease-overcrowding/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/Open-prisons-work-1-900x600.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-06T23:45:06+00:00",
+   "fetched": "2026-11-07T01:04:26.743444+00:00",
+   "page_chars": 6069,
+   "ai_title": "திறந்தவெளி சிறைச்சாலைகள், நெரிசலை எளிதாக்கும் வகையில் கருதப்படும் பணி முகாம்கள்",
+   "title_ta": "திறந்தவெளி சிறைச்சாலைகள், நெரிசலை எளிதாக்கும் வகையில் கருதப்படும் பணி முகாம்கள்",
+   "ai_summary": "கைதிகளின் எண்ணிக்கையைக் குறைப்பதை நோக்கமாகக் கொண்ட சட்ட மற்றும் நிர்வாக சீர்திருத்தங்களுடன், திறந்த சிறைச்சாலைகள் மற்றும் பணி முகாம்கள் சிறை நெரிசலை நிவர்த்தி செய்வதற்கான நடவடிக்கைகளாக நாடாளுமன்றக் குழு பரிசீலித்து வருவதாக நாடாளுமன்ற வட்டாரங்கள் தெரிவித்தன.",
+   "ai_body": [
+    "கைதிகளின் எண்ணிக்கையைக் குறைப்பதை நோக்கமாகக் கொண்ட சட்ட மற்றும் நிர்வாக சீர்திருத்தங்களுடன், திறந்த சிறைச்சாலைகள் மற்றும் பணி முகாம்கள் சிறை நெரிசலை நிவர்த்தி செய்வதற்கான நடவடிக்கைகளாக நாடாளுமன்றக் குழு பரிசீலித்து வருவதாக நாடாளுமன்ற வட்டாரங்கள் தெரிவித்தன. NPP MP டாக்டர் நஜித் இண்டிகா தலைமையில் சமீபத்தில் பாராளுமன்றத்தில் ஆளுகை, நீதி மற்றும் சிவில் பாதுகாப்பு தொடர்பான துறைசார் மேற்பார்வைக் குழு கூடியபோது இந்த திட்டங்கள் விவாதிக்கப்பட்டன.",
+    "சிறைகளில் நெரிசலை எளிதாக்குவதற்கான நடவடிக்கைகளை அடையாளம் காண குழு சம்பந்தப்பட்ட அதிகாரிகளுடன் கலந்துரையாடி வருகிறது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-07T01:07:02.784823+00:00"
+  },
+  {
+   "id": "d4654ac76526",
+   "type": "auto",
+   "title": "Lanka, Kazakhstan seek stronger economic and parliamentary ties",
+   "summary": "Sri Lanka and Kazakhstan are looking to further strengthen bilateral relations, with greater cooperation in investment, trade, agriculture, tourism and energy. The matter was discussed when Kazakhstan Ambassador to Sri Lanka Sergey Viktorov met Speaker of Parliament Dr. Jagath Wickramaratne at…",
+   "link": "http://island.lk/lanka-kazakhstan-seek-stronger-economic-and-parliamentary-ties/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/Lanka-Kazakhstan-1.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-06T23:45:02+00:00",
+   "fetched": "2026-11-07T01:04:26.743444+00:00",
+   "page_chars": 6151,
+   "ai_title": "இலங்கை, கஜகஸ்தான் வலுவான பொருளாதார மற்றும் பாராளுமன்ற உறவுகளை நாடுகின்றன",
+   "title_ta": "இலங்கை, கஜகஸ்தான் வலுவான பொருளாதார மற்றும் பாராளுமன்ற உறவுகளை நாடுகின்றன",
+   "ai_summary": "முதலீடு, வர்த்தகம், விவசாயம், சுற்றுலா மற்றும் எரிசக்தி ஆகியவற்றில் அதிக ஒத்துழைப்புடன் இலங்கையும் கஜகஸ்தானும் இருதரப்பு உறவுகளை மேலும் வலுப்படுத்த எதிர்பார்க்கின்றன.",
+   "ai_body": [
+    "முதலீடு, வர்த்தகம், விவசாயம், சுற்றுலா மற்றும் எரிசக்தி ஆகியவற்றில் அதிக ஒத்துழைப்புடன் இலங்கையும் கஜகஸ்தானும் இருதரப்பு உறவுகளை மேலும் வலுப்படுத்த எதிர்பார்க்கின்றன. இலங்கைக்கான கஜகஸ்தான் தூதர் செர்ஜி விக்டோரோவ் அண்மையில் பாராளுமன்ற சபாநாயகர் டாக்டர் ஜகத் விக்கிரமரத்னவை பாராளுமன்றத்தில் சந்தித்தபோது இந்த விவகாரம் விவாதிக்கப்பட்டது.",
+    "1992 ஆம் ஆண்டில் இராஜதந்திர உறவுகள் ஸ்தாபிக்கப்பட்டதிலிருந்து கஜகஸ்தானுடனான இலங்கையின் நீண்டகால நட்பை சபாநாயகர் மீண்டும் உறுதிப்படுத்தினார், மேலும் இருதரப்பு உறவுகளில் ஒரு முக்கியமான மைல்கல்லாக 2025 ஆம் ஆண்டில் கொழும்பில் கஜகஸ்தானின் முதல் குடியுரிமை தூதரகம் திறக்கப்படுவதை வரவேற்றார்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-07T01:07:04.719575+00:00"
+  },
+  {
+   "id": "0dbea76f3148",
+   "type": "auto",
+   "title": "Wins for CDB, Fairfirst Insurance. Hayleys Group ‘A’ and HNB ‘A’ on Thursday",
+   "summary": "11TH SINGER – MCA SUPER PREMIER T20 TOURNAMENT CDB and Hayleys Group ‘A’ registered six wicket wins in the morning while Fairfirst Insurance and HNB ‘A’ won on the DLS method in the afternoon when the 11th Singer – MCA Super Premier T20 Tournament continued on Thursday. In the Group A games played…",
+   "link": "http://island.lk/wins-for-cdb-fairfirst-insurance-hayleys-group-a-and-hnb-a-on-thursday/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/03/cricket-1.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-06T23:40:57+00:00",
+   "fetched": "2026-11-07T01:04:26.743444+00:00",
+   "page_chars": 8000
+  },
   {
    "id": "394f81435152",
    "type": "auto",
@@ -758,7 +1051,7 @@
    ],
    "published": "2026-11-06T10:37:07+00:00",
    "fetched": "2026-11-06T15:46:55.304789+00:00",
-   "page_chars": 507,
+   "page_chars": 0,
    "ai_thin": true,
    "ai_thin_chars": 507
   },
@@ -1555,7 +1848,7 @@
    ],
    "published": "2026-11-06T01:54:26+00:00",
    "fetched": "2026-11-06T07:47:18.007863+00:00",
-   "page_chars": 2930
+   "page_chars": 3049
   },
   {
    "id": "3fc26895693b",
@@ -1591,7 +1884,7 @@
    ],
    "published": "2026-11-06T00:06:08+00:00",
    "fetched": "2026-11-06T07:47:18.007863+00:00",
-   "page_chars": 8000
+   "page_chars": 7733
   },
   {
    "id": "4a073052a9ba",
@@ -1628,7 +1921,7 @@
    ],
    "published": "2026-11-06T00:04:58+00:00",
    "fetched": "2026-11-06T07:47:18.007863+00:00",
-   "page_chars": 8000
+   "page_chars": 7873
   },
   {
    "id": "6d9654462328",
@@ -1646,7 +1939,7 @@
    ],
    "published": "2026-11-06T00:01:53+00:00",
    "fetched": "2026-11-06T07:47:18.007863+00:00",
-   "page_chars": 8000
+   "page_chars": 6602
   },
   {
    "id": "4a57dd8b009b",
@@ -8346,265 +8639,6 @@
    "published": "2026-11-02T13:09:10+00:00",
    "fetched": "2026-11-02T18:43:39.983966+00:00",
    "page_chars": 1910
-  },
-  {
-   "id": "efbd7df1773b",
-   "type": "auto",
-   "title": "Indian and Sri Lankan navies hold joint exercise as training ships leave Colombo",
-   "summary": "ICGS Sarathi leaves the port of Colombo. Photograph: Sri Lanka Navy Indian Navy training ships have held a joint exercise with the Sri Lankan Navy off the west coast as they ended their visit to Colombo, the latest in a series of military exchanges between the two countries. INS Tir, INS Sujata and…",
-   "link": "http://www.tamilguardian.com/content/indian-and-sri-lankan-navies-hold-joint-exercise-training-ships-leave-colombo",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/Sri%20Lanka/261030%20Indian%20ships%20depart%20%281%29.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world",
-    "jaffna"
-   ],
-   "published": "2026-11-02T12:52:42+00:00",
-   "fetched": "2026-11-02T18:43:39.983966+00:00",
-   "page_chars": 2245
-  },
-  {
-   "id": "8449ac1b35c9",
-   "type": "auto",
-   "title": "Sri Lankan Navy organises Buddhist ceremony on Tamil island of Nainativu",
-   "summary": "Sri Lankan naval officers carry the Katina robe in procession on Nainativu. Photograph: Sri Lanka Navy The Sri Lankan Navy organised and hosted a Buddhist robe-offering ceremony at the Nagadeepa vihara on the Tamil island of Nainativu this week, with sailors carrying the robe in procession around…",
-   "link": "http://www.tamilguardian.com/content/sri-lankan-navy-organises-buddhist-ceremony-tamil-island-nainativu",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/Sri%20Lanka/261030%20Nainativu%20Katina%20navy%20%281%29.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "jaffna"
-   ],
-   "published": "2026-11-02T12:52:08+00:00",
-   "fetched": "2026-11-02T18:43:39.983966+00:00",
-   "page_chars": 2648
-  },
-  {
-   "id": "edda20809710",
-   "type": "auto",
-   "title": "Met Department forecasts heavy showers in several areas over next 36 hours",
-   "summary": "Showers or thundershowers will occur after 1.00 PM in the North-Central, North-Western, Central, Uva, Sabaragamuwa, Western and Southern provinces, as Continue Reading The post Met Department forecasts heavy showers in several areas over next 36 hours appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/11/02/met-department-forecasts-heavy-showers-in-several-areas-over-next-36-hours/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/images-54.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-11-02T12:44:42+00:00",
-   "fetched": "2026-11-02T18:43:39.983966+00:00",
-   "page_chars": 630
-  },
-  {
-   "id": "d715e44cea28",
-   "type": "auto",
-   "title": "Joseph Stalin accuses JVP of abandoning opposition to repressive laws",
-   "summary": "Joseph Stalin, general secretary of the Ceylon Teachers’ Union Ceylon Teachers’ Union general secretary Joseph Stalin has accused the ruling Janatha Vimukthi Peramuna (JVP) of abandoning its opposition to repressive laws, warning that the proposed Protection of the State from Terrorism Bill (PSTA)…",
-   "link": "http://www.tamilguardian.com/content/joseph-stalin-accuses-jvp-abandoning-opposition-repressive-laws",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/261101joseph/image_93ea588f16.jpg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna"
-   ],
-   "published": "2026-11-02T11:47:59+00:00",
-   "fetched": "2026-11-02T18:43:39.983966+00:00",
-   "page_chars": 3051,
-   "ai_title": "அடக்குமுறைச் சட்டங்களுக்கு எதிரான எதிர்ப்பை ஜேவிபி கைவிட்டதாக ஜோசப் ஸ்டாலின் குற்றம் சாட்டுகிறார்",
-   "title_ta": "அடக்குமுறைச் சட்டங்களுக்கு எதிரான எதிர்ப்பை ஜேவிபி கைவிட்டதாக ஜோசப் ஸ்டாலின் குற்றம் சாட்டுகிறார்",
-   "ai_summary": "இலங்கை ஆசிரியர் சங்கத்தின் பொதுச் செயலாளர் ஜோசப் ஸ்டாலின், ஆளும் மக்கள் விடுதலை முன்னணி (ஜே .வி.பி) அடக்குமுறைச் சட்டங்களுக்கு எதிரான எதிர்ப்பை கைவிட்டதாக குற்றம் சாட்டியுள்ளார்.",
-   "ai_body": [
-    "இலங்கை ஆசிரியர் சங்கத்தின் பொதுச் செயலாளர் ஜோசப் ஸ்டாலின், ஆளும் மக்கள் விடுதலை முன்னணி (ஜே .வி.பி) அடக்குமுறைச் சட்டங்களுக்கு எதிரான எதிர்ப்பை கைவிட்டதாக குற்றம் சாட்டியுள்ளார். மேலும், முன்மொழியப்பட்ட பயங்கரவாத மசோதா (பி.எஸ் .டி.ஏ) தொழிற்சங்கங்கள், தொழிலாளர்களின் போராட்டங்கள் மற்றும் ஜனநாயக உரிமைகளை நசுக்குவதை நோக்கமாகக் கொண்டுள்ளது என்றும் எச்சரித்துள்ளார்.",
-    "\"ஒரு காலத்தில் அடக்குமுறைச் சட்டங்களுக்கு எதிராகப் போராடியவர்கள் இப்போது ஆட்சிக்கு வந்தபின் இதேபோன்ற மசோதாவைப் பாதுகாத்து நியாயப்படுத்துகிறார்கள் என்பது வெட்கக்கேடானது\" என்று ஸ்டாலின் சனிக்கிழமை (அக்டோபர் 31) தொழிற்சங்க அலுவலகத்தில் செய்தியாளர் கூட்டத்தில் கூறினார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-11-02T18:45:53.383641+00:00"
-  },
-  {
-   "id": "c3f9191f4371",
-   "type": "auto",
-   "title": "Sinhala-only police order demands demolition of Thileepan memorial",
-   "summary": "Lt Col Thileepan's memorial in Nallur Jaffna’s Sri Lankan Deputy Inspector General of Police has ordered the Jaffna Municipal Council to immediately demolish what he called unauthorised structures at the memorial to Lt Col Thileepan in Nallur, in a letter written only in Sinhala. The letter claims…",
-   "link": "http://www.tamilguardian.com/content/sinhala-only-police-order-demands-demolition-thileepan-memorial",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/260926%20thileepan%20statue%20removal/260926%20thileepan%20statue%20removal%202.jpeg",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna",
-    "srilanka"
-   ],
-   "published": "2026-11-02T11:34:06+00:00",
-   "fetched": "2026-11-02T18:43:39.983966+00:00",
-   "page_chars": 2717,
-   "ai_title": "திலீபன் நினைவுச்சின்னத்தை இடிக்கக் கோரி சிங்கள-மட்டுமே பொலிஸ் உத்தரவு",
-   "title_ta": "திலீபன் நினைவுச்சின்னத்தை இடிக்கக் கோரி சிங்கள-மட்டுமே பொலிஸ் உத்தரவு",
-   "ai_summary": "நல்லூரில் உள்ள லெப்டினன்ட் கர்னல் திலீபனுக்கு நினைவுச்சின்னத்தில் அங்கீகரிக்கப்படாத கட்டமைப்புகள் என்று அவர் அழைத்ததை உடனடியாக சிங்களத்தில் மட்டுமே எழுதிய கடிதத்தில் இடிக்குமாறு யாழ்ப்பாண பிரதி பொலிஸ் மா அதிபர் யாழ்ப்பாண மாநகர சபைக்கு உத்தரவிட்டுள்ளார்.",
-   "ai_body": [
-    "நல்லூரில் உள்ள லெப்டினன்ட் கர்னல் திலீபனுக்கு நினைவுச்சின்னத்தில் அங்கீகரிக்கப்படாத கட்டமைப்புகள் என்று அவர் அழைத்ததை உடனடியாக சிங்களத்தில் மட்டுமே எழுதிய கடிதத்தில் இடிக்குமாறு யாழ்ப்பாண பிரதி பொலிஸ் மா அதிபர் யாழ்ப்பாண மாநகர சபைக்கு உத்தரவிட்டுள்ளார். நகராட்சி ஒப்புதல் இல்லாமல் கட்டமைப்புகள் கட்டமைக்கப்பட்டன என்றும், அவை பொதுமக்களிடையே நடந்த போரின் \"நினைவுகளைத் தூண்டக்கூடும்\" என்றும், \"இன நல்லிணக்கத்தை\" குறைமதிப்பிற்கு உட்படுத்தக்கூடும் என்றும் அந்தக் கடிதம் கூறுகிறது, இவை உடனடியாக அகற்றப்படுவதற்கான காரணங்களாக மேற்கோள் காட்டுகின்றன.",
-    "இந்த நினைவுச்சின்னம் நல்லூர் காந்தசாமி கோயிலின் பின்புற சாலையில், நீண்ட கால அடிப்படையில் நகராட்சி மன்றத்திற்கு குத்தகைக்கு விடப்பட்ட கோயில் நிலத்தில் உள்ளது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-11-02T18:45:55.692788+00:00"
-  },
-  {
-   "id": "2a85ac268ae4",
-   "type": "auto",
-   "title": "Mannar fishermen blame wind turbines for plunging catches and flooding",
-   "summary": "A child holds a placard against wind turbines during a protest in Mannar last year Fishermen and residents in Mannar say wind turbines built on the island have led to plunging fish catches, smaller fish and flooding, as the Sri Lankan government pushes ahead with plans to expand renewable energy…",
-   "link": "http://www.tamilguardian.com/content/mannar-wind-farms-face-opposition-over-declining-fish-catches-and-flooding-concerns",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2025/North-East/250819mannar/250819mannar5.JPG",
-   "lang": "en",
-   "category": "jaffna",
-   "tags": [
-    "jaffna",
-    "srilanka"
-   ],
-   "published": "2026-11-02T11:16:09+00:00",
-   "fetched": "2026-11-02T18:43:39.983966+00:00",
-   "page_chars": 2738,
-   "ai_title": "மன்னார் மீனவர்கள் காற்றாலை விசையாழிகளைப் பிடிப்பது மற்றும் வெள்ளப்பெருக்குக்குக் காரணம் என்று குற்றம் சாட்டுகின்றனர்",
-   "title_ta": "மன்னார் மீனவர்கள் காற்றாலை விசையாழிகளைப் பிடிப்பது மற்றும் வெள்ளப்பெருக்குக்குக் காரணம் என்று குற்றம் சாட்டுகின்றனர்",
-   "ai_summary": "கடந்த ஆண்டு மன்னாரில் நடந்த ஆர்ப்பாட்டத்தின் போது காற்றாலை விசையாழிகளுக்கு எதிராக ஒரு குழந்தை பலகை வைத்திருந்தது.",
-   "ai_body": [
-    "கடந்த ஆண்டு மன்னாரில் நடந்த ஆர்ப்பாட்டத்தின் போது காற்றாலை விசையாழிகளுக்கு எதிராக ஒரு குழந்தை பலகை வைத்திருந்தது. தீவில் கட்டப்பட்ட காற்றாலை விசையாழிகள் மீன்பிடித்தல், சிறிய மீன்கள் மற்றும் வெள்ளப்பெருக்குக்கு வழிவகுத்ததாக மீனவர்கள் மற்றும் மன்னாரில் வசிப்பவர்கள் கூறுகின்றனர், ஏனெனில் இலங்கை அரசாங்கம் தமிழர் தாயகம் முழுவதும் புதுப்பிக்கத்தக்க ஆற்றலை விரிவுபடுத்தும் திட்டங்களுடன் முன்னேறுகிறது.",
-    "104 மெகாவாட் ஒருங்கிணைந்த திறன் கொண்ட முதல் 30 டர்பைன்கள் 2020 ஆம் ஆண்டில் மன்னார் தீவில் உள்ள கட்டத்துடன் இணைக்கப்பட்டன, மேலும் 14 டர்பைன்களின் கட்டுமானம் தொடங்கப்பட்டுள்ளது. விசையாழிகள் அதிகரித்ததால், மீனவர்கள் தங்கள் பிடிப்புகள் கடுமையாகக் குறைந்துவிட்டதாகவும், அவர்கள் தரையில் செய்யும் மீன்கள் சிறியவை என்றும் AFP அக்டோபர் 25 அன்று தெரிவித்துள்ளது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-11-02T18:45:58.141030+00:00"
-  },
-  {
-   "id": "d41641bcd1fe",
-   "type": "auto",
-   "title": "IFC discusses investment in Sri Lanka’s agriculture, fisheries and tourism",
-   "summary": "The IFC delegation meets Sri Lanka’s deputy finance minister Anil Jayantha Fernando at the Ministry of Finance The International Finance Corporation (IFC), the World Bank Group’s private sector arm, has discussed investing in Sri Lanka’s agriculture, fisheries, tourism, transport and logistics…",
-   "link": "http://www.tamilguardian.com/content/ifc-explores-investment-opportunities-sri-lankas-key-development-sectors",
-   "source": "Tamil Guardian",
-   "source_domain": "tamilguardian.com",
-   "image": "http://www.tamilguardian.com/sites/default/files/Image/pictures/2026/North-East/261101IFC/861916224_122172293330423431_8459505922645758839_n-1536x787.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world",
-    "jaffna"
-   ],
-   "published": "2026-11-02T11:06:49+00:00",
-   "fetched": "2026-11-02T18:43:39.983966+00:00",
-   "page_chars": 2536
-  },
-  {
-   "id": "4719bc5a566b",
-   "type": "auto",
-   "title": "Wildlife Department launches investigation after tusker found dead with tusk removed",
-   "summary": "Investigations have been launched after a tusker was found dead with its left tusk cut off and removed in a Continue Reading The post Wildlife Department launches investigation after tusker found dead with tusk removed appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/11/02/wildlife-department-launches-investigation-after-tusker-found-dead-with-tusk-removed/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/Tusker-death.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-11-02T07:59:47+00:00",
-   "fetched": "2026-11-02T08:02:37.109109+00:00",
-   "page_chars": 1319,
-   "ai_title": "கொம்பு அகற்றப்பட்ட நிலையில் கொம்பு இறந்து கிடந்ததை அடுத்து வனவிலங்குத் துறை விசாரணையைத் தொடங்குகிறது",
-   "title_ta": "கொம்பு அகற்றப்பட்ட நிலையில் கொம்பு இறந்து கிடந்ததை அடுத்து வனவிலங்குத் துறை விசாரணையைத் தொடங்குகிறது",
-   "ai_summary": "கஹதகஸ்டிகிலியாவில் உள்ள ஒரு வனப்பகுதியில் இடது தண்டு துண்டிக்கப்பட்டு அகற்றப்பட்ட நிலையில் ஒரு தண்டு இறந்து கிடந்ததை அடுத்து விசாரணைகள் தொடங்கப்பட்டுள்ளன என்று வனவிலங்கு பாதுகாப்புத் துறை தெரிவித்துள்ளது.",
-   "ai_body": [
-    "கஹதகஸ்டிகிலியாவில் உள்ள ஒரு வனப்பகுதியில் இடது தண்டு துண்டிக்கப்பட்டு அகற்றப்பட்ட நிலையில் ஒரு தண்டு இறந்து கிடந்ததை அடுத்து விசாரணைகள் தொடங்கப்பட்டுள்ளன என்று வனவிலங்கு பாதுகாப்புத் துறை தெரிவித்துள்ளது. மீமின்னவாலா கிராம நிலதாரி பிரிவுக்குள் கயாகொலேவா தொட்டிக்கு அருகிலுள்ள நெல் வயலை ஒட்டியுள்ள வனப்பகுதியில் வனவிலங்கு அதிகாரிகளால் ஞாயிற்றுக்கிழமை (01) சடலம் கண்டுபிடிக்கப்பட்டது.",
-    "வனவிலங்கு அதிகாரிகளின் கூற்றுப்படி, டஸ்கர் அதன் உடல் கண்டுபிடிக்கப்படுவதற்கு சுமார் ஒரு வாரத்திற்கு முன்பு இறந்துவிட்டதாக நம்பப்படுகிறது. விலங்கின் இடது தண்டு அதன் மரணத்திற்குப் பிறகு ஒரு ஆயுதத்தைப் பயன்படுத்தி துண்டிக்கப்பட்டதாக முதற்கட்ட அவதானிப்புகள் தெரிவிக்கின்றன."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-11-02T08:05:40.890618+00:00"
-  },
-  {
-   "id": "9e2cc009ecbd",
-   "type": "auto",
-   "title": "Kobeigane custodial death: Police Sergeant further remanded",
-   "summary": "A Police Sergeant arrested in connection with the death of a suspect while in police custody at the Kobeigane Police Continue Reading The post Kobeigane custodial death: Police Sergeant further remanded appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/11/02/kobeigane-custodial-death-police-sergeant-further-remanded/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/Kobeigane-suspect-death.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-11-02T07:52:46+00:00",
-   "fetched": "2026-11-02T08:02:37.109109+00:00",
-   "page_chars": 822,
-   "ai_title": "கோபிகேன் காவலில் மரணம்: போலீஸ் சார்ஜென்ட் மேலும் காவலில் வைக்கப்பட்டார்",
-   "title_ta": "கோபிகேன் காவலில் மரணம்: போலீஸ் சார்ஜென்ட் மேலும் காவலில் வைக்கப்பட்டார்",
-   "ai_summary": "கோபிகானே காவல் நிலையத்தில் பொலிஸ் காவலில் இருந்தபோது சந்தேக நபரின் மரணம் தொடர்பாக கைது செய்யப்பட்ட பொலிஸ் சார்ஜென்ட் நவம்பர் 12 வரை மேலும் காவலில் வைக்கப்பட்டுள்ளார்.",
-   "ai_body": [
-    "கோபிகானே காவல் நிலையத்தில் பொலிஸ் காவலில் இருந்தபோது சந்தேக நபரின் மரணம் தொடர்பாக கைது செய்யப்பட்ட பொலிஸ் சார்ஜென்ட் நவம்பர் 12 வரை மேலும் காவலில் வைக்கப்பட்டுள்ளார். பொலிஸ் சார்ஜென்ட் நீதிமன்றத்தில் ஆஜர்படுத்தப்பட்ட பின்னர், இன்று (02) நிக்காவேரதிய நீதவான் இந்த உத்தரவை பிறப்பித்துள்ளார்.",
-    "காவலில் வைக்கப்பட்ட மரணம் தொடர்பாக அந்த அதிகாரி கைது செய்யப்பட்டு, நேற்று (01) நீதிமன்றத்தில் ஆஜர்படுத்தப்பட்டதைத் தொடர்ந்து ஆரம்பத்தில் இன்று வரை காவலில் வைக்கப்பட்டார். இந்த சம்பவம் கோபிகானில் பொலிஸ் காவலில் எடுக்கப்பட்டு பின்னர் அக்டோபர் 27 அன்று நிகாவேரதியா மருத்துவமனையில் அனுமதிக்கப்பட்ட பின்னர் இறந்த ஒரு சந்தேக நபரின் மரணத்துடன் தொடர்புடையது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-11-02T08:05:43.456494+00:00"
-  },
-  {
-   "id": "c2598b4260e6",
-   "type": "auto",
-   "title": "PM Harini arrives in Antigua and Barbuda for Commonwealth Heads of Government Meeting",
-   "summary": "Prime Minister Harini Amarasuriya arrived in Antigua and Barbuda today (02) to participate in the Commonwealth Heads of Government Meeting Continue Reading The post PM Harini arrives in Antigua and Barbuda for Commonwealth Heads of Government Meeting appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/11/02/pm-harini-arrives-in-antigua-and-barbuda-for-commonwealth-heads-of-government-meeting/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/Harini-CHOGM.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-11-02T07:42:58+00:00",
-   "fetched": "2026-11-02T08:02:37.109109+00:00",
-   "page_chars": 756,
-   "ai_title": "காமன்வெல்த் அரசாங்கத் தலைவர்களின் கூட்டத்திற்காக ஆண்டிகுவா மற்றும் பார்புடாவுக்கு பிரதமர் ஹரிணி வருகிறார்",
-   "title_ta": "காமன்வெல்த் அரசாங்கத் தலைவர்களின் கூட்டத்திற்காக ஆண்டிகுவா மற்றும் பார்புடாவுக்கு பிரதமர் ஹரிணி வருகிறார்",
-   "ai_summary": "2026 காமன்வெல்த் அரசாங்கத் தலைவர்கள் கூட்டத்தில் (CHOGM) பங்கேற்க பிரதமர் ஹரிணி அமரசூரியா இன்று (02) ஆன்டிகுவா மற்றும் பார்புடாவுக்கு வந்தார்.",
-   "ai_body": [
-    "2026 காமன்வெல்த் அரசாங்கத் தலைவர்கள் கூட்டத்தில் (CHOGM) பங்கேற்க பிரதமர் ஹரிணி அமரசூரியா இன்று (02) ஆன்டிகுவா மற்றும் பார்புடாவுக்கு வந்தார். பிரதமரின் கூற்றுப்படி, அவர் ஆன்டிகுவாவில் உள்ள வி.சி.",
-    "பேர்ட் சர்வதேச விமான நிலையத்திற்கு வந்தார், அங்கு ஆன்டிகுவா மற்றும் பார்புடாவின் சுகாதார, ஆரோக்கிய, சுற்றுச்சூழல் மற்றும் சிவில் சர்வீஸ் விவகார அமைச்சர் மைக்கேல் ஜோசப் அவரை வரவேற்றார். செயின்ட் ஜான்ஸ், ஆண்டிகுவா மற்றும் பார்புடாவில் நடைபெறவுள்ள காமன்வெல்த் உச்சி மாநாட்டில் கலந்து கொள்வதற்காக பிரதமர் அக்டோபர் 31 அன்று பண்டாரநாயக்க சர்வதேச விமான நிலையத்திலிருந்து இலங்கை புறப்பட்டார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-11-02T08:05:45.954907+00:00"
-  },
-  {
-   "id": "841c15569590",
-   "type": "auto",
-   "title": "'முரசு' புயலுக்கு இந்த பெயர் வந்தது எப்படி? புயல்களுக்கு பெயர் வைப்பது யார்?",
-   "summary": "இந்திய வானிலை ஆய்வு மையம், புவியரசன் உள்ளிட்டோர் முன்பே பரிந்துரைத்த 169 பெயர்களைக் கொண்ட சர்வதேசப் பட்டியலின் வரிசைப்படி, வங்கக்கடலில் உருவான புயலுக்கு ‘முரசு’ எனப் பெயரிட்டுள்ளது; புயல்களுக்குப் பெயர் சூட்டுவதன் பின்னணி மற்றும் அதற்கான விதிமுறைகளையும் இந்தக் கட்டுரை விளக்குகிறது.",
-   "link": "https://www.bbc.com/tamil/articles/c6kgl4gjky1xo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/a0e1/live/1835f5e0-d685-11f1-b441-2b33b063138f.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-11-02T07:31:49+00:00",
-   "fetched": "2026-11-02T08:02:37.109109+00:00",
-   "page_chars": 7760
   }
  ]
 }
