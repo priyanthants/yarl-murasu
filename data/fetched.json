@@ -1,6 +1,529 @@
 {
- "updated": "2026-11-24T20:46:56.311299+00:00",
+ "updated": "2026-11-25T04:00:15.240605+00:00",
  "items": [
+  {
+   "id": "086721c959f6",
+   "type": "auto",
+   "title": "Belarusian tourist rescued from drowning in Hikkaduwa",
+   "summary": "By Newswire Editorial Three Police lifesaving officers rescued a 35-year-old Belarusian woman from drowning off Hikkaduwa beach on Tuesday. Police Continue Reading The post Belarusian tourist rescued from drowning in Hikkaduwa appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/11/25/belarusian-tourist-rescued-from-drowning-in-hikkaduwa/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/Belarus-woman-drowning.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-25T03:51:55+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 442,
+   "ai_title": "ஹிக்கடுவாவில் மூழ்கிய நிலையில் இருந்த பெலாரஸ் சுற்றுலாப் பயணி காப்பாற்றப்பட்டார்",
+   "title_ta": "ஹிக்கடுவாவில் மூழ்கிய நிலையில் இருந்த பெலாரஸ் சுற்றுலாப் பயணி காப்பாற்றப்பட்டார்",
+   "ai_summary": "மூன்று பொலிஸ் உயிர் காக்கும் அதிகாரிகள் செவ்வாய்க்கிழமை ஹிக்கடுவா கடற்கரையில் மூழ்கிய 35 வயது பெலாரஸ் பெண்ணை மீட்டனர்.",
+   "ai_body": [
+    "மூன்று பொலிஸ் உயிர் காக்கும் அதிகாரிகள் செவ்வாய்க்கிழமை ஹிக்கடுவா கடற்கரையில் மூழ்கிய 35 வயது பெலாரஸ் பெண்ணை மீட்டனர். அந்தப் பெண் கடலில் நீராடச் சென்றபோது கடுமையான அலைக்கு உட்பட்டு கடலுக்குள் இழுத்துச் செல்லப்பட்டதாக பொலிஸார் தெரிவித்தனர்.",
+    "கடற்கரை பகுதியில் கடமையில் இருந்த பொலிஸ் சார்ஜன்ட் திஸநாயக்க மற்றும் பொலிஸ் கான்ஸ்டபிள்களான மிஹிந்து மற்றும் நிபுன் ஆகியோர் அந்தப் பெண்ணை மீட்டனர். அடிப்படை மருத்துவச் சிகிச்சையைப் பெற்ற பின்னர் அவள் தனது பாதுகாவலர்களிடம் ஒப்படைக்கப்பட்டாள்.",
+    "(நியூஸ்வைர்)"
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-25T04:03:36.491627+00:00"
+  },
+  {
+   "id": "1acac49e43c4",
+   "type": "auto",
+   "title": "China’s Huawei found guilty of 10 criminal charges in US trial",
+   "summary": "Chinese telecommunications giant Huawei has been found guilty of 10 out of 12 criminal charges by a US federal jury Continue Reading The post China’s Huawei found guilty of 10 criminal charges in US trial appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/11/25/chinas-huawei-found-guilty-of-10-criminal-charges-in-us-trial/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/Screenshot_20261125_091942_ChatGPT.jpg",
+   "lang": "en",
+   "category": "world",
+   "tags": [
+    "world",
+    "srilanka"
+   ],
+   "published": "2026-11-25T03:50:21+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 1242
+  },
+  {
+   "id": "005350350a32",
+   "type": "auto",
+   "title": "Salam Ramadan 2027 returns for third consecutive year; stall registrations open",
+   "summary": "Salam Ramadan will return to Colombo for the third consecutive year, bringing a three-day celebration of community, culture and creativity Continue Reading The post Salam Ramadan 2027 returns for third consecutive year; stall registrations open appeared first on Newswire .",
+   "link": "https://www.newswire.lk/business/salam-ramadan-2027-opens-stall-registrations-for-three-day-colombo-event/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/Salam-Ramadan-2027-thumb.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-25T03:43:42+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 973,
+   "ai_title": "சலாம் ரமழான் 2027 மூன்றாவது ஆண்டாகத் திரும்புகிறது; கடைகள் பதிவு செய்யத் தொடங்குகிறது",
+   "title_ta": "சலாம் ரமழான் 2027 மூன்றாவது ஆண்டாகத் திரும்புகிறது; கடைகள் பதிவு செய்யத் தொடங்குகிறது",
+   "ai_summary": "சலாம் ரமழான் தொடர்ச்சியாக மூன்றாவது ஆண்டாக கொழும்புக்குத் திரும்புகிறது.",
+   "ai_body": [
+    "சலாம் ரமழான் தொடர்ச்சியாக மூன்றாவது ஆண்டாக கொழும்புக்குத் திரும்புகிறது. இது 2027 ஆம் ஆண்டு பிப்ரவரி 12 முதல் 14 வரை கிரீன் பாத்தில் சமூகம், கலாச்சாரம் மற்றும் படைப்பாற்றலை மூன்று நாட்கள் கொண்டாடும்.",
+    "நிகழ்வில் பங்கேற்க ஆர்வமுள்ள கடைக்காரர்கள், வணிகங்கள், உணவகங்கள், பேஷன் கடைகள், கலைஞர்கள் மற்றும் செயல்பாட்டு வழங்குநர்களுக்கான பதிவுகளை அமைப்பாளர்கள் தொடங்கியுள்ளனர். இந்த நிகழ்வு வணிகங்களுக்கும் தொழில்முனைவோருக்கும் தங்கள் பிராண்டுகளைக் காட்சிப்படுத்தவும், தயாரிப்புகள் மற்றும் சேவைகளை அறிமுகப்படுத்தவும், ரமலான் காலத்தில் பரந்த பார்வையாளர்களுடன் இணையவும் வாய்ப்பளிக்கும்.",
+    "ஸ்டால் தொகுப்புகள் இரண்டு விலைகளில் கிடைக்கின்றன: ஒரு நிலையான ஸ்டாலுக்கு ரூ. 35,000 மற்றும் பிரீமியம் ஸ்டாலுக்கு ரூ.",
+    "45,000."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-25T04:03:41.415344+00:00"
+  },
+  {
+   "id": "1b00081002b0",
+   "type": "auto",
+   "title": "Husband arrested over murder of 23-year-old wife in Vakarai",
+   "summary": "By Newswire Editorial A 23-year-old woman has been allegedly murdered by her husband following a domestic dispute at their residence Continue Reading The post Husband arrested over murder of 23-year-old wife in Vakarai appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/11/25/husband-arrested-over-murder-of-23-year-old-wife-in-vakarai/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/Crime-scene-police.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-25T03:43:27+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 405,
+   "ai_title": "வக்கறையில் 23 வயது மனைவியை கொலை செய்தமை தொடர்பில் கணவன் கைது",
+   "title_ta": "வக்கறையில் 23 வயது மனைவியை கொலை செய்தமை தொடர்பில் கணவன் கைது",
+   "ai_summary": "வக்கரை, கதிராவெளியில் உள்ள தங்களது இல்லத்தில் ஏற்பட்ட குடும்ப தகராறையடுத்து 23 வயதுடைய பெண் ஒருவர் தனது கணவரால் கொலை செய்யப்பட்டதாகக் கூறப்படுகிறது.",
+   "ai_body": [
+    "வக்கரை, கதிராவெளியில் உள்ள தங்களது இல்லத்தில் ஏற்பட்ட குடும்ப தகராறையடுத்து 23 வயதுடைய பெண் ஒருவர் தனது கணவரால் கொலை செய்யப்பட்டதாகக் கூறப்படுகிறது. தம்பதியினரிடையே ஏற்பட்ட வாக்குவாதம் தீவிரமடைந்ததைத் தொடர்ந்து கணவன் மனைவியை நெருக்குண்டு கொலை செய்ததாக ஆரம்ப கட்ட விசாரணைகளில் தெரியவந்துள்ளதாக பொலிஸார் தெரிவித்தனர்.",
+    "26 வயதான சந்தேகநபர் கைது செய்யப்பட்டுள்ளார், மேலும் வாகரை பொலிஸார் மேலதிக விசாரணைகளை மேற்கொண்டு வருகின்றனர். (நியூஸ்வைர்)"
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-25T04:03:43.836641+00:00"
+  },
+  {
+   "id": "bfba8754588d",
+   "type": "auto",
+   "title": "Six killed in road accidents across Sri Lanka in a single day",
+   "summary": "By Newswire Editorial Six people, including two motorcyclists and an elderly woman, were killed in separate road accidents reported across Continue Reading The post Six killed in road accidents across Sri Lanka in a single day appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/11/25/six-killed-in-road-accidents-across-sri-lanka-in-a-single-day/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/Accident-1.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-25T03:40:18+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 2070,
+   "ai_title": "இலங்கை முழுவதும் ஒரே நாளில் இடம்பெற்ற சாலை விபத்துக்களில் ஆறு பேர் பலி",
+   "title_ta": "இலங்கை முழுவதும் ஒரே நாளில் இடம்பெற்ற சாலை விபத்துக்களில் ஆறு பேர் பலி",
+   "ai_summary": "இலங்கை முழுவதும் செவ்வாய்க்கிழமை (24) அன்று இடம்பெற்ற தனித்தனி சாலை விபத்துக்களில் இரண்டு மோட்டார் சைக்கிள் ஓட்டுநர்கள் மற்றும் ஒரு வயதான பெண் உட்பட ஆறு பேர் உயிரிழந்துள்ளதாக பொலிஸார் தெரிவித்துள்ளனர்.",
+   "ai_body": [
+    "இலங்கை முழுவதும் செவ்வாய்க்கிழமை (24) அன்று இடம்பெற்ற தனித்தனி சாலை விபத்துக்களில் இரண்டு மோட்டார் சைக்கிள் ஓட்டுநர்கள் மற்றும் ஒரு வயதான பெண் உட்பட ஆறு பேர் உயிரிழந்துள்ளதாக பொலிஸார் தெரிவித்துள்ளனர். கல்முனை-அக்கரைப் பற்று பிரதான வீதியில் தரவக்கோவில் சந்திக்கு அருகாமையில் இடம்பெற்ற விபத்தில் கல்முனையைச் சேர்ந்த 23 வயது இளைஞர் ஒருவர் உயிரிழந்தார்.",
+    "நிறுத்தி வைக்கப்பட்டிருந்த ஒரு லாரியின் ஓட்டுநர் அதன் கதவைத் திறந்தபோது, ஒரு மிதிவண்டி அந்தக் கதையில் மோதியது. இதனால் மிதிவண்டி கவிழ்ந்ததுடன், பின்னால் வந்த ஒரு பேருந்து மிதிவண்டி ஓட்டுநரை மோதியது.",
+    "காயமடைந்த சைக்கிள் ஓட்டுநரும் பின்னால் அமர்ந்திருந்த பயணியும் கடுமையான காயங்களுடன் கல்முனை மருத்துவமனையில் அனுமதிக்கப்பட்டனர், அங்கு பின்னால் அமர்ந்திருந்த பயணி தனது காயங்களுக்குத் தாக்குப்பிடிக்க முடியாமல் உயிரிழந்தார்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-25T04:03:47.908281+00:00"
+  },
+  {
+   "id": "bc8c9493f0aa",
+   "type": "auto",
+   "title": "Exel BPO hosts Exel Eve ’26 to celebrate its people and client partnerships",
+   "summary": "Clients, partners and team members come together in Colombo to celebrate a year of collaboration and shared growth across the Continue Reading The post Exel BPO hosts Exel Eve ’26 to celebrate its people and client partnerships appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/11/25/exel-bpo-hosts-exel-eve-26-to-celebrate-its-people-and-client-partnerships/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/Exel-BPO-hosts-Exel-Eve-26-1.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-25T03:33:51+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 1642,
+   "ai_title": "எக்ஸெல் BPO தனது பணியாளர்களையும் வாடிக்கையாளர் கூட்டாண்மைகளையும் கொண்டாடும் வகையில் எக்ஸெல் ஈவ் ’26 நிகழ்வை நடத்துகிறது",
+   "title_ta": "எக்ஸெல் BPO தனது பணியாளர்களையும் வாடிக்கையாளர் கூட்டாண்மைகளையும் கொண்டாடும் வகையில் எக்ஸெல் ஈவ் ’26 நிகழ்வை நடத்துகிறது",
+   "ai_summary": "இங்கிலாந்து-இலங்கை வணிக உறவில் ஒரு வருட ஒத்துழைப்பையும் கூட்டு வளர்சியையும் கொண்டாட வாடிக்கையாளர்கள், கூட்டாளர்கள் மற்றும் குழு உறுப்பினர்கள் கொழும்பில் ஒன்று கூடுகின்றனர்.",
+   "ai_body": [
+    "இங்கிலாந்து-இலங்கை வணிக உறவில் ஒரு வருட ஒத்துழைப்பையும் கூட்டு வளர்சியையும் கொண்டாட வாடிக்கையாளர்கள், கூட்டாளர்கள் மற்றும் குழு உறுப்பினர்கள் கொழும்பில் ஒன்று கூடுகின்றனர். இலங்கையைத் தளமாகக் கொண்ட வணிகச் செயல்முறை அவுட்சோர்சிங் மற்றும் வெளிநாட்டுப் பணியாளர் நியமன நிறுவனமான Exel BPO , அதன் தாய் நிறுவனமான Exel Solutions உடன் இணைந்து, நவம்பர் 7, சனிக்கிழமை அன்று கொழும்பின் ரடிசன் ப்ளூ, கலதாரி ஹோட்டலில் Exel Eve ’26 நிகழ்வை நடத்தியது.",
+    "இந்த மாலை நேர நிகழ்வு, நிறுவனத்தின் பயணத்திற்குப் பின்னால் உள்ள கூட்டாண்மைகள், நபர்கள் மற்றும் பகிரப்பட்ட சாதனைகளைக் கொண்டாடுவதற்காக, இங்கிலாந்தைச் சேர்ந்த வாடிக்கையாளர்கள், வணிக கூட்டாளர்கள் மற்றும் Exel குழு உறுப்பினர்கள் உட்பட 250 க்கும் மேற்பட்ட விருந்தினர்களை ஒன்றிணைத்தது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-25T04:03:53.273569+00:00"
+  },
+  {
+   "id": "7fa386cb5eb4",
+   "type": "auto",
+   "title": "Former New Zealand cricketer reveals how he sat for law exams during Sri Lanka tour",
+   "summary": "By Newswire Editorial Former New Zealand wicketkeeper Adam Parore has revealed how he completed his final-semester law examinations in a Continue Reading The post Former New Zealand cricketer reveals how he sat for law exams during Sri Lanka tour appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/11/25/former-new-zealand-cricketer-reveals-how-he-sat-for-law-exams-during-sri-lanka-tour/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/NZ-Adam-Parore.jpeg",
+   "lang": "en",
+   "category": "sports",
+   "tags": [
+    "sports",
+    "srilanka"
+   ],
+   "published": "2026-11-25T03:30:50+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 1349
+  },
+  {
+   "id": "808b79fe8c8c",
+   "type": "auto",
+   "title": "New houses for 29 disaster-affected families in Kalutara after nine-year wait",
+   "summary": "By Newswire Editorial Construction of new houses for 29 families who lost their line rooms in the 2017 natural disaster Continue Reading The post New houses for 29 disaster-affected families in Kalutara after nine-year wait appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/11/25/new-houses-for-29-disaster-affected-families-in-kalutara-after-nine-year-wait/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/Kalutara-disaster-housing.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-25T03:27:18+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 1331,
+   "ai_title": "ஒன்பது வருட காத்திருப்புக்குப் பிறகு கல்கிஸ்ஸில் பேரழிவால் பாதிக்கப்பட்ட 29 குடும்பங்களுக்கு புதிய வீடுகள்",
+   "title_ta": "ஒன்பது வருட காத்திருப்புக்குப் பிறகு கல்கிஸ்ஸில் பேரழிவால் பாதிக்கப்பட்ட 29 குடும்பங்களுக்கு புதிய வீடுகள்",
+   "ai_summary": "கிட்டத்தட்ட ஒன்பது வருடங்கள் நிரந்தர வீடுகளுக்காக காத்திருந்த பின்னர், 2017 ஆம் ஆண்டு இடம்பெற்ற இயற்கை பேரழிவில் தங்களது வரிசை அறைகளை இழந்த 29 குடும்பங்களுக்கான புதிய வீடுகளைக் கட்டுவதற்கான பணிகள், களுத்துறையின் புளத்சிங்களவில் அமைந்துள்ள கிரிவனகெட்டிய எஸ்டேட்டில் ஆரம்பிக்கப்பட்டுள்ளன.",
+   "ai_body": [
+    "கிட்டத்தட்ட ஒன்பது வருடங்கள் நிரந்தர வீடுகளுக்காக காத்திருந்த பின்னர், 2017 ஆம் ஆண்டு இடம்பெற்ற இயற்கை பேரழிவில் தங்களது வரிசை அறைகளை இழந்த 29 குடும்பங்களுக்கான புதிய வீடுகளைக் கட்டுவதற்கான பணிகள், களுத்துறையின் புளத்சிங்களவில் அமைந்துள்ள கிரிவனகெட்டிய எஸ்டேட்டில் ஆரம்பிக்கப்பட்டுள்ளன. புதிய வீடுகளுக்கான அடிக்கல் நேற்று (24) இந்தியத் தூதரகத்தின் முதல் செயலாளர் (வளர்ச்சி ஒத்துழைப்பு & பத்திரிகை, தகவல் மற்றும் கலாச்சாரம்) ரோஷ்னி தாம்சன் கலந்து கொண்டு அடிக்கல் நாட்டப்பட்டது என தோட்டக் கலை மற்றும் சமூக உட்கட்டமைப்பு அமைச்சர் சமந்த வித்யாரத்ன தெரிவித்தார்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-25T04:03:57.923481+00:00"
+  },
+  {
+   "id": "91cb633fd4e6",
+   "type": "auto",
+   "title": "Family of British siblings killed in Easter attacks raises funds for Sri Lankan Ambulance Service",
+   "summary": "The Amelie and Daniel Linsey Foundation held its annual charity ball in London recently to raise funds for Sri Lanka’s Continue Reading The post Family of British siblings killed in Easter attacks raises funds for Sri Lankan Ambulance Service appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/11/25/family-of-british-siblings-killed-in-easter-attacks-raises-funds-for-sri-lankan-ambulance-service/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/FB_IMG_1795547070603.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-25T03:05:01+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 1760,
+   "ai_title": "ஈஸ்டர் தாக்குதல்களில் கொல்லப்பட்ட பிரிட்டிஷ் உடன்பிறப்புகளின் குடும்பம் இலங்கை ஆம்புலன்ஸ் சேவைக்காக நிதி திரட்டுகிறது",
+   "title_ta": "ஈஸ்டர் தாக்குதல்களில் கொல்லப்பட்ட பிரிட்டிஷ் உடன்பிறப்புகளின் குடும்பம் இலங்கை ஆம்புலன்ஸ் சேவைக்காக நிதி திரட்டுகிறது",
+   "ai_summary": "அமெலி மற்றும் டேனியல் லின்சி அறக்கட்டளை சமீபத்தில் இலங்கையின் 1990 சுவ சேரியா அவசர ஆம்புலன்ஸ் சேவைக்கான நிதி திரட்ட ஆண்டு அறக்கட்டளை நடன விழாவை லண்டனில் நடத்தியது.",
+   "ai_body": [
+    "அமெலி மற்றும் டேனியல் லின்சி அறக்கட்டளை சமீபத்தில் இலங்கையின் 1990 சுவ சேரியா அவசர ஆம்புலன்ஸ் சேவைக்கான நிதி திரட்ட ஆண்டு அறக்கட்டளை நடன விழாவை லண்டனில் நடத்தியது. 2019 ஈஸ்டர் ஞாயிறு அன்று இலங்கையில் நடந்த பயங்கரவாதத் தாக்குதல்களில் உயிரிழந்த அமெலி மற்றும் டேனியல் லின்சியின் நினைவாக இந்த அறக்கட்டளை நிறுவப்பட்டது.",
+    "இந்நிகழ்வில் உரையாற்றிய அறக்கட்டளையின் ஸ்தாபகரான டேவிட் லின்சி, அறக்கட்டளையின் முயற்சிகளின் மூலம் ஏற்கனவே ஒரு ஆம்புலன்ஸ் கொள்வனவு செய்யப்பட்டு, அது இலங்கைக்கு அனுப்பி வைக்கப்படும் நிலையில் இருப்பதாகத் தெரிவித்தார். யாழ்ப்பாணப் பிராந்தியத்திற்காக ஒதுக்கப்பட்ட கூடுதல் ஆம்புலன்ஸை வழங்குவதற்காகவும் நிதி திரட்டப்பட்டு வருவதாக அவர் தெரிவித்தார்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-25T04:04:01.924649+00:00"
+  },
+  {
+   "id": "cc0bf7c04863",
+   "type": "auto",
+   "title": "Heavy rainfall above 100 mm expected in several parts of Sri Lanka today",
+   "summary": "By Newswire Editorial Heavy rainfall exceeding 100 mm is likely in several parts of Sri Lanka today (25), according to Continue Reading The post Heavy rainfall above 100 mm expected in several parts of Sri Lanka today appeared first on Newswire .",
+   "link": "https://www.newswire.lk/2026/11/25/heavy-rainfall-above-100-mm-expected-in-several-parts-of-sri-lanka-today/",
+   "source": "Newswire",
+   "source_domain": "newswire.lk",
+   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/rain-1.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-25T02:59:21+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 1670,
+   "ai_title": "இன்று இலங்கையின் பல பகுதிகளில் 100 மில்லிமீட்டருக்கும் அதிகமான பலத்த மழை பெய்யும் என எதிர்பார்க்கப்படுகிறது",
+   "title_ta": "இன்று இலங்கையின் பல பகுதிகளில் 100 மில்லிமீட்டருக்கும் அதிகமான பலத்த மழை பெய்யும் என எதிர்பார்க்கப்படுகிறது",
+   "ai_summary": "இன்று (25) இலங்கையின் பல பகுதிகளில் 100 மிமீயை விட அதிக மழை பெய்ய வாய்ப்புள்ளதாக வானிலை ஆய்வுத் திணைக்களம் தெரிவித்துள்ளது.",
+   "ai_body": [
+    "இன்று (25) இலங்கையின் பல பகுதிகளில் 100 மிமீயை விட அதிக மழை பெய்ய வாய்ப்புள்ளதாக வானிலை ஆய்வுத் திணைக்களம் தெரிவித்துள்ளது. மேல், சபரகமுவா, மத்திய, ஊவா மற்றும் வடமேல் மாகாணங்களிலும், காலி மற்றும் மாத்தறை மாவட்டங்களிலும் சில இடங்களில் பலத்த மழை பெய்யக்கூடும் என திணைக்களம் தெரிவித்துள்ளது.",
+    "வடக்கு, வடமத்திய, ஊவா மற்றும் கிழக்கு மாகாணங்களிலும், அம்பாந்தோட்டை மாவட்டத்திலும் அவ்வப்போது மழை பெய்யும், அதேவேளை பிற்பகல் 1.00 மணிக்கு பின்னர் நாட்டின் ஏனைய பல இடங்களிலும் மழை அல்லது இடியுடன் கூடிய மழை பெய்யும். மேல், சபரகமுவா மற்றும் மத்திய மாகாணங்களிலும், காலையில் ஆரம்ப நேரங்களில் காலி, மாத்தறை மற்றும் பதுல்லா மாவட்டங்களிலும் மூடுபனி நிலைமைகள் நிலவலாம்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-25T04:04:05.972390+00:00"
+  },
+  {
+   "id": "7e18fbb807bf",
+   "type": "auto",
+   "title": "தமிழகத்தின் காவிரி-குண்டாறு இணைப்புத் திட்டத்திற்கு எதிராக கர்நாடக அரசு உச்ச நீதிமன்றத்தில் மனு - முழு விவரம்",
+   "summary": "தமிழ்நாடு அரசு முன்னெடுத்து வரும் காவிரி - குண்டாறு நதிநீர் இணைப்புத் திட்டத்திற்கு தற்காலிகத் தடை உத்தரவு கோரி தமிழ்நாடு அரசுக்கும் மத்திய அரசுக்கும் எதிராக கர்நாடக அரசு உச்ச நீதிமன்றத்தில் மனு ஒன்றைத் தாக்கல் செய்துள்ளது. இதன் பின்னணி என்ன?",
+   "link": "https://www.bbc.com/tamil/articles/cw808pll7k4do?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f2b0/live/6dbd3430-e82b-11f1-99a1-253766e7ad8b.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-11-25T02:54:02+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 7302
+  },
+  {
+   "id": "db85c0430939",
+   "type": "auto",
+   "title": "குழந்தையின் தொப்புள்கொடி ரத்தத்தை சேமித்து வைப்பது எதிர்காலத்தில் நோய்களை குணப்படுத்த உதவுமா?",
+   "summary": "பெற்றோர் தங்கள் குழந்தை பிறக்கும்போதே அதன் தொப்புள்கொடி ரத்தத்தை, எதிர்காலத்தில் பயன்படும் எனக் கருதி தனியார் வங்கியில் சேமித்து வைக்க வேண்டுமா எனச் சிந்திப்பதுண்டு. அப்படி சேமித்து வைப்பது உண்மையாகவே உதவுமா? யாரெல்லாம் அதுகுறித்து யோசிக்க வேண்டும்?",
+   "link": "https://www.bbc.com/tamil/articles/c6d91lq2vy22o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/3fa0/live/82a96d90-e877-11f1-aaa1-3d86cc5ffe7d.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-11-25T02:29:52+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "e737d65ed34e",
+   "type": "auto",
+   "title": "Poll finds US voters want government to end Iran war regardless of terms",
+   "summary": "A new poll has found that a majority of voters in the United States want an end to the US-Israel war on Iran immediately, even if it means accepting less favourable conditions. Overall, 55 percent of those surveyed agreed with an “end to the war now, regardless of the terms”. That number was even…",
+   "link": "http://island.lk/poll-finds-us-voters-want-government-to-end-iran-war-regardless-of-terms/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/AP26103713873653-1776138849.webp",
+   "lang": "en",
+   "category": "world",
+   "tags": [
+    "world",
+    "srilanka"
+   ],
+   "published": "2026-11-25T02:10:01+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "6cbf28eb7d51",
+   "type": "auto",
+   "title": "மகள் கொல்லப்பட்டதை ஃபேஸ்புக் மூலம் அறிந்த தந்தை: பாலின வன்முறையால் தென்னாப்பிரிக்காவில் நீடிக்கும் அச்சம்",
+   "summary": "தென்னாப்பிரிக்க காவல்துறையின் புள்ளிவிவரங்கள்படி, ஜூலை முதல் செப்டம்பர் வரையிலான காலகட்டத்தில் கொல்லப்பட்ட 581 பெண்களில் ஒகுஹ்லேவும் ஒருவர். ஒட்டுமொத்தமாக இந்தக் காலகட்டத்தில் 5,590 கொலைகள் நடந்துள்ளன. இதன் பின்னணி என்ன?",
+   "link": "https://www.bbc.com/tamil/articles/cx30g8g8z55zo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC தமிழ்",
+   "source_domain": "bbc.com",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/8329/live/f061a8f0-e7f2-11f1-a094-5fdc692f3e33.jpg",
+   "lang": "ta",
+   "category": "world",
+   "tags": [
+    "world"
+   ],
+   "published": "2026-11-25T01:16:32+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "bd898b2528a4",
+   "type": "auto",
+   "title": "Showers above 100mm are likely at some places in the Western, Sabaragamuwa, Central, Uva and North-western provinces and in Galle and Matara districts.",
+   "summary": "WEATHER FORECAST FOR 25 NOVEMBER 2026 Issued at 05.30 a.m. on 25 November 2026 by the Department of Meteorology Misty conditions may prevail in the Western, Sabaragamuwa and Central provinces and in Galle, Matara and Badulla districts during the early hours of the morning. Showers will occur at…",
+   "link": "http://island.lk/showers-above-100mm-are-likely-at-some-places-in-the-western-sabaragamuwa-central-uva-and-north-western-provinces-and-in-galle-and-matara-districts/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/07/Weather-1.png",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-25T01:02:22+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 8000,
+   "ai_title": "மேல், சபரகமுவா, மத்திய, ஊவா மற்றும் வடமேல் மாகாணங்களிலும், காலி மற்றும் மாத்தறை மாவட்டங்களிலும் சில இடங்களில் 100 மி.மீ. க்கு அதிகமான மழை பெய்யும் சாத்தியம் உள்ளது.",
+   "title_ta": "மேல், சபரகமுவா, மத்திய, ஊவா மற்றும் வடமேல் மாகாணங்களிலும், காலி மற்றும் மாத்தறை மாவட்டங்களிலும் சில இடங்களில் 100 மி.மீ. க்கு அதிகமான மழை பெய்யும் சாத்தியம் உள்ளது.",
+   "ai_summary": "25 நவம்பர் 2026க்கான வானிலை முன்னறிவிப்பு 25 நவம்பர் 2026 அன்று அதிகாலை 05.30 மணிக்கு வானிலை ஆய்வுத் துறையால் வெளியிடப்பட்டது.",
+   "ai_body": [
+    "25 நவம்பர் 2026க்கான வானிலை முன்னறிவிப்பு 25 நவம்பர் 2026 அன்று அதிகாலை 05.30 மணிக்கு வானிலை ஆய்வுத் துறையால் வெளியிடப்பட்டது. மேற்கு, சபரகமுவா மற்றும் மத்திய மாகாணங்களிலும், காலையில் சில மணி நேரங்களில் காலி, மாத்தறை மற்றும் பதுல்லா மாவட்டங்களிலும் மூடுபனி நிலைமைகள் நிலவலாம்.",
+    "வடக்கு, வடமத்திய, ஊவா மற்றும் கிழக்கு மாகாணங்களிலும், அம்பாந்தோட்டை மாவட்டத்திலும் அவ்வப்போது மழை பெய்யும். பிற்பகல் 1.00 மணிக்குப் பிறகு நாட்டின் ஏனைய பல இடங்களில் மழை அல்லது இடியுடன் கூடிய மழை பெய்யும்.",
+    "மேல், சபரகமுவா, மத்திய, ஊவா மற்றும் வடமேற்கு மாகாணங்களிலும், காலி மற்றும் மாத்தறை மாவட்டங்களிலும் சில இடங்களில் 100 மி.மீ.க்கு மேல் பலத்த மழை பெய்யக்கூடும்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-25T04:04:10.676123+00:00"
+  },
+  {
+   "id": "14efe6beef6c",
+   "type": "auto",
+   "title": "Generation costs, tariffs and coal quality among key factors behind CEB losses – Champika",
+   "summary": "by Ifham Nizam Former Power and Energy Minister and electrical engineer Patali Champika Ranawaka has said the Ceylon Electricity Board’s (CEB) financial performance cannot be attributed solely to the competence or incompetence of successive ministers, but is shaped by a combination of generation…",
+   "link": "http://island.lk/generation-costs-tariffs-and-coal-quality-among-key-factors-behind-ceb-losses-champika/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/patali-champika-6b059a2b74984-700x600.webp",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-25T00:05:26+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "04554725be3a",
+   "type": "auto",
+   "title": "Sajith advocates ‘positive alignments’ with all nations",
+   "summary": "Opposition Leader Sajith Premadasa has advocated a foreign policy based on “Positive Alignments” with all nations, emphasising that Sri Lanka must build constructive international partnerships that directly benefit its people and accelerate economic recovery. Speaking in Parliament, Premadasa said…",
+   "link": "http://island.lk/sajith-advocates-positive-alignments-with-all-nations/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/06/Sajith-Premadasa.webp",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-25T00:03:28+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "abfae6526984",
+   "type": "auto",
+   "title": "HIP becomes port of refuge for disabled cargo ship",
+   "summary": "Hambantota International Port (HIP) provided refuge for the Cyprus-flagged general cargo vessel MV AAL Gibraltar after engine room flooding left it disabled. The vessel is now at a lay-up berth, where its local agent, Ceyline Maritime Services (Pvt) Ltd., will coordinate repairs, the HIP…",
+   "link": "http://island.lk/hip-becomes-port-of-refuge-for-disabled-cargo-ship/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/tug-boat-6b059a2c1351f.webp",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-25T00:02:37+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 8000,
+   "ai_title": "மாற்றுத்திறனாளி சரக்குக் கப்பலுக்கு HIP தங்குமிடத் துறைமுகமாகிறது",
+   "title_ta": "மாற்றுத்திறனாளி சரக்குக் கப்பலுக்கு HIP தங்குமிடத் துறைமுகமாகிறது",
+   "ai_summary": "எஞ்சின் அறை வெள்ளத்தால் பாதிக்கப்பட்டு இயங்க முடியாத நிலையில் இருந்த சைப்ரஸ் நாட்டுக் கொடியை ஏந்திய பொது சரக்குக் கப்பலான MV AAL ஜிப்ரால்டருக்கு அம்பாந்தோட்டை சர்வதேச துறைமுகம் (HIP) தங்குமிடத்தை வழங்கியது.",
+   "ai_body": [
+    "எஞ்சின் அறை வெள்ளத்தால் பாதிக்கப்பட்டு இயங்க முடியாத நிலையில் இருந்த சைப்ரஸ் நாட்டுக் கொடியை ஏந்திய பொது சரக்குக் கப்பலான MV AAL ஜிப்ரால்டருக்கு அம்பாந்தோட்டை சர்வதேச துறைமுகம் (HIP) தங்குமிடத்தை வழங்கியது. அந்தக் கப்பல் இப்போது ஒரு நிறுத்துமிடத்தில் உள்ளது, அங்கு அதன் உள்ளூர் முகவரான Ceyline Maritime Services (Pvt) Ltd., பழுதுபார்ப்புகளை ஒருங்கிணைக்கும் என்று HIP செய்தித் தொடர்பாளர் தெரிவித்தார்.",
+    "பேச்சாளர்: “சுமார் 23,000 டன் சரக்குகளைக் கொண்டு சென்றதாகக் கூறப்படும் 159.99 மீட்டர் நீளமுள்ள இந்தக் கப்பல், இயங்க முடியாத நிலையில் உள்ள கப்பலாக அறிவிக்கப்பட்டு, SPM அர்ஜுன் என்ற மீட்பு இழுவைக் கப்பலால் இலங்கைக்கு இழுத்துச் செல்லப்பட்டது."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-25T04:04:16.588199+00:00"
+  },
+  {
+   "id": "7e8d87a3b87e",
+   "type": "auto",
+   "title": "Negligence and oversight behind many preventable tragedies: Police urge public vigilance",
+   "summary": "Police have urged the public, institutions, employers and relevant authorities to take greater responsibility for safety and prevent avoidable accidents caused by human errors, oversights, carelessness and negligence. In a public safety notice, issued by the Police Media Division, police said…",
+   "link": "http://island.lk/negligence-and-oversight-behind-many-preventable-tragedies-police-urge-public-vigilance/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/09/Police-probe-cops-promoting.jpg",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-25T00:02:35+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "44da4809cf63",
+   "type": "auto",
+   "title": "Bahirvani’s Test Twenty gives youth a real stage",
+   "summary": "They called him Jerry Maguire of India. Gaurav Bahirvani has always been a marketing man. He spent years in Britain working in brand valuation before getting his break in sport looking after the commercial interests of MS Dhoni, then captain of India. That gave him exposure to the IPL and into the…",
+   "link": "http://island.lk/bahirvanis-test-twenty-gives-youth-a-real-stage/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/Gaurav-Bahirvani-with-former-Sri-Lanka-captain-Arjuna-Ranatunga.jpg",
+   "lang": "en",
+   "category": "world",
+   "tags": [
+    "world",
+    "srilanka"
+   ],
+   "published": "2026-11-25T00:01:39+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "dcdfd7335070",
+   "type": "auto",
+   "title": "NR asks AKD about USD 4 bn Chinese investment",
+   "summary": "Addressing Parliament on Monday (23), Sri Lanka Podujana Peramuna (SLPP) National Organiser and Member of Parliament Namal Rajapaksa questioned the government’s handling of foreign investments, foreign policy, tourism, and labour disputes. According to MP Rajapaksa, the administration has failed to…",
+   "link": "http://island.lk/nr-asks-akd-about-usd-4-bn-chinese-investment/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/namal-6b059a2b8412e.webp",
+   "lang": "en",
+   "category": "srilanka",
+   "tags": [
+    "srilanka"
+   ],
+   "published": "2026-11-25T00:00:40+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "4c583237a7d2",
+   "type": "auto",
+   "title": "Kavindu bags eight wickets as Wesley take first-innings win",
+   "summary": "by Reemus Fernando Forced to follow on after being dismissed for 82, Prince of Wales were 152 for seven, thanks to an unbeaten half-century from Nehan Anuhas, when bad light brought an early end to their Under-19 Division I Tier ‘A’ match against Wesley at Campbell Park on Tuesday. ‎The match was…",
+   "link": "http://island.lk/kavindu-bags-eight-wickets-as-wesley-take-first-innings-win/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/kavindu-hettiarachchi-6b059a2a53298.webp",
+   "lang": "en",
+   "category": "world",
+   "tags": [
+    "world",
+    "srilanka"
+   ],
+   "published": "2026-11-25T00:00:25+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 8000
+  },
+  {
+   "id": "85329c0a7dd4",
+   "type": "auto",
+   "title": "Ex-Rajarata Rifles men set the record straight",
+   "summary": "Chapter, titled ‘Cowards Shrink from challenges,’ exposed the despicable operation against Rajarata Rifles, and its first Commanding Officer removed Col. W.K. Nanayakkara who relinquished Saliyapura command six months before the Jaffna violence. Waidyaratne achieved his primary objective to remove…",
+   "link": "http://island.lk/ex-rajarata-rifles-men-set-the-record-straight/",
+   "source": "The Island",
+   "source_domain": "island.lk",
+   "image": "http://island.lk/wp-content/uploads/2026/11/ex-rajarata-rifel-6b059a300412d.webp",
+   "lang": "en",
+   "category": "jaffna",
+   "tags": [
+    "jaffna",
+    "srilanka"
+   ],
+   "published": "2026-11-25T00:00:24+00:00",
+   "fetched": "2026-11-25T04:00:15.240605+00:00",
+   "page_chars": 8000,
+   "ai_title": "முன்னாள் ராஜரட்டே துப்பாக்கிப் படையினர் உண்மையை வெளிப்படுத்துகின்றனர்",
+   "title_ta": "முன்னாள் ராஜரட்டே துப்பாக்கிப் படையினர் உண்மையை வெளிப்படுத்துகின்றனர்",
+   "ai_summary": "'கோழைகள் சவால்களைத் தவிர்க்கிறார்கள்' என்ற தலைப்பில் உள்ள அத்தியாயம், ராஜரட்ட ரைபிள்ஸுக்கு எதிரான இழிவான நடவடிக்கையை அம்பலப்படுத்தியது, மேலும் அதன் முதல் கட்டளை அதிகாரியான கர்னல் டபிள்யூ.கே.",
+   "ai_body": [
+    "'கோழைகள் சவால்களைத் தவிர்க்கிறார்கள்' என்ற தலைப்பில் உள்ள அத்தியாயம், ராஜரட்ட ரைபிள்ஸுக்கு எதிரான இழிவான நடவடிக்கையை அம்பலப்படுத்தியது, மேலும் அதன் முதல் கட்டளை அதிகாரியான கர்னல் டபிள்யூ.கே. நானயக்கார, யாழ்ப்பாண வன்முறைக்கு ஆறு மாதங்களுக்கு முன்பு சாலியாபுர கட்டளையை விட்டு விலகினார்.",
+    "ஒரு நாள் இராணுவத்தை கட்டளையிடும் வாய்ப்பை தனக்கு மறுக்கக்கூடும் என்று அஞ்சிய வைத்தியரத்ன, தனது முதன்மை நோக்கமான கர்னல் நனயக்காரவை இராணுவத்திலிருந்து நீக்குவதை அடைந்தார். தியத்தலவாவை தளமாகக் கொண்ட நானயக்கார கட்டாய விடுப்பில் அனுப்பப்பட்ட நேரத்தில், அவர் தென்கிழக்கு பகுதியின் பிராந்தியத் தளபதியாக இருந்தார்."
+   ],
+   "ai_model": "mymemory",
+   "ai_at": "2026-11-25T04:03:33.865205+00:00"
+  },
   {
    "id": "08b4a2e70ca6",
    "type": "auto",
@@ -671,7 +1194,7 @@
    ],
    "published": "2026-11-24T10:08:00+00:00",
    "fetched": "2026-11-24T10:18:01.282569+00:00",
-   "page_fails": 1
+   "page_fails": 2
   },
   {
    "id": "8953e754e18d",
@@ -690,7 +1213,7 @@
    "published": "2026-11-24T10:07:02+00:00",
    "fetched": "2026-11-24T10:18:01.282569+00:00",
    "page_chars": 3418,
-   "page_fails": 1
+   "page_fails": 2
   },
   {
    "id": "d0f183455cc1",
@@ -728,7 +1251,7 @@
    "published": "2026-11-24T10:01:25+00:00",
    "fetched": "2026-11-24T10:18:01.282569+00:00",
    "page_chars": 3012,
-   "page_fails": 1
+   "page_fails": 2
   },
   {
    "id": "804cec2a9e21",
@@ -747,7 +1270,7 @@
    ],
    "published": "2026-11-24T10:01:00+00:00",
    "fetched": "2026-11-24T10:18:01.282569+00:00",
-   "page_fails": 1
+   "page_fails": 2
   },
   {
    "id": "3d6c622c465e",
@@ -766,7 +1289,7 @@
    ],
    "published": "2026-11-24T10:01:00+00:00",
    "fetched": "2026-11-24T10:18:01.282569+00:00",
-   "page_fails": 1
+   "page_fails": 2
   },
   {
    "id": "d53dc1091541",
@@ -859,7 +1382,7 @@
    "published": "2026-11-24T09:44:13+00:00",
    "fetched": "2026-11-24T10:18:01.282569+00:00",
    "page_chars": 1688,
-   "page_fails": 1
+   "page_fails": 2
   },
   {
    "id": "145f4e90d314",
@@ -896,7 +1419,7 @@
    "published": "2026-11-24T09:38:55+00:00",
    "fetched": "2026-11-24T10:18:01.282569+00:00",
    "page_chars": 2953,
-   "page_fails": 1
+   "page_fails": 2
   },
   {
    "id": "16a241a9fb1e",
@@ -934,7 +1457,7 @@
    "published": "2026-11-24T09:35:00+00:00",
    "fetched": "2026-11-24T10:18:01.282569+00:00",
    "page_chars": 1464,
-   "page_fails": 1
+   "page_fails": 2
   },
   {
    "id": "ae5fce15c13c",
@@ -972,7 +1495,7 @@
    "published": "2026-11-24T09:31:24+00:00",
    "fetched": "2026-11-24T10:18:01.282569+00:00",
    "page_chars": 1464,
-   "page_fails": 1
+   "page_fails": 2
   },
   {
    "id": "61f5986153ea",
@@ -7539,501 +8062,6 @@
    "published": "2026-11-21T13:08:05+00:00",
    "fetched": "2026-11-21T14:52:56.549237+00:00",
    "page_chars": 8000
-  },
-  {
-   "id": "3b4924ba2ff9",
-   "type": "auto",
-   "title": "வாகன இறக்குமதி வரிக் கொள்கை தொடர்பில் விசேட கலந்துரையாடல்",
-   "summary": "இலங்கையின் வாகன இறக்குமதிச் செயன்முறை, வாகன இறக்குமதி தொடர்பான வரிக்கொள்கைகள், மின்சார வாகனங்களின் (EV) பயன்பாட்டை ஊக்குவித்தல் மற்றும் இறக்குமதி செய்யப்படும் பொருட்களைச் சுங்கத்திலிருந்து விடுவிப்பதில்",
-   "link": "https://adaderanatamil.lk/news/252393",
-   "source": "அத தெரண தமிழ்",
-   "source_domain": "adaderanatamil.lk",
-   "image": "https://media.adaderanatamil.lk/news-articles/252393/MediaFile_20261121_124057_661.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-11-21T12:40:57+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 3699,
-   "page_fails": 2
-  },
-  {
-   "id": "8f5f2977da37",
-   "type": "auto",
-   "title": "Opposition Leader questions decision to block debate on former Pakistan PM Imran Khan",
-   "summary": "Opposition Leader Sajith Premadasa has questioned the government’s decision to prevent a parliamentary debate on a proposal concerning former Pakistani Continue Reading The post Opposition Leader questions decision to block debate on former Pakistan PM Imran Khan appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/11/21/opposition-leader-questions-decision-to-block-debate-on-former-pakistan-pm-imran-khan/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/Screenshot_20261121_180500_Editor-Lite.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-11-21T12:36:20+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 1659,
-   "ai_title": "பாகிஸ்தானின் முன்னாள் பிரதமர் இம்ரான் கான் குறித்த விவாதத்தைத் தடுக்க எடுத்த முடிவை எதிர்க்கட்சித் தலைவர் கேள்வி எழுப்புகிறார்",
-   "title_ta": "பாகிஸ்தானின் முன்னாள் பிரதமர் இம்ரான் கான் குறித்த விவாதத்தைத் தடுக்க எடுத்த முடிவை எதிர்க்கட்சித் தலைவர் கேள்வி எழுப்புகிறார்",
-   "ai_summary": "பாகிஸ்தானின் முன்னாள் பிரதமர் இம்ரான் கானைப் பற்றிய முன்மொழிவு குறித்து நாடாளுமன்றத்தில் விவாதிப்பதை அரசாங்கம் தடுக்கும் முடிவை எதிர்க்கட்சித் தலைவர் சஜித் பிரேமதாஸ கேள்வி எழுப்பியுள்ளார்.",
-   "ai_body": [
-    "பாகிஸ்தானின் முன்னாள் பிரதமர் இம்ரான் கானைப் பற்றிய முன்மொழிவு குறித்து நாடாளுமன்றத்தில் விவாதிப்பதை அரசாங்கம் தடுக்கும் முடிவை எதிர்க்கட்சித் தலைவர் சஜித் பிரேமதாஸ கேள்வி எழுப்பியுள்ளார். சனிக்கிழமை (21) நாடாளுமன்றத்தில் உரையாற்றிய பிரேமதாஸ, நாடாளுமன்றத்தில் எடுக்கப்பட்ட முடிவுகள் குறித்து எதிர்க்கட்சி கேள்வி எழுப்பும் திறனுக்கு விதிக்கப்பட்டுள்ள கட்டுப்பாடுகளை விமர்சித்தார்.",
-    "எதிர்க்கட்சி நாடாளுமன்ற உறுப்பினர் அஜித் பி. இம்ரான் கானைப் பற்றிய ஒத்திவைப்புத் தீர்மானத்தை பெரேரா சமர்ப்பித்திருந்தார், பின்னர் அது இலங்கைக்கும் பாகிஸ்தானுக்கும் இடையிலான இராஜதந்திர உறவுகளைப் பாதிக்கலாம் என்ற அச்சத்தின் காரணமாக நிராகரிக்கப்பட்டது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-11-21T20:54:45.352030+00:00"
-  },
-  {
-   "id": "cbc8a6d64984",
-   "type": "auto",
-   "title": "Third salary increase for all public servants and teachers in January 2027 – PM",
-   "summary": "Prime Minister Dr. Harini Amarasuriya has announced that all public sector employees and teachers will receive the third phase of Continue Reading The post Third salary increase for all public servants and teachers in January 2027 – PM appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/11/21/third-salary-increase-for-all-public-servants-and-teachers-in-january-2027-pm/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/Screenshot_20261121_175714_WhatsApp.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-11-21T12:29:53+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 1536,
-   "ai_title": "2027 ஜனவரியில் அனைத்து அரசு ஊழியர்களுக்கும் ஆசிரியர்களுக்கும் மூன்றாவது சம்பள உயர்வு - பிரதமர்",
-   "title_ta": "2027 ஜனவரியில் அனைத்து அரசு ஊழியர்களுக்கும் ஆசிரியர்களுக்கும் மூன்றாவது சம்பள உயர்வு - பிரதமர்",
-   "ai_summary": "அனைத்து பொதுத்துறை ஊழியர்களுக்கும் ஆசிரியர்களுக்கும் 2027 ஜனவரியில் அவர்களின் சம்பள உயர்வுக்கான மூன்றாவது கட்டம் வழங்கப்படும் என்று பிரதமர் டாக்டர் ஹரினி அமரசூரிய அறிவித்துள்ளார்.",
-   "ai_body": [
-    "அனைத்து பொதுத்துறை ஊழியர்களுக்கும் ஆசிரியர்களுக்கும் 2027 ஜனவரியில் அவர்களின் சம்பள உயர்வுக்கான மூன்றாவது கட்டம் வழங்கப்படும் என்று பிரதமர் டாக்டர் ஹரினி அமரசூரிய அறிவித்துள்ளார். சனிக்கிழமை (21) பாராளுமன்றத்தில் 2027 ஆம் ஆண்டுக்கான வரவு செலவுத் திட்டத்தின் குழு நிலை விவாதத்தின் போது உரையாற்றிய பிரதமர், அரசாங்கத்தின் அடிப்படை சம்பள உயர்வு திட்டத்தின் முதல் இரண்டு கட்டங்கள் 2025 மற்றும் 2026 ஆம் ஆண்டுகளில் செயல்படுத்தப்பட்டதாகக் கூறினார்.",
-    "தற்போதுள்ள சம்பளம் மற்றும் ஓய்வூதிய ஏற்றத்தாழ்வுகளை நிவர்த்தி செய்ய நியமிக்கப்பட்ட ஒரு சிறப்பு ஆணையம் தனது அறிக்கையை 2027 ஜூலை மாதம் சமர்ப்பிக்கும் என்று எதிர்பார்க்கப்படுவதாகவும் அவர் அறிவித்தார். அந்தக் குழுவின் பரிந்துரைகளின் அடிப்படையில் ஏற்றத்தாழ்வுகளை நிவர்த்தி செய்ய அரசு நடவடிக்கை எடுக்கும்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-11-21T20:54:49.093356+00:00"
-  },
-  {
-   "id": "95866c14f219",
-   "type": "auto",
-   "title": "Seven-year-old dies after parapet wall collapses in Balangoda",
-   "summary": "",
-   "link": "https://adaderana.lk/news/252060",
-   "source": "Ada Derana",
-   "source_domain": "adaderana.lk",
-   "image": "https://media.adaderanaenglish.lk/articles/252060/MediaFile_20261121_120950_442.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-11-21T12:04:01+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 2123,
-   "page_fails": 1
-  },
-  {
-   "id": "a9ff7b4e8693",
-   "type": "auto",
-   "title": "மதில் சுவர் இடிந்து வீழ்ந்ததில் 7 வயது சிறுவன் பலி",
-   "summary": "மதில் சுவர் இடிந்து விழுந்ததில் 7 வயது சிறுவன் ஒருவன் பலியான சம்பவம் ஒன்று பதிவாகியுள்ளது.பலாங்கொடை, பங்கியாவத்த பகுதியில் இந்த சோகச் சம்பவம் இன்று இடம்பெற்றுள்ளதாக அத தெரண செய்தியாளர் தெரிவித்தார்.",
-   "link": "https://adaderanatamil.lk/news/252392",
-   "source": "அத தெரண தமிழ்",
-   "source_domain": "adaderanatamil.lk",
-   "image": "https://media.adaderanatamil.lk/news-articles/252392/MediaFile_20261121_122855_597.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-11-21T12:03:41+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 948,
-   "page_fails": 1
-  },
-  {
-   "id": "acc93af66025",
-   "type": "auto",
-   "title": "பலாங்கொடையில் சுவர் இடிந்து விழுந்ததில் 7 வயது சிறுவன் உயிரிழப்பு!",
-   "summary": "இரத்தினபுரி - பலாங்கொடை, பாங்கியாவத்தை பகுதியில் சுவர் ஒன்று இடிந்து விழுந்ததில், அதன் இடிபாடுகளுக்குள் சிக்குண்ட 7 வயதுடைய சிறுவன் ஒருவர் உயிரிழந்துள்ளார். சம்பவம் இடம்பெற்ற வேளையில் சுவர் திடீரென இடிந்து விழுந்ததில், அதன் கீழ் சிக்குண்ட குறித்த சிறுவன் உயிரிழந்துள்ளதாகப் பொலிஸார்…",
-   "link": "https://www.virakesari.lk/article/267618",
-   "source": "வீரகேசரி",
-   "source_domain": "virakesari.lk",
-   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/267618/thumb_large_20.png",
-   "lang": "ta",
-   "category": "jaffna",
-   "tags": [
-    "jaffna"
-   ],
-   "published": "2026-11-21T12:00:00+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 387
-  },
-  {
-   "id": "fbb9fb8499bb",
-   "type": "auto",
-   "title": "திருவாரூர்: வகுப்பறையில் 3 வயது சிறுவனை கட்டி வைத்து தாக்குதலா? வைரல் வீடியோவின் பின்னணி",
-   "summary": "திருவாரூரில் 3 வயது சிறுவனின் கைகளைக் கட்டிப் போட்டு பள்ளி உதவியாளர் தாக்கியதாக எழுந்த குற்றச்சாட்டில் ஆசிரியை உள்பட 2 பேர் மீது திருத்துறைப்பூண்டி காவல் நிலையத்தில் வழக்குப் பதிவு செய்யப்பட்டுள்ளது.",
-   "link": "https://www.bbc.com/tamil/articles/cj04w57wlvveo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/d4b1/live/9e862490-e5a2-11f1-99a1-253766e7ad8b.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-11-21T11:58:56+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 6871
-  },
-  {
-   "id": "657651448088",
-   "type": "auto",
-   "title": "கூட்டுறவுச் சங்க நிதி மோசடி வழக்கு: வருணி போகஹவத்த உள்ளிட்ட ஐவருக்கு விளக்கமறியல் நீடிப்பு!",
-   "summary": "மாத்தறை பல்நோக்கு கூட்டுறவுச் சங்கம் மற்றும் மாத்தறை வைத்தியசாலை கூட்டுறவுச் சங்கம் உள்ளிட்ட பல கூட்டுறவுச் சங்கங்களுடன் தொடர்புடையதாகக் கூறப்படும் 30 பில்லியன் ரூபாவுக்கும் அதிகமான நிதி மோசடி தொடர்பில் கைது செய்யப்பட்டுள்ள முன்னாள் பொலிஸ் பிரதான பரிசோதகர் வருணி போகஹவத்த உள்ளிட்ட 5…",
-   "link": "https://www.virakesari.lk/article/267617",
-   "source": "வீரகேசரி",
-   "source_domain": "virakesari.lk",
-   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/267617/thumb_large_20.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-11-21T11:48:00+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 1524,
-   "page_fails": 1
-  },
-  {
-   "id": "5f6c87a7881e",
-   "type": "auto",
-   "title": "பொருளாதார உறவுகளை வலுப்படுத்த இலங்கை - ரஷ்யா இணக்கம்",
-   "summary": "கொழும்பில் எதிர்வரும் ஜனவரி 14 முதல் 17 ஆம் திகதி வரை நடைபெறவுள்ள 'இலங்கை எக்ஸ்போ 2027' கண்காட்சியில் வர்த்தகப் பங்கேற்பை ஊக்குவிக்கவும், பொருளாதார ஒத்துழைப்பை வலுப்படுத்தவும் இலங்கையும் ரஷ்யாவின் தாதர்ஸ்தான் குடியரசும் இணக்கம் கண்டுள்ளன. ரஷ்யாவிற்கான இலங்கைத் தூதுவர் ஷோபினி குணசேகர மற்றும்…",
-   "link": "https://www.virakesari.lk/article/267612",
-   "source": "வீரகேசரி",
-   "source_domain": "virakesari.lk",
-   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/267612/thumb_large_WhatsApp_Image_2026-11-21_at_3.45.42_AM.jpeg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-11-21T11:47:00+00:00",
-   "fetched": "2026-11-22T01:03:33.477779+00:00",
-   "page_fails": 1
-  },
-  {
-   "id": "07655ff14144",
-   "type": "auto",
-   "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
-   "summary": "Anthropic’s shares have dropped back towards their initial price after a soaring first day on the stock market, as a wider tech sell-off dragged markets down. The sell-off comes as concerns remain over the speed and size of artificial intelligence investment, but also as some large companies…",
-   "link": "http://island.lk/tech-stock-sell-off-drags-markets-down-as-anthropic-shares-slide/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2026/11/7b6fe9b0-e4ed-11f1-8781-bf15c9202663.jpg-1000x576.webp",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-11-21T11:41:38+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 8000,
-   "ai_title": "ஆந்த்ரோபிக் பங்குகள் சரிந்ததால் தொழில்நுட்பப் பங்குகள் விற்பனை சந்தைகளைத் താഴ இழுக்கிறது",
-   "title_ta": "ஆந்த்ரோபிக் பங்குகள் சரிந்ததால் தொழில்நுட்பப் பங்குகள் விற்பனை சந்தைகளைத் താഴ இழுக்கிறது",
-   "ai_summary": "தொழில்நுட்பப் பங்குகள் பரவலாக விற்பனைக்கு வந்ததால் சந்தைகள் சரிவைச் சந்தித்த நிலையில், பங்குச் சந்தையில் முதல் நாளில் உயர்ந்து சென்ற பிறகு, அன்த்ரோபிக்கின் பங்குகள் அதன் ஆரம்ப விலையை நோக்கி மீண்டும் சரிந்துள்ளன.",
-   "ai_body": [
-    "தொழில்நுட்பப் பங்குகள் பரவலாக விற்பனைக்கு வந்ததால் சந்தைகள் சரிவைச் சந்தித்த நிலையில், பங்குச் சந்தையில் முதல் நாளில் உயர்ந்து சென்ற பிறகு, அன்த்ரோபிக்கின் பங்குகள் அதன் ஆரம்ப விலையை நோக்கி மீண்டும் சரிந்துள்ளன. செயற்கை நுண்ணறிவு முதலீட்டின் வேகம் மற்றும் அளவு குறித்து கவலைகள் நீடிக்கின்ற நிலையில், மேலும் Nvidia மற்றும் SpaceX உட்பட சில பெரிய நிறுவனங்கள் முதலீட்டாளர்களைக் கவலையடையச் செய்த குறிப்பிட்ட சிக்கல்களை எதிர்கொண்ட நிலையில் இந்த விற்பனை ஏற்படுகிறது.",
-    "இந்த அழுத்தங்கள் அனைத்தும் சேர்ந்து வெள்ளிக்கிழமை வரை அமெரிக்கச் சந்தைகளில் தாக்கத்தை ஏற்படுத்தின, மேலும் அனைத்து முக்கிய அமெரிக்கச் குறியீடுகளும் அன்றைய தினம் கடுமையான சரிவுடன் முடிவடைந்தன, இது வாரத்தின் முந்தைய சரிவுகளை மேலும் அதிகரித்தது. S&P 500 மற்றும் டவ் ஜோன்ஸ் தொழில்துறை சராசரி ஆகிய இரண்டும் சரிவு நிலைக்குத் தள்ளப்பட்டன, அதாவது அவை சமீபத்திய உச்சத்திலிருந்து 10% அல்லது அதற்கு மேல் சரிந்து வர்த்தகம் செய்யும் நிலை."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-11-21T20:54:53.098742+00:00"
-  },
-  {
-   "id": "56d40df11260",
-   "type": "auto",
-   "title": "Judge approves $7.25bn settlement for Roundup weedkiller cancer claims",
-   "summary": "A Missouri judge on Friday approved a $7.25bn (£5.5bn) settlement stemming from lawsuits ⁠alleging that Bayer’s weedkiller Roundup causes cancer. Judge Timothy Boyer said the settlement was “fair, reasonable, and adequate”. Bayer, the German bio-tech giant, had proposed 0ayi g the $7.25bn to…",
-   "link": "http://island.lk/judge-approves-7-25bn-settlement-for-roundup-weedkiller-cancer-claims/",
-   "source": "The Island",
-   "source_domain": "island.lk",
-   "image": "http://island.lk/wp-content/uploads/2026/11/c6e1e8a0-e559-11f1-b23f-abf0ac4ebbc0.jpg.webp",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-11-21T11:31:48+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 8000,
-   "ai_title": "ரவுண்டப் களைக்கொல்லி புற்றுநோய் தொடர்பான உரிமைகோரல்களுக்காக $7.25 பில்லியன் இழப்பீட்டுத் தீர்விற்கு நீதிபதி ஒப்புதல் அளித்தார்",
-   "title_ta": "ரவுண்டப் களைக்கொல்லி புற்றுநோய் தொடர்பான உரிமைகோரல்களுக்காக $7.25 பில்லியன் இழப்பீட்டுத் தீர்விற்கு நீதிபதி ஒப்புதல் அளித்தார்",
-   "ai_summary": "பேயரின் களைக்கொல்லியான ரவுண்டப் புற்றுநோயை ஏற்படுத்துகிறது என்று குற்றம் சாட்டும் வழக்குகளிலிருந்து எழுந்த $7.25 பில்லியன் (£5.5 பில்லியன்) தீர்வுத் தொகையை மிசூரி நீதிபதி வெள்ளிக்கிழமை ஒப்புதல் அளித்தார்.",
-   "ai_body": [
-    "பேயரின் களைக்கொல்லியான ரவுண்டப் புற்றுநோயை ஏற்படுத்துகிறது என்று குற்றம் சாட்டும் வழக்குகளிலிருந்து எழுந்த $7.25 பில்லியன் (£5.5 பில்லியன்) தீர்வுத் தொகையை மிசூரி நீதிபதி வெள்ளிக்கிழமை ஒப்புதல் அளித்தார். நீதிபதி டிமோதி போயர், இந்தத் தீர்வு \"நியாயமானதும், நியாயமானதும், போதுமானதும்\" என்று கூறினார்.",
-    "ஜெர்மன் உயிரித் தொழில்நுட்ப நிறுவனமான பேயர், அமெரிக்காவில் உள்ள ஒரு சட்டப் போராட்டத்தை உறுதியாகத் தீர்க்க $7.25 பில்லியன் செலுத்த முன்மொழிந்தது. நாடு தழுவிய இந்தத் தீர்வுத் தொகை, ஏற்கனவே ஹாட்ஜ்கின் அல்லாத லிம்போமா நோயால் பாதிக்கப்பட்டிருக்கும் ரவுண்டப் பயனர்களுக்கும் எதிர்காலத்தில் இந்த நோயால் பாதிக்கப்படக்கூடியவர்களுக்கும் வழங்கப்படும்.",
-    "ரவுண்டப் தொடர்பான வழக்குகளைத் தீர்க்க நிறுவனம் ஏற்கனவே சுமார் $10 பில்லியன் செலுத்தியிருந்தது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-11-21T20:54:57.063918+00:00"
-  },
-  {
-   "id": "cd64e007aa52",
-   "type": "auto",
-   "title": "வவுனியாவில் டெங்கு பரவல் அதிகரிப்பு: பொதுமக்களுக்கு சுகாதாரத் துறை எச்சரிக்கை",
-   "summary": "வவுனியா நகரத்தைச் சுற்றியுள்ள பகுதிகளில் டெங்கு காய்ச்சலின் தாக்கம் தீவிரமடைந்து வருவதால், பலர் பாதிப்புக்குள்ளாகி வைத்தியசாலையில் சிகிச்சை பெற்று வருவதாகத் தெரிவிக்கப்பட்டுள்ளது. உயிரிழப்பு அபாயம் கொண்ட இந்நோய் குறித்து பொதுமக்கள் மிகுந்த விழிப்புணர்வுடன் இருக்குமாறு அறிவுறுத்தப்பட்டுள்ளனர்…",
-   "link": "https://www.virakesari.lk/article/267609",
-   "source": "வீரகேசரி",
-   "source_domain": "virakesari.lk",
-   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/267609/thumb_large_u.jpg",
-   "lang": "ta",
-   "category": "jaffna",
-   "tags": [
-    "jaffna",
-    "srilanka"
-   ],
-   "published": "2026-11-21T11:30:00+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "ai_title": "வாவுனியாவில் டெங்கு நோயாளிகளின் எண்ணிக்கை அதிகரிப்பு: சுகாதாரத் திணைக்களம் பொதுமக்களுக்கு எச்சரிக்கை விடுத்துள்ளது",
-   "title_ta": "வாவுனியாவில் டெங்கு நோயாளிகளின் எண்ணிக்கை அதிகரிப்பு: சுகாதாரத் திணைக்களம் பொதுமக்களுக்கு எச்சரிக்கை விடுத்துள்ளது",
-   "ai_summary": "வாவுனியா நகரத்தைச் சுற்றியுள்ள பகுதிகளில் டெங்கு காய்ச்சலின் தாக்கம் அதிகரித்து வருவதால், பலர் பாதிக்கப்பட்டு மருத்துவமனைகளில் சிகிச்சை பெற்று வருகின்றனர்.",
-   "ai_body": [
-    "வாவுனியா நகரத்தைச் சுற்றியுள்ள பகுதிகளில் டெங்கு காய்ச்சலின் தாக்கம் அதிகரித்து வருவதால், பலர் பாதிக்கப்பட்டு மருத்துவமனைகளில் சிகிச்சை பெற்று வருகின்றனர். இது அறிவிக்கப்பட்டுள்ளது.",
-    "மரணம் ஏற்படும் அபாயம் உள்ள இந்த நோயைப் பற்றி பொதுமக்கள் மிகவும் எச்சரிக்கையாக இருக்குமாறு அறிவுறுத்தப்பட்டுள்ளனர். பழைய டயர்கள், பிளாஸ்டிக் பாட்டில்கள், தயிர் கப்-கள், தேங்காய் ஓடுகள், உடைந்து போன பொருட்கள் ஆகியவை வீடுகள், வணிக நிறுவனங்கள் மற்றும் பொது நிறுவனங்களின் வளாகங்களில் மழை நீர் தேங்கக் காரணமாகலாம்.",
-    "வாளிகள் மற்றும் தகடு கழிவுகளை உடனடியாக அகற்ற வேண்டும் என்று கேட்டுக்கொள்ளப்படுகிறது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-11-21T15:01:13.064122+00:00"
-  },
-  {
-   "id": "bef10f1a4223",
-   "type": "auto",
-   "title": "'மாதாந்திர ஓய்வூதியம்' போல் பி.எஃப். பணத்தை திரும்பப் பெற புதிய திட்டம் - சாதக, பாதகங்கள் என்ன?",
-   "summary": "வருங்கால வைப்பு நிதியில் சேமித்துள்ள தொகையை மொத்தமாகப் பெறுவதற்குப் பதிலாக, மாதாந்திரம், காலாண்டு அல்லது ஆறு மாதங்களுக்கு ஒருமுறை தவணையாகப் பெறும் வசதிக்கு இ.பி.எஃப்.ஓ ஒப்புதல் அளித்துள்ளது. ஓய்வுக்கால வருமானத்துக்கு இது எவ்வாறு உதவும்? இந்தத் திட்டத்தின் சாதகங்கள் மற்றும் பாதகங்கள் என்னென்ன?",
-   "link": "https://www.bbc.com/tamil/articles/ck62pg3le3d0o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/2b4d/live/bbd8cd90-e59d-11f1-9ccc-ff5a88abcfc6.jpg",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-11-21T11:22:21+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 8000
-  },
-  {
-   "id": "0aaab8cb53cc",
-   "type": "auto",
-   "title": "11 dead, over 180 hospitalised after drinking illicit alcohol in India",
-   "summary": "",
-   "link": "https://adaderana.lk/news/252059",
-   "source": "Ada Derana",
-   "source_domain": "adaderana.lk",
-   "image": "https://media.adaderanaenglish.lk/articles/252059/MediaFile_20261121_111238_824.jpg",
-   "lang": "en",
-   "category": "world",
-   "tags": [
-    "world",
-    "srilanka"
-   ],
-   "published": "2026-11-21T11:12:39+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 3249,
-   "page_fails": 1
-  },
-  {
-   "id": "1b47bf96f91a",
-   "type": "auto",
-   "title": "பண்டா ஆச்சே அருகே 6.8 ரிக்டர் அளவில் பூமியதிர்ச்சி; இலங்கைக்கு சுனாமி அச்சுறுத்தல் இல்லை!",
-   "summary": "பண்டா ஆச்சே கடற்பகுதிக்கு அருகிலுள்ள இந்து சமுத்திரத்தில் இன்று சனிக்கிழமை (21) பிற்பகல் 6.8 ரிக்டர் அளவிலான பூமியதிர்ச்சி ஏற்பட்டுள்ள போதிலும், இதனால் இலங்கைக்கு எவ்வித சுனாமி அச்சுறுத்தலும் இல்லை என வளிமண்டலவியல் திணைக்களம் உறுதிப்படுத்தியுள்ளது. தேசிய சுனாமி முன்னெச்சரிக்கை மையத்தின்…",
-   "link": "https://www.virakesari.lk/article/267614",
-   "source": "வீரகேசரி",
-   "source_domain": "virakesari.lk",
-   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/267614/thumb_large_18.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-11-21T11:02:00+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 771
-  },
-  {
-   "id": "b41720030f3d",
-   "type": "auto",
-   "title": "இந்தோனேசியாவுக்கு அருகில் மீண்டும் சக்திவாய்ந்த நிலநடுக்கம்",
-   "summary": "நில அதிர்வு",
-   "link": "https://adaderanatamil.lk/news/252391",
-   "source": "அத தெரண தமிழ்",
-   "source_domain": "adaderanatamil.lk",
-   "image": "https://media.adaderanatamil.lk/news-articles/252391/MediaFile_20261121_110702_751.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-11-21T10:52:33+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 948
-  },
-  {
-   "id": "7314a6b3dedb",
-   "type": "auto",
-   "title": "சர்வதேச விண்வெளி நிலையத்தில் இருந்து எடுக்கப்பட்ட இலங்கை படம்",
-   "summary": "நாசா (NASA) விண்வெளி வீரர் அனில் மேனன் பகிர்ந்த சர்வதேச விண்வெளி நிலையத்திலிருந்து (ISS) எடுக்கப்பட்ட இலங்கையின் படம் தற்போது வைரலாகியுள்ளது.",
-   "link": "https://adaderanatamil.lk/news/252390",
-   "source": "அத தெரண தமிழ்",
-   "source_domain": "adaderanatamil.lk",
-   "image": "https://media.adaderanatamil.lk/news-articles/252390/MediaFile_20261121_105019_790.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-11-21T10:50:19+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 1135
-  },
-  {
-   "id": "93d6fb9c2d91",
-   "type": "auto",
-   "title": "6.8 magnitude earthquake strikes Indian Ocean; no tsunami threat to Sri Lanka",
-   "summary": "A 6.8 magnitude earthquake struck the Indian Ocean near Banda Aceh on Saturday (21), but Sri Lanka’s Department of Continue Reading The post 6.8 magnitude earthquake strikes Indian Ocean; no tsunami threat to Sri Lanka appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/11/21/6-8-magnitude-earthquake-strikes-indian-ocean-no-tsunami-threat-to-sri-lanka/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/Screenshot_20261121_161751_Samsung-Notes.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka",
-    "world"
-   ],
-   "published": "2026-11-21T10:50:15+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 845,
-   "ai_title": "6.8 ரிக்டர் அளவிலான நிலநடுக்கம் இந்தியப் பெருங்கடலில் ஏற்பட்டது; இலங்கைக்கு சுனாமி அச்சுறுத்தல் இல்லை",
-   "title_ta": "6.8 ரிக்டர் அளவிலான நிலநடுக்கம் இந்தியப் பெருங்கடலில் ஏற்பட்டது; இலங்கைக்கு சுனாமி அச்சுறுத்தல் இல்லை",
-   "ai_summary": "சனிக்கிழமை (21) அன்று பந்தா ஆச்சே அருகே இந்தியப் பெருங்கடலில் 6.8 ரிக்டர் அளவிலான நிலநடுக்கம் ஏற்பட்டது, ஆனால் இலங்கையின் வானிலை ஆய்வுத் துறை, இந்தத் தீவுக்கு சுனாமி அச்சுறுத்தல் எதுவும் இல்லை என்பதை உறுதிப்படுத்தியுள்ளது.",
-   "ai_body": [
-    "சனிக்கிழமை (21) அன்று பந்தா ஆச்சே அருகே இந்தியப் பெருங்கடலில் 6.8 ரிக்டர் அளவிலான நிலநடுக்கம் ஏற்பட்டது, ஆனால் இலங்கையின் வானிலை ஆய்வுத் துறை, இந்தத் தீவுக்கு சுனாமி அச்சுறுத்தல் எதுவும் இல்லை என்பதை உறுதிப்படுத்தியுள்ளது. தேசிய சுனாமி முன்கூட்டிய எச்சரிக்கை மையத்தின் கூற்றுப்படி, 2026 நவம்பர் 21 அன்று பிற்பகல் சுமார் 3:12 மணிக்கு நிலநடுக்கம் ஏற்பட்டது.",
-    "இந்த நிலநடுக்கம் 156 கிலோமீட்டர் ஆழத்தில் பதிவாகியுள்ளது, இதன் மையப்புள்ளி தெற்கு அட்சக்கோடு 8.04° மற்றும் கிழக்கு தீர்க்கக்கோடு 127.57° இல் அமைந்துள்ளது. நிலநடுக்கத்தைத் தொடர்ந்து, மாலை 3:30 மணிக்கு வானிலை ஆய்வுத் துறை சுனாமி அச்சுறுத்தல் இல்லை என்ற அறிக்கையை வெளியிட்டு, இலங்கையைச் சுற்றியுள்ள கடலோரப் பகுதிகளில் வசிக்கும் மக்களுக்கு இந்த நிலைமை குறித்துத் தெரிவித்தது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-11-21T20:55:01.081527+00:00"
-  },
-  {
-   "id": "d5f5a4bf832d",
-   "type": "auto",
-   "title": "அநுராதபுரத்தில் இராமர் கோயில் அமைக்கும் திட்டம் இல்லை – ஜனாதிபதியின் பணிக்குழாம் பிரதானி தெரிவிப்பு",
-   "summary": "பௌத்த மரபுரிமைகளையும் தொல்பொருள் பெறுமதிகளையும் பாதுகாத்து அநுராதபுரம் புனிதப் பிரதேசத்தை அபிவிருத்தி செய்வதற்கு மாநாயக்க தேரர்கள் எதிர்ப்புத் தெரிவிக்கவில்லை. புனிதப் பிரதேசத்தில் இராமர் கோயில் அமைப்பதற்கான எந்தவொரு திட்டமும் இல்லையென ஜனாதிபதியின் பணிக்குழாம் பிரதானி பிரபாத் சந்திரகீர்த்தி…",
-   "link": "https://www.virakesari.lk/article/267611",
-   "source": "வீரகேசரி",
-   "source_domain": "virakesari.lk",
-   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/267611/thumb_large_212.jpg",
-   "lang": "ta",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-11-21T10:49:00+00:00",
-   "fetched": "2026-11-22T01:03:33.477779+00:00"
-  },
-  {
-   "id": "21e6cd6491ab",
-   "type": "auto",
-   "title": "No tsunami threat to Sri Lanka following 6.8 magnitude earthquake off Timor-Leste",
-   "summary": "",
-   "link": "https://adaderana.lk/news/252058",
-   "source": "Ada Derana",
-   "source_domain": "adaderana.lk",
-   "image": "https://media.adaderanaenglish.lk/articles/252058/MediaFile_20261121_104747_088.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-11-21T10:47:47+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 2643
-  },
-  {
-   "id": "cfa3b5b73889",
-   "type": "auto",
-   "title": "காட்டுக்குச் சென்ற நிலையில் காணாமல் போன முதியவர் சடலமாக மீட்பு!",
-   "summary": "வவுனியாவில் புதன்கிழமை (18) காட்டுக்குச் சென்ற நிலையில் காணாமல் போயிருந்த முதியவர் ஒருவர் இன்று சனிக்கிழமை (21) சடலமாக மீட்கப்பட்டுள்ளார். வவுனியா, கொந்தக்காரன்குளம் பகுதியைச் சேர்ந்த 60 வயதுடைய முதியவர் ஒருவரே இவ்வாறு சடலமாக மீட்கப்பட்டவராவார். குறித்த முதியவர் கடந்த புதன்கிழமை முதல்…",
-   "link": "https://www.virakesari.lk/article/267604",
-   "source": "வீரகேசரி",
-   "source_domain": "virakesari.lk",
-   "image": "https://cdn.virakesari.lk/uploads/post/featured_image/267604/thumb_large_210.jpg",
-   "lang": "ta",
-   "category": "jaffna",
-   "tags": [
-    "jaffna"
-   ],
-   "published": "2026-11-21T10:35:00+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "ai_title": "காட்டில் காணாமல் போன முதியவர் இறந்து கிடந்தார்!",
-   "title_ta": "காட்டில் காணாமல் போன முதியவர் இறந்து கிடந்தார்!",
-   "ai_summary": "புதன்கிழமை (18) வவுனியாவில் உள்ள காட்டில் காணாமல் போன முதியவர் ஒருவர் இன்று சனிக்கிழமை (21) உயிரிழந்த நிலையில் மீட்கப்பட்டார்.",
-   "ai_body": [
-    "புதன்கிழமை (18) வவுனியாவில் உள்ள காட்டில் காணாமல் போன முதியவர் ஒருவர் இன்று சனிக்கிழமை (21) உயிரிழந்த நிலையில் மீட்கப்பட்டார். மீட்கப்பட்ட உடல் வவுனியாவின் கொண்டக்கறங்குளம் பகுதியைச் சேர்ந்த 60 வயதுடைய ஒரு முதியவரின் உடல் ஆகும்.",
-    "குறித்த முதியவர் கடந்த புதன்கிழமை கொந்தக்கறங்குளம் வனப்பகுதிக்குச் சென்று வீடு திரும்பாமல் காணாமல் போயிருந்தார். இதையடுத்து பொலிஸார், இராணுவம், கிராம அலுவலர், கிராம மக்கள் இணைந்து தீவிர தேடுதல் நடவடிக்கைகளை மேற்கொண்டனர்.",
-    "குறிப்பாக, இன்று விலக்கவைத்தக்குளம் மற்றும் கொந்தக்காரங்குளம் இடையேயுள்ள வனப்பகுதியில் தேடுதல் நடவடிக்கையின் போது அவர் உயிரிழந்த நிலையில் காணப்பட்டார்."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-11-21T15:01:25.138702+00:00"
-  },
-  {
-   "id": "2f8bd217e0c1",
-   "type": "auto",
-   "title": "'6 வயதில் 80 வயது தோற்றம்': இந்த கேரள சிறுமிக்கு என்ன பிரச்னை?",
-   "summary": "6 வயதான ஐஸா க்யூட்டிஸ் லாக்ஸா எனப்படும் அரிதான மரபணு நோயால் பாதிக்கப்பட்டுள்ளார்.",
-   "link": "https://www.bbc.com/tamil/articles/ckx28wnx5yxgo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC தமிழ்",
-   "source_domain": "bbc.com",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/00ea/live/451801f0-e57d-11f1-99a1-253766e7ad8b.png",
-   "lang": "ta",
-   "category": "world",
-   "tags": [
-    "world"
-   ],
-   "published": "2026-11-21T10:26:05+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 6878
-  },
-  {
-   "id": "0938ac33d9d1",
-   "type": "auto",
-   "title": "Sri Lanka’s tariff policies and trade agreements reviewed by Parliamentary Committee",
-   "summary": "By Newswire Editorial The Committee on Ways and Means has held discussions on Sri Lanka’s tariff policies and the progress Continue Reading The post Sri Lanka’s tariff policies and trade agreements reviewed by Parliamentary Committee appeared first on Newswire .",
-   "link": "https://www.newswire.lk/2026/11/21/sri-lankas-tariff-policies-and-trade-agreements-reviewed-by-parliamentary-committee/",
-   "source": "Newswire",
-   "source_domain": "newswire.lk",
-   "image": "https://www.newswire.lk/wp-content/uploads/2026/11/Ways-and-Means-Committee.jpg",
-   "lang": "en",
-   "category": "srilanka",
-   "tags": [
-    "srilanka"
-   ],
-   "published": "2026-11-21T10:11:01+00:00",
-   "fetched": "2026-11-21T14:52:56.549237+00:00",
-   "page_chars": 726,
-   "ai_title": "இலங்கையின் வரிக் கொள்கைகளும் வர்த்தக ஒப்பந்தங்களும் பாராளுமன்றக் குழுவால் மீளாய்வு செய்யப்பட்டன",
-   "title_ta": "இலங்கையின் வரிக் கொள்கைகளும் வர்த்தக ஒப்பந்தங்களும் பாராளுமன்றக் குழுவால் மீளாய்வு செய்யப்பட்டன",
-   "ai_summary": "இலங்கையின் சுங்கக் கட்டணக் கொள்கைகள் மற்றும் நடந்து வரும் இருதரப்பு மற்றும் பலதரப்பு வர்த்தக ஒப்பந்தங்களின் முன்னேற்றம் குறித்து வழிமுறைகள் தொடர்பான குழு கலந்துரையாடல்களை நடத்தியுள்ளது.",
-   "ai_body": [
-    "இலங்கையின் சுங்கக் கட்டணக் கொள்கைகள் மற்றும் நடந்து வரும் இருதரப்பு மற்றும் பலதரப்பு வர்த்தக ஒப்பந்தங்களின் முன்னேற்றம் குறித்து வழிமுறைகள் தொடர்பான குழு கலந்துரையாடல்களை நடத்தியுள்ளது. நாடாளுமன்ற உறுப்பினர் விஜேசிறி பஸ்நாயக்க தலைமையில் நடைபெற்ற இந்தக் கூட்டத்தில், வர்த்தக ஒப்பந்தங்களின் தற்போதைய நிலை மற்றும் பேச்சுவார்த்தைகளை முன்னேற்றுவதற்கான நடவடிக்கைகள் குறித்து கவனம் செலுத்தப்பட்டது.",
-    "வணிகத் திணைக்களத்தின் பதில் பணிப்பாளர் நாயகம் சோமசேன மஹதியுல்வெவா, நாட்டின் வர்த்தகக் கொள்கைகள் மற்றும் ஒப்பந்தங்கள் குறித்து குழுவுக்கு விளக்கமளித்தார். தற்போது பேச்சுவார்த்தையில் உள்ள வர்த்தக ஒப்பந்தங்கள் குறித்து சாத்தியக்கூறு ஆய்வுகளை மேற்கொள்வதற்கும், பேச்சுவார்த்தைகள் முன்னேறுவதை உறுதி செய்வதற்கான நடவடிக்கைகளை எடுப்பதற்கும் உள்ள அவசியத்தை குழு வலியுறுத்தியது."
-   ],
-   "ai_model": "mymemory",
-   "ai_at": "2026-11-21T20:55:05.129581+00:00"
   }
  ]
 }
